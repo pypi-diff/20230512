@@ -1062,3 +1062,36 @@
 [2023-05-12 01:18:02] INFO root fetch - main [MainThread]: End processing [fastremap]: success
 [2023-05-12 01:18:02] INFO root fetch - main [MainThread]: End processing [mojo-interop]: success
 [2023-05-12 01:18:02] INFO root fetch - main [MainThread]: Store serial: [18071012]
+[2023-05-12 01:23:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18071012]
+[2023-05-12 01:23:12] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-12 01:23:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: landingai
+[2023-05-12 01:23:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: empirical-attainment-func
+[2023-05-12 01:23:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sysidentpy
+[2023-05-12 01:23:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cloudsnorkel.cdk-github-runners
+[2023-05-12 01:23:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: metallurgy
+[2023-05-12 01:23:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: returnn
+[2023-05-12 01:23:12] INFO root fetch - processPackages [empirical-attainment-func]: New version: [0.4.0] Old Version: [0.3.7]
+[2023-05-12 01:23:12] WARNING root fetch - processPackages [landingai]: Skipping, unable to determine old version
+[2023-05-12 01:23:12] INFO root fetch - processPackages [sysidentpy]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-12 01:23:12] INFO root fetch - main [MainThread]: End processing [landingai] error
+[2023-05-12 01:23:12] INFO root fetch - processPackages [returnn]: New version: [1.20230511.233623] Old Version: [1.20230511.225350]
+[2023-05-12 01:23:12] INFO root fetch - processPackages [empirical-attainment-func]: executing diffoscope
+[2023-05-12 01:23:12] INFO root fetch - processPackages [empirical-attainment-func]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/empirical_attainment_func-0.3.7-py3-none-any.whl.zip tmp/empirical_attainment_func-0.4.0-py3-none-any.whl.zip --markdown 20230512/e/empirical-attainment-func/0.3.7-0.4.0/diff.md --exclude *.pyd
+[2023-05-12 01:23:12] INFO root fetch - processPackages [metallurgy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 01:23:12] INFO root fetch - processPackages [cloudsnorkel.cdk-github-runners]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-05-12 01:23:12] INFO root fetch - processPackages [returnn]: executing diffoscope
+[2023-05-12 01:23:12] INFO root fetch - processPackages [returnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/returnn-1.20230511.225350.tar.gz tmp/returnn-1.20230511.233623.tar.gz --markdown 20230512/r/returnn/1.20230511.225350-1.20230511.233623/diff.md --exclude *.pyd
+[2023-05-12 01:23:12] INFO root fetch - processPackages [sysidentpy]: Downloading https://files.pythonhosted.org/packages/9a/3e/448a7a9759c1a8e7449bde8fcb1c4ea7c23b07bd1eb60c56ee7c7d27bd92/sysidentpy-0.2.0.tar.gz
+[2023-05-12 01:23:12] INFO root fetch - processPackages [metallurgy]: Downloading https://files.pythonhosted.org/packages/f0/d2/ae6fe788585f386b15156f3fc1363d9f35a57551cd420d8cdbbfecbcfab6/metallurgy-0.0.8.tar.gz
+[2023-05-12 01:23:12] WARNING root fetch - processPackages [sysidentpy]: Skipping package: exceeds size limit 43006263>=10485760
+[2023-05-12 01:23:12] INFO root fetch - main [MainThread]: End processing [sysidentpy] error
+[2023-05-12 01:23:12] INFO root fetch - processPackages [cloudsnorkel.cdk-github-runners]: executing diffoscope
+[2023-05-12 01:23:12] INFO root fetch - processPackages [cloudsnorkel.cdk-github-runners]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudsnorkel.cdk-github-runners-0.9.7.tar.gz tmp/cloudsnorkel.cdk-github-runners-0.9.8.tar.gz --markdown 20230512/c/cloudsnorkel.cdk-github-runners/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-05-12 01:23:13] INFO root fetch - processPackages [metallurgy]: Downloading https://files.pythonhosted.org/packages/1a/19/5624e7c004647a08ce78043b2cac8fb796f46c493783319f1701ccf94128/metallurgy-0.0.9.tar.gz
+[2023-05-12 01:23:13] INFO root fetch - processPackages [metallurgy]: executing diffoscope
+[2023-05-12 01:23:13] INFO root fetch - processPackages [metallurgy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metallurgy-0.0.8.tar.gz tmp/metallurgy-0.0.9.tar.gz --markdown 20230512/m/metallurgy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 01:23:13] INFO root fetch - main [MainThread]: End processing [empirical-attainment-func]: success
+[2023-05-12 01:23:14] INFO root fetch - main [MainThread]: End processing [metallurgy]: success
+[2023-05-12 01:23:14] INFO root fetch - main [MainThread]: End processing [cloudsnorkel.cdk-github-runners]: success
+[2023-05-12 01:23:16] INFO root fetch - main [MainThread]: End processing [returnn]: success
+[2023-05-12 01:23:16] INFO root fetch - main [MainThread]: Store serial: [18071062]
