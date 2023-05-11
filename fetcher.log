@@ -621,3 +621,155 @@
 [2023-05-12 01:00:19] INFO root fetch - main [MainThread]: End processing [soda-core-trino]: success
 [2023-05-12 01:00:54] INFO root fetch - main [MainThread]: End processing [soda-core-vertica]: success
 [2023-05-12 01:00:54] INFO root fetch - main [MainThread]: Store serial: [18070698]
+[2023-05-12 01:05:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18070698]
+[2023-05-12 01:06:03] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-05-12 01:06:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hpverif
+[2023-05-12 01:06:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: validmind
+[2023-05-12 01:06:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: validmind
+[2023-05-12 01:06:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: py-to-proto
+[2023-05-12 01:06:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: validmind
+[2023-05-12 01:06:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: moto
+[2023-05-12 01:06:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: matplotlibs
+[2023-05-12 01:06:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pickley
+[2023-05-12 01:06:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyln-client
+[2023-05-12 01:06:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bigquery-ml-utils
+[2023-05-12 01:06:03] INFO root fetch - processPackages [hpverif]: New version: [2.6.1] Old Version: [2.5.4]
+[2023-05-12 01:06:03] INFO root fetch - processPackages [py-to-proto]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-05-12 01:06:03] WARNING root fetch - processPackages [matplotlibs]: Skipping, unable to determine old version
+[2023-05-12 01:06:03] INFO root fetch - processPackages [validmind]: New version: [1.4.3a0] Old Version: [1.4.2]
+[2023-05-12 01:06:03] INFO root fetch - processPackages [matplotlibs]: Start processing: label-studio-sdk
+[2023-05-12 01:06:03] INFO root fetch - main [MainThread]: End processing [matplotlibs] error
+[2023-05-12 01:06:03] INFO root fetch - processPackages [bigquery-ml-utils]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-12 01:06:03] INFO root fetch - processPackages [pyln-client]: New version: [23.5] Old Version: [23.2]
+[2023-05-12 01:06:03] INFO root fetch - processPackages [validmind]: New version: [1.4.3a0] Old Version: [1.4.2]
+[2023-05-12 01:06:03] INFO root fetch - processPackages [pickley]: New version: [3.4.5] Old Version: [3.4.3]
+[2023-05-12 01:06:03] INFO root fetch - processPackages [label-studio-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 01:06:03] INFO root fetch - processPackages [validmind]: New version: [1.7.0] Old Version: [1.4.3a0]
+[2023-05-12 01:06:03] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-05-12 01:06:03] INFO root fetch - processPackages [validmind]: Downloading https://files.pythonhosted.org/packages/57/19/d84869cd435c4fb062324618a83e9e0b18d4f0d080e68d94c796b5b8482b/validmind-1.4.2-py3-none-any.whl
+[2023-05-12 01:06:03] INFO root fetch - processPackages [py-to-proto]: Downloading https://files.pythonhosted.org/packages/f7/40/1e8d53006306ec4452a9a89fe913685639e25b52fba4d0663c1db78f092d/py_to_proto-0.1.2-py39-none-any.whl
+[2023-05-12 01:06:03] INFO root fetch - processPackages [pickley]: Downloading https://files.pythonhosted.org/packages/80/d8/4b5cca8d61bab024ef84a8e371c57aeb37d2ef8d739b27db6bec0789b8bc/pickley-3.4.3.tar.gz
+[2023-05-12 01:06:03] INFO root fetch - processPackages [validmind]: Downloading https://files.pythonhosted.org/packages/57/19/d84869cd435c4fb062324618a83e9e0b18d4f0d080e68d94c796b5b8482b/validmind-1.4.2-py3-none-any.whl
+[2023-05-12 01:06:04] INFO root fetch - processPackages [bigquery-ml-utils]: Downloading https://files.pythonhosted.org/packages/4a/57/6672a03abdd5473c48a109ecbb349d6ff204c77048dd58812a9699cf61ce/bigquery_ml_utils-0.1.8-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-12 01:06:04] INFO root fetch - processPackages [validmind]: Downloading https://files.pythonhosted.org/packages/ad/21/19d3559a08863086bfe76b61d7557044f0c15d1f5541380d140a14aef786/validmind-1.4.3a0-py3-none-any.whl
+[2023-05-12 01:06:04] INFO root fetch - processPackages [pyln-client]: Downloading https://files.pythonhosted.org/packages/e0/e9/6b63f4d25b789addbb69336fc32b9a73bc3119ae0e2cf19f80993eec4330/pyln_client-23.2.tar.gz
+[2023-05-12 01:06:04] INFO root fetch - processPackages [label-studio-sdk]: Downloading https://files.pythonhosted.org/packages/39/27/6f9018ef70e56dfa28103b5bd86e825b600aff3904d46f64159ace0ba437/label-studio-sdk-0.0.8.tar.gz
+[2023-05-12 01:06:04] INFO root fetch - processPackages [validmind]: Downloading https://files.pythonhosted.org/packages/ad/21/19d3559a08863086bfe76b61d7557044f0c15d1f5541380d140a14aef786/validmind-1.4.3a0-py3-none-any.whl
+[2023-05-12 01:06:04] INFO root fetch - processPackages [validmind]: Downloading https://files.pythonhosted.org/packages/ad/21/19d3559a08863086bfe76b61d7557044f0c15d1f5541380d140a14aef786/validmind-1.4.3a0-py3-none-any.whl
+[2023-05-12 01:06:04] INFO root fetch - processPackages [validmind]: executing diffoscope
+[2023-05-12 01:06:04] INFO root fetch - processPackages [validmind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/validmind-1.4.2-py3-none-any.whl.zip tmp/validmind-1.4.3a0-py3-none-any.whl.zip --markdown 20230512/v/validmind/1.4.2-1.4.3a0/diff.md --exclude *.pyd
+[2023-05-12 01:06:04] INFO root fetch - processPackages [py-to-proto]: Downloading https://files.pythonhosted.org/packages/ab/47/94f9c823b1b5b0cacffc33c7796aae69901cb40e383266b72f8a45e87a6c/py_to_proto-0.2.0-py39-none-any.whl
+[2023-05-12 01:06:04] INFO root fetch - processPackages [hpverif]: Downloading https://files.pythonhosted.org/packages/1f/35/dcfb19441afbab3f3631155202b53dcb8987b66e0abad862681151ffccf0/hpverif-2.6.1-py3-none-any.whl
+[2023-05-12 01:06:04] INFO root fetch - processPackages [validmind]: executing diffoscope
+[2023-05-12 01:06:04] INFO root fetch - processPackages [validmind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/validmind-1.4.2-py3-none-any.whl.zip tmp/validmind-1.4.3a0-py3-none-any.whl.zip --markdown 20230512/v/validmind/1.4.2-1.4.3a0/diff.md --exclude *.pyd
+[2023-05-12 01:06:04] INFO root fetch - processPackages [py-to-proto]: executing diffoscope
+[2023-05-12 01:06:04] INFO root fetch - processPackages [py-to-proto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_to_proto-0.1.2-py39-none-any.whl.zip tmp/py_to_proto-0.2.0-py39-none-any.whl.zip --markdown 20230512/p/py-to-proto/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-05-12 01:06:04] INFO root fetch - processPackages [hpverif]: executing diffoscope
+[2023-05-12 01:06:04] INFO root fetch - processPackages [hpverif]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hpverif-2.5.4-py3-none-any.whl.zip tmp/hpverif-2.6.1-py3-none-any.whl.zip --markdown 20230512/h/hpverif/2.5.4-2.6.1/diff.md --exclude *.pyd
+[2023-05-12 01:06:04] INFO root fetch - processPackages [pickley]: Downloading https://files.pythonhosted.org/packages/6d/a0/3b713f3ac4b773d8e03b002182b3e1200423284d4ee81e7cd5a1bd86a5e3/pickley-3.4.5.tar.gz
+[2023-05-12 01:06:04] INFO root fetch - processPackages [bigquery-ml-utils]: Downloading https://files.pythonhosted.org/packages/46/f2/c7a4f468909e98a985a731527e97c1fd4ba29f8c8859d2a55a3a5ee70d12/bigquery_ml_utils-0.1.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-12 01:06:04] INFO root fetch - processPackages [validmind]: Downloading https://files.pythonhosted.org/packages/db/e1/28c8cf0dd2e016782fbeed24816153483dd30f001f0208d7dbc82107130b/validmind-1.7.0.tar.gz
+[2023-05-12 01:06:04] INFO root fetch - processPackages [pickley]: executing diffoscope
+[2023-05-12 01:06:04] INFO root fetch - processPackages [pickley]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pickley-3.4.3.tar.gz tmp/pickley-3.4.5.tar.gz --markdown 20230512/p/pickley/3.4.3-3.4.5/diff.md --exclude *.pyd
+[2023-05-12 01:06:04] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-05-12 01:06:04] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230512/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-05-12 01:06:04] INFO root fetch - processPackages [pyln-client]: Downloading https://files.pythonhosted.org/packages/d0/6e/77c77a348a4805e6c6ea1c1fa5d49e3bb7222a529f8d6439f36ce1c9c0fc/pyln-client-23.5.tar.gz
+[2023-05-12 01:06:04] INFO root fetch - processPackages [bigquery-ml-utils]: executing diffoscope
+[2023-05-12 01:06:04] INFO root fetch - processPackages [bigquery-ml-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigquery_ml_utils-0.1.8-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/bigquery_ml_utils-0.1.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230512/b/bigquery-ml-utils/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-12 01:06:04] INFO root fetch - processPackages [label-studio-sdk]: Downloading https://files.pythonhosted.org/packages/73/63/826dbc4e9c1fc72a4249a511a420bdf0e88bdb5b89b275594649dfbca553/label-studio-sdk-0.0.9.tar.gz
+[2023-05-12 01:06:04] INFO root fetch - processPackages [pyln-client]: executing diffoscope
+[2023-05-12 01:06:04] INFO root fetch - processPackages [pyln-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyln_client-23.2.tar.gz tmp/pyln-client-23.5.tar.gz --markdown 20230512/p/pyln-client/23.2-23.5/diff.md --exclude *.pyd
+[2023-05-12 01:06:04] INFO root fetch - processPackages [label-studio-sdk]: executing diffoscope
+[2023-05-12 01:06:04] INFO root fetch - processPackages [label-studio-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/label-studio-sdk-0.0.8.tar.gz tmp/label-studio-sdk-0.0.9.tar.gz --markdown 20230512/l/label-studio-sdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 01:06:04] INFO root fetch - processPackages [validmind]: executing diffoscope
+[2023-05-12 01:06:04] INFO root fetch - processPackages [validmind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/validmind-1.4.3a0-py3-none-any.whl.zip tmp/validmind-1.7.0.tar.gz --markdown 20230512/v/validmind/1.4.3a0-1.7.0/diff.md --exclude *.pyd
+[2023-05-12 01:06:05] INFO root fetch - processPackages [validmind]: Start processing: tmnt-cu101
+[2023-05-12 01:06:05] INFO root fetch - main [MainThread]: End processing [validmind]: success
+[2023-05-12 01:06:05] INFO root fetch - processPackages [tmnt-cu101]: New version: [0.7.0b20230511] Old Version: [0.7.0b20230509]
+[2023-05-12 01:06:05] INFO root fetch - processPackages [py-to-proto]: Start processing: pyln-proto
+[2023-05-12 01:06:05] INFO root fetch - main [MainThread]: End processing [py-to-proto]: success
+[2023-05-12 01:06:06] INFO root fetch - processPackages [pyln-proto]: New version: [23.5] Old Version: [23.2]
+[2023-05-12 01:06:06] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/1c/03/ddc1d58f0030cd21e1f3d433c7e93c919f1f2a372d30ce16c7ce073195ec/tmnt-cu101-0.7.0b20230509.tar.gz
+[2023-05-12 01:06:06] INFO root fetch - processPackages [hpverif]: Start processing: pyrgo
+[2023-05-12 01:06:06] INFO root fetch - main [MainThread]: End processing [hpverif]: success
+[2023-05-12 01:06:06] WARNING root fetch - processPackages [pyrgo]: Skipping, unable to determine old version
+[2023-05-12 01:06:06] INFO root fetch - processPackages [pyrgo]: Start processing: iso3166-updates
+[2023-05-12 01:06:06] INFO root fetch - main [MainThread]: End processing [pyrgo] error
+[2023-05-12 01:06:06] INFO root fetch - processPackages [pyln-proto]: Downloading https://files.pythonhosted.org/packages/dc/9b/115d3eefb6fd959dc3f5fb74f80db43d5921f5ad145abdb17b9347d2ec93/pyln_proto-23.2.tar.gz
+[2023-05-12 01:06:06] INFO root fetch - processPackages [iso3166-updates]: New version: [1.0.1] Old Version: [0.0.7]
+[2023-05-12 01:06:06] INFO root fetch - processPackages [validmind]: Start processing: dbt-ai
+[2023-05-12 01:06:06] INFO root fetch - main [MainThread]: End processing [validmind]: success
+[2023-05-12 01:06:06] INFO root fetch - processPackages [dbt-ai]: New version: [0.2.4] Old Version: [0.2.2]
+[2023-05-12 01:06:06] INFO root fetch - processPackages [dbt-ai]: Downloading https://files.pythonhosted.org/packages/cc/26/99712052e563570c2da0bd14732f0f3b5a97e39864c1aa11a362988d43e9/dbt-ai-0.2.2.tar.gz
+[2023-05-12 01:06:06] INFO root fetch - processPackages [iso3166-updates]: Downloading https://files.pythonhosted.org/packages/78/45/924a592f23551863e0a93ca4e28099e27a3f1b388352d22b90f9ec7f3bb6/iso3166-updates-0.0.7.tar.gz
+[2023-05-12 01:06:06] INFO root fetch - processPackages [bigquery-ml-utils]: Start processing: wiliot-api
+[2023-05-12 01:06:06] INFO root fetch - main [MainThread]: End processing [bigquery-ml-utils]: success
+[2023-05-12 01:06:06] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/c6/b3/7df2a93924dd396833a1d55d1ed4ce717bc65d63eab1e98b571ff4b1e577/tmnt-cu101-0.7.0b20230511.tar.gz
+[2023-05-12 01:06:06] INFO root fetch - processPackages [wiliot-api]: New version: [4.1.2] Old Version: [4.1.1]
+[2023-05-12 01:06:06] INFO root fetch - processPackages [pyln-proto]: Downloading https://files.pythonhosted.org/packages/8a/6b/4dc8fe5ef9c5d76e64963b91b50d9a50e24361ca0769ca8a0d04525abe33/pyln-proto-23.5.tar.gz
+[2023-05-12 01:06:06] INFO root fetch - processPackages [pyln-proto]: executing diffoscope
+[2023-05-12 01:06:06] INFO root fetch - processPackages [pyln-proto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyln_proto-23.2.tar.gz tmp/pyln-proto-23.5.tar.gz --markdown 20230512/p/pyln-proto/23.2-23.5/diff.md --exclude *.pyd
+[2023-05-12 01:06:06] INFO root fetch - processPackages [pickley]: Start processing: tmnt
+[2023-05-12 01:06:06] INFO root fetch - main [MainThread]: End processing [pickley]: success
+[2023-05-12 01:06:06] INFO root fetch - processPackages [tmnt-cu101]: executing diffoscope
+[2023-05-12 01:06:06] INFO root fetch - processPackages [tmnt-cu101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-cu101-0.7.0b20230509.tar.gz tmp/tmnt-cu101-0.7.0b20230511.tar.gz --markdown 20230512/t/tmnt-cu101/0.7.0b20230509-0.7.0b20230511/diff.md --exclude *.pyd
+[2023-05-12 01:06:06] INFO root fetch - processPackages [tmnt]: New version: [0.7.0b20230511] Old Version: [0.7.0b20230510]
+[2023-05-12 01:06:06] INFO root fetch - processPackages [dbt-ai]: Downloading https://files.pythonhosted.org/packages/21/34/1704fc4cf3024918623aaaf189511b88ddd0b67b7b1fe11ac6e27803dcf9/dbt-ai-0.2.4.tar.gz
+[2023-05-12 01:06:06] INFO root fetch - processPackages [iso3166-updates]: Downloading https://files.pythonhosted.org/packages/a4/22/6015edf3f22e5856dc8483cebb6a45eb08f7e64bc3147c3cc37f04958d79/iso3166-updates-1.0.1.tar.gz
+[2023-05-12 01:06:06] INFO root fetch - processPackages [dbt-ai]: executing diffoscope
+[2023-05-12 01:06:06] INFO root fetch - processPackages [dbt-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-ai-0.2.2.tar.gz tmp/dbt-ai-0.2.4.tar.gz --markdown 20230512/d/dbt-ai/0.2.2-0.2.4/diff.md --exclude *.pyd
+[2023-05-12 01:06:06] INFO root fetch - processPackages [iso3166-updates]: executing diffoscope
+[2023-05-12 01:06:06] INFO root fetch - processPackages [iso3166-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iso3166-updates-0.0.7.tar.gz tmp/iso3166-updates-1.0.1.tar.gz --markdown 20230512/i/iso3166-updates/0.0.7-1.0.1/diff.md --exclude *.pyd
+[2023-05-12 01:06:06] INFO root fetch - processPackages [wiliot-api]: Downloading https://files.pythonhosted.org/packages/a5/5e/79f0f1c1a20bae7bffb48aed38eaa414f2f233f83ce454d54a2df882d32c/wiliot-api-4.1.2.tar.gz
+[2023-05-12 01:06:06] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/fd/cf/47ef83fff33d7563b5def74f3fcfe6f3e49d6d1455ffaaca62db1852e120/tmnt-0.7.0b20230511.tar.gz
+[2023-05-12 01:06:06] INFO root fetch - processPackages [wiliot-api]: executing diffoscope
+[2023-05-12 01:06:06] INFO root fetch - processPackages [wiliot-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wiliot-api-4.1.1.tar.gz tmp/wiliot-api-4.1.2.tar.gz --markdown 20230512/w/wiliot-api/4.1.1-4.1.2/diff.md --exclude *.pyd
+[2023-05-12 01:06:07] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2023-05-12 01:06:07] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.0b20230510.tar.gz tmp/tmnt-0.7.0b20230511.tar.gz --markdown 20230512/t/tmnt/0.7.0b20230510-0.7.0b20230511/diff.md --exclude *.pyd
+[2023-05-12 01:06:07] INFO root fetch - processPackages [label-studio-sdk]: Start processing: flwr-nightly
+[2023-05-12 01:06:07] INFO root fetch - main [MainThread]: End processing [label-studio-sdk]: success
+[2023-05-12 01:06:07] INFO root fetch - processPackages [pyln-client]: Start processing: neon-skill-date-time
+[2023-05-12 01:06:07] INFO root fetch - main [MainThread]: End processing [pyln-client]: success
+[2023-05-12 01:06:07] INFO root fetch - processPackages [flwr-nightly]: New version: [1.5.0.dev20230511] Old Version: [1.5.0.dev20230510]
+[2023-05-12 01:06:07] INFO root fetch - processPackages [neon-skill-date-time]: New version: [0.3.1a1] Old Version: [0.3.0]
+[2023-05-12 01:06:07] INFO root fetch - processPackages [validmind]: Start processing: geojson-pydantic
+[2023-05-12 01:06:07] INFO root fetch - main [MainThread]: End processing [validmind]: success
+[2023-05-12 01:06:07] INFO root fetch - processPackages [geojson-pydantic]: New version: [0.6.1] Old Version: [0.6.0a0]
+[2023-05-12 01:06:07] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/b7/ac/f8795f79c69d73d64f32901a0c1ef9dcfbba8e2f653c80bd557a7dd1a50a/flwr_nightly-1.5.0.dev20230511.tar.gz
+[2023-05-12 01:06:07] INFO root fetch - processPackages [neon-skill-date-time]: Downloading https://files.pythonhosted.org/packages/76/5b/2feda32400636161a8d1631c8581b58950da550494c666a3c8d2b8186ce4/neon_skill_date_time-0.3.0-py3-none-any.whl
+[2023-05-12 01:06:07] INFO root fetch - processPackages [flwr-nightly]: executing diffoscope
+[2023-05-12 01:06:07] INFO root fetch - processPackages [flwr-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flwr_nightly-1.5.0.dev20230510.tar.gz tmp/flwr_nightly-1.5.0.dev20230511.tar.gz --markdown 20230512/f/flwr-nightly/1.5.0.dev20230510-1.5.0.dev20230511/diff.md --exclude *.pyd
+[2023-05-12 01:06:07] INFO root fetch - processPackages [neon-skill-date-time]: Downloading https://files.pythonhosted.org/packages/76/37/3566a6ea15a4c9a7812f9dfd6e9189baee4ae945bbdfce3b624ca82edd5a/neon_skill_date_time-0.3.1a1-py3-none-any.whl
+[2023-05-12 01:06:07] INFO root fetch - processPackages [geojson-pydantic]: Downloading https://files.pythonhosted.org/packages/13/0b/6accf5d3d4dc6358f3cf7414b22966677fd074acf12b5612f6e4c44d397d/geojson-pydantic-0.6.1.tar.gz
+[2023-05-12 01:06:07] INFO root fetch - processPackages [geojson-pydantic]: executing diffoscope
+[2023-05-12 01:06:07] INFO root fetch - processPackages [geojson-pydantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geojson-pydantic-0.6.0a0.tar.gz tmp/geojson-pydantic-0.6.1.tar.gz --markdown 20230512/g/geojson-pydantic/0.6.0a0-0.6.1/diff.md --exclude *.pyd
+[2023-05-12 01:06:07] INFO root fetch - processPackages [pyln-proto]: Start processing: NbRisk
+[2023-05-12 01:06:07] INFO root fetch - main [MainThread]: End processing [pyln-proto]: success
+[2023-05-12 01:06:07] INFO root fetch - processPackages [neon-skill-date-time]: executing diffoscope
+[2023-05-12 01:06:07] INFO root fetch - processPackages [neon-skill-date-time]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_skill_date_time-0.3.0-py3-none-any.whl.zip tmp/neon_skill_date_time-0.3.1a1-py3-none-any.whl.zip --markdown 20230512/n/neon-skill-date-time/0.3.0-0.3.1a1/diff.md --exclude *.pyd
+[2023-05-12 01:06:07] INFO root fetch - processPackages [NbRisk]: New version: [35.0.1] Old Version: [35.0.0]
+[2023-05-12 01:06:08] INFO root fetch - processPackages [NbRisk]: Downloading https://files.pythonhosted.org/packages/89/d5/2b987c8511adc7d4de2ecef164e9cba3363139f0126122bb6b7b8f8b6fb1/NbRisk-35.0.1.tar.gz
+[2023-05-12 01:06:08] INFO root fetch - processPackages [NbRisk]: executing diffoscope
+[2023-05-12 01:06:08] INFO root fetch - processPackages [NbRisk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NbRisk-35.0.0.tar.gz tmp/NbRisk-35.0.1.tar.gz --markdown 20230512/N/NbRisk/35.0.0-35.0.1/diff.md --exclude *.pyd
+[2023-05-12 01:06:08] INFO root fetch - processPackages [tmnt-cu101]: Start processing: validmind
+[2023-05-12 01:06:08] INFO root fetch - main [MainThread]: End processing [tmnt-cu101]: success
+[2023-05-12 01:06:08] INFO root fetch - processPackages [validmind]: New version: [1.7.0] Old Version: [1.4.3a0]
+[2023-05-12 01:06:08] INFO root fetch - processPackages [dbt-ai]: Start processing: Pulse3D
+[2023-05-12 01:06:08] INFO root fetch - main [MainThread]: End processing [dbt-ai]: success
+[2023-05-12 01:06:08] INFO root fetch - processPackages [validmind]: executing diffoscope
+[2023-05-12 01:06:08] INFO root fetch - processPackages [validmind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/validmind-1.4.3a0-py3-none-any.whl.zip tmp/validmind-1.7.0.tar.gz --markdown 20230512/v/validmind/1.4.3a0-1.7.0/diff.md --exclude *.pyd
+[2023-05-12 01:06:08] INFO root fetch - processPackages [Pulse3D]: New version: [0.33.4] Old Version: [0.33.3]
+[2023-05-12 01:06:08] INFO root fetch - main [MainThread]: End processing [wiliot-api]: success
+[2023-05-12 01:06:09] INFO root fetch - main [MainThread]: End processing [iso3166-updates]: success
+[2023-05-12 01:06:09] INFO root fetch - processPackages [Pulse3D]: Downloading https://files.pythonhosted.org/packages/b9/9f/01d058e00a881f8c9a13f7ab84a2ec2899f00448ea62aa3406f15c5afbbd/Pulse3D-0.33.4.tar.gz
+[2023-05-12 01:06:09] INFO root fetch - main [MainThread]: End processing [geojson-pydantic]: success
+[2023-05-12 01:06:09] INFO root fetch - processPackages [Pulse3D]: executing diffoscope
+[2023-05-12 01:06:09] INFO root fetch - processPackages [Pulse3D]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pulse3D-0.33.3.tar.gz tmp/Pulse3D-0.33.4.tar.gz --markdown 20230512/P/Pulse3D/0.33.3-0.33.4/diff.md --exclude *.pyd
+[2023-05-12 01:06:10] INFO root fetch - main [MainThread]: End processing [NbRisk]: success
+[2023-05-12 01:06:10] INFO root fetch - main [MainThread]: End processing [neon-skill-date-time]: success
+[2023-05-12 01:06:10] INFO root fetch - main [MainThread]: End processing [Pulse3D]: success
+[2023-05-12 01:06:10] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2023-05-12 01:06:10] INFO root fetch - main [MainThread]: End processing [validmind]: success
+[2023-05-12 01:06:11] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
+[2023-05-12 01:06:38] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-05-12 01:06:38] INFO root fetch - main [MainThread]: Store serial: [18070843]
