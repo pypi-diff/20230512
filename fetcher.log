@@ -426,3 +426,18 @@
 [2023-05-12 00:34:22] INFO root fetch - main [MainThread]: End processing [keypoint-moseq]: success
 [2023-05-12 00:34:22] INFO root fetch - main [MainThread]: End processing [keras-nlp]: success
 [2023-05-12 00:34:22] INFO root fetch - main [MainThread]: Store serial: [18070502]
+[2023-05-12 00:39:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18070502]
+[2023-05-12 00:39:31] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-05-12 00:39:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-purchase-order-line-price-history
+[2023-05-12 00:39:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: matplotlips
+[2023-05-12 00:39:31] INFO root fetch - processPackages [matplotlips]: New version: [0.6.9.9] Old Version: [0.6.9]
+[2023-05-12 00:39:31] INFO root fetch - processPackages [odoo14-addon-purchase-order-line-price-history]: New version: [14.0.1.1.0] Old Version: [14.0.1.0.1.dev8]
+[2023-05-12 00:39:31] INFO root fetch - processPackages [matplotlips]: executing diffoscope
+[2023-05-12 00:39:31] INFO root fetch - processPackages [matplotlips]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matplotlips-0.6.9.tar.gz tmp/matplotlips-0.6.9.9.tar.gz --markdown 20230512/m/matplotlips/0.6.9-0.6.9.9/diff.md --exclude *.pyd
+[2023-05-12 00:39:32] INFO root fetch - processPackages [odoo14-addon-purchase-order-line-price-history]: Downloading https://files.pythonhosted.org/packages/a9/37/e2eb6af90698b4c010caffcef167474b15bcabbfb03d3ccc4487339ab58c/odoo14_addon_purchase_order_line_price_history-14.0.1.0.1.dev8-py3-none-any.whl
+[2023-05-12 00:39:32] INFO root fetch - processPackages [odoo14-addon-purchase-order-line-price-history]: Downloading https://files.pythonhosted.org/packages/e0/72/bfbaec280e208faeff18c02656bdff2db54e669ff0b2aca06ffdc8010868/odoo14_addon_purchase_order_line_price_history-14.0.1.1.0-py3-none-any.whl
+[2023-05-12 00:39:32] INFO root fetch - processPackages [odoo14-addon-purchase-order-line-price-history]: executing diffoscope
+[2023-05-12 00:39:32] INFO root fetch - processPackages [odoo14-addon-purchase-order-line-price-history]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_purchase_order_line_price_history-14.0.1.0.1.dev8-py3-none-any.whl.zip tmp/odoo14_addon_purchase_order_line_price_history-14.0.1.1.0-py3-none-any.whl.zip --markdown 20230512/o/odoo14-addon-purchase-order-line-price-history/14.0.1.0.1.dev8-14.0.1.1.0/diff.md --exclude *.pyd
+[2023-05-12 00:39:32] INFO root fetch - main [MainThread]: End processing [matplotlips]: success
+[2023-05-12 00:39:33] INFO root fetch - main [MainThread]: End processing [odoo14-addon-purchase-order-line-price-history]: success
+[2023-05-12 00:39:33] INFO root fetch - main [MainThread]: Store serial: [18070513]
