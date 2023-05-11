@@ -1264,3 +1264,22 @@
 [2023-05-12 01:50:07] INFO root fetch - main [MainThread]: End processing [capitalpayments]: success
 [2023-05-12 01:50:41] INFO root fetch - main [MainThread]: End processing [languagemodels]: success
 [2023-05-12 01:50:41] INFO root fetch - main [MainThread]: Store serial: [18071198]
+[2023-05-12 01:55:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18071198]
+[2023-05-12 01:55:50] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-05-12 01:55:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oking
+[2023-05-12 01:55:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aind-data-schema
+[2023-05-12 01:55:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sliderule
+[2023-05-12 01:55:50] INFO root fetch - processPackages [sliderule]: New version: [3.3.0] Old Version: [3.2.0]
+[2023-05-12 01:55:50] INFO root fetch - processPackages [aind-data-schema]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-05-12 01:55:50] INFO root fetch - processPackages [oking]: New version: [4.1.89] Old Version: [4.1.88]
+[2023-05-12 01:55:50] INFO root fetch - processPackages [aind-data-schema]: executing diffoscope
+[2023-05-12 01:55:50] INFO root fetch - processPackages [aind-data-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind-data-schema-0.9.5.tar.gz tmp/aind-data-schema-0.9.6.tar.gz --markdown 20230512/a/aind-data-schema/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-05-12 01:55:50] INFO root fetch - processPackages [oking]: Downloading https://files.pythonhosted.org/packages/ae/30/1e6fff9e86b5e80317cab043f7c3baac37c9a05e3747796a28bfbcd55e4d/oking-4.1.88.tar.gz
+[2023-05-12 01:55:51] WARNING root fetch - processPackages [oking]: Skipping package: exceeds size limit 82454860>=10485760
+[2023-05-12 01:55:51] INFO root fetch - main [MainThread]: End processing [oking] error
+[2023-05-12 01:55:51] INFO root fetch - processPackages [sliderule]: Downloading https://files.pythonhosted.org/packages/9c/e2/7c905115676abed9d16fab90f56b2a378f6282f8c189290e9ffd97b5a611/sliderule-3.3.0.tar.gz
+[2023-05-12 01:55:51] INFO root fetch - processPackages [sliderule]: executing diffoscope
+[2023-05-12 01:55:51] INFO root fetch - processPackages [sliderule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sliderule-3.2.0.tar.gz tmp/sliderule-3.3.0.tar.gz --markdown 20230512/s/sliderule/3.2.0-3.3.0/diff.md --exclude *.pyd
+[2023-05-12 01:55:52] INFO root fetch - main [MainThread]: End processing [aind-data-schema]: success
+[2023-05-12 01:55:52] INFO root fetch - main [MainThread]: End processing [sliderule]: success
+[2023-05-12 01:55:52] INFO root fetch - main [MainThread]: Store serial: [18071225]
