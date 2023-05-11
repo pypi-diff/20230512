@@ -1222,3 +1222,45 @@
 [2023-05-12 01:44:51] INFO root fetch - main [MainThread]: End processing [dataquality]: success
 [2023-05-12 01:44:57] INFO root fetch - main [MainThread]: End processing [CmonCrawl]: success
 [2023-05-12 01:44:57] INFO root fetch - main [MainThread]: Store serial: [18071173]
+[2023-05-12 01:50:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18071173]
+[2023-05-12 01:50:05] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-12 01:50:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: RWDIAQ
+[2023-05-12 01:50:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: languagemodels
+[2023-05-12 01:50:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pop-ml
+[2023-05-12 01:50:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: capitalpayments
+[2023-05-12 01:50:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rwdiaq
+[2023-05-12 01:50:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openmldb
+[2023-05-12 01:50:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: samna
+[2023-05-12 01:50:05] INFO root fetch - processPackages [pop-ml]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-12 01:50:06] INFO root fetch - processPackages [languagemodels]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-12 01:50:06] INFO root fetch - processPackages [capitalpayments]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-12 01:50:06] INFO root fetch - processPackages [RWDIAQ]: New version: [1.3] Old Version: [1.2]
+[2023-05-12 01:50:06] INFO root fetch - processPackages [rwdiaq]: New version: [1.3] Old Version: [1.2]
+[2023-05-12 01:50:06] INFO root fetch - processPackages [samna]: New version: [0.9.39.0] Old Version: [0.9.38.0]
+[2023-05-12 01:50:06] INFO root fetch - processPackages [openmldb]: New version: [0.8.0] Old Version: [0.7.3]
+[2023-05-12 01:50:06] INFO root fetch - processPackages [samna]: executing diffoscope
+[2023-05-12 01:50:06] INFO root fetch - processPackages [samna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/samna-0.9.38.0-py3-none-any.whl.zip tmp/samna-0.9.39.0-py3-none-any.whl.zip --markdown 20230512/s/samna/0.9.38.0-0.9.39.0/diff.md --exclude *.pyd
+[2023-05-12 01:50:06] ERROR root fetch - processPackages [RWDIAQ]: Unable to fetch info: No such project/version 'RWDIAQ' 1.2
+[2023-05-12 01:50:06] ERROR root fetch - processPackages [rwdiaq]: Unable to fetch info: No such project/version 'rwdiaq' 1.2
+[2023-05-12 01:50:06] INFO root fetch - main [MainThread]: End processing [RWDIAQ] error
+[2023-05-12 01:50:06] INFO root fetch - main [MainThread]: End processing [rwdiaq] error
+[2023-05-12 01:50:06] INFO root fetch - processPackages [pop-ml]: Downloading https://files.pythonhosted.org/packages/c6/ad/8b9f3e9118fa97e9ffc3fd4f568853e8c538ffd34f5a60f838a1e92d3e53/pop-ml-0.1.0.tar.gz
+[2023-05-12 01:50:06] INFO root fetch - processPackages [languagemodels]: Downloading https://files.pythonhosted.org/packages/68/30/99014e5213685c2d4c90a0738b76a0918a7fdc69de123d70f3fbb78eaf08/languagemodels-0.0.1.tar.gz
+[2023-05-12 01:50:06] INFO root fetch - processPackages [capitalpayments]: Downloading https://files.pythonhosted.org/packages/4d/e1/d6b56ec3501974868880574f98ebc2ec0918efaf98c11c9fe068b9f017f1/capitalpayments-0.0.3-py3-none-any.whl
+[2023-05-12 01:50:06] INFO root fetch - processPackages [openmldb]: Downloading https://files.pythonhosted.org/packages/9f/ce/68e705ea0204008c79b404d6eaf93f3083e7d8bf0a6927c0dea88198df97/openmldb-0.7.3-py3-none-manylinux1_x86_64.whl
+[2023-05-12 01:50:06] WARNING root fetch - processPackages [openmldb]: Skipping package: exceeds size limit 25217583>=10485760
+[2023-05-12 01:50:06] INFO root fetch - main [MainThread]: End processing [openmldb] error
+[2023-05-12 01:50:06] INFO root fetch - processPackages [pop-ml]: Downloading https://files.pythonhosted.org/packages/d4/61/82e30f44312c6ceb4f0d9f9d8857544e6e03ddd550067643c5ce5dace1e1/pop-ml-0.1.1.tar.gz
+[2023-05-12 01:50:06] INFO root fetch - processPackages [capitalpayments]: Downloading https://files.pythonhosted.org/packages/de/1b/75871d248ef5696781883f7be4047ba0bb54bdae8e57d7e9bd398987cfe6/capitalpayments-0.0.4.tar.gz
+[2023-05-12 01:50:06] INFO root fetch - processPackages [languagemodels]: Downloading https://files.pythonhosted.org/packages/85/bc/2dcd526705434df080e75b07a965468d0b7bdf20147baa34fdbf15b0816c/languagemodels-0.0.2.tar.gz
+[2023-05-12 01:50:06] INFO root fetch - processPackages [pop-ml]: executing diffoscope
+[2023-05-12 01:50:06] INFO root fetch - processPackages [pop-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pop-ml-0.1.0.tar.gz tmp/pop-ml-0.1.1.tar.gz --markdown 20230512/p/pop-ml/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-12 01:50:06] INFO root fetch - processPackages [capitalpayments]: executing diffoscope
+[2023-05-12 01:50:06] INFO root fetch - processPackages [capitalpayments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capitalpayments-0.0.3-py3-none-any.whl.zip tmp/capitalpayments-0.0.4.tar.gz --markdown 20230512/c/capitalpayments/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-12 01:50:06] INFO root fetch - processPackages [languagemodels]: executing diffoscope
+[2023-05-12 01:50:06] INFO root fetch - processPackages [languagemodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/languagemodels-0.0.1.tar.gz tmp/languagemodels-0.0.2.tar.gz --markdown 20230512/l/languagemodels/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-12 01:50:07] INFO root fetch - main [MainThread]: End processing [samna]: success
+[2023-05-12 01:50:07] INFO root fetch - main [MainThread]: End processing [pop-ml]: success
+[2023-05-12 01:50:07] INFO root fetch - main [MainThread]: End processing [capitalpayments]: success
+[2023-05-12 01:50:41] INFO root fetch - main [MainThread]: End processing [languagemodels]: success
+[2023-05-12 01:50:41] INFO root fetch - main [MainThread]: Store serial: [18071198]
