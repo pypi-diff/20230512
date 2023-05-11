@@ -460,3 +460,11 @@
 [2023-05-12 00:44:44] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
 [2023-05-12 00:44:44] INFO root fetch - main [MainThread]: End processing [opower]: success
 [2023-05-12 00:44:44] INFO root fetch - main [MainThread]: Store serial: [18070551]
+[2023-05-12 00:49:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18070551]
+[2023-05-12 00:49:53] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-05-12 00:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: manim-course-utils
+[2023-05-12 00:49:53] INFO root fetch - processPackages [manim-course-utils]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-12 00:49:53] INFO root fetch - processPackages [manim-course-utils]: executing diffoscope
+[2023-05-12 00:49:53] INFO root fetch - processPackages [manim-course-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manim_course_utils-0.2.0.tar.gz tmp/manim_course_utils-0.3.0.tar.gz --markdown 20230512/m/manim-course-utils/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-12 00:49:54] INFO root fetch - main [MainThread]: End processing [manim-course-utils]: success
+[2023-05-12 00:49:54] INFO root fetch - main [MainThread]: Store serial: [18070579]
