@@ -358,3 +358,35 @@
 [2023-05-12 00:18:55] INFO root fetch - main [MainThread]: End processing [SeanFunctions]: success
 [2023-05-12 00:18:55] INFO root fetch - main [MainThread]: End processing [WinTraceroute]: success
 [2023-05-12 00:18:55] INFO root fetch - main [MainThread]: Store serial: [18070404]
+[2023-05-12 00:23:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18070404]
+[2023-05-12 00:24:03] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-12 00:24:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: soda-core-spark
+[2023-05-12 00:24:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: honeybee-radiance-postprocess
+[2023-05-12 00:24:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cellmaps-imagedownloader
+[2023-05-12 00:24:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ecopipeline
+[2023-05-12 00:24:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: padacioso
+[2023-05-12 00:24:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: soda-core-scientific
+[2023-05-12 00:24:04] INFO root fetch - processPackages [ecopipeline]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 00:24:04] INFO root fetch - processPackages [honeybee-radiance-postprocess]: New version: [0.4.99] Old Version: [0.4.98]
+[2023-05-12 00:24:04] WARNING root fetch - processPackages [cellmaps-imagedownloader]: Skipping, unable to determine old version
+[2023-05-12 00:24:04] INFO root fetch - main [MainThread]: End processing [cellmaps-imagedownloader] error
+[2023-05-12 00:24:04] INFO root fetch - processPackages [soda-core-scientific]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-05-12 00:24:04] INFO root fetch - processPackages [padacioso]: New version: [0.2.1a2] Old Version: [0.2.1a1]
+[2023-05-12 00:24:04] INFO root fetch - processPackages [ecopipeline]: executing diffoscope
+[2023-05-12 00:24:04] INFO root fetch - processPackages [ecopipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecopipeline-0.0.8.tar.gz tmp/ecopipeline-0.0.9.tar.gz --markdown 20230512/e/ecopipeline/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 00:24:04] INFO root fetch - processPackages [soda-core-spark]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-05-12 00:24:04] INFO root fetch - processPackages [padacioso]: Downloading https://files.pythonhosted.org/packages/2a/ae/4b3358a8179221cd9f08638f4e2c29bbf37982d347249dece06973f99af5/padacioso-0.2.1a2-py3-none-any.whl
+[2023-05-12 00:24:04] INFO root fetch - processPackages [soda-core-scientific]: executing diffoscope
+[2023-05-12 00:24:04] INFO root fetch - processPackages [soda-core-scientific]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soda-core-scientific-3.0.8.tar.gz tmp/soda-core-scientific-3.0.9.tar.gz --markdown 20230512/s/soda-core-scientific/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-05-12 00:24:04] INFO root fetch - processPackages [honeybee-radiance-postprocess]: executing diffoscope
+[2023-05-12 00:24:04] INFO root fetch - processPackages [honeybee-radiance-postprocess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-radiance-postprocess-0.4.98.tar.gz tmp/honeybee-radiance-postprocess-0.4.99.tar.gz --markdown 20230512/h/honeybee-radiance-postprocess/0.4.98-0.4.99/diff.md --exclude *.pyd
+[2023-05-12 00:24:04] INFO root fetch - processPackages [padacioso]: executing diffoscope
+[2023-05-12 00:24:04] INFO root fetch - processPackages [padacioso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/padacioso-0.2.1a1.tar.gz tmp/padacioso-0.2.1a2-py3-none-any.whl.zip --markdown 20230512/p/padacioso/0.2.1a1-0.2.1a2/diff.md --exclude *.pyd
+[2023-05-12 00:24:04] INFO root fetch - processPackages [soda-core-spark]: executing diffoscope
+[2023-05-12 00:24:04] INFO root fetch - processPackages [soda-core-spark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soda-core-spark-3.0.8.tar.gz tmp/soda-core-spark-3.0.9.tar.gz --markdown 20230512/s/soda-core-spark/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-05-12 00:24:05] INFO root fetch - main [MainThread]: End processing [ecopipeline]: success
+[2023-05-12 00:24:05] INFO root fetch - main [MainThread]: End processing [soda-core-scientific]: success
+[2023-05-12 00:24:05] INFO root fetch - main [MainThread]: End processing [padacioso]: success
+[2023-05-12 00:24:06] INFO root fetch - main [MainThread]: End processing [honeybee-radiance-postprocess]: success
+[2023-05-12 00:24:06] INFO root fetch - main [MainThread]: End processing [soda-core-spark]: success
+[2023-05-12 00:24:06] INFO root fetch - main [MainThread]: Store serial: [18070442]
