@@ -1095,3 +1095,40 @@
 [2023-05-12 01:23:14] INFO root fetch - main [MainThread]: End processing [cloudsnorkel.cdk-github-runners]: success
 [2023-05-12 01:23:16] INFO root fetch - main [MainThread]: End processing [returnn]: success
 [2023-05-12 01:23:16] INFO root fetch - main [MainThread]: Store serial: [18071062]
+[2023-05-12 01:28:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18071062]
+[2023-05-12 01:28:25] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-12 01:28:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eeeCalc
+[2023-05-12 01:28:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: general-superstaq
+[2023-05-12 01:28:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qiskit-superstaq
+[2023-05-12 01:28:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cirq-superstaq
+[2023-05-12 01:28:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: SupermarQ
+[2023-05-12 01:28:25] INFO root fetch - processPackages [eeeCalc]: New version: [0.1.0] Old Version: [0.0.91]
+[2023-05-12 01:28:25] INFO root fetch - processPackages [SupermarQ]: New version: [0.3.27] Old Version: [0.3.26]
+[2023-05-12 01:28:25] INFO root fetch - processPackages [qiskit-superstaq]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-12 01:28:25] INFO root fetch - processPackages [cirq-superstaq]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-12 01:28:25] INFO root fetch - processPackages [general-superstaq]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-12 01:28:25] INFO root fetch - processPackages [eeeCalc]: Downloading https://files.pythonhosted.org/packages/db/78/fb023193e8ea9c2eb23ca09a1c1f72ced2a2c965dfdb5a250e2056031179/eeecalc-0.1.0.tar.gz
+[2023-05-12 01:28:25] INFO root fetch - processPackages [eeeCalc]: executing diffoscope
+[2023-05-12 01:28:25] INFO root fetch - processPackages [eeeCalc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eeecalc-0.0.91.tar.gz tmp/eeecalc-0.1.0.tar.gz --markdown 20230512/e/eeeCalc/0.0.91-0.1.0/diff.md --exclude *.pyd
+[2023-05-12 01:28:25] INFO root fetch - processPackages [SupermarQ]: Downloading https://files.pythonhosted.org/packages/d6/4f/2d7cf02c5deaff4e6972316b93d3d004cc0295a2c5970eadad3dfddd058b/SupermarQ-0.3.26-py3-none-any.whl
+[2023-05-12 01:28:25] INFO root fetch - processPackages [cirq-superstaq]: Downloading https://files.pythonhosted.org/packages/24/23/2e53aa7d71a86e1b918795598b7e648a3c8b392493d0399d085b8a34a69f/cirq_superstaq-0.3.8-py3-none-any.whl
+[2023-05-12 01:28:25] INFO root fetch - processPackages [general-superstaq]: Downloading https://files.pythonhosted.org/packages/87/05/cd59ba3d55d20ac1221d7dbd1216dc5e2bfecd1d1bbdafcc4e49114575ae/general_superstaq-0.3.8-py3-none-any.whl
+[2023-05-12 01:28:25] INFO root fetch - processPackages [qiskit-superstaq]: Downloading https://files.pythonhosted.org/packages/33/d9/9afdc846fffea309c28e8f6c909c0db105ac4da2afb792672fef85880186/qiskit_superstaq-0.3.8-py3-none-any.whl
+[2023-05-12 01:28:25] INFO root fetch - processPackages [SupermarQ]: Downloading https://files.pythonhosted.org/packages/c0/d9/f188d3e5d38efc1df2606cd1abee7d1017f4aca1ca167ca6d748451eca7c/SupermarQ-0.3.27-py3-none-any.whl
+[2023-05-12 01:28:25] INFO root fetch - processPackages [SupermarQ]: executing diffoscope
+[2023-05-12 01:28:25] INFO root fetch - processPackages [SupermarQ]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SupermarQ-0.3.26-py3-none-any.whl.zip tmp/SupermarQ-0.3.27-py3-none-any.whl.zip --markdown 20230512/S/SupermarQ/0.3.26-0.3.27/diff.md --exclude *.pyd
+[2023-05-12 01:28:25] INFO root fetch - processPackages [cirq-superstaq]: Downloading https://files.pythonhosted.org/packages/5f/d7/90cf6503b553892d091d3ad8ba050b2ec5744880829c43fa4090da82ce8b/cirq_superstaq-0.3.9-py3-none-any.whl
+[2023-05-12 01:28:25] INFO root fetch - processPackages [qiskit-superstaq]: Downloading https://files.pythonhosted.org/packages/06/a8/93bc82c36803b1fdfe08be69e96d149fb909954aab455e01b4163459073b/qiskit_superstaq-0.3.9-py3-none-any.whl
+[2023-05-12 01:28:25] INFO root fetch - processPackages [general-superstaq]: Downloading https://files.pythonhosted.org/packages/d3/61/5004f0f681b41698dc740d5c70e69d5eef3be2a6bb1c9b142d04914b67ff/general_superstaq-0.3.9-py3-none-any.whl
+[2023-05-12 01:28:26] INFO root fetch - processPackages [cirq-superstaq]: executing diffoscope
+[2023-05-12 01:28:26] INFO root fetch - processPackages [cirq-superstaq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_superstaq-0.3.8-py3-none-any.whl.zip tmp/cirq_superstaq-0.3.9-py3-none-any.whl.zip --markdown 20230512/c/cirq-superstaq/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-12 01:28:26] INFO root fetch - processPackages [qiskit-superstaq]: executing diffoscope
+[2023-05-12 01:28:26] INFO root fetch - processPackages [qiskit-superstaq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qiskit_superstaq-0.3.8-py3-none-any.whl.zip tmp/qiskit_superstaq-0.3.9-py3-none-any.whl.zip --markdown 20230512/q/qiskit-superstaq/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-12 01:28:26] INFO root fetch - processPackages [general-superstaq]: executing diffoscope
+[2023-05-12 01:28:26] INFO root fetch - processPackages [general-superstaq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/general_superstaq-0.3.8-py3-none-any.whl.zip tmp/general_superstaq-0.3.9-py3-none-any.whl.zip --markdown 20230512/g/general-superstaq/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-12 01:28:26] INFO root fetch - main [MainThread]: End processing [eeeCalc]: success
+[2023-05-12 01:28:27] INFO root fetch - main [MainThread]: End processing [SupermarQ]: success
+[2023-05-12 01:28:27] INFO root fetch - main [MainThread]: End processing [cirq-superstaq]: success
+[2023-05-12 01:28:27] INFO root fetch - main [MainThread]: End processing [general-superstaq]: success
+[2023-05-12 01:28:27] INFO root fetch - main [MainThread]: End processing [qiskit-superstaq]: success
+[2023-05-12 01:28:27] INFO root fetch - main [MainThread]: Store serial: [18071076]
