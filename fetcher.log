@@ -1169,3 +1169,22 @@
 [2023-05-12 01:33:38] INFO root fetch - main [MainThread]: End processing [django-magic-notifier]: success
 [2023-05-12 01:33:41] INFO root fetch - main [MainThread]: End processing [mosaicml-cli]: success
 [2023-05-12 01:33:41] INFO root fetch - main [MainThread]: Store serial: [18071095]
+[2023-05-12 01:38:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18071095]
+[2023-05-12 01:38:49] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-05-12 01:38:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aind-data-schema
+[2023-05-12 01:38:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flet
+[2023-05-12 01:38:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: patas
+[2023-05-12 01:38:49] INFO root fetch - processPackages [aind-data-schema]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-05-12 01:38:49] INFO root fetch - processPackages [patas]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-05-12 01:38:49] INFO root fetch - processPackages [flet]: New version: [0.7.0.dev1399] Old Version: [0.7.0.dev1398]
+[2023-05-12 01:38:49] INFO root fetch - processPackages [flet]: executing diffoscope
+[2023-05-12 01:38:49] INFO root fetch - processPackages [flet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet-0.7.0.dev1398.tar.gz tmp/flet-0.7.0.dev1399.tar.gz --markdown 20230512/f/flet/0.7.0.dev1398-0.7.0.dev1399/diff.md --exclude *.pyd
+[2023-05-12 01:38:49] INFO root fetch - processPackages [patas]: Downloading https://files.pythonhosted.org/packages/d8/17/86de64ededde0e41686028d6b5bfdec6f3745c6aaeb5785c93a706e7457f/patas-2.0.3-py3-none-any.whl
+[2023-05-12 01:38:49] INFO root fetch - processPackages [aind-data-schema]: executing diffoscope
+[2023-05-12 01:38:49] INFO root fetch - processPackages [aind-data-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind-data-schema-0.9.5.tar.gz tmp/aind-data-schema-0.9.6.tar.gz --markdown 20230512/a/aind-data-schema/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-05-12 01:38:49] INFO root fetch - processPackages [patas]: executing diffoscope
+[2023-05-12 01:38:49] INFO root fetch - processPackages [patas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/patas-2.0.2.tar.gz tmp/patas-2.0.3-py3-none-any.whl.zip --markdown 20230512/p/patas/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-05-12 01:38:50] INFO root fetch - main [MainThread]: End processing [patas]: success
+[2023-05-12 01:38:51] INFO root fetch - main [MainThread]: End processing [aind-data-schema]: success
+[2023-05-12 01:39:39] INFO root fetch - main [MainThread]: End processing [flet]: success
+[2023-05-12 01:39:39] INFO root fetch - main [MainThread]: Store serial: [18071134]
