@@ -468,3 +468,24 @@
 [2023-05-12 00:49:53] INFO root fetch - processPackages [manim-course-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manim_course_utils-0.2.0.tar.gz tmp/manim_course_utils-0.3.0.tar.gz --markdown 20230512/m/manim-course-utils/0.2.0-0.3.0/diff.md --exclude *.pyd
 [2023-05-12 00:49:54] INFO root fetch - main [MainThread]: End processing [manim-course-utils]: success
 [2023-05-12 00:49:54] INFO root fetch - main [MainThread]: Store serial: [18070579]
+[2023-05-12 00:54:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18070579]
+[2023-05-12 00:55:03] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-05-12 00:55:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: megatron-core
+[2023-05-12 00:55:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lockss-soap
+[2023-05-12 00:55:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ecopipeline
+[2023-05-12 00:55:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mktrader
+[2023-05-12 00:55:03] INFO root fetch - processPackages [ecopipeline]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 00:55:03] WARNING root fetch - processPackages [mktrader]: Skipping, unable to determine old version
+[2023-05-12 00:55:03] INFO root fetch - main [MainThread]: End processing [mktrader] error
+[2023-05-12 00:55:03] WARNING root fetch - processPackages [megatron-core]: Skipping, unable to determine old version
+[2023-05-12 00:55:03] INFO root fetch - main [MainThread]: End processing [megatron-core] error
+[2023-05-12 00:55:03] INFO root fetch - processPackages [lockss-soap]: New version: [0.8.0.dev3] Old Version: [0.8.0.dev2]
+[2023-05-12 00:55:03] INFO root fetch - processPackages [lockss-soap]: Downloading https://files.pythonhosted.org/packages/ca/39/5e7124a5eae5e10bf23f097dc2b66c4bdfa7e9480527020deca724950161/lockss_soap-0.8.0.dev2.tar.gz
+[2023-05-12 00:55:03] INFO root fetch - processPackages [ecopipeline]: executing diffoscope
+[2023-05-12 00:55:03] INFO root fetch - processPackages [ecopipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecopipeline-0.0.8.tar.gz tmp/ecopipeline-0.0.9.tar.gz --markdown 20230512/e/ecopipeline/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 00:55:04] INFO root fetch - processPackages [lockss-soap]: Downloading https://files.pythonhosted.org/packages/66/56/84d4f5a19113549ad7afd692b7ed6b1b5ace06382a08485b9f2186efaa4a/lockss_soap-0.8.0.dev3-py3-none-any.whl
+[2023-05-12 00:55:04] INFO root fetch - processPackages [lockss-soap]: executing diffoscope
+[2023-05-12 00:55:04] INFO root fetch - processPackages [lockss-soap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lockss_soap-0.8.0.dev2.tar.gz tmp/lockss_soap-0.8.0.dev3-py3-none-any.whl.zip --markdown 20230512/l/lockss-soap/0.8.0.dev2-0.8.0.dev3/diff.md --exclude *.pyd
+[2023-05-12 00:55:05] INFO root fetch - main [MainThread]: End processing [ecopipeline]: success
+[2023-05-12 00:55:05] INFO root fetch - main [MainThread]: End processing [lockss-soap]: success
+[2023-05-12 00:55:05] INFO root fetch - main [MainThread]: Store serial: [18070623]
