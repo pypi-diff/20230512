@@ -181,3 +181,142 @@
 [2023-05-12 00:07:24] INFO root fetch - main [MainThread]: End processing [ink-extensions]: success
 [2023-05-12 00:07:25] INFO root fetch - main [MainThread]: End processing [ygt]: success
 [2023-05-12 00:07:25] INFO root fetch - main [MainThread]: Store serial: [18070227]
+[2023-05-12 00:12:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18070227]
+[2023-05-12 00:12:34] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-05-12 00:12:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ramodels
+[2023-05-12 00:12:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: configparserc
+[2023-05-12 00:12:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cellmaps-utils
+[2023-05-12 00:12:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: latch
+[2023-05-12 00:12:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: CxAdmin
+[2023-05-12 00:12:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cyaxares
+[2023-05-12 00:12:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fabrictestbed-extensions
+[2023-05-12 00:12:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ddtrace
+[2023-05-12 00:12:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: honeybee-radiance
+[2023-05-12 00:12:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pepperize.cdk-serverless-cluster-from-snapshot
+[2023-05-12 00:12:34] INFO root fetch - processPackages [cyaxares]: New version: [0.2] Old Version: [0.1]
+[2023-05-12 00:12:34] INFO root fetch - processPackages [configparserc]: New version: [1.4.0] Old Version: [1.3.4]
+[2023-05-12 00:12:34] INFO root fetch - processPackages [fabrictestbed-extensions]: New version: [1.4.4rc1] Old Version: [1.4.4rc0]
+[2023-05-12 00:12:34] INFO root fetch - processPackages [latch]: New version: [2.9.6] Old Version: [2.9.5]
+[2023-05-12 00:12:34] INFO root fetch - processPackages [cellmaps-utils]: New version: [0.1.0a7] Old Version: [0.1.0a6]
+[2023-05-12 00:12:34] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-05-12 00:12:34] INFO root fetch - processPackages [CxAdmin]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-12 00:12:34] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-12 00:12:34] INFO root fetch - processPackages [honeybee-radiance]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-05-12 00:12:35] INFO root fetch - processPackages [ddtrace]: New version: [1.9.6] Old Version: [1.9.5]
+[2023-05-12 00:12:35] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: executing diffoscope
+[2023-05-12 00:12:35] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz --markdown 20230512/p/pepperize.cdk-serverless-cluster-from-snapshot/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-12 00:12:35] INFO root fetch - processPackages [CxAdmin]: executing diffoscope
+[2023-05-12 00:12:35] INFO root fetch - processPackages [CxAdmin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CxAdmin-1.0.8.tar.gz tmp/CxAdmin-1.0.9.tar.gz --markdown 20230512/C/CxAdmin/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-12 00:12:35] INFO root fetch - processPackages [configparserc]: Downloading https://files.pythonhosted.org/packages/46/a5/b2dbafd08f79bc90659cb9c82c4d54d2893dea71f5a63ad8bacf1b841aa7/configparserc-1.3.4.tar.gz
+[2023-05-12 00:12:35] INFO root fetch - processPackages [fabrictestbed-extensions]: Downloading https://files.pythonhosted.org/packages/b0/f6/873dbb4eb18e608549a2f47a88bbc3abc037433e39cbf5e4d6fc5571480a/fabrictestbed-extensions-1.4.4rc1.tar.gz
+[2023-05-12 00:12:35] INFO root fetch - processPackages [cyaxares]: Downloading https://files.pythonhosted.org/packages/fa/b4/b097371ce703fb0ad8b6aa9f1d4010b4ff1133ae1dcbc7fae60ea305dc39/cyaxares-0.1.tar.gz
+[2023-05-12 00:12:35] INFO root fetch - processPackages [cellmaps-utils]: Downloading https://files.pythonhosted.org/packages/0a/55/1f7b3a92bde846f8df40c4542e821c256b497b0492129e43c128921f97e6/cellmaps_utils-0.1.0a7.tar.gz
+[2023-05-12 00:12:35] INFO root fetch - processPackages [fabrictestbed-extensions]: executing diffoscope
+[2023-05-12 00:12:35] INFO root fetch - processPackages [fabrictestbed-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabrictestbed-extensions-1.4.4rc0.tar.gz tmp/fabrictestbed-extensions-1.4.4rc1.tar.gz --markdown 20230512/f/fabrictestbed-extensions/1.4.4rc0-1.4.4rc1/diff.md --exclude *.pyd
+[2023-05-12 00:12:35] INFO root fetch - processPackages [latch]: executing diffoscope
+[2023-05-12 00:12:35] INFO root fetch - processPackages [latch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latch-2.9.5.tar.gz tmp/latch-2.9.6.tar.gz --markdown 20230512/l/latch/2.9.5-2.9.6/diff.md --exclude *.pyd
+[2023-05-12 00:12:35] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-05-12 00:12:35] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230512/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-05-12 00:12:35] INFO root fetch - processPackages [cellmaps-utils]: executing diffoscope
+[2023-05-12 00:12:35] INFO root fetch - processPackages [cellmaps-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellmaps_utils-0.1.0a6.tar.gz tmp/cellmaps_utils-0.1.0a7.tar.gz --markdown 20230512/c/cellmaps-utils/0.1.0a6-0.1.0a7/diff.md --exclude *.pyd
+[2023-05-12 00:12:35] WARNING root fetch - processPackages [cyaxares]: fallback to get urls: [0.2]
+[2023-05-12 00:12:35] INFO root fetch - processPackages [honeybee-radiance]: executing diffoscope
+[2023-05-12 00:12:35] INFO root fetch - processPackages [honeybee-radiance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-radiance-1.9.1.tar.gz tmp/honeybee-radiance-1.9.2.tar.gz --markdown 20230512/h/honeybee-radiance/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-05-12 00:12:35] WARNING root fetch - processPackages [cyaxares]: None
+[2023-05-12 00:12:35] INFO root fetch - processPackages [configparserc]: Downloading https://files.pythonhosted.org/packages/a8/91/4d979caddb66f2d0cbd24bb3034a472ea5d79e4bad5e7530de9ad71084c8/configparserc-1.4.0.tar.gz
+[2023-05-12 00:12:35] WARNING root fetch - processPackages [cyaxares]: None
+[2023-05-12 00:12:35] WARNING root fetch - processPackages [cyaxares]: unable to get url for both version [0.2]
+[2023-05-12 00:12:35] WARNING root fetch - processPackages [cyaxares]: None
+[2023-05-12 00:12:35] INFO root fetch - processPackages [cyaxares]: Start processing: honeybee-energy
+[2023-05-12 00:12:35] INFO root fetch - main [MainThread]: End processing [cyaxares] error
+[2023-05-12 00:12:35] INFO root fetch - processPackages [honeybee-energy]: New version: [1.99.9] Old Version: [1.99.8]
+[2023-05-12 00:12:35] INFO root fetch - processPackages [configparserc]: executing diffoscope
+[2023-05-12 00:12:35] INFO root fetch - processPackages [configparserc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/configparserc-1.3.4.tar.gz tmp/configparserc-1.4.0.tar.gz --markdown 20230512/c/configparserc/1.3.4-1.4.0/diff.md --exclude *.pyd
+[2023-05-12 00:12:35] INFO root fetch - processPackages [ddtrace]: executing diffoscope
+[2023-05-12 00:12:35] INFO root fetch - processPackages [ddtrace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddtrace-1.9.5.tar.gz tmp/ddtrace-1.9.6.tar.gz --markdown 20230512/d/ddtrace/1.9.5-1.9.6/diff.md --exclude *.pyd
+[2023-05-12 00:12:35] INFO root fetch - processPackages [honeybee-energy]: executing diffoscope
+[2023-05-12 00:12:35] INFO root fetch - processPackages [honeybee-energy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-energy-1.99.8.tar.gz tmp/honeybee-energy-1.99.9.tar.gz --markdown 20230512/h/honeybee-energy/1.99.8-1.99.9/diff.md --exclude *.pyd
+[2023-05-12 00:12:36] INFO root fetch - processPackages [CxAdmin]: Start processing: dragonfly-core
+[2023-05-12 00:12:36] INFO root fetch - main [MainThread]: End processing [CxAdmin]: success
+[2023-05-12 00:12:36] INFO root fetch - processPackages [dragonfly-core]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-05-12 00:12:36] INFO root fetch - processPackages [dragonfly-core]: Downloading https://files.pythonhosted.org/packages/93/fd/7cad9d4c9406e421f7ce31b725936bb32ec8a421f9b143e829c33cae55dd/dragonfly-core-1.8.1.tar.gz
+[2023-05-12 00:12:37] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Start processing: soda-core-athena
+[2023-05-12 00:12:37] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-serverless-cluster-from-snapshot]: success
+[2023-05-12 00:12:37] INFO root fetch - processPackages [soda-core-athena]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-05-12 00:12:37] INFO root fetch - processPackages [dragonfly-core]: Downloading https://files.pythonhosted.org/packages/75/cb/4a1ce4726a070a188305b8d5343b4300bf24190845d85c8718cc31aa3e53/dragonfly-core-1.9.0.tar.gz
+[2023-05-12 00:12:37] INFO root fetch - processPackages [dragonfly-core]: executing diffoscope
+[2023-05-12 00:12:37] INFO root fetch - processPackages [dragonfly-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-core-1.8.1.tar.gz tmp/dragonfly-core-1.9.0.tar.gz --markdown 20230512/d/dragonfly-core/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-05-12 00:12:37] INFO root fetch - processPackages [cellmaps-utils]: Start processing: soda-core-bigquery
+[2023-05-12 00:12:37] INFO root fetch - main [MainThread]: End processing [cellmaps-utils]: success
+[2023-05-12 00:12:37] INFO root fetch - processPackages [soda-core-bigquery]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-05-12 00:12:37] INFO root fetch - processPackages [soda-core-athena]: executing diffoscope
+[2023-05-12 00:12:37] INFO root fetch - processPackages [soda-core-athena]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soda-core-athena-3.0.8.tar.gz tmp/soda-core-athena-3.0.9.tar.gz --markdown 20230512/s/soda-core-athena/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-05-12 00:12:37] INFO root fetch - processPackages [ramodels]: Start processing: soda-core
+[2023-05-12 00:12:37] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-05-12 00:12:37] INFO root fetch - processPackages [soda-core]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-05-12 00:12:38] INFO root fetch - processPackages [soda-core-bigquery]: executing diffoscope
+[2023-05-12 00:12:38] INFO root fetch - processPackages [soda-core-bigquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soda-core-bigquery-3.0.8.tar.gz tmp/soda-core-bigquery-3.0.9.tar.gz --markdown 20230512/s/soda-core-bigquery/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-05-12 00:12:38] INFO root fetch - processPackages [fabrictestbed-extensions]: Start processing: soda-core-pandas-dask
+[2023-05-12 00:12:38] INFO root fetch - main [MainThread]: End processing [fabrictestbed-extensions]: success
+[2023-05-12 00:12:38] INFO root fetch - processPackages [soda-core-pandas-dask]: New version: [3.0.35] Old Version: [3.0.34]
+[2023-05-12 00:12:38] INFO root fetch - processPackages [configparserc]: Start processing: soda-core-db2
+[2023-05-12 00:12:38] INFO root fetch - main [MainThread]: End processing [configparserc]: success
+[2023-05-12 00:12:38] INFO root fetch - processPackages [soda-core-db2]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-05-12 00:12:38] INFO root fetch - processPackages [soda-core]: executing diffoscope
+[2023-05-12 00:12:38] INFO root fetch - processPackages [soda-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soda-core-3.0.8.tar.gz tmp/soda-core-3.0.9.tar.gz --markdown 20230512/s/soda-core/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-05-12 00:12:38] INFO root fetch - processPackages [latch]: Start processing: soda-core-dbt
+[2023-05-12 00:12:38] INFO root fetch - main [MainThread]: End processing [latch]: success
+[2023-05-12 00:12:38] INFO root fetch - processPackages [soda-core-dbt]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-05-12 00:12:38] INFO root fetch - processPackages [soda-core-pandas-dask]: Downloading https://files.pythonhosted.org/packages/c3/0c/1c227e85aa2618da98d1ec05acb26a356976d26c20a52e263d549d459b4a/soda-core-pandas-dask-3.0.35.tar.gz
+[2023-05-12 00:12:38] INFO root fetch - processPackages [soda-core-pandas-dask]: executing diffoscope
+[2023-05-12 00:12:38] INFO root fetch - processPackages [soda-core-pandas-dask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soda-core-pandas-dask-3.0.34.tar.gz tmp/soda-core-pandas-dask-3.0.35.tar.gz --markdown 20230512/s/soda-core-pandas-dask/3.0.34-3.0.35/diff.md --exclude *.pyd
+[2023-05-12 00:12:38] INFO root fetch - processPackages [soda-core-db2]: executing diffoscope
+[2023-05-12 00:12:38] INFO root fetch - processPackages [soda-core-db2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soda-core-db2-3.0.8.tar.gz tmp/soda-core-db2-3.0.9.tar.gz --markdown 20230512/s/soda-core-db2/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-05-12 00:12:38] INFO root fetch - processPackages [honeybee-energy]: Start processing: soda-core-denodo
+[2023-05-12 00:12:38] INFO root fetch - main [MainThread]: End processing [honeybee-energy]: success
+[2023-05-12 00:12:38] INFO root fetch - processPackages [soda-core-denodo]: New version: [3.0.35] Old Version: [3.0.34]
+[2023-05-12 00:12:38] INFO root fetch - processPackages [soda-core-dbt]: executing diffoscope
+[2023-05-12 00:12:38] INFO root fetch - processPackages [soda-core-dbt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soda-core-dbt-3.0.8.tar.gz tmp/soda-core-dbt-3.0.9.tar.gz --markdown 20230512/s/soda-core-dbt/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-05-12 00:12:39] INFO root fetch - processPackages [honeybee-radiance]: Start processing: comet-ml
+[2023-05-12 00:12:39] INFO root fetch - main [MainThread]: End processing [honeybee-radiance]: success
+[2023-05-12 00:12:39] INFO root fetch - processPackages [comet-ml]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-05-12 00:12:39] INFO root fetch - processPackages [soda-core-denodo]: Downloading https://files.pythonhosted.org/packages/68/c4/40b7f524496113c63b4721ab4306fea96950f8b7e929a82c7a7f2726a506/soda-core-denodo-3.0.35.tar.gz
+[2023-05-12 00:12:39] INFO root fetch - processPackages [soda-core-denodo]: executing diffoscope
+[2023-05-12 00:12:39] INFO root fetch - processPackages [soda-core-denodo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soda-core-denodo-3.0.34.tar.gz tmp/soda-core-denodo-3.0.35.tar.gz --markdown 20230512/s/soda-core-denodo/3.0.34-3.0.35/diff.md --exclude *.pyd
+[2023-05-12 00:12:39] INFO root fetch - processPackages [comet-ml]: executing diffoscope
+[2023-05-12 00:12:39] INFO root fetch - processPackages [comet-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comet_ml-3.9.0.tar.gz tmp/comet_ml-3.9.1.tar.gz --markdown 20230512/c/comet-ml/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-05-12 00:12:39] INFO root fetch - processPackages [soda-core-athena]: Start processing: soda-core-dremio
+[2023-05-12 00:12:39] INFO root fetch - main [MainThread]: End processing [soda-core-athena]: success
+[2023-05-12 00:12:39] INFO root fetch - processPackages [soda-core-dremio]: New version: [3.0.35] Old Version: [3.0.34]
+[2023-05-12 00:12:39] INFO root fetch - processPackages [soda-core-bigquery]: Start processing: soda-core-duckdb
+[2023-05-12 00:12:39] INFO root fetch - main [MainThread]: End processing [soda-core-bigquery]: success
+[2023-05-12 00:12:39] INFO root fetch - processPackages [soda-core-duckdb]: New version: [3.0.35] Old Version: [3.0.34]
+[2023-05-12 00:12:39] INFO root fetch - processPackages [soda-core-dremio]: Downloading https://files.pythonhosted.org/packages/7e/0a/09787576230dbb48100ede092dc7e1c9889ed103b4d9422eb76e777c85ee/soda-core-dremio-3.0.35.tar.gz
+[2023-05-12 00:12:39] INFO root fetch - processPackages [soda-core-dremio]: executing diffoscope
+[2023-05-12 00:12:39] INFO root fetch - processPackages [soda-core-dremio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soda-core-dremio-3.0.34.tar.gz tmp/soda-core-dremio-3.0.35.tar.gz --markdown 20230512/s/soda-core-dremio/3.0.34-3.0.35/diff.md --exclude *.pyd
+[2023-05-12 00:12:39] INFO root fetch - processPackages [soda-core-duckdb]: Downloading https://files.pythonhosted.org/packages/50/b9/b1865c8b1c40751929bee4b6164f637709f7529ed94ecd72532f2ad30aca/soda-core-duckdb-3.0.35.tar.gz
+[2023-05-12 00:12:40] INFO root fetch - processPackages [soda-core-duckdb]: executing diffoscope
+[2023-05-12 00:12:40] INFO root fetch - processPackages [soda-core-duckdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soda-core-duckdb-3.0.34.tar.gz tmp/soda-core-duckdb-3.0.35.tar.gz --markdown 20230512/s/soda-core-duckdb/3.0.34-3.0.35/diff.md --exclude *.pyd
+[2023-05-12 00:12:40] INFO root fetch - processPackages [soda-core-pandas-dask]: Start processing: soda-core-mysql
+[2023-05-12 00:12:40] INFO root fetch - main [MainThread]: End processing [soda-core-pandas-dask]: success
+[2023-05-12 00:12:40] INFO root fetch - processPackages [soda-core-mysql]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-05-12 00:12:40] INFO root fetch - processPackages [soda-core-db2]: Start processing: lbt-ladybug
+[2023-05-12 00:12:40] INFO root fetch - main [MainThread]: End processing [soda-core-db2]: success
+[2023-05-12 00:12:40] INFO root fetch - processPackages [lbt-ladybug]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-05-12 00:12:40] INFO root fetch - main [MainThread]: End processing [soda-core-dbt]: success
+[2023-05-12 00:12:40] INFO root fetch - processPackages [lbt-ladybug]: Downloading https://files.pythonhosted.org/packages/e4/ac/474c600d6f495b8d63c49d7689b2b076f0c5f94c22728fe795233852a9e1/lbt-ladybug-0.8.1.tar.gz
+[2023-05-12 00:12:40] INFO root fetch - processPackages [soda-core-mysql]: executing diffoscope
+[2023-05-12 00:12:40] INFO root fetch - processPackages [soda-core-mysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soda-core-mysql-3.0.8.tar.gz tmp/soda-core-mysql-3.0.9.tar.gz --markdown 20230512/s/soda-core-mysql/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-05-12 00:12:40] INFO root fetch - main [MainThread]: End processing [soda-core-denodo]: success
+[2023-05-12 00:12:41] INFO root fetch - main [MainThread]: End processing [dragonfly-core]: success
+[2023-05-12 00:12:41] INFO root fetch - main [MainThread]: End processing [soda-core-dremio]: success
+[2023-05-12 00:12:41] INFO root fetch - processPackages [lbt-ladybug]: Downloading https://files.pythonhosted.org/packages/6e/e7/a4e6dcfc6b2750475acd6dee9e849a991053471ff22a90aa8f986eaef25b/lbt-ladybug-0.9.0.tar.gz
+[2023-05-12 00:12:41] INFO root fetch - main [MainThread]: End processing [soda-core-duckdb]: success
+[2023-05-12 00:12:41] INFO root fetch - processPackages [lbt-ladybug]: executing diffoscope
+[2023-05-12 00:12:41] INFO root fetch - processPackages [lbt-ladybug]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-ladybug-0.8.1.tar.gz tmp/lbt-ladybug-0.9.0.tar.gz --markdown 20230512/l/lbt-ladybug/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-05-12 00:12:42] INFO root fetch - main [MainThread]: End processing [soda-core-mysql]: success
+[2023-05-12 00:12:42] INFO root fetch - main [MainThread]: End processing [soda-core]: success
+[2023-05-12 00:12:43] INFO root fetch - main [MainThread]: End processing [lbt-ladybug]: success
+[2023-05-12 00:12:43] INFO root fetch - main [MainThread]: End processing [comet-ml]: success
+[2023-05-12 00:13:44] INFO root fetch - main [MainThread]: End processing [ddtrace]: success
+[2023-05-12 00:13:44] INFO root fetch - main [MainThread]: Store serial: [18070339]
