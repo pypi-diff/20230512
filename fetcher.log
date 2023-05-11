@@ -118,3 +118,66 @@
 [2023-05-12 00:01:54] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
 [2023-05-12 00:02:12] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
 [2023-05-12 00:02:12] INFO root fetch - main [MainThread]: Store serial: [18070139]
+[2023-05-12 00:07:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18070139]
+[2023-05-12 00:07:22] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-12 00:07:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-website-sale-product-item-cart-custom-qty
+[2023-05-12 00:07:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: daqpp
+[2023-05-12 00:07:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ink-extensions
+[2023-05-12 00:07:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: py-hot-reload
+[2023-05-12 00:07:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ygt
+[2023-05-12 00:07:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-event-registration-qr-code
+[2023-05-12 00:07:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-minio
+[2023-05-12 00:07:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: chalk-harness
+[2023-05-12 00:07:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gpjax
+[2023-05-12 00:07:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-website-sale-product-attribute-value-filter-existing
+[2023-05-12 00:07:22] WARNING root fetch - processPackages [daqpp]: Skipping, unable to determine old version
+[2023-05-12 00:07:22] INFO root fetch - processPackages [pulumi-minio]: New version: [0.9.1a1682440158] Old Version: [0.9.1a1681933919]
+[2023-05-12 00:07:22] INFO root fetch - processPackages [daqpp]: Start processing: garlandtools-async
+[2023-05-12 00:07:22] INFO root fetch - main [MainThread]: End processing [daqpp] error
+[2023-05-12 00:07:22] WARNING root fetch - processPackages [py-hot-reload]: Skipping, unable to determine old version
+[2023-05-12 00:07:22] INFO root fetch - processPackages [py-hot-reload]: Start processing: foundry-ml
+[2023-05-12 00:07:22] INFO root fetch - main [MainThread]: End processing [py-hot-reload] error
+[2023-05-12 00:07:22] INFO root fetch - processPackages [ygt]: New version: [0.2.0] Old Version: [0.1.6]
+[2023-05-12 00:07:22] INFO root fetch - processPackages [gpjax]: New version: [0.6] Old Version: [0.5.9]
+[2023-05-12 00:07:22] INFO root fetch - processPackages [chalk-harness]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-12 00:07:22] INFO root fetch - processPackages [pulumi-minio]: executing diffoscope
+[2023-05-12 00:07:22] INFO root fetch - processPackages [pulumi-minio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_minio-0.9.1a1681933919.tar.gz tmp/pulumi_minio-0.9.1a1682440158.tar.gz --markdown 20230512/p/pulumi-minio/0.9.1a1681933919-0.9.1a1682440158/diff.md --exclude *.pyd
+[2023-05-12 00:07:22] WARNING root fetch - processPackages [odoo14-addon-website-sale-product-item-cart-custom-qty]: Skipping, unable to determine old version
+[2023-05-12 00:07:22] INFO root fetch - main [MainThread]: End processing [odoo14-addon-website-sale-product-item-cart-custom-qty] error
+[2023-05-12 00:07:22] INFO root fetch - processPackages [chalk-harness]: executing diffoscope
+[2023-05-12 00:07:22] INFO root fetch - processPackages [chalk-harness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalk-harness-0.9.8.tar.gz tmp/chalk-harness-0.9.9.tar.gz --markdown 20230512/c/chalk-harness/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-12 00:07:22] WARNING root fetch - processPackages [odoo14-addon-event-registration-qr-code]: Skipping, unable to determine old version
+[2023-05-12 00:07:22] INFO root fetch - main [MainThread]: End processing [odoo14-addon-event-registration-qr-code] error
+[2023-05-12 00:07:22] INFO root fetch - processPackages [ygt]: executing diffoscope
+[2023-05-12 00:07:22] INFO root fetch - processPackages [ygt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ygt-0.1.6.tar.gz tmp/ygt-0.2.0.tar.gz --markdown 20230512/y/ygt/0.1.6-0.2.0/diff.md --exclude *.pyd
+[2023-05-12 00:07:22] INFO root fetch - processPackages [odoo-addon-website-sale-product-attribute-value-filter-existing]: New version: [16.0.1.0.1] Old Version: [16.0.1.0.0.2]
+[2023-05-12 00:07:22] INFO root fetch - processPackages [garlandtools-async]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-12 00:07:22] INFO root fetch - processPackages [ink-extensions]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-05-12 00:07:22] INFO root fetch - processPackages [foundry-ml]: New version: [0.6.2] Old Version: [0.6.0]
+[2023-05-12 00:07:22] INFO root fetch - processPackages [garlandtools-async]: Downloading https://files.pythonhosted.org/packages/95/5d/113dcfa517108ac8da888cefdc4c49114933dfd96883b0c3b5b8cf7184c4/garlandtools_async-0.1.0.tar.gz
+[2023-05-12 00:07:22] INFO root fetch - processPackages [odoo-addon-website-sale-product-attribute-value-filter-existing]: Downloading https://files.pythonhosted.org/packages/e8/34/e6ea673f43e36110b9cd2b406d68a087fe23af93640fc208633ff05179df/odoo_addon_website_sale_product_attribute_value_filter_existing-16.0.1.0.0.2-py3-none-any.whl
+[2023-05-12 00:07:22] INFO root fetch - processPackages [ink-extensions]: Downloading https://files.pythonhosted.org/packages/12/18/499769d8d1e793eadfcef90b5906c8c60a927ecc33b9f8cfaa8a12f3c518/ink_extensions-1.2.0.tar.gz
+[2023-05-12 00:07:22] INFO root fetch - processPackages [foundry-ml]: Downloading https://files.pythonhosted.org/packages/7c/07/afb679d3059629ccb9cbc697d27a8846ce85d36ca5f08022d37e7275b805/foundry_ml-0.6.0.tar.gz
+[2023-05-12 00:07:22] INFO root fetch - processPackages [gpjax]: executing diffoscope
+[2023-05-12 00:07:22] INFO root fetch - processPackages [gpjax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpjax-0.5.9.tar.gz tmp/gpjax-0.6.tar.gz --markdown 20230512/g/gpjax/0.5.9-0.6/diff.md --exclude *.pyd
+[2023-05-12 00:07:22] INFO root fetch - processPackages [garlandtools-async]: Downloading https://files.pythonhosted.org/packages/a8/f6/a3adef23522dd788fb70f9b7a485759e87a11f24013f207fa72158aae2c3/garlandtools_async-0.1.1.tar.gz
+[2023-05-12 00:07:22] INFO root fetch - processPackages [foundry-ml]: Downloading https://files.pythonhosted.org/packages/c1/dd/346a9de48961875f5d32ecf98dbf5c78044ffcf9fa027ed73413fff042bd/foundry_ml-0.6.2.tar.gz
+[2023-05-12 00:07:22] INFO root fetch - processPackages [ink-extensions]: Downloading https://files.pythonhosted.org/packages/c8/98/497ec77c5639026a867fa62d5ced0225b14baf6b07e00b0ac9aceaae71d0/ink_extensions-1.3.0.tar.gz
+[2023-05-12 00:07:22] INFO root fetch - processPackages [garlandtools-async]: executing diffoscope
+[2023-05-12 00:07:22] INFO root fetch - processPackages [garlandtools-async]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garlandtools_async-0.1.0.tar.gz tmp/garlandtools_async-0.1.1.tar.gz --markdown 20230512/g/garlandtools-async/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-12 00:07:22] INFO root fetch - processPackages [odoo-addon-website-sale-product-attribute-value-filter-existing]: Downloading https://files.pythonhosted.org/packages/c8/19/e6d44f74c102b35ba7873dc1da073a4c699aab62f4b51ca70f65b7179e95/odoo_addon_website_sale_product_attribute_value_filter_existing-16.0.1.0.1-py3-none-any.whl
+[2023-05-12 00:07:22] INFO root fetch - processPackages [foundry-ml]: executing diffoscope
+[2023-05-12 00:07:22] INFO root fetch - processPackages [foundry-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foundry_ml-0.6.0.tar.gz tmp/foundry_ml-0.6.2.tar.gz --markdown 20230512/f/foundry-ml/0.6.0-0.6.2/diff.md --exclude *.pyd
+[2023-05-12 00:07:22] INFO root fetch - processPackages [ink-extensions]: executing diffoscope
+[2023-05-12 00:07:22] INFO root fetch - processPackages [ink-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ink_extensions-1.2.0.tar.gz tmp/ink_extensions-1.3.0.tar.gz --markdown 20230512/i/ink-extensions/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-05-12 00:07:22] INFO root fetch - processPackages [odoo-addon-website-sale-product-attribute-value-filter-existing]: executing diffoscope
+[2023-05-12 00:07:22] INFO root fetch - processPackages [odoo-addon-website-sale-product-attribute-value-filter-existing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_website_sale_product_attribute_value_filter_existing-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_website_sale_product_attribute_value_filter_existing-16.0.1.0.1-py3-none-any.whl.zip --markdown 20230512/o/odoo-addon-website-sale-product-attribute-value-filter-existing/16.0.1.0.0.2-16.0.1.0.1/diff.md --exclude *.pyd
+[2023-05-12 00:07:23] INFO root fetch - main [MainThread]: End processing [chalk-harness]: success
+[2023-05-12 00:07:23] INFO root fetch - main [MainThread]: End processing [pulumi-minio]: success
+[2023-05-12 00:07:23] INFO root fetch - main [MainThread]: End processing [gpjax]: success
+[2023-05-12 00:07:24] INFO root fetch - main [MainThread]: End processing [garlandtools-async]: success
+[2023-05-12 00:07:24] INFO root fetch - main [MainThread]: End processing [foundry-ml]: success
+[2023-05-12 00:07:24] INFO root fetch - main [MainThread]: End processing [odoo-addon-website-sale-product-attribute-value-filter-existing]: success
+[2023-05-12 00:07:24] INFO root fetch - main [MainThread]: End processing [ink-extensions]: success
+[2023-05-12 00:07:25] INFO root fetch - main [MainThread]: End processing [ygt]: success
+[2023-05-12 00:07:25] INFO root fetch - main [MainThread]: Store serial: [18070227]
