@@ -441,3 +441,22 @@
 [2023-05-12 00:39:32] INFO root fetch - main [MainThread]: End processing [matplotlips]: success
 [2023-05-12 00:39:33] INFO root fetch - main [MainThread]: End processing [odoo14-addon-purchase-order-line-price-history]: success
 [2023-05-12 00:39:33] INFO root fetch - main [MainThread]: Store serial: [18070513]
+[2023-05-12 00:44:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18070513]
+[2023-05-12 00:44:42] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-05-12 00:44:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gpt-review
+[2023-05-12 00:44:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: opower
+[2023-05-12 00:44:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spotipy-pandas
+[2023-05-12 00:44:42] INFO root fetch - processPackages [gpt-review]: New version: [0.8.2rc667.post1] Old Version: [0.8.1rc645.post1]
+[2023-05-12 00:44:42] INFO root fetch - processPackages [opower]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-12 00:44:42] WARNING root fetch - processPackages [spotipy-pandas]: Skipping, unable to determine old version
+[2023-05-12 00:44:42] INFO root fetch - main [MainThread]: End processing [spotipy-pandas] error
+[2023-05-12 00:44:42] INFO root fetch - processPackages [opower]: Downloading https://files.pythonhosted.org/packages/14/0c/45bec4be4056d0439c24ccff7ac94e2896e40646582bed56542aeb02dd0b/opower-0.0.4.tar.gz
+[2023-05-12 00:44:43] INFO root fetch - processPackages [gpt-review]: Downloading https://files.pythonhosted.org/packages/6c/2e/5d1aff6030e59869a5685ac618361c489238034f4eb15be2e774a90ca629/gpt_review-0.8.2rc667.post1-py3-none-any.whl
+[2023-05-12 00:44:43] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-05-12 00:44:43] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-review-0.8.1rc645.post1.tar.gz tmp/gpt_review-0.8.2rc667.post1-py3-none-any.whl.zip --markdown 20230512/g/gpt-review/0.8.1rc645.post1-0.8.2rc667.post1/diff.md --exclude *.pyd
+[2023-05-12 00:44:43] INFO root fetch - processPackages [opower]: Downloading https://files.pythonhosted.org/packages/b2/03/387e318a95577a29b640362d7e3e7117ed078e40d9e87a65c74cd7aee59c/opower-0.0.5-py3-none-any.whl
+[2023-05-12 00:44:43] INFO root fetch - processPackages [opower]: executing diffoscope
+[2023-05-12 00:44:43] INFO root fetch - processPackages [opower]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opower-0.0.4.tar.gz tmp/opower-0.0.5-py3-none-any.whl.zip --markdown 20230512/o/opower/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-12 00:44:44] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-05-12 00:44:44] INFO root fetch - main [MainThread]: End processing [opower]: success
+[2023-05-12 00:44:44] INFO root fetch - main [MainThread]: Store serial: [18070551]
