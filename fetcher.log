@@ -773,3 +773,58 @@
 [2023-05-12 01:06:11] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
 [2023-05-12 01:06:38] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-05-12 01:06:38] INFO root fetch - main [MainThread]: Store serial: [18070843]
+[2023-05-12 01:11:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18070843]
+[2023-05-12 01:11:49] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-12 01:11:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: esphome
+[2023-05-12 01:11:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gdsfactory
+[2023-05-12 01:11:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mojo-xmodules
+[2023-05-12 01:11:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-05-12 01:11:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pysigma
+[2023-05-12 01:11:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: neon-skill-fallback-llm
+[2023-05-12 01:11:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: picopt
+[2023-05-12 01:11:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: stefutils
+[2023-05-12 01:11:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tastytrade-sdk
+[2023-05-12 01:11:49] INFO root fetch - processPackages [mojo-xmodules]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 01:11:49] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.317] Old Version: [0.3.316]
+[2023-05-12 01:11:49] INFO root fetch - processPackages [picopt]: New version: [3.3.4] Old Version: [3.3.3]
+[2023-05-12 01:11:49] INFO root fetch - processPackages [stefutils]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-05-12 01:11:49] INFO root fetch - processPackages [tastytrade-sdk]: New version: [0.0.dev1] Old Version: [0.0.4a0.dev79]
+[2023-05-12 01:11:49] INFO root fetch - processPackages [esphome]: New version: [2023.5.0b2] Old Version: [2023.5.0b1]
+[2023-05-12 01:11:49] INFO root fetch - processPackages [pysigma]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-12 01:11:49] INFO root fetch - processPackages [gdsfactory]: New version: [6.93.0] Old Version: [6.92.2]
+[2023-05-12 01:11:49] WARNING root fetch - processPackages [neon-skill-fallback-llm]: Skipping, unable to determine old version
+[2023-05-12 01:11:49] INFO root fetch - main [MainThread]: End processing [neon-skill-fallback-llm] error
+[2023-05-12 01:11:49] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/67/d5/18e9f54183f1b3693a96d291ca903d20df909824439d720ca59c9da581fa/pepperize.cdk-ses-smtp-credentials-0.3.317.tar.gz
+[2023-05-12 01:11:49] INFO root fetch - processPackages [pysigma]: Downloading https://files.pythonhosted.org/packages/13/9f/3e47b8bafe9f9f1ac348eb375abc3cb48231485e88682c0a7b64a12388b2/pysigma-0.9.8.tar.gz
+[2023-05-12 01:11:49] INFO root fetch - processPackages [stefutils]: Downloading https://files.pythonhosted.org/packages/35/8a/1e1d14788f07a9e2f1f826ff7ed0782d942b144ca6bdd3e7aba10d88d63c/stefutils-0.8.2.tar.gz
+[2023-05-12 01:11:49] INFO root fetch - processPackages [picopt]: Downloading https://files.pythonhosted.org/packages/6e/64/018b13894f51b410c9e19f7fa762fe4fef4589f28d81180ac74ffbc04801/picopt-3.3.3.tar.gz
+[2023-05-12 01:11:49] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-05-12 01:11:49] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.316.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.317.tar.gz --markdown 20230512/p/pepperize.cdk-ses-smtp-credentials/0.3.316-0.3.317/diff.md --exclude *.pyd
+[2023-05-12 01:11:49] INFO root fetch - processPackages [esphome]: Downloading https://files.pythonhosted.org/packages/a0/b0/90a7f50400e036f4e86500633cfa8d444ac7bdc558a3ccfa00b228c93dae/esphome-2023.5.0b2.tar.gz
+[2023-05-12 01:11:50] INFO root fetch - processPackages [gdsfactory]: Downloading https://files.pythonhosted.org/packages/06/b8/15433b4d742028d7886496f87342fe7f8dc07da3347bf8324100b5e571de/gdsfactory-6.93.0.tar.gz
+[2023-05-12 01:11:50] INFO root fetch - processPackages [pysigma]: Downloading https://files.pythonhosted.org/packages/8e/fa/8c4e57eb26fbd769f9195ad94a4b9bf648124b5a8918e82bbc5aead98940/pysigma-0.9.9.tar.gz
+[2023-05-12 01:11:50] INFO root fetch - processPackages [tastytrade-sdk]: executing diffoscope
+[2023-05-12 01:11:50] INFO root fetch - processPackages [tastytrade-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tastytrade_sdk-0.0.4a0.dev79.tar.gz tmp/tastytrade-sdk-0.0.dev1.tar.gz --markdown 20230512/t/tastytrade-sdk/0.0.4a0.dev79-0.0.dev1/diff.md --exclude *.pyd
+[2023-05-12 01:11:50] INFO root fetch - processPackages [picopt]: Downloading https://files.pythonhosted.org/packages/c9/df/b6bd0ef06b351b39518299e184ea1a24daad5d19d6164921f1ed85b63ded/picopt-3.3.4.tar.gz
+[2023-05-12 01:11:50] INFO root fetch - processPackages [mojo-xmodules]: executing diffoscope
+[2023-05-12 01:11:50] INFO root fetch - processPackages [mojo-xmodules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_xmodules-0.0.8.tar.gz tmp/mojo_xmodules-0.0.9.tar.gz --markdown 20230512/m/mojo-xmodules/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 01:11:50] INFO root fetch - processPackages [pysigma]: executing diffoscope
+[2023-05-12 01:11:50] INFO root fetch - processPackages [pysigma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysigma-0.9.8.tar.gz tmp/pysigma-0.9.9.tar.gz --markdown 20230512/p/pysigma/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-12 01:11:50] INFO root fetch - processPackages [stefutils]: Downloading https://files.pythonhosted.org/packages/97/83/18c4d714dca8e70776fec14f20e075956fd6a82321ac6df03f78534d47eb/stefutils-0.9.0.tar.gz
+[2023-05-12 01:11:50] INFO root fetch - processPackages [gdsfactory]: executing diffoscope
+[2023-05-12 01:11:50] INFO root fetch - processPackages [gdsfactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdsfactory-6.92.2.tar.gz tmp/gdsfactory-6.93.0.tar.gz --markdown 20230512/g/gdsfactory/6.92.2-6.93.0/diff.md --exclude *.pyd
+[2023-05-12 01:11:50] INFO root fetch - processPackages [picopt]: executing diffoscope
+[2023-05-12 01:11:50] INFO root fetch - processPackages [picopt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picopt-3.3.3.tar.gz tmp/picopt-3.3.4.tar.gz --markdown 20230512/p/picopt/3.3.3-3.3.4/diff.md --exclude *.pyd
+[2023-05-12 01:11:50] INFO root fetch - processPackages [esphome]: executing diffoscope
+[2023-05-12 01:11:50] INFO root fetch - processPackages [esphome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esphome-2023.5.0b1.tar.gz tmp/esphome-2023.5.0b2.tar.gz --markdown 20230512/e/esphome/2023.5.0b1-2023.5.0b2/diff.md --exclude *.pyd
+[2023-05-12 01:11:51] INFO root fetch - processPackages [stefutils]: executing diffoscope
+[2023-05-12 01:11:51] INFO root fetch - processPackages [stefutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stefutils-0.8.2.tar.gz tmp/stefutils-0.9.0.tar.gz --markdown 20230512/s/stefutils/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-05-12 01:11:51] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-05-12 01:11:51] INFO root fetch - main [MainThread]: End processing [tastytrade-sdk]: success
+[2023-05-12 01:11:51] INFO root fetch - main [MainThread]: End processing [pysigma]: success
+[2023-05-12 01:11:51] INFO root fetch - main [MainThread]: End processing [mojo-xmodules]: success
+[2023-05-12 01:11:52] INFO root fetch - main [MainThread]: End processing [picopt]: success
+[2023-05-12 01:11:52] INFO root fetch - main [MainThread]: End processing [stefutils]: success
+[2023-05-12 01:11:57] INFO root fetch - main [MainThread]: End processing [gdsfactory]: success
+[2023-05-12 01:12:39] INFO root fetch - main [MainThread]: End processing [esphome]: success
+[2023-05-12 01:12:39] INFO root fetch - main [MainThread]: Store serial: [18070880]
