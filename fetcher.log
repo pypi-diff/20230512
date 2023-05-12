@@ -11106,3 +11106,91 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-12 15:00:33] INFO root fetch - main [MainThread]: End processing [invenio-records-marc21]: success
 [2023-05-12 15:00:33] INFO root fetch - main [MainThread]: End processing [AdsorptionBreakthroughAnalysis]: success
 [2023-05-12 15:00:33] INFO root fetch - main [MainThread]: Store serial: [18078147]
+[2023-05-12 15:05:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18078147]
+[2023-05-12 15:05:44] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-12 15:05:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: HypeBankAPI
+[2023-05-12 15:05:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: AICreator
+[2023-05-12 15:05:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cognite-extractor-manager
+[2023-05-12 15:05:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: AICreator
+[2023-05-12 15:05:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fbgemm-gpu-nightly-cpu
+[2023-05-12 15:05:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: JBPhD
+[2023-05-12 15:05:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: html-msg
+[2023-05-12 15:05:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Geode-Simplex
+[2023-05-12 15:05:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ooo-dev-tools
+[2023-05-12 15:05:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pastastore
+[2023-05-12 15:05:44] INFO root fetch - processPackages [cognite-extractor-manager]: New version: [0.8.0] Old Version: [0.7.1]
+[2023-05-12 15:05:44] INFO root fetch - processPackages [AICreator]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-12 15:05:44] INFO root fetch - processPackages [AICreator]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-12 15:05:44] INFO root fetch - processPackages [JBPhD]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-05-12 15:05:44] INFO root fetch - processPackages [Geode-Simplex]: New version: [6.0.8] Old Version: [6.0.7]
+[2023-05-12 15:05:44] INFO root fetch - processPackages [AICreator]: executing diffoscope
+[2023-05-12 15:05:44] INFO root fetch - processPackages [AICreator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AICreator-0.1.8.tar.gz tmp/AICreator-0.1.9.tar.gz --markdown 20230512/A/AICreator/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-12 15:05:44] WARNING root fetch - processPackages [HypeBankAPI]: Skipping, unable to determine old version
+[2023-05-12 15:05:44] INFO root fetch - processPackages [HypeBankAPI]: Start processing: goblet-gcp-client
+[2023-05-12 15:05:44] INFO root fetch - main [MainThread]: End processing [HypeBankAPI] error
+[2023-05-12 15:05:44] INFO root fetch - processPackages [cognite-extractor-manager]: executing diffoscope
+[2023-05-12 15:05:44] INFO root fetch - processPackages [cognite-extractor-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_extractor_manager-0.7.1.tar.gz tmp/cognite_extractor_manager-0.8.0-py3-none-any.whl.zip --markdown 20230512/c/cognite-extractor-manager/0.7.1-0.8.0/diff.md --exclude *.pyd
+[2023-05-12 15:05:44] INFO root fetch - processPackages [html-msg]: New version: [1.1.0] Old Version: [1.0.7]
+[2023-05-12 15:05:44] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: New version: [2023.5.12] Old Version: [2023.5.11]
+[2023-05-12 15:05:44] INFO root fetch - processPackages [pastastore]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-05-12 15:05:44] INFO root fetch - processPackages [ooo-dev-tools]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-05-12 15:05:44] INFO root fetch - processPackages [AICreator]: executing diffoscope
+[2023-05-12 15:05:44] INFO root fetch - processPackages [AICreator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AICreator-0.1.8.tar.gz tmp/AICreator-0.1.9.tar.gz --markdown 20230512/A/AICreator/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-12 15:05:44] INFO root fetch - processPackages [JBPhD]: Downloading https://files.pythonhosted.org/packages/e9/69/06f3da47667b654eb55841a6256d55f6d9fd12fcc1dc7d68c830384072aa/JBPhD-2.0.9-py3-none-any.whl
+[2023-05-12 15:05:44] INFO root fetch - processPackages [goblet-gcp-client]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-12 15:05:44] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/61/88/9406f2701e345e47db267218f73c35f955bf4d2186cfc21a61c1d1ff15a9/fbgemm_gpu_nightly_cpu-2023.5.11-cp39-cp39-manylinux1_x86_64.whl
+[2023-05-12 15:05:44] INFO root fetch - processPackages [pastastore]: Downloading https://files.pythonhosted.org/packages/fe/7f/9727667fb4d001c55499fad20a6ce34612bf3cccc5e461684afbcc76f816/pastastore-1.2.0.tar.gz
+[2023-05-12 15:05:44] INFO root fetch - processPackages [Geode-Simplex]: Downloading https://files.pythonhosted.org/packages/71/fe/525adfc16647206017d2898a9f436996bc906ecd86240a5d0bac16555638/Geode_Simplex-6.0.8-cp39-cp39-win_amd64.whl
+[2023-05-12 15:05:44] INFO root fetch - processPackages [html-msg]: Downloading https://files.pythonhosted.org/packages/df/71/58c33c775aa5c94143219be55300a3ecf05e609d366b6b6b2f72fcde3b75/html_msg-1.1.0.tar.gz
+[2023-05-12 15:05:44] INFO root fetch - processPackages [Geode-Simplex]: executing diffoscope
+[2023-05-12 15:05:44] INFO root fetch - processPackages [Geode-Simplex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Simplex-6.0.7-cp39-cp39-win_amd64.whl.zip tmp/Geode_Simplex-6.0.8-cp39-cp39-win_amd64.whl.zip --markdown 20230512/G/Geode-Simplex/6.0.7-6.0.8/diff.md --exclude *.pyd
+[2023-05-12 15:05:44] INFO root fetch - processPackages [ooo-dev-tools]: executing diffoscope
+[2023-05-12 15:05:44] INFO root fetch - processPackages [ooo-dev-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ooo_dev_tools-0.9.7.tar.gz tmp/ooo_dev_tools-0.9.8.tar.gz --markdown 20230512/o/ooo-dev-tools/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-05-12 15:05:45] INFO root fetch - processPackages [goblet-gcp-client]: Downloading https://files.pythonhosted.org/packages/20/ae/745a26574e284f8a6ed0cbaae90b0ceccdee81fd910a1b8e0aa011a41ecb/goblet_gcp_client-0.1.5.tar.gz
+[2023-05-12 15:05:45] INFO root fetch - processPackages [JBPhD]: executing diffoscope
+[2023-05-12 15:05:45] INFO root fetch - processPackages [JBPhD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JBPhD-2.0.8-py3-none-any.whl.zip tmp/JBPhD-2.0.9-py3-none-any.whl.zip --markdown 20230512/J/JBPhD/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-05-12 15:05:45] INFO root fetch - processPackages [pastastore]: Downloading https://files.pythonhosted.org/packages/d4/93/571d06ce244a1b8766cf5a6f5d3eb662a411772efbe17f90e34075aa5946/pastastore-1.2.1.tar.gz
+[2023-05-12 15:05:45] INFO root fetch - processPackages [html-msg]: executing diffoscope
+[2023-05-12 15:05:45] INFO root fetch - processPackages [html-msg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/html_msg-1.0.7.tar.gz tmp/html_msg-1.1.0.tar.gz --markdown 20230512/h/html-msg/1.0.7-1.1.0/diff.md --exclude *.pyd
+[2023-05-12 15:05:45] INFO root fetch - processPackages [goblet-gcp-client]: executing diffoscope
+[2023-05-12 15:05:45] INFO root fetch - processPackages [goblet-gcp-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goblet_gcp_client-0.1.4.tar.gz tmp/goblet_gcp_client-0.1.5.tar.gz --markdown 20230512/g/goblet-gcp-client/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-12 15:05:45] INFO root fetch - processPackages [pastastore]: executing diffoscope
+[2023-05-12 15:05:45] INFO root fetch - processPackages [pastastore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pastastore-1.2.0.tar.gz tmp/pastastore-1.2.1.tar.gz --markdown 20230512/p/pastastore/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-05-12 15:05:45] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/42/62/529570e351f3865a27fe50ba19284273daa168808c06cb649efecdc7e7ab/fbgemm_gpu_nightly_cpu-2023.5.12-cp39-cp39-manylinux1_x86_64.whl
+[2023-05-12 15:05:45] INFO root fetch - processPackages [cognite-extractor-manager]: Start processing: pygame-cards
+[2023-05-12 15:05:45] INFO root fetch - main [MainThread]: End processing [cognite-extractor-manager]: success
+[2023-05-12 15:05:45] INFO root fetch - processPackages [pygame-cards]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-12 15:05:46] INFO root fetch - processPackages [pygame-cards]: Downloading https://files.pythonhosted.org/packages/9b/64/8ce90baa521330fd4724922adc0afea521ac290a23fa5c4396c931719910/pygame_cards-0.1.2.tar.gz
+[2023-05-12 15:05:46] INFO root fetch - processPackages [AICreator]: Start processing: glabvars
+[2023-05-12 15:05:46] INFO root fetch - main [MainThread]: End processing [AICreator]: success
+[2023-05-12 15:05:46] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: executing diffoscope
+[2023-05-12 15:05:46] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbgemm_gpu_nightly_cpu-2023.5.11-cp39-cp39-manylinux1_x86_64.whl.zip tmp/fbgemm_gpu_nightly_cpu-2023.5.12-cp39-cp39-manylinux1_x86_64.whl.zip --markdown 20230512/f/fbgemm-gpu-nightly-cpu/2023.5.11-2023.5.12/diff.md --exclude *.pyd
+[2023-05-12 15:05:46] INFO root fetch - processPackages [AICreator]: Start processing: pyddx
+[2023-05-12 15:05:46] INFO root fetch - main [MainThread]: End processing [AICreator]: success
+[2023-05-12 15:05:46] WARNING root fetch - processPackages [glabvars]: Skipping, unable to determine old version
+[2023-05-12 15:05:46] INFO root fetch - processPackages [glabvars]: Start processing: jumpthegun
+[2023-05-12 15:05:46] INFO root fetch - main [MainThread]: End processing [glabvars] error
+[2023-05-12 15:05:46] INFO root fetch - processPackages [pyddx]: New version: [0.4.3] Old Version: [0.4.1]
+[2023-05-12 15:05:46] INFO root fetch - processPackages [jumpthegun]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-12 15:05:46] INFO root fetch - processPackages [jumpthegun]: Downloading https://files.pythonhosted.org/packages/31/44/70cdc7732cd2ed80a7f89446973d530c938e0e4ddd45976ca4da8ef391ef/jumpthegun-0.0.7.tar.gz
+[2023-05-12 15:05:46] INFO root fetch - processPackages [pyddx]: Downloading https://files.pythonhosted.org/packages/49/86/63649882bee067aeb4dafb87394c51c9235fcd1be3425140d9348a79b776/pyddx-0.4.1.tar.gz
+[2023-05-12 15:05:46] INFO root fetch - main [MainThread]: End processing [goblet-gcp-client]: success
+[2023-05-12 15:05:46] INFO root fetch - main [MainThread]: End processing [html-msg]: success
+[2023-05-12 15:05:46] INFO root fetch - processPackages [jumpthegun]: Downloading https://files.pythonhosted.org/packages/34/c7/8bb652249182c311f19a00c272ab74c50a504cbae480fb9f190398f26090/jumpthegun-0.0.8.tar.gz
+[2023-05-12 15:05:46] INFO root fetch - main [MainThread]: End processing [pastastore]: success
+[2023-05-12 15:05:46] INFO root fetch - processPackages [pyddx]: Downloading https://files.pythonhosted.org/packages/69/3a/ba0fb2c3648e7c8a532d3f5d04ef6ffd10fc413c4c41ae049ca7544bc653/pyddx-0.4.3.tar.gz
+[2023-05-12 15:05:47] INFO root fetch - processPackages [jumpthegun]: executing diffoscope
+[2023-05-12 15:05:47] INFO root fetch - processPackages [jumpthegun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jumpthegun-0.0.7.tar.gz tmp/jumpthegun-0.0.8.tar.gz --markdown 20230512/j/jumpthegun/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-12 15:05:47] INFO root fetch - processPackages [pyddx]: executing diffoscope
+[2023-05-12 15:05:47] INFO root fetch - processPackages [pyddx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyddx-0.4.1.tar.gz tmp/pyddx-0.4.3.tar.gz --markdown 20230512/p/pyddx/0.4.1-0.4.3/diff.md --exclude *.pyd
+[2023-05-12 15:05:47] INFO root fetch - processPackages [pygame-cards]: Downloading https://files.pythonhosted.org/packages/01/fa/6bd948b66eb63429bed248b64687ef702d645a26a4b82ba54073cab34ace/pygame_cards-0.1.3.tar.gz
+[2023-05-12 15:05:47] INFO root fetch - main [MainThread]: End processing [JBPhD]: success
+[2023-05-12 15:05:47] INFO root fetch - processPackages [pygame-cards]: executing diffoscope
+[2023-05-12 15:05:47] INFO root fetch - processPackages [pygame-cards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygame_cards-0.1.2.tar.gz tmp/pygame_cards-0.1.3.tar.gz --markdown 20230512/p/pygame-cards/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-12 15:05:48] INFO root fetch - main [MainThread]: End processing [jumpthegun]: success
+[2023-05-12 15:05:48] INFO root fetch - main [MainThread]: End processing [pyddx]: success
+[2023-05-12 15:05:49] INFO root fetch - main [MainThread]: End processing [pygame-cards]: success
+[2023-05-12 15:05:49] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
+[2023-05-12 15:05:55] INFO root fetch - main [MainThread]: End processing [ooo-dev-tools]: success
+[2023-05-12 15:06:10] INFO root fetch - main [MainThread]: End processing [Geode-Simplex]: success
+[2023-05-12 15:06:10] INFO root fetch - main [MainThread]: Store serial: [18078206]
