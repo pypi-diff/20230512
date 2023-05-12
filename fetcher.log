@@ -16390,3 +16390,124 @@ EOFError: EOF read where object expected
 [2023-05-12 19:12:44] INFO root fetch - main [MainThread]: End processing [deeplake]: success
 [2023-05-12 19:12:45] INFO root fetch - main [MainThread]: End processing [dataquality]: success
 [2023-05-12 19:12:45] INFO root fetch - main [MainThread]: Store serial: [18081337]
+[2023-05-12 19:17:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18081337]
+[2023-05-12 19:17:56] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-05-12 19:17:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-helpdesk-mgmt
+[2023-05-12 19:17:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: emmet-api
+[2023-05-12 19:17:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ansys-tools-path
+[2023-05-12 19:17:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eth-tester
+[2023-05-12 19:17:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sherms
+[2023-05-12 19:17:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: heaserver-buckets
+[2023-05-12 19:17:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: simulai-toolkit
+[2023-05-12 19:17:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ngsolve
+[2023-05-12 19:17:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Simba-UW-tf-dev
+[2023-05-12 19:17:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: constructor-io
+[2023-05-12 19:17:56] INFO root fetch - processPackages [ansys-tools-path]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-12 19:17:56] INFO root fetch - processPackages [emmet-api]: New version: [0.54.6] Old Version: [0.54.4]
+[2023-05-12 19:17:56] INFO root fetch - processPackages [heaserver-buckets]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-05-12 19:17:56] INFO root fetch - processPackages [ngsolve]: New version: [6.2.2302.post91.dev0] Old Version: [6.2.2302.post87.dev0]
+[2023-05-12 19:17:56] INFO root fetch - processPackages [constructor-io]: New version: [1.7.3] Old Version: [1.7.2]
+[2023-05-12 19:17:57] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt]: New version: [14.0.2.9.0] Old Version: [14.0.2.8.1.dev1]
+[2023-05-12 19:17:57] INFO root fetch - processPackages [heaserver-buckets]: executing diffoscope
+[2023-05-12 19:17:57] INFO root fetch - processPackages [ansys-tools-path]: executing diffoscope
+[2023-05-12 19:17:57] INFO root fetch - processPackages [heaserver-buckets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaserver-buckets-1.0.0a8.tar.gz tmp/heaserver-buckets-1.0.0a9.tar.gz --markdown 20230512/h/heaserver-buckets/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-05-12 19:17:57] INFO root fetch - processPackages [ansys-tools-path]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys-tools-path-0.2.1.tar.gz tmp/ansys-tools-path-0.2.2.tar.gz --markdown 20230512/a/ansys-tools-path/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-12 19:17:57] INFO root fetch - processPackages [simulai-toolkit]: New version: [0.99.9] Old Version: [0.99.8]
+[2023-05-12 19:17:57] INFO root fetch - processPackages [eth-tester]: New version: [0.9.0b1] Old Version: [0.8.0b3]
+[2023-05-12 19:17:57] ERROR root fetch - processPackages [sherms]: Unable to get metadata: No such project 'sherms'
+[2023-05-12 19:17:57] INFO root fetch - processPackages [sherms]: Start processing: django-choices-field
+[2023-05-12 19:17:57] INFO root fetch - main [MainThread]: End processing [sherms] error
+[2023-05-12 19:17:57] INFO root fetch - processPackages [Simba-UW-tf-dev]: New version: [1.59.3] Old Version: [1.59.2]
+[2023-05-12 19:17:57] INFO root fetch - processPackages [emmet-api]: executing diffoscope
+[2023-05-12 19:17:57] INFO root fetch - processPackages [emmet-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emmet-api-0.54.4.tar.gz tmp/emmet-api-0.54.6.tar.gz --markdown 20230512/e/emmet-api/0.54.4-0.54.6/diff.md --exclude *.pyd
+[2023-05-12 19:17:57] INFO root fetch - processPackages [constructor-io]: Downloading https://files.pythonhosted.org/packages/c5/ef/2e00d6a5d31d2e547045fbc83e1ebcc8f1e52c4f4180cd816938c781aceb/constructor-io-1.7.2.tar.gz
+[2023-05-12 19:17:57] INFO root fetch - processPackages [ngsolve]: Downloading https://files.pythonhosted.org/packages/5c/34/06572c805116586e2de021d82e3ac6f97ed5130cf60dbef3112c73c8053d/ngsolve-6.2.2302.post87.dev0-cp39-cp39-macosx_10_15_universal2.whl
+[2023-05-12 19:17:57] INFO root fetch - processPackages [django-choices-field]: New version: [2.1.2] Old Version: [2.1.1]
+[2023-05-12 19:17:57] WARNING root fetch - processPackages [ngsolve]: Skipping package: exceeds size limit 35305421>=10485760
+[2023-05-12 19:17:57] INFO root fetch - processPackages [ngsolve]: Start processing: dequeai
+[2023-05-12 19:17:57] INFO root fetch - main [MainThread]: End processing [ngsolve] error
+[2023-05-12 19:17:57] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt]: Downloading https://files.pythonhosted.org/packages/d3/7b/1f98628ca74ed5d3816cf2524c1dcb82ed58741cc8431da3f0ef8152aee0/odoo14_addon_helpdesk_mgmt-14.0.2.8.1.dev1-py3-none-any.whl
+[2023-05-12 19:17:57] INFO root fetch - processPackages [simulai-toolkit]: Downloading https://files.pythonhosted.org/packages/68/fd/10eb6045a48c23ed6339d03a625af9fa1fbc036a14b601cd56e6d51a9b71/simulai-toolkit-0.99.8.tar.gz
+[2023-05-12 19:17:57] INFO root fetch - processPackages [dequeai]: New version: [0.7799] Old Version: [0.7788]
+[2023-05-12 19:17:57] INFO root fetch - processPackages [eth-tester]: Downloading https://files.pythonhosted.org/packages/7d/12/d66185d550f887c45327b8007dcfc65ecc0e40569176922c17bc82f13e90/eth-tester-0.8.0b3.tar.gz
+[2023-05-12 19:17:57] INFO root fetch - processPackages [dequeai]: executing diffoscope
+[2023-05-12 19:17:57] INFO root fetch - processPackages [dequeai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dequeai-0.7788.tar.gz tmp/dequeai-0.7799.tar.gz --markdown 20230512/d/dequeai/0.7788-0.7799/diff.md --exclude *.pyd
+[2023-05-12 19:17:57] INFO root fetch - processPackages [django-choices-field]: Downloading https://files.pythonhosted.org/packages/93/be/12ee6d9036349b3f5de295de71a3a416a0bb1723498d150b862bb06effed/django_choices_field-2.1.1.tar.gz
+[2023-05-12 19:17:57] INFO root fetch - processPackages [Simba-UW-tf-dev]: Downloading https://files.pythonhosted.org/packages/d9/21/474a5606e35ffa8a1ce6531bacbf4540d7984bb529548224acc27f7b8802/Simba-UW-tf-dev-1.59.3.tar.gz
+[2023-05-12 19:17:57] INFO root fetch - processPackages [constructor-io]: Downloading https://files.pythonhosted.org/packages/24/ed/513ee3f289972673e368c66d0c0b463c7389f6a0eb93f6a26cb62b8b75b2/constructor-io-1.7.3.tar.gz
+[2023-05-12 19:17:57] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt]: Downloading https://files.pythonhosted.org/packages/b8/4a/277e7e31b1a6f47b98112976b31a2068a9ca8b40a5986214896cb8ad8eb6/odoo14_addon_helpdesk_mgmt-14.0.2.9.0-py3-none-any.whl
+[2023-05-12 19:17:57] INFO root fetch - processPackages [constructor-io]: executing diffoscope
+[2023-05-12 19:17:57] INFO root fetch - processPackages [constructor-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/constructor-io-1.7.2.tar.gz tmp/constructor-io-1.7.3.tar.gz --markdown 20230512/c/constructor-io/1.7.2-1.7.3/diff.md --exclude *.pyd
+[2023-05-12 19:17:57] INFO root fetch - processPackages [eth-tester]: Downloading https://files.pythonhosted.org/packages/96/f0/28b7a809c955846ed29fddd43e203704eac75f27adfbd747c0137d1132a6/eth-tester-0.9.0b1.tar.gz
+[2023-05-12 19:17:57] INFO root fetch - processPackages [Simba-UW-tf-dev]: executing diffoscope
+[2023-05-12 19:17:57] INFO root fetch - processPackages [Simba-UW-tf-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Simba-UW-tf-dev-1.59.2.tar.gz tmp/Simba-UW-tf-dev-1.59.3.tar.gz --markdown 20230512/S/Simba-UW-tf-dev/1.59.2-1.59.3/diff.md --exclude *.pyd
+[2023-05-12 19:17:57] INFO root fetch - processPackages [django-choices-field]: Downloading https://files.pythonhosted.org/packages/2d/22/1eab01af1ee117b38cbfe7549c2a5b3f11d969889dd6720235645d04dfba/django_choices_field-2.1.2.tar.gz
+[2023-05-12 19:17:57] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt]: executing diffoscope
+[2023-05-12 19:17:57] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_helpdesk_mgmt-14.0.2.8.1.dev1-py3-none-any.whl.zip tmp/odoo14_addon_helpdesk_mgmt-14.0.2.9.0-py3-none-any.whl.zip --markdown 20230512/o/odoo14-addon-helpdesk-mgmt/14.0.2.8.1.dev1-14.0.2.9.0/diff.md --exclude *.pyd
+[2023-05-12 19:17:57] INFO root fetch - processPackages [eth-tester]: executing diffoscope
+[2023-05-12 19:17:57] INFO root fetch - processPackages [eth-tester]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eth-tester-0.8.0b3.tar.gz tmp/eth-tester-0.9.0b1.tar.gz --markdown 20230512/e/eth-tester/0.8.0b3-0.9.0b1/diff.md --exclude *.pyd
+[2023-05-12 19:17:57] INFO root fetch - processPackages [simulai-toolkit]: Downloading https://files.pythonhosted.org/packages/4e/59/d10e5443ca6c8e27098c2fe36431edcce43c24db217cffe69efd19d84f86/simulai-toolkit-0.99.9.tar.gz
+[2023-05-12 19:17:57] INFO root fetch - processPackages [django-choices-field]: executing diffoscope
+[2023-05-12 19:17:57] INFO root fetch - processPackages [django-choices-field]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_choices_field-2.1.1.tar.gz tmp/django_choices_field-2.1.2.tar.gz --markdown 20230512/d/django-choices-field/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2023-05-12 19:17:58] INFO root fetch - processPackages [simulai-toolkit]: executing diffoscope
+[2023-05-12 19:17:58] INFO root fetch - processPackages [simulai-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simulai-toolkit-0.99.8.tar.gz tmp/simulai-toolkit-0.99.9.tar.gz --markdown 20230512/s/simulai-toolkit/0.99.8-0.99.9/diff.md --exclude *.pyd
+[2023-05-12 19:17:58] INFO root fetch - processPackages [ansys-tools-path]: Start processing: ecopipeline
+[2023-05-12 19:17:58] INFO root fetch - main [MainThread]: End processing [ansys-tools-path]: success
+[2023-05-12 19:17:58] INFO root fetch - processPackages [ecopipeline]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 19:17:58] INFO root fetch - processPackages [ecopipeline]: executing diffoscope
+[2023-05-12 19:17:58] INFO root fetch - processPackages [ecopipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecopipeline-0.0.8.tar.gz tmp/ecopipeline-0.0.9.tar.gz --markdown 20230512/e/ecopipeline/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 19:17:59] INFO root fetch - processPackages [heaserver-buckets]: Start processing: odoo-addon-sale-planner-calendar
+[2023-05-12 19:17:59] INFO root fetch - main [MainThread]: End processing [heaserver-buckets]: success
+[2023-05-12 19:17:59] INFO root fetch - processPackages [odoo-addon-sale-planner-calendar]: New version: [15.0.1.1.2] Old Version: [15.0.1.1.1]
+[2023-05-12 19:17:59] INFO root fetch - processPackages [constructor-io]: Start processing: CoLT5-attention
+[2023-05-12 19:17:59] INFO root fetch - main [MainThread]: End processing [constructor-io]: success
+[2023-05-12 19:17:59] INFO root fetch - processPackages [odoo-addon-sale-planner-calendar]: executing diffoscope
+[2023-05-12 19:17:59] INFO root fetch - processPackages [odoo-addon-sale-planner-calendar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_planner_calendar-15.0.1.1.1-py3-none-any.whl.zip tmp/odoo_addon_sale_planner_calendar-15.0.1.1.2-py3-none-any.whl.zip --markdown 20230512/o/odoo-addon-sale-planner-calendar/15.0.1.1.1-15.0.1.1.2/diff.md --exclude *.pyd
+[2023-05-12 19:17:59] INFO root fetch - processPackages [CoLT5-attention]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-05-12 19:17:59] INFO root fetch - processPackages [dequeai]: Start processing: ovos-plugin-manager
+[2023-05-12 19:17:59] INFO root fetch - main [MainThread]: End processing [dequeai]: success
+[2023-05-12 19:17:59] INFO root fetch - processPackages [ovos-plugin-manager]: New version: [0.0.9] Old Version: [0.0.8a3]
+[2023-05-12 19:17:59] INFO root fetch - processPackages [ovos-plugin-manager]: executing diffoscope
+[2023-05-12 19:17:59] INFO root fetch - processPackages [ovos-plugin-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_plugin_manager-0.0.8a3-py3-none-any.whl.zip tmp/ovos_plugin_manager-0.0.9-py3-none-any.whl.zip --markdown 20230512/o/ovos-plugin-manager/0.0.8a3-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 19:17:59] INFO root fetch - processPackages [django-choices-field]: Start processing: kcli
+[2023-05-12 19:17:59] INFO root fetch - main [MainThread]: End processing [django-choices-field]: success
+[2023-05-12 19:17:59] INFO root fetch - processPackages [kcli]: New version: [99.0.202305121543] Old Version: [99.0.202305121341]
+[2023-05-12 19:17:59] INFO root fetch - processPackages [CoLT5-attention]: Downloading https://files.pythonhosted.org/packages/9c/b4/2555835f376591a07dbc17422f84f5cde44bb5df0e0018e2c7111a4692ec/CoLT5-attention-0.7.1.tar.gz
+[2023-05-12 19:17:59] INFO root fetch - processPackages [CoLT5-attention]: executing diffoscope
+[2023-05-12 19:17:59] INFO root fetch - processPackages [CoLT5-attention]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CoLT5-attention-0.7.0.tar.gz tmp/CoLT5-attention-0.7.1.tar.gz --markdown 20230512/C/CoLT5-attention/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-05-12 19:17:59] INFO root fetch - processPackages [eth-tester]: Start processing: TPython
+[2023-05-12 19:17:59] INFO root fetch - main [MainThread]: End processing [eth-tester]: success
+[2023-05-12 19:17:59] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/75/84/7f744c750ca6766ab7b91fd2a74346815d55f07f827f7413444fad1bdeb6/kcli-99.0.202305121543-py3-none-any.whl
+[2023-05-12 19:17:59] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt]: Start processing: commonocean-rules
+[2023-05-12 19:17:59] INFO root fetch - main [MainThread]: End processing [odoo14-addon-helpdesk-mgmt]: success
+[2023-05-12 19:17:59] INFO root fetch - processPackages [TPython]: New version: [1.8.2] Old Version: [1.8.1]
+[2023-05-12 19:18:00] WARNING root fetch - processPackages [commonocean-rules]: Skipping, unable to determine old version
+[2023-05-12 19:18:00] INFO root fetch - processPackages [commonocean-rules]: Start processing: dagworks-sdk
+[2023-05-12 19:18:00] INFO root fetch - main [MainThread]: End processing [commonocean-rules] error
+[2023-05-12 19:18:00] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-05-12 19:18:00] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202305121341-py3-none-any.whl.zip tmp/kcli-99.0.202305121543-py3-none-any.whl.zip --markdown 20230512/k/kcli/99.0.202305121341-99.0.202305121543/diff.md --exclude *.pyd
+[2023-05-12 19:18:00] INFO root fetch - processPackages [dagworks-sdk]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-12 19:18:00] INFO root fetch - processPackages [TPython]: Downloading https://files.pythonhosted.org/packages/33/b8/254d5d5e5b869ce728a50f7e6e4bb322b39315b2dec8342cfc2769e8a03b/TPython-1.8.2-py2.py3-none-any.whl
+[2023-05-12 19:18:00] INFO root fetch - processPackages [ecopipeline]: Start processing: scdiffeq-plots
+[2023-05-12 19:18:00] INFO root fetch - main [MainThread]: End processing [ecopipeline]: success
+[2023-05-12 19:18:00] INFO root fetch - processPackages [dagworks-sdk]: Downloading https://files.pythonhosted.org/packages/4e/01/743c974d5a4856c89b6ecf628f24654494c635c82b39e21800a00c185612/dagworks-sdk-0.0.1.tar.gz
+[2023-05-12 19:18:00] INFO root fetch - processPackages [scdiffeq-plots]: New version: [0.0.1rc1] Old Version: [0.0.1rc0]
+[2023-05-12 19:18:00] INFO root fetch - processPackages [TPython]: executing diffoscope
+[2023-05-12 19:18:00] INFO root fetch - processPackages [TPython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TPython-1.8.1-py2.py3-none-any.whl.zip tmp/TPython-1.8.2-py2.py3-none-any.whl.zip --markdown 20230512/T/TPython/1.8.1-1.8.2/diff.md --exclude *.pyd
+[2023-05-12 19:18:00] INFO root fetch - processPackages [scdiffeq-plots]: Downloading https://files.pythonhosted.org/packages/8c/65/dacfd03ed92b2c1ee5a2bdfba09049a631a558652c2b50149c18582ab850/scdiffeq_plots-0.0.1rc1.tar.gz
+[2023-05-12 19:18:00] INFO root fetch - processPackages [dagworks-sdk]: Downloading https://files.pythonhosted.org/packages/70/a4/5030f9bb87f9b8d12ae51db62f4144e1ac7be707c317c959ec5943b30c5b/dagworks-sdk-0.0.2.tar.gz
+[2023-05-12 19:18:00] INFO root fetch - processPackages [scdiffeq-plots]: executing diffoscope
+[2023-05-12 19:18:00] INFO root fetch - processPackages [scdiffeq-plots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scdiffeq_plots-0.0.1rc0.tar.gz tmp/scdiffeq_plots-0.0.1rc1.tar.gz --markdown 20230512/s/scdiffeq-plots/0.0.1rc0-0.0.1rc1/diff.md --exclude *.pyd
+[2023-05-12 19:18:00] INFO root fetch - processPackages [dagworks-sdk]: executing diffoscope
+[2023-05-12 19:18:00] INFO root fetch - processPackages [dagworks-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagworks-sdk-0.0.1.tar.gz tmp/dagworks-sdk-0.0.2.tar.gz --markdown 20230512/d/dagworks-sdk/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-12 19:18:01] INFO root fetch - main [MainThread]: End processing [ovos-plugin-manager]: success
+[2023-05-12 19:18:01] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-planner-calendar]: success
+[2023-05-12 19:18:01] INFO root fetch - main [MainThread]: End processing [CoLT5-attention]: success
+[2023-05-12 19:18:01] INFO root fetch - main [MainThread]: End processing [simulai-toolkit]: success
+[2023-05-12 19:18:01] INFO root fetch - main [MainThread]: End processing [TPython]: success
+[2023-05-12 19:18:02] INFO root fetch - main [MainThread]: End processing [scdiffeq-plots]: success
+[2023-05-12 19:18:02] INFO root fetch - main [MainThread]: End processing [emmet-api]: success
+[2023-05-12 19:18:03] INFO root fetch - main [MainThread]: End processing [dagworks-sdk]: success
+[2023-05-12 19:18:03] INFO root fetch - main [MainThread]: End processing [Simba-UW-tf-dev]: success
+[2023-05-12 19:18:08] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-05-12 19:18:08] INFO root fetch - main [MainThread]: Store serial: [18081397]
