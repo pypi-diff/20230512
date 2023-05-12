@@ -11194,3 +11194,152 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-12 15:05:55] INFO root fetch - main [MainThread]: End processing [ooo-dev-tools]: success
 [2023-05-12 15:06:10] INFO root fetch - main [MainThread]: End processing [Geode-Simplex]: success
 [2023-05-12 15:06:10] INFO root fetch - main [MainThread]: Store serial: [18078206]
+[2023-05-12 15:11:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18078206]
+[2023-05-12 15:11:23] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-05-12 15:11:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gitlabdata
+[2023-05-12 15:11:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: snakemake
+[2023-05-12 15:11:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nbdev-stdlib
+[2023-05-12 15:11:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: upgini
+[2023-05-12 15:11:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: polars
+[2023-05-12 15:11:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nbdev-numpy
+[2023-05-12 15:11:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyjpt
+[2023-05-12 15:11:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nlp-models
+[2023-05-12 15:11:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dicopp
+[2023-05-12 15:11:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: AICreator
+[2023-05-12 15:11:23] INFO root fetch - processPackages [upgini]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-05-12 15:11:23] INFO root fetch - processPackages [pyjpt]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-12 15:11:23] INFO root fetch - processPackages [AICreator]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-12 15:11:23] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-12 15:11:23] INFO root fetch - processPackages [gitlabdata]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-12 15:11:23] WARNING root fetch - processPackages [nlp-models]: Skipping, unable to determine old version
+[2023-05-12 15:11:23] INFO root fetch - processPackages [nlp-models]: Start processing: nbdev-pandas
+[2023-05-12 15:11:23] INFO root fetch - main [MainThread]: End processing [nlp-models] error
+[2023-05-12 15:11:23] INFO root fetch - processPackages [upgini]: executing diffoscope
+[2023-05-12 15:11:23] INFO root fetch - processPackages [upgini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upgini-1.1.98.tar.gz tmp/upgini-1.1.99.tar.gz --markdown 20230512/u/upgini/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-05-12 15:11:23] INFO root fetch - processPackages [dicopp]: New version: [1.0.36] Old Version: [1.0.35]
+[2023-05-12 15:11:23] INFO root fetch - processPackages [snakemake]: New version: [7.9.0] Old Version: [7.8.5]
+[2023-05-12 15:11:23] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-05-12 15:11:23] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230512/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-12 15:11:23] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-12 15:11:23] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-12 15:11:23] INFO root fetch - processPackages [AICreator]: Downloading https://files.pythonhosted.org/packages/75/24/fa970d563bccae16ef86b10a07131f1c3b8192a5115f7c4c163aacc8ab46/AICreator-0.2.0.tar.gz
+[2023-05-12 15:11:23] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-05-12 15:11:23] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230512/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-12 15:11:23] INFO root fetch - processPackages [gitlabdata]: Downloading https://files.pythonhosted.org/packages/d6/fb/1bd7ca32882fff9d3eb75e6595a17b0059ef80ed9fca250527c7b447a479/gitlabdata-0.3.8.tar.gz
+[2023-05-12 15:11:23] INFO root fetch - processPackages [dicopp]: Downloading https://files.pythonhosted.org/packages/fd/8e/5410915bf6752f0e5da1eb57b11bf7bc5e4ab9b3233518771393a8d2815c/dicopp-1.0.35.tar.gz
+[2023-05-12 15:11:23] INFO root fetch - processPackages [snakemake]: Downloading https://files.pythonhosted.org/packages/5d/46/165e979908eabbb5cd0b58bcdad46e04802264f46764940c97dad3ffeb85/snakemake-7.8.5.tar.gz
+[2023-05-12 15:11:23] INFO root fetch - processPackages [pyjpt]: executing diffoscope
+[2023-05-12 15:11:23] INFO root fetch - processPackages [pyjpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyjpt-0.1.8-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/pyjpt-0.1.9-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230512/p/pyjpt/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-12 15:11:24] INFO root fetch - processPackages [polars]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-12 15:11:24] INFO root fetch - processPackages [AICreator]: Downloading https://files.pythonhosted.org/packages/cf/33/5c9b7bcd4a31b3c92af290c5cbd8da3ccda4f6cb5adc2a66fab2dc628f52/AICreator-0.2.1.tar.gz
+[2023-05-12 15:11:24] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-05-12 15:11:24] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230512/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-12 15:11:24] INFO root fetch - processPackages [dicopp]: Downloading https://files.pythonhosted.org/packages/dc/e0/f27a43065f6a9b7f75fe6587c2bfdcb66d5fc31bac8b3973b04ff4917905/dicopp-1.0.36.tar.gz
+[2023-05-12 15:11:24] INFO root fetch - processPackages [AICreator]: executing diffoscope
+[2023-05-12 15:11:24] INFO root fetch - processPackages [AICreator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AICreator-0.2.0.tar.gz tmp/AICreator-0.2.1.tar.gz --markdown 20230512/A/AICreator/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-12 15:11:24] INFO root fetch - processPackages [polars]: Downloading https://files.pythonhosted.org/packages/e7/87/d9b28ede138dfbfa298446f324fd99a8c9f1229deeabc69024c8613d68f8/polars-0.9.8.tar.gz
+[2023-05-12 15:11:24] INFO root fetch - processPackages [gitlabdata]: Downloading https://files.pythonhosted.org/packages/2f/e0/8ae4a127b1bd2c7f921ee0fec16e3f271d10d2e8053da12a93cf8ab2d773/gitlabdata-0.3.9.tar.gz
+[2023-05-12 15:11:24] INFO root fetch - processPackages [snakemake]: Downloading https://files.pythonhosted.org/packages/6a/d0/729c86354d6fa9730d622186edfc9d900c52fcfa0b4316726433079c7a1d/snakemake-7.9.0.tar.gz
+[2023-05-12 15:11:24] INFO root fetch - processPackages [dicopp]: executing diffoscope
+[2023-05-12 15:11:24] INFO root fetch - processPackages [dicopp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dicopp-1.0.35.tar.gz tmp/dicopp-1.0.36.tar.gz --markdown 20230512/d/dicopp/1.0.35-1.0.36/diff.md --exclude *.pyd
+[2023-05-12 15:11:24] INFO root fetch - processPackages [polars]: Downloading https://files.pythonhosted.org/packages/96/26/63076bebabb9ecbc73cd58cf48f924a3f05b871166f576b56d9935158194/polars-0.9.9.tar.gz
+[2023-05-12 15:11:24] INFO root fetch - processPackages [gitlabdata]: executing diffoscope
+[2023-05-12 15:11:24] INFO root fetch - processPackages [gitlabdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlabdata-0.3.8.tar.gz tmp/gitlabdata-0.3.9.tar.gz --markdown 20230512/g/gitlabdata/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-12 15:11:24] INFO root fetch - processPackages [snakemake]: executing diffoscope
+[2023-05-12 15:11:24] INFO root fetch - processPackages [snakemake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snakemake-7.8.5.tar.gz tmp/snakemake-7.9.0.tar.gz --markdown 20230512/s/snakemake/7.8.5-7.9.0/diff.md --exclude *.pyd
+[2023-05-12 15:11:24] INFO root fetch - processPackages [polars]: executing diffoscope
+[2023-05-12 15:11:24] INFO root fetch - processPackages [polars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polars-0.9.8.tar.gz tmp/polars-0.9.9.tar.gz --markdown 20230512/p/polars/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-12 15:11:25] INFO root fetch - processPackages [nbdev-numpy]: Start processing: langflow
+[2023-05-12 15:11:25] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-05-12 15:11:25] INFO root fetch - processPackages [langflow]: New version: [0.0.69] Old Version: [0.0.68]
+[2023-05-12 15:11:25] INFO root fetch - processPackages [nbdev-pandas]: Start processing: uk-gov-dash-components
+[2023-05-12 15:11:25] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-05-12 15:11:25] INFO root fetch - processPackages [langflow]: Downloading https://files.pythonhosted.org/packages/c1/64/67e119ffdfdc389a25263185b6a3eb263b3632b69ca2db76c7c29f645cfc/langflow-0.0.68.tar.gz
+[2023-05-12 15:11:25] INFO root fetch - processPackages [uk-gov-dash-components]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-05-12 15:11:25] INFO root fetch - processPackages [upgini]: Start processing: prime-faster
+[2023-05-12 15:11:25] INFO root fetch - main [MainThread]: End processing [upgini]: success
+[2023-05-12 15:11:25] INFO root fetch - processPackages [uk-gov-dash-components]: Downloading https://files.pythonhosted.org/packages/40/5e/c914179d5af618e6da550fc6dc416471bf2c12f81930f9de7615ff67f14e/uk_gov_dash_components-1.9.2.tar.gz
+[2023-05-12 15:11:25] INFO root fetch - processPackages [prime-faster]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-12 15:11:25] INFO root fetch - processPackages [nbdev-stdlib]: Start processing: lifeguard
+[2023-05-12 15:11:25] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-05-12 15:11:25] INFO root fetch - processPackages [langflow]: Downloading https://files.pythonhosted.org/packages/54/80/4a12786b5a6a2047bdc38b1bfcce9c56ce7cc8b09f30aaeb3b428bd04567/langflow-0.0.69.tar.gz
+[2023-05-12 15:11:25] INFO root fetch - processPackages [lifeguard]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-05-12 15:11:25] INFO root fetch - processPackages [AICreator]: Start processing: fisx
+[2023-05-12 15:11:25] INFO root fetch - main [MainThread]: End processing [AICreator]: success
+[2023-05-12 15:11:25] INFO root fetch - processPackages [prime-faster]: Downloading https://files.pythonhosted.org/packages/29/3f/c25c617e653323f9d7a7ea94813997952a8e81eb4530eca13ab0d0f9f6e8/prime-faster-0.0.7.tar.gz
+[2023-05-12 15:11:25] INFO root fetch - processPackages [dicopp]: Start processing: JBPhD
+[2023-05-12 15:11:25] INFO root fetch - main [MainThread]: End processing [dicopp]: success
+[2023-05-12 15:11:26] INFO root fetch - processPackages [fisx]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-05-12 15:11:26] INFO root fetch - processPackages [JBPhD]: New version: [2.1.0] Old Version: [2.0.9]
+[2023-05-12 15:11:26] INFO root fetch - processPackages [uk-gov-dash-components]: Downloading https://files.pythonhosted.org/packages/1d/68/c31f252cd06b662f951b9ca487fed02c157083e1a863946c1f73cd5d0ac4/uk_gov_dash_components-1.9.3.tar.gz
+[2023-05-12 15:11:26] INFO root fetch - processPackages [lifeguard]: Downloading https://files.pythonhosted.org/packages/ba/35/418daa727e770aa302ca2b38167154fd3845f5226f9fafea34a434fc995b/lifeguard-0.0.7.tar.gz
+[2023-05-12 15:11:26] INFO root fetch - processPackages [uk-gov-dash-components]: executing diffoscope
+[2023-05-12 15:11:26] INFO root fetch - processPackages [uk-gov-dash-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uk_gov_dash_components-1.9.2.tar.gz tmp/uk_gov_dash_components-1.9.3.tar.gz --markdown 20230512/u/uk-gov-dash-components/1.9.2-1.9.3/diff.md --exclude *.pyd
+[2023-05-12 15:11:26] INFO root fetch - processPackages [fisx]: Downloading https://files.pythonhosted.org/packages/7c/4b/88712a6f57e4f7e40c9c3595405159ace33513bba477c0e76004513d8217/fisx-1.3.0.tar.gz
+[2023-05-12 15:11:26] INFO root fetch - processPackages [prime-faster]: Downloading https://files.pythonhosted.org/packages/3f/6c/c6dc726e6d46f9d291373783de8905134a7a7206085ad2d20951ca179142/prime-faster-0.0.8.tar.gz
+[2023-05-12 15:11:26] INFO root fetch - processPackages [gitlabdata]: Start processing: polars-u64-idx
+[2023-05-12 15:11:26] INFO root fetch - main [MainThread]: End processing [gitlabdata]: success
+[2023-05-12 15:11:26] INFO root fetch - processPackages [JBPhD]: Downloading https://files.pythonhosted.org/packages/eb/c4/ba3623981f06f8bab3d4c0d15091bb09649afcb6776003b07ed4c65b45a2/JBPhD-2.1.0-py3-none-any.whl
+[2023-05-12 15:11:26] INFO root fetch - processPackages [prime-faster]: executing diffoscope
+[2023-05-12 15:11:26] INFO root fetch - processPackages [prime-faster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prime-faster-0.0.7.tar.gz tmp/prime-faster-0.0.8.tar.gz --markdown 20230512/p/prime-faster/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-12 15:11:26] INFO root fetch - processPackages [polars-u64-idx]: New version: [0.17.9] Old Version: [0.17.8]
+[2023-05-12 15:11:26] INFO root fetch - processPackages [JBPhD]: executing diffoscope
+[2023-05-12 15:11:26] INFO root fetch - processPackages [JBPhD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JBPhD-2.0.9-py3-none-any.whl.zip tmp/JBPhD-2.1.0-py3-none-any.whl.zip --markdown 20230512/J/JBPhD/2.0.9-2.1.0/diff.md --exclude *.pyd
+[2023-05-12 15:11:26] INFO root fetch - processPackages [lifeguard]: Downloading https://files.pythonhosted.org/packages/bb/a8/5e598f8eb9840bc88efde3cfcb7fedf1c4db405b6c113d895f77a32c2f2a/lifeguard-0.0.9.tar.gz
+[2023-05-12 15:11:26] INFO root fetch - processPackages [fisx]: Downloading https://files.pythonhosted.org/packages/25/c9/a385e952e9d84c760891865d6615f7027ec524f170900c4a84198a3ec762/fisx-1.3.1.tar.gz
+[2023-05-12 15:11:26] INFO root fetch - processPackages [polars-u64-idx]: Downloading https://files.pythonhosted.org/packages/d0/0b/a47f9189ae419bf322166f9b994f00c0269ace8d21a311158304bef7711a/polars_u64_idx-0.17.8.tar.gz
+[2023-05-12 15:11:26] INFO root fetch - processPackages [lifeguard]: executing diffoscope
+[2023-05-12 15:11:26] INFO root fetch - processPackages [lifeguard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lifeguard-0.0.7.tar.gz tmp/lifeguard-0.0.9.tar.gz --markdown 20230512/l/lifeguard/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 15:11:26] INFO root fetch - processPackages [langflow]: executing diffoscope
+[2023-05-12 15:11:26] INFO root fetch - processPackages [langflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langflow-0.0.68.tar.gz tmp/langflow-0.0.69.tar.gz --markdown 20230512/l/langflow/0.0.68-0.0.69/diff.md --exclude *.pyd
+[2023-05-12 15:11:26] INFO root fetch - processPackages [polars-u64-idx]: Downloading https://files.pythonhosted.org/packages/2a/db/51e70c073dbb3feb0de2b01b1d7a76f653312a32b9e00e3a739864701c6b/polars_u64_idx-0.17.9.tar.gz
+[2023-05-12 15:11:27] INFO root fetch - processPackages [polars-u64-idx]: executing diffoscope
+[2023-05-12 15:11:27] INFO root fetch - processPackages [polars-u64-idx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polars_u64_idx-0.17.8.tar.gz tmp/polars_u64_idx-0.17.9.tar.gz --markdown 20230512/p/polars-u64-idx/0.17.8-0.17.9/diff.md --exclude *.pyd
+[2023-05-12 15:11:27] INFO root fetch - processPackages [prime-faster]: Start processing: HypeBankAPI
+[2023-05-12 15:11:27] INFO root fetch - main [MainThread]: End processing [prime-faster]: success
+[2023-05-12 15:11:27] WARNING root fetch - processPackages [HypeBankAPI]: Skipping, unable to determine old version
+[2023-05-12 15:11:27] INFO root fetch - processPackages [HypeBankAPI]: Start processing: image2str
+[2023-05-12 15:11:27] INFO root fetch - main [MainThread]: End processing [HypeBankAPI] error
+[2023-05-12 15:11:27] WARNING root fetch - processPackages [image2str]: Skipping, unable to determine old version
+[2023-05-12 15:11:27] INFO root fetch - processPackages [image2str]: Start processing: nbdev-pytorch
+[2023-05-12 15:11:27] INFO root fetch - main [MainThread]: End processing [image2str] error
+[2023-05-12 15:11:27] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-12 15:11:27] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-05-12 15:11:27] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230512/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-12 15:11:28] INFO root fetch - processPackages [lifeguard]: Start processing: cloudshell-shell-standards
+[2023-05-12 15:11:28] INFO root fetch - main [MainThread]: End processing [lifeguard]: success
+[2023-05-12 15:11:28] INFO root fetch - processPackages [cloudshell-shell-standards]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-05-12 15:11:28] INFO root fetch - processPackages [cloudshell-shell-standards]: Downloading https://files.pythonhosted.org/packages/30/a8/8a32f9dca8649c71fd3762b6117cd07bd684e759e1bb68ec1a374b245c0d/cloudshell-shell-standards-2.0.1.zip
+[2023-05-12 15:11:28] INFO root fetch - processPackages [cloudshell-shell-standards]: Downloading https://files.pythonhosted.org/packages/dc/5b/ee7bc266f4e41446256625309af1ce66e65e5018d69c0a0bbf72e759333b/cloudshell-shell-standards-2.0.2.zip
+[2023-05-12 15:11:28] INFO root fetch - processPackages [JBPhD]: Start processing: the-one-api-sdk-duke
+[2023-05-12 15:11:28] INFO root fetch - main [MainThread]: End processing [JBPhD]: success
+[2023-05-12 15:11:28] INFO root fetch - processPackages [cloudshell-shell-standards]: executing diffoscope
+[2023-05-12 15:11:28] INFO root fetch - processPackages [cloudshell-shell-standards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudshell-shell-standards-2.0.1.zip tmp/cloudshell-shell-standards-2.0.2.zip --markdown 20230512/c/cloudshell-shell-standards/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-05-12 15:11:28] WARNING root fetch - processPackages [the-one-api-sdk-duke]: Skipping, unable to determine old version
+[2023-05-12 15:11:28] INFO root fetch - processPackages [the-one-api-sdk-duke]: Start processing: mozart-api
+[2023-05-12 15:11:28] INFO root fetch - main [MainThread]: End processing [the-one-api-sdk-duke] error
+[2023-05-12 15:11:28] INFO root fetch - processPackages [mozart-api]: New version: [2.5.3.123.1] Old Version: [2.5.3.123.0]
+[2023-05-12 15:11:29] INFO root fetch - processPackages [mozart-api]: Downloading https://files.pythonhosted.org/packages/b9/1a/1f7caa8c9045a524dca959bb887da4595794b1c5d018812a14df6addf8c1/mozart-api-2.5.3.123.0.tar.gz
+[2023-05-12 15:11:29] INFO root fetch - processPackages [mozart-api]: Downloading https://files.pythonhosted.org/packages/cf/ee/5fad6f7925923a438162829667c24a698564170f55f17fc17534068c6f5d/mozart-api-2.5.3.123.1.tar.gz
+[2023-05-12 15:11:29] INFO root fetch - processPackages [mozart-api]: executing diffoscope
+[2023-05-12 15:11:29] INFO root fetch - processPackages [mozart-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mozart-api-2.5.3.123.0.tar.gz tmp/mozart-api-2.5.3.123.1.tar.gz --markdown 20230512/m/mozart-api/2.5.3.123.0-2.5.3.123.1/diff.md --exclude *.pyd
+[2023-05-12 15:11:29] INFO root fetch - processPackages [snakemake]: Start processing: polars-lts-cpu
+[2023-05-12 15:11:29] INFO root fetch - main [MainThread]: End processing [snakemake]: success
+[2023-05-12 15:11:29] INFO root fetch - processPackages [polars-lts-cpu]: New version: [0.17.9] Old Version: [0.17.8]
+[2023-05-12 15:11:29] INFO root fetch - main [MainThread]: End processing [uk-gov-dash-components]: success
+[2023-05-12 15:11:30] INFO root fetch - main [MainThread]: End processing [cloudshell-shell-standards]: success
+[2023-05-12 15:11:30] INFO root fetch - processPackages [polars-lts-cpu]: Downloading https://files.pythonhosted.org/packages/cf/5a/e9d7cc0eb44d3b7f07ad9f8383d720d695be9a13eb1d5846f50689fda832/polars_lts_cpu-0.17.8.tar.gz
+[2023-05-12 15:11:30] INFO root fetch - processPackages [polars-lts-cpu]: Downloading https://files.pythonhosted.org/packages/d4/ef/c46a5777b15f5ee0474ae58ae5cfdd176412dbe9b310e4391e74d3b162f0/polars_lts_cpu-0.17.9.tar.gz
+[2023-05-12 15:11:30] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-05-12 15:11:30] INFO root fetch - processPackages [polars-lts-cpu]: executing diffoscope
+[2023-05-12 15:11:30] INFO root fetch - processPackages [polars-lts-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polars_lts_cpu-0.17.8.tar.gz tmp/polars_lts_cpu-0.17.9.tar.gz --markdown 20230512/p/polars-lts-cpu/0.17.8-0.17.9/diff.md --exclude *.pyd
+[2023-05-12 15:11:31] INFO root fetch - processPackages [fisx]: executing diffoscope
+[2023-05-12 15:11:31] INFO root fetch - processPackages [fisx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fisx-1.3.0.tar.gz tmp/fisx-1.3.1.tar.gz --markdown 20230512/f/fisx/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-05-12 15:11:33] INFO root fetch - main [MainThread]: End processing [polars]: success
+[2023-05-12 15:11:34] INFO root fetch - main [MainThread]: End processing [langflow]: success
+[2023-05-12 15:11:35] INFO root fetch - main [MainThread]: End processing [fisx]: success
+[2023-05-12 15:11:36] INFO root fetch - main [MainThread]: End processing [mozart-api]: success
+[2023-05-12 15:11:36] INFO root fetch - main [MainThread]: End processing [pyjpt]: success
+[2023-05-12 15:11:44] INFO root fetch - main [MainThread]: End processing [polars-u64-idx]: success
+[2023-05-12 15:11:47] INFO root fetch - main [MainThread]: End processing [polars-lts-cpu]: success
+[2023-05-12 15:11:47] INFO root fetch - main [MainThread]: Store serial: [18078306]
