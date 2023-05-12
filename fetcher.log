@@ -5204,3 +5204,77 @@
 [2023-05-12 08:22:44] INFO root fetch - main [MainThread]: End processing [aleksis-core]: success
 [2023-05-12 08:23:12] INFO root fetch - main [MainThread]: End processing [odoo12-addon-pos-cash-move-reason]: success
 [2023-05-12 08:23:12] INFO root fetch - main [MainThread]: Store serial: [18074006]
+[2023-05-12 08:28:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18074006]
+[2023-05-12 08:28:21] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-12 08:28:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: DXR
+[2023-05-12 08:28:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-pos-cash-move-reason
+[2023-05-12 08:28:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: landingai
+[2023-05-12 08:28:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: labx-rs
+[2023-05-12 08:28:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cardmasking
+[2023-05-12 08:28:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: KaggleToDatabricks
+[2023-05-12 08:28:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: openmetadata-ingestion
+[2023-05-12 08:28:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fastapi-request-id
+[2023-05-12 08:28:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: FileCrawler
+[2023-05-12 08:28:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aamt
+[2023-05-12 08:28:21] INFO root fetch - processPackages [KaggleToDatabricks]: New version: [0.9] Old Version: [0.8]
+[2023-05-12 08:28:21] INFO root fetch - processPackages [fastapi-request-id]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-12 08:28:21] INFO root fetch - processPackages [landingai]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-12 08:28:21] INFO root fetch - processPackages [odoo-addon-pos-cash-move-reason]: New version: [15.0.1.0.0.6] Old Version: [15.0.1.0.0.5]
+[2023-05-12 08:28:21] INFO root fetch - processPackages [DXR]: New version: [1.9.0] Old Version: [1.8.9]
+[2023-05-12 08:28:21] INFO root fetch - processPackages [labx-rs]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-12 08:28:21] INFO root fetch - processPackages [cardmasking]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-12 08:28:21] INFO root fetch - processPackages [aamt]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-12 08:28:21] INFO root fetch - processPackages [openmetadata-ingestion]: New version: [1.0.1.3] Old Version: [1.0.1.2]
+[2023-05-12 08:28:21] INFO root fetch - processPackages [FileCrawler]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-12 08:28:21] INFO root fetch - processPackages [KaggleToDatabricks]: executing diffoscope
+[2023-05-12 08:28:21] INFO root fetch - processPackages [KaggleToDatabricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KaggleToDatabricks-0.8.tar.gz tmp/KaggleToDatabricks-0.9.tar.gz --markdown 20230512/K/KaggleToDatabricks/0.8-0.9/diff.md --exclude *.pyd
+[2023-05-12 08:28:21] INFO root fetch - processPackages [fastapi-request-id]: Downloading https://files.pythonhosted.org/packages/11/24/9fcf27a1b11aea715efe7aca5f88510a4d991309b64a2809cd752d351c6c/fastapi_request_id-1.0.1.tar.gz
+[2023-05-12 08:28:21] INFO root fetch - processPackages [FileCrawler]: Downloading https://files.pythonhosted.org/packages/94/9d/9e0a9c229051aa3c4d26b6a3ef18e11e2c0cb5d4371695e93d352203ba82/FileCrawler-0.1.7.tar.gz
+[2023-05-12 08:28:21] INFO root fetch - processPackages [labx-rs]: Downloading https://files.pythonhosted.org/packages/bd/05/308b6a0ccbb31792ff62922573167653eadd91f3f4f190e33bb51cc4677a/labx_rs-0.1.0-cp38-none-win_amd64.whl
+[2023-05-12 08:28:21] INFO root fetch - processPackages [odoo-addon-pos-cash-move-reason]: Downloading https://files.pythonhosted.org/packages/e1/79/ddb7e062b349aedf7f6ef2071350ff57a37eb45f1759067fa5dcbe0c6c25/odoo_addon_pos_cash_move_reason-15.0.1.0.0.5-py3-none-any.whl
+[2023-05-12 08:28:21] WARNING root fetch - processPackages [FileCrawler]: Skipping package: exceeds size limit 78624984>=10485760
+[2023-05-12 08:28:21] INFO root fetch - processPackages [FileCrawler]: Start processing: MixPage
+[2023-05-12 08:28:21] INFO root fetch - processPackages [landingai]: Downloading https://files.pythonhosted.org/packages/31/c0/ffb55708ae3109dcfdfe41c8e3c8f2028091fb7ef2443f0f5652613c0991/landingai-0.0.4-py3-none-any.whl
+[2023-05-12 08:28:21] INFO root fetch - main [MainThread]: End processing [FileCrawler] error
+[2023-05-12 08:28:21] INFO root fetch - processPackages [cardmasking]: Downloading https://files.pythonhosted.org/packages/46/41/b161f7de9050799ea2024487c838f06486f10778b6c72cb1e0dabba01eb6/cardmasking-0.1.2-py3-none-any.whl
+[2023-05-12 08:28:21] WARNING root fetch - processPackages [MixPage]: Skipping, unable to determine old version
+[2023-05-12 08:28:21] INFO root fetch - processPackages [MixPage]: Start processing: lamineml
+[2023-05-12 08:28:21] INFO root fetch - main [MainThread]: End processing [MixPage] error
+[2023-05-12 08:28:21] INFO root fetch - processPackages [aamt]: Downloading https://files.pythonhosted.org/packages/3b/f5/a0e9e18ec2a4580faa70916dd67d1fc44f085b45ebfd00bc4136dde12b0d/aamt-0.2.4-py3-none-any.whl
+[2023-05-12 08:28:21] INFO root fetch - processPackages [lamineml]: New version: [0.0.43] Old Version: [0.0.42]
+[2023-05-12 08:28:21] INFO root fetch - processPackages [landingai]: executing diffoscope
+[2023-05-12 08:28:21] INFO root fetch - processPackages [landingai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/landingai-0.0.3.tar.gz tmp/landingai-0.0.4-py3-none-any.whl.zip --markdown 20230512/l/landingai/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-12 08:28:21] INFO root fetch - processPackages [cardmasking]: executing diffoscope
+[2023-05-12 08:28:21] INFO root fetch - processPackages [cardmasking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cardmasking-0.1.1-py3-none-any.whl.zip tmp/cardmasking-0.1.2-py3-none-any.whl.zip --markdown 20230512/c/cardmasking/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-12 08:28:21] INFO root fetch - processPackages [aamt]: executing diffoscope
+[2023-05-12 08:28:21] INFO root fetch - processPackages [aamt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aamt-0.2.3.tar.gz tmp/aamt-0.2.4-py3-none-any.whl.zip --markdown 20230512/a/aamt/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-12 08:28:21] INFO root fetch - processPackages [DXR]: Downloading https://files.pythonhosted.org/packages/58/99/bea37cb31d3044a82f7464cffc7a579d312db4d08a184b2a6cb09f3401f3/DXR-1.9.0.tar.gz
+[2023-05-12 08:28:21] INFO root fetch - processPackages [odoo-addon-pos-cash-move-reason]: Downloading https://files.pythonhosted.org/packages/14/05/0452413bbde2075edd33467f8942ee4590b96c860fe1579078dbff1d7ecd/odoo_addon_pos_cash_move_reason-15.0.1.0.0.6-py3-none-any.whl
+[2023-05-12 08:28:21] INFO root fetch - processPackages [openmetadata-ingestion]: Downloading https://files.pythonhosted.org/packages/93/ac/98ebf4ead1493829479130898a3290c84cb9f4ad4005bb7c550387157a07/openmetadata-ingestion-1.0.1.3.tar.gz
+[2023-05-12 08:28:22] INFO root fetch - processPackages [lamineml]: Downloading https://files.pythonhosted.org/packages/e3/a6/e68921524250eb94b6e260730a80411c3efbbb4dbd4171eaee4ea39b1aff/lamineml-0.0.42.tar.gz
+[2023-05-12 08:28:22] INFO root fetch - processPackages [fastapi-request-id]: Downloading https://files.pythonhosted.org/packages/b7/56/54ab8d933ba8f7faae4bf2559e25c176d30383b8460faf80dfaea8e9c0dd/fastapi_request_id-1.0.2-py3-none-any.whl
+[2023-05-12 08:28:22] INFO root fetch - processPackages [odoo-addon-pos-cash-move-reason]: executing diffoscope
+[2023-05-12 08:28:22] INFO root fetch - processPackages [odoo-addon-pos-cash-move-reason]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_pos_cash_move_reason-15.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_pos_cash_move_reason-15.0.1.0.0.6-py3-none-any.whl.zip --markdown 20230512/o/odoo-addon-pos-cash-move-reason/15.0.1.0.0.5-15.0.1.0.0.6/diff.md --exclude *.pyd
+[2023-05-12 08:28:22] INFO root fetch - processPackages [DXR]: executing diffoscope
+[2023-05-12 08:28:22] INFO root fetch - processPackages [DXR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DXR-1.8.9.tar.gz tmp/DXR-1.9.0.tar.gz --markdown 20230512/D/DXR/1.8.9-1.9.0/diff.md --exclude *.pyd
+[2023-05-12 08:28:22] INFO root fetch - processPackages [fastapi-request-id]: executing diffoscope
+[2023-05-12 08:28:22] INFO root fetch - processPackages [fastapi-request-id]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_request_id-1.0.1.tar.gz tmp/fastapi_request_id-1.0.2-py3-none-any.whl.zip --markdown 20230512/f/fastapi-request-id/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-12 08:28:22] INFO root fetch - processPackages [labx-rs]: Downloading https://files.pythonhosted.org/packages/b8/0d/5a7a264503a2487674feb4642c152a0a6beabb4c152322ba787db1177471/labx_rs-0.2.0-cp310-cp310-manylinux_2_34_x86_64.whl
+[2023-05-12 08:28:22] INFO root fetch - processPackages [lamineml]: Downloading https://files.pythonhosted.org/packages/e0/6c/dee9bdf3676e5ce4b0960f021361b8b5481831d8c6111e37c03c67f62478/lamineml-0.0.43.tar.gz
+[2023-05-12 08:28:22] INFO root fetch - processPackages [lamineml]: executing diffoscope
+[2023-05-12 08:28:22] INFO root fetch - processPackages [lamineml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamineml-0.0.42.tar.gz tmp/lamineml-0.0.43.tar.gz --markdown 20230512/l/lamineml/0.0.42-0.0.43/diff.md --exclude *.pyd
+[2023-05-12 08:28:22] INFO root fetch - processPackages [openmetadata-ingestion]: executing diffoscope
+[2023-05-12 08:28:22] INFO root fetch - processPackages [openmetadata-ingestion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmetadata-ingestion-1.0.1.2.tar.gz tmp/openmetadata-ingestion-1.0.1.3.tar.gz --markdown 20230512/o/openmetadata-ingestion/1.0.1.2-1.0.1.3/diff.md --exclude *.pyd
+[2023-05-12 08:28:22] INFO root fetch - processPackages [labx-rs]: executing diffoscope
+[2023-05-12 08:28:22] INFO root fetch - processPackages [labx-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labx_rs-0.1.0-cp38-none-win_amd64.whl.zip tmp/labx_rs-0.2.0-cp310-cp310-manylinux_2_34_x86_64.whl.zip --markdown 20230512/l/labx-rs/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-12 08:28:23] INFO root fetch - main [MainThread]: End processing [KaggleToDatabricks]: success
+[2023-05-12 08:28:23] INFO root fetch - main [MainThread]: End processing [landingai]: success
+[2023-05-12 08:28:23] INFO root fetch - main [MainThread]: End processing [aamt]: success
+[2023-05-12 08:28:23] INFO root fetch - main [MainThread]: End processing [cardmasking]: success
+[2023-05-12 08:28:23] INFO root fetch - main [MainThread]: End processing [fastapi-request-id]: success
+[2023-05-12 08:28:24] INFO root fetch - main [MainThread]: End processing [odoo-addon-pos-cash-move-reason]: success
+[2023-05-12 08:28:24] INFO root fetch - main [MainThread]: End processing [DXR]: success
+[2023-05-12 08:28:24] INFO root fetch - main [MainThread]: End processing [lamineml]: success
+[2023-05-12 08:28:24] INFO root fetch - main [MainThread]: End processing [labx-rs]: success
+[2023-05-12 08:28:42] INFO root fetch - main [MainThread]: End processing [openmetadata-ingestion]: success
+[2023-05-12 08:28:42] INFO root fetch - main [MainThread]: Store serial: [18074045]
