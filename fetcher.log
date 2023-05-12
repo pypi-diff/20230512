@@ -10236,3 +10236,64 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-12 13:45:48] INFO root fetch - main [MainThread]: End processing [graphsignal]: success
 [2023-05-12 13:45:51] INFO root fetch - main [MainThread]: End processing [bigdl-nano]: success
 [2023-05-12 13:45:51] INFO root fetch - main [MainThread]: Store serial: [18077433]
+[2023-05-12 13:50:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18077433]
+[2023-05-12 13:51:00] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-12 13:51:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: driveup
+[2023-05-12 13:51:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: GandalfAPI
+[2023-05-12 13:51:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: th2-grpc-lw-data-provider
+[2023-05-12 13:51:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyparrm
+[2023-05-12 13:51:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pythie-serving
+[2023-05-12 13:51:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odap-qi
+[2023-05-12 13:51:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fastfft
+[2023-05-12 13:51:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jaaql-middleware-python
+[2023-05-12 13:51:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pykingas
+[2023-05-12 13:51:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdk-dynamo-table-view
+[2023-05-12 13:51:00] INFO root fetch - processPackages [driveup]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-05-12 13:51:00] WARNING root fetch - processPackages [pyparrm]: Skipping, unable to determine old version
+[2023-05-12 13:51:00] INFO root fetch - processPackages [pyparrm]: Start processing: meshed
+[2023-05-12 13:51:01] INFO root fetch - main [MainThread]: End processing [pyparrm] error
+[2023-05-12 13:51:01] WARNING root fetch - processPackages [GandalfAPI]: Skipping, unable to determine old version
+[2023-05-12 13:51:01] INFO root fetch - main [MainThread]: End processing [GandalfAPI] error
+[2023-05-12 13:51:01] INFO root fetch - processPackages [pythie-serving]: New version: [3.4.0] Old Version: [3.3.0]
+[2023-05-12 13:51:01] WARNING root fetch - processPackages [odap-qi]: Skipping, unable to determine old version
+[2023-05-12 13:51:01] INFO root fetch - processPackages [fastfft]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-12 13:51:01] INFO root fetch - main [MainThread]: End processing [odap-qi] error
+[2023-05-12 13:51:01] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: New version: [2.1.0.dev3871883101] Old Version: [2.0.0.dev4958447946]
+[2023-05-12 13:51:01] INFO root fetch - processPackages [pykingas]: New version: [2.0.0] Old Version: [1.2.4]
+[2023-05-12 13:51:01] INFO root fetch - processPackages [jaaql-middleware-python]: New version: [4.9.1] Old Version: [4.9.0]
+[2023-05-12 13:51:01] INFO root fetch - processPackages [meshed]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-12 13:51:01] INFO root fetch - processPackages [cdk-dynamo-table-view]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-05-12 13:51:01] INFO root fetch - processPackages [jaaql-middleware-python]: executing diffoscope
+[2023-05-12 13:51:01] INFO root fetch - processPackages [jaaql-middleware-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaaql-middleware-python-4.9.0.tar.gz tmp/jaaql-middleware-python-4.9.1.tar.gz --markdown 20230512/j/jaaql-middleware-python/4.9.0-4.9.1/diff.md --exclude *.pyd
+[2023-05-12 13:51:01] INFO root fetch - processPackages [meshed]: executing diffoscope
+[2023-05-12 13:51:01] INFO root fetch - processPackages [meshed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meshed-0.1.98.tar.gz tmp/meshed-0.1.99.tar.gz --markdown 20230512/m/meshed/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-12 13:51:01] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/62/d6/b7569e0f910748e89bbb2c2886e0bb56ae99b560a41c2c2c7139436451dd/th2_grpc_lw_data_provider-2.0.0.dev4958447946.tar.gz
+[2023-05-12 13:51:01] INFO root fetch - processPackages [pykingas]: Downloading https://files.pythonhosted.org/packages/8c/0c/9fd66aa7b6c80860e6fe6facb61f90c72f90fffa71108b9b573281177fad/pykingas-1.2.4.tar.gz
+[2023-05-12 13:51:01] INFO root fetch - processPackages [pythie-serving]: Downloading https://files.pythonhosted.org/packages/ae/43/cdc609231aae93c58509af07da999caeda20441f26db41cfa95899d8128c/pythie-serving-3.3.0.tar.gz
+[2023-05-12 13:51:01] INFO root fetch - processPackages [fastfft]: Downloading https://files.pythonhosted.org/packages/03/d3/bdbf31ce96d6ca0bb26fac4581f2b77b42f57f9d2f59c48a49dbbb453b6a/fastfft-0.1.5.tar.gz
+[2023-05-12 13:51:01] INFO root fetch - processPackages [cdk-dynamo-table-view]: Downloading https://files.pythonhosted.org/packages/93/3e/4319adc1b0123430be7ed5c0edfb41c4089547d907dbf48ef30e74852d23/cdk-dynamo-table-view-0.2.98.tar.gz
+[2023-05-12 13:51:01] INFO root fetch - processPackages [driveup]: Downloading https://files.pythonhosted.org/packages/b3/a4/96a0453870c42340a8ffe04fc7f6009066fe7a24c5db65f11f6811823c1f/driveup-0.5.0.tar.gz
+[2023-05-12 13:51:01] INFO root fetch - processPackages [fastfft]: executing diffoscope
+[2023-05-12 13:51:01] INFO root fetch - processPackages [fastfft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastfft-0.1.4.tar.gz tmp/fastfft-0.1.5.tar.gz --markdown 20230512/f/fastfft/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-12 13:51:01] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: executing diffoscope
+[2023-05-12 13:51:01] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_lw_data_provider-2.0.0.dev4958447946.tar.gz tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz --markdown 20230512/t/th2-grpc-lw-data-provider/2.0.0.dev4958447946-2.1.0.dev3871883101/diff.md --exclude *.pyd
+[2023-05-12 13:51:01] INFO root fetch - processPackages [pykingas]: Downloading https://files.pythonhosted.org/packages/87/85/4f432e6aad34de46bdbb6bc092da001ec504399d52faa02a2eac3d0ad81a/pykingas-2.0.0-cp39-none-macosx_11_0_arm64.whl
+[2023-05-12 13:51:01] INFO root fetch - processPackages [pythie-serving]: Downloading https://files.pythonhosted.org/packages/da/87/a500ecdb16994244a0b4e43f9b6093580fb79d182a1a4622ef88c2aa8c16/pythie-serving-3.4.0.tar.gz
+[2023-05-12 13:51:01] INFO root fetch - processPackages [driveup]: executing diffoscope
+[2023-05-12 13:51:01] INFO root fetch - processPackages [driveup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/driveup-0.4.0.tar.gz tmp/driveup-0.5.0.tar.gz --markdown 20230512/d/driveup/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-05-12 13:51:01] INFO root fetch - processPackages [cdk-dynamo-table-view]: Downloading https://files.pythonhosted.org/packages/53/82/0ed8f034bf0107a07d69513c26ca3166139f353bcbcf1472d091f9635672/cdk-dynamo-table-view-0.2.99.tar.gz
+[2023-05-12 13:51:01] INFO root fetch - processPackages [pythie-serving]: executing diffoscope
+[2023-05-12 13:51:01] INFO root fetch - processPackages [pythie-serving]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythie-serving-3.3.0.tar.gz tmp/pythie-serving-3.4.0.tar.gz --markdown 20230512/p/pythie-serving/3.3.0-3.4.0/diff.md --exclude *.pyd
+[2023-05-12 13:51:01] INFO root fetch - processPackages [pykingas]: executing diffoscope
+[2023-05-12 13:51:01] INFO root fetch - processPackages [pykingas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pykingas-1.2.4.tar.gz tmp/pykingas-2.0.0-cp39-none-macosx_11_0_arm64.whl.zip --markdown 20230512/p/pykingas/1.2.4-2.0.0/diff.md --exclude *.pyd
+[2023-05-12 13:51:01] INFO root fetch - processPackages [cdk-dynamo-table-view]: executing diffoscope
+[2023-05-12 13:51:01] INFO root fetch - processPackages [cdk-dynamo-table-view]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-dynamo-table-view-0.2.98.tar.gz tmp/cdk-dynamo-table-view-0.2.99.tar.gz --markdown 20230512/c/cdk-dynamo-table-view/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-05-12 13:51:02] INFO root fetch - main [MainThread]: End processing [fastfft]: success
+[2023-05-12 13:51:02] INFO root fetch - main [MainThread]: End processing [driveup]: success
+[2023-05-12 13:51:02] INFO root fetch - main [MainThread]: End processing [pykingas]: success
+[2023-05-12 13:51:02] INFO root fetch - main [MainThread]: End processing [cdk-dynamo-table-view]: success
+[2023-05-12 13:51:03] INFO root fetch - main [MainThread]: End processing [th2-grpc-lw-data-provider]: success
+[2023-05-12 13:51:04] INFO root fetch - main [MainThread]: End processing [jaaql-middleware-python]: success
+[2023-05-12 13:51:04] INFO root fetch - main [MainThread]: End processing [meshed]: success
+[2023-05-12 13:51:05] INFO root fetch - main [MainThread]: End processing [pythie-serving]: success
+[2023-05-12 13:51:05] INFO root fetch - main [MainThread]: Store serial: [18077484]
