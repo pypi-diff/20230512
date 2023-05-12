@@ -13967,3 +13967,80 @@ EOFError: EOF read where object expected
 [2023-05-12 17:22:45] INFO root fetch - main [MainThread]: End processing [ncbi-datasets-pylib]: success
 [2023-05-12 17:22:46] INFO root fetch - main [MainThread]: End processing [oakvar]: success
 [2023-05-12 17:22:46] INFO root fetch - main [MainThread]: Store serial: [18079830]
+[2023-05-12 17:27:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18079830]
+[2023-05-12 17:27:55] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-12 17:27:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyspaceaware
+[2023-05-12 17:27:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: loopgpt
+[2023-05-12 17:27:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: naturalspeech2-pytorch
+[2023-05-12 17:27:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: savant-rs
+[2023-05-12 17:27:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: querysource
+[2023-05-12 17:27:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: oloren
+[2023-05-12 17:27:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: core-base-utils
+[2023-05-12 17:27:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: supy
+[2023-05-12 17:27:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: np-pipeline-qc
+[2023-05-12 17:27:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sonofflan
+[2023-05-12 17:27:55] INFO root fetch - processPackages [savant-rs]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-12 17:27:55] INFO root fetch - processPackages [naturalspeech2-pytorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 17:27:55] INFO root fetch - processPackages [np-pipeline-qc]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-12 17:27:55] INFO root fetch - processPackages [oloren]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 17:27:55] WARNING root fetch - processPackages [core-base-utils]: Skipping, unable to determine old version
+[2023-05-12 17:27:55] INFO root fetch - processPackages [core-base-utils]: Start processing: jupyterlab-courselevels
+[2023-05-12 17:27:55] INFO root fetch - main [MainThread]: End processing [core-base-utils] error
+[2023-05-12 17:27:55] INFO root fetch - processPackages [querysource]: New version: [3.6.9] Old Version: [3.6.8]
+[2023-05-12 17:27:55] INFO root fetch - processPackages [loopgpt]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 17:27:55] INFO root fetch - processPackages [pyspaceaware]: New version: [0.2.41] Old Version: [0.2.40]
+[2023-05-12 17:27:55] INFO root fetch - processPackages [sonofflan]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-12 17:27:55] INFO root fetch - processPackages [supy]: New version: [2023.5.12.dev0] Old Version: [2023.4.22.dev0]
+[2023-05-12 17:27:55] INFO root fetch - processPackages [naturalspeech2-pytorch]: executing diffoscope
+[2023-05-12 17:27:55] INFO root fetch - processPackages [naturalspeech2-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naturalspeech2-pytorch-0.0.8.tar.gz tmp/naturalspeech2-pytorch-0.0.9.tar.gz --markdown 20230512/n/naturalspeech2-pytorch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 17:27:55] INFO root fetch - processPackages [jupyterlab-courselevels]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-12 17:27:55] INFO root fetch - processPackages [savant-rs]: Downloading https://files.pythonhosted.org/packages/74/86/e23454a21a459d6ec4f6003f93d255cf2041cfe24cc1d3638d08e38a3087/savant_rs-0.1.1.tar.gz
+[2023-05-12 17:27:55] INFO root fetch - processPackages [oloren]: executing diffoscope
+[2023-05-12 17:27:55] INFO root fetch - processPackages [oloren]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oloren-0.0.8.tar.gz tmp/oloren-0.0.9.tar.gz --markdown 20230512/o/oloren/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 17:27:55] INFO root fetch - processPackages [querysource]: Downloading https://files.pythonhosted.org/packages/70/4b/8c539f343afcdd37564e5a6c74c47423c9bf31268e67037958cf41e0fefb/querysource-3.6.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-12 17:27:55] INFO root fetch - processPackages [np-pipeline-qc]: Downloading https://files.pythonhosted.org/packages/5c/13/0c60d33514a2c550d1efd4cd82ee16c4538b32770ebd5efc5b4f43863704/np-pipeline-qc-0.0.4.tar.gz
+[2023-05-12 17:27:55] INFO root fetch - processPackages [pyspaceaware]: Downloading https://files.pythonhosted.org/packages/b7/35/6cd356040b025efc5ab41ee1d8130f764975f8e8f690a48be4f95d055b4b/pyspaceaware-0.2.40.tar.gz
+[2023-05-12 17:27:55] INFO root fetch - processPackages [sonofflan]: Downloading https://files.pythonhosted.org/packages/61/06/a6714ab299feb2234dbd26aed9eaa1628a0c915379d9facc704db696b4cc/sonofflan-0.3.1.tar.gz
+[2023-05-12 17:27:55] INFO root fetch - processPackages [supy]: Downloading https://files.pythonhosted.org/packages/17/66/851c0078bc617393cb68beb041774ca39198e7b29a111c77db7e285a1834/supy-2023.4.22.dev0-cp39-cp39-win_amd64.whl
+[2023-05-12 17:27:55] WARNING root fetch - processPackages [pyspaceaware]: Skipping package: exceeds size limit 11011953>=10485760
+[2023-05-12 17:27:55] INFO root fetch - processPackages [pyspaceaware]: Start processing: example-sulthan4
+[2023-05-12 17:27:55] INFO root fetch - main [MainThread]: End processing [pyspaceaware] error
+[2023-05-12 17:27:55] INFO root fetch - processPackages [example-sulthan4]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 17:27:55] INFO root fetch - processPackages [jupyterlab-courselevels]: Downloading https://files.pythonhosted.org/packages/10/b3/f0cfd0bd429a206431f3cfcc7c3626e46af76344a482da94360f67dbb726/jupyterlab_courselevels-0.2.0.tar.gz
+[2023-05-12 17:27:56] INFO root fetch - processPackages [savant-rs]: Downloading https://files.pythonhosted.org/packages/58/9b/ed20333658ba58586cf1a023bc08b58a1588709ff78f5bf0af6615b55bfe/savant_rs-0.1.2.tar.gz
+[2023-05-12 17:27:56] INFO root fetch - processPackages [loopgpt]: executing diffoscope
+[2023-05-12 17:27:56] INFO root fetch - processPackages [loopgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loopgpt-0.0.8.tar.gz tmp/loopgpt-0.0.9.tar.gz --markdown 20230512/l/loopgpt/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 17:27:56] INFO root fetch - processPackages [savant-rs]: executing diffoscope
+[2023-05-12 17:27:56] INFO root fetch - processPackages [savant-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/savant_rs-0.1.1.tar.gz tmp/savant_rs-0.1.2.tar.gz --markdown 20230512/s/savant-rs/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-12 17:27:56] INFO root fetch - processPackages [example-sulthan4]: Downloading https://files.pythonhosted.org/packages/b7/03/f213511a3521cb76e4d999c37e25307e39106321e2ace820dd3f4be65c72/example-sulthan4-0.0.8.tar.gz
+[2023-05-12 17:27:56] INFO root fetch - processPackages [jupyterlab-courselevels]: Downloading https://files.pythonhosted.org/packages/e3/39/f4ec9a9bde95c327dfead7bfb8da595e9fe397bc191b6b5e3f80450e12f8/jupyterlab_courselevels-0.3.0.tar.gz
+[2023-05-12 17:27:56] INFO root fetch - processPackages [np-pipeline-qc]: executing diffoscope
+[2023-05-12 17:27:56] INFO root fetch - processPackages [np-pipeline-qc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np-pipeline-qc-0.0.3.tar.gz tmp/np-pipeline-qc-0.0.4.tar.gz --markdown 20230512/n/np-pipeline-qc/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-12 17:27:56] INFO root fetch - processPackages [sonofflan]: Downloading https://files.pythonhosted.org/packages/82/f1/0da4dba911b3d50146a0192e7b0dee0b1280f2c921f30162b4a36807e58b/sonofflan-0.3.2.tar.gz
+[2023-05-12 17:27:56] INFO root fetch - processPackages [sonofflan]: executing diffoscope
+[2023-05-12 17:27:56] INFO root fetch - processPackages [sonofflan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sonofflan-0.3.1.tar.gz tmp/sonofflan-0.3.2.tar.gz --markdown 20230512/s/sonofflan/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-12 17:27:56] INFO root fetch - processPackages [jupyterlab-courselevels]: executing diffoscope
+[2023-05-12 17:27:56] INFO root fetch - processPackages [jupyterlab-courselevels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_courselevels-0.2.0.tar.gz tmp/jupyterlab_courselevels-0.3.0.tar.gz --markdown 20230512/j/jupyterlab-courselevels/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-12 17:27:56] INFO root fetch - processPackages [example-sulthan4]: Downloading https://files.pythonhosted.org/packages/98/6f/1f660c615a3e9374218cd03410fa333b6264aa6c3fca978c51169d2cb656/example-sulthan4-0.0.9.tar.gz
+[2023-05-12 17:27:56] INFO root fetch - processPackages [example-sulthan4]: executing diffoscope
+[2023-05-12 17:27:56] INFO root fetch - processPackages [example-sulthan4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/example-sulthan4-0.0.8.tar.gz tmp/example-sulthan4-0.0.9.tar.gz --markdown 20230512/e/example-sulthan4/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 17:27:56] INFO root fetch - processPackages [querysource]: Downloading https://files.pythonhosted.org/packages/ab/50/018cb101f002f53a882706970a666f7fabfdaef68902e2363149b998910b/querysource-3.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-12 17:27:56] INFO root fetch - processPackages [supy]: Downloading https://files.pythonhosted.org/packages/e0/fe/875954238fee4aaac8e0d9b5a02870cd494a2940ad8057a03f6b78094dbc/supy-2023.5.12.dev0-cp39-cp39-win_amd64.whl
+[2023-05-12 17:27:57] INFO root fetch - processPackages [querysource]: executing diffoscope
+[2023-05-12 17:27:57] INFO root fetch - processPackages [querysource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/querysource-3.6.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/querysource-3.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230512/q/querysource/3.6.8-3.6.9/diff.md --exclude *.pyd
+[2023-05-12 17:27:57] INFO root fetch - processPackages [supy]: executing diffoscope
+[2023-05-12 17:27:57] INFO root fetch - processPackages [supy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supy-2023.4.22.dev0-cp39-cp39-win_amd64.whl.zip tmp/supy-2023.5.12.dev0-cp39-cp39-win_amd64.whl.zip --markdown 20230512/s/supy/2023.4.22.dev0-2023.5.12.dev0/diff.md --exclude *.pyd
+[2023-05-12 17:27:57] INFO root fetch - processPackages [naturalspeech2-pytorch]: Start processing: damo-embedding
+[2023-05-12 17:27:57] INFO root fetch - main [MainThread]: End processing [naturalspeech2-pytorch]: success
+[2023-05-12 17:27:57] ERROR root fetch - processPackages [damo-embedding]: Unable to get metadata: No such project 'damo-embedding'
+[2023-05-12 17:27:57] INFO root fetch - main [MainThread]: End processing [damo-embedding] error
+[2023-05-12 17:27:57] INFO root fetch - main [MainThread]: End processing [loopgpt]: success
+[2023-05-12 17:27:58] INFO root fetch - main [MainThread]: End processing [example-sulthan4]: success
+[2023-05-12 17:27:58] INFO root fetch - main [MainThread]: End processing [sonofflan]: success
+[2023-05-12 17:27:58] INFO root fetch - main [MainThread]: End processing [savant-rs]: success
+[2023-05-12 17:27:58] INFO root fetch - main [MainThread]: End processing [np-pipeline-qc]: success
+[2023-05-12 17:27:59] INFO root fetch - main [MainThread]: End processing [supy]: success
+[2023-05-12 17:28:01] INFO root fetch - main [MainThread]: End processing [querysource]: success
+[2023-05-12 17:28:01] INFO root fetch - main [MainThread]: End processing [oloren]: success
+[2023-05-12 17:28:07] INFO root fetch - main [MainThread]: End processing [jupyterlab-courselevels]: success
+[2023-05-12 17:28:07] INFO root fetch - main [MainThread]: Store serial: [18079912]
