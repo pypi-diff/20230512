@@ -12820,3 +12820,52 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-12 16:15:39] INFO root fetch - main [MainThread]: End processing [pyqode-core]: success
 [2023-05-12 16:15:40] INFO root fetch - main [MainThread]: End processing [returnn]: success
 [2023-05-12 16:15:40] INFO root fetch - main [MainThread]: Store serial: [18079190]
+[2023-05-12 16:20:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18079190]
+[2023-05-12 16:20:49] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-12 16:20:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rai-toolbox
+[2023-05-12 16:20:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: localstack-core
+[2023-05-12 16:20:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ovos-plugin-manager
+[2023-05-12 16:20:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mariqt
+[2023-05-12 16:20:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: secmarker
+[2023-05-12 16:20:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scipion-em-dynamo
+[2023-05-12 16:20:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: localstack-core
+[2023-05-12 16:20:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nonebot-plugin-arkgacha
+[2023-05-12 16:20:50] INFO root fetch - processPackages [mariqt]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-05-12 16:20:50] INFO root fetch - processPackages [localstack-core]: New version: [2.0.3.dev20230511170618] Old Version: [2.0.3.dev20230511143833]
+[2023-05-12 16:20:50] WARNING root fetch - processPackages [secmarker]: Skipping, unable to determine old version
+[2023-05-12 16:20:50] INFO root fetch - main [MainThread]: End processing [secmarker] error
+[2023-05-12 16:20:50] INFO root fetch - processPackages [nonebot-plugin-arkgacha]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-12 16:20:50] INFO root fetch - processPackages [localstack-core]: New version: [2.0.3.dev20230511170618] Old Version: [2.0.3.dev20230511143833]
+[2023-05-12 16:20:50] INFO root fetch - processPackages [ovos-plugin-manager]: New version: [0.0.9] Old Version: [0.0.8a3]
+[2023-05-12 16:20:50] INFO root fetch - processPackages [rai-toolbox]: New version: [0.3.1rc2] Old Version: [0.2.1]
+[2023-05-12 16:20:50] INFO root fetch - processPackages [scipion-em-dynamo]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-12 16:20:50] INFO root fetch - processPackages [mariqt]: executing diffoscope
+[2023-05-12 16:20:50] INFO root fetch - processPackages [mariqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mariqt-0.4.2-py2.py3-none-any.whl.zip tmp/mariqt-0.4.3-py2.py3-none-any.whl.zip --markdown 20230512/m/mariqt/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-05-12 16:20:50] INFO root fetch - processPackages [nonebot-plugin-arkgacha]: executing diffoscope
+[2023-05-12 16:20:50] INFO root fetch - processPackages [nonebot-plugin-arkgacha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_arkgacha-0.1.0.tar.gz tmp/nonebot_plugin_arkgacha-0.1.1.tar.gz --markdown 20230512/n/nonebot-plugin-arkgacha/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-12 16:20:50] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/91/cc/27333d8417dae6d3d1388417d635d8a6b210006e7c32377813f9157e964d/localstack-core-2.0.3.dev20230511170618.tar.gz
+[2023-05-12 16:20:50] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/91/cc/27333d8417dae6d3d1388417d635d8a6b210006e7c32377813f9157e964d/localstack-core-2.0.3.dev20230511170618.tar.gz
+[2023-05-12 16:20:50] INFO root fetch - processPackages [rai-toolbox]: Downloading https://files.pythonhosted.org/packages/50/5c/984495d9ea9889f67f1afba2d91d32bcd13621e8bee117aa84c8464efd8c/rai_toolbox-0.2.1.tar.gz
+[2023-05-12 16:20:50] INFO root fetch - processPackages [scipion-em-dynamo]: Downloading https://files.pythonhosted.org/packages/0e/06/18d756fc477a9faf167144f1c0b90369e74f002ac8214206347ed553b1af/scipion-em-dynamo-3.1.8.tar.gz
+[2023-05-12 16:20:50] INFO root fetch - processPackages [ovos-plugin-manager]: Downloading https://files.pythonhosted.org/packages/b2/37/1a222e9f15849fb1ebcafce5a7ba00f48fc94ba80438f3c9e243ce6b66c3/ovos_plugin_manager-0.0.8a3-py3-none-any.whl
+[2023-05-12 16:20:50] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-05-12 16:20:50] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.0.3.dev20230511143833.tar.gz tmp/localstack-core-2.0.3.dev20230511170618.tar.gz --markdown 20230512/l/localstack-core/2.0.3.dev20230511143833-2.0.3.dev20230511170618/diff.md --exclude *.pyd
+[2023-05-12 16:20:50] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-05-12 16:20:50] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.0.3.dev20230511143833.tar.gz tmp/localstack-core-2.0.3.dev20230511170618.tar.gz --markdown 20230512/l/localstack-core/2.0.3.dev20230511143833-2.0.3.dev20230511170618/diff.md --exclude *.pyd
+[2023-05-12 16:20:50] INFO root fetch - processPackages [rai-toolbox]: Downloading https://files.pythonhosted.org/packages/2c/b9/8475d2a3727152a0b983412b915198fc4d889896d1ecbe823bfeef43c57a/rai_toolbox-0.3.1rc2.tar.gz
+[2023-05-12 16:20:50] INFO root fetch - processPackages [ovos-plugin-manager]: Downloading https://files.pythonhosted.org/packages/52/e2/f57129caaddb3c7ec480ea84cd54a36c5f47dec4dff4add3d7d3eea6e6a8/ovos_plugin_manager-0.0.9-py3-none-any.whl
+[2023-05-12 16:20:50] INFO root fetch - processPackages [ovos-plugin-manager]: executing diffoscope
+[2023-05-12 16:20:50] INFO root fetch - processPackages [ovos-plugin-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_plugin_manager-0.0.8a3-py3-none-any.whl.zip tmp/ovos_plugin_manager-0.0.9-py3-none-any.whl.zip --markdown 20230512/o/ovos-plugin-manager/0.0.8a3-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 16:20:50] INFO root fetch - processPackages [scipion-em-dynamo]: Downloading https://files.pythonhosted.org/packages/fa/42/87e294e41a5327d84dd9117c44c2dd241ce407f7bfcf98a87e28fe0b6518/scipion-em-dynamo-3.1.9.tar.gz
+[2023-05-12 16:20:50] INFO root fetch - processPackages [scipion-em-dynamo]: executing diffoscope
+[2023-05-12 16:20:50] INFO root fetch - processPackages [scipion-em-dynamo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scipion-em-dynamo-3.1.8.tar.gz tmp/scipion-em-dynamo-3.1.9.tar.gz --markdown 20230512/s/scipion-em-dynamo/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-12 16:20:51] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-arkgacha]: success
+[2023-05-12 16:20:51] INFO root fetch - processPackages [rai-toolbox]: executing diffoscope
+[2023-05-12 16:20:51] INFO root fetch - processPackages [rai-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rai_toolbox-0.2.1.tar.gz tmp/rai_toolbox-0.3.1rc2.tar.gz --markdown 20230512/r/rai-toolbox/0.2.1-0.3.1rc2/diff.md --exclude *.pyd
+[2023-05-12 16:20:51] INFO root fetch - main [MainThread]: End processing [mariqt]: success
+[2023-05-12 16:20:51] INFO root fetch - main [MainThread]: End processing [ovos-plugin-manager]: success
+[2023-05-12 16:20:52] INFO root fetch - main [MainThread]: End processing [scipion-em-dynamo]: success
+[2023-05-12 16:20:53] INFO root fetch - main [MainThread]: End processing [rai-toolbox]: success
+[2023-05-12 16:20:56] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-05-12 16:20:59] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-05-12 16:20:59] INFO root fetch - main [MainThread]: Store serial: [18079218]
