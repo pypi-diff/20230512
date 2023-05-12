@@ -5493,3 +5493,29 @@
 [2023-05-12 08:59:42] INFO root fetch - main [MainThread]: End processing [a10-octavia]: success
 [2023-05-12 08:59:42] INFO root fetch - main [MainThread]: End processing [libcnmc]: success
 [2023-05-12 08:59:42] INFO root fetch - main [MainThread]: Store serial: [18074229]
+[2023-05-12 09:04:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18074229]
+[2023-05-12 09:04:51] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-05-12 09:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dataquality
+[2023-05-12 09:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: g42cloudsdkcbr
+[2023-05-12 09:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-report-qweb-parameter
+[2023-05-12 09:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flaretool
+[2023-05-12 09:04:51] INFO root fetch - processPackages [odoo-addon-report-qweb-parameter]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-05-12 09:04:51] INFO root fetch - processPackages [g42cloudsdkcbr]: New version: [0.0.6b0] Old Version: [0.0.5b0]
+[2023-05-12 09:04:51] INFO root fetch - processPackages [flaretool]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-12 09:04:51] INFO root fetch - processPackages [dataquality]: New version: [0.9.1a3] Old Version: [0.9.1a2]
+[2023-05-12 09:04:51] INFO root fetch - processPackages [g42cloudsdkcbr]: Downloading https://files.pythonhosted.org/packages/53/ae/3bd855e54eeb1bc5e178e0caea0d8fc1cecda6d15e1cc8ee5ede67cc352b/g42cloudsdkcbr-0.0.5b0-py2.py3-none-any.whl
+[2023-05-12 09:04:52] INFO root fetch - processPackages [odoo-addon-report-qweb-parameter]: Downloading https://files.pythonhosted.org/packages/7e/d8/aabf7d4f37a7556acb8a348d944bae9300648eff55c4f41029d145d2dddb/odoo_addon_report_qweb_parameter-16.0.1.0.0.3-py3-none-any.whl
+[2023-05-12 09:04:52] INFO root fetch - processPackages [flaretool]: executing diffoscope
+[2023-05-12 09:04:52] INFO root fetch - processPackages [flaretool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flaretool-0.1.7.tar.gz tmp/flaretool-0.1.8.tar.gz --markdown 20230512/f/flaretool/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-12 09:04:52] INFO root fetch - processPackages [odoo-addon-report-qweb-parameter]: executing diffoscope
+[2023-05-12 09:04:52] INFO root fetch - processPackages [odoo-addon-report-qweb-parameter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_report_qweb_parameter-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_report_qweb_parameter-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230512/o/odoo-addon-report-qweb-parameter/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-05-12 09:04:52] INFO root fetch - processPackages [dataquality]: executing diffoscope
+[2023-05-12 09:04:52] INFO root fetch - processPackages [dataquality]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataquality-0.9.1a2.tar.gz tmp/dataquality-0.9.1a3.tar.gz --markdown 20230512/d/dataquality/0.9.1a2-0.9.1a3/diff.md --exclude *.pyd
+[2023-05-12 09:04:52] INFO root fetch - processPackages [g42cloudsdkcbr]: Downloading https://files.pythonhosted.org/packages/0f/aa/fddab7e5cd18f69b8a18f855621573e793782b75ce7a390a3a76ed71329f/g42cloudsdkcbr-0.0.6b0-py2.py3-none-any.whl
+[2023-05-12 09:04:52] INFO root fetch - processPackages [g42cloudsdkcbr]: executing diffoscope
+[2023-05-12 09:04:52] INFO root fetch - processPackages [g42cloudsdkcbr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/g42cloudsdkcbr-0.0.5b0-py2.py3-none-any.whl.zip tmp/g42cloudsdkcbr-0.0.6b0-py2.py3-none-any.whl.zip --markdown 20230512/g/g42cloudsdkcbr/0.0.5b0-0.0.6b0/diff.md --exclude *.pyd
+[2023-05-12 09:04:53] INFO root fetch - main [MainThread]: End processing [flaretool]: success
+[2023-05-12 09:04:53] INFO root fetch - main [MainThread]: End processing [odoo-addon-report-qweb-parameter]: success
+[2023-05-12 09:04:54] INFO root fetch - main [MainThread]: End processing [dataquality]: success
+[2023-05-12 09:04:56] INFO root fetch - main [MainThread]: End processing [g42cloudsdkcbr]: success
+[2023-05-12 09:04:56] INFO root fetch - main [MainThread]: Store serial: [18074283]
