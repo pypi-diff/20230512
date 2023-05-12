@@ -16934,3 +16934,97 @@ EOFError: EOF read where object expected
 [2023-05-12 19:49:41] INFO root fetch - main [MainThread]: End processing [pydivsufsort]: success
 [2023-05-12 19:49:43] INFO root fetch - main [MainThread]: End processing [lightning-cloud]: success
 [2023-05-12 19:49:43] INFO root fetch - main [MainThread]: Store serial: [18081688]
+[2023-05-12 19:54:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18081688]
+[2023-05-12 19:54:52] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-12 19:54:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mrq-custom
+[2023-05-12 19:54:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: axdd-person-client
+[2023-05-12 19:54:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: systems-manager
+[2023-05-12 19:54:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lmqg
+[2023-05-12 19:54:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: concept-x-converter
+[2023-05-12 19:54:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: streaming-indicators
+[2023-05-12 19:54:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: volttron-dnp3-outstation
+[2023-05-12 19:54:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pybuilder-pytest-too
+[2023-05-12 19:54:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pybuilder-docker-too
+[2023-05-12 19:54:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: infra-buddy-too
+[2023-05-12 19:54:52] INFO root fetch - processPackages [streaming-indicators]: New version: [0.0.1rc0] Old Version: [0.0.1b0]
+[2023-05-12 19:54:52] INFO root fetch - processPackages [systems-manager]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-12 19:54:52] WARNING root fetch - processPackages [concept-x-converter]: Skipping, unable to determine old version
+[2023-05-12 19:54:52] INFO root fetch - processPackages [concept-x-converter]: Start processing: pybuilder-integration
+[2023-05-12 19:54:52] INFO root fetch - main [MainThread]: End processing [concept-x-converter] error
+[2023-05-12 19:54:52] INFO root fetch - processPackages [systems-manager]: executing diffoscope
+[2023-05-12 19:54:52] INFO root fetch - processPackages [systems-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systems_manager-0.8.0-py2.py3-none-any.whl.zip tmp/systems_manager-0.9.0-py2.py3-none-any.whl.zip --markdown 20230512/s/systems-manager/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-12 19:54:52] INFO root fetch - processPackages [mrq-custom]: New version: [0.9.33.3] Old Version: [0.9.33.2]
+[2023-05-12 19:54:52] INFO root fetch - processPackages [pybuilder-pytest-too]: New version: [7] Old Version: [17]
+[2023-05-12 19:54:52] INFO root fetch - processPackages [infra-buddy-too]: New version: [63] Old Version: [62]
+[2023-05-12 19:54:52] INFO root fetch - processPackages [volttron-dnp3-outstation]: New version: [0.1.1a5] Old Version: [0.1.1a4]
+[2023-05-12 19:54:52] INFO root fetch - processPackages [lmqg]: New version: [0.1.0] Old Version: [0.0.8]
+[2023-05-12 19:54:52] INFO root fetch - processPackages [axdd-person-client]: New version: [1.1.7] Old Version: [1.1.6]
+[2023-05-12 19:54:52] INFO root fetch - processPackages [pybuilder-docker-too]: New version: [43] Old Version: [42]
+[2023-05-12 19:54:52] INFO root fetch - processPackages [streaming-indicators]: Downloading https://files.pythonhosted.org/packages/61/73/0e790f87e802617b00bf1d4519b6dba6c76097307b0bcf99fe458cd93619/streaming_indicators-0.0.1rc0.tar.gz
+[2023-05-12 19:54:52] INFO root fetch - processPackages [pybuilder-integration]: New version: [88] Old Version: [87]
+[2023-05-12 19:54:52] INFO root fetch - processPackages [pybuilder-pytest-too]: Downloading https://files.pythonhosted.org/packages/74/9a/d517de04954b14c13d3c2ce76b5450182076234eaa41ecf74cc18fa6ef6f/pybuilder_pytest_too-17-py3-none-any.whl
+[2023-05-12 19:54:52] INFO root fetch - processPackages [mrq-custom]: Downloading https://files.pythonhosted.org/packages/c0/82/24b87a1d4496d64845209ccfe6f13afd62df8ae1213dc9a1f7577047222c/mrq-custom-0.9.33.2.tar.gz
+[2023-05-12 19:54:52] INFO root fetch - processPackages [infra-buddy-too]: Downloading https://files.pythonhosted.org/packages/5f/bc/3411e5b1188c888befe51f485d08c42f04b7d9db2dc3ec70a1b2810d9414/infra-buddy-too-62.tar.gz
+[2023-05-12 19:54:52] INFO root fetch - processPackages [lmqg]: Downloading https://files.pythonhosted.org/packages/10/21/2cae726b519974f5dab415b3b07b45cd455648a136fef6721c3ca61a081d/lmqg-0.0.8.tar.gz
+[2023-05-12 19:54:52] INFO root fetch - processPackages [pybuilder-docker-too]: Downloading https://files.pythonhosted.org/packages/76/ef/d6b20971d68c0cbdb2f1c538d3a91897c8e1454b0424847e37989062aef8/pybuilder-docker-too-42.tar.gz
+[2023-05-12 19:54:52] INFO root fetch - processPackages [volttron-dnp3-outstation]: Downloading https://files.pythonhosted.org/packages/bd/72/9e627c82d6890ae2cc541d5dba5607581709bd55339b9afdce514f5b2ae4/volttron_dnp3_outstation-0.1.1a4.tar.gz
+[2023-05-12 19:54:52] INFO root fetch - processPackages [streaming-indicators]: executing diffoscope
+[2023-05-12 19:54:52] INFO root fetch - processPackages [streaming-indicators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streaming_indicators-0.0.1b0.tar.gz tmp/streaming_indicators-0.0.1rc0.tar.gz --markdown 20230512/s/streaming-indicators/0.0.1b0-0.0.1rc0/diff.md --exclude *.pyd
+[2023-05-12 19:54:52] INFO root fetch - processPackages [pybuilder-integration]: Downloading https://files.pythonhosted.org/packages/38/5a/703b17fa514f7a990b22e9965637b0f9ddabf191200f73c719a8629e8079/pybuilder-integration-87.tar.gz
+[2023-05-12 19:54:52] INFO root fetch - processPackages [axdd-person-client]: Downloading https://files.pythonhosted.org/packages/d4/a4/31f775155075b276c5de596e97c274df650eb16cdea7e0e3748f6bceb590/axdd-person-client-1.1.7.tar.gz
+[2023-05-12 19:54:53] INFO root fetch - processPackages [infra-buddy-too]: Downloading https://files.pythonhosted.org/packages/12/f7/16388811c8844999531d5d81e32628e518117a7086678909a8000167272d/infra-buddy-too-63.tar.gz
+[2023-05-12 19:54:53] INFO root fetch - processPackages [volttron-dnp3-outstation]: Downloading https://files.pythonhosted.org/packages/4c/6c/f1f352900fdbf0525e053b904ecf4a109b69887368f39eec259b4c8838be/volttron_dnp3_outstation-0.1.1a5.tar.gz
+[2023-05-12 19:54:53] INFO root fetch - processPackages [mrq-custom]: Downloading https://files.pythonhosted.org/packages/54/cd/782b070342b53ca1b87e75ae9d6dcc1b3d715393d9a2a811893e56db3947/mrq-custom-0.9.33.3.tar.gz
+[2023-05-12 19:54:53] INFO root fetch - processPackages [lmqg]: Downloading https://files.pythonhosted.org/packages/96/b2/afa150d3ba8e4d3c63ae8f8ecb6c06e06e84f74da97b1593f5de4fc9d9f9/lmqg-0.1.0.tar.gz
+[2023-05-12 19:54:53] INFO root fetch - processPackages [pybuilder-pytest-too]: Downloading https://files.pythonhosted.org/packages/b8/b7/efc4c0ada272b8dad5a853298b7e2682b02b76db8ea2610c7bd3d9356f09/pybuilder_pytest_too-7-py3-none-any.whl
+[2023-05-12 19:54:53] INFO root fetch - processPackages [axdd-person-client]: executing diffoscope
+[2023-05-12 19:54:53] INFO root fetch - processPackages [axdd-person-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axdd-person-client-1.1.6.tar.gz tmp/axdd-person-client-1.1.7.tar.gz --markdown 20230512/a/axdd-person-client/1.1.6-1.1.7/diff.md --exclude *.pyd
+[2023-05-12 19:54:53] INFO root fetch - processPackages [pybuilder-docker-too]: Downloading https://files.pythonhosted.org/packages/dd/fa/04fd56126dfe037ebc087cc49d4fb4a5979e9539f6289b089f1666a66088/pybuilder-docker-too-43.tar.gz
+[2023-05-12 19:54:53] INFO root fetch - processPackages [pybuilder-integration]: Downloading https://files.pythonhosted.org/packages/8f/f8/15522147684b0720d36c18ca4d353594bffacc9b57432489ae3fd6d1aaeb/pybuilder-integration-88.tar.gz
+[2023-05-12 19:54:53] INFO root fetch - processPackages [pybuilder-docker-too]: executing diffoscope
+[2023-05-12 19:54:53] INFO root fetch - processPackages [pybuilder-docker-too]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybuilder-docker-too-42.tar.gz tmp/pybuilder-docker-too-43.tar.gz --markdown 20230512/p/pybuilder-docker-too/42-43/diff.md --exclude *.pyd
+[2023-05-12 19:54:53] INFO root fetch - processPackages [lmqg]: executing diffoscope
+[2023-05-12 19:54:53] INFO root fetch - processPackages [lmqg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lmqg-0.0.8.tar.gz tmp/lmqg-0.1.0.tar.gz --markdown 20230512/l/lmqg/0.0.8-0.1.0/diff.md --exclude *.pyd
+[2023-05-12 19:54:53] INFO root fetch - processPackages [infra-buddy-too]: executing diffoscope
+[2023-05-12 19:54:53] INFO root fetch - processPackages [infra-buddy-too]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infra-buddy-too-62.tar.gz tmp/infra-buddy-too-63.tar.gz --markdown 20230512/i/infra-buddy-too/62-63/diff.md --exclude *.pyd
+[2023-05-12 19:54:53] INFO root fetch - processPackages [volttron-dnp3-outstation]: executing diffoscope
+[2023-05-12 19:54:53] INFO root fetch - processPackages [volttron-dnp3-outstation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volttron_dnp3_outstation-0.1.1a4.tar.gz tmp/volttron_dnp3_outstation-0.1.1a5.tar.gz --markdown 20230512/v/volttron-dnp3-outstation/0.1.1a4-0.1.1a5/diff.md --exclude *.pyd
+[2023-05-12 19:54:53] INFO root fetch - processPackages [mrq-custom]: executing diffoscope
+[2023-05-12 19:54:53] INFO root fetch - processPackages [mrq-custom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrq-custom-0.9.33.2.tar.gz tmp/mrq-custom-0.9.33.3.tar.gz --markdown 20230512/m/mrq-custom/0.9.33.2-0.9.33.3/diff.md --exclude *.pyd
+[2023-05-12 19:54:53] INFO root fetch - processPackages [pybuilder-pytest-too]: executing diffoscope
+[2023-05-12 19:54:53] INFO root fetch - processPackages [pybuilder-pytest-too]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybuilder_pytest_too-17-py3-none-any.whl.zip tmp/pybuilder_pytest_too-7-py3-none-any.whl.zip --markdown 20230512/p/pybuilder-pytest-too/17-7/diff.md --exclude *.pyd
+[2023-05-12 19:54:53] INFO root fetch - processPackages [pybuilder-integration]: executing diffoscope
+[2023-05-12 19:54:53] INFO root fetch - processPackages [pybuilder-integration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybuilder-integration-87.tar.gz tmp/pybuilder-integration-88.tar.gz --markdown 20230512/p/pybuilder-integration/87-88/diff.md --exclude *.pyd
+[2023-05-12 19:54:53] INFO root fetch - processPackages [systems-manager]: Start processing: bpkio-cli
+[2023-05-12 19:54:53] INFO root fetch - main [MainThread]: End processing [systems-manager]: success
+[2023-05-12 19:54:53] WARNING root fetch - processPackages [bpkio-cli]: Skipping, unable to determine old version
+[2023-05-12 19:54:53] INFO root fetch - processPackages [bpkio-cli]: Start processing: service-buddy-too
+[2023-05-12 19:54:53] INFO root fetch - main [MainThread]: End processing [bpkio-cli] error
+[2023-05-12 19:54:53] INFO root fetch - processPackages [service-buddy-too]: New version: [0.1.58] Old Version: [0.1.57]
+[2023-05-12 19:54:54] INFO root fetch - processPackages [service-buddy-too]: Downloading https://files.pythonhosted.org/packages/a5/9c/855fa9019473388b49ea675e58d2b5fe9fa9d8032e51a6a23ecb08a10098/service-buddy-too-0.1.57.tar.gz
+[2023-05-12 19:54:54] INFO root fetch - processPackages [streaming-indicators]: Start processing: edc-screening
+[2023-05-12 19:54:54] INFO root fetch - main [MainThread]: End processing [streaming-indicators]: success
+[2023-05-12 19:54:54] INFO root fetch - processPackages [edc-screening]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-12 19:54:54] INFO root fetch - processPackages [axdd-person-client]: Start processing: systems-manager
+[2023-05-12 19:54:54] INFO root fetch - main [MainThread]: End processing [axdd-person-client]: success
+[2023-05-12 19:54:54] INFO root fetch - processPackages [service-buddy-too]: Downloading https://files.pythonhosted.org/packages/cf/92/ad3e3206833aaa111ecad05350a8d28b4a86c564e31d9dc0b1504f03df94/service-buddy-too-0.1.58.tar.gz
+[2023-05-12 19:54:54] INFO root fetch - processPackages [systems-manager]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-12 19:54:54] INFO root fetch - processPackages [systems-manager]: executing diffoscope
+[2023-05-12 19:54:54] INFO root fetch - processPackages [systems-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systems_manager-0.8.0-py2.py3-none-any.whl.zip tmp/systems_manager-0.9.0-py2.py3-none-any.whl.zip --markdown 20230512/s/systems-manager/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-12 19:54:54] INFO root fetch - main [MainThread]: End processing [pybuilder-docker-too]: success
+[2023-05-12 19:54:54] INFO root fetch - processPackages [edc-screening]: Downloading https://files.pythonhosted.org/packages/ac/d1/4538a5856e707d30a7055d4bcc26ae878e5984cbafd2fbbf5268847b6693/edc_screening-0.3.8-py3-none-any.whl
+[2023-05-12 19:54:54] INFO root fetch - processPackages [service-buddy-too]: executing diffoscope
+[2023-05-12 19:54:54] INFO root fetch - processPackages [service-buddy-too]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/service-buddy-too-0.1.57.tar.gz tmp/service-buddy-too-0.1.58.tar.gz --markdown 20230512/s/service-buddy-too/0.1.57-0.1.58/diff.md --exclude *.pyd
+[2023-05-12 19:54:54] INFO root fetch - processPackages [edc-screening]: Downloading https://files.pythonhosted.org/packages/26/4f/bd2f456e4f61d3b9493a5f6b3379c55d5721d503c23ab583b9700f5d66af/edc_screening-0.3.9-py3-none-any.whl
+[2023-05-12 19:54:55] INFO root fetch - processPackages [edc-screening]: executing diffoscope
+[2023-05-12 19:54:55] INFO root fetch - processPackages [edc-screening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_screening-0.3.8-py3-none-any.whl.zip tmp/edc_screening-0.3.9-py3-none-any.whl.zip --markdown 20230512/e/edc-screening/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-12 19:54:55] INFO root fetch - main [MainThread]: End processing [pybuilder-pytest-too]: success
+[2023-05-12 19:54:55] INFO root fetch - main [MainThread]: End processing [pybuilder-integration]: success
+[2023-05-12 19:54:55] INFO root fetch - main [MainThread]: End processing [volttron-dnp3-outstation]: success
+[2023-05-12 19:54:55] INFO root fetch - main [MainThread]: End processing [lmqg]: success
+[2023-05-12 19:54:55] INFO root fetch - main [MainThread]: End processing [infra-buddy-too]: success
+[2023-05-12 19:54:55] INFO root fetch - main [MainThread]: End processing [mrq-custom]: success
+[2023-05-12 19:54:55] INFO root fetch - main [MainThread]: End processing [systems-manager]: success
+[2023-05-12 19:54:56] INFO root fetch - main [MainThread]: End processing [service-buddy-too]: success
+[2023-05-12 19:54:56] INFO root fetch - main [MainThread]: End processing [edc-screening]: success
+[2023-05-12 19:54:56] INFO root fetch - main [MainThread]: Store serial: [18081751]
