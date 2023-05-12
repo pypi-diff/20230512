@@ -15143,3 +15143,104 @@ EOFError: EOF read where object expected
 [2023-05-12 18:17:09] INFO root fetch - main [MainThread]: End processing [consolo]: success
 [2023-05-12 18:17:10] INFO root fetch - main [MainThread]: End processing [ensuro]: success
 [2023-05-12 18:17:10] INFO root fetch - main [MainThread]: Store serial: [18080580]
+[2023-05-12 18:22:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18080580]
+[2023-05-12 18:22:20] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-12 18:22:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MotorDeCalidad
+[2023-05-12 18:22:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bellows
+[2023-05-12 18:22:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: naturalspeech2-pytorch
+[2023-05-12 18:22:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytwot
+[2023-05-12 18:22:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: waterline
+[2023-05-12 18:22:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tight-loops
+[2023-05-12 18:22:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PatryksAutoAI
+[2023-05-12 18:22:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mainnet
+[2023-05-12 18:22:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sphinxawesome-theme
+[2023-05-12 18:22:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: languagemodels
+[2023-05-12 18:22:20] INFO root fetch - processPackages [naturalspeech2-pytorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 18:22:20] INFO root fetch - processPackages [bellows]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-05-12 18:22:20] INFO root fetch - processPackages [MotorDeCalidad]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-12 18:22:20] INFO root fetch - processPackages [pytwot]: New version: [1.5.1] Old Version: [1.5.0a10]
+[2023-05-12 18:22:20] INFO root fetch - processPackages [languagemodels]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-12 18:22:20] INFO root fetch - processPackages [waterline]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-12 18:22:20] INFO root fetch - processPackages [PatryksAutoAI]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-12 18:22:20] INFO root fetch - processPackages [tight-loops]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-12 18:22:20] INFO root fetch - processPackages [sphinxawesome-theme]: New version: [5.0.0b1] Old Version: [4.1.0]
+[2023-05-12 18:22:20] INFO root fetch - processPackages [mainnet]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-12 18:22:20] INFO root fetch - processPackages [bellows]: executing diffoscope
+[2023-05-12 18:22:20] INFO root fetch - processPackages [bellows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bellows-0.6.0.tar.gz tmp/bellows-0.7.0.tar.gz --markdown 20230512/b/bellows/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-05-12 18:22:20] INFO root fetch - processPackages [mainnet]: executing diffoscope
+[2023-05-12 18:22:20] INFO root fetch - processPackages [mainnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mainnet-1.1.8.tar.gz tmp/mainnet-1.1.9.tar.gz --markdown 20230512/m/mainnet/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-12 18:22:21] INFO root fetch - processPackages [pytwot]: Downloading https://files.pythonhosted.org/packages/7f/01/a04dc6c81fce942e88dbb7e5955c5372cdf1dce7aaaa6d7024638a9494ea/pytwot-1.5.0a10.tar.gz
+[2023-05-12 18:22:21] INFO root fetch - processPackages [waterline]: Downloading https://files.pythonhosted.org/packages/a1/34/f43283a3d74491f2aee39f7edf7255913204a534ac4acafe8bc665b552f4/waterline-0.1.8-py3-none-any.whl
+[2023-05-12 18:22:21] INFO root fetch - processPackages [languagemodels]: Downloading https://files.pythonhosted.org/packages/86/99/0f7c362e5a8394fda8b8bcfe0354155febea1c089a7b748d3d21aa92296a/languagemodels-0.0.3.tar.gz
+[2023-05-12 18:22:21] INFO root fetch - processPackages [sphinxawesome-theme]: Downloading https://files.pythonhosted.org/packages/58/91/56d83d55d61b814fc98a2c32635d570da29ae9afa0f88266fc7969788ef6/sphinxawesome_theme-5.0.0b1.tar.gz
+[2023-05-12 18:22:21] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/66/5f/6e50057777f6d37d62fbd4fa692164a3c10a5ed4462de60651210c728332/PatryksAutoAI-0.3.1.tar.gz
+[2023-05-12 18:22:21] INFO root fetch - processPackages [tight-loops]: Downloading https://files.pythonhosted.org/packages/e7/7b/f23b979de3ed3fe09a54fae4cfb6d81d77e030efa2292c4f8aca02af786c/tight_loops-0.3.1.tar.gz
+[2023-05-12 18:22:21] INFO root fetch - processPackages [languagemodels]: executing diffoscope
+[2023-05-12 18:22:21] INFO root fetch - processPackages [languagemodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/languagemodels-0.0.2.tar.gz tmp/languagemodels-0.0.3.tar.gz --markdown 20230512/l/languagemodels/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-12 18:22:21] INFO root fetch - processPackages [PatryksAutoAI]: executing diffoscope
+[2023-05-12 18:22:21] INFO root fetch - processPackages [PatryksAutoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PatryksAutoAI-0.3.0.tar.gz tmp/PatryksAutoAI-0.3.1.tar.gz --markdown 20230512/P/PatryksAutoAI/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-12 18:22:21] INFO root fetch - processPackages [tight-loops]: executing diffoscope
+[2023-05-12 18:22:21] INFO root fetch - processPackages [tight-loops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tight_loops-0.3.0.tar.gz tmp/tight_loops-0.3.1.tar.gz --markdown 20230512/t/tight-loops/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-12 18:22:21] INFO root fetch - processPackages [sphinxawesome-theme]: executing diffoscope
+[2023-05-12 18:22:21] INFO root fetch - processPackages [sphinxawesome-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinxawesome_theme-4.1.0.tar.gz tmp/sphinxawesome_theme-5.0.0b1.tar.gz --markdown 20230512/s/sphinxawesome-theme/4.1.0-5.0.0b1/diff.md --exclude *.pyd
+[2023-05-12 18:22:21] INFO root fetch - processPackages [MotorDeCalidad]: executing diffoscope
+[2023-05-12 18:22:21] INFO root fetch - processPackages [MotorDeCalidad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MotorDeCalidad-1.9.8.tar.gz tmp/MotorDeCalidad-1.9.9.tar.gz --markdown 20230512/M/MotorDeCalidad/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-12 18:22:21] INFO root fetch - processPackages [naturalspeech2-pytorch]: executing diffoscope
+[2023-05-12 18:22:21] INFO root fetch - processPackages [naturalspeech2-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naturalspeech2-pytorch-0.0.8.tar.gz tmp/naturalspeech2-pytorch-0.0.9.tar.gz --markdown 20230512/n/naturalspeech2-pytorch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 18:22:21] INFO root fetch - processPackages [pytwot]: Downloading https://files.pythonhosted.org/packages/ca/b7/e94caa431c11055926e0bed9f1d4b69d70685aff9259bf2fcd8c2e58dba7/pytwot-1.5.1.tar.gz
+[2023-05-12 18:22:21] INFO root fetch - processPackages [pytwot]: executing diffoscope
+[2023-05-12 18:22:21] INFO root fetch - processPackages [pytwot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytwot-1.5.0a10.tar.gz tmp/pytwot-1.5.1.tar.gz --markdown 20230512/p/pytwot/1.5.0a10-1.5.1/diff.md --exclude *.pyd
+[2023-05-12 18:22:22] INFO root fetch - processPackages [waterline]: Downloading https://files.pythonhosted.org/packages/fa/c7/eaa4f7734e1a685350f4097c183327a734a754c01557ab4e601a9f1c3e15/waterline-0.1.9-py3-none-any.whl
+[2023-05-12 18:22:22] INFO root fetch - processPackages [bellows]: Start processing: dev-dependencies
+[2023-05-12 18:22:22] INFO root fetch - main [MainThread]: End processing [bellows]: success
+[2023-05-12 18:22:22] INFO root fetch - processPackages [dev-dependencies]: New version: [0.1.1] Old Version: [0.0.4]
+[2023-05-12 18:22:22] INFO root fetch - processPackages [dev-dependencies]: Downloading https://files.pythonhosted.org/packages/60/98/70968b4c0881cebfbbe8e9683bb60743bdc5a86a75a6c94678ecb93234de/dev_dependencies-0.0.4.tar.gz
+[2023-05-12 18:22:22] INFO root fetch - processPackages [languagemodels]: Start processing: process-spectra
+[2023-05-12 18:22:22] INFO root fetch - main [MainThread]: End processing [languagemodels]: success
+[2023-05-12 18:22:22] INFO root fetch - processPackages [process-spectra]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-05-12 18:22:22] INFO root fetch - processPackages [dev-dependencies]: executing diffoscope
+[2023-05-12 18:22:22] INFO root fetch - processPackages [dev-dependencies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dev_dependencies-0.0.4.tar.gz tmp/dev-dependencies-0.1.1.tar.gz --markdown 20230512/d/dev-dependencies/0.0.4-0.1.1/diff.md --exclude *.pyd
+[2023-05-12 18:22:22] INFO root fetch - processPackages [process-spectra]: Downloading https://files.pythonhosted.org/packages/3e/ae/d219ca7b9aedd9405d549f5e38756b95db105cb5d3acf42cc52d217391ca/process_spectra-0.2.6.tar.gz
+[2023-05-12 18:22:22] INFO root fetch - processPackages [naturalspeech2-pytorch]: Start processing: influxql-client
+[2023-05-12 18:22:22] INFO root fetch - main [MainThread]: End processing [naturalspeech2-pytorch]: success
+[2023-05-12 18:22:22] WARNING root fetch - processPackages [influxql-client]: Skipping, unable to determine old version
+[2023-05-12 18:22:22] INFO root fetch - processPackages [influxql-client]: Start processing: covalent-slurm-plugin
+[2023-05-12 18:22:22] INFO root fetch - main [MainThread]: End processing [influxql-client] error
+[2023-05-12 18:22:22] INFO root fetch - processPackages [covalent-slurm-plugin]: New version: [0.8.0rc0] Old Version: [0.8.0]
+[2023-05-12 18:22:22] INFO root fetch - processPackages [MotorDeCalidad]: Start processing: dequeai
+[2023-05-12 18:22:22] INFO root fetch - main [MainThread]: End processing [MotorDeCalidad]: success
+[2023-05-12 18:22:22] INFO root fetch - processPackages [dequeai]: New version: [0.7788] Old Version: [0.778]
+[2023-05-12 18:22:23] INFO root fetch - processPackages [tight-loops]: Start processing: rendseq
+[2023-05-12 18:22:23] INFO root fetch - main [MainThread]: End processing [tight-loops]: success
+[2023-05-12 18:22:23] INFO root fetch - processPackages [rendseq]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-12 18:22:23] INFO root fetch - processPackages [covalent-slurm-plugin]: executing diffoscope
+[2023-05-12 18:22:23] INFO root fetch - processPackages [covalent-slurm-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/covalent-slurm-plugin-0.8.0.tar.gz tmp/covalent-slurm-plugin-0.8.0rc0.tar.gz --markdown 20230512/c/covalent-slurm-plugin/0.8.0-0.8.0rc0/diff.md --exclude *.pyd
+[2023-05-12 18:22:23] INFO root fetch - processPackages [dequeai]: Downloading https://files.pythonhosted.org/packages/21/97/46245a7f734217220e406a84d11f214fb47246cdef6d38a17f14ac0493c0/dequeai-0.7788.tar.gz
+[2023-05-12 18:22:23] INFO root fetch - processPackages [process-spectra]: Downloading https://files.pythonhosted.org/packages/e9/37/c8b075b9725e6a9b06f18c7bc80ca131eefd6326e0c1df173dc1e8fd00a1/process_spectra-0.2.7.tar.gz
+[2023-05-12 18:22:23] INFO root fetch - processPackages [rendseq]: Downloading https://files.pythonhosted.org/packages/4e/3f/a16dbcc4ed67fb97682ae5881492c53bf3282c64fda23c050373e4f92cea/rendseq-0.1.8.tar.gz
+[2023-05-12 18:22:23] INFO root fetch - processPackages [sphinxawesome-theme]: Start processing: micro-trainer-transformers
+[2023-05-12 18:22:23] INFO root fetch - main [MainThread]: End processing [sphinxawesome-theme]: success
+[2023-05-12 18:22:23] INFO root fetch - processPackages [process-spectra]: executing diffoscope
+[2023-05-12 18:22:23] INFO root fetch - processPackages [process-spectra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/process_spectra-0.2.6.tar.gz tmp/process_spectra-0.2.7.tar.gz --markdown 20230512/p/process-spectra/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-05-12 18:22:23] WARNING root fetch - processPackages [micro-trainer-transformers]: Skipping, unable to determine old version
+[2023-05-12 18:22:23] INFO root fetch - processPackages [micro-trainer-transformers]: Start processing: rus-python
+[2023-05-12 18:22:23] INFO root fetch - main [MainThread]: End processing [micro-trainer-transformers] error
+[2023-05-12 18:22:23] WARNING root fetch - processPackages [rus-python]: Skipping, unable to determine old version
+[2023-05-12 18:22:23] INFO root fetch - main [MainThread]: End processing [rus-python] error
+[2023-05-12 18:22:23] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
+[2023-05-12 18:22:23] INFO root fetch - processPackages [dequeai]: executing diffoscope
+[2023-05-12 18:22:23] INFO root fetch - processPackages [dequeai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dequeai-0.778.tar.gz tmp/dequeai-0.7788.tar.gz --markdown 20230512/d/dequeai/0.778-0.7788/diff.md --exclude *.pyd
+[2023-05-12 18:22:23] INFO root fetch - processPackages [waterline]: executing diffoscope
+[2023-05-12 18:22:23] INFO root fetch - processPackages [waterline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waterline-0.1.8-py3-none-any.whl.zip tmp/waterline-0.1.9-py3-none-any.whl.zip --markdown 20230512/w/waterline/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-12 18:22:23] INFO root fetch - processPackages [rendseq]: Downloading https://files.pythonhosted.org/packages/9c/9f/67dfff1ab1ec55fdfe20d26961c83c15e1cf34ea8e931f1e4dd3082007ce/rendseq-0.1.9.tar.gz
+[2023-05-12 18:22:23] INFO root fetch - processPackages [rendseq]: executing diffoscope
+[2023-05-12 18:22:23] INFO root fetch - processPackages [rendseq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rendseq-0.1.8.tar.gz tmp/rendseq-0.1.9.tar.gz --markdown 20230512/r/rendseq/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-12 18:22:24] INFO root fetch - main [MainThread]: End processing [dev-dependencies]: success
+[2023-05-12 18:22:24] INFO root fetch - main [MainThread]: End processing [covalent-slurm-plugin]: success
+[2023-05-12 18:22:24] INFO root fetch - main [MainThread]: End processing [process-spectra]: success
+[2023-05-12 18:22:24] INFO root fetch - main [MainThread]: End processing [dequeai]: success
+[2023-05-12 18:22:24] INFO root fetch - main [MainThread]: End processing [pytwot]: success
+[2023-05-12 18:22:25] INFO root fetch - main [MainThread]: End processing [waterline]: success
+[2023-05-12 18:22:25] INFO root fetch - main [MainThread]: End processing [rendseq]: success
+[2023-05-12 18:22:28] INFO root fetch - main [MainThread]: End processing [mainnet]: success
+[2023-05-12 18:22:28] INFO root fetch - main [MainThread]: Store serial: [18080637]
