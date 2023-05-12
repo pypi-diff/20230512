@@ -9678,3 +9678,75 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-12 13:09:02] INFO root fetch - main [MainThread]: End processing [pyright]: success
 [2023-05-12 13:09:02] INFO root fetch - main [MainThread]: End processing [vtece4564-gamelib]: success
 [2023-05-12 13:09:02] INFO root fetch - main [MainThread]: Store serial: [18077021]
+[2023-05-12 13:14:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18077021]
+[2023-05-12 13:14:11] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-12 13:14:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: math0
+[2023-05-12 13:14:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyxmmsas
+[2023-05-12 13:14:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ecmwflibs
+[2023-05-12 13:14:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: archspec
+[2023-05-12 13:14:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: calldict
+[2023-05-12 13:14:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: honeybee-ph
+[2023-05-12 13:14:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vive-tracker-apiserver
+[2023-05-12 13:14:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fastapi-gateway-auto-generate
+[2023-05-12 13:14:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mwrpy
+[2023-05-12 13:14:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: predictable
+[2023-05-12 13:14:11] INFO root fetch - processPackages [ecmwflibs]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-05-12 13:14:11] WARNING root fetch - processPackages [math0]: Skipping, unable to determine old version
+[2023-05-12 13:14:11] INFO root fetch - processPackages [math0]: Start processing: khoj-assistant
+[2023-05-12 13:14:11] INFO root fetch - processPackages [pyxmmsas]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-05-12 13:14:11] INFO root fetch - main [MainThread]: End processing [math0] error
+[2023-05-12 13:14:11] INFO root fetch - processPackages [calldict]: New version: [0.5] Old Version: [0.4]
+[2023-05-12 13:14:11] INFO root fetch - processPackages [archspec]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-12 13:14:11] INFO root fetch - processPackages [mwrpy]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-12 13:14:11] WARNING root fetch - processPackages [fastapi-gateway-auto-generate]: Skipping, unable to determine old version
+[2023-05-12 13:14:11] INFO root fetch - processPackages [fastapi-gateway-auto-generate]: Start processing: fieldedge-utilities
+[2023-05-12 13:14:11] INFO root fetch - main [MainThread]: End processing [fastapi-gateway-auto-generate] error
+[2023-05-12 13:14:11] INFO root fetch - processPackages [predictable]: New version: [0.0.1] Old Version: [0.0.0a0]
+[2023-05-12 13:14:11] INFO root fetch - processPackages [vive-tracker-apiserver]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-12 13:14:11] INFO root fetch - processPackages [honeybee-ph]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-05-12 13:14:12] INFO root fetch - processPackages [ecmwflibs]: Downloading https://files.pythonhosted.org/packages/db/3d/56559bc9dc1a65a7938b841f01351e99c4884ee0f91a3d25d62d41a48f49/ecmwflibs-0.5.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-12 13:14:12] INFO root fetch - processPackages [calldict]: Downloading https://files.pythonhosted.org/packages/de/68/be4a1f147c13c742ef3a59953e5275c7b75f5978cfee79dc31035d1d3fbb/calldict-0.4.tar.gz
+[2023-05-12 13:14:12] INFO root fetch - processPackages [khoj-assistant]: New version: [0.6.2.dev6] Old Version: [0.6.2.dev20]
+[2023-05-12 13:14:12] INFO root fetch - processPackages [archspec]: Downloading https://files.pythonhosted.org/packages/ad/84/6d7e5ebdb383da23a2540013f53d9dcb49bfa2b986c7ba1b2bf62fd09362/archspec-0.2.0.tar.gz
+[2023-05-12 13:14:12] WARNING root fetch - processPackages [ecmwflibs]: Skipping package: exceeds size limit 76049647>=10485760
+[2023-05-12 13:14:12] INFO root fetch - main [MainThread]: End processing [ecmwflibs] error
+[2023-05-12 13:14:12] INFO root fetch - processPackages [vive-tracker-apiserver]: Downloading https://files.pythonhosted.org/packages/ea/3e/cf771a974dc8f8a9b56f4c7d57bfab98100dc612e8f0d75f8237bf8d2af9/vive-tracker-apiserver-0.0.3.tar.gz
+[2023-05-12 13:14:12] INFO root fetch - processPackages [fieldedge-utilities]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-05-12 13:14:12] INFO root fetch - processPackages [honeybee-ph]: Downloading https://files.pythonhosted.org/packages/df/b8/fda4cf01d94f48d6d3083d5708571ff82cc12c33ab31021c75eae52fddf7/honeybee-ph-1.9.0.tar.gz
+[2023-05-12 13:14:12] INFO root fetch - processPackages [predictable]: Downloading https://files.pythonhosted.org/packages/12/40/e5a87006ceed668e21c5c3885c46c52c8afaa0440949445345db9813e3fc/predictable-0.0.0a0.tar.gz
+[2023-05-12 13:14:12] INFO root fetch - processPackages [pyxmmsas]: executing diffoscope
+[2023-05-12 13:14:12] INFO root fetch - processPackages [pyxmmsas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxmmsas-1.4.8.tar.gz tmp/pyxmmsas-1.4.9.tar.gz --markdown 20230512/p/pyxmmsas/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-05-12 13:14:12] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/90/31/715aa6b6c55b9196a90795a878323c3973509a329fe55de9e87445619fa7/khoj_assistant-0.6.2.dev20.tar.gz
+[2023-05-12 13:14:12] INFO root fetch - processPackages [mwrpy]: Downloading https://files.pythonhosted.org/packages/b5/fb/a13f4e7a3467cd6604c41c3df5969f2b062d6fc99978cec885813a4c4244/mwrpy-0.1.8.tar.gz
+[2023-05-12 13:14:12] INFO root fetch - processPackages [calldict]: Downloading https://files.pythonhosted.org/packages/15/1f/27c50fccd521fe009652c19d7dc38fdce8720b2030cf4113c74564772eea/calldict-0.5.tar.gz
+[2023-05-12 13:14:12] INFO root fetch - processPackages [archspec]: Downloading https://files.pythonhosted.org/packages/50/cc/d74614d324c7b7535100c9b2a7e8f1d9c1c81b86a30251de5cf0f3f354d2/archspec-0.2.1.tar.gz
+[2023-05-12 13:14:12] INFO root fetch - processPackages [vive-tracker-apiserver]: Downloading https://files.pythonhosted.org/packages/33/78/e75a418634e9c7723b5893cd5fe1243b14bb7179c27f96211c37a5536afb/vive-tracker-apiserver-0.0.4.tar.gz
+[2023-05-12 13:14:12] INFO root fetch - processPackages [mwrpy]: executing diffoscope
+[2023-05-12 13:14:12] INFO root fetch - processPackages [mwrpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mwrpy-0.1.7.tar.gz tmp/mwrpy-0.1.8.tar.gz --markdown 20230512/m/mwrpy/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-12 13:14:12] INFO root fetch - processPackages [calldict]: executing diffoscope
+[2023-05-12 13:14:12] INFO root fetch - processPackages [calldict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calldict-0.4.tar.gz tmp/calldict-0.5.tar.gz --markdown 20230512/c/calldict/0.4-0.5/diff.md --exclude *.pyd
+[2023-05-12 13:14:12] INFO root fetch - processPackages [predictable]: Downloading https://files.pythonhosted.org/packages/39/e2/6b564b330dcd63e5925d1031eac2106a18cf4f565d3b105c055a9cf67327/predictable-0.0.1.tar.gz
+[2023-05-12 13:14:12] INFO root fetch - processPackages [honeybee-ph]: Downloading https://files.pythonhosted.org/packages/ac/3b/94670944c4a0e9844a88bedad8d71fd687fa1d4179f07d807acb90be0100/honeybee-ph-1.9.1.tar.gz
+[2023-05-12 13:14:12] INFO root fetch - processPackages [vive-tracker-apiserver]: executing diffoscope
+[2023-05-12 13:14:12] INFO root fetch - processPackages [vive-tracker-apiserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vive-tracker-apiserver-0.0.3.tar.gz tmp/vive-tracker-apiserver-0.0.4.tar.gz --markdown 20230512/v/vive-tracker-apiserver/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-12 13:14:12] INFO root fetch - processPackages [archspec]: executing diffoscope
+[2023-05-12 13:14:12] INFO root fetch - processPackages [archspec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/archspec-0.2.0.tar.gz tmp/archspec-0.2.1.tar.gz --markdown 20230512/a/archspec/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-12 13:14:12] INFO root fetch - processPackages [honeybee-ph]: executing diffoscope
+[2023-05-12 13:14:12] INFO root fetch - processPackages [honeybee-ph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-ph-1.9.0.tar.gz tmp/honeybee-ph-1.9.1.tar.gz --markdown 20230512/h/honeybee-ph/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-05-12 13:14:12] INFO root fetch - processPackages [fieldedge-utilities]: executing diffoscope
+[2023-05-12 13:14:12] INFO root fetch - processPackages [fieldedge-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fieldedge-utilities-0.9.4.tar.gz tmp/fieldedge-utilities-0.9.5.tar.gz --markdown 20230512/f/fieldedge-utilities/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-05-12 13:14:12] INFO root fetch - processPackages [predictable]: executing diffoscope
+[2023-05-12 13:14:12] INFO root fetch - processPackages [predictable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/predictable-0.0.0a0.tar.gz tmp/predictable-0.0.1.tar.gz --markdown 20230512/p/predictable/0.0.0a0-0.0.1/diff.md --exclude *.pyd
+[2023-05-12 13:14:12] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/ef/d8/f926fd98226aea2639df87b5062fc136dca420f92cd1e8d5d586e4265215/khoj_assistant-0.6.2.dev6.tar.gz
+[2023-05-12 13:14:12] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2023-05-12 13:14:12] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-0.6.2.dev20.tar.gz tmp/khoj_assistant-0.6.2.dev6.tar.gz --markdown 20230512/k/khoj-assistant/0.6.2.dev20-0.6.2.dev6/diff.md --exclude *.pyd
+[2023-05-12 13:14:13] INFO root fetch - main [MainThread]: End processing [pyxmmsas]: success
+[2023-05-12 13:14:13] INFO root fetch - main [MainThread]: End processing [calldict]: success
+[2023-05-12 13:14:13] INFO root fetch - main [MainThread]: End processing [vive-tracker-apiserver]: success
+[2023-05-12 13:14:14] INFO root fetch - main [MainThread]: End processing [archspec]: success
+[2023-05-12 13:14:14] INFO root fetch - main [MainThread]: End processing [predictable]: success
+[2023-05-12 13:14:14] INFO root fetch - main [MainThread]: End processing [fieldedge-utilities]: success
+[2023-05-12 13:14:14] INFO root fetch - main [MainThread]: End processing [honeybee-ph]: success
+[2023-05-12 13:14:14] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2023-05-12 13:14:15] INFO root fetch - main [MainThread]: End processing [mwrpy]: success
+[2023-05-12 13:14:15] INFO root fetch - main [MainThread]: Store serial: [18077077]
