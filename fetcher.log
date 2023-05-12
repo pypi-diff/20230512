@@ -17453,3 +17453,91 @@ EOFError: EOF read where object expected
 [2023-05-12 20:21:35] INFO root fetch - main [MainThread]: End processing [finny-scraper]: success
 [2023-05-12 20:21:35] INFO root fetch - main [MainThread]: End processing [pyqrack]: success
 [2023-05-12 20:21:35] INFO root fetch - main [MainThread]: Store serial: [18081994]
+[2023-05-12 20:26:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18081994]
+[2023-05-12 20:26:44] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-12 20:26:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: config-patterns
+[2023-05-12 20:26:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ipyflow-core
+[2023-05-12 20:26:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ipyflow
+[2023-05-12 20:26:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flet-core
+[2023-05-12 20:26:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flet
+[2023-05-12 20:26:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: terick
+[2023-05-12 20:26:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: opentdf
+[2023-05-12 20:26:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flet-pyodide
+[2023-05-12 20:26:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: volttron-lib-sql-historian
+[2023-05-12 20:26:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: survey
+[2023-05-12 20:26:44] INFO root fetch - processPackages [flet-core]: New version: [0.8.0.dev1406] Old Version: [0.8.0.dev1402]
+[2023-05-12 20:26:44] INFO root fetch - processPackages [terick]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-12 20:26:44] INFO root fetch - processPackages [ipyflow]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-12 20:26:44] INFO root fetch - processPackages [flet]: New version: [0.8.0.dev1406] Old Version: [0.8.0.dev1402]
+[2023-05-12 20:26:44] INFO root fetch - processPackages [volttron-lib-sql-historian]: New version: [0.2.1rc0] Old Version: [0.2.0rc0]
+[2023-05-12 20:26:44] INFO root fetch - processPackages [config-patterns]: New version: [0.4.1] Old Version: [0.3.3]
+[2023-05-12 20:26:44] INFO root fetch - processPackages [flet-pyodide]: New version: [0.8.0.dev1406] Old Version: [0.8.0.dev1402]
+[2023-05-12 20:26:44] INFO root fetch - processPackages [opentdf]: New version: [1.2.9a1476] Old Version: [1.2.2]
+[2023-05-12 20:26:44] INFO root fetch - processPackages [ipyflow-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-12 20:26:44] INFO root fetch - processPackages [survey]: New version: [4.1.0a0] Old Version: [4.0.0a0]
+[2023-05-12 20:26:44] INFO root fetch - processPackages [opentdf]: Downloading https://files.pythonhosted.org/packages/af/2c/23650b91f85806080ace5b96afa2e28a5a2d58d05893e91c8becb370caef/opentdf-1.2.2-cp39-cp39-win_amd64.whl
+[2023-05-12 20:26:44] INFO root fetch - processPackages [flet-pyodide]: Downloading https://files.pythonhosted.org/packages/7e/9a/f73bf58316a1b08e1846161ae66371a6e6e952fc4e015918c0e0139bb2bc/flet_pyodide-0.8.0.dev1406.tar.gz
+[2023-05-12 20:26:44] INFO root fetch - processPackages [flet]: Downloading https://files.pythonhosted.org/packages/6c/bf/248f83f8ca4c767a9b2518d3b00c04d3df1a6309a93a1fda24b49a3c809d/flet-0.8.0.dev1406.tar.gz
+[2023-05-12 20:26:44] INFO root fetch - processPackages [flet-core]: Downloading https://files.pythonhosted.org/packages/c6/61/32aea6047c8074f455534fedd861faaaa927a6d86566e7e3df5d003219bf/flet_core-0.8.0.dev1406.tar.gz
+[2023-05-12 20:26:44] INFO root fetch - processPackages [config-patterns]: Downloading https://files.pythonhosted.org/packages/4b/6f/32dcbf169c05514d734cbe8486e0dc19dfae90685d935d235d4c178deedc/config_patterns-0.3.3.tar.gz
+[2023-05-12 20:26:44] INFO root fetch - processPackages [volttron-lib-sql-historian]: Downloading https://files.pythonhosted.org/packages/f8/cd/879945155d4c82f3795c0a50eb3be27fa229ca2b584ad5d6b2ebb5aa054d/volttron_lib_sql_historian-0.2.1rc0.tar.gz
+[2023-05-12 20:26:44] INFO root fetch - processPackages [survey]: Downloading https://files.pythonhosted.org/packages/e0/76/707920565582c44d6c595bb1dd33c3ff27d22eb23ad0544b1c1c9cc77bd4/survey-4.0.0a0.tar.gz
+[2023-05-12 20:26:44] INFO root fetch - processPackages [ipyflow]: executing diffoscope
+[2023-05-12 20:26:44] INFO root fetch - processPackages [ipyflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipyflow-0.0.98.tar.gz tmp/ipyflow-0.0.99.tar.gz --markdown 20230512/i/ipyflow/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-12 20:26:44] INFO root fetch - processPackages [ipyflow-core]: executing diffoscope
+[2023-05-12 20:26:44] INFO root fetch - processPackages [ipyflow-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipyflow-core-0.0.98.tar.gz tmp/ipyflow-core-0.0.99.tar.gz --markdown 20230512/i/ipyflow-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-12 20:26:44] INFO root fetch - processPackages [terick]: executing diffoscope
+[2023-05-12 20:26:44] INFO root fetch - processPackages [terick]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terick-0.2.1.tar.gz tmp/terick-0.2.2.tar.gz --markdown 20230512/t/terick/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-12 20:26:45] INFO root fetch - processPackages [flet-pyodide]: executing diffoscope
+[2023-05-12 20:26:45] INFO root fetch - processPackages [flet-pyodide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_pyodide-0.8.0.dev1402.tar.gz tmp/flet_pyodide-0.8.0.dev1406.tar.gz --markdown 20230512/f/flet-pyodide/0.8.0.dev1402-0.8.0.dev1406/diff.md --exclude *.pyd
+[2023-05-12 20:26:45] INFO root fetch - processPackages [volttron-lib-sql-historian]: executing diffoscope
+[2023-05-12 20:26:45] INFO root fetch - processPackages [volttron-lib-sql-historian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volttron_lib_sql_historian-0.2.0rc0.tar.gz tmp/volttron_lib_sql_historian-0.2.1rc0.tar.gz --markdown 20230512/v/volttron-lib-sql-historian/0.2.0rc0-0.2.1rc0/diff.md --exclude *.pyd
+[2023-05-12 20:26:45] INFO root fetch - processPackages [flet-core]: executing diffoscope
+[2023-05-12 20:26:45] INFO root fetch - processPackages [flet-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_core-0.8.0.dev1402.tar.gz tmp/flet_core-0.8.0.dev1406.tar.gz --markdown 20230512/f/flet-core/0.8.0.dev1402-0.8.0.dev1406/diff.md --exclude *.pyd
+[2023-05-12 20:26:45] INFO root fetch - processPackages [config-patterns]: Downloading https://files.pythonhosted.org/packages/2b/aa/d3573954ec25ae349df6c3bc86ffd1b6aeab64f2638d9b20251de8aed55f/config_patterns-0.4.1.tar.gz
+[2023-05-12 20:26:45] INFO root fetch - processPackages [survey]: Downloading https://files.pythonhosted.org/packages/48/e3/054fd769f4c62cdce81ed099c6a0a3b53dc0c9bfe9579411540ad5b7a7f3/survey-4.1.0a0.tar.gz
+[2023-05-12 20:26:45] INFO root fetch - processPackages [terick]: Start processing: terick
+[2023-05-12 20:26:45] INFO root fetch - main [MainThread]: End processing [terick]: success
+[2023-05-12 20:26:45] INFO root fetch - processPackages [terick]: New version: [0.2.5] Old Version: [0.2.2]
+[2023-05-12 20:26:45] INFO root fetch - processPackages [config-patterns]: executing diffoscope
+[2023-05-12 20:26:45] INFO root fetch - processPackages [config-patterns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/config_patterns-0.3.3.tar.gz tmp/config_patterns-0.4.1.tar.gz --markdown 20230512/c/config-patterns/0.3.3-0.4.1/diff.md --exclude *.pyd
+[2023-05-12 20:26:45] INFO root fetch - processPackages [survey]: executing diffoscope
+[2023-05-12 20:26:45] INFO root fetch - processPackages [survey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/survey-4.0.0a0.tar.gz tmp/survey-4.1.0a0.tar.gz --markdown 20230512/s/survey/4.0.0a0-4.1.0a0/diff.md --exclude *.pyd
+[2023-05-12 20:26:46] INFO root fetch - processPackages [terick]: Downloading https://files.pythonhosted.org/packages/91/35/6880aa51bbcd2de910b9c70ddc4a02234f234a8718efb25a99d64978cf5d/terick-0.2.5.tar.gz
+[2023-05-12 20:26:46] INFO root fetch - processPackages [opentdf]: Downloading https://files.pythonhosted.org/packages/de/67/8faf07507b8b7c65a6a738131233c02a32087244ac03f8d3dd5a75f0e551/opentdf-1.2.9a1476-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-12 20:26:46] INFO root fetch - processPackages [terick]: executing diffoscope
+[2023-05-12 20:26:46] INFO root fetch - processPackages [terick]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terick-0.2.2.tar.gz tmp/terick-0.2.5.tar.gz --markdown 20230512/t/terick/0.2.2-0.2.5/diff.md --exclude *.pyd
+[2023-05-12 20:26:46] INFO root fetch - processPackages [flet]: executing diffoscope
+[2023-05-12 20:26:46] INFO root fetch - processPackages [flet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet-0.8.0.dev1402.tar.gz tmp/flet-0.8.0.dev1406.tar.gz --markdown 20230512/f/flet/0.8.0.dev1402-0.8.0.dev1406/diff.md --exclude *.pyd
+[2023-05-12 20:26:46] INFO root fetch - processPackages [ipyflow]: Start processing: volttron-lib-sql-historian
+[2023-05-12 20:26:46] INFO root fetch - main [MainThread]: End processing [ipyflow]: success
+[2023-05-12 20:26:46] INFO root fetch - processPackages [volttron-lib-sql-historian]: New version: [0.2.1rc1] Old Version: [0.2.1rc0]
+[2023-05-12 20:26:46] INFO root fetch - processPackages [ipyflow-core]: Start processing: boxfs
+[2023-05-12 20:26:46] INFO root fetch - main [MainThread]: End processing [ipyflow-core]: success
+[2023-05-12 20:26:46] INFO root fetch - processPackages [boxfs]: New version: [0.1a1] Old Version: [0.1.1]
+[2023-05-12 20:26:46] INFO root fetch - processPackages [boxfs]: executing diffoscope
+[2023-05-12 20:26:46] INFO root fetch - processPackages [boxfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boxfs-0.1.1.tar.gz tmp/boxfs-0.1a1.tar.gz --markdown 20230512/b/boxfs/0.1.1-0.1a1/diff.md --exclude *.pyd
+[2023-05-12 20:26:46] INFO root fetch - processPackages [volttron-lib-sql-historian]: Downloading https://files.pythonhosted.org/packages/41/71/34f8a00c8b2e741a4e74a01ef7966c7da087d27c5fb1ccad77e2afd9c75d/volttron_lib_sql_historian-0.2.1rc1.tar.gz
+[2023-05-12 20:26:46] INFO root fetch - processPackages [volttron-lib-sql-historian]: executing diffoscope
+[2023-05-12 20:26:46] INFO root fetch - processPackages [volttron-lib-sql-historian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volttron_lib_sql_historian-0.2.1rc0.tar.gz tmp/volttron_lib_sql_historian-0.2.1rc1.tar.gz --markdown 20230512/v/volttron-lib-sql-historian/0.2.1rc0-0.2.1rc1/diff.md --exclude *.pyd
+[2023-05-12 20:26:47] INFO root fetch - processPackages [volttron-lib-sql-historian]: Start processing: phylomatcher
+[2023-05-12 20:26:47] INFO root fetch - main [MainThread]: End processing [volttron-lib-sql-historian]: success
+[2023-05-12 20:26:47] INFO root fetch - processPackages [phylomatcher]: New version: [0.3.1] Old Version: [0.3]
+[2023-05-12 20:26:47] INFO root fetch - processPackages [phylomatcher]: executing diffoscope
+[2023-05-12 20:26:47] INFO root fetch - processPackages [phylomatcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phylomatcher-0.3.tar.gz tmp/phylomatcher-0.3.1.tar.gz --markdown 20230512/p/phylomatcher/0.3-0.3.1/diff.md --exclude *.pyd
+[2023-05-12 20:26:47] INFO root fetch - processPackages [flet-pyodide]: Start processing: syscoloringaddons
+[2023-05-12 20:26:47] INFO root fetch - main [MainThread]: End processing [flet-pyodide]: success
+[2023-05-12 20:26:47] ERROR root fetch - processPackages [syscoloringaddons]: Unable to get metadata: No such project 'syscoloringaddons'
+[2023-05-12 20:26:47] INFO root fetch - main [MainThread]: End processing [syscoloringaddons] error
+[2023-05-12 20:26:47] INFO root fetch - processPackages [opentdf]: executing diffoscope
+[2023-05-12 20:26:47] INFO root fetch - processPackages [opentdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentdf-1.2.2-cp39-cp39-win_amd64.whl.zip tmp/opentdf-1.2.9a1476-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230512/o/opentdf/1.2.2-1.2.9a1476/diff.md --exclude *.pyd
+[2023-05-12 20:26:47] INFO root fetch - main [MainThread]: End processing [terick]: success
+[2023-05-12 20:26:47] INFO root fetch - main [MainThread]: End processing [survey]: success
+[2023-05-12 20:26:48] INFO root fetch - main [MainThread]: End processing [boxfs]: success
+[2023-05-12 20:26:48] INFO root fetch - main [MainThread]: End processing [config-patterns]: success
+[2023-05-12 20:26:48] INFO root fetch - main [MainThread]: End processing [volttron-lib-sql-historian]: success
+[2023-05-12 20:26:48] INFO root fetch - main [MainThread]: End processing [phylomatcher]: success
+[2023-05-12 20:26:49] INFO root fetch - main [MainThread]: End processing [opentdf]: success
+[2023-05-12 20:26:50] INFO root fetch - main [MainThread]: End processing [flet-core]: success
+[2023-05-12 20:27:36] INFO root fetch - main [MainThread]: End processing [flet]: success
+[2023-05-12 20:27:36] INFO root fetch - main [MainThread]: Store serial: [18082084]
