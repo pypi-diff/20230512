@@ -10357,3 +10357,71 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-12 13:56:17] INFO root fetch - main [MainThread]: End processing [ncls]: success
 [2023-05-12 13:56:48] INFO root fetch - main [MainThread]: End processing [CollabConnector]: success
 [2023-05-12 13:56:48] INFO root fetch - main [MainThread]: Store serial: [18077514]
+[2023-05-12 14:01:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18077514]
+[2023-05-12 14:01:57] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-12 14:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hagis
+[2023-05-12 14:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: onnx2tf
+[2023-05-12 14:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: asimov
+[2023-05-12 14:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: atmoswing-toolbox
+[2023-05-12 14:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vive-tracker-apiserver
+[2023-05-12 14:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: meshed
+[2023-05-12 14:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sag-py-logging
+[2023-05-12 14:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: taskiq-dependencies
+[2023-05-12 14:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: the-spymaster-api
+[2023-05-12 14:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fastfft
+[2023-05-12 14:01:57] INFO root fetch - processPackages [onnx2tf]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-12 14:01:57] INFO root fetch - processPackages [meshed]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-12 14:01:57] INFO root fetch - processPackages [atmoswing-toolbox]: New version: [1.3.6] Old Version: [1.3.5]
+[2023-05-12 14:01:57] INFO root fetch - processPackages [fastfft]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-12 14:01:57] INFO root fetch - processPackages [vive-tracker-apiserver]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-12 14:01:57] INFO root fetch - processPackages [hagis]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-05-12 14:01:57] INFO root fetch - processPackages [asimov]: New version: [0.6.0a2] Old Version: [0.6.0a1]
+[2023-05-12 14:01:57] INFO root fetch - processPackages [sag-py-logging]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-05-12 14:01:57] INFO root fetch - processPackages [meshed]: executing diffoscope
+[2023-05-12 14:01:57] INFO root fetch - processPackages [meshed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meshed-0.1.98.tar.gz tmp/meshed-0.1.99.tar.gz --markdown 20230512/m/meshed/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-12 14:01:57] INFO root fetch - processPackages [fastfft]: executing diffoscope
+[2023-05-12 14:01:57] INFO root fetch - processPackages [fastfft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastfft-0.1.4.tar.gz tmp/fastfft-0.1.5.tar.gz --markdown 20230512/f/fastfft/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-12 14:01:57] INFO root fetch - processPackages [vive-tracker-apiserver]: executing diffoscope
+[2023-05-12 14:01:57] INFO root fetch - processPackages [the-spymaster-api]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-05-12 14:01:57] INFO root fetch - processPackages [taskiq-dependencies]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-05-12 14:01:57] INFO root fetch - processPackages [vive-tracker-apiserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vive-tracker-apiserver-0.0.4.tar.gz tmp/vive-tracker-apiserver-0.0.5.tar.gz --markdown 20230512/v/vive-tracker-apiserver/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-12 14:01:57] INFO root fetch - processPackages [onnx2tf]: executing diffoscope
+[2023-05-12 14:01:57] INFO root fetch - processPackages [onnx2tf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx2tf-1.9.8.tar.gz tmp/onnx2tf-1.9.9.tar.gz --markdown 20230512/o/onnx2tf/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-12 14:01:57] INFO root fetch - processPackages [atmoswing-toolbox]: Downloading https://files.pythonhosted.org/packages/e5/08/3eda6d745113d31b72570243e066a51bfc1bb8cfb64f2e8bc7f6ecf353de/atmoswing-toolbox-1.3.6.tar.gz
+[2023-05-12 14:01:57] INFO root fetch - processPackages [sag-py-logging]: Downloading https://files.pythonhosted.org/packages/c6/65/ffce51f58954e12298c3e80fc5204e36296fc718fc61d6a8fc1d81d07313/sag-py-logging-0.3.2.tar.gz
+[2023-05-12 14:01:57] INFO root fetch - processPackages [taskiq-dependencies]: Downloading https://files.pythonhosted.org/packages/94/ce/e7e29c04d597a68ca4353a5ac64c1109acef9b90ea94a850c7c70f5b27cc/taskiq_dependencies-1.2.2.tar.gz
+[2023-05-12 14:01:57] INFO root fetch - processPackages [the-spymaster-api]: Downloading https://files.pythonhosted.org/packages/ed/6b/64cdf3927604499b2395498566cb77392d1f561fd90291d63d4e037ea327/the-spymaster-api-1.8.1.tar.gz
+[2023-05-12 14:01:57] INFO root fetch - processPackages [atmoswing-toolbox]: executing diffoscope
+[2023-05-12 14:01:57] INFO root fetch - processPackages [atmoswing-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atmoswing-toolbox-1.3.5.tar.gz tmp/atmoswing-toolbox-1.3.6.tar.gz --markdown 20230512/a/atmoswing-toolbox/1.3.5-1.3.6/diff.md --exclude *.pyd
+[2023-05-12 14:01:57] INFO root fetch - processPackages [hagis]: Downloading https://files.pythonhosted.org/packages/1f/4b/1e1dd73e17c7292d7cb114696a9cedff69e724dc2cf37f01a6f49bec9b2f/hagis-0.7.3.tar.gz
+[2023-05-12 14:01:57] INFO root fetch - processPackages [asimov]: executing diffoscope
+[2023-05-12 14:01:57] INFO root fetch - processPackages [asimov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asimov-0.6.0a1-py2.py3-none-any.whl.zip tmp/asimov-0.6.0a2-py2.py3-none-any.whl.zip --markdown 20230512/a/asimov/0.6.0a1-0.6.0a2/diff.md --exclude *.pyd
+[2023-05-12 14:01:57] INFO root fetch - processPackages [hagis]: executing diffoscope
+[2023-05-12 14:01:57] INFO root fetch - processPackages [hagis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hagis-0.7.2.tar.gz tmp/hagis-0.7.3.tar.gz --markdown 20230512/h/hagis/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-05-12 14:01:57] INFO root fetch - processPackages [sag-py-logging]: Downloading https://files.pythonhosted.org/packages/4c/c3/a3c78dcc1691b6046491e3abd887dd2b83bc0d5624ca08511c16c2266034/sag-py-logging-0.3.3.tar.gz
+[2023-05-12 14:01:57] INFO root fetch - processPackages [taskiq-dependencies]: Downloading https://files.pythonhosted.org/packages/c0/ff/1987f72727f40b4c861d3e55912de832e56f21132483b74d64279f17545a/taskiq_dependencies-1.2.3.tar.gz
+[2023-05-12 14:01:57] INFO root fetch - processPackages [sag-py-logging]: executing diffoscope
+[2023-05-12 14:01:57] INFO root fetch - processPackages [sag-py-logging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sag-py-logging-0.3.2.tar.gz tmp/sag-py-logging-0.3.3.tar.gz --markdown 20230512/s/sag-py-logging/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-05-12 14:01:57] INFO root fetch - processPackages [the-spymaster-api]: Downloading https://files.pythonhosted.org/packages/e6/fb/d91087142ccc6e14014b4c4d0876de241f0ac5ea87c0bd0b20a2489aa48f/the_spymaster_api-1.9.0.tar.gz
+[2023-05-12 14:01:58] INFO root fetch - processPackages [taskiq-dependencies]: executing diffoscope
+[2023-05-12 14:01:58] INFO root fetch - processPackages [taskiq-dependencies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskiq_dependencies-1.2.2.tar.gz tmp/taskiq_dependencies-1.2.3.tar.gz --markdown 20230512/t/taskiq-dependencies/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-05-12 14:01:58] INFO root fetch - processPackages [the-spymaster-api]: executing diffoscope
+[2023-05-12 14:01:58] INFO root fetch - processPackages [the-spymaster-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/the-spymaster-api-1.8.1.tar.gz tmp/the_spymaster_api-1.9.0.tar.gz --markdown 20230512/t/the-spymaster-api/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-05-12 14:01:59] INFO root fetch - processPackages [vive-tracker-apiserver]: Start processing: wunderkafka
+[2023-05-12 14:01:59] INFO root fetch - main [MainThread]: End processing [vive-tracker-apiserver]: success
+[2023-05-12 14:01:59] INFO root fetch - main [MainThread]: End processing [atmoswing-toolbox]: success
+[2023-05-12 14:01:59] INFO root fetch - processPackages [wunderkafka]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-12 14:01:59] INFO root fetch - main [MainThread]: End processing [fastfft]: success
+[2023-05-12 14:01:59] INFO root fetch - main [MainThread]: End processing [sag-py-logging]: success
+[2023-05-12 14:01:59] INFO root fetch - processPackages [wunderkafka]: Downloading https://files.pythonhosted.org/packages/64/3d/24c4fbef1f489d3bc85481d47115b551288301eb778561e12ce054618d88/wunderkafka-0.9.8.tar.gz
+[2023-05-12 14:01:59] INFO root fetch - main [MainThread]: End processing [hagis]: success
+[2023-05-12 14:01:59] INFO root fetch - main [MainThread]: End processing [the-spymaster-api]: success
+[2023-05-12 14:01:59] INFO root fetch - main [MainThread]: End processing [asimov]: success
+[2023-05-12 14:01:59] INFO root fetch - main [MainThread]: End processing [taskiq-dependencies]: success
+[2023-05-12 14:01:59] INFO root fetch - processPackages [wunderkafka]: Downloading https://files.pythonhosted.org/packages/73/6b/c7da4cd4a1fe68f675a140e07dd20bd7a46b9a18eb10eca99b2d3c656557/wunderkafka-0.9.9.tar.gz
+[2023-05-12 14:02:00] INFO root fetch - main [MainThread]: End processing [meshed]: success
+[2023-05-12 14:02:00] INFO root fetch - processPackages [wunderkafka]: executing diffoscope
+[2023-05-12 14:02:00] INFO root fetch - processPackages [wunderkafka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wunderkafka-0.9.8.tar.gz tmp/wunderkafka-0.9.9.tar.gz --markdown 20230512/w/wunderkafka/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-12 14:02:01] INFO root fetch - main [MainThread]: End processing [wunderkafka]: success
+[2023-05-12 14:02:02] INFO root fetch - main [MainThread]: End processing [onnx2tf]: success
+[2023-05-12 14:02:02] INFO root fetch - main [MainThread]: Store serial: [18077549]
