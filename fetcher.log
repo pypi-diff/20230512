@@ -18352,3 +18352,105 @@ EOFError: EOF read where object expected
 [2023-05-12 21:22:32] INFO root fetch - main [MainThread]: End processing [screeny]: success
 [2023-05-12 21:22:32] INFO root fetch - main [MainThread]: End processing [jaraco.packaging]: success
 [2023-05-12 21:22:32] INFO root fetch - main [MainThread]: Store serial: [18082995]
+[2023-05-12 21:27:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18082995]
+[2023-05-12 21:27:41] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-12 21:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: windmill-api
+[2023-05-12 21:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wmill
+[2023-05-12 21:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wmill-pg
+[2023-05-12 21:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: easyrequests
+[2023-05-12 21:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytorch-nlp-pipeline
+[2023-05-12 21:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chinese-characters-words
+[2023-05-12 21:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dataverse-api
+[2023-05-12 21:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: alvin-cli
+[2023-05-12 21:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hyt-gpt
+[2023-05-12 21:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: caikit
+[2023-05-12 21:27:41] INFO root fetch - processPackages [hyt-gpt]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-12 21:27:41] INFO root fetch - processPackages [alvin-cli]: New version: [1.2.0rc9] Old Version: [1.2.0rc8]
+[2023-05-12 21:27:41] WARNING root fetch - processPackages [easyrequests]: Skipping, unable to determine old version
+[2023-05-12 21:27:41] INFO root fetch - processPackages [easyrequests]: Start processing: stylebase
+[2023-05-12 21:27:41] INFO root fetch - main [MainThread]: End processing [easyrequests] error
+[2023-05-12 21:27:41] INFO root fetch - processPackages [dataverse-api]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-12 21:27:41] INFO root fetch - processPackages [caikit]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-05-12 21:27:41] INFO root fetch - processPackages [wmill]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-05-12 21:27:41] INFO root fetch - processPackages [wmill-pg]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-05-12 21:27:41] WARNING root fetch - processPackages [chinese-characters-words]: Skipping, unable to determine old version
+[2023-05-12 21:27:41] INFO root fetch - processPackages [chinese-characters-words]: Start processing: stylebase
+[2023-05-12 21:27:41] INFO root fetch - main [MainThread]: End processing [chinese-characters-words] error
+[2023-05-12 21:27:41] INFO root fetch - processPackages [pytorch-nlp-pipeline]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-12 21:27:41] INFO root fetch - processPackages [hyt-gpt]: executing diffoscope
+[2023-05-12 21:27:41] INFO root fetch - processPackages [hyt-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyt-gpt-0.3.8.tar.gz tmp/hyt-gpt-0.3.9.tar.gz --markdown 20230512/h/hyt-gpt/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-12 21:27:41] INFO root fetch - processPackages [windmill-api]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-05-12 21:27:41] INFO root fetch - processPackages [stylebase]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 21:27:41] INFO root fetch - processPackages [stylebase]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 21:27:41] INFO root fetch - processPackages [dataverse-api]: Downloading https://files.pythonhosted.org/packages/2e/3e/f228792e837e5f51696609cde84be821664504cb28e7d7704d5e083a2657/dataverse_api-0.1.0.tar.gz
+[2023-05-12 21:27:41] INFO root fetch - processPackages [caikit]: Downloading https://files.pythonhosted.org/packages/68/08/d4654298662c178fdb5854006bbbefbdc504d722674157ca0ad812f8c36b/caikit-0.3.1.tar.gz
+[2023-05-12 21:27:41] INFO root fetch - processPackages [alvin-cli]: executing diffoscope
+[2023-05-12 21:27:41] INFO root fetch - processPackages [alvin-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alvin_cli-1.2.0rc8.tar.gz tmp/alvin_cli-1.2.0rc9.tar.gz --markdown 20230512/a/alvin-cli/1.2.0rc8-1.2.0rc9/diff.md --exclude *.pyd
+[2023-05-12 21:27:41] INFO root fetch - processPackages [pytorch-nlp-pipeline]: Downloading https://files.pythonhosted.org/packages/70/0d/dfe167c6305332a809d43f42838f6664ceab8ca55a8b3e8fdfa7d6c1f2b9/pytorch_nlp_pipeline-0.1.8.tar.gz
+[2023-05-12 21:27:41] INFO root fetch - processPackages [stylebase]: Downloading https://files.pythonhosted.org/packages/71/1f/3d04c3d1b6fca5f518b5c48c3bbfd5a7ebf92c38268978421bc8bbef8764/stylebase-0.0.8.tar.gz
+[2023-05-12 21:27:41] INFO root fetch - processPackages [stylebase]: Downloading https://files.pythonhosted.org/packages/71/1f/3d04c3d1b6fca5f518b5c48c3bbfd5a7ebf92c38268978421bc8bbef8764/stylebase-0.0.8.tar.gz
+[2023-05-12 21:27:41] INFO root fetch - processPackages [wmill-pg]: executing diffoscope
+[2023-05-12 21:27:41] INFO root fetch - processPackages [wmill-pg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill_pg-1.98.0.tar.gz tmp/wmill_pg-1.99.0.tar.gz --markdown 20230512/w/wmill-pg/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-05-12 21:27:41] INFO root fetch - processPackages [wmill]: executing diffoscope
+[2023-05-12 21:27:41] INFO root fetch - processPackages [wmill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill-1.98.0.tar.gz tmp/wmill-1.99.0.tar.gz --markdown 20230512/w/wmill/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-05-12 21:27:41] INFO root fetch - processPackages [windmill-api]: executing diffoscope
+[2023-05-12 21:27:41] INFO root fetch - processPackages [windmill-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windmill_api-1.98.0.tar.gz tmp/windmill_api-1.99.0.tar.gz --markdown 20230512/w/windmill-api/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-05-12 21:27:41] INFO root fetch - processPackages [dataverse-api]: Downloading https://files.pythonhosted.org/packages/16/44/6aec7a096e589c9826cb8798f2f3773a630bdd72551505b301db6da6c53c/dataverse_api-0.1.1.tar.gz
+[2023-05-12 21:27:41] INFO root fetch - processPackages [caikit]: Downloading https://files.pythonhosted.org/packages/67/f2/49aff122339bca51554faee49bc1c5ca2f9158a315ad54d35e5d8255f6dc/caikit-0.4.0-py3-none-any.whl
+[2023-05-12 21:27:41] INFO root fetch - processPackages [dataverse-api]: executing diffoscope
+[2023-05-12 21:27:41] INFO root fetch - processPackages [dataverse-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataverse_api-0.1.0.tar.gz tmp/dataverse_api-0.1.1.tar.gz --markdown 20230512/d/dataverse-api/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-12 21:27:41] INFO root fetch - processPackages [pytorch-nlp-pipeline]: Downloading https://files.pythonhosted.org/packages/39/49/6c7b9df27304de79e69aed5ef0c709f40c6eefbe844f52d5f719e711a0e4/pytorch_nlp_pipeline-0.1.9.tar.gz
+[2023-05-12 21:27:41] INFO root fetch - processPackages [caikit]: executing diffoscope
+[2023-05-12 21:27:41] INFO root fetch - processPackages [caikit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caikit-0.3.1.tar.gz tmp/caikit-0.4.0-py3-none-any.whl.zip --markdown 20230512/c/caikit/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-05-12 21:27:41] INFO root fetch - processPackages [stylebase]: Downloading https://files.pythonhosted.org/packages/fa/f1/1618847c8a1ee661955f3254cb058dfb959ed9e16934ff9e1832e0d72e88/stylebase-0.0.9.tar.gz
+[2023-05-12 21:27:41] INFO root fetch - processPackages [stylebase]: Downloading https://files.pythonhosted.org/packages/fa/f1/1618847c8a1ee661955f3254cb058dfb959ed9e16934ff9e1832e0d72e88/stylebase-0.0.9.tar.gz
+[2023-05-12 21:27:41] INFO root fetch - processPackages [pytorch-nlp-pipeline]: executing diffoscope
+[2023-05-12 21:27:41] INFO root fetch - processPackages [pytorch-nlp-pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch_nlp_pipeline-0.1.8.tar.gz tmp/pytorch_nlp_pipeline-0.1.9.tar.gz --markdown 20230512/p/pytorch-nlp-pipeline/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-12 21:27:42] INFO root fetch - processPackages [stylebase]: executing diffoscope
+[2023-05-12 21:27:42] INFO root fetch - processPackages [stylebase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stylebase-0.0.8.tar.gz tmp/stylebase-0.0.9.tar.gz --markdown 20230512/s/stylebase/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 21:27:42] INFO root fetch - processPackages [stylebase]: executing diffoscope
+[2023-05-12 21:27:42] INFO root fetch - processPackages [stylebase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stylebase-0.0.8.tar.gz tmp/stylebase-0.0.9.tar.gz --markdown 20230512/s/stylebase/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 21:27:42] INFO root fetch - processPackages [hyt-gpt]: Start processing: stylebase
+[2023-05-12 21:27:42] INFO root fetch - main [MainThread]: End processing [hyt-gpt]: success
+[2023-05-12 21:27:42] INFO root fetch - processPackages [stylebase]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 21:27:42] INFO root fetch - processPackages [stylebase]: executing diffoscope
+[2023-05-12 21:27:42] INFO root fetch - processPackages [stylebase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stylebase-0.0.8.tar.gz tmp/stylebase-0.0.9.tar.gz --markdown 20230512/s/stylebase/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 21:27:43] INFO root fetch - processPackages [wmill-pg]: Start processing: stylebase
+[2023-05-12 21:27:43] INFO root fetch - main [MainThread]: End processing [wmill-pg]: success
+[2023-05-12 21:27:43] INFO root fetch - processPackages [stylebase]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 21:27:43] INFO root fetch - processPackages [stylebase]: executing diffoscope
+[2023-05-12 21:27:43] INFO root fetch - processPackages [stylebase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stylebase-0.0.8.tar.gz tmp/stylebase-0.0.9.tar.gz --markdown 20230512/s/stylebase/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 21:27:43] INFO root fetch - processPackages [wmill]: Start processing: stylebase
+[2023-05-12 21:27:43] INFO root fetch - main [MainThread]: End processing [wmill]: success
+[2023-05-12 21:27:43] INFO root fetch - processPackages [stylebase]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 21:27:43] INFO root fetch - processPackages [stylebase]: executing diffoscope
+[2023-05-12 21:27:43] INFO root fetch - processPackages [stylebase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stylebase-0.0.8.tar.gz tmp/stylebase-0.0.9.tar.gz --markdown 20230512/s/stylebase/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 21:27:43] INFO root fetch - processPackages [dataverse-api]: Start processing: hyt-gpt
+[2023-05-12 21:27:43] INFO root fetch - main [MainThread]: End processing [dataverse-api]: success
+[2023-05-12 21:27:43] INFO root fetch - processPackages [hyt-gpt]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-12 21:27:43] INFO root fetch - processPackages [alvin-cli]: Start processing: wafer-debconf
+[2023-05-12 21:27:43] INFO root fetch - main [MainThread]: End processing [alvin-cli]: success
+[2023-05-12 21:27:43] INFO root fetch - processPackages [hyt-gpt]: executing diffoscope
+[2023-05-12 21:27:43] INFO root fetch - processPackages [hyt-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyt-gpt-0.3.8.tar.gz tmp/hyt-gpt-0.3.9.tar.gz --markdown 20230512/h/hyt-gpt/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-12 21:27:43] INFO root fetch - processPackages [wafer-debconf]: New version: [0.9] Old Version: [0.8]
+[2023-05-12 21:27:43] INFO root fetch - processPackages [caikit]: Start processing: dfgfdg
+[2023-05-12 21:27:43] INFO root fetch - main [MainThread]: End processing [caikit]: success
+[2023-05-12 21:27:43] WARNING root fetch - processPackages [dfgfdg]: Skipping, unable to determine old version
+[2023-05-12 21:27:43] INFO root fetch - processPackages [dfgfdg]: Start processing: simple-chatgpt-cli
+[2023-05-12 21:27:43] INFO root fetch - main [MainThread]: End processing [dfgfdg] error
+[2023-05-12 21:27:43] INFO root fetch - processPackages [wafer-debconf]: Downloading https://files.pythonhosted.org/packages/52/e2/56d9caf00642cba25c6eaea41bc4ceb2ff763d2a56cb31d05cb5a3786b68/wafer-debconf-0.8.tar.gz
+[2023-05-12 21:27:44] WARNING root fetch - processPackages [simple-chatgpt-cli]: Skipping, unable to determine old version
+[2023-05-12 21:27:44] INFO root fetch - main [MainThread]: End processing [simple-chatgpt-cli] error
+[2023-05-12 21:27:44] INFO root fetch - main [MainThread]: End processing [stylebase]: success
+[2023-05-12 21:27:44] INFO root fetch - main [MainThread]: End processing [pytorch-nlp-pipeline]: success
+[2023-05-12 21:27:44] INFO root fetch - main [MainThread]: End processing [stylebase]: success
+[2023-05-12 21:27:44] INFO root fetch - main [MainThread]: End processing [stylebase]: success
+[2023-05-12 21:27:44] INFO root fetch - main [MainThread]: End processing [stylebase]: success
+[2023-05-12 21:27:44] INFO root fetch - main [MainThread]: End processing [stylebase]: success
+[2023-05-12 21:27:45] INFO root fetch - processPackages [wafer-debconf]: Downloading https://files.pythonhosted.org/packages/74/00/cbc3c873e82a5c38563d51661d3e29b8e617b13c9a20938bb99bc2b85e9d/wafer-debconf-0.9.tar.gz
+[2023-05-12 21:27:45] INFO root fetch - main [MainThread]: End processing [hyt-gpt]: success
+[2023-05-12 21:27:45] INFO root fetch - processPackages [wafer-debconf]: executing diffoscope
+[2023-05-12 21:27:45] INFO root fetch - processPackages [wafer-debconf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wafer-debconf-0.8.tar.gz tmp/wafer-debconf-0.9.tar.gz --markdown 20230512/w/wafer-debconf/0.8-0.9/diff.md --exclude *.pyd
+[2023-05-12 21:27:58] INFO root fetch - main [MainThread]: End processing [wafer-debconf]: success
+[2023-05-12 21:28:02] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
+[2023-05-12 21:28:02] INFO root fetch - main [MainThread]: Store serial: [18083081]
