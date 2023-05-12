@@ -10769,3 +10769,175 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-12 14:44:13] INFO root fetch - main [MainThread]: End processing [pyees]: success
 [2023-05-12 14:44:46] INFO root fetch - main [MainThread]: End processing [esprepomanager]: success
 [2023-05-12 14:44:46] INFO root fetch - main [MainThread]: Store serial: [18077871]
+[2023-05-12 14:49:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18077871]
+[2023-05-12 14:49:56] INFO root fetch - main [MainThread]: Found 34 changed packages
+[2023-05-12 14:49:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: asociita
+[2023-05-12 14:49:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ritetag
+[2023-05-12 14:49:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qontract-reconcile
+[2023-05-12 14:49:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: invenio-workflows-tugraz
+[2023-05-12 14:49:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pybarb
+[2023-05-12 14:49:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: img2str
+[2023-05-12 14:49:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pytest-testmon
+[2023-05-12 14:49:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: arknights-toolkit
+[2023-05-12 14:49:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: wombatoo
+[2023-05-12 14:49:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: simstring-fast
+[2023-05-12 14:49:56] INFO root fetch - processPackages [ritetag]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-05-12 14:49:56] INFO root fetch - processPackages [asociita]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-12 14:49:56] ERROR root fetch - processPackages [img2str]: Unable to get metadata: No such project 'img2str'
+[2023-05-12 14:49:56] INFO root fetch - processPackages [img2str]: Start processing: constructs
+[2023-05-12 14:49:56] INFO root fetch - main [MainThread]: End processing [img2str] error
+[2023-05-12 14:49:56] INFO root fetch - processPackages [pybarb]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-05-12 14:49:56] INFO root fetch - processPackages [pytest-testmon]: New version: [2.0.7b3] Old Version: [2.0.7b1]
+[2023-05-12 14:49:56] INFO root fetch - processPackages [wombatoo]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 14:49:56] INFO root fetch - processPackages [invenio-workflows-tugraz]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-12 14:49:56] INFO root fetch - processPackages [arknights-toolkit]: New version: [0.5.0] Old Version: [0.4.3]
+[2023-05-12 14:49:56] INFO root fetch - processPackages [simstring-fast]: New version: [0.2.4] Old Version: [0.2.0]
+[2023-05-12 14:49:56] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-05-12 14:49:56] INFO root fetch - processPackages [constructs]: New version: [3.4.99] Old Version: [3.4.98]
+[2023-05-12 14:49:56] INFO root fetch - processPackages [pytest-testmon]: Downloading https://files.pythonhosted.org/packages/52/18/f4bc7fd9555220dc089fd0a0616713cd9e09d63c54ad9927254123bbccd7/pytest-testmon-2.0.7b1.tar.gz
+[2023-05-12 14:49:56] INFO root fetch - processPackages [asociita]: Downloading https://files.pythonhosted.org/packages/a1/17/28cbf5efdb54b9e130dcf575d732f82289ebbe8094c7d0791fc61e9a9ce7/asociita-0.1.1.tar.gz
+[2023-05-12 14:49:56] INFO root fetch - processPackages [ritetag]: Downloading https://files.pythonhosted.org/packages/76/af/99c709a3c314cc42d2dbd1e8f1b610146aeed319af7cda208a4303fcc509/ritetag-1.3.2.tar.gz
+[2023-05-12 14:49:56] INFO root fetch - processPackages [wombatoo]: Downloading https://files.pythonhosted.org/packages/21/56/67f0b8e35f824066228efccb8eb5fee62d62d12405bb2ee3f6daa523293f/wombatoo-0.0.8.tar.gz
+[2023-05-12 14:49:56] INFO root fetch - processPackages [simstring-fast]: Downloading https://files.pythonhosted.org/packages/78/0a/ed04ac8d9f95464e3a088606d99a6929ff667c7b939fc9bd9e25069369a9/simstring_fast-0.2.4.tar.gz
+[2023-05-12 14:49:56] INFO root fetch - processPackages [arknights-toolkit]: Downloading https://files.pythonhosted.org/packages/63/c5/709221483241535247dfe4efa83ef3ad3b2103757beeb124886d2b4cb14a/arknights-toolkit-0.4.3.tar.gz
+[2023-05-12 14:49:56] INFO root fetch - processPackages [pybarb]: Downloading https://files.pythonhosted.org/packages/67/86/73d6a962ed18fc0382cf9bd6ae73b5b76bef2f96efca7bd96d9a60e09a7f/pybarb-0.3.3.tar.gz
+[2023-05-12 14:49:56] INFO root fetch - processPackages [invenio-workflows-tugraz]: executing diffoscope
+[2023-05-12 14:49:56] INFO root fetch - processPackages [invenio-workflows-tugraz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-workflows-tugraz-0.1.8.tar.gz tmp/invenio-workflows-tugraz-0.1.9.tar.gz --markdown 20230512/i/invenio-workflows-tugraz/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-12 14:49:56] INFO root fetch - processPackages [simstring-fast]: executing diffoscope
+[2023-05-12 14:49:56] INFO root fetch - processPackages [simstring-fast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simstring_fast-0.2.0.tar.gz tmp/simstring_fast-0.2.4.tar.gz --markdown 20230512/s/simstring-fast/0.2.0-0.2.4/diff.md --exclude *.pyd
+[2023-05-12 14:49:56] INFO root fetch - processPackages [pybarb]: executing diffoscope
+[2023-05-12 14:49:56] INFO root fetch - processPackages [pybarb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybarb-0.3.2.tar.gz tmp/pybarb-0.3.3.tar.gz --markdown 20230512/p/pybarb/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-05-12 14:49:56] WARNING root fetch - processPackages [arknights-toolkit]: Skipping package: exceeds size limit 11843544>=10485760
+[2023-05-12 14:49:56] INFO root fetch - processPackages [arknights-toolkit]: Start processing: img2str
+[2023-05-12 14:49:56] INFO root fetch - main [MainThread]: End processing [arknights-toolkit] error
+[2023-05-12 14:49:56] INFO root fetch - processPackages [constructs]: executing diffoscope
+[2023-05-12 14:49:56] INFO root fetch - processPackages [asociita]: Downloading https://files.pythonhosted.org/packages/48/94/91b6e792b1b452c0b69fcbc213f5c8ff9dc6dc1863e0e8f2b5ab86e43ed2/asociita-0.1.2.tar.gz
+[2023-05-12 14:49:56] INFO root fetch - processPackages [constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/constructs-3.4.98.tar.gz tmp/constructs-3.4.99.tar.gz --markdown 20230512/c/constructs/3.4.98-3.4.99/diff.md --exclude *.pyd
+[2023-05-12 14:49:56] ERROR root fetch - processPackages [img2str]: Unable to get metadata: No such project 'img2str'
+[2023-05-12 14:49:56] INFO root fetch - processPackages [pytest-testmon]: Downloading https://files.pythonhosted.org/packages/e1/a9/f710d2f2ede500b554a3c103673ba06668781fca5bb4587e1cfc1e2d05ce/pytest-testmon-2.0.7b3.tar.gz
+[2023-05-12 14:49:56] INFO root fetch - processPackages [img2str]: Start processing: xformers
+[2023-05-12 14:49:56] INFO root fetch - main [MainThread]: End processing [img2str] error
+[2023-05-12 14:49:56] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-05-12 14:49:56] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230512/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-05-12 14:49:56] INFO root fetch - processPackages [ritetag]: Downloading https://files.pythonhosted.org/packages/8c/06/7e6f7d67816833c01a086a11b557bcd4deb5369fa9c68cefed6142c70ea3/ritetag-1.3.3.tar.gz
+[2023-05-12 14:49:56] INFO root fetch - processPackages [xformers]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 14:49:56] INFO root fetch - processPackages [wombatoo]: Downloading https://files.pythonhosted.org/packages/a4/a4/8f62164b98c9e1f6f0d80de7ac693e10cf5b326af2179ca0c12ea9e01c11/wombatoo-0.0.9.tar.gz
+[2023-05-12 14:49:56] INFO root fetch - processPackages [asociita]: executing diffoscope
+[2023-05-12 14:49:56] INFO root fetch - processPackages [asociita]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asociita-0.1.1.tar.gz tmp/asociita-0.1.2.tar.gz --markdown 20230512/a/asociita/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-12 14:49:56] INFO root fetch - processPackages [pytest-testmon]: executing diffoscope
+[2023-05-12 14:49:56] INFO root fetch - processPackages [pytest-testmon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-testmon-2.0.7b1.tar.gz tmp/pytest-testmon-2.0.7b3.tar.gz --markdown 20230512/p/pytest-testmon/2.0.7b1-2.0.7b3/diff.md --exclude *.pyd
+[2023-05-12 14:49:56] INFO root fetch - processPackages [ritetag]: executing diffoscope
+[2023-05-12 14:49:56] INFO root fetch - processPackages [ritetag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ritetag-1.3.2.tar.gz tmp/ritetag-1.3.3.tar.gz --markdown 20230512/r/ritetag/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-05-12 14:49:56] INFO root fetch - processPackages [wombatoo]: executing diffoscope
+[2023-05-12 14:49:56] INFO root fetch - processPackages [wombatoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wombatoo-0.0.8.tar.gz tmp/wombatoo-0.0.9.tar.gz --markdown 20230512/w/wombatoo/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 14:49:57] INFO root fetch - processPackages [xformers]: executing diffoscope
+[2023-05-12 14:49:57] INFO root fetch - processPackages [xformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xformers-0.0.8.tar.gz tmp/xformers-0.0.9.tar.gz --markdown 20230512/x/xformers/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 14:49:58] INFO root fetch - processPackages [pybarb]: Start processing: mongomancy
+[2023-05-12 14:49:58] INFO root fetch - main [MainThread]: End processing [pybarb]: success
+[2023-05-12 14:49:58] INFO root fetch - processPackages [mongomancy]: New version: [0.1.9] Old Version: [0.1.7]
+[2023-05-12 14:49:58] INFO root fetch - processPackages [simstring-fast]: Start processing: pdf-client-wrapper
+[2023-05-12 14:49:58] INFO root fetch - main [MainThread]: End processing [simstring-fast]: success
+[2023-05-12 14:49:58] WARNING root fetch - processPackages [pdf-client-wrapper]: Skipping, unable to determine old version
+[2023-05-12 14:49:58] INFO root fetch - processPackages [pdf-client-wrapper]: Start processing: coral-decimal-mask
+[2023-05-12 14:49:58] INFO root fetch - main [MainThread]: End processing [pdf-client-wrapper] error
+[2023-05-12 14:49:58] INFO root fetch - processPackages [coral-decimal-mask]: New version: [0.4.0] Old Version: [0.3.3]
+[2023-05-12 14:49:58] INFO root fetch - processPackages [constructs]: Start processing: fractal-server
+[2023-05-12 14:49:58] INFO root fetch - main [MainThread]: End processing [constructs]: success
+[2023-05-12 14:49:58] INFO root fetch - processPackages [fractal-server]: New version: [1.3.0a0] Old Version: [1.2.5a2]
+[2023-05-12 14:49:58] INFO root fetch - processPackages [mongomancy]: Downloading https://files.pythonhosted.org/packages/ab/0f/12babca89c147b63e23f137085cdd0bef7a73738044a7ee1474e67e2f63e/mongomancy-0.1.9.tar.gz
+[2023-05-12 14:49:58] INFO root fetch - processPackages [coral-decimal-mask]: Downloading https://files.pythonhosted.org/packages/29/51/bc3d097f21eb7bb7d3f853eba93c58e74b727287704b2ef165cdfa8233c1/coral_decimal_mask-0.3.3.tar.gz
+[2023-05-12 14:49:58] INFO root fetch - processPackages [invenio-workflows-tugraz]: Start processing: benanalysis
+[2023-05-12 14:49:58] INFO root fetch - main [MainThread]: End processing [invenio-workflows-tugraz]: success
+[2023-05-12 14:49:58] WARNING root fetch - processPackages [benanalysis]: Skipping, unable to determine old version
+[2023-05-12 14:49:58] INFO root fetch - processPackages [benanalysis]: Start processing: bagbag
+[2023-05-12 14:49:58] INFO root fetch - main [MainThread]: End processing [benanalysis] error
+[2023-05-12 14:49:58] INFO root fetch - processPackages [bagbag]: New version: [0.59.0] Old Version: [0.58.9]
+[2023-05-12 14:49:58] INFO root fetch - processPackages [mongomancy]: executing diffoscope
+[2023-05-12 14:49:58] INFO root fetch - processPackages [mongomancy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongomancy-0.1.7.tar.gz tmp/mongomancy-0.1.9.tar.gz --markdown 20230512/m/mongomancy/0.1.7-0.1.9/diff.md --exclude *.pyd
+[2023-05-12 14:49:58] INFO root fetch - processPackages [ritetag]: Start processing: resolwe
+[2023-05-12 14:49:58] INFO root fetch - main [MainThread]: End processing [ritetag]: success
+[2023-05-12 14:49:58] INFO root fetch - processPackages [resolwe]: New version: [9.0.0a4] Old Version: [9.0.0a3]
+[2023-05-12 14:49:58] INFO root fetch - processPackages [wombatoo]: Start processing: tensorcircuit-nightly
+[2023-05-12 14:49:58] INFO root fetch - main [MainThread]: End processing [wombatoo]: success
+[2023-05-12 14:49:58] INFO root fetch - processPackages [coral-decimal-mask]: Downloading https://files.pythonhosted.org/packages/82/56/9db9da4a664f658b8e1262d94004b3239cd3ce3fadd2f971a96f954880b1/coral_decimal_mask-0.4.0.tar.gz
+[2023-05-12 14:49:58] INFO root fetch - processPackages [tensorcircuit-nightly]: New version: [0.9.0.dev20230511] Old Version: [0.9.0.dev20230510]
+[2023-05-12 14:49:58] INFO root fetch - processPackages [fractal-server]: Downloading https://files.pythonhosted.org/packages/b8/91/dedab0acf6c1475dd953a5d41b609db3ab362df7996d702531b890de3158/fractal_server-1.3.0a0.tar.gz
+[2023-05-12 14:49:58] INFO root fetch - processPackages [resolwe]: executing diffoscope
+[2023-05-12 14:49:58] INFO root fetch - processPackages [resolwe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resolwe-9.0.0a3.tar.gz tmp/resolwe-9.0.0a4.tar.gz --markdown 20230512/r/resolwe/9.0.0a3-9.0.0a4/diff.md --exclude *.pyd
+[2023-05-12 14:49:58] INFO root fetch - processPackages [coral-decimal-mask]: executing diffoscope
+[2023-05-12 14:49:58] INFO root fetch - processPackages [coral-decimal-mask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coral_decimal_mask-0.3.3.tar.gz tmp/coral_decimal_mask-0.4.0.tar.gz --markdown 20230512/c/coral-decimal-mask/0.3.3-0.4.0/diff.md --exclude *.pyd
+[2023-05-12 14:49:58] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/29/5f/91d31c02c986161f25d966b943ca8f18c39e760b8c4815af8f5e75b1377c/bagbag-0.59.0.tar.gz
+[2023-05-12 14:49:58] INFO root fetch - processPackages [pytest-testmon]: Start processing: macrometa-source-mongo
+[2023-05-12 14:49:58] INFO root fetch - main [MainThread]: End processing [pytest-testmon]: success
+[2023-05-12 14:49:58] INFO root fetch - processPackages [macrometa-source-mongo]: New version: [0.0.39] Old Version: [0.0.37]
+[2023-05-12 14:49:58] INFO root fetch - processPackages [fractal-server]: executing diffoscope
+[2023-05-12 14:49:58] INFO root fetch - processPackages [fractal-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fractal_server-1.2.5a2.tar.gz tmp/fractal_server-1.3.0a0.tar.gz --markdown 20230512/f/fractal-server/1.2.5a2-1.3.0a0/diff.md --exclude *.pyd
+[2023-05-12 14:49:59] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-05-12 14:49:59] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.58.9.tar.gz tmp/bagbag-0.59.0.tar.gz --markdown 20230512/b/bagbag/0.58.9-0.59.0/diff.md --exclude *.pyd
+[2023-05-12 14:49:59] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/89/7a/67f3d024cd49df0c5af67e676841230d0213a2a1866bd6801dfd38857d23/tensorcircuit-nightly-0.9.0.dev20230511.tar.gz
+[2023-05-12 14:49:59] INFO root fetch - processPackages [tensorcircuit-nightly]: executing diffoscope
+[2023-05-12 14:49:59] INFO root fetch - processPackages [tensorcircuit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorcircuit-nightly-0.9.0.dev20230510.tar.gz tmp/tensorcircuit-nightly-0.9.0.dev20230511.tar.gz --markdown 20230512/t/tensorcircuit-nightly/0.9.0.dev20230510-0.9.0.dev20230511/diff.md --exclude *.pyd
+[2023-05-12 14:49:59] INFO root fetch - processPackages [macrometa-source-mongo]: Downloading https://files.pythonhosted.org/packages/b3/e8/188b753ac3b0e487317387a9f99d8b8924d5190f82750e21cbf98d24efcd/macrometa-source-mongo-0.0.39.tar.gz
+[2023-05-12 14:49:59] INFO root fetch - processPackages [macrometa-source-mongo]: executing diffoscope
+[2023-05-12 14:49:59] INFO root fetch - processPackages [macrometa-source-mongo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-source-mongo-0.0.37.tar.gz tmp/macrometa-source-mongo-0.0.39.tar.gz --markdown 20230512/m/macrometa-source-mongo/0.0.37-0.0.39/diff.md --exclude *.pyd
+[2023-05-12 14:49:59] INFO root fetch - processPackages [asociita]: Start processing: rasa
+[2023-05-12 14:49:59] INFO root fetch - main [MainThread]: End processing [asociita]: success
+[2023-05-12 14:49:59] INFO root fetch - processPackages [rasa]: New version: [3.5.7] Old Version: [3.5.6]
+[2023-05-12 14:49:59] INFO root fetch - processPackages [xformers]: Start processing: osais
+[2023-05-12 14:49:59] INFO root fetch - main [MainThread]: End processing [xformers]: success
+[2023-05-12 14:49:59] INFO root fetch - processPackages [osais]: New version: [1.0.42] Old Version: [1.0.41]
+[2023-05-12 14:49:59] INFO root fetch - processPackages [rasa]: executing diffoscope
+[2023-05-12 14:49:59] INFO root fetch - processPackages [rasa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rasa-3.5.6.tar.gz tmp/rasa-3.5.7.tar.gz --markdown 20230512/r/rasa/3.5.6-3.5.7/diff.md --exclude *.pyd
+[2023-05-12 14:49:59] INFO root fetch - processPackages [osais]: Downloading https://files.pythonhosted.org/packages/e9/ad/ca3f1b43e564c44d8f88be317b63884f5a682fe8af224407c0ba1986e22a/osais-1.0.41.tar.gz
+[2023-05-12 14:50:00] INFO root fetch - processPackages [osais]: Downloading https://files.pythonhosted.org/packages/45/92/d55eda9e9fa7c7f1f1e043b5ff8a7c6a73215d0a3276c0f72bcaa6917a57/osais-1.0.42.tar.gz
+[2023-05-12 14:50:00] INFO root fetch - processPackages [coral-decimal-mask]: Start processing: mongomancy
+[2023-05-12 14:50:00] INFO root fetch - processPackages [osais]: executing diffoscope
+[2023-05-12 14:50:00] INFO root fetch - main [MainThread]: End processing [coral-decimal-mask]: success
+[2023-05-12 14:50:00] INFO root fetch - processPackages [osais]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osais-1.0.41.tar.gz tmp/osais-1.0.42.tar.gz --markdown 20230512/o/osais/1.0.41-1.0.42/diff.md --exclude *.pyd
+[2023-05-12 14:50:00] INFO root fetch - processPackages [mongomancy]: New version: [0.1.9] Old Version: [0.1.7]
+[2023-05-12 14:50:00] INFO root fetch - processPackages [mongomancy]: Start processing: extr-ds
+[2023-05-12 14:50:00] INFO root fetch - main [MainThread]: End processing [mongomancy]: success
+[2023-05-12 14:50:00] INFO root fetch - processPackages [extr-ds]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 14:50:00] INFO root fetch - processPackages [mongomancy]: executing diffoscope
+[2023-05-12 14:50:00] INFO root fetch - processPackages [mongomancy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongomancy-0.1.7.tar.gz tmp/mongomancy-0.1.9.tar.gz --markdown 20230512/m/mongomancy/0.1.7-0.1.9/diff.md --exclude *.pyd
+[2023-05-12 14:50:00] INFO root fetch - processPackages [extr-ds]: executing diffoscope
+[2023-05-12 14:50:00] INFO root fetch - processPackages [extr-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extr-ds-0.0.8.tar.gz tmp/extr-ds-0.0.9.tar.gz --markdown 20230512/e/extr-ds/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 14:50:00] INFO root fetch - processPackages [macrometa-source-mongo]: Start processing: resotoappbundler
+[2023-05-12 14:50:00] INFO root fetch - main [MainThread]: End processing [macrometa-source-mongo]: success
+[2023-05-12 14:50:01] WARNING root fetch - processPackages [resotoappbundler]: Skipping, unable to determine old version
+[2023-05-12 14:50:01] INFO root fetch - processPackages [resotoappbundler]: Start processing: AICreator
+[2023-05-12 14:50:01] INFO root fetch - main [MainThread]: End processing [resotoappbundler] error
+[2023-05-12 14:50:01] INFO root fetch - processPackages [AICreator]: New version: [0.1.5] Old Version: [0.1.3]
+[2023-05-12 14:50:01] ERROR root fetch - processPackages [AICreator]: Unable to fetch info: No such project/version 'AICreator' 0.1.3
+[2023-05-12 14:50:01] INFO root fetch - processPackages [AICreator]: Start processing: HypeBankAPI
+[2023-05-12 14:50:01] INFO root fetch - main [MainThread]: End processing [AICreator] error
+[2023-05-12 14:50:01] ERROR root fetch - processPackages [HypeBankAPI]: Unable to get metadata: No such project 'HypeBankAPI'
+[2023-05-12 14:50:01] INFO root fetch - processPackages [HypeBankAPI]: Start processing: django-admin-kubi
+[2023-05-12 14:50:01] INFO root fetch - main [MainThread]: End processing [HypeBankAPI] error
+[2023-05-12 14:50:01] WARNING root fetch - processPackages [django-admin-kubi]: Skipping, unable to determine old version
+[2023-05-12 14:50:01] INFO root fetch - processPackages [django-admin-kubi]: Start processing: resoto-apps
+[2023-05-12 14:50:01] INFO root fetch - main [MainThread]: End processing [django-admin-kubi] error
+[2023-05-12 14:50:01] WARNING root fetch - processPackages [resoto-apps]: Skipping, unable to determine old version
+[2023-05-12 14:50:01] INFO root fetch - processPackages [resoto-apps]: Start processing: nanolab
+[2023-05-12 14:50:01] INFO root fetch - main [MainThread]: End processing [resoto-apps] error
+[2023-05-12 14:50:01] INFO root fetch - processPackages [nanolab]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-12 14:50:01] INFO root fetch - processPackages [tensorcircuit-nightly]: Start processing: isidore
+[2023-05-12 14:50:01] INFO root fetch - main [MainThread]: End processing [tensorcircuit-nightly]: success
+[2023-05-12 14:50:01] INFO root fetch - processPackages [osais]: Start processing: img2str
+[2023-05-12 14:50:01] INFO root fetch - main [MainThread]: End processing [osais]: success
+[2023-05-12 14:50:01] ERROR root fetch - processPackages [img2str]: Unable to get metadata: No such project 'img2str'
+[2023-05-12 14:50:01] INFO root fetch - main [MainThread]: End processing [img2str] error
+[2023-05-12 14:50:01] INFO root fetch - processPackages [nanolab]: Downloading https://files.pythonhosted.org/packages/f6/63/2a82931a6db30babe5c2b6d7ff85f3e968c7e40f01dc20a8add26f8df5e2/nanolab-0.0.5.tar.gz
+[2023-05-12 14:50:01] INFO root fetch - main [MainThread]: End processing [fractal-server]: success
+[2023-05-12 14:50:02] WARNING root fetch - processPackages [isidore]: Skipping, unable to determine old version
+[2023-05-12 14:50:02] INFO root fetch - main [MainThread]: End processing [isidore] error
+[2023-05-12 14:50:02] INFO root fetch - main [MainThread]: End processing [mongomancy]: success
+[2023-05-12 14:50:02] INFO root fetch - processPackages [nanolab]: executing diffoscope
+[2023-05-12 14:50:02] INFO root fetch - processPackages [nanolab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanolab-0.0.4.tar.gz tmp/nanolab-0.0.5.tar.gz --markdown 20230512/n/nanolab/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-12 14:50:02] INFO root fetch - main [MainThread]: End processing [extr-ds]: success
+[2023-05-12 14:50:02] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-05-12 14:50:03] INFO root fetch - main [MainThread]: End processing [nanolab]: success
+[2023-05-12 14:50:03] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-05-12 14:50:03] INFO root fetch - main [MainThread]: End processing [rasa]: success
+[2023-05-12 14:50:04] INFO root fetch - main [MainThread]: End processing [resolwe]: success
+[2023-05-12 14:50:04] INFO root fetch - main [MainThread]: Store serial: [18077996]
