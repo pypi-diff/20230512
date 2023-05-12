@@ -7705,3 +7705,88 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-12 10:55:26] INFO root fetch - main [MainThread]: End processing [buteo]: success
 [2023-05-12 10:56:00] INFO root fetch - main [MainThread]: End processing [bthome-ble]: success
 [2023-05-12 10:56:00] INFO root fetch - main [MainThread]: Store serial: [18075667]
+[2023-05-12 11:01:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18075667]
+[2023-05-12 11:01:09] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-12 11:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: irene-pro
+[2023-05-12 11:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo13-addon-stock-buffer-route
+[2023-05-12 11:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: msqlpd
+[2023-05-12 11:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo13-addon-ddmrp
+[2023-05-12 11:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tinybird-cdk
+[2023-05-12 11:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: samshee
+[2023-05-12 11:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pygwalker
+[2023-05-12 11:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: eswrap
+[2023-05-12 11:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: scaleway-sdk
+[2023-05-12 11:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cloudshell-cli
+[2023-05-12 11:01:09] INFO root fetch - processPackages [odoo13-addon-ddmrp]: New version: [13.0.1.9.1.dev1] Old Version: [13.0.1.9.0]
+[2023-05-12 11:01:09] INFO root fetch - processPackages [msqlpd]: New version: [4.0.4] Old Version: [4.0.3]
+[2023-05-12 11:01:09] INFO root fetch - processPackages [odoo13-addon-stock-buffer-route]: New version: [13.0.1.3.0] Old Version: [13.0.1.2.0]
+[2023-05-12 11:01:09] INFO root fetch - processPackages [irene-pro]: New version: [0.0.28] Old Version: [0.0.27]
+[2023-05-12 11:01:09] INFO root fetch - processPackages [tinybird-cdk]: New version: [0.17.1] Old Version: [0.17.0]
+[2023-05-12 11:01:09] INFO root fetch - processPackages [samshee]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-12 11:01:09] INFO root fetch - processPackages [eswrap]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-05-12 11:01:09] INFO root fetch - processPackages [pygwalker]: New version: [0.1.8] Old Version: [0.1.7a5]
+[2023-05-12 11:01:09] INFO root fetch - processPackages [cloudshell-cli]: New version: [5.0.1] Old Version: [5.0.0]
+[2023-05-12 11:01:09] INFO root fetch - processPackages [scaleway-sdk]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-05-12 11:01:10] INFO root fetch - processPackages [odoo13-addon-stock-buffer-route]: Downloading https://files.pythonhosted.org/packages/8c/3b/802a8bad8d7e5c0aaa4d3dbc8dd039fbce0aac3cfdf767d9634fae55a686/odoo13_addon_stock_buffer_route-13.0.1.2.0-py3-none-any.whl
+[2023-05-12 11:01:10] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/cd/88/b761f15a55f794ced28b04e3e8990c4c77b0f058a24ed2055882a80df49f/irene_pro-0.0.27.tar.gz
+[2023-05-12 11:01:10] INFO root fetch - processPackages [eswrap]: Downloading https://files.pythonhosted.org/packages/37/11/896b9b9054594c3277e33c9d94b2e718051f84d319b243328993258404c5/eswrap-0.4.2.tar.gz
+[2023-05-12 11:01:10] INFO root fetch - processPackages [samshee]: Downloading https://files.pythonhosted.org/packages/ad/41/ef92266bb61b4f0ac9271e6e4f3d01f57518a87e856bfa9ca7ba0e6a0765/samshee-0.1.4.tar.gz
+[2023-05-12 11:01:10] INFO root fetch - processPackages [tinybird-cdk]: Downloading https://files.pythonhosted.org/packages/50/54/177c2a7ec6512b4470341c6480969843036a3bf3d85999bbc360d3e16ded/tinybird-cdk-0.17.1.tar.gz
+[2023-05-12 11:01:10] INFO root fetch - processPackages [pygwalker]: Downloading https://files.pythonhosted.org/packages/f9/67/2c44fa96ff25aea894561feacf1a39d5ebaed58f3239474b307af4755641/pygwalker-0.1.7a5.tar.gz
+[2023-05-12 11:01:10] INFO root fetch - processPackages [scaleway-sdk]: Downloading https://files.pythonhosted.org/packages/69/e0/45e7ffd7257ec149ad82c43e9d504cbd0d90317c919e8b6f16c25a847960/scaleway-sdk-1.9.0.tar.gz
+[2023-05-12 11:01:10] INFO root fetch - processPackages [cloudshell-cli]: Downloading https://files.pythonhosted.org/packages/cc/54/c1572a2391e554dcfb6b6405f8f229819c3a92e3f25074a1e017bb8e48ec/cloudshell-cli-5.0.0.zip
+[2023-05-12 11:01:10] INFO root fetch - processPackages [eswrap]: executing diffoscope
+[2023-05-12 11:01:10] INFO root fetch - processPackages [eswrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eswrap-0.4.1.tar.gz tmp/eswrap-0.4.2.tar.gz --markdown 20230512/e/eswrap/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-05-12 11:01:10] INFO root fetch - processPackages [msqlpd]: Downloading https://files.pythonhosted.org/packages/ce/0d/0973cfbbae75f6846226466951aad12559cfd206d1dee9f2ccb23005b84e/msqlpd-4.0.4.tar.gz
+[2023-05-12 11:01:10] INFO root fetch - processPackages [tinybird-cdk]: executing diffoscope
+[2023-05-12 11:01:10] INFO root fetch - processPackages [tinybird-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinybird-cdk-0.17.0.tar.gz tmp/tinybird-cdk-0.17.1.tar.gz --markdown 20230512/t/tinybird-cdk/0.17.0-0.17.1/diff.md --exclude *.pyd
+[2023-05-12 11:01:10] INFO root fetch - processPackages [odoo13-addon-ddmrp]: executing diffoscope
+[2023-05-12 11:01:10] INFO root fetch - processPackages [odoo13-addon-ddmrp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_ddmrp-13.0.1.9.0-py3-none-any.whl.zip tmp/odoo13_addon_ddmrp-13.0.1.9.1.dev1-py3-none-any.whl.zip --markdown 20230512/o/odoo13-addon-ddmrp/13.0.1.9.0-13.0.1.9.1.dev1/diff.md --exclude *.pyd
+[2023-05-12 11:01:10] INFO root fetch - processPackages [msqlpd]: executing diffoscope
+[2023-05-12 11:01:10] INFO root fetch - processPackages [msqlpd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msqlpd-4.0.3.tar.gz tmp/msqlpd-4.0.4.tar.gz --markdown 20230512/m/msqlpd/4.0.3-4.0.4/diff.md --exclude *.pyd
+[2023-05-12 11:01:10] INFO root fetch - processPackages [samshee]: Downloading https://files.pythonhosted.org/packages/47/db/0b1ae069b4c9bf68b481dc0ffd833af8b8f67051d4bf77bc379e838c0012/samshee-0.1.5.tar.gz
+[2023-05-12 11:01:10] INFO root fetch - processPackages [odoo13-addon-stock-buffer-route]: Downloading https://files.pythonhosted.org/packages/19/d8/c83eba6a449df210d0b2dcdfba2cb7d13d4357f107cb182758d56daa77f8/odoo13_addon_stock_buffer_route-13.0.1.3.0-py3-none-any.whl
+[2023-05-12 11:01:10] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/05/76/70c8075e10af9df206b47e95dcce0265956b2cbc75d60a00e4ed623483a1/irene_pro-0.0.28.tar.gz
+[2023-05-12 11:01:10] INFO root fetch - processPackages [cloudshell-cli]: Downloading https://files.pythonhosted.org/packages/20/61/b4cc6bdaa738e1221219651434c16b0e0e90a4f845ed5bd6d21c1d6a6e06/cloudshell-cli-5.0.1.zip
+[2023-05-12 11:01:10] INFO root fetch - processPackages [pygwalker]: Downloading https://files.pythonhosted.org/packages/7b/03/41498937f6f53483258d2afb43e72b5aea0d219333e3245a7c1242382c77/pygwalker-0.1.8.tar.gz
+[2023-05-12 11:01:10] INFO root fetch - processPackages [scaleway-sdk]: Downloading https://files.pythonhosted.org/packages/d6/4b/ee09b36fd3ffe4ae11acb794600823ccdbb8608c44e977b9195c54f4ec74/scaleway-sdk-1.9.1.tar.gz
+[2023-05-12 11:01:10] INFO root fetch - processPackages [samshee]: executing diffoscope
+[2023-05-12 11:01:10] INFO root fetch - processPackages [samshee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/samshee-0.1.4.tar.gz tmp/samshee-0.1.5.tar.gz --markdown 20230512/s/samshee/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-12 11:01:10] INFO root fetch - processPackages [odoo13-addon-stock-buffer-route]: executing diffoscope
+[2023-05-12 11:01:10] INFO root fetch - processPackages [odoo13-addon-stock-buffer-route]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_stock_buffer_route-13.0.1.2.0-py3-none-any.whl.zip tmp/odoo13_addon_stock_buffer_route-13.0.1.3.0-py3-none-any.whl.zip --markdown 20230512/o/odoo13-addon-stock-buffer-route/13.0.1.2.0-13.0.1.3.0/diff.md --exclude *.pyd
+[2023-05-12 11:01:10] INFO root fetch - processPackages [irene-pro]: executing diffoscope
+[2023-05-12 11:01:10] INFO root fetch - processPackages [irene-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irene_pro-0.0.27.tar.gz tmp/irene_pro-0.0.28.tar.gz --markdown 20230512/i/irene-pro/0.0.27-0.0.28/diff.md --exclude *.pyd
+[2023-05-12 11:01:10] INFO root fetch - processPackages [cloudshell-cli]: executing diffoscope
+[2023-05-12 11:01:10] INFO root fetch - processPackages [cloudshell-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudshell-cli-5.0.0.zip tmp/cloudshell-cli-5.0.1.zip --markdown 20230512/c/cloudshell-cli/5.0.0-5.0.1/diff.md --exclude *.pyd
+[2023-05-12 11:01:10] INFO root fetch - processPackages [pygwalker]: executing diffoscope
+[2023-05-12 11:01:10] INFO root fetch - processPackages [pygwalker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygwalker-0.1.7a5.tar.gz tmp/pygwalker-0.1.8.tar.gz --markdown 20230512/p/pygwalker/0.1.7a5-0.1.8/diff.md --exclude *.pyd
+[2023-05-12 11:01:10] INFO root fetch - processPackages [scaleway-sdk]: executing diffoscope
+[2023-05-12 11:01:10] INFO root fetch - processPackages [scaleway-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scaleway-sdk-1.9.0.tar.gz tmp/scaleway-sdk-1.9.1.tar.gz --markdown 20230512/s/scaleway-sdk/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-05-12 11:01:11] INFO root fetch - processPackages [eswrap]: Start processing: emulsion
+[2023-05-12 11:01:11] INFO root fetch - main [MainThread]: End processing [eswrap]: success
+[2023-05-12 11:01:11] INFO root fetch - processPackages [tinybird-cdk]: Start processing: certora-cli-alpha-shelly-releasewithci
+[2023-05-12 11:01:11] INFO root fetch - main [MainThread]: End processing [tinybird-cdk]: success
+[2023-05-12 11:01:11] INFO root fetch - processPackages [certora-cli-alpha-shelly-releasewithci]: New version: [20230511.16.38.220144] Old Version: [20230511.13.13.556295]
+[2023-05-12 11:01:11] INFO root fetch - processPackages [emulsion]: New version: [1.3b1] Old Version: [1.2rc1]
+[2023-05-12 11:01:11] INFO root fetch - processPackages [certora-cli-alpha-shelly-releasewithci]: Downloading https://files.pythonhosted.org/packages/df/ce/5ffd64d1d222750b793f075c37a0a00790055d5dd3b7c609d224b381f351/certora-cli-alpha-shelly-releasewithci-20230511.13.13.556295.tar.gz
+[2023-05-12 11:01:11] WARNING root fetch - processPackages [certora-cli-alpha-shelly-releasewithci]: Skipping package: exceeds size limit 39424418>=10485760
+[2023-05-12 11:01:11] INFO root fetch - processPackages [certora-cli-alpha-shelly-releasewithci]: Start processing: lusid-notifications-sdk-preview
+[2023-05-12 11:01:11] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-shelly-releasewithci] error
+[2023-05-12 11:01:11] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: New version: [0.1.668] Old Version: [0.1.664]
+[2023-05-12 11:01:12] INFO root fetch - main [MainThread]: End processing [msqlpd]: success
+[2023-05-12 11:01:12] INFO root fetch - processPackages [emulsion]: Downloading https://files.pythonhosted.org/packages/f5/b6/b6baebb6176cf9de210a401fef0680366aed9211f5db439dd82f090218ee/emulsion-1.2rc1.tar.gz
+[2023-05-12 11:01:12] INFO root fetch - main [MainThread]: End processing [samshee]: success
+[2023-05-12 11:01:12] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: executing diffoscope
+[2023-05-12 11:01:12] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-notifications-sdk-preview-0.1.664.tar.gz tmp/lusid-notifications-sdk-preview-0.1.668.tar.gz --markdown 20230512/l/lusid-notifications-sdk-preview/0.1.664-0.1.668/diff.md --exclude *.pyd
+[2023-05-12 11:01:12] INFO root fetch - main [MainThread]: End processing [irene-pro]: success
+[2023-05-12 11:01:12] INFO root fetch - main [MainThread]: End processing [odoo13-addon-stock-buffer-route]: success
+[2023-05-12 11:01:12] INFO root fetch - processPackages [emulsion]: Downloading https://files.pythonhosted.org/packages/98/99/a23cb4a05b2826983f2801c34c55023174c578c72b53e86e4c8906744ec7/emulsion-1.3beta1.tar.gz
+[2023-05-12 11:01:12] INFO root fetch - main [MainThread]: End processing [scaleway-sdk]: success
+[2023-05-12 11:01:12] INFO root fetch - main [MainThread]: End processing [odoo13-addon-ddmrp]: success
+[2023-05-12 11:01:12] INFO root fetch - processPackages [emulsion]: executing diffoscope
+[2023-05-12 11:01:12] INFO root fetch - processPackages [emulsion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emulsion-1.2rc1.tar.gz tmp/emulsion-1.3beta1.tar.gz --markdown 20230512/e/emulsion/1.2rc1-1.3b1/diff.md --exclude *.pyd
+[2023-05-12 11:01:12] INFO root fetch - main [MainThread]: End processing [cloudshell-cli]: success
+[2023-05-12 11:01:14] INFO root fetch - main [MainThread]: End processing [lusid-notifications-sdk-preview]: success
+[2023-05-12 11:01:16] INFO root fetch - main [MainThread]: End processing [emulsion]: success
+[2023-05-12 11:01:27] INFO root fetch - main [MainThread]: End processing [pygwalker]: success
+[2023-05-12 11:01:27] INFO root fetch - main [MainThread]: Store serial: [18075708]
