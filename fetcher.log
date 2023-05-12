@@ -3786,3 +3786,29 @@
 [2023-05-12 05:50:21] INFO root fetch - main [MainThread]: End processing [antchain-ak-ea70f896f759459588dfbc7d1fafe2f9]: success
 [2023-05-12 05:50:22] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tbm]: success
 [2023-05-12 05:50:22] INFO root fetch - main [MainThread]: Store serial: [18072985]
+[2023-05-12 05:55:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18072985]
+[2023-05-12 05:55:30] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-12 05:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spatialprofilingtoolbox
+[2023-05-12 05:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mmkit-features
+[2023-05-12 05:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: antchain-riskplus
+[2023-05-12 05:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: google-pygram
+[2023-05-12 05:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: seres
+[2023-05-12 05:55:30] INFO root fetch - processPackages [spatialprofilingtoolbox]: New version: [0.9.2] Old Version: [0.9.107]
+[2023-05-12 05:55:30] WARNING root fetch - processPackages [seres]: Skipping, unable to determine old version
+[2023-05-12 05:55:30] INFO root fetch - main [MainThread]: End processing [seres] error
+[2023-05-12 05:55:30] INFO root fetch - processPackages [antchain-riskplus]: New version: [1.9.5] Old Version: [1.9.3]
+[2023-05-12 05:55:30] INFO root fetch - processPackages [mmkit-features]: New version: [0.0.1a2] Old Version: [0.0.1a1]
+[2023-05-12 05:55:30] WARNING root fetch - processPackages [google-pygram]: Skipping, unable to determine old version
+[2023-05-12 05:55:30] INFO root fetch - main [MainThread]: End processing [google-pygram] error
+[2023-05-12 05:55:30] INFO root fetch - processPackages [spatialprofilingtoolbox]: executing diffoscope
+[2023-05-12 05:55:30] INFO root fetch - processPackages [spatialprofilingtoolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spatialprofilingtoolbox-0.9.107.tar.gz tmp/spatialprofilingtoolbox-0.9.2.tar.gz --markdown 20230512/s/spatialprofilingtoolbox/0.9.107-0.9.2/diff.md --exclude *.pyd
+[2023-05-12 05:55:31] INFO root fetch - processPackages [mmkit-features]: Downloading https://files.pythonhosted.org/packages/ab/40/0ccebe8152d31bb72223ff4eb35da71f28b6c1c4c59b4d074be190c892fb/mmkit-features-0.0.1a1.tar.gz
+[2023-05-12 05:55:31] INFO root fetch - processPackages [antchain-riskplus]: executing diffoscope
+[2023-05-12 05:55:31] INFO root fetch - processPackages [antchain-riskplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_riskplus-1.9.3.tar.gz tmp/antchain_riskplus-1.9.5.tar.gz --markdown 20230512/a/antchain-riskplus/1.9.3-1.9.5/diff.md --exclude *.pyd
+[2023-05-12 05:55:31] INFO root fetch - processPackages [mmkit-features]: Downloading https://files.pythonhosted.org/packages/d5/b7/7ae7495a33ba4f74cff978b531b236daf4120edd26c74a7cd87e6a9c2740/mmkit-features-0.0.1a2.tar.gz
+[2023-05-12 05:55:31] INFO root fetch - processPackages [mmkit-features]: executing diffoscope
+[2023-05-12 05:55:31] INFO root fetch - processPackages [mmkit-features]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mmkit-features-0.0.1a1.tar.gz tmp/mmkit-features-0.0.1a2.tar.gz --markdown 20230512/m/mmkit-features/0.0.1a1-0.0.1a2/diff.md --exclude *.pyd
+[2023-05-12 05:55:32] INFO root fetch - main [MainThread]: End processing [spatialprofilingtoolbox]: success
+[2023-05-12 05:55:32] INFO root fetch - main [MainThread]: End processing [antchain-riskplus]: success
+[2023-05-12 05:55:32] INFO root fetch - main [MainThread]: End processing [mmkit-features]: success
+[2023-05-12 05:55:32] INFO root fetch - main [MainThread]: Store serial: [18073032]
