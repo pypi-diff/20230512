@@ -10484,3 +10484,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-12 14:12:35] INFO root fetch - main [MainThread]: End processing [tf-agents-nightly]: success
 [2023-05-12 14:12:54] INFO root fetch - main [MainThread]: End processing [Geode-Background]: success
 [2023-05-12 14:12:54] INFO root fetch - main [MainThread]: Store serial: [18077599]
+[2023-05-12 14:18:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18077599]
+[2023-05-12 14:18:07] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-12 14:18:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eswrap
+[2023-05-12 14:18:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ho-protocols
+[2023-05-12 14:18:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oasislmf
+[2023-05-12 14:18:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oasislmf
+[2023-05-12 14:18:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: keyrock-psql
+[2023-05-12 14:18:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pycalib
+[2023-05-12 14:18:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: repytah
+[2023-05-12 14:18:07] INFO root fetch - processPackages [eswrap]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-05-12 14:18:08] INFO root fetch - processPackages [ho-protocols]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-05-12 14:18:08] INFO root fetch - processPackages [eswrap]: executing diffoscope
+[2023-05-12 14:18:08] INFO root fetch - processPackages [eswrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eswrap-0.4.3.tar.gz tmp/eswrap-0.4.4.tar.gz --markdown 20230512/e/eswrap/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-05-12 14:18:08] INFO root fetch - processPackages [oasislmf]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-05-12 14:18:08] INFO root fetch - processPackages [keyrock-psql]: New version: [2023.5.12.1214] Old Version: [2023.3.7.1625]
+[2023-05-12 14:18:08] INFO root fetch - processPackages [ho-protocols]: executing diffoscope
+[2023-05-12 14:18:08] INFO root fetch - processPackages [ho-protocols]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ho-protocols-0.2.4.tar.gz tmp/ho-protocols-0.2.5.tar.gz --markdown 20230512/h/ho-protocols/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-05-12 14:18:08] INFO root fetch - processPackages [oasislmf]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-05-12 14:18:08] INFO root fetch - processPackages [repytah]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-12 14:18:08] INFO root fetch - processPackages [pycalib]: New version: [0.1.0.dev5] Old Version: [0.1.0.dev4]
+[2023-05-12 14:18:08] INFO root fetch - processPackages [keyrock-psql]: Downloading https://files.pythonhosted.org/packages/3f/7b/61e77fdaa7f980f52a54c3e7d6720f29c5b5ba9eaf53bd6b6d68340eae9e/keyrock_psql-2023.3.7.1625-py3-none-any.whl
+[2023-05-12 14:18:08] INFO root fetch - processPackages [repytah]: Downloading https://files.pythonhosted.org/packages/7f/70/1d2b620ad0ca27b1e83e70da30898ceb891cb0b0cfcb49213e242698bfce/repytah-0.1.1.tar.gz
+[2023-05-12 14:18:08] INFO root fetch - processPackages [oasislmf]: Downloading https://files.pythonhosted.org/packages/a6/ab/45657291419c43d4947b9cdecb6c9716293001edcf7717bd5a8e1c350df4/oasislmf-1.9.0.tar.gz
+[2023-05-12 14:18:08] INFO root fetch - processPackages [oasislmf]: Downloading https://files.pythonhosted.org/packages/a6/ab/45657291419c43d4947b9cdecb6c9716293001edcf7717bd5a8e1c350df4/oasislmf-1.9.0.tar.gz
+[2023-05-12 14:18:08] INFO root fetch - processPackages [pycalib]: Downloading https://files.pythonhosted.org/packages/79/ea/19071adaa64d4ed09921a5ccd3ec82504e58b76c6ece3ae90778bd0fc3de/pycalib-0.1.0.dev4.tar.gz
+[2023-05-12 14:18:08] INFO root fetch - processPackages [pycalib]: Downloading https://files.pythonhosted.org/packages/0b/c8/0b215c1137f6dae2a078a0753881d9ec4cdc0e83ebe8945e2fe726d1d4c9/pycalib-0.1.0.dev5.tar.gz
+[2023-05-12 14:18:08] INFO root fetch - processPackages [keyrock-psql]: Downloading https://files.pythonhosted.org/packages/3c/9d/f0ac1c30c01148a3608f740b1a0fffd1be7a198167e23fd037a5622dd2ca/keyrock_psql-2023.5.12.1214-py3-none-any.whl
+[2023-05-12 14:18:08] INFO root fetch - processPackages [oasislmf]: Downloading https://files.pythonhosted.org/packages/c0/a2/f54598bb29c68df6576f5c673975a6a6302c1490bb92ebfb5c0dafe8e6c4/oasislmf-1.9.1.tar.gz
+[2023-05-12 14:18:08] INFO root fetch - processPackages [oasislmf]: Downloading https://files.pythonhosted.org/packages/c0/a2/f54598bb29c68df6576f5c673975a6a6302c1490bb92ebfb5c0dafe8e6c4/oasislmf-1.9.1.tar.gz
+[2023-05-12 14:18:08] INFO root fetch - processPackages [pycalib]: executing diffoscope
+[2023-05-12 14:18:08] INFO root fetch - processPackages [pycalib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycalib-0.1.0.dev4.tar.gz tmp/pycalib-0.1.0.dev5.tar.gz --markdown 20230512/p/pycalib/0.1.0.dev4-0.1.0.dev5/diff.md --exclude *.pyd
+[2023-05-12 14:18:08] INFO root fetch - processPackages [repytah]: Downloading https://files.pythonhosted.org/packages/a2/4a/26acd83c9ee73a2883de26c1978b73ab88ab95ab118aa973b8d0fd420956/repytah-0.1.2-py3-none-any.whl
+[2023-05-12 14:18:08] INFO root fetch - processPackages [keyrock-psql]: executing diffoscope
+[2023-05-12 14:18:08] INFO root fetch - processPackages [keyrock-psql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keyrock_psql-2023.3.7.1625-py3-none-any.whl.zip tmp/keyrock_psql-2023.5.12.1214-py3-none-any.whl.zip --markdown 20230512/k/keyrock-psql/2023.3.7.1625-2023.5.12.1214/diff.md --exclude *.pyd
+[2023-05-12 14:18:08] INFO root fetch - processPackages [repytah]: executing diffoscope
+[2023-05-12 14:18:08] INFO root fetch - processPackages [repytah]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/repytah-0.1.1.tar.gz tmp/repytah-0.1.2-py3-none-any.whl.zip --markdown 20230512/r/repytah/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-12 14:18:08] INFO root fetch - processPackages [oasislmf]: executing diffoscope
+[2023-05-12 14:18:08] INFO root fetch - processPackages [oasislmf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oasislmf-1.9.0.tar.gz tmp/oasislmf-1.9.1.tar.gz --markdown 20230512/o/oasislmf/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-05-12 14:18:08] INFO root fetch - processPackages [oasislmf]: executing diffoscope
+[2023-05-12 14:18:08] INFO root fetch - processPackages [oasislmf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oasislmf-1.9.0.tar.gz tmp/oasislmf-1.9.1.tar.gz --markdown 20230512/o/oasislmf/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-05-12 14:18:09] INFO root fetch - main [MainThread]: End processing [eswrap]: success
+[2023-05-12 14:18:09] INFO root fetch - main [MainThread]: End processing [pycalib]: success
+[2023-05-12 14:18:10] INFO root fetch - main [MainThread]: End processing [keyrock-psql]: success
+[2023-05-12 14:18:10] INFO root fetch - main [MainThread]: End processing [repytah]: success
+[2023-05-12 14:18:10] INFO root fetch - main [MainThread]: End processing [ho-protocols]: success
+[2023-05-12 14:18:10] INFO root fetch - main [MainThread]: End processing [oasislmf]: success
+[2023-05-12 14:18:11] INFO root fetch - main [MainThread]: End processing [oasislmf]: success
+[2023-05-12 14:18:11] INFO root fetch - main [MainThread]: Store serial: [18077645]
