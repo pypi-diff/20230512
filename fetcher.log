@@ -4533,3 +4533,19 @@
 [2023-05-12 07:03:33] INFO root fetch - main [MainThread]: End processing [peaqevcore]: success
 [2023-05-12 07:03:36] INFO root fetch - main [MainThread]: End processing [intecomm-edc]: success
 [2023-05-12 07:03:36] INFO root fetch - main [MainThread]: Store serial: [18073458]
+[2023-05-12 07:08:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18073458]
+[2023-05-12 07:08:45] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-05-12 07:08:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shopcloud-microservice
+[2023-05-12 07:08:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ar-ex-sys-worker
+[2023-05-12 07:08:45] INFO root fetch - processPackages [ar-ex-sys-worker]: New version: [1.6.21] Old Version: [1.6.20]
+[2023-05-12 07:08:45] INFO root fetch - processPackages [shopcloud-microservice]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-12 07:08:45] INFO root fetch - processPackages [shopcloud-microservice]: Downloading https://files.pythonhosted.org/packages/36/4a/8c3b672984271ffdf70083cb45ba038306aba5830d53c401e79b94364cd7/shopcloud-microservice-0.8.0.tar.gz
+[2023-05-12 07:08:46] INFO root fetch - processPackages [ar-ex-sys-worker]: Downloading https://files.pythonhosted.org/packages/3d/9b/fc99a5a659608f4e1102511d3e6bec3e94cf63df9c88f34a9b5542a21c01/ar_ex_sys_worker-1.6.21-py3-none-any.whl
+[2023-05-12 07:08:46] INFO root fetch - processPackages [ar-ex-sys-worker]: executing diffoscope
+[2023-05-12 07:08:46] INFO root fetch - processPackages [ar-ex-sys-worker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ar_ex_sys_worker-1.6.20-py3-none-any.whl.zip tmp/ar_ex_sys_worker-1.6.21-py3-none-any.whl.zip --markdown 20230512/a/ar-ex-sys-worker/1.6.20-1.6.21/diff.md --exclude *.pyd
+[2023-05-12 07:08:46] INFO root fetch - processPackages [shopcloud-microservice]: Downloading https://files.pythonhosted.org/packages/dc/13/862cbb3365b7271c5fe616f75eab4d758880aff1320eee90ddcec032322f/shopcloud-microservice-0.9.0.tar.gz
+[2023-05-12 07:08:46] INFO root fetch - processPackages [shopcloud-microservice]: executing diffoscope
+[2023-05-12 07:08:46] INFO root fetch - processPackages [shopcloud-microservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shopcloud-microservice-0.8.0.tar.gz tmp/shopcloud-microservice-0.9.0.tar.gz --markdown 20230512/s/shopcloud-microservice/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-12 07:08:47] INFO root fetch - main [MainThread]: End processing [ar-ex-sys-worker]: success
+[2023-05-12 07:08:47] INFO root fetch - main [MainThread]: End processing [shopcloud-microservice]: success
+[2023-05-12 07:08:47] INFO root fetch - main [MainThread]: Store serial: [18073487]
