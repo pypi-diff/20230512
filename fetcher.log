@@ -4985,3 +4985,64 @@
 [2023-05-12 08:06:58] INFO root fetch - main [MainThread]: End processing [karuoflow]: success
 [2023-05-12 08:07:03] INFO root fetch - main [MainThread]: End processing [Appium-Python-Client]: success
 [2023-05-12 08:07:03] INFO root fetch - main [MainThread]: Store serial: [18073842]
+[2023-05-12 08:12:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18073842]
+[2023-05-12 08:12:12] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-12 08:12:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sqlalchemy-rqlite
+[2023-05-12 08:12:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gato-toolkit
+[2023-05-12 08:12:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pykeepass
+[2023-05-12 08:12:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jaibasiccalculator
+[2023-05-12 08:12:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: irails
+[2023-05-12 08:12:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: intake-dataframe-catalog
+[2023-05-12 08:12:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ocf-datapipes
+[2023-05-12 08:12:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: eyes-soatra
+[2023-05-12 08:12:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: seven-cloudapp-frame
+[2023-05-12 08:12:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dlup
+[2023-05-12 08:12:12] INFO root fetch - processPackages [jaibasiccalculator]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-12 08:12:12] INFO root fetch - processPackages [eyes-soatra]: New version: [0.0.21] Old Version: [0.0.20]
+[2023-05-12 08:12:12] INFO root fetch - processPackages [pykeepass]: New version: [4.0.4] Old Version: [4.0.3]
+[2023-05-12 08:12:12] INFO root fetch - processPackages [irails]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-05-12 08:12:12] WARNING root fetch - processPackages [gato-toolkit]: Skipping, unable to determine old version
+[2023-05-12 08:12:12] INFO root fetch - main [MainThread]: End processing [gato-toolkit] error
+[2023-05-12 08:12:12] INFO root fetch - processPackages [ocf-datapipes]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-12 08:12:12] INFO root fetch - processPackages [eyes-soatra]: executing diffoscope
+[2023-05-12 08:12:12] INFO root fetch - processPackages [eyes-soatra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eyes_soatra-0.0.20.tar.gz tmp/eyes_soatra-0.0.21.tar.gz --markdown 20230512/e/eyes-soatra/0.0.20-0.0.21/diff.md --exclude *.pyd
+[2023-05-12 08:12:12] INFO root fetch - processPackages [ocf-datapipes]: executing diffoscope
+[2023-05-12 08:12:12] INFO root fetch - processPackages [ocf-datapipes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocf_datapipes-1.2.8.tar.gz tmp/ocf_datapipes-1.2.9.tar.gz --markdown 20230512/o/ocf-datapipes/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-12 08:12:12] INFO root fetch - processPackages [seven-cloudapp-frame]: New version: [1.0.9.9] Old Version: [1.0.9.8]
+[2023-05-12 08:12:12] INFO root fetch - processPackages [dlup]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-05-12 08:12:12] INFO root fetch - processPackages [sqlalchemy-rqlite]: New version: [1.2] Old Version: [1.1.1]
+[2023-05-12 08:12:12] INFO root fetch - processPackages [intake-dataframe-catalog]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-12 08:12:12] INFO root fetch - processPackages [pykeepass]: Downloading https://files.pythonhosted.org/packages/76/02/e29e09741cfe63ce6dbb55394024b8df7f4ffb8d9ad4a53a935feb58b28f/pykeepass-4.0.3.tar.gz
+[2023-05-12 08:12:12] INFO root fetch - processPackages [irails]: Downloading https://files.pythonhosted.org/packages/c8/af/15c218b381979b80cc043ac453e352831e8b8c5d9f23b0e4ad00e787fece/irails-1.3.4.tar.gz
+[2023-05-12 08:12:12] INFO root fetch - processPackages [irails]: executing diffoscope
+[2023-05-12 08:12:12] INFO root fetch - processPackages [irails]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irails-1.3.3.tar.gz tmp/irails-1.3.4.tar.gz --markdown 20230512/i/irails/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-05-12 08:12:12] INFO root fetch - processPackages [sqlalchemy-rqlite]: Downloading https://files.pythonhosted.org/packages/6d/56/cdea15840738c30533c99668cffb01f5bc3e7bfbb102ac6a9fc48101448c/sqlalchemy_rqlite-1.1.1.tar.gz
+[2023-05-12 08:12:12] INFO root fetch - processPackages [jaibasiccalculator]: Downloading https://files.pythonhosted.org/packages/0c/ff/fec795876d05f79c42a0bc5a48115c732333e3067b8646eb33b93aa5afd4/jaibasiccalculator-0.0.1.tar.gz
+[2023-05-12 08:12:12] INFO root fetch - processPackages [pykeepass]: Downloading https://files.pythonhosted.org/packages/9d/51/e627ab9303e418a243e493b8497e016f4371ffe5f7c83f1c913a3cbdd93a/pykeepass-4.0.4.tar.gz
+[2023-05-12 08:12:12] INFO root fetch - processPackages [dlup]: Downloading https://files.pythonhosted.org/packages/a5/1e/a27d2f7d8b93728fe1631d83e8669034acc2e0297073acef141f8bd1431b/dlup-0.3.6.tar.gz
+[2023-05-12 08:12:12] INFO root fetch - processPackages [seven-cloudapp-frame]: executing diffoscope
+[2023-05-12 08:12:12] INFO root fetch - processPackages [seven-cloudapp-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_cloudapp_frame-1.0.9.8.tar.gz tmp/seven_cloudapp_frame-1.0.9.9.tar.gz --markdown 20230512/s/seven-cloudapp-frame/1.0.9.8-1.0.9.9/diff.md --exclude *.pyd
+[2023-05-12 08:12:12] INFO root fetch - processPackages [pykeepass]: executing diffoscope
+[2023-05-12 08:12:12] INFO root fetch - processPackages [pykeepass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pykeepass-4.0.3.tar.gz tmp/pykeepass-4.0.4.tar.gz --markdown 20230512/p/pykeepass/4.0.3-4.0.4/diff.md --exclude *.pyd
+[2023-05-12 08:12:12] INFO root fetch - processPackages [intake-dataframe-catalog]: Downloading https://files.pythonhosted.org/packages/90/c9/8dfa1b606445ac83e03af2eae572907ab20d23c824e191cf69d2a3260166/intake_dataframe_catalog-0.1.1-py3-none-any.whl
+[2023-05-12 08:12:12] INFO root fetch - processPackages [jaibasiccalculator]: Downloading https://files.pythonhosted.org/packages/47/ba/6931d7f8402bd5346952ff30d856fbe0a8fb732fca1e2924343d74b7f1b4/jaibasiccalculator-0.0.2.tar.gz
+[2023-05-12 08:12:12] INFO root fetch - processPackages [sqlalchemy-rqlite]: Downloading https://files.pythonhosted.org/packages/a2/ca/98857a2ae7ab61472b919a50afa38883dfb024b388eb44ef15f342a16c7b/sqlalchemy_rqlite-1.2.tar.gz
+[2023-05-12 08:12:12] INFO root fetch - processPackages [intake-dataframe-catalog]: executing diffoscope
+[2023-05-12 08:12:12] INFO root fetch - processPackages [intake-dataframe-catalog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intake_dataframe_catalog-0.1.0.tar.gz tmp/intake_dataframe_catalog-0.1.1-py3-none-any.whl.zip --markdown 20230512/i/intake-dataframe-catalog/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-12 08:12:12] INFO root fetch - processPackages [dlup]: Downloading https://files.pythonhosted.org/packages/f9/b1/8c0c09f7a96b211f8a67751c05826f9b41946af8850729a6e85ce464c8d8/dlup-0.3.7.tar.gz
+[2023-05-12 08:12:12] INFO root fetch - processPackages [jaibasiccalculator]: executing diffoscope
+[2023-05-12 08:12:12] INFO root fetch - processPackages [jaibasiccalculator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaibasiccalculator-0.0.1.tar.gz tmp/jaibasiccalculator-0.0.2.tar.gz --markdown 20230512/j/jaibasiccalculator/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-12 08:12:12] INFO root fetch - processPackages [sqlalchemy-rqlite]: executing diffoscope
+[2023-05-12 08:12:12] INFO root fetch - processPackages [sqlalchemy-rqlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy_rqlite-1.1.1.tar.gz tmp/sqlalchemy_rqlite-1.2.tar.gz --markdown 20230512/s/sqlalchemy-rqlite/1.1.1-1.2/diff.md --exclude *.pyd
+[2023-05-12 08:12:13] INFO root fetch - processPackages [dlup]: executing diffoscope
+[2023-05-12 08:12:13] INFO root fetch - processPackages [dlup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dlup-0.3.6.tar.gz tmp/dlup-0.3.7.tar.gz --markdown 20230512/d/dlup/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-05-12 08:12:13] INFO root fetch - main [MainThread]: End processing [eyes-soatra]: success
+[2023-05-12 08:12:14] INFO root fetch - main [MainThread]: End processing [intake-dataframe-catalog]: success
+[2023-05-12 08:12:14] INFO root fetch - main [MainThread]: End processing [irails]: success
+[2023-05-12 08:12:14] INFO root fetch - main [MainThread]: End processing [sqlalchemy-rqlite]: success
+[2023-05-12 08:12:14] INFO root fetch - main [MainThread]: End processing [jaibasiccalculator]: success
+[2023-05-12 08:12:14] INFO root fetch - main [MainThread]: End processing [dlup]: success
+[2023-05-12 08:12:14] INFO root fetch - main [MainThread]: End processing [pykeepass]: success
+[2023-05-12 08:12:16] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
+[2023-05-12 08:12:16] INFO root fetch - main [MainThread]: End processing [ocf-datapipes]: success
+[2023-05-12 08:12:16] INFO root fetch - main [MainThread]: Store serial: [18073888]
