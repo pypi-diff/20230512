@@ -8477,3 +8477,87 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-12 11:43:24] INFO root fetch - main [MainThread]: End processing [atmoswing-toolbox]: success
 [2023-05-12 11:43:24] INFO root fetch - main [MainThread]: End processing [zytlib]: success
 [2023-05-12 11:43:24] INFO root fetch - main [MainThread]: Store serial: [18076109]
+[2023-05-12 11:48:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18076109]
+[2023-05-12 11:48:34] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-12 11:48:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ibm-watson-openscale
+[2023-05-12 11:48:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jina
+[2023-05-12 11:48:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: certora-cli-alpha-master
+[2023-05-12 11:48:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: simbench
+[2023-05-12 11:48:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: base-system
+[2023-05-12 11:48:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ccxt
+[2023-05-12 11:48:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zensvi
+[2023-05-12 11:48:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ykenan-fragments
+[2023-05-12 11:48:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-project-sequence
+[2023-05-12 11:48:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: algospace
+[2023-05-12 11:48:34] INFO root fetch - processPackages [base-system]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-05-12 11:48:34] INFO root fetch - processPackages [simbench]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-05-12 11:48:34] INFO root fetch - processPackages [zensvi]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-12 11:48:34] WARNING root fetch - processPackages [odoo14-addon-project-sequence]: Skipping, unable to determine old version
+[2023-05-12 11:48:34] INFO root fetch - processPackages [ibm-watson-openscale]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-05-12 11:48:34] INFO root fetch - processPackages [odoo14-addon-project-sequence]: Start processing: graphomaly
+[2023-05-12 11:48:34] INFO root fetch - main [MainThread]: End processing [odoo14-addon-project-sequence] error
+[2023-05-12 11:48:34] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230512.9.43.869128] Old Version: [20230511.19.29.272662]
+[2023-05-12 11:48:34] INFO root fetch - processPackages [ykenan-fragments]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-12 11:48:34] INFO root fetch - processPackages [ccxt]: New version: [3.0.99] Old Version: [3.0.98]
+[2023-05-12 11:48:34] INFO root fetch - processPackages [jina]: New version: [3.9.3.dev9] Old Version: [3.9.3.dev8]
+[2023-05-12 11:48:34] INFO root fetch - processPackages [graphomaly]: New version: [0.3] Old Version: [0.2.8]
+[2023-05-12 11:48:34] INFO root fetch - processPackages [algospace]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-05-12 11:48:34] INFO root fetch - processPackages [zensvi]: executing diffoscope
+[2023-05-12 11:48:34] INFO root fetch - processPackages [zensvi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zensvi-0.0.1.tar.gz tmp/zensvi-0.0.2.tar.gz --markdown 20230512/z/zensvi/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-12 11:48:34] INFO root fetch - processPackages [graphomaly]: executing diffoscope
+[2023-05-12 11:48:34] INFO root fetch - processPackages [graphomaly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphomaly-0.2.8.tar.gz tmp/graphomaly-0.3.tar.gz --markdown 20230512/g/graphomaly/0.2.8-0.3/diff.md --exclude *.pyd
+[2023-05-12 11:48:34] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2023-05-12 11:48:34] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-3.0.98.tar.gz tmp/ccxt-3.0.99.tar.gz --markdown 20230512/c/ccxt/3.0.98-3.0.99/diff.md --exclude *.pyd
+[2023-05-12 11:48:34] INFO root fetch - processPackages [simbench]: Downloading https://files.pythonhosted.org/packages/a4/67/dd5874fd8fe605487830eafcbd94925e5024fa92a42a5e86995acd2cfa0d/simbench-1.3.0.zip
+[2023-05-12 11:48:34] INFO root fetch - processPackages [ibm-watson-openscale]: Downloading https://files.pythonhosted.org/packages/ff/8a/a4e714ad4a5b578378a89893becf5d175e82d2787794712186e72711c809/ibm_watson_openscale-3.0.8-py3-none-any.whl
+[2023-05-12 11:48:34] INFO root fetch - processPackages [base-system]: Downloading https://files.pythonhosted.org/packages/27/08/2ab81d952f30349fe8af0308312f59e6b3976bc6d0a5769be76c8e434d2c/base_system-0.2.7.tar.gz
+[2023-05-12 11:48:34] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/01/47/fde0459ef177a130d926ffd23edf8e9dee0f0ee7491f35acb5f08bfa2124/certora-cli-alpha-master-20230511.19.29.272662.tar.gz
+[2023-05-12 11:48:34] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 39430898>=10485760
+[2023-05-12 11:48:34] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: frinx-python-sdk
+[2023-05-12 11:48:34] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-05-12 11:48:34] INFO root fetch - processPackages [base-system]: executing diffoscope
+[2023-05-12 11:48:34] INFO root fetch - processPackages [base-system]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/base_system-0.2.6.tar.gz tmp/base_system-0.2.7.tar.gz --markdown 20230512/b/base-system/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-05-12 11:48:34] WARNING root fetch - processPackages [simbench]: Skipping package: exceeds size limit 91022174>=10485760
+[2023-05-12 11:48:34] INFO root fetch - processPackages [simbench]: Start processing: sequana-nanomerge
+[2023-05-12 11:48:34] INFO root fetch - main [MainThread]: End processing [simbench] error
+[2023-05-12 11:48:34] INFO root fetch - processPackages [frinx-python-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 11:48:34] INFO root fetch - processPackages [ykenan-fragments]: executing diffoscope
+[2023-05-12 11:48:34] INFO root fetch - processPackages [ykenan-fragments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ykenan_fragments-1.2.8.tar.gz tmp/ykenan_fragments-1.2.9.tar.gz --markdown 20230512/y/ykenan-fragments/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-12 11:48:34] INFO root fetch - processPackages [sequana-nanomerge]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-12 11:48:34] INFO root fetch - processPackages [ibm-watson-openscale]: Downloading https://files.pythonhosted.org/packages/b0/33/1dc28a5725a301c519fe0d47d81218c12e19c1155621813f73d268dbfc9b/ibm_watson_openscale-3.0.9-py3-none-any.whl
+[2023-05-12 11:48:34] INFO root fetch - processPackages [algospace]: Downloading https://files.pythonhosted.org/packages/07/f1/2c402c892626c87c8429b285d706cb6faa1f30302fcaaf97906bd480335b/algospace-0.4.6.tar.gz
+[2023-05-12 11:48:34] INFO root fetch - processPackages [jina]: executing diffoscope
+[2023-05-12 11:48:34] INFO root fetch - processPackages [jina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jina-3.9.3.dev8.tar.gz tmp/jina-3.9.3.dev9.tar.gz --markdown 20230512/j/jina/3.9.3.dev8-3.9.3.dev9/diff.md --exclude *.pyd
+[2023-05-12 11:48:34] INFO root fetch - processPackages [ibm-watson-openscale]: executing diffoscope
+[2023-05-12 11:48:34] INFO root fetch - processPackages [ibm-watson-openscale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibm_watson_openscale-3.0.8-py3-none-any.whl.zip tmp/ibm_watson_openscale-3.0.9-py3-none-any.whl.zip --markdown 20230512/i/ibm-watson-openscale/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-05-12 11:48:34] INFO root fetch - processPackages [algospace]: executing diffoscope
+[2023-05-12 11:48:34] INFO root fetch - processPackages [algospace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algospace-0.4.5.tar.gz tmp/algospace-0.4.6.tar.gz --markdown 20230512/a/algospace/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-05-12 11:48:34] INFO root fetch - processPackages [sequana-nanomerge]: Downloading https://files.pythonhosted.org/packages/49/79/38c3dc77c46dd513af7073d67b8497ac4b2389d46748570a924804c6dc9b/sequana_nanomerge-1.0.0.tar.gz
+[2023-05-12 11:48:35] INFO root fetch - processPackages [frinx-python-sdk]: executing diffoscope
+[2023-05-12 11:48:35] INFO root fetch - processPackages [frinx-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frinx-python-sdk-0.0.8.tar.gz tmp/frinx-python-sdk-0.0.9.tar.gz --markdown 20230512/f/frinx-python-sdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 11:48:35] INFO root fetch - processPackages [sequana-nanomerge]: Downloading https://files.pythonhosted.org/packages/af/1e/fa6d1923089f004c6247d5f15defc808e3054f29028972e93e615a521133/sequana_nanomerge-1.1.0.tar.gz
+[2023-05-12 11:48:35] INFO root fetch - processPackages [sequana-nanomerge]: executing diffoscope
+[2023-05-12 11:48:35] INFO root fetch - processPackages [sequana-nanomerge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sequana_nanomerge-1.0.0.tar.gz tmp/sequana_nanomerge-1.1.0.tar.gz --markdown 20230512/s/sequana-nanomerge/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-12 11:48:36] INFO root fetch - processPackages [ykenan-fragments]: Start processing: alphabetize
+[2023-05-12 11:48:36] INFO root fetch - main [MainThread]: End processing [ykenan-fragments]: success
+[2023-05-12 11:48:36] INFO root fetch - processPackages [alphabetize]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 11:48:36] INFO root fetch - processPackages [algospace]: Start processing: DrissionPage
+[2023-05-12 11:48:36] INFO root fetch - main [MainThread]: End processing [algospace]: success
+[2023-05-12 11:48:36] INFO root fetch - main [MainThread]: End processing [ibm-watson-openscale]: success
+[2023-05-12 11:48:36] INFO root fetch - processPackages [DrissionPage]: New version: [3.2.9] Old Version: [3.2.8]
+[2023-05-12 11:48:36] INFO root fetch - main [MainThread]: End processing [zensvi]: success
+[2023-05-12 11:48:36] INFO root fetch - processPackages [alphabetize]: executing diffoscope
+[2023-05-12 11:48:36] INFO root fetch - processPackages [alphabetize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphabetize-0.0.8.tar.gz tmp/alphabetize-0.0.9.tar.gz --markdown 20230512/a/alphabetize/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 11:48:36] INFO root fetch - main [MainThread]: End processing [frinx-python-sdk]: success
+[2023-05-12 11:48:36] INFO root fetch - processPackages [DrissionPage]: Downloading https://files.pythonhosted.org/packages/1d/fd/ecd8e95c7b258eeafe187477e316177d1cd4003620f8ef64ecf5831a674b/DrissionPage-3.2.8.tar.gz
+[2023-05-12 11:48:36] INFO root fetch - main [MainThread]: End processing [sequana-nanomerge]: success
+[2023-05-12 11:48:36] INFO root fetch - main [MainThread]: End processing [graphomaly]: success
+[2023-05-12 11:48:36] INFO root fetch - processPackages [DrissionPage]: Downloading https://files.pythonhosted.org/packages/a8/41/ddc04bbf94233f4901f83336be49fb0dc5eb3317f20eef0e2ec1d3a26447/DrissionPage-3.2.9.tar.gz
+[2023-05-12 11:48:37] INFO root fetch - processPackages [DrissionPage]: executing diffoscope
+[2023-05-12 11:48:37] INFO root fetch - processPackages [DrissionPage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DrissionPage-3.2.8.tar.gz tmp/DrissionPage-3.2.9.tar.gz --markdown 20230512/D/DrissionPage/3.2.8-3.2.9/diff.md --exclude *.pyd
+[2023-05-12 11:48:37] INFO root fetch - main [MainThread]: End processing [jina]: success
+[2023-05-12 11:48:37] INFO root fetch - main [MainThread]: End processing [alphabetize]: success
+[2023-05-12 11:48:37] INFO root fetch - main [MainThread]: End processing [base-system]: success
+[2023-05-12 11:48:38] INFO root fetch - main [MainThread]: End processing [DrissionPage]: success
+[2023-05-12 11:48:46] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2023-05-12 11:48:46] INFO root fetch - main [MainThread]: Store serial: [18076174]
