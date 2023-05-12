@@ -10673,3 +10673,11 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-12 14:33:46] INFO root fetch - main [MainThread]: End processing [countrynames]: success
 [2023-05-12 14:33:47] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
 [2023-05-12 14:33:47] INFO root fetch - main [MainThread]: Store serial: [18077789]
+[2023-05-12 14:38:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18077789]
+[2023-05-12 14:38:58] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-05-12 14:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: disease-normalizer
+[2023-05-12 14:38:58] INFO root fetch - processPackages [disease-normalizer]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-12 14:38:59] INFO root fetch - processPackages [disease-normalizer]: executing diffoscope
+[2023-05-12 14:38:59] INFO root fetch - processPackages [disease-normalizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/disease-normalizer-0.3.0.tar.gz tmp/disease-normalizer-0.3.1.tar.gz --markdown 20230512/d/disease-normalizer/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-12 14:39:00] INFO root fetch - main [MainThread]: End processing [disease-normalizer]: success
+[2023-05-12 14:39:00] INFO root fetch - main [MainThread]: Store serial: [18077800]
