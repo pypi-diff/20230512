@@ -10532,3 +10532,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-12 14:18:10] INFO root fetch - main [MainThread]: End processing [oasislmf]: success
 [2023-05-12 14:18:11] INFO root fetch - main [MainThread]: End processing [oasislmf]: success
 [2023-05-12 14:18:11] INFO root fetch - main [MainThread]: Store serial: [18077645]
+[2023-05-12 14:23:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18077645]
+[2023-05-12 14:23:20] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-12 14:23:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sosin
+[2023-05-12 14:23:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: DLMS-SPODES
+[2023-05-12 14:23:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: WebGrid
+[2023-05-12 14:23:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nlptest
+[2023-05-12 14:23:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PythonCoordinates
+[2023-05-12 14:23:20] INFO root fetch - processPackages [sosin]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-05-12 14:23:20] INFO root fetch - processPackages [nlptest]: New version: [1.2.0rc2] Old Version: [1.2.0rc1]
+[2023-05-12 14:23:20] INFO root fetch - processPackages [nlptest]: Downloading https://files.pythonhosted.org/packages/e9/bf/a7c10e91810c9bfbff6a097a700a23434d1df2a29dba3e2a7b46414671a4/nlptest-1.2.0rc1.tar.gz
+[2023-05-12 14:23:20] INFO root fetch - processPackages [PythonCoordinates]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-05-12 14:23:20] INFO root fetch - processPackages [WebGrid]: New version: [0.5.5] Old Version: [0.5.4]
+[2023-05-12 14:23:20] INFO root fetch - processPackages [DLMS-SPODES]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-05-12 14:23:20] WARNING root fetch - processPackages [nlptest]: Skipping package: exceeds size limit 54670541>=10485760
+[2023-05-12 14:23:20] INFO root fetch - main [MainThread]: End processing [nlptest] error
+[2023-05-12 14:23:20] INFO root fetch - processPackages [sosin]: executing diffoscope
+[2023-05-12 14:23:20] INFO root fetch - processPackages [sosin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sosin-1.1.1.tar.gz tmp/sosin-1.1.2.tar.gz --markdown 20230512/s/sosin/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-05-12 14:23:20] INFO root fetch - processPackages [PythonCoordinates]: Downloading https://files.pythonhosted.org/packages/3a/fd/4f388c16545fbf2463911e8badeb6322b9c3295e03698e05dc29062519ac/PythonCoordinates-0.5.9-py3-none-any.whl
+[2023-05-12 14:23:20] INFO root fetch - processPackages [WebGrid]: Downloading https://files.pythonhosted.org/packages/49/65/19538978098a1605bd971801069f3f7ceb19430acc42930ca68d3ade1694/WebGrid-0.5.5-py3-none-any.whl
+[2023-05-12 14:23:21] INFO root fetch - processPackages [DLMS-SPODES]: executing diffoscope
+[2023-05-12 14:23:21] INFO root fetch - processPackages [DLMS-SPODES]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES-0.8.3.tar.gz tmp/DLMS_SPODES-0.9.0.tar.gz --markdown 20230512/D/DLMS-SPODES/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-05-12 14:23:21] INFO root fetch - processPackages [PythonCoordinates]: executing diffoscope
+[2023-05-12 14:23:21] INFO root fetch - processPackages [PythonCoordinates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PythonCoordinates-0.5.8.tar.gz tmp/PythonCoordinates-0.5.9-py3-none-any.whl.zip --markdown 20230512/P/PythonCoordinates/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-05-12 14:23:21] INFO root fetch - processPackages [WebGrid]: executing diffoscope
+[2023-05-12 14:23:21] INFO root fetch - processPackages [WebGrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WebGrid-0.5.4.tar.gz tmp/WebGrid-0.5.5-py3-none-any.whl.zip --markdown 20230512/W/WebGrid/0.5.4-0.5.5/diff.md --exclude *.pyd
+[2023-05-12 14:23:22] INFO root fetch - main [MainThread]: End processing [PythonCoordinates]: success
+[2023-05-12 14:23:22] INFO root fetch - main [MainThread]: End processing [sosin]: success
+[2023-05-12 14:23:22] INFO root fetch - main [MainThread]: End processing [WebGrid]: success
+[2023-05-12 14:23:22] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES]: success
+[2023-05-12 14:23:22] INFO root fetch - main [MainThread]: Store serial: [18077683]
