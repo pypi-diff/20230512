@@ -4786,3 +4786,24 @@
 [2023-05-12 07:24:32] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-city]: success
 [2023-05-12 07:24:46] INFO root fetch - main [MainThread]: End processing [openmetadata-ingestion]: success
 [2023-05-12 07:24:46] INFO root fetch - main [MainThread]: Store serial: [18073610]
+[2023-05-12 07:29:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18073610]
+[2023-05-12 07:29:55] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-05-12 07:29:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cbloss
+[2023-05-12 07:29:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: np-tools
+[2023-05-12 07:29:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ahlive
+[2023-05-12 07:29:55] INFO root fetch - processPackages [cbloss]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-12 07:29:55] INFO root fetch - processPackages [np-tools]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-12 07:29:55] INFO root fetch - processPackages [ahlive]: New version: [1.0.4.post1] Old Version: [1.0.3.post2]
+[2023-05-12 07:29:55] INFO root fetch - processPackages [cbloss]: Downloading https://files.pythonhosted.org/packages/ce/33/a268dab09f425bc90ca9949354f97b35d0a8097997d6798d707f2e545a29/cbloss-0.1.0.tar.gz
+[2023-05-12 07:29:55] INFO root fetch - processPackages [ahlive]: Downloading https://files.pythonhosted.org/packages/dd/45/39cc546256c3b3c8580b34d6c787faa1dee5a4f4fb063d62acc693c4c4a1/ahlive-1.0.3.post2-py2.py3-none-any.whl
+[2023-05-12 07:29:56] INFO root fetch - processPackages [cbloss]: Downloading https://files.pythonhosted.org/packages/2f/e1/348b60a355779126b1c4809035428415159862db2c67aebfb9b4b89e7082/cbloss-0.2.0.tar.gz
+[2023-05-12 07:29:56] INFO root fetch - processPackages [ahlive]: Downloading https://files.pythonhosted.org/packages/a0/0d/1d5257e43d0792c8da9fa901db58cbbff82465eab35a127ed8380cb8025e/ahlive-1.0.4.post1.tar.gz
+[2023-05-12 07:29:56] INFO root fetch - processPackages [cbloss]: executing diffoscope
+[2023-05-12 07:29:56] INFO root fetch - processPackages [cbloss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cbloss-0.1.0.tar.gz tmp/cbloss-0.2.0.tar.gz --markdown 20230512/c/cbloss/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-12 07:29:56] INFO root fetch - processPackages [np-tools]: executing diffoscope
+[2023-05-12 07:29:56] INFO root fetch - processPackages [np-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np_tools-0.1.8.tar.gz tmp/np_tools-0.1.9.tar.gz --markdown 20230512/n/np-tools/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-12 07:29:56] WARNING root fetch - processPackages [ahlive]: Skipping package: exceeds size limit 17055154>=10485760
+[2023-05-12 07:29:56] INFO root fetch - main [MainThread]: End processing [ahlive] error
+[2023-05-12 07:29:57] INFO root fetch - main [MainThread]: End processing [cbloss]: success
+[2023-05-12 07:29:57] INFO root fetch - main [MainThread]: End processing [np-tools]: success
+[2023-05-12 07:29:57] INFO root fetch - main [MainThread]: Store serial: [18073629]
