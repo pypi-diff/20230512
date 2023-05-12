@@ -3475,3 +3475,74 @@
 [2023-05-12 05:19:09] INFO root fetch - main [MainThread]: End processing [hagrid]: success
 [2023-05-12 05:19:09] INFO root fetch - main [MainThread]: End processing [raindancers-network.raindancers-cdk]: success
 [2023-05-12 05:19:09] INFO root fetch - main [MainThread]: Store serial: [18072814]
+[2023-05-12 05:24:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18072814]
+[2023-05-12 05:24:18] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-12 05:24:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: keras-aug
+[2023-05-12 05:24:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdktf-cdktf-provider-azuread
+[2023-05-12 05:24:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SimpleTFLinter
+[2023-05-12 05:24:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tencentcloud-sdk-python-rkp
+[2023-05-12 05:24:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nsdotpy
+[2023-05-12 05:24:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: smartnoise-synth
+[2023-05-12 05:24:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rum-with-telegram
+[2023-05-12 05:24:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aliyun-python-sdk-polardb
+[2023-05-12 05:24:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vcorelib
+[2023-05-12 05:24:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sphinx-lv2-theme
+[2023-05-12 05:24:18] WARNING root fetch - processPackages [keras-aug]: Skipping, unable to determine old version
+[2023-05-12 05:24:18] INFO root fetch - processPackages [keras-aug]: Start processing: tencentcloud-sdk-python-rum
+[2023-05-12 05:24:18] INFO root fetch - main [MainThread]: End processing [keras-aug] error
+[2023-05-12 05:24:18] INFO root fetch - processPackages [SimpleTFLinter]: New version: [0.2.2] Old Version: [0.1.0]
+[2023-05-12 05:24:18] INFO root fetch - processPackages [aliyun-python-sdk-polardb]: New version: [1.8.9] Old Version: [1.8.8]
+[2023-05-12 05:24:18] INFO root fetch - processPackages [nsdotpy]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-05-12 05:24:18] INFO root fetch - processPackages [rum-with-telegram]: New version: [1.0.0] Old Version: [0.9.9]
+[2023-05-12 05:24:18] INFO root fetch - processPackages [cdktf-cdktf-provider-azuread]: New version: [7.0.3] Old Version: [7.0.2]
+[2023-05-12 05:24:18] INFO root fetch - processPackages [tencentcloud-sdk-python-rkp]: New version: [3.0.890] Old Version: [3.0.889]
+[2023-05-12 05:24:18] INFO root fetch - processPackages [sphinx-lv2-theme]: New version: [1.4.0] Old Version: [1.2.2]
+[2023-05-12 05:24:18] INFO root fetch - processPackages [vcorelib]: New version: [1.6.3] Old Version: [1.6.2]
+[2023-05-12 05:24:18] INFO root fetch - processPackages [tencentcloud-sdk-python-rum]: New version: [3.0.890] Old Version: [3.0.889]
+[2023-05-12 05:24:18] INFO root fetch - processPackages [smartnoise-synth]: New version: [1.0.0] Old Version: [0.3.7]
+[2023-05-12 05:24:18] INFO root fetch - processPackages [SimpleTFLinter]: Downloading https://files.pythonhosted.org/packages/5c/1c/b1858a5e8b746d1486bfa2afe92a920f126eaa6938fd57b0fa1b88710451/SimpleTFLinter-0.1.0.tar.gz
+[2023-05-12 05:24:18] INFO root fetch - processPackages [aliyun-python-sdk-polardb]: Downloading https://files.pythonhosted.org/packages/01/fe/f5790b8610dcb697110bfde0cee5a9b77c5d4fdda092e10ee9c36171477c/aliyun-python-sdk-polardb-1.8.8.tar.gz
+[2023-05-12 05:24:18] INFO root fetch - processPackages [cdktf-cdktf-provider-azuread]: Downloading https://files.pythonhosted.org/packages/bc/16/5ec1276492f7ccce381ae3a89d4e4a80c17cee671067074ac57c04e326ba/cdktf-cdktf-provider-azuread-7.0.2.tar.gz
+[2023-05-12 05:24:18] INFO root fetch - processPackages [rum-with-telegram]: Downloading https://files.pythonhosted.org/packages/28/9e/1b0d25c7fb3256f7a1d7056e6d95dbc22cc375c0b813fbfcd8bd6d7a868d/rum_with_telegram-1.0.0.tar.gz
+[2023-05-12 05:24:18] INFO root fetch - processPackages [nsdotpy]: Downloading https://files.pythonhosted.org/packages/94/3d/0ce021bfccc340a6098b1eb15c15ffae997e6f4577c4be74ee03bd381366/nsdotpy-1.2.8.tar.gz
+[2023-05-12 05:24:18] INFO root fetch - processPackages [sphinx-lv2-theme]: Downloading https://files.pythonhosted.org/packages/25/b3/7550bc1531d332f82cbad0d74bea172202511ef5808f3c74281dede07949/sphinx_lv2_theme-1.2.2.tar.gz
+[2023-05-12 05:24:18] INFO root fetch - processPackages [rum-with-telegram]: executing diffoscope
+[2023-05-12 05:24:18] INFO root fetch - processPackages [rum-with-telegram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rum_with_telegram-0.9.9.tar.gz tmp/rum_with_telegram-1.0.0.tar.gz --markdown 20230512/r/rum-with-telegram/0.9.9-1.0.0/diff.md --exclude *.pyd
+[2023-05-12 05:24:18] INFO root fetch - processPackages [smartnoise-synth]: Downloading https://files.pythonhosted.org/packages/8d/97/9fa8729626cffa4bef8b2fc3379bcacfb63ef7146cb63e4ff6c023f1f1da/smartnoise-synth-0.3.7.tar.gz
+[2023-05-12 05:24:18] INFO root fetch - processPackages [tencentcloud-sdk-python-rkp]: Downloading https://files.pythonhosted.org/packages/3c/89/3c26aa2b33412a0e54aa515e4d1d032994c186eca1181e7a596c434d6c99/tencentcloud-sdk-python-rkp-3.0.890.tar.gz
+[2023-05-12 05:24:18] INFO root fetch - processPackages [vcorelib]: Downloading https://files.pythonhosted.org/packages/d5/fd/1911aed5f9719c6c81f6810d14d89b6c2a1d102226541d7685687a8cdbc5/vcorelib-1.6.3.tar.gz
+[2023-05-12 05:24:18] INFO root fetch - processPackages [tencentcloud-sdk-python-rum]: Downloading https://files.pythonhosted.org/packages/3d/8c/5100857654761bafa5929171cfef807a02071eb7ec6b39954327c252ea12/tencentcloud_sdk_python_rum-3.0.890-py2.py3-none-any.whl
+[2023-05-12 05:24:18] INFO root fetch - processPackages [SimpleTFLinter]: Downloading https://files.pythonhosted.org/packages/76/06/4973b6d9d9e8a5d4079bd05a5fde85da3ea9010313c7eb3fc18cd52db1db/SimpleTFLinter-0.2.2.tar.gz
+[2023-05-12 05:24:18] INFO root fetch - processPackages [tencentcloud-sdk-python-rkp]: executing diffoscope
+[2023-05-12 05:24:18] INFO root fetch - processPackages [tencentcloud-sdk-python-rkp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-rkp-3.0.889.tar.gz tmp/tencentcloud-sdk-python-rkp-3.0.890.tar.gz --markdown 20230512/t/tencentcloud-sdk-python-rkp/3.0.889-3.0.890/diff.md --exclude *.pyd
+[2023-05-12 05:24:18] INFO root fetch - processPackages [aliyun-python-sdk-polardb]: Downloading https://files.pythonhosted.org/packages/98/11/7b55beb702af2e9183edd5e70523b817de7c96f4f0e211ad727fd870afd2/aliyun-python-sdk-polardb-1.8.9.tar.gz
+[2023-05-12 05:24:19] INFO root fetch - processPackages [tencentcloud-sdk-python-rum]: executing diffoscope
+[2023-05-12 05:24:19] INFO root fetch - processPackages [tencentcloud-sdk-python-rum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-rum-3.0.889.tar.gz tmp/tencentcloud_sdk_python_rum-3.0.890-py2.py3-none-any.whl.zip --markdown 20230512/t/tencentcloud-sdk-python-rum/3.0.889-3.0.890/diff.md --exclude *.pyd
+[2023-05-12 05:24:19] INFO root fetch - processPackages [smartnoise-synth]: Downloading https://files.pythonhosted.org/packages/08/e9/24297dda88d5eb57ea7decc4124b8838c6322c5760c065cc48ebf7d48938/smartnoise-synth-1.0.0.tar.gz
+[2023-05-12 05:24:19] INFO root fetch - processPackages [vcorelib]: executing diffoscope
+[2023-05-12 05:24:19] INFO root fetch - processPackages [vcorelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vcorelib-1.6.2.tar.gz tmp/vcorelib-1.6.3.tar.gz --markdown 20230512/v/vcorelib/1.6.2-1.6.3/diff.md --exclude *.pyd
+[2023-05-12 05:24:19] INFO root fetch - processPackages [cdktf-cdktf-provider-azuread]: Downloading https://files.pythonhosted.org/packages/a8/34/8a324a706386f2310b82269e3dedf0738b99a118b8f97a607d3ab8532b47/cdktf-cdktf-provider-azuread-7.0.3.tar.gz
+[2023-05-12 05:24:19] INFO root fetch - processPackages [SimpleTFLinter]: executing diffoscope
+[2023-05-12 05:24:19] INFO root fetch - processPackages [SimpleTFLinter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SimpleTFLinter-0.1.0.tar.gz tmp/SimpleTFLinter-0.2.2.tar.gz --markdown 20230512/S/SimpleTFLinter/0.1.0-0.2.2/diff.md --exclude *.pyd
+[2023-05-12 05:24:19] INFO root fetch - processPackages [nsdotpy]: executing diffoscope
+[2023-05-12 05:24:19] INFO root fetch - processPackages [nsdotpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nsdotpy-1.2.7.tar.gz tmp/nsdotpy-1.2.8.tar.gz --markdown 20230512/n/nsdotpy/1.2.7-1.2.8/diff.md --exclude *.pyd
+[2023-05-12 05:24:19] INFO root fetch - processPackages [sphinx-lv2-theme]: Downloading https://files.pythonhosted.org/packages/5c/db/db442bda8ca3f3beea112d62559f5b469156c91be664e78320f6df70e854/sphinx_lv2_theme-1.4.0.tar.gz
+[2023-05-12 05:24:19] INFO root fetch - processPackages [aliyun-python-sdk-polardb]: executing diffoscope
+[2023-05-12 05:24:19] INFO root fetch - processPackages [aliyun-python-sdk-polardb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-polardb-1.8.8.tar.gz tmp/aliyun-python-sdk-polardb-1.8.9.tar.gz --markdown 20230512/a/aliyun-python-sdk-polardb/1.8.8-1.8.9/diff.md --exclude *.pyd
+[2023-05-12 05:24:19] INFO root fetch - processPackages [smartnoise-synth]: executing diffoscope
+[2023-05-12 05:24:19] INFO root fetch - processPackages [smartnoise-synth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartnoise-synth-0.3.7.tar.gz tmp/smartnoise-synth-1.0.0.tar.gz --markdown 20230512/s/smartnoise-synth/0.3.7-1.0.0/diff.md --exclude *.pyd
+[2023-05-12 05:24:19] INFO root fetch - processPackages [cdktf-cdktf-provider-azuread]: executing diffoscope
+[2023-05-12 05:24:19] INFO root fetch - processPackages [cdktf-cdktf-provider-azuread]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-azuread-7.0.2.tar.gz tmp/cdktf-cdktf-provider-azuread-7.0.3.tar.gz --markdown 20230512/c/cdktf-cdktf-provider-azuread/7.0.2-7.0.3/diff.md --exclude *.pyd
+[2023-05-12 05:24:19] INFO root fetch - processPackages [sphinx-lv2-theme]: executing diffoscope
+[2023-05-12 05:24:19] INFO root fetch - processPackages [sphinx-lv2-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx_lv2_theme-1.2.2.tar.gz tmp/sphinx_lv2_theme-1.4.0.tar.gz --markdown 20230512/s/sphinx-lv2-theme/1.2.2-1.4.0/diff.md --exclude *.pyd
+[2023-05-12 05:24:20] INFO root fetch - main [MainThread]: End processing [rum-with-telegram]: success
+[2023-05-12 05:24:20] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-rkp]: success
+[2023-05-12 05:24:20] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-rum]: success
+[2023-05-12 05:24:21] INFO root fetch - main [MainThread]: End processing [nsdotpy]: success
+[2023-05-12 05:24:21] INFO root fetch - main [MainThread]: End processing [SimpleTFLinter]: success
+[2023-05-12 05:24:21] INFO root fetch - main [MainThread]: End processing [smartnoise-synth]: success
+[2023-05-12 05:24:21] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-polardb]: success
+[2023-05-12 05:24:21] INFO root fetch - main [MainThread]: End processing [sphinx-lv2-theme]: success
+[2023-05-12 05:24:22] INFO root fetch - main [MainThread]: End processing [vcorelib]: success
+[2023-05-12 05:24:23] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-azuread]: success
+[2023-05-12 05:24:23] INFO root fetch - main [MainThread]: Store serial: [18072855]
