@@ -14339,3 +14339,103 @@ EOFError: EOF read where object expected
 [2023-05-12 17:44:12] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-05-12 17:44:12] INFO root fetch - main [MainThread]: End processing [mainnet]: success
 [2023-05-12 17:44:12] INFO root fetch - main [MainThread]: Store serial: [18080195]
+[2023-05-12 17:49:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18080195]
+[2023-05-12 17:49:21] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-12 17:49:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vollseg
+[2023-05-12 17:49:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hotspotty-payment-email
+[2023-05-12 17:49:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: devx
+[2023-05-12 17:49:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-hamlpy
+[2023-05-12 17:49:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: OpenFisca-France
+[2023-05-12 17:49:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python-docs-theme
+[2023-05-12 17:49:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: downstream-fairness
+[2023-05-12 17:49:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sidetrek
+[2023-05-12 17:49:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hotspotty-payment-email
+[2023-05-12 17:49:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: daspython
+[2023-05-12 17:49:22] INFO root fetch - processPackages [hotspotty-payment-email]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-12 17:49:22] INFO root fetch - processPackages [sidetrek]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 17:49:22] INFO root fetch - processPackages [hotspotty-payment-email]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-12 17:49:22] INFO root fetch - processPackages [sidetrek]: executing diffoscope
+[2023-05-12 17:49:22] INFO root fetch - processPackages [sidetrek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sidetrek-0.0.8.tar.gz tmp/sidetrek-0.0.9.tar.gz --markdown 20230512/s/sidetrek/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 17:49:22] INFO root fetch - processPackages [django-hamlpy]: New version: [1.7.0] Old Version: [1.6.0]
+[2023-05-12 17:49:22] INFO root fetch - processPackages [downstream-fairness]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-05-12 17:49:22] INFO root fetch - processPackages [python-docs-theme]: New version: [2023.5] Old Version: [2023.3.1]
+[2023-05-12 17:49:22] INFO root fetch - processPackages [vollseg]: New version: [8.0.0] Old Version: [7.0.0]
+[2023-05-12 17:49:22] INFO root fetch - processPackages [daspython]: New version: [2.0] Old Version: [1.4.1]
+[2023-05-12 17:49:22] INFO root fetch - processPackages [OpenFisca-France]: New version: [99.0.1] Old Version: [99.0.0]
+[2023-05-12 17:49:22] INFO root fetch - processPackages [hotspotty-payment-email]: Downloading https://files.pythonhosted.org/packages/d8/e3/ac1f0129a2043e2de8dd7ed48875240102d89873bb180f6ff124c8fe6511/hotspotty_payment_email-0.2.1.tar.gz
+[2023-05-12 17:49:22] INFO root fetch - processPackages [hotspotty-payment-email]: Downloading https://files.pythonhosted.org/packages/d8/e3/ac1f0129a2043e2de8dd7ed48875240102d89873bb180f6ff124c8fe6511/hotspotty_payment_email-0.2.1.tar.gz
+[2023-05-12 17:49:22] WARNING root fetch - processPackages [devx]: Skipping, unable to determine old version
+[2023-05-12 17:49:22] INFO root fetch - processPackages [devx]: Start processing: elm-messenger
+[2023-05-12 17:49:22] INFO root fetch - main [MainThread]: End processing [devx] error
+[2023-05-12 17:49:22] INFO root fetch - processPackages [python-docs-theme]: Downloading https://files.pythonhosted.org/packages/9e/d9/2c7e63a47b6787ef4762e596fbb0a7ac1270c08739c83d2851e16e43fc72/python-docs-theme-2023.3.1.tar.gz
+[2023-05-12 17:49:22] INFO root fetch - processPackages [vollseg]: Downloading https://files.pythonhosted.org/packages/49/5e/9558410d2a3b0f12598784a6541087a52cb9eac28650e25b7d767e2c56b0/vollseg-7.0.0.tar.gz
+[2023-05-12 17:49:22] INFO root fetch - processPackages [hotspotty-payment-email]: executing diffoscope
+[2023-05-12 17:49:22] INFO root fetch - processPackages [hotspotty-payment-email]: executing diffoscope
+[2023-05-12 17:49:22] INFO root fetch - processPackages [hotspotty-payment-email]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotspotty_payment_email-0.2.0.tar.gz tmp/hotspotty_payment_email-0.2.1.tar.gz --markdown 20230512/h/hotspotty-payment-email/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-12 17:49:22] INFO root fetch - processPackages [hotspotty-payment-email]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotspotty_payment_email-0.2.0.tar.gz tmp/hotspotty_payment_email-0.2.1.tar.gz --markdown 20230512/h/hotspotty-payment-email/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-12 17:49:22] INFO root fetch - processPackages [OpenFisca-France]: Downloading https://files.pythonhosted.org/packages/70/8b/f7e6ae929e6bc09831757bdb5cdb964099c9af3419db607df1bdfebfe6fd/OpenFisca_France-99.0.0-py3-none-any.whl
+[2023-05-12 17:49:22] INFO root fetch - processPackages [downstream-fairness]: Downloading https://files.pythonhosted.org/packages/22/c9/e1d86c54e31b3a9bce354ced292fffdf1b6b3d404062ca0230be660ac6a1/downstream_fairness-0.0.1.tar.gz
+[2023-05-12 17:49:22] INFO root fetch - processPackages [elm-messenger]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-12 17:49:22] WARNING root fetch - processPackages [vollseg]: Skipping package: exceeds size limit 29985919>=10485760
+[2023-05-12 17:49:22] INFO root fetch - processPackages [vollseg]: Start processing: pandapower
+[2023-05-12 17:49:22] INFO root fetch - main [MainThread]: End processing [vollseg] error
+[2023-05-12 17:49:22] INFO root fetch - processPackages [daspython]: Downloading https://files.pythonhosted.org/packages/4f/21/0c70bfbb2911a3d8d55ba938222f71c84ee8fbc57d89db5a343ea4aa81a6/daspython-1.4.1.tar.gz
+[2023-05-12 17:49:22] INFO root fetch - processPackages [pandapower]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-05-12 17:49:22] INFO root fetch - processPackages [django-hamlpy]: Downloading https://files.pythonhosted.org/packages/8f/c3/117776c4c7c67c342889f73fb17a87d713e43ec3635cc2664c99d74d3f68/django_hamlpy-1.7.0.tar.gz
+[2023-05-12 17:49:22] INFO root fetch - processPackages [pandapower]: executing diffoscope
+[2023-05-12 17:49:22] INFO root fetch - processPackages [pandapower]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandapower-2.8.0.zip tmp/pandapower-2.9.0.zip --markdown 20230512/p/pandapower/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-05-12 17:49:22] INFO root fetch - processPackages [python-docs-theme]: Downloading https://files.pythonhosted.org/packages/c7/b1/031bec5fdce3239a9a41cb3d4ceb1133ae41501b6aac22279442251bc628/python-docs-theme-2023.5.tar.gz
+[2023-05-12 17:49:22] INFO root fetch - processPackages [downstream-fairness]: Downloading https://files.pythonhosted.org/packages/ce/77/b90882e4cb1b064b83aec49a348fb9aee90d92f21a2934ad2ba02a85c908/downstream_fairness-0.1.0.tar.gz
+[2023-05-12 17:49:22] INFO root fetch - processPackages [django-hamlpy]: executing diffoscope
+[2023-05-12 17:49:22] INFO root fetch - processPackages [django-hamlpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_hamlpy-1.6.0.tar.gz tmp/django_hamlpy-1.7.0.tar.gz --markdown 20230512/d/django-hamlpy/1.6.0-1.7.0/diff.md --exclude *.pyd
+[2023-05-12 17:49:22] INFO root fetch - processPackages [elm-messenger]: Downloading https://files.pythonhosted.org/packages/05/6f/51a085c3f653d446c46ab7191b1541a4d5d45d7da0dca343b2c5dd5bc2f8/elm-messenger-0.1.5.tar.gz
+[2023-05-12 17:49:22] INFO root fetch - processPackages [daspython]: Downloading https://files.pythonhosted.org/packages/50/e1/eae8267c24b718fb22de0f81540ba7ebfb99c3be24873df3a5950b02825d/daspython-2.0.tar.gz
+[2023-05-12 17:49:22] INFO root fetch - processPackages [python-docs-theme]: executing diffoscope
+[2023-05-12 17:49:22] INFO root fetch - processPackages [python-docs-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-docs-theme-2023.3.1.tar.gz tmp/python-docs-theme-2023.5.tar.gz --markdown 20230512/p/python-docs-theme/2023.3.1-2023.5/diff.md --exclude *.pyd
+[2023-05-12 17:49:22] INFO root fetch - processPackages [downstream-fairness]: executing diffoscope
+[2023-05-12 17:49:22] INFO root fetch - processPackages [downstream-fairness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/downstream_fairness-0.0.1.tar.gz tmp/downstream_fairness-0.1.0.tar.gz --markdown 20230512/d/downstream-fairness/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-05-12 17:49:22] INFO root fetch - processPackages [daspython]: executing diffoscope
+[2023-05-12 17:49:22] INFO root fetch - processPackages [daspython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daspython-1.4.1.tar.gz tmp/daspython-2.0.tar.gz --markdown 20230512/d/daspython/1.4.1-2.0/diff.md --exclude *.pyd
+[2023-05-12 17:49:22] INFO root fetch - processPackages [elm-messenger]: executing diffoscope
+[2023-05-12 17:49:22] INFO root fetch - processPackages [elm-messenger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elm-messenger-0.1.4.tar.gz tmp/elm-messenger-0.1.5.tar.gz --markdown 20230512/e/elm-messenger/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-12 17:49:23] INFO root fetch - processPackages [sidetrek]: Start processing: gradio-tools
+[2023-05-12 17:49:23] INFO root fetch - main [MainThread]: End processing [sidetrek]: success
+[2023-05-12 17:49:23] INFO root fetch - processPackages [gradio-tools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 17:49:23] INFO root fetch - processPackages [hotspotty-payment-email]: Start processing: apidevtools
+[2023-05-12 17:49:23] INFO root fetch - main [MainThread]: End processing [hotspotty-payment-email]: success
+[2023-05-12 17:49:23] INFO root fetch - processPackages [apidevtools]: New version: [3.2.5] Old Version: [3.2.4]
+[2023-05-12 17:49:23] INFO root fetch - processPackages [hotspotty-payment-email]: Start processing: dragonfly-uwg
+[2023-05-12 17:49:23] INFO root fetch - main [MainThread]: End processing [hotspotty-payment-email]: success
+[2023-05-12 17:49:23] INFO root fetch - processPackages [dragonfly-uwg]: New version: [0.5.99] Old Version: [0.5.98]
+[2023-05-12 17:49:24] INFO root fetch - processPackages [apidevtools]: Downloading https://files.pythonhosted.org/packages/12/53/e16c426d5815b8b97024a6191a2638bc61a412ceda0ef92470e5aa093d25/apidevtools-3.2.5.tar.gz
+[2023-05-12 17:49:24] INFO root fetch - processPackages [gradio-tools]: Downloading https://files.pythonhosted.org/packages/ac/6d/368bf137bbfed5b2bca089324e50a247a87d6081a82ba03fdddad8b2857b/gradio_tools-0.0.9.tar.gz
+[2023-05-12 17:49:24] INFO root fetch - processPackages [OpenFisca-France]: Downloading https://files.pythonhosted.org/packages/b5/c6/01bc5d57d2ec6bf602cdc2aacf3444fa5f25fbb7d9e9a5bdda07728b537d/OpenFisca_France-99.0.1-py3-none-any.whl
+[2023-05-12 17:49:24] INFO root fetch - processPackages [apidevtools]: executing diffoscope
+[2023-05-12 17:49:24] INFO root fetch - processPackages [apidevtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apidevtools-3.2.4.tar.gz tmp/apidevtools-3.2.5.tar.gz --markdown 20230512/a/apidevtools/3.2.4-3.2.5/diff.md --exclude *.pyd
+[2023-05-12 17:49:24] INFO root fetch - processPackages [dragonfly-uwg]: Downloading https://files.pythonhosted.org/packages/a6/3c/7afbd082f170d8d51ed57abdf8bb67058ca404ede70f9d982fd95c8bb807/dragonfly-uwg-0.5.98.tar.gz
+[2023-05-12 17:49:24] INFO root fetch - processPackages [dragonfly-uwg]: Downloading https://files.pythonhosted.org/packages/55/b3/3f9a36d82b87f343d4e196e93a8cf3e838b9c80b0849f927d4f3505355af/dragonfly-uwg-0.5.99.tar.gz
+[2023-05-12 17:49:24] INFO root fetch - processPackages [daspython]: Start processing: PY-PACKAGE-NAME
+[2023-05-12 17:49:24] INFO root fetch - main [MainThread]: End processing [daspython]: success
+[2023-05-12 17:49:24] INFO root fetch - processPackages [dragonfly-uwg]: executing diffoscope
+[2023-05-12 17:49:24] INFO root fetch - processPackages [dragonfly-uwg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-uwg-0.5.98.tar.gz tmp/dragonfly-uwg-0.5.99.tar.gz --markdown 20230512/d/dragonfly-uwg/0.5.98-0.5.99/diff.md --exclude *.pyd
+[2023-05-12 17:49:24] INFO root fetch - processPackages [django-hamlpy]: Start processing: helicone
+[2023-05-12 17:49:24] INFO root fetch - main [MainThread]: End processing [django-hamlpy]: success
+[2023-05-12 17:49:24] INFO root fetch - processPackages [helicone]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-12 17:49:24] INFO root fetch - main [MainThread]: End processing [elm-messenger]: success
+[2023-05-12 17:49:24] WARNING root fetch - processPackages [PY-PACKAGE-NAME]: Skipping, unable to determine old version
+[2023-05-12 17:49:24] INFO root fetch - main [MainThread]: End processing [PY-PACKAGE-NAME] error
+[2023-05-12 17:49:24] INFO root fetch - processPackages [helicone]: executing diffoscope
+[2023-05-12 17:49:24] INFO root fetch - processPackages [helicone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helicone-0.1.1.tar.gz tmp/helicone-0.1.2.tar.gz --markdown 20230512/h/helicone/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-12 17:49:24] INFO root fetch - main [MainThread]: End processing [downstream-fairness]: success
+[2023-05-12 17:49:24] INFO root fetch - main [MainThread]: End processing [python-docs-theme]: success
+[2023-05-12 17:49:25] INFO root fetch - processPackages [OpenFisca-France]: executing diffoscope
+[2023-05-12 17:49:25] INFO root fetch - processPackages [OpenFisca-France]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenFisca_France-99.0.0-py3-none-any.whl.zip tmp/OpenFisca_France-99.0.1-py3-none-any.whl.zip --markdown 20230512/O/OpenFisca-France/99.0.0-99.0.1/diff.md --exclude *.pyd
+[2023-05-12 17:49:25] INFO root fetch - main [MainThread]: End processing [apidevtools]: success
+[2023-05-12 17:49:25] INFO root fetch - processPackages [gradio-tools]: executing diffoscope
+[2023-05-12 17:49:25] INFO root fetch - processPackages [gradio-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gradio_tools-0.0.8.tar.gz tmp/gradio_tools-0.0.9.tar.gz --markdown 20230512/g/gradio-tools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 17:49:25] INFO root fetch - main [MainThread]: End processing [helicone]: success
+[2023-05-12 17:49:26] INFO root fetch - main [MainThread]: End processing [dragonfly-uwg]: success
+[2023-05-12 17:49:27] INFO root fetch - main [MainThread]: End processing [gradio-tools]: success
+[2023-05-12 17:49:31] INFO root fetch - main [MainThread]: End processing [pandapower]: success
+[2023-05-12 17:50:38] INFO root fetch - main [MainThread]: End processing [OpenFisca-France]: success
+[2023-05-12 17:50:38] INFO root fetch - main [MainThread]: Store serial: [18080253]
