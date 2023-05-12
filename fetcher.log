@@ -7531,3 +7531,103 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-12 10:44:46] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
 [2023-05-12 10:44:47] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2023-05-12 10:44:47] INFO root fetch - main [MainThread]: Store serial: [18075576]
+[2023-05-12 10:49:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18075576]
+[2023-05-12 10:49:56] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-12 10:49:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tfp-nightly
+[2023-05-12 10:49:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hsuanwuhub
+[2023-05-12 10:49:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: seven-cloudapp-frame
+[2023-05-12 10:49:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-l10n-ro-fiscal-validation
+[2023-05-12 10:49:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sd-meh
+[2023-05-12 10:49:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: syncdsgen
+[2023-05-12 10:49:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hummuspy
+[2023-05-12 10:49:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ango
+[2023-05-12 10:49:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rtbhouse-sdk
+[2023-05-12 10:49:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: parshift
+[2023-05-12 10:49:56] INFO root fetch - processPackages [hummuspy]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-12 10:49:56] INFO root fetch - processPackages [syncdsgen]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 10:49:56] INFO root fetch - processPackages [sd-meh]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-12 10:49:56] INFO root fetch - processPackages [hsuanwuhub]: New version: [0.0.1b1] Old Version: [0.0.1b0]
+[2023-05-12 10:49:56] INFO root fetch - processPackages [rtbhouse-sdk]: New version: [9.0.1] Old Version: [9.0.0]
+[2023-05-12 10:49:56] INFO root fetch - processPackages [parshift]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-12 10:49:56] INFO root fetch - processPackages [odoo-addon-l10n-ro-fiscal-validation]: New version: [16.0.1.1.0] Old Version: [15.0.3.4.0]
+[2023-05-12 10:49:56] INFO root fetch - processPackages [ango]: New version: [1.0.0] Old Version: [0.1.9]
+[2023-05-12 10:49:56] INFO root fetch - processPackages [seven-cloudapp-frame]: New version: [1.0.9.9] Old Version: [1.0.9.8]
+[2023-05-12 10:49:56] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2023-05-12 10:49:57] INFO root fetch - processPackages [hsuanwuhub]: Downloading https://files.pythonhosted.org/packages/c9/49/534cef9933f0afa7641c3266dd753a9def1915039755b9b3e8210ac71276/hsuanwuhub-0.0.1b0.tar.gz
+[2023-05-12 10:49:57] INFO root fetch - processPackages [rtbhouse-sdk]: Downloading https://files.pythonhosted.org/packages/b0/55/a62c7c560cd13b5a97950192dec10f2c3f29936d4c130c5666b5313e3c58/rtbhouse-sdk-9.0.0.tar.gz
+[2023-05-12 10:49:57] INFO root fetch - processPackages [sd-meh]: Downloading https://files.pythonhosted.org/packages/40/b1/cfb5b6bcf6e63cff7d9534cb9d17e462e1722d618434b493e7c4a4cc2de6/sd_meh-0.1.0.tar.gz
+[2023-05-12 10:49:57] INFO root fetch - processPackages [syncdsgen]: Downloading https://files.pythonhosted.org/packages/42/f5/fcbc3d356829430ae9e4072dff1b760a52e840dc340cdfcb877efde987b5/syncdsgen-0.0.8.tar.gz
+[2023-05-12 10:49:57] INFO root fetch - processPackages [ango]: Downloading https://files.pythonhosted.org/packages/43/ab/2ca380fec6d2e9fd916d711785012d2df94fb7379d7a6c6b0f7b1c1c7f73/ango-0.1.9-py3-none-any.whl
+[2023-05-12 10:49:57] INFO root fetch - processPackages [parshift]: Downloading https://files.pythonhosted.org/packages/4a/72/05ea5de0363e73d14085eb3651c0b46896ec4d5c3cda4a15d40ab0c96997/parshift-0.2.1.tar.gz
+[2023-05-12 10:49:57] INFO root fetch - processPackages [odoo-addon-l10n-ro-fiscal-validation]: Downloading https://files.pythonhosted.org/packages/0d/3a/b66eea7effd50ce80e9f57ddf1bf19189f76ec7c3ffd260fcce900470db8/odoo_addon_l10n_ro_fiscal_validation-16.0.1.1.0-py3-none-any.whl
+[2023-05-12 10:49:57] INFO root fetch - processPackages [hummuspy]: Downloading https://files.pythonhosted.org/packages/7b/d2/f10bdfb3773daa1c9cfa89ccd6f3a0a515c8de0cf53d005e93a607ca9b86/hummuspy-0.0.6.tar.gz
+[2023-05-12 10:49:57] INFO root fetch - processPackages [seven-cloudapp-frame]: executing diffoscope
+[2023-05-12 10:49:57] INFO root fetch - processPackages [seven-cloudapp-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_cloudapp_frame-1.0.9.8.tar.gz tmp/seven_cloudapp_frame-1.0.9.9.tar.gz --markdown 20230512/s/seven-cloudapp-frame/1.0.9.8-1.0.9.9/diff.md --exclude *.pyd
+[2023-05-12 10:49:57] INFO root fetch - processPackages [sd-meh]: Downloading https://files.pythonhosted.org/packages/ce/e8/f999d50846085f8963dffbdab1cbe31710ad4256edafc687871af4025ab6/sd_meh-0.1.1.tar.gz
+[2023-05-12 10:49:57] INFO root fetch - processPackages [syncdsgen]: Downloading https://files.pythonhosted.org/packages/67/ce/38dc0121eb6b4b76ef65cafd686d5796945e1a2d3d60e2a866236ef16775/syncdsgen-0.0.9.tar.gz
+[2023-05-12 10:49:57] INFO root fetch - processPackages [odoo-addon-l10n-ro-fiscal-validation]: executing diffoscope
+[2023-05-12 10:49:57] INFO root fetch - processPackages [odoo-addon-l10n-ro-fiscal-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_fiscal_validation-15.0.3.4.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_fiscal_validation-16.0.1.1.0-py3-none-any.whl.zip --markdown 20230512/o/odoo-addon-l10n-ro-fiscal-validation/15.0.3.4.0-16.0.1.1.0/diff.md --exclude *.pyd
+[2023-05-12 10:49:57] INFO root fetch - processPackages [parshift]: Downloading https://files.pythonhosted.org/packages/b5/29/bd4cb8a1b4eff8c105b2bb9d30d154640096d037241f11b26ad1bd8c4b49/parshift-0.2.2.tar.gz
+[2023-05-12 10:49:57] INFO root fetch - processPackages [ango]: Downloading https://files.pythonhosted.org/packages/84/b0/1b6f8e28b31e2a7b3d56b3eb5dba3c5d0d2056fcd84574970ef7c9df6e64/ango-1.0.0.tar.gz
+[2023-05-12 10:49:57] INFO root fetch - processPackages [hsuanwuhub]: Downloading https://files.pythonhosted.org/packages/72/06/7899e3564f039d3aceed167146936bd334dc1f1df38b07032b28e5aea991/hsuanwuhub-0.0.1b1.tar.gz
+[2023-05-12 10:49:57] INFO root fetch - processPackages [sd-meh]: executing diffoscope
+[2023-05-12 10:49:57] INFO root fetch - processPackages [sd-meh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sd_meh-0.1.0.tar.gz tmp/sd_meh-0.1.1.tar.gz --markdown 20230512/s/sd-meh/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-12 10:49:57] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2023-05-12 10:49:57] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20230512/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/diff.md --exclude *.pyd
+[2023-05-12 10:49:57] INFO root fetch - processPackages [hummuspy]: executing diffoscope
+[2023-05-12 10:49:57] INFO root fetch - processPackages [hummuspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hummuspy-0.0.5.tar.gz tmp/hummuspy-0.0.6.tar.gz --markdown 20230512/h/hummuspy/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-12 10:49:57] INFO root fetch - processPackages [rtbhouse-sdk]: Downloading https://files.pythonhosted.org/packages/33/92/b2798a572eb76e6333859b917420ac34246ec5251946cdee934a80832248/rtbhouse_sdk-9.0.1.tar.gz
+[2023-05-12 10:49:57] INFO root fetch - processPackages [syncdsgen]: executing diffoscope
+[2023-05-12 10:49:57] INFO root fetch - processPackages [syncdsgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syncdsgen-0.0.8.tar.gz tmp/syncdsgen-0.0.9.tar.gz --markdown 20230512/s/syncdsgen/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 10:49:57] INFO root fetch - processPackages [ango]: executing diffoscope
+[2023-05-12 10:49:57] INFO root fetch - processPackages [ango]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ango-0.1.9-py3-none-any.whl.zip tmp/ango-1.0.0.tar.gz --markdown 20230512/a/ango/0.1.9-1.0.0/diff.md --exclude *.pyd
+[2023-05-12 10:49:57] INFO root fetch - processPackages [parshift]: executing diffoscope
+[2023-05-12 10:49:57] INFO root fetch - processPackages [parshift]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parshift-0.2.1.tar.gz tmp/parshift-0.2.2.tar.gz --markdown 20230512/p/parshift/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-12 10:49:57] INFO root fetch - processPackages [hsuanwuhub]: executing diffoscope
+[2023-05-12 10:49:57] INFO root fetch - processPackages [hsuanwuhub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hsuanwuhub-0.0.1b0.tar.gz tmp/hsuanwuhub-0.0.1b1.tar.gz --markdown 20230512/h/hsuanwuhub/0.0.1b0-0.0.1b1/diff.md --exclude *.pyd
+[2023-05-12 10:49:57] INFO root fetch - processPackages [rtbhouse-sdk]: executing diffoscope
+[2023-05-12 10:49:57] INFO root fetch - processPackages [rtbhouse-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rtbhouse-sdk-9.0.0.tar.gz tmp/rtbhouse_sdk-9.0.1.tar.gz --markdown 20230512/r/rtbhouse-sdk/9.0.0-9.0.1/diff.md --exclude *.pyd
+[2023-05-12 10:49:58] INFO root fetch - processPackages [sd-meh]: Start processing: cognite-sdk
+[2023-05-12 10:49:58] INFO root fetch - main [MainThread]: End processing [sd-meh]: success
+[2023-05-12 10:49:58] INFO root fetch - processPackages [cognite-sdk]: New version: [6.1.7] Old Version: [6.1.6]
+[2023-05-12 10:49:58] INFO root fetch - processPackages [odoo-addon-l10n-ro-fiscal-validation]: Start processing: half-orm
+[2023-05-12 10:49:58] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-fiscal-validation]: success
+[2023-05-12 10:49:58] INFO root fetch - processPackages [half-orm]: New version: [0.9.0] Old Version: [0.8.0rc9]
+[2023-05-12 10:49:59] INFO root fetch - processPackages [cognite-sdk]: Downloading https://files.pythonhosted.org/packages/40/5e/0ef62cc1a765b0748be6a9f5083ec6468ca343d73eba8b87620a822f2046/cognite_sdk-6.1.6.tar.gz
+[2023-05-12 10:49:59] INFO root fetch - processPackages [half-orm]: Downloading https://files.pythonhosted.org/packages/d0/56/92e9ae04b481d755ec8fbdbe357d4d6dfabd7b7c8538865d3d33b92de278/half_orm-0.8.0rc9.tar.gz
+[2023-05-12 10:49:59] INFO root fetch - processPackages [ango]: Start processing: twyn
+[2023-05-12 10:49:59] INFO root fetch - main [MainThread]: End processing [ango]: success
+[2023-05-12 10:49:59] INFO root fetch - processPackages [hummuspy]: Start processing: dune-harmonizer
+[2023-05-12 10:49:59] INFO root fetch - main [MainThread]: End processing [hummuspy]: success
+[2023-05-12 10:49:59] INFO root fetch - processPackages [twyn]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-05-12 10:49:59] INFO root fetch - processPackages [dune-harmonizer]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-12 10:49:59] INFO root fetch - processPackages [cognite-sdk]: Downloading https://files.pythonhosted.org/packages/46/88/8b0ba39ab3ae9f96fcb7d896ad6fc7f327eb2018d516a33dc83315ad5f54/cognite_sdk-6.1.7.tar.gz
+[2023-05-12 10:49:59] INFO root fetch - processPackages [twyn]: Downloading https://files.pythonhosted.org/packages/4b/2d/1a25f2e36b5230aa38a64b871f89c2ea02dbcdbfb510ad4c0e825a6db4d0/twyn-2.1.0.tar.gz
+[2023-05-12 10:49:59] INFO root fetch - processPackages [half-orm]: Downloading https://files.pythonhosted.org/packages/45/f8/76051f7c9bfc8555152e2ea9fe78985f1b03d48446c2f9b49d2e8e6c6503/half_orm-0.9.0.tar.gz
+[2023-05-12 10:49:59] INFO root fetch - processPackages [hsuanwuhub]: Start processing: dexie-rewards
+[2023-05-12 10:49:59] INFO root fetch - main [MainThread]: End processing [hsuanwuhub]: success
+[2023-05-12 10:49:59] INFO root fetch - main [MainThread]: End processing [rtbhouse-sdk]: success
+[2023-05-12 10:49:59] INFO root fetch - processPackages [cognite-sdk]: executing diffoscope
+[2023-05-12 10:49:59] INFO root fetch - processPackages [cognite-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_sdk-6.1.6.tar.gz tmp/cognite_sdk-6.1.7.tar.gz --markdown 20230512/c/cognite-sdk/6.1.6-6.1.7/diff.md --exclude *.pyd
+[2023-05-12 10:49:59] INFO root fetch - processPackages [dexie-rewards]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-12 10:49:59] INFO root fetch - main [MainThread]: End processing [parshift]: success
+[2023-05-12 10:49:59] INFO root fetch - processPackages [half-orm]: executing diffoscope
+[2023-05-12 10:49:59] INFO root fetch - processPackages [half-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/half_orm-0.8.0rc9.tar.gz tmp/half_orm-0.9.0.tar.gz --markdown 20230512/h/half-orm/0.8.0rc9-0.9.0/diff.md --exclude *.pyd
+[2023-05-12 10:49:59] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
+[2023-05-12 10:49:59] INFO root fetch - processPackages [twyn]: Downloading https://files.pythonhosted.org/packages/fc/17/a070899f49b869d9f3fe37d639b92ebc6cd3910817af142f325971b5b367/twyn-2.2.0.tar.gz
+[2023-05-12 10:49:59] INFO root fetch - main [MainThread]: End processing [syncdsgen]: success
+[2023-05-12 10:49:59] INFO root fetch - processPackages [dexie-rewards]: Downloading https://files.pythonhosted.org/packages/d7/d2/cb783b5bdbc7fb22f3f67781445386f9b92cf7ade64f65a538595dbf3fe4/dexie_rewards-0.0.2.tar.gz
+[2023-05-12 10:49:59] INFO root fetch - processPackages [dune-harmonizer]: executing diffoscope
+[2023-05-12 10:49:59] INFO root fetch - processPackages [dune-harmonizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dune_harmonizer-0.8.0.tar.gz tmp/dune_harmonizer-0.9.0.tar.gz --markdown 20230512/d/dune-harmonizer/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-12 10:49:59] INFO root fetch - processPackages [twyn]: executing diffoscope
+[2023-05-12 10:49:59] INFO root fetch - processPackages [twyn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twyn-2.1.0.tar.gz tmp/twyn-2.2.0.tar.gz --markdown 20230512/t/twyn/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-05-12 10:50:00] INFO root fetch - processPackages [dexie-rewards]: Downloading https://files.pythonhosted.org/packages/76/40/d5e554894fefdd0d3f9963686c25ab18caf8c07baf23788b94f39891b7de/dexie_rewards-0.0.3-py3-none-any.whl
+[2023-05-12 10:50:00] INFO root fetch - processPackages [dexie-rewards]: executing diffoscope
+[2023-05-12 10:50:00] INFO root fetch - processPackages [dexie-rewards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dexie_rewards-0.0.2.tar.gz tmp/dexie_rewards-0.0.3-py3-none-any.whl.zip --markdown 20230512/d/dexie-rewards/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-12 10:50:01] INFO root fetch - main [MainThread]: End processing [dune-harmonizer]: success
+[2023-05-12 10:50:01] INFO root fetch - main [MainThread]: End processing [twyn]: success
+[2023-05-12 10:50:01] INFO root fetch - main [MainThread]: End processing [dexie-rewards]: success
+[2023-05-12 10:50:01] INFO root fetch - main [MainThread]: End processing [half-orm]: success
+[2023-05-12 10:50:01] INFO root fetch - main [MainThread]: End processing [cognite-sdk]: success
+[2023-05-12 10:50:13] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2023-05-12 10:50:13] INFO root fetch - main [MainThread]: Store serial: [18075627]
