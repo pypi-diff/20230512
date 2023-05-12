@@ -18454,3 +18454,52 @@ EOFError: EOF read where object expected
 [2023-05-12 21:27:58] INFO root fetch - main [MainThread]: End processing [wafer-debconf]: success
 [2023-05-12 21:28:02] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
 [2023-05-12 21:28:02] INFO root fetch - main [MainThread]: Store serial: [18083081]
+[2023-05-12 21:33:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18083081]
+[2023-05-12 21:33:13] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-12 21:33:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mctk-py
+[2023-05-12 21:33:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-account-invoice-merge
+[2023-05-12 21:33:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: anutils
+[2023-05-12 21:33:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: HoodHod
+[2023-05-12 21:33:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: velour-client
+[2023-05-12 21:33:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dataverse-api
+[2023-05-12 21:33:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bhv
+[2023-05-12 21:33:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: py4D-browser
+[2023-05-12 21:33:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: psytricks
+[2023-05-12 21:33:13] INFO root fetch - processPackages [anutils]: New version: [0.4.3b0] Old Version: [0.4.1]
+[2023-05-12 21:33:13] INFO root fetch - processPackages [dataverse-api]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-12 21:33:13] INFO root fetch - processPackages [anutils]: executing diffoscope
+[2023-05-12 21:33:13] INFO root fetch - processPackages [anutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anutils-0.4.1.tar.gz tmp/anutils-0.4.3b0.tar.gz --markdown 20230512/a/anutils/0.4.1-0.4.3b0/diff.md --exclude *.pyd
+[2023-05-12 21:33:13] WARNING root fetch - processPackages [HoodHod]: Skipping, unable to determine old version
+[2023-05-12 21:33:13] INFO root fetch - main [MainThread]: End processing [HoodHod] error
+[2023-05-12 21:33:13] INFO root fetch - processPackages [odoo-addon-account-invoice-merge]: New version: [16.0.1.0.1] Old Version: [16.0.1.0.0.9]
+[2023-05-12 21:33:13] INFO root fetch - processPackages [bhv]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-05-12 21:33:13] WARNING root fetch - processPackages [py4D-browser]: Skipping, unable to determine old version
+[2023-05-12 21:33:13] INFO root fetch - main [MainThread]: End processing [py4D-browser] error
+[2023-05-12 21:33:13] INFO root fetch - processPackages [mctk-py]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-05-12 21:33:13] INFO root fetch - processPackages [psytricks]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-05-12 21:33:13] INFO root fetch - processPackages [dataverse-api]: Downloading https://files.pythonhosted.org/packages/6b/56/f09fd4d61c8f1295892a32c7d88c7aab774531b29212f1d443c4644169c2/dataverse_api-0.1.2.tar.gz
+[2023-05-12 21:33:13] ERROR root fetch - processPackages [velour-client]: Unable to get metadata: No such project 'velour-client'
+[2023-05-12 21:33:13] INFO root fetch - main [MainThread]: End processing [velour-client] error
+[2023-05-12 21:33:13] INFO root fetch - processPackages [dataverse-api]: executing diffoscope
+[2023-05-12 21:33:13] INFO root fetch - processPackages [dataverse-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataverse_api-0.1.1.tar.gz tmp/dataverse_api-0.1.2.tar.gz --markdown 20230512/d/dataverse-api/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-12 21:33:13] INFO root fetch - processPackages [odoo-addon-account-invoice-merge]: Downloading https://files.pythonhosted.org/packages/29/ad/cc18148c6f0604ef5dec42a46df398a8ba237df0eb2f0ab4e6b900411334/odoo_addon_account_invoice_merge-16.0.1.0.0.9-py3-none-any.whl
+[2023-05-12 21:33:13] INFO root fetch - processPackages [mctk-py]: Downloading https://files.pythonhosted.org/packages/78/47/629091bf28bdf92a49acc8ffa53b4cd0e909255d630f66a0e49c3554bb7e/mctk-py-0.0.1.tar.gz
+[2023-05-12 21:33:13] INFO root fetch - processPackages [bhv]: Downloading https://files.pythonhosted.org/packages/48/39/4d44d1e482470cd6ad8cee5bf3e2cc67e8627af7ef2e86491142bd7d12fa/bhv-0.3.0.tar.gz
+[2023-05-12 21:33:13] INFO root fetch - processPackages [psytricks]: Downloading https://files.pythonhosted.org/packages/b0/44/e40b86d2221591116b31dd770b16948e0365c71ce8d84f82721c36386388/psytricks-2.1.0.tar.gz
+[2023-05-12 21:33:14] INFO root fetch - processPackages [mctk-py]: Downloading https://files.pythonhosted.org/packages/6e/ad/4181984c7ee9eb92842bdbdd34fac5657634c88e21955918fb6f3302d954/mctk-py-0.1.0.tar.gz
+[2023-05-12 21:33:14] INFO root fetch - processPackages [odoo-addon-account-invoice-merge]: Downloading https://files.pythonhosted.org/packages/63/6e/90eda37a8c8105643aac2e5a007f789d6de176487abdec2f293d28779bb5/odoo_addon_account_invoice_merge-16.0.1.0.1-py3-none-any.whl
+[2023-05-12 21:33:14] INFO root fetch - processPackages [bhv]: executing diffoscope
+[2023-05-12 21:33:14] INFO root fetch - processPackages [bhv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bhv-0.2.9.tar.gz tmp/bhv-0.3.0.tar.gz --markdown 20230512/b/bhv/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2023-05-12 21:33:14] INFO root fetch - processPackages [psytricks]: executing diffoscope
+[2023-05-12 21:33:14] INFO root fetch - processPackages [psytricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psytricks-2.0.0.tar.gz tmp/psytricks-2.1.0.tar.gz --markdown 20230512/p/psytricks/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-05-12 21:33:14] INFO root fetch - processPackages [odoo-addon-account-invoice-merge]: executing diffoscope
+[2023-05-12 21:33:14] INFO root fetch - processPackages [odoo-addon-account-invoice-merge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_invoice_merge-16.0.1.0.0.9-py3-none-any.whl.zip tmp/odoo_addon_account_invoice_merge-16.0.1.0.1-py3-none-any.whl.zip --markdown 20230512/o/odoo-addon-account-invoice-merge/16.0.1.0.0.9-16.0.1.0.1/diff.md --exclude *.pyd
+[2023-05-12 21:33:14] INFO root fetch - processPackages [mctk-py]: executing diffoscope
+[2023-05-12 21:33:14] INFO root fetch - processPackages [mctk-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mctk-py-0.0.1.tar.gz tmp/mctk-py-0.1.0.tar.gz --markdown 20230512/m/mctk-py/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-05-12 21:33:14] INFO root fetch - main [MainThread]: End processing [anutils]: success
+[2023-05-12 21:33:14] INFO root fetch - main [MainThread]: End processing [dataverse-api]: success
+[2023-05-12 21:33:15] INFO root fetch - main [MainThread]: End processing [psytricks]: success
+[2023-05-12 21:33:15] INFO root fetch - main [MainThread]: End processing [bhv]: success
+[2023-05-12 21:33:15] INFO root fetch - main [MainThread]: End processing [mctk-py]: success
+[2023-05-12 21:33:15] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-invoice-merge]: success
+[2023-05-12 21:33:15] INFO root fetch - main [MainThread]: Store serial: [18083114]
