@@ -18687,3 +18687,72 @@ EOFError: EOF read where object expected
 [2023-05-12 21:48:57] INFO root fetch - main [MainThread]: End processing [deepchem]: success
 [2023-05-12 21:49:01] INFO root fetch - main [MainThread]: End processing [pineboo]: success
 [2023-05-12 21:49:01] INFO root fetch - main [MainThread]: Store serial: [18083232]
+[2023-05-12 21:54:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18083232]
+[2023-05-12 21:54:10] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-12 21:54:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: deepchem
+[2023-05-12 21:54:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lbt-honeybee
+[2023-05-12 21:54:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: woke
+[2023-05-12 21:54:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: streaming-stt-nemo
+[2023-05-12 21:54:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: compas-timber
+[2023-05-12 21:54:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-databricks
+[2023-05-12 21:54:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dragonfly-energy
+[2023-05-12 21:54:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: WebGrid
+[2023-05-12 21:54:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gen-pop-linkml2sheets
+[2023-05-12 21:54:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lbt-dragonfly
+[2023-05-12 21:54:10] INFO root fetch - processPackages [compas-timber]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-12 21:54:10] INFO root fetch - processPackages [woke]: New version: [3.4.1] Old Version: [3.4.0]
+[2023-05-12 21:54:10] INFO root fetch - processPackages [deepchem]: New version: [2.7.2.dev20230512194912] Old Version: [2.7.2.dev20230512194842]
+[2023-05-12 21:54:10] INFO root fetch - processPackages [pulumi-databricks]: New version: [1.9.0a1678745257] Old Version: [1.8.0a1678127428]
+[2023-05-12 21:54:10] INFO root fetch - processPackages [streaming-stt-nemo]: New version: [0.2.0] Old Version: [0.1.2a0]
+[2023-05-12 21:54:10] INFO root fetch - processPackages [gen-pop-linkml2sheets]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-12 21:54:10] INFO root fetch - processPackages [WebGrid]: New version: [0.5.6] Old Version: [0.5.5]
+[2023-05-12 21:54:10] INFO root fetch - processPackages [dragonfly-energy]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-12 21:54:10] INFO root fetch - processPackages [lbt-honeybee]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-05-12 21:54:10] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-05-12 21:54:10] INFO root fetch - processPackages [compas-timber]: Downloading https://files.pythonhosted.org/packages/dd/43/f88ee0e12bfec174b39d04269e11acdee1796a922cd554007e9a4f603201/compas_timber-0.2.8.tar.gz
+[2023-05-12 21:54:10] INFO root fetch - processPackages [gen-pop-linkml2sheets]: Downloading https://files.pythonhosted.org/packages/43/76/fe7af963701875a33b1acd32c170fb04ecc9ca6acb0e1248165e75c8c619/gen_pop_linkml2sheets-0.1.7.tar.gz
+[2023-05-12 21:54:10] INFO root fetch - processPackages [lbt-honeybee]: executing diffoscope
+[2023-05-12 21:54:10] INFO root fetch - processPackages [lbt-honeybee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-honeybee-0.7.98.tar.gz tmp/lbt-honeybee-0.7.99.tar.gz --markdown 20230512/l/lbt-honeybee/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-05-12 21:54:10] INFO root fetch - processPackages [WebGrid]: Downloading https://files.pythonhosted.org/packages/8a/7c/4bfc752b77da955b1f8365b65dffe1752f5232d586526c95a6bbdcf99d3b/WebGrid-0.5.5.tar.gz
+[2023-05-12 21:54:10] INFO root fetch - processPackages [streaming-stt-nemo]: Downloading https://files.pythonhosted.org/packages/26/0a/f35ec5b6ba1afe41e20644c91ef599242c0bd71638fad62fc9e23541727a/streaming-stt-nemo-0.2.0.tar.gz
+[2023-05-12 21:54:10] INFO root fetch - processPackages [woke]: Downloading https://files.pythonhosted.org/packages/f1/c6/3816597f24b54a458d2661f041686c2c92d3c8d0bd4d516e023ddc517672/woke-3.4.1.tar.gz
+[2023-05-12 21:54:10] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2023-05-12 21:54:10] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20230512/l/lbt-dragonfly/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-05-12 21:54:11] INFO root fetch - processPackages [deepchem]: Downloading https://files.pythonhosted.org/packages/03/25/e9463f091a93b613fad69491080651e6e4f507269c3e587ff787704475bf/deepchem-2.7.2.dev20230512194912.tar.gz
+[2023-05-12 21:54:11] INFO root fetch - processPackages [streaming-stt-nemo]: executing diffoscope
+[2023-05-12 21:54:11] INFO root fetch - processPackages [streaming-stt-nemo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streaming-stt-nemo-0.1.2a0.tar.gz tmp/streaming-stt-nemo-0.2.0.tar.gz --markdown 20230512/s/streaming-stt-nemo/0.1.2a0-0.2.0/diff.md --exclude *.pyd
+[2023-05-12 21:54:11] INFO root fetch - processPackages [deepchem]: executing diffoscope
+[2023-05-12 21:54:11] INFO root fetch - processPackages [deepchem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepchem-2.7.2.dev20230512194842.tar.gz tmp/deepchem-2.7.2.dev20230512194912.tar.gz --markdown 20230512/d/deepchem/2.7.2.dev20230512194842-2.7.2.dev20230512194912/diff.md --exclude *.pyd
+[2023-05-12 21:54:11] INFO root fetch - processPackages [gen-pop-linkml2sheets]: Downloading https://files.pythonhosted.org/packages/3a/72/6396aceedb5001c2dc8d041cb324630c0643915d0409ef2297b93021e916/gen_pop_linkml2sheets-0.1.8.tar.gz
+[2023-05-12 21:54:11] INFO root fetch - processPackages [dragonfly-energy]: executing diffoscope
+[2023-05-12 21:54:11] INFO root fetch - processPackages [dragonfly-energy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-energy-1.9.8.tar.gz tmp/dragonfly-energy-1.9.9.tar.gz --markdown 20230512/d/dragonfly-energy/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-12 21:54:11] INFO root fetch - processPackages [compas-timber]: Downloading https://files.pythonhosted.org/packages/62/f7/9744e3b2fd128d53b7ae0c1ba14e9830e7f8b384c4be34d67a5daa4f6240/compas_timber-0.2.9.tar.gz
+[2023-05-12 21:54:11] INFO root fetch - processPackages [WebGrid]: Downloading https://files.pythonhosted.org/packages/3f/8d/61e3f1370a7c7daf4dc4bdb35c00e859df09fe73810585e89ac51216c506/WebGrid-0.5.6.tar.gz
+[2023-05-12 21:54:11] INFO root fetch - processPackages [woke]: executing diffoscope
+[2023-05-12 21:54:11] INFO root fetch - processPackages [woke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/woke-3.4.0.tar.gz tmp/woke-3.4.1.tar.gz --markdown 20230512/w/woke/3.4.0-3.4.1/diff.md --exclude *.pyd
+[2023-05-12 21:54:11] INFO root fetch - processPackages [pulumi-databricks]: executing diffoscope
+[2023-05-12 21:54:11] INFO root fetch - processPackages [pulumi-databricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_databricks-1.8.0a1678127428.tar.gz tmp/pulumi_databricks-1.9.0a1678745257.tar.gz --markdown 20230512/p/pulumi-databricks/1.8.0a1678127428-1.9.0a1678745257/diff.md --exclude *.pyd
+[2023-05-12 21:54:11] INFO root fetch - processPackages [gen-pop-linkml2sheets]: executing diffoscope
+[2023-05-12 21:54:11] INFO root fetch - processPackages [gen-pop-linkml2sheets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gen_pop_linkml2sheets-0.1.7.tar.gz tmp/gen_pop_linkml2sheets-0.1.8.tar.gz --markdown 20230512/g/gen-pop-linkml2sheets/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-12 21:54:11] INFO root fetch - processPackages [WebGrid]: executing diffoscope
+[2023-05-12 21:54:11] INFO root fetch - processPackages [WebGrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WebGrid-0.5.5.tar.gz tmp/WebGrid-0.5.6.tar.gz --markdown 20230512/W/WebGrid/0.5.5-0.5.6/diff.md --exclude *.pyd
+[2023-05-12 21:54:11] INFO root fetch - processPackages [compas-timber]: executing diffoscope
+[2023-05-12 21:54:11] INFO root fetch - processPackages [compas-timber]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/compas_timber-0.2.8.tar.gz tmp/compas_timber-0.2.9.tar.gz --markdown 20230512/c/compas-timber/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-12 21:54:12] INFO root fetch - processPackages [lbt-honeybee]: Start processing: devpytools
+[2023-05-12 21:54:12] INFO root fetch - main [MainThread]: End processing [lbt-honeybee]: success
+[2023-05-12 21:54:12] INFO root fetch - processPackages [devpytools]: New version: [0.1.0.dev5] Old Version: [0.1.0.dev4]
+[2023-05-12 21:54:12] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2023-05-12 21:54:12] INFO root fetch - processPackages [devpytools]: Downloading https://files.pythonhosted.org/packages/3b/7a/c435ca8ce05daa6147684e2b2300ef053ab2581fc825b7403848e8c77688/devpytools-0.1.0.dev4.tar.gz
+[2023-05-12 21:54:12] INFO root fetch - main [MainThread]: End processing [streaming-stt-nemo]: success
+[2023-05-12 21:54:12] INFO root fetch - processPackages [devpytools]: Downloading https://files.pythonhosted.org/packages/12/13/9f9c76a6a3be620505e5b0a4b130e6f326285e71b42f27fd81a4ea1898e0/devpytools-0.1.0.dev5.tar.gz
+[2023-05-12 21:54:12] INFO root fetch - processPackages [devpytools]: executing diffoscope
+[2023-05-12 21:54:12] INFO root fetch - processPackages [devpytools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devpytools-0.1.0.dev4.tar.gz tmp/devpytools-0.1.0.dev5.tar.gz --markdown 20230512/d/devpytools/0.1.0.dev4-0.1.0.dev5/diff.md --exclude *.pyd
+[2023-05-12 21:54:13] INFO root fetch - main [MainThread]: End processing [gen-pop-linkml2sheets]: success
+[2023-05-12 21:54:13] INFO root fetch - main [MainThread]: End processing [dragonfly-energy]: success
+[2023-05-12 21:54:13] INFO root fetch - main [MainThread]: End processing [WebGrid]: success
+[2023-05-12 21:54:14] INFO root fetch - main [MainThread]: End processing [devpytools]: success
+[2023-05-12 21:54:14] INFO root fetch - main [MainThread]: End processing [woke]: success
+[2023-05-12 21:54:14] INFO root fetch - main [MainThread]: End processing [pulumi-databricks]: success
+[2023-05-12 21:54:15] INFO root fetch - main [MainThread]: End processing [compas-timber]: success
+[2023-05-12 21:54:16] INFO root fetch - main [MainThread]: End processing [deepchem]: success
+[2023-05-12 21:54:16] INFO root fetch - main [MainThread]: Store serial: [18083268]
