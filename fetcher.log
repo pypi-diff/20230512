@@ -17777,3 +17777,116 @@ EOFError: EOF read where object expected
 [2023-05-12 20:43:50] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes]: success
 [2023-05-12 20:44:34] INFO root fetch - main [MainThread]: End processing [flet]: success
 [2023-05-12 20:44:34] INFO root fetch - main [MainThread]: Store serial: [18082253]
+[2023-05-12 20:49:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18082253]
+[2023-05-12 20:49:45] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-05-12 20:49:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coastseg
+[2023-05-12 20:49:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pysqlipkgsV2
+[2023-05-12 20:49:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: streaming-stt-nemo
+[2023-05-12 20:49:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: btecli
+[2023-05-12 20:49:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: volttron-lib-dnp3-driver
+[2023-05-12 20:49:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ossr-utils
+[2023-05-12 20:49:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ground
+[2023-05-12 20:49:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: oking-oz
+[2023-05-12 20:49:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hoodhod
+[2023-05-12 20:49:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pysqlipkgsV2
+[2023-05-12 20:49:45] INFO root fetch - processPackages [streaming-stt-nemo]: New version: [0.1.2a0] Old Version: [0.1.1a1]
+[2023-05-12 20:49:45] WARNING root fetch - processPackages [pysqlipkgsV2]: Skipping, unable to determine old version
+[2023-05-12 20:49:45] INFO root fetch - processPackages [pysqlipkgsV2]: Start processing: leosanab-1.1-leopdf
+[2023-05-12 20:49:45] INFO root fetch - main [MainThread]: End processing [pysqlipkgsV2] error
+[2023-05-12 20:49:45] INFO root fetch - processPackages [ossr-utils]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-12 20:49:45] WARNING root fetch - processPackages [pysqlipkgsV2]: Skipping, unable to determine old version
+[2023-05-12 20:49:45] INFO root fetch - processPackages [pysqlipkgsV2]: Start processing: caluma
+[2023-05-12 20:49:45] INFO root fetch - main [MainThread]: End processing [pysqlipkgsV2] error
+[2023-05-12 20:49:45] INFO root fetch - processPackages [volttron-lib-dnp3-driver]: New version: [0.1.1a6] Old Version: [0.1.1a5]
+[2023-05-12 20:49:45] INFO root fetch - processPackages [btecli]: New version: [1.6.5] Old Version: [1.6.4]
+[2023-05-12 20:49:45] INFO root fetch - processPackages [oking-oz]: New version: [3.2.32] Old Version: [3.2.31]
+[2023-05-12 20:49:45] INFO root fetch - processPackages [ground]: New version: [9.0.0] Old Version: [8.3.0]
+[2023-05-12 20:49:45] INFO root fetch - processPackages [coastseg]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 20:49:45] WARNING root fetch - processPackages [hoodhod]: Skipping, unable to determine old version
+[2023-05-12 20:49:45] INFO root fetch - processPackages [hoodhod]: Start processing: geoapps
+[2023-05-12 20:49:45] INFO root fetch - main [MainThread]: End processing [hoodhod] error
+[2023-05-12 20:49:45] WARNING root fetch - processPackages [leosanab-1.1-leopdf]: Skipping, unable to determine old version
+[2023-05-12 20:49:45] INFO root fetch - processPackages [leosanab-1.1-leopdf]: Start processing: bagbag
+[2023-05-12 20:49:45] INFO root fetch - main [MainThread]: End processing [leosanab-1.1-leopdf] error
+[2023-05-12 20:49:45] INFO root fetch - processPackages [caluma]: New version: [8.0.0b9] Old Version: [8.0.0b8]
+[2023-05-12 20:49:45] INFO root fetch - processPackages [bagbag]: New version: [0.59.1] Old Version: [0.59.0]
+[2023-05-12 20:49:45] INFO root fetch - processPackages [coastseg]: Downloading https://files.pythonhosted.org/packages/75/3b/19efffac60ef69a861417a37a370dc3f3a497cb93009fe8fff8dda38b476/coastseg-0.0.8.tar.gz
+[2023-05-12 20:49:45] INFO root fetch - processPackages [btecli]: Downloading https://files.pythonhosted.org/packages/7c/48/c6e8255db536519d5bd7324b8ce30aeb80fae79a0a5a68fc0bcc82356473/btecli-1.6.5.tar.gz
+[2023-05-12 20:49:45] INFO root fetch - processPackages [geoapps]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-12 20:49:45] INFO root fetch - processPackages [oking-oz]: Downloading https://files.pythonhosted.org/packages/54/d4/d89f8bfd45d9953ae60666be90a225d70a1289b6608295da91182c00c0fb/oking_oz-3.2.32.tar.gz
+[2023-05-12 20:49:45] INFO root fetch - processPackages [streaming-stt-nemo]: Downloading https://files.pythonhosted.org/packages/55/31/11fd61d0241b9340b79ceb4b0581f74bda0bd2c93b77b8374095b199f12c/streaming-stt-nemo-0.1.1a1.tar.gz
+[2023-05-12 20:49:45] INFO root fetch - processPackages [ground]: Downloading https://files.pythonhosted.org/packages/0e/34/272fba934a74b3f1dc2abfcb777dec9252003792c184e3a9f8f1934c41b1/ground-8.3.0.tar.gz
+[2023-05-12 20:49:45] INFO root fetch - processPackages [ossr-utils]: Downloading https://files.pythonhosted.org/packages/ef/de/21af8765b4def79a139da0c2c9fc570fff3b81fdba16367fd55ec16ef7fb/ossr_utils-0.1.1.tar.gz
+[2023-05-12 20:49:45] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-05-12 20:49:45] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.59.0.tar.gz tmp/bagbag-0.59.1.tar.gz --markdown 20230512/b/bagbag/0.59.0-0.59.1/diff.md --exclude *.pyd
+[2023-05-12 20:49:45] WARNING root fetch - processPackages [coastseg]: Skipping package: exceeds size limit 38421077>=10485760
+[2023-05-12 20:49:45] INFO root fetch - processPackages [coastseg]: Start processing: grpcio
+[2023-05-12 20:49:45] INFO root fetch - main [MainThread]: End processing [coastseg] error
+[2023-05-12 20:49:45] INFO root fetch - processPackages [volttron-lib-dnp3-driver]: Downloading https://files.pythonhosted.org/packages/b7/87/da61a55575d751beaec57cd010e51f0f7b3c932e41191afcba71e7f76865/volttron_lib_dnp3_driver-0.1.1a6.tar.gz
+[2023-05-12 20:49:45] INFO root fetch - processPackages [btecli]: executing diffoscope
+[2023-05-12 20:49:45] INFO root fetch - processPackages [oking-oz]: executing diffoscope
+[2023-05-12 20:49:45] INFO root fetch - processPackages [btecli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/btecli-1.6.4.tar.gz tmp/btecli-1.6.5.tar.gz --markdown 20230512/b/btecli/1.6.4-1.6.5/diff.md --exclude *.pyd
+[2023-05-12 20:49:45] INFO root fetch - processPackages [oking-oz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oking_oz-3.2.31.tar.gz tmp/oking_oz-3.2.32.tar.gz --markdown 20230512/o/oking-oz/3.2.31-3.2.32/diff.md --exclude *.pyd
+[2023-05-12 20:49:45] INFO root fetch - processPackages [geoapps]: Downloading https://files.pythonhosted.org/packages/48/3b/b982fc9a3d10998ad7bf9417eea649ad6f353b6d38234dd7731b1425b73f/geoapps-0.9.1.tar.gz
+[2023-05-12 20:49:45] INFO root fetch - processPackages [grpcio]: New version: [1.9.1] Old Version: [1.9.0rc3]
+[2023-05-12 20:49:45] WARNING root fetch - processPackages [geoapps]: Skipping package: exceeds size limit 14173092>=10485760
+[2023-05-12 20:49:45] INFO root fetch - processPackages [geoapps]: Start processing: screeny
+[2023-05-12 20:49:45] INFO root fetch - main [MainThread]: End processing [geoapps] error
+[2023-05-12 20:49:45] INFO root fetch - processPackages [caluma]: executing diffoscope
+[2023-05-12 20:49:45] INFO root fetch - processPackages [caluma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caluma-8.0.0b8.tar.gz tmp/caluma-8.0.0b9.tar.gz --markdown 20230512/c/caluma/8.0.0b8-8.0.0b9/diff.md --exclude *.pyd
+[2023-05-12 20:49:45] INFO root fetch - processPackages [ossr-utils]: Downloading https://files.pythonhosted.org/packages/0f/a1/f018f1cf17d52bf4a764588f28b381cc815e99e8e10b9a581ce237a2aa73/ossr_utils-0.1.2.tar.gz
+[2023-05-12 20:49:45] INFO root fetch - processPackages [screeny]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-05-12 20:49:45] INFO root fetch - processPackages [ground]: Downloading https://files.pythonhosted.org/packages/53/c2/ae3e409c92821677377caeab9f00a71547c9b9f2502767f0353156e4a958/ground-9.0.0.tar.gz
+[2023-05-12 20:49:45] INFO root fetch - processPackages [volttron-lib-dnp3-driver]: executing diffoscope
+[2023-05-12 20:49:45] INFO root fetch - processPackages [volttron-lib-dnp3-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volttron_lib_dnp3_driver-0.1.1a5.tar.gz tmp/volttron_lib_dnp3_driver-0.1.1a6.tar.gz --markdown 20230512/v/volttron-lib-dnp3-driver/0.1.1a5-0.1.1a6/diff.md --exclude *.pyd
+[2023-05-12 20:49:45] INFO root fetch - processPackages [streaming-stt-nemo]: Downloading https://files.pythonhosted.org/packages/74/1f/430ef4c90979e3bbc47552778ca1156ebb91b0c9870bb65927a726d254e5/streaming-stt-nemo-0.1.2a0.tar.gz
+[2023-05-12 20:49:46] INFO root fetch - processPackages [screeny]: executing diffoscope
+[2023-05-12 20:49:46] INFO root fetch - processPackages [screeny]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/screeny-0.2.1.tar.gz tmp/screeny-0.3.0.tar.gz --markdown 20230512/s/screeny/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-05-12 20:49:46] INFO root fetch - processPackages [grpcio]: Downloading https://files.pythonhosted.org/packages/a5/65/9a6b6049ce04f7072b169052fc70760cc10bf0aabfef8d02199470f0f296/grpcio-1.9.0rc3.tar.gz
+[2023-05-12 20:49:46] INFO root fetch - processPackages [ossr-utils]: executing diffoscope
+[2023-05-12 20:49:46] INFO root fetch - processPackages [ossr-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ossr_utils-0.1.1.tar.gz tmp/ossr_utils-0.1.2.tar.gz --markdown 20230512/o/ossr-utils/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-12 20:49:46] INFO root fetch - processPackages [ground]: executing diffoscope
+[2023-05-12 20:49:46] INFO root fetch - processPackages [ground]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ground-8.3.0.tar.gz tmp/ground-9.0.0.tar.gz --markdown 20230512/g/ground/8.3.0-9.0.0/diff.md --exclude *.pyd
+[2023-05-12 20:49:46] INFO root fetch - processPackages [streaming-stt-nemo]: executing diffoscope
+[2023-05-12 20:49:46] INFO root fetch - processPackages [streaming-stt-nemo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streaming-stt-nemo-0.1.1a1.tar.gz tmp/streaming-stt-nemo-0.1.2a0.tar.gz --markdown 20230512/s/streaming-stt-nemo/0.1.1a1-0.1.2a0/diff.md --exclude *.pyd
+[2023-05-12 20:49:47] INFO root fetch - processPackages [btecli]: Start processing: vispy
+[2023-05-12 20:49:47] INFO root fetch - main [MainThread]: End processing [btecli]: success
+[2023-05-12 20:49:47] INFO root fetch - processPackages [vispy]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-05-12 20:49:47] INFO root fetch - processPackages [volttron-lib-dnp3-driver]: Start processing: teaspoon
+[2023-05-12 20:49:47] INFO root fetch - main [MainThread]: End processing [volttron-lib-dnp3-driver]: success
+[2023-05-12 20:49:47] INFO root fetch - processPackages [teaspoon]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-05-12 20:49:47] INFO root fetch - processPackages [vispy]: Downloading https://files.pythonhosted.org/packages/b9/b9/9133f67f7cfa447d8f9e92794ba353c950ee821cb2514cdb548b6e3867a3/vispy-0.9.5.tar.gz
+[2023-05-12 20:49:47] INFO root fetch - processPackages [screeny]: Start processing: srm-aggregate
+[2023-05-12 20:49:47] INFO root fetch - main [MainThread]: End processing [screeny]: success
+[2023-05-12 20:49:47] INFO root fetch - processPackages [teaspoon]: executing diffoscope
+[2023-05-12 20:49:47] INFO root fetch - processPackages [teaspoon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teaspoon-1.3.8.tar.gz tmp/teaspoon-1.3.9.tar.gz --markdown 20230512/t/teaspoon/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-05-12 20:49:47] WARNING root fetch - processPackages [srm-aggregate]: Skipping, unable to determine old version
+[2023-05-12 20:49:47] INFO root fetch - processPackages [srm-aggregate]: Start processing: atproto
+[2023-05-12 20:49:47] INFO root fetch - main [MainThread]: End processing [srm-aggregate] error
+[2023-05-12 20:49:47] INFO root fetch - processPackages [streaming-stt-nemo]: Start processing: splight-lib
+[2023-05-12 20:49:47] INFO root fetch - main [MainThread]: End processing [streaming-stt-nemo]: success
+[2023-05-12 20:49:47] INFO root fetch - processPackages [splight-lib]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-05-12 20:49:47] INFO root fetch - processPackages [atproto]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-12 20:49:47] INFO root fetch - main [MainThread]: End processing [ossr-utils]: success
+[2023-05-12 20:49:48] INFO root fetch - processPackages [splight-lib]: executing diffoscope
+[2023-05-12 20:49:48] INFO root fetch - processPackages [splight-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splight-lib-2.3.8.tar.gz tmp/splight-lib-2.3.9.tar.gz --markdown 20230512/s/splight-lib/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-05-12 20:49:48] INFO root fetch - processPackages [vispy]: Downloading https://files.pythonhosted.org/packages/4e/8f/1a9901746cce17922a82e09e4a2319bc64a52423901d253822715f130c82/vispy-0.9.6.tar.gz
+[2023-05-12 20:49:48] INFO root fetch - processPackages [atproto]: Downloading https://files.pythonhosted.org/packages/90/6c/82c30b774b0cedd9a36183523eed7a5b14a0e0899746507c3bd4bb0ae92a/atproto-0.0.4.tar.gz
+[2023-05-12 20:49:48] INFO root fetch - main [MainThread]: End processing [ground]: success
+[2023-05-12 20:49:48] INFO root fetch - processPackages [atproto]: executing diffoscope
+[2023-05-12 20:49:48] INFO root fetch - processPackages [atproto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atproto-0.0.3.tar.gz tmp/atproto-0.0.4.tar.gz --markdown 20230512/a/atproto/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-12 20:49:48] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-05-12 20:49:48] INFO root fetch - main [MainThread]: End processing [caluma]: success
+[2023-05-12 20:49:48] INFO root fetch - processPackages [grpcio]: Downloading https://files.pythonhosted.org/packages/01/0b/7033eb8a2b8e7f8eaf849490ee27c9b121b1b5624d644c3b5b988d7386cf/grpcio-1.9.1.tar.gz
+[2023-05-12 20:49:48] INFO root fetch - processPackages [vispy]: executing diffoscope
+[2023-05-12 20:49:48] INFO root fetch - processPackages [vispy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vispy-0.9.5.tar.gz tmp/vispy-0.9.6.tar.gz --markdown 20230512/v/vispy/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-05-12 20:49:49] INFO root fetch - processPackages [grpcio]: executing diffoscope
+[2023-05-12 20:49:49] INFO root fetch - processPackages [grpcio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grpcio-1.9.0rc3.tar.gz tmp/grpcio-1.9.1.tar.gz --markdown 20230512/g/grpcio/1.9.0rc3-1.9.1/diff.md --exclude *.pyd
+[2023-05-12 20:49:49] INFO root fetch - main [MainThread]: End processing [teaspoon]: success
+[2023-05-12 20:49:49] INFO root fetch - main [MainThread]: End processing [oking-oz]: success
+[2023-05-12 20:49:49] INFO root fetch - main [MainThread]: End processing [splight-lib]: success
+[2023-05-12 20:49:50] INFO root fetch - main [MainThread]: End processing [atproto]: success
+[2023-05-12 20:49:56] INFO root fetch - main [MainThread]: End processing [vispy]: success
+[2023-05-12 20:52:49] ERROR root fetch - processPackages [grpcio]: Timeout during execution of pkgdiff
+[2023-05-12 20:52:49] INFO root fetch - main [MainThread]: End processing [grpcio] error
+[2023-05-12 20:52:49] INFO root fetch - main [MainThread]: Store serial: [18082414]
