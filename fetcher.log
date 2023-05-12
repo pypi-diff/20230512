@@ -3770,3 +3770,19 @@
 [2023-05-12 05:45:10] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tbaas]: success
 [2023-05-12 05:45:11] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tat]: success
 [2023-05-12 05:45:11] INFO root fetch - main [MainThread]: Store serial: [18072980]
+[2023-05-12 05:50:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18072980]
+[2023-05-12 05:50:20] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-05-12 05:50:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tencentcloud-sdk-python-tbm
+[2023-05-12 05:50:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: antchain-ak-ea70f896f759459588dfbc7d1fafe2f9
+[2023-05-12 05:50:20] INFO root fetch - processPackages [antchain-ak-ea70f896f759459588dfbc7d1fafe2f9]: New version: [1.0.177] Old Version: [1.0.176]
+[2023-05-12 05:50:20] INFO root fetch - processPackages [tencentcloud-sdk-python-tbm]: New version: [3.0.890] Old Version: [3.0.889]
+[2023-05-12 05:50:20] INFO root fetch - processPackages [antchain-ak-ea70f896f759459588dfbc7d1fafe2f9]: Downloading https://files.pythonhosted.org/packages/90/3f/1cc96b7d372bdb577d8324da755e41d97840842463acbae774c22bc32efe/antchain_ak_ea70f896f759459588dfbc7d1fafe2f9-1.0.176.tar.gz
+[2023-05-12 05:50:20] INFO root fetch - processPackages [antchain-ak-ea70f896f759459588dfbc7d1fafe2f9]: Downloading https://files.pythonhosted.org/packages/1a/be/b204fa4444147f6d9b8385a2970d6f807d06ed96507c9924e76b46f237b3/antchain_ak_ea70f896f759459588dfbc7d1fafe2f9-1.0.177-py3-none-any.whl
+[2023-05-12 05:50:20] INFO root fetch - processPackages [tencentcloud-sdk-python-tbm]: Downloading https://files.pythonhosted.org/packages/7c/6c/b302b61c2f0141e572d3c1e2ab0b215243e83a26b9d2d6f2d005570e40b2/tencentcloud-sdk-python-tbm-3.0.890.tar.gz
+[2023-05-12 05:50:20] INFO root fetch - processPackages [antchain-ak-ea70f896f759459588dfbc7d1fafe2f9]: executing diffoscope
+[2023-05-12 05:50:20] INFO root fetch - processPackages [antchain-ak-ea70f896f759459588dfbc7d1fafe2f9]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_ak_ea70f896f759459588dfbc7d1fafe2f9-1.0.176.tar.gz tmp/antchain_ak_ea70f896f759459588dfbc7d1fafe2f9-1.0.177-py3-none-any.whl.zip --markdown 20230512/a/antchain-ak-ea70f896f759459588dfbc7d1fafe2f9/1.0.176-1.0.177/diff.md --exclude *.pyd
+[2023-05-12 05:50:20] INFO root fetch - processPackages [tencentcloud-sdk-python-tbm]: executing diffoscope
+[2023-05-12 05:50:20] INFO root fetch - processPackages [tencentcloud-sdk-python-tbm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tbm-3.0.889.tar.gz tmp/tencentcloud-sdk-python-tbm-3.0.890.tar.gz --markdown 20230512/t/tencentcloud-sdk-python-tbm/3.0.889-3.0.890/diff.md --exclude *.pyd
+[2023-05-12 05:50:21] INFO root fetch - main [MainThread]: End processing [antchain-ak-ea70f896f759459588dfbc7d1fafe2f9]: success
+[2023-05-12 05:50:22] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tbm]: success
+[2023-05-12 05:50:22] INFO root fetch - main [MainThread]: Store serial: [18072985]
