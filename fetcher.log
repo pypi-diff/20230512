@@ -20423,3 +20423,53 @@ EOFError: EOF read where object expected
 [2023-05-12 23:01:48] INFO root fetch - main [MainThread]: End processing [btecli]: success
 [2023-05-12 23:01:49] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
 [2023-05-12 23:01:49] INFO root fetch - main [MainThread]: Store serial: [18084138]
+[2023-05-12 23:06:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18084138]
+[2023-05-12 23:06:58] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-12 23:06:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lusid-notifications-sdk-preview
+[2023-05-12 23:06:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-extensions
+[2023-05-12 23:06:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dbt-sqlserver
+[2023-05-12 23:06:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: simple-chatgpt-cli
+[2023-05-12 23:06:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: elevenlabslib
+[2023-05-12 23:06:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: permamodel
+[2023-05-12 23:06:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dbt-spark
+[2023-05-12 23:06:58] INFO root fetch - processPackages [permamodel]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-12 23:06:58] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: New version: [0.1.679] Old Version: [0.1.673]
+[2023-05-12 23:06:58] INFO root fetch - processPackages [simple-chatgpt-cli]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-12 23:06:58] INFO root fetch - processPackages [dbt-sqlserver]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-05-12 23:06:58] INFO root fetch - processPackages [elevenlabslib]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-05-12 23:06:58] INFO root fetch - processPackages [cdk-extensions]: New version: [0.0.62] Old Version: [0.0.61]
+[2023-05-12 23:06:58] INFO root fetch - processPackages [dbt-spark]: New version: [1.6.0b1] Old Version: [1.5.0rc1]
+[2023-05-12 23:06:58] INFO root fetch - processPackages [permamodel]: Downloading https://files.pythonhosted.org/packages/33/18/c8e4e45966e26aa70878d206f0bd44d5dcf159b7b735529eb66cdc3494b8/permamodel-0.2.1.tar.gz
+[2023-05-12 23:06:58] INFO root fetch - processPackages [dbt-sqlserver]: Downloading https://files.pythonhosted.org/packages/19/07/4f18c641d53e68a024b8836978f8d33820a4f92769cfc2473886e415555b/dbt-sqlserver-1.3.1.tar.gz
+[2023-05-12 23:06:58] INFO root fetch - processPackages [dbt-spark]: Downloading https://files.pythonhosted.org/packages/80/a8/733a298a09c4d876d7c431bbc2dc9ef06eefbfc52ba8438b68f6857efacc/dbt-spark-1.5.0rc1.tar.gz
+[2023-05-12 23:06:58] INFO root fetch - processPackages [elevenlabslib]: Downloading https://files.pythonhosted.org/packages/2a/b7/a196ba6c4bc6c9a3237ee46953f7248532f5e56469c54f3a836e9f3c324b/elevenlabslib-0.7.2.tar.gz
+[2023-05-12 23:06:58] INFO root fetch - processPackages [cdk-extensions]: Downloading https://files.pythonhosted.org/packages/66/e4/f4de67e38a0771d5c3e3c25e5a3e8f56c2dd141b082b3f0ca1f87d4b5e46/cdk-extensions-0.0.62.tar.gz
+[2023-05-12 23:06:58] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Downloading https://files.pythonhosted.org/packages/11/fd/594d3e893b262d96712629962f34b514c4c90e8237d5aa777aba4f4c4413/lusid-notifications-sdk-preview-0.1.679.tar.gz
+[2023-05-12 23:06:58] INFO root fetch - processPackages [elevenlabslib]: executing diffoscope
+[2023-05-12 23:06:58] INFO root fetch - processPackages [elevenlabslib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elevenlabslib-0.7.1.tar.gz tmp/elevenlabslib-0.7.2.tar.gz --markdown 20230512/e/elevenlabslib/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-05-12 23:06:58] INFO root fetch - processPackages [simple-chatgpt-cli]: Downloading https://files.pythonhosted.org/packages/98/42/659b5584b254ad429ece1f5f22a3a7fae12043020a1d4d4b0d9477eb9706/simple_chatgpt_cli-0.1.4.tar.gz
+[2023-05-12 23:06:58] INFO root fetch - processPackages [dbt-sqlserver]: Downloading https://files.pythonhosted.org/packages/ad/da/ad7e2705d678a76a3949ea05542778abf39b3ed74c9b5662a9dd71d12706/dbt-sqlserver-1.3.2.tar.gz
+[2023-05-12 23:06:58] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: executing diffoscope
+[2023-05-12 23:06:58] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-notifications-sdk-preview-0.1.673.tar.gz tmp/lusid-notifications-sdk-preview-0.1.679.tar.gz --markdown 20230512/l/lusid-notifications-sdk-preview/0.1.673-0.1.679/diff.md --exclude *.pyd
+[2023-05-12 23:06:58] INFO root fetch - processPackages [simple-chatgpt-cli]: executing diffoscope
+[2023-05-12 23:06:58] INFO root fetch - processPackages [simple-chatgpt-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_chatgpt_cli-0.1.3.tar.gz tmp/simple_chatgpt_cli-0.1.4.tar.gz --markdown 20230512/s/simple-chatgpt-cli/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-12 23:06:58] INFO root fetch - processPackages [dbt-spark]: Downloading https://files.pythonhosted.org/packages/ae/3e/32402936bd526267fffd78cea73fa3ed6cc525d0ca5d62cab38c91e4c8dc/dbt-spark-1.6.0b1.tar.gz
+[2023-05-12 23:06:58] INFO root fetch - processPackages [dbt-sqlserver]: executing diffoscope
+[2023-05-12 23:06:58] INFO root fetch - processPackages [dbt-sqlserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-sqlserver-1.3.1.tar.gz tmp/dbt-sqlserver-1.3.2.tar.gz --markdown 20230512/d/dbt-sqlserver/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-05-12 23:06:58] INFO root fetch - processPackages [cdk-extensions]: executing diffoscope
+[2023-05-12 23:06:58] INFO root fetch - processPackages [cdk-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-extensions-0.0.61.tar.gz tmp/cdk-extensions-0.0.62.tar.gz --markdown 20230512/c/cdk-extensions/0.0.61-0.0.62/diff.md --exclude *.pyd
+[2023-05-12 23:06:58] INFO root fetch - processPackages [dbt-spark]: executing diffoscope
+[2023-05-12 23:06:58] INFO root fetch - processPackages [dbt-spark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-spark-1.5.0rc1.tar.gz tmp/dbt-spark-1.6.0b1.tar.gz --markdown 20230512/d/dbt-spark/1.5.0rc1-1.6.0b1/diff.md --exclude *.pyd
+[2023-05-12 23:06:59] ERROR root fetch - processPackages [dbt-sqlserver]: Diffoscope failed: Error: error creating container storage: the container name "hopeful_sanderson" is already in use by "b7b63504d6cc83d857150d411d8f225c17483e4456c4521766d1ce64c61d3b5c". You have to remove that container to be able to reuse that name.: that name is already in use
+
+[2023-05-12 23:06:59] INFO root fetch - main [MainThread]: End processing [dbt-sqlserver] error
+[2023-05-12 23:06:59] INFO root fetch - processPackages [permamodel]: Downloading https://files.pythonhosted.org/packages/fb/6a/9f4a21b7884d91b51d8fc6bae602989b076e3e564b5689b30b92e704593d/permamodel-0.2.2.tar.gz
+[2023-05-12 23:06:59] INFO root fetch - main [MainThread]: End processing [elevenlabslib]: success
+[2023-05-12 23:07:00] INFO root fetch - main [MainThread]: End processing [simple-chatgpt-cli]: success
+[2023-05-12 23:07:00] INFO root fetch - main [MainThread]: End processing [cdk-extensions]: success
+[2023-05-12 23:07:00] INFO root fetch - main [MainThread]: End processing [lusid-notifications-sdk-preview]: success
+[2023-05-12 23:07:00] INFO root fetch - processPackages [permamodel]: executing diffoscope
+[2023-05-12 23:07:00] INFO root fetch - processPackages [permamodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/permamodel-0.2.1.tar.gz tmp/permamodel-0.2.2.tar.gz --markdown 20230512/p/permamodel/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-12 23:07:00] INFO root fetch - main [MainThread]: End processing [dbt-spark]: success
+[2023-05-12 23:07:02] INFO root fetch - main [MainThread]: End processing [permamodel]: success
+[2023-05-12 23:07:02] INFO root fetch - main [MainThread]: Store serial: [18084160]
