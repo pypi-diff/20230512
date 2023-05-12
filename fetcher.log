@@ -5128,3 +5128,79 @@
 [2023-05-12 08:17:28] INFO root fetch - main [MainThread]: End processing [ambient-toolbox]: success
 [2023-05-12 08:17:29] INFO root fetch - main [MainThread]: End processing [deep-training]: success
 [2023-05-12 08:17:29] INFO root fetch - main [MainThread]: Store serial: [18073963]
+[2023-05-12 08:22:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18073963]
+[2023-05-12 08:22:37] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-12 08:22:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cardmasking
+[2023-05-12 08:22:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pretext
+[2023-05-12 08:22:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alibabacloud-pvtz20180101
+[2023-05-12 08:22:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: modelwhaleutils
+[2023-05-12 08:22:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: antchain-ak-b89f30ab950b465b9be9478ba31a0d90
+[2023-05-12 08:22:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: QPUIQ
+[2023-05-12 08:22:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aleksis-core
+[2023-05-12 08:22:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openAIInsight
+[2023-05-12 08:22:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo12-addon-pos-cash-move-reason
+[2023-05-12 08:22:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: frontengine
+[2023-05-12 08:22:37] INFO root fetch - processPackages [alibabacloud-pvtz20180101]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-12 08:22:37] INFO root fetch - processPackages [cardmasking]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-12 08:22:37] INFO root fetch - processPackages [modelwhaleutils]: New version: [0.5.1.6] Old Version: [0.5.1.5.1]
+[2023-05-12 08:22:37] INFO root fetch - processPackages [pretext]: New version: [1.5.3.dev20230512] Old Version: [1.5.3.dev20230511]
+[2023-05-12 08:22:37] INFO root fetch - processPackages [frontengine]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 08:22:37] INFO root fetch - processPackages [QPUIQ]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-12 08:22:37] WARNING root fetch - processPackages [antchain-ak-b89f30ab950b465b9be9478ba31a0d90]: Skipping, unable to determine old version
+[2023-05-12 08:22:37] INFO root fetch - processPackages [antchain-ak-b89f30ab950b465b9be9478ba31a0d90]: Start processing: frontengine-dev
+[2023-05-12 08:22:37] INFO root fetch - main [MainThread]: End processing [antchain-ak-b89f30ab950b465b9be9478ba31a0d90] error
+[2023-05-12 08:22:37] INFO root fetch - processPackages [aleksis-core]: New version: [3.0b3] Old Version: [3.0b2]
+[2023-05-12 08:22:37] INFO root fetch - processPackages [frontengine-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 08:22:37] INFO root fetch - processPackages [openAIInsight]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-12 08:22:37] INFO root fetch - processPackages [odoo12-addon-pos-cash-move-reason]: New version: [12.0.3.2.1.99.dev4] Old Version: [12.0.3.2.1.99.dev3]
+[2023-05-12 08:22:37] INFO root fetch - processPackages [cardmasking]: Downloading https://files.pythonhosted.org/packages/59/74/a23154f134c29fb1b362851fed2f83cab3dd83cf70990bc9c4548c50cfc5/cardmasking-0.1.0-py3-none-any.whl
+[2023-05-12 08:22:37] INFO root fetch - processPackages [frontengine-dev]: executing diffoscope
+[2023-05-12 08:22:37] INFO root fetch - processPackages [frontengine-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frontengine_dev-0.0.8.tar.gz tmp/frontengine_dev-0.0.9.tar.gz --markdown 20230512/f/frontengine-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 08:22:37] INFO root fetch - processPackages [alibabacloud-pvtz20180101]: Downloading https://files.pythonhosted.org/packages/1f/cc/5aafbbcd05346e10a0fc1059b59425bdb8c180d0939124789ba4599fe173/alibabacloud_pvtz20180101-1.0.1.tar.gz
+[2023-05-12 08:22:37] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/dc/b4/2d869e2c3ffbc5c770693bb2a5028092519daeaae00eba3452e340723916/pretext-1.5.3.dev20230511.tar.gz
+[2023-05-12 08:22:37] INFO root fetch - processPackages [aleksis-core]: Downloading https://files.pythonhosted.org/packages/32/37/554dea55403ec7e6f6f7666fc459b680adc007d589084f796bd74e2cd457/aleksis_core-3.0b2.tar.gz
+[2023-05-12 08:22:37] INFO root fetch - processPackages [openAIInsight]: Downloading https://files.pythonhosted.org/packages/34/bf/1bad3d55a3cb3ec0228dfdfd3700c9c3d7860954527b282a8459910082d3/openAIInsight-0.0.2-py3-none-any.whl
+[2023-05-12 08:22:37] INFO root fetch - processPackages [odoo12-addon-pos-cash-move-reason]: Downloading https://files.pythonhosted.org/packages/1c/14/cf00541e4c96347e958a0c342993152856335bad2e2e664588c3c843c6dc/odoo12_addon_pos_cash_move_reason-12.0.3.2.1.99.dev3-py3-none-any.whl
+[2023-05-12 08:22:37] INFO root fetch - processPackages [modelwhaleutils]: Downloading https://files.pythonhosted.org/packages/8e/32/868c5a64973b299fea41da40dce4620746b53591d3a5f57ee51a77e5d505/modelwhaleutils-0.5.1.6.tar.gz
+[2023-05-12 08:22:38] INFO root fetch - processPackages [cardmasking]: Downloading https://files.pythonhosted.org/packages/3f/75/f7db4aeae516fd22c872cd9292ae43253b658003e195596c017ce311bdd5/cardmasking-0.1.1-py3-none-any.whl
+[2023-05-12 08:22:38] INFO root fetch - processPackages [frontengine]: executing diffoscope
+[2023-05-12 08:22:38] INFO root fetch - processPackages [frontengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frontengine-0.0.8.tar.gz tmp/frontengine-0.0.9.tar.gz --markdown 20230512/f/frontengine/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 08:22:38] INFO root fetch - processPackages [QPUIQ]: executing diffoscope
+[2023-05-12 08:22:38] INFO root fetch - processPackages [QPUIQ]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QPUIQ-0.1.8.tar.gz tmp/QPUIQ-0.1.9.tar.gz --markdown 20230512/Q/QPUIQ/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-12 08:22:38] INFO root fetch - processPackages [alibabacloud-pvtz20180101]: Downloading https://files.pythonhosted.org/packages/5a/54/5eff6a448f9100210fc903ef159d549fb4d4b38f7177f2a2c8cc1e61d543/alibabacloud_pvtz20180101-1.0.2.tar.gz
+[2023-05-12 08:22:38] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/83/28/46aaffbc56e02ad2bb4d527300bec4cdb2833398beeb2dc5af6eddebef0b/pretext-1.5.3.dev20230512.tar.gz
+[2023-05-12 08:22:38] INFO root fetch - processPackages [cardmasking]: executing diffoscope
+[2023-05-12 08:22:38] INFO root fetch - processPackages [cardmasking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cardmasking-0.1.0-py3-none-any.whl.zip tmp/cardmasking-0.1.1-py3-none-any.whl.zip --markdown 20230512/c/cardmasking/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-12 08:22:38] INFO root fetch - processPackages [openAIInsight]: Downloading https://files.pythonhosted.org/packages/93/91/a7837267294c05b0303868194502be014cd37ce89e38a3b98a1da62cfddf/openAIInsight-0.0.3-py3-none-any.whl
+[2023-05-12 08:22:38] INFO root fetch - processPackages [alibabacloud-pvtz20180101]: executing diffoscope
+[2023-05-12 08:22:38] INFO root fetch - processPackages [alibabacloud-pvtz20180101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_pvtz20180101-1.0.1.tar.gz tmp/alibabacloud_pvtz20180101-1.0.2.tar.gz --markdown 20230512/a/alibabacloud-pvtz20180101/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-12 08:22:38] INFO root fetch - processPackages [odoo12-addon-pos-cash-move-reason]: Downloading https://files.pythonhosted.org/packages/7b/f0/fc7c32f97a581b0a3b52ba35209fb43f91358e6a68b86a3b1511855ba4ef/odoo12_addon_pos_cash_move_reason-12.0.3.2.1.99.dev4-py3-none-any.whl
+[2023-05-12 08:22:38] INFO root fetch - processPackages [modelwhaleutils]: executing diffoscope
+[2023-05-12 08:22:38] INFO root fetch - processPackages [modelwhaleutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelwhaleutils-0.5.1.5.1.tar.gz tmp/modelwhaleutils-0.5.1.6.tar.gz --markdown 20230512/m/modelwhaleutils/0.5.1.5.1-0.5.1.6/diff.md --exclude *.pyd
+[2023-05-12 08:22:38] INFO root fetch - processPackages [openAIInsight]: executing diffoscope
+[2023-05-12 08:22:38] INFO root fetch - processPackages [openAIInsight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openAIInsight-0.0.2-py3-none-any.whl.zip tmp/openAIInsight-0.0.3-py3-none-any.whl.zip --markdown 20230512/o/openAIInsight/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-12 08:22:38] INFO root fetch - processPackages [odoo12-addon-pos-cash-move-reason]: executing diffoscope
+[2023-05-12 08:22:38] INFO root fetch - processPackages [odoo12-addon-pos-cash-move-reason]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_pos_cash_move_reason-12.0.3.2.1.99.dev3-py3-none-any.whl.zip tmp/odoo12_addon_pos_cash_move_reason-12.0.3.2.1.99.dev4-py3-none-any.whl.zip --markdown 20230512/o/odoo12-addon-pos-cash-move-reason/12.0.3.2.1.99.dev3-12.0.3.2.1.99.dev4/diff.md --exclude *.pyd
+[2023-05-12 08:22:38] INFO root fetch - processPackages [aleksis-core]: Downloading https://files.pythonhosted.org/packages/ca/7c/66602c53e1c07a0794723fac3a70ae8d1df1d102c5ddb8cbf15210dcc6b9/aleksis_core-3.0b3.tar.gz
+[2023-05-12 08:22:38] INFO root fetch - processPackages [pretext]: executing diffoscope
+[2023-05-12 08:22:38] INFO root fetch - processPackages [pretext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretext-1.5.3.dev20230511.tar.gz tmp/pretext-1.5.3.dev20230512.tar.gz --markdown 20230512/p/pretext/1.5.3.dev20230511-1.5.3.dev20230512/diff.md --exclude *.pyd
+[2023-05-12 08:22:38] INFO root fetch - processPackages [aleksis-core]: executing diffoscope
+[2023-05-12 08:22:38] INFO root fetch - processPackages [aleksis-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aleksis_core-3.0b2.tar.gz tmp/aleksis_core-3.0b3.tar.gz --markdown 20230512/a/aleksis-core/3.0b2-3.0b3/diff.md --exclude *.pyd
+[2023-05-12 08:22:39] INFO root fetch - processPackages [frontengine-dev]: Start processing: odoo14-addon-pos-cash-move-reason
+[2023-05-12 08:22:39] INFO root fetch - main [MainThread]: End processing [frontengine-dev]: success
+[2023-05-12 08:22:39] INFO root fetch - processPackages [odoo14-addon-pos-cash-move-reason]: New version: [14.0.1.1.2.dev4] Old Version: [14.0.1.1.2.dev3]
+[2023-05-12 08:22:39] INFO root fetch - processPackages [odoo14-addon-pos-cash-move-reason]: Downloading https://files.pythonhosted.org/packages/01/5c/8965b84caee2d7058fbb353b8c21c3f6334339dc119720a442366eabc7cd/odoo14_addon_pos_cash_move_reason-14.0.1.1.2.dev3-py3-none-any.whl
+[2023-05-12 08:22:39] INFO root fetch - main [MainThread]: End processing [cardmasking]: success
+[2023-05-12 08:22:39] INFO root fetch - main [MainThread]: End processing [QPUIQ]: success
+[2023-05-12 08:22:39] INFO root fetch - processPackages [odoo14-addon-pos-cash-move-reason]: Downloading https://files.pythonhosted.org/packages/a6/bf/f1aa702d5ddf82a519e9b0057a0282a1666d209009b8ba02944ded5e43a8/odoo14_addon_pos_cash_move_reason-14.0.1.1.2.dev4-py3-none-any.whl
+[2023-05-12 08:22:40] INFO root fetch - processPackages [odoo14-addon-pos-cash-move-reason]: executing diffoscope
+[2023-05-12 08:22:40] INFO root fetch - processPackages [odoo14-addon-pos-cash-move-reason]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_pos_cash_move_reason-14.0.1.1.2.dev3-py3-none-any.whl.zip tmp/odoo14_addon_pos_cash_move_reason-14.0.1.1.2.dev4-py3-none-any.whl.zip --markdown 20230512/o/odoo14-addon-pos-cash-move-reason/14.0.1.1.2.dev3-14.0.1.1.2.dev4/diff.md --exclude *.pyd
+[2023-05-12 08:22:40] INFO root fetch - main [MainThread]: End processing [alibabacloud-pvtz20180101]: success
+[2023-05-12 08:22:40] INFO root fetch - main [MainThread]: End processing [openAIInsight]: success
+[2023-05-12 08:22:40] INFO root fetch - main [MainThread]: End processing [modelwhaleutils]: success
+[2023-05-12 08:22:40] INFO root fetch - main [MainThread]: End processing [frontengine]: success
+[2023-05-12 08:22:41] INFO root fetch - main [MainThread]: End processing [odoo14-addon-pos-cash-move-reason]: success
+[2023-05-12 08:22:43] INFO root fetch - main [MainThread]: End processing [pretext]: success
+[2023-05-12 08:22:44] INFO root fetch - main [MainThread]: End processing [aleksis-core]: success
+[2023-05-12 08:23:12] INFO root fetch - main [MainThread]: End processing [odoo12-addon-pos-cash-move-reason]: success
+[2023-05-12 08:23:12] INFO root fetch - main [MainThread]: Store serial: [18074006]
