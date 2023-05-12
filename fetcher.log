@@ -10562,3 +10562,73 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-12 14:23:22] INFO root fetch - main [MainThread]: End processing [WebGrid]: success
 [2023-05-12 14:23:22] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES]: success
 [2023-05-12 14:23:22] INFO root fetch - main [MainThread]: Store serial: [18077683]
+[2023-05-12 14:28:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18077683]
+[2023-05-12 14:28:31] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-12 14:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: garpix-page
+[2023-05-12 14:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: makavafal-django-postgres-queue
+[2023-05-12 14:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lincs
+[2023-05-12 14:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: HypeBankAPI
+[2023-05-12 14:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lightweight-charts
+[2023-05-12 14:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: specmatic-python
+[2023-05-12 14:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: EnjoyAnimation
+[2023-05-12 14:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: osais
+[2023-05-12 14:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cloudnetpy
+[2023-05-12 14:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pygnuutils
+[2023-05-12 14:28:31] INFO root fetch - processPackages [lincs]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-12 14:28:31] INFO root fetch - processPackages [EnjoyAnimation]: New version: [0.0.4b1] Old Version: [0.0.4b0]
+[2023-05-12 14:28:31] INFO root fetch - processPackages [garpix-page]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-05-12 14:28:31] INFO root fetch - processPackages [garpix-page]: executing diffoscope
+[2023-05-12 14:28:31] INFO root fetch - processPackages [garpix-page]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garpix_page-2.8.0.tar.gz tmp/garpix_page-2.9.0.tar.gz --markdown 20230512/g/garpix-page/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-05-12 14:28:31] INFO root fetch - processPackages [pygnuutils]: New version: [0.1.0] Old Version: [0.0.7]
+[2023-05-12 14:28:31] INFO root fetch - processPackages [specmatic-python]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-12 14:28:31] INFO root fetch - processPackages [lightweight-charts]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-12 14:28:31] WARNING root fetch - processPackages [HypeBankAPI]: Skipping, unable to determine old version
+[2023-05-12 14:28:31] INFO root fetch - processPackages [osais]: New version: [1.0.41] Old Version: [1.0.40]
+[2023-05-12 14:28:31] INFO root fetch - processPackages [HypeBankAPI]: Start processing: leo
+[2023-05-12 14:28:31] INFO root fetch - main [MainThread]: End processing [HypeBankAPI] error
+[2023-05-12 14:28:31] INFO root fetch - processPackages [cloudnetpy]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-05-12 14:28:31] WARNING root fetch - processPackages [makavafal-django-postgres-queue]: Skipping, unable to determine old version
+[2023-05-12 14:28:31] INFO root fetch - processPackages [makavafal-django-postgres-queue]: Start processing: psyki
+[2023-05-12 14:28:31] INFO root fetch - main [MainThread]: End processing [makavafal-django-postgres-queue] error
+[2023-05-12 14:28:31] INFO root fetch - processPackages [EnjoyAnimation]: Downloading https://files.pythonhosted.org/packages/2e/ab/3484c22dec8b357f32ddda767c796f5345e827c0a3da78dfb17c8e081dec/EnjoyAnimation-0.0.4b1.tar.gz
+[2023-05-12 14:28:32] INFO root fetch - processPackages [lincs]: Downloading https://files.pythonhosted.org/packages/32/5c/c0207b39e00b4bde23060857b7d8ce2980e0f3fd1fa6218aaa480871681f/lincs-0.3.1.tar.gz
+[2023-05-12 14:28:32] INFO root fetch - processPackages [leo]: New version: [6.7.3] Old Version: [6.7.2]
+[2023-05-12 14:28:32] INFO root fetch - processPackages [pygnuutils]: Downloading https://files.pythonhosted.org/packages/8f/49/a4f64f6770dc47f6b8fceac062928f1c3a46d78f4982712914b1efd7b3f4/pygnuutils-0.0.7.tar.gz
+[2023-05-12 14:28:32] WARNING root fetch - processPackages [lightweight-charts]: fallback to get urls: [1.0.1]
+[2023-05-12 14:28:32] WARNING root fetch - processPackages [lightweight-charts]: None
+[2023-05-12 14:28:32] INFO root fetch - processPackages [osais]: Downloading https://files.pythonhosted.org/packages/ea/95/5d0c4693ec074b126e932e798683ba016b3e0d0022ce9bd56d059eff542e/osais-1.0.40.tar.gz
+[2023-05-12 14:28:32] WARNING root fetch - processPackages [lightweight-charts]: None
+[2023-05-12 14:28:32] INFO root fetch - processPackages [cloudnetpy]: Downloading https://files.pythonhosted.org/packages/9c/f5/740f77e4140aebd398cec0e90a35ab89249c74a2128282651e3e52d69176/cloudnetpy-1.9.3.tar.gz
+[2023-05-12 14:28:32] INFO root fetch - processPackages [EnjoyAnimation]: executing diffoscope
+[2023-05-12 14:28:32] INFO root fetch - processPackages [EnjoyAnimation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EnjoyAnimation-0.0.4b0.tar.gz tmp/EnjoyAnimation-0.0.4b1.tar.gz --markdown 20230512/E/EnjoyAnimation/0.0.4b0-0.0.4b1/diff.md --exclude *.pyd
+[2023-05-12 14:28:32] INFO root fetch - processPackages [specmatic-python]: Downloading https://files.pythonhosted.org/packages/e3/b8/509f730eca70cef1f0af2be0f6f6c2275126843d11125ece359765a56fd4/specmatic-python-0.1.0.tar.gz
+[2023-05-12 14:28:32] WARNING root fetch - processPackages [lightweight-charts]: unable to get url for both version [1.0.1]
+[2023-05-12 14:28:32] INFO root fetch - processPackages [psyki]: New version: [0.3.9] Old Version: [0.3.5]
+[2023-05-12 14:28:32] WARNING root fetch - processPackages [lightweight-charts]: None
+[2023-05-12 14:28:32] INFO root fetch - main [MainThread]: End processing [lightweight-charts] error
+[2023-05-12 14:28:32] WARNING root fetch - processPackages [cloudnetpy]: Skipping package: exceeds size limit 16683885>=10485760
+[2023-05-12 14:28:32] INFO root fetch - main [MainThread]: End processing [cloudnetpy] error
+[2023-05-12 14:28:32] INFO root fetch - processPackages [lincs]: executing diffoscope
+[2023-05-12 14:28:32] INFO root fetch - processPackages [lincs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lincs-0.3.0.tar.gz tmp/lincs-0.3.1.tar.gz --markdown 20230512/l/lincs/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-12 14:28:32] WARNING root fetch - processPackages [specmatic-python]: Skipping package: exceeds size limit 79077749>=10485760
+[2023-05-12 14:28:32] INFO root fetch - main [MainThread]: End processing [specmatic-python] error
+[2023-05-12 14:28:32] INFO root fetch - processPackages [leo]: Downloading https://files.pythonhosted.org/packages/c0/99/e0adf8940586e61a04ad939b113b11c8d1e50ef4ec53fc765749670506c1/leo-6.7.2.tar.gz
+[2023-05-12 14:28:32] WARNING root fetch - processPackages [leo]: Skipping package: exceeds size limit 13532881>=10485760
+[2023-05-12 14:28:32] INFO root fetch - main [MainThread]: End processing [leo] error
+[2023-05-12 14:28:32] INFO root fetch - processPackages [psyki]: Downloading https://files.pythonhosted.org/packages/db/af/4866412cf64b78481928d8fe81c3576e39a1ede6c6e68c672fe2cc5e8091/psyki-0.3.5.tar.gz
+[2023-05-12 14:28:32] INFO root fetch - processPackages [pygnuutils]: Downloading https://files.pythonhosted.org/packages/81/a9/54b61fa2b13b62a06bb96620617bf1bc02b3da11ce6b90c83baf46946a60/pygnuutils-0.1.0-py3-none-any.whl
+[2023-05-12 14:28:32] INFO root fetch - processPackages [osais]: Downloading https://files.pythonhosted.org/packages/8d/3c/8729d4444d3e57458f0c44575b20ca3adf0a33a564ad41dd73ba778b4821/osais-1.0.41-py3-none-any.whl
+[2023-05-12 14:28:32] INFO root fetch - processPackages [osais]: executing diffoscope
+[2023-05-12 14:28:32] INFO root fetch - processPackages [osais]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osais-1.0.40.tar.gz tmp/osais-1.0.41-py3-none-any.whl.zip --markdown 20230512/o/osais/1.0.40-1.0.41/diff.md --exclude *.pyd
+[2023-05-12 14:28:32] INFO root fetch - processPackages [pygnuutils]: executing diffoscope
+[2023-05-12 14:28:32] INFO root fetch - processPackages [pygnuutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygnuutils-0.0.7.tar.gz tmp/pygnuutils-0.1.0-py3-none-any.whl.zip --markdown 20230512/p/pygnuutils/0.0.7-0.1.0/diff.md --exclude *.pyd
+[2023-05-12 14:28:32] INFO root fetch - processPackages [psyki]: Downloading https://files.pythonhosted.org/packages/eb/06/d30c235e9876fdac02be298866ff7dacee443e5d9e1651eb856150f2836e/psyki-0.3.9.tar.gz
+[2023-05-12 14:28:32] INFO root fetch - processPackages [psyki]: executing diffoscope
+[2023-05-12 14:28:32] INFO root fetch - processPackages [psyki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psyki-0.3.5.tar.gz tmp/psyki-0.3.9.tar.gz --markdown 20230512/p/psyki/0.3.5-0.3.9/diff.md --exclude *.pyd
+[2023-05-12 14:28:33] INFO root fetch - main [MainThread]: End processing [EnjoyAnimation]: success
+[2023-05-12 14:28:33] INFO root fetch - main [MainThread]: End processing [garpix-page]: success
+[2023-05-12 14:28:33] INFO root fetch - main [MainThread]: End processing [lincs]: success
+[2023-05-12 14:28:33] INFO root fetch - main [MainThread]: End processing [osais]: success
+[2023-05-12 14:28:33] INFO root fetch - main [MainThread]: End processing [pygnuutils]: success
+[2023-05-12 14:28:34] INFO root fetch - main [MainThread]: End processing [psyki]: success
+[2023-05-12 14:28:34] INFO root fetch - main [MainThread]: Store serial: [18077745]
