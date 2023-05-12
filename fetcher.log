@@ -4109,3 +4109,114 @@
 [2023-05-12 06:16:33] INFO root fetch - main [MainThread]: End processing [openscad-docsgen]: success
 [2023-05-12 06:16:33] INFO root fetch - main [MainThread]: End processing [pyrecdp]: success
 [2023-05-12 06:16:33] INFO root fetch - main [MainThread]: Store serial: [18073171]
+[2023-05-12 06:21:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18073171]
+[2023-05-12 06:21:41] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-12 06:21:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addons-oca-e-commerce
+[2023-05-12 06:21:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyspaceaware
+[2023-05-12 06:21:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tencentcloud-sdk-python-tkgdq
+[2023-05-12 06:21:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tencentcloud-sdk-python-tms
+[2023-05-12 06:21:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xj-enroll
+[2023-05-12 06:21:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tencentcloud-sdk-python-tmt
+[2023-05-12 06:21:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Dev-Helper-CLI
+[2023-05-12 06:21:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: intecomm-form-validators
+[2023-05-12 06:21:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tpfi
+[2023-05-12 06:21:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nonebot-plugin-heweather
+[2023-05-12 06:21:42] INFO root fetch - processPackages [odoo14-addons-oca-e-commerce]: New version: [14.0.20230511.0] Old Version: [14.0.20230505.0]
+[2023-05-12 06:21:42] INFO root fetch - processPackages [Dev-Helper-CLI]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-12 06:21:42] INFO root fetch - processPackages [nonebot-plugin-heweather]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-05-12 06:21:42] INFO root fetch - processPackages [tpfi]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-12 06:21:42] INFO root fetch - processPackages [intecomm-form-validators]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-12 06:21:42] INFO root fetch - processPackages [xj-enroll]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-05-12 06:21:42] INFO root fetch - processPackages [tencentcloud-sdk-python-tmt]: New version: [3.0.890] Old Version: [3.0.889]
+[2023-05-12 06:21:42] INFO root fetch - processPackages [tencentcloud-sdk-python-tms]: New version: [3.0.890] Old Version: [3.0.889]
+[2023-05-12 06:21:42] INFO root fetch - processPackages [tencentcloud-sdk-python-tkgdq]: New version: [3.0.890] Old Version: [3.0.889]
+[2023-05-12 06:21:42] INFO root fetch - processPackages [pyspaceaware]: New version: [0.2.38] Old Version: [0.2.37]
+[2023-05-12 06:21:42] INFO root fetch - processPackages [xj-enroll]: executing diffoscope
+[2023-05-12 06:21:42] INFO root fetch - processPackages [xj-enroll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_enroll-1.0.98.tar.gz tmp/xj_enroll-1.0.99.tar.gz --markdown 20230512/x/xj-enroll/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-05-12 06:21:42] INFO root fetch - processPackages [odoo14-addons-oca-e-commerce]: Downloading https://files.pythonhosted.org/packages/f6/d1/4bef61b466c31dbb9401afdcc763252f15fcc590bdb59e43d9a3cba5a3ea/odoo14_addons_oca_e_commerce-14.0.20230505.0-py3-none-any.whl
+[2023-05-12 06:21:42] INFO root fetch - processPackages [Dev-Helper-CLI]: Downloading https://files.pythonhosted.org/packages/9b/b5/277c5cba822455745f975049c8e141893f61c39e74171f7628e2b628f8d4/Dev-Helper-CLI-0.0.3.tar.gz
+[2023-05-12 06:21:42] INFO root fetch - processPackages [nonebot-plugin-heweather]: Downloading https://files.pythonhosted.org/packages/ef/68/3617a4b46cecd3ffa86ceef4af1046ff22b183f7859bf32211faae34a3bf/nonebot_plugin_heweather-0.6.4.tar.gz
+[2023-05-12 06:21:42] INFO root fetch - processPackages [pyspaceaware]: Downloading https://files.pythonhosted.org/packages/57/01/999a09d1d0ed64f1d339cc4be06c7dc16df36bf2c3f9ac6bb304aaa8f4f5/pyspaceaware-0.2.37.tar.gz
+[2023-05-12 06:21:42] INFO root fetch - processPackages [Dev-Helper-CLI]: executing diffoscope
+[2023-05-12 06:21:42] INFO root fetch - processPackages [Dev-Helper-CLI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Dev-Helper-CLI-0.0.2.tar.gz tmp/Dev-Helper-CLI-0.0.3.tar.gz --markdown 20230512/D/Dev-Helper-CLI/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-12 06:21:42] INFO root fetch - processPackages [tpfi]: Downloading https://files.pythonhosted.org/packages/6b/d5/618dc019c86c5bbdc90d0ffb9634a0d8137651a82a78ed31ba83003f7100/tpfi-1.0.6.tar.gz
+[2023-05-12 06:21:42] INFO root fetch - processPackages [tencentcloud-sdk-python-tkgdq]: Downloading https://files.pythonhosted.org/packages/33/ac/48d6764fa54bfd7f85c313c680e2733d97dbc57e6c7facebccf82bf96491/tencentcloud-sdk-python-tkgdq-3.0.890.tar.gz
+[2023-05-12 06:21:42] WARNING root fetch - processPackages [pyspaceaware]: Skipping package: exceeds size limit 11011924>=10485760
+[2023-05-12 06:21:42] INFO root fetch - processPackages [pyspaceaware]: Start processing: tencentcloud-sdk-python-tourism
+[2023-05-12 06:21:42] INFO root fetch - main [MainThread]: End processing [pyspaceaware] error
+[2023-05-12 06:21:42] INFO root fetch - processPackages [tencentcloud-sdk-python-tmt]: Downloading https://files.pythonhosted.org/packages/7b/05/6367cc63acd4de4055ace950865e79279088c858c84e0951edd8f6a3bced/tencentcloud-sdk-python-tmt-3.0.890.tar.gz
+[2023-05-12 06:21:42] INFO root fetch - processPackages [tencentcloud-sdk-python-tourism]: New version: [3.0.890] Old Version: [3.0.889]
+[2023-05-12 06:21:42] INFO root fetch - processPackages [tencentcloud-sdk-python-tms]: Downloading https://files.pythonhosted.org/packages/94/cf/acc5c855fab1549b681f86d6cbb8d59d5bf666674453d2a398dc9e9cad70/tencentcloud-sdk-python-tms-3.0.890.tar.gz
+[2023-05-12 06:21:42] INFO root fetch - processPackages [intecomm-form-validators]: executing diffoscope
+[2023-05-12 06:21:42] INFO root fetch - processPackages [intecomm-form-validators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intecomm-form-validators-0.1.8.tar.gz tmp/intecomm-form-validators-0.1.9.tar.gz --markdown 20230512/i/intecomm-form-validators/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-12 06:21:42] INFO root fetch - processPackages [odoo14-addons-oca-e-commerce]: Downloading https://files.pythonhosted.org/packages/83/ed/7bf6de07f8ce7bbd1a477b42eed0634ee1464513bdbc1b55ecff2764b5d7/odoo14_addons_oca_e_commerce-14.0.20230511.0-py3-none-any.whl
+[2023-05-12 06:21:42] INFO root fetch - processPackages [nonebot-plugin-heweather]: Downloading https://files.pythonhosted.org/packages/7c/9a/78fa5e9bcda3ad0add7144a32ab5be45fb4cf0555e221d531964d8314877/nonebot_plugin_heweather-0.6.5-py3-none-any.whl
+[2023-05-12 06:21:42] INFO root fetch - processPackages [tencentcloud-sdk-python-tkgdq]: executing diffoscope
+[2023-05-12 06:21:42] INFO root fetch - processPackages [tencentcloud-sdk-python-tkgdq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tkgdq-3.0.889.tar.gz tmp/tencentcloud-sdk-python-tkgdq-3.0.890.tar.gz --markdown 20230512/t/tencentcloud-sdk-python-tkgdq/3.0.889-3.0.890/diff.md --exclude *.pyd
+[2023-05-12 06:21:42] INFO root fetch - processPackages [tencentcloud-sdk-python-tmt]: executing diffoscope
+[2023-05-12 06:21:42] INFO root fetch - processPackages [tencentcloud-sdk-python-tmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tmt-3.0.889.tar.gz tmp/tencentcloud-sdk-python-tmt-3.0.890.tar.gz --markdown 20230512/t/tencentcloud-sdk-python-tmt/3.0.889-3.0.890/diff.md --exclude *.pyd
+[2023-05-12 06:21:42] INFO root fetch - processPackages [tencentcloud-sdk-python-tms]: executing diffoscope
+[2023-05-12 06:21:42] INFO root fetch - processPackages [tencentcloud-sdk-python-tms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tms-3.0.889.tar.gz tmp/tencentcloud-sdk-python-tms-3.0.890.tar.gz --markdown 20230512/t/tencentcloud-sdk-python-tms/3.0.889-3.0.890/diff.md --exclude *.pyd
+[2023-05-12 06:21:42] INFO root fetch - processPackages [tpfi]: executing diffoscope
+[2023-05-12 06:21:42] INFO root fetch - processPackages [tpfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tpfi-1.0.5.tar.gz tmp/tpfi-1.0.6.tar.gz --markdown 20230512/t/tpfi/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-12 06:21:42] INFO root fetch - processPackages [odoo14-addons-oca-e-commerce]: executing diffoscope
+[2023-05-12 06:21:42] INFO root fetch - processPackages [odoo14-addons-oca-e-commerce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_e_commerce-14.0.20230505.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_e_commerce-14.0.20230511.0-py3-none-any.whl.zip --markdown 20230512/o/odoo14-addons-oca-e-commerce/14.0.20230505.0-14.0.20230511.0/diff.md --exclude *.pyd
+[2023-05-12 06:21:42] INFO root fetch - processPackages [nonebot-plugin-heweather]: executing diffoscope
+[2023-05-12 06:21:42] INFO root fetch - processPackages [nonebot-plugin-heweather]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_heweather-0.6.4.tar.gz tmp/nonebot_plugin_heweather-0.6.5-py3-none-any.whl.zip --markdown 20230512/n/nonebot-plugin-heweather/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2023-05-12 06:21:42] INFO root fetch - processPackages [tencentcloud-sdk-python-tourism]: Downloading https://files.pythonhosted.org/packages/c7/b6/48fc460715c309648fa98c5d1aecab5efd71f2f61bfd867bf321de312bec/tencentcloud-sdk-python-tourism-3.0.890.tar.gz
+[2023-05-12 06:21:43] INFO root fetch - processPackages [tencentcloud-sdk-python-tourism]: executing diffoscope
+[2023-05-12 06:21:43] INFO root fetch - processPackages [tencentcloud-sdk-python-tourism]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tourism-3.0.889.tar.gz tmp/tencentcloud-sdk-python-tourism-3.0.890.tar.gz --markdown 20230512/t/tencentcloud-sdk-python-tourism/3.0.889-3.0.890/diff.md --exclude *.pyd
+[2023-05-12 06:21:43] INFO root fetch - processPackages [Dev-Helper-CLI]: Start processing: ahlive
+[2023-05-12 06:21:43] INFO root fetch - main [MainThread]: End processing [Dev-Helper-CLI]: success
+[2023-05-12 06:21:43] INFO root fetch - processPackages [ahlive]: New version: [1.0.3.post2] Old Version: [1.0.2]
+[2023-05-12 06:21:43] INFO root fetch - processPackages [ahlive]: Downloading https://files.pythonhosted.org/packages/f0/40/1db49a2b77fa1ecc712bf5833b30b3684503d1111f31de969941d61ed5ba/ahlive-1.0.2.tar.gz
+[2023-05-12 06:21:44] INFO root fetch - processPackages [tencentcloud-sdk-python-tkgdq]: Start processing: tencentcloud-sdk-python-trdp
+[2023-05-12 06:21:44] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tkgdq]: success
+[2023-05-12 06:21:44] INFO root fetch - processPackages [tencentcloud-sdk-python-trdp]: New version: [3.0.890] Old Version: [3.0.889]
+[2023-05-12 06:21:44] WARNING root fetch - processPackages [ahlive]: Skipping package: exceeds size limit 17054488>=10485760
+[2023-05-12 06:21:44] INFO root fetch - processPackages [ahlive]: Start processing: odoo14-addons-oca-edi
+[2023-05-12 06:21:44] INFO root fetch - main [MainThread]: End processing [ahlive] error
+[2023-05-12 06:21:44] INFO root fetch - processPackages [odoo14-addons-oca-edi]: New version: [14.0.20230511.0] Old Version: [14.0.20230227.0]
+[2023-05-12 06:21:44] INFO root fetch - processPackages [odoo14-addons-oca-edi]: Downloading https://files.pythonhosted.org/packages/77/cb/545b72fe01545459918221ef488939486d14a7787161f19c5c3668c4e204/odoo14_addons_oca_edi-14.0.20230227.0-py3-none-any.whl
+[2023-05-12 06:21:44] INFO root fetch - processPackages [tencentcloud-sdk-python-trdp]: Downloading https://files.pythonhosted.org/packages/71/3b/214b8518b589e139f6984605ea55b9515157df7b3477ec2def06cedfaa3b/tencentcloud-sdk-python-trdp-3.0.890.tar.gz
+[2023-05-12 06:21:44] INFO root fetch - processPackages [tencentcloud-sdk-python-tms]: Start processing: dt-authentication-ente
+[2023-05-12 06:21:44] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tms]: success
+[2023-05-12 06:21:44] INFO root fetch - processPackages [tencentcloud-sdk-python-tmt]: Start processing: tencentcloud-sdk-python-trp
+[2023-05-12 06:21:44] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tmt]: success
+[2023-05-12 06:21:44] INFO root fetch - processPackages [dt-authentication-ente]: New version: [2.1.0] Old Version: [2.0.1]
+[2023-05-12 06:21:44] INFO root fetch - processPackages [tencentcloud-sdk-python-trp]: New version: [3.0.890] Old Version: [3.0.889]
+[2023-05-12 06:21:44] INFO root fetch - processPackages [odoo14-addons-oca-e-commerce]: Start processing: eeeCalc
+[2023-05-12 06:21:44] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-e-commerce]: success
+[2023-05-12 06:21:44] INFO root fetch - processPackages [xj-enroll]: Start processing: spatial-summarize-within
+[2023-05-12 06:21:44] INFO root fetch - main [MainThread]: End processing [xj-enroll]: success
+[2023-05-12 06:21:44] INFO root fetch - processPackages [eeeCalc]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-12 06:21:44] INFO root fetch - main [MainThread]: End processing [tpfi]: success
+[2023-05-12 06:21:44] INFO root fetch - processPackages [odoo14-addons-oca-edi]: Downloading https://files.pythonhosted.org/packages/93/b5/e591d3620ba540ca343b1629c9dfbec1c08cfec351d786c2a327f65cd43e/odoo14_addons_oca_edi-14.0.20230511.0-py3-none-any.whl
+[2023-05-12 06:21:44] INFO root fetch - processPackages [tencentcloud-sdk-python-trdp]: executing diffoscope
+[2023-05-12 06:21:44] INFO root fetch - processPackages [tencentcloud-sdk-python-trdp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-trdp-3.0.889.tar.gz tmp/tencentcloud-sdk-python-trdp-3.0.890.tar.gz --markdown 20230512/t/tencentcloud-sdk-python-trdp/3.0.889-3.0.890/diff.md --exclude *.pyd
+[2023-05-12 06:21:44] INFO root fetch - processPackages [spatial-summarize-within]: New version: [0.2.1] Old Version: [0.1.2]
+[2023-05-12 06:21:44] INFO root fetch - processPackages [dt-authentication-ente]: Downloading https://files.pythonhosted.org/packages/eb/7d/448c5b0091fec9fade5259ec92143523a432cd34ebcb90e88835105ecc17/dt-authentication-ente-2.0.1.tar.gz
+[2023-05-12 06:21:44] INFO root fetch - processPackages [eeeCalc]: Downloading https://files.pythonhosted.org/packages/8f/68/143918ec4532364cae13eab2fb9bda35b428005437bff8a87f32b566e110/eeecalc-0.1.1.tar.gz
+[2023-05-12 06:21:44] INFO root fetch - processPackages [odoo14-addons-oca-edi]: executing diffoscope
+[2023-05-12 06:21:44] INFO root fetch - processPackages [odoo14-addons-oca-edi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_edi-14.0.20230227.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_edi-14.0.20230511.0-py3-none-any.whl.zip --markdown 20230512/o/odoo14-addons-oca-edi/14.0.20230227.0-14.0.20230511.0/diff.md --exclude *.pyd
+[2023-05-12 06:21:44] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tourism]: success
+[2023-05-12 06:21:44] INFO root fetch - processPackages [tencentcloud-sdk-python-trp]: Downloading https://files.pythonhosted.org/packages/f9/8d/14fbff69d39880a1ebb12cb9e12bf80bb7635c360240f2a7a80e6fcac70e/tencentcloud_sdk_python_trp-3.0.890-py2.py3-none-any.whl
+[2023-05-12 06:21:44] INFO root fetch - processPackages [eeeCalc]: executing diffoscope
+[2023-05-12 06:21:44] INFO root fetch - processPackages [eeeCalc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eeecalc-0.1.0.tar.gz tmp/eeecalc-0.1.1.tar.gz --markdown 20230512/e/eeeCalc/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-12 06:21:44] INFO root fetch - processPackages [dt-authentication-ente]: Downloading https://files.pythonhosted.org/packages/20/0d/7972874314de339593c401655e57b2d0a40d45c62dd3daef102f704ea1ce/dt-authentication-ente-2.1.0.tar.gz
+[2023-05-12 06:21:44] INFO root fetch - processPackages [spatial-summarize-within]: Downloading https://files.pythonhosted.org/packages/61/7c/477cc63a68ba97ccd829d340cb253ef6159d459994a0a6c4b5b89577e6b8/spatial_summarize_within-0.2.1.tar.gz
+[2023-05-12 06:21:44] INFO root fetch - processPackages [tencentcloud-sdk-python-trp]: executing diffoscope
+[2023-05-12 06:21:44] INFO root fetch - processPackages [tencentcloud-sdk-python-trp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-trp-3.0.889.tar.gz tmp/tencentcloud_sdk_python_trp-3.0.890-py2.py3-none-any.whl.zip --markdown 20230512/t/tencentcloud-sdk-python-trp/3.0.889-3.0.890/diff.md --exclude *.pyd
+[2023-05-12 06:21:45] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-heweather]: success
+[2023-05-12 06:21:45] INFO root fetch - processPackages [dt-authentication-ente]: executing diffoscope
+[2023-05-12 06:21:45] INFO root fetch - processPackages [dt-authentication-ente]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dt-authentication-ente-2.0.1.tar.gz tmp/dt-authentication-ente-2.1.0.tar.gz --markdown 20230512/d/dt-authentication-ente/2.0.1-2.1.0/diff.md --exclude *.pyd
+[2023-05-12 06:21:45] INFO root fetch - processPackages [spatial-summarize-within]: executing diffoscope
+[2023-05-12 06:21:45] INFO root fetch - processPackages [spatial-summarize-within]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spatial_summarize_within-0.1.2.tar.gz tmp/spatial_summarize_within-0.2.1.tar.gz --markdown 20230512/s/spatial-summarize-within/0.1.2-0.2.1/diff.md --exclude *.pyd
+[2023-05-12 06:21:45] INFO root fetch - main [MainThread]: End processing [intecomm-form-validators]: success
+[2023-05-12 06:21:45] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-trdp]: success
+[2023-05-12 06:21:45] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-edi]: success
+[2023-05-12 06:21:46] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-trp]: success
+[2023-05-12 06:21:46] INFO root fetch - main [MainThread]: End processing [eeeCalc]: success
+[2023-05-12 06:21:46] INFO root fetch - main [MainThread]: End processing [spatial-summarize-within]: success
+[2023-05-12 06:21:46] INFO root fetch - main [MainThread]: End processing [dt-authentication-ente]: success
+[2023-05-12 06:21:46] INFO root fetch - main [MainThread]: Store serial: [18073227]
