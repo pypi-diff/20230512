@@ -4874,3 +4874,11 @@
 [2023-05-12 07:35:09] INFO root fetch - main [MainThread]: End processing [aimsgb]: success
 [2023-05-12 07:35:09] INFO root fetch - main [MainThread]: End processing [yins-music]: success
 [2023-05-12 07:35:09] INFO root fetch - main [MainThread]: Store serial: [18073670]
+[2023-05-12 07:40:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18073670]
+[2023-05-12 07:40:18] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-05-12 07:40:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: areixio
+[2023-05-12 07:40:18] INFO root fetch - processPackages [areixio]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-12 07:40:18] INFO root fetch - processPackages [areixio]: executing diffoscope
+[2023-05-12 07:40:18] INFO root fetch - processPackages [areixio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/areixio-0.2.8.tar.gz tmp/areixio-0.2.9.tar.gz --markdown 20230512/a/areixio/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-12 07:40:29] INFO root fetch - main [MainThread]: End processing [areixio]: success
+[2023-05-12 07:40:29] INFO root fetch - main [MainThread]: Store serial: [18073679]
