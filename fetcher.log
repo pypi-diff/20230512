@@ -16731,3 +16731,44 @@ EOFError: EOF read where object expected
 [2023-05-12 19:33:58] INFO root fetch - main [MainThread]: End processing [meerschaum]: success
 [2023-05-12 19:33:59] INFO root fetch - main [MainThread]: End processing [deeplake]: success
 [2023-05-12 19:33:59] INFO root fetch - main [MainThread]: Store serial: [18081549]
+[2023-05-12 19:39:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18081549]
+[2023-05-12 19:39:08] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-12 19:39:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ngsolve
+[2023-05-12 19:39:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: streaming-indicators
+[2023-05-12 19:39:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jupyter-dashboard
+[2023-05-12 19:39:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fastapi-integration
+[2023-05-12 19:39:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qcew
+[2023-05-12 19:39:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jupyter-viewer
+[2023-05-12 19:39:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mrq-custom
+[2023-05-12 19:39:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: meerschaum
+[2023-05-12 19:39:08] WARNING root fetch - processPackages [streaming-indicators]: Skipping, unable to determine old version
+[2023-05-12 19:39:08] INFO root fetch - main [MainThread]: End processing [streaming-indicators] error
+[2023-05-12 19:39:08] INFO root fetch - processPackages [ngsolve]: New version: [6.2.2302.post92.dev0] Old Version: [6.2.2302.post91.dev0]
+[2023-05-12 19:39:08] INFO root fetch - processPackages [mrq-custom]: New version: [0.9.33.1] Old Version: [0.9.33]
+[2023-05-12 19:39:08] INFO root fetch - processPackages [qcew]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-12 19:39:08] INFO root fetch - processPackages [meerschaum]: New version: [1.6.8] Old Version: [1.6.7]
+[2023-05-12 19:39:08] WARNING root fetch - processPackages [jupyter-dashboard]: Skipping, unable to determine old version
+[2023-05-12 19:39:08] INFO root fetch - main [MainThread]: End processing [jupyter-dashboard] error
+[2023-05-12 19:39:08] INFO root fetch - processPackages [fastapi-integration]: New version: [0.1.0] Old Version: [0.0.7]
+[2023-05-12 19:39:08] WARNING root fetch - processPackages [jupyter-viewer]: Skipping, unable to determine old version
+[2023-05-12 19:39:08] INFO root fetch - main [MainThread]: End processing [jupyter-viewer] error
+[2023-05-12 19:39:08] INFO root fetch - processPackages [meerschaum]: executing diffoscope
+[2023-05-12 19:39:08] INFO root fetch - processPackages [meerschaum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meerschaum-1.6.7.tar.gz tmp/meerschaum-1.6.8.tar.gz --markdown 20230512/m/meerschaum/1.6.7-1.6.8/diff.md --exclude *.pyd
+[2023-05-12 19:39:08] INFO root fetch - processPackages [mrq-custom]: executing diffoscope
+[2023-05-12 19:39:08] INFO root fetch - processPackages [mrq-custom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrq-custom-0.9.33.tar.gz tmp/mrq-custom-0.9.33.1.tar.gz --markdown 20230512/m/mrq-custom/0.9.33-0.9.33.1/diff.md --exclude *.pyd
+[2023-05-12 19:39:08] INFO root fetch - processPackages [qcew]: Downloading https://files.pythonhosted.org/packages/d6/84/c168dc6d624d4097462a3263fa1c86b9c24b5757bf39830f61694a7c1797/qcew-1.0.1.tar.gz
+[2023-05-12 19:39:08] INFO root fetch - processPackages [ngsolve]: Downloading https://files.pythonhosted.org/packages/6a/7e/0a6a09b9a91de7198936a1298e463a6c1c7da8449daa2784456f13542438/ngsolve-6.2.2302.post91.dev0-cp39-cp39-win_amd64.whl
+[2023-05-12 19:39:08] INFO root fetch - processPackages [fastapi-integration]: Downloading https://files.pythonhosted.org/packages/90/93/65fdc46c514e5fd035685ab43b2276649f1439efb4b1f31a6bead5ad71ab/fastapi-integration-0.0.7.tar.gz
+[2023-05-12 19:39:08] WARNING root fetch - processPackages [ngsolve]: Skipping package: exceeds size limit 13384456>=10485760
+[2023-05-12 19:39:08] INFO root fetch - main [MainThread]: End processing [ngsolve] error
+[2023-05-12 19:39:08] INFO root fetch - processPackages [qcew]: Downloading https://files.pythonhosted.org/packages/c7/30/6f946d94e8fabcfe3239c838931b9bcf36f31b71250252444e9ab83c1571/qcew-1.0.2.tar.gz
+[2023-05-12 19:39:08] INFO root fetch - processPackages [qcew]: executing diffoscope
+[2023-05-12 19:39:08] INFO root fetch - processPackages [qcew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qcew-1.0.1.tar.gz tmp/qcew-1.0.2.tar.gz --markdown 20230512/q/qcew/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-12 19:39:08] INFO root fetch - processPackages [fastapi-integration]: Downloading https://files.pythonhosted.org/packages/dd/ee/e1970c974c2d58854c5171dd6ed8707ba266624c1103eaf60bc19aa0d86b/fastapi-integration-0.1.0.tar.gz
+[2023-05-12 19:39:09] INFO root fetch - processPackages [fastapi-integration]: executing diffoscope
+[2023-05-12 19:39:09] INFO root fetch - processPackages [fastapi-integration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-integration-0.0.7.tar.gz tmp/fastapi-integration-0.1.0.tar.gz --markdown 20230512/f/fastapi-integration/0.0.7-0.1.0/diff.md --exclude *.pyd
+[2023-05-12 19:39:09] INFO root fetch - main [MainThread]: End processing [qcew]: success
+[2023-05-12 19:39:10] INFO root fetch - main [MainThread]: End processing [fastapi-integration]: success
+[2023-05-12 19:39:10] INFO root fetch - main [MainThread]: End processing [mrq-custom]: success
+[2023-05-12 19:39:10] INFO root fetch - main [MainThread]: End processing [meerschaum]: success
+[2023-05-12 19:39:10] INFO root fetch - main [MainThread]: Store serial: [18081583]
