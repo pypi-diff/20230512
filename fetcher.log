@@ -13416,3 +13416,114 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-12 16:53:53] INFO root fetch - main [MainThread]: End processing [supervisely]: success
 [2023-05-12 16:54:03] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
 [2023-05-12 16:54:03] INFO root fetch - main [MainThread]: Store serial: [18079516]
+[2023-05-12 16:59:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18079516]
+[2023-05-12 16:59:11] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-12 16:59:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mcrit
+[2023-05-12 16:59:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: resolwe
+[2023-05-12 16:59:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cognite-sdk
+[2023-05-12 16:59:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fastfft
+[2023-05-12 16:59:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: h2o-cloud-discovery
+[2023-05-12 16:59:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scsd
+[2023-05-12 16:59:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: redmage
+[2023-05-12 16:59:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: twirldata
+[2023-05-12 16:59:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dbt-doc-py
+[2023-05-12 16:59:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rfcontrolpy
+[2023-05-12 16:59:12] INFO root fetch - processPackages [mcrit]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-12 16:59:12] INFO root fetch - processPackages [scsd]: New version: [0.0.7] Old Version: [0.0.5]
+[2023-05-12 16:59:12] INFO root fetch - processPackages [h2o-cloud-discovery]: New version: [1.0.1] Old Version: [1.0.0rc1]
+[2023-05-12 16:59:12] INFO root fetch - processPackages [rfcontrolpy]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-12 16:59:12] INFO root fetch - processPackages [fastfft]: New version: [0.1.7] Old Version: [0.1.5]
+[2023-05-12 16:59:12] INFO root fetch - processPackages [redmage]: New version: [0.1.0] Old Version: [0.0.5]
+[2023-05-12 16:59:12] INFO root fetch - processPackages [resolwe]: New version: [9.0.0a4] Old Version: [9.0.0a3]
+[2023-05-12 16:59:12] WARNING root fetch - processPackages [twirldata]: Skipping, unable to determine old version
+[2023-05-12 16:59:12] INFO root fetch - processPackages [twirldata]: Start processing: alldebrid.py
+[2023-05-12 16:59:12] INFO root fetch - main [MainThread]: End processing [twirldata] error
+[2023-05-12 16:59:12] INFO root fetch - processPackages [dbt-doc-py]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-12 16:59:12] INFO root fetch - processPackages [cognite-sdk]: New version: [6.1.8] Old Version: [6.1.7]
+[2023-05-12 16:59:12] INFO root fetch - processPackages [alldebrid.py]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-12 16:59:12] INFO root fetch - processPackages [resolwe]: executing diffoscope
+[2023-05-12 16:59:12] INFO root fetch - processPackages [resolwe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resolwe-9.0.0a3.tar.gz tmp/resolwe-9.0.0a4.tar.gz --markdown 20230512/r/resolwe/9.0.0a3-9.0.0a4/diff.md --exclude *.pyd
+[2023-05-12 16:59:12] INFO root fetch - processPackages [rfcontrolpy]: Downloading https://files.pythonhosted.org/packages/0f/2f/99418167273944a95f70f94f81fb73a98954b6716f1827cafdc4cf87e001/rfcontrolpy-0.0.2.tar.gz
+[2023-05-12 16:59:12] INFO root fetch - processPackages [h2o-cloud-discovery]: Downloading https://files.pythonhosted.org/packages/41/75/1dec5be389ca88bb58d9143dae0dac805988019702f52b296596ffdbb8e7/h2o_cloud_discovery-1.0.0rc1.tar.gz
+[2023-05-12 16:59:12] INFO root fetch - processPackages [mcrit]: Downloading https://files.pythonhosted.org/packages/dc/be/0f769a3fa4bfd6f07b5287db2d573580fa4371721c8f9724832e0c719a81/mcrit-1.0.0.tar.gz
+[2023-05-12 16:59:12] INFO root fetch - processPackages [redmage]: Downloading https://files.pythonhosted.org/packages/3e/e4/e4d78da852150d177994ded35ed6a66332faea795af7436604a21700d2ff/redmage-0.0.5.tar.gz
+[2023-05-12 16:59:12] INFO root fetch - processPackages [alldebrid.py]: Downloading https://files.pythonhosted.org/packages/ed/fc/a457efa92e5d42e981334af485529ee48d86dd209d70f5fa85667f410d69/alldebrid.py-1.0.1.tar.gz
+[2023-05-12 16:59:12] INFO root fetch - processPackages [fastfft]: Downloading https://files.pythonhosted.org/packages/9b/cb/9c542b1feb938d28d0b1a08383229b2584d4e297522674811fdab5d098d0/fastfft-0.1.7.tar.gz
+[2023-05-12 16:59:12] INFO root fetch - processPackages [scsd]: Downloading https://files.pythonhosted.org/packages/ac/17/337cb25f0f71ec432dbb4bf39eed6d2a4dafd21d01d2144a5cb8372c5985/scsd-0.0.7.tar.gz
+[2023-05-12 16:59:12] INFO root fetch - processPackages [cognite-sdk]: Downloading https://files.pythonhosted.org/packages/4b/97/dfd9f441eb71ee80ff53b50278fb3c46bea83dd0de672b00fc0ca93178f8/cognite_sdk-6.1.8.tar.gz
+[2023-05-12 16:59:12] INFO root fetch - processPackages [fastfft]: executing diffoscope
+[2023-05-12 16:59:12] INFO root fetch - processPackages [fastfft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastfft-0.1.5.tar.gz tmp/fastfft-0.1.7.tar.gz --markdown 20230512/f/fastfft/0.1.5-0.1.7/diff.md --exclude *.pyd
+[2023-05-12 16:59:12] INFO root fetch - processPackages [scsd]: executing diffoscope
+[2023-05-12 16:59:12] INFO root fetch - processPackages [scsd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scsd-0.0.5.tar.gz tmp/scsd-0.0.7.tar.gz --markdown 20230512/s/scsd/0.0.5-0.0.7/diff.md --exclude *.pyd
+[2023-05-12 16:59:12] INFO root fetch - processPackages [dbt-doc-py]: executing diffoscope
+[2023-05-12 16:59:12] INFO root fetch - processPackages [dbt-doc-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-doc-py-0.1.8.tar.gz tmp/dbt-doc-py-0.1.9.tar.gz --markdown 20230512/d/dbt-doc-py/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-12 16:59:12] INFO root fetch - processPackages [h2o-cloud-discovery]: Downloading https://files.pythonhosted.org/packages/29/c6/acb8088ef933f10334acbc333ff2568b75261e86a850d72574dded49bcdd/h2o_cloud_discovery-1.0.1.tar.gz
+[2023-05-12 16:59:12] INFO root fetch - processPackages [mcrit]: Downloading https://files.pythonhosted.org/packages/f0/61/41f013105ffc16843b0d120dd6b7e25380ad8bb20c9063bc590d5d2f1e86/mcrit-1.0.1.tar.gz
+[2023-05-12 16:59:12] INFO root fetch - processPackages [redmage]: Downloading https://files.pythonhosted.org/packages/3c/a4/d21efaeea34978c2c73703e2bf5a1a32b92f65b85f5b7739dbdf3794db58/redmage-0.1.0.tar.gz
+[2023-05-12 16:59:12] INFO root fetch - processPackages [alldebrid.py]: Downloading https://files.pythonhosted.org/packages/eb/47/295a111b10da9b7ee129758c9a65cdf5612a41584c038d99fb10200ac3dc/alldebrid.py-1.0.2.tar.gz
+[2023-05-12 16:59:12] INFO root fetch - processPackages [rfcontrolpy]: Downloading https://files.pythonhosted.org/packages/87/f4/11ebca5827831b4fe66bacc8997ba02726567b715b175327ec4c5575f72b/rfcontrolpy-0.0.3.tar.gz
+[2023-05-12 16:59:12] INFO root fetch - processPackages [h2o-cloud-discovery]: executing diffoscope
+[2023-05-12 16:59:12] INFO root fetch - processPackages [h2o-cloud-discovery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h2o_cloud_discovery-1.0.0rc1.tar.gz tmp/h2o_cloud_discovery-1.0.1.tar.gz --markdown 20230512/h/h2o-cloud-discovery/1.0.0rc1-1.0.1/diff.md --exclude *.pyd
+[2023-05-12 16:59:12] INFO root fetch - processPackages [cognite-sdk]: executing diffoscope
+[2023-05-12 16:59:12] INFO root fetch - processPackages [cognite-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_sdk-6.1.7.tar.gz tmp/cognite_sdk-6.1.8.tar.gz --markdown 20230512/c/cognite-sdk/6.1.7-6.1.8/diff.md --exclude *.pyd
+[2023-05-12 16:59:12] INFO root fetch - processPackages [mcrit]: executing diffoscope
+[2023-05-12 16:59:12] INFO root fetch - processPackages [mcrit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mcrit-1.0.0.tar.gz tmp/mcrit-1.0.1.tar.gz --markdown 20230512/m/mcrit/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-12 16:59:12] INFO root fetch - processPackages [redmage]: executing diffoscope
+[2023-05-12 16:59:12] INFO root fetch - processPackages [redmage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redmage-0.0.5.tar.gz tmp/redmage-0.1.0.tar.gz --markdown 20230512/r/redmage/0.0.5-0.1.0/diff.md --exclude *.pyd
+[2023-05-12 16:59:12] INFO root fetch - processPackages [alldebrid.py]: executing diffoscope
+[2023-05-12 16:59:12] INFO root fetch - processPackages [alldebrid.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alldebrid.py-1.0.1.tar.gz tmp/alldebrid.py-1.0.2.tar.gz --markdown 20230512/a/alldebrid.py/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-12 16:59:12] INFO root fetch - processPackages [rfcontrolpy]: executing diffoscope
+[2023-05-12 16:59:12] INFO root fetch - processPackages [rfcontrolpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rfcontrolpy-0.0.2.tar.gz tmp/rfcontrolpy-0.0.3.tar.gz --markdown 20230512/r/rfcontrolpy/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-12 16:59:13] INFO root fetch - processPackages [fastfft]: Start processing: simframe
+[2023-05-12 16:59:13] INFO root fetch - main [MainThread]: End processing [fastfft]: success
+[2023-05-12 16:59:13] INFO root fetch - processPackages [simframe]: New version: [1.0.3rc0] Old Version: [1.0.2]
+[2023-05-12 16:59:13] INFO root fetch - processPackages [simframe]: Downloading https://files.pythonhosted.org/packages/01/e8/28501b1e90facbb9a541374995b19e2a4b40611ae11c89595796c9184b86/simframe-1.0.2.tar.gz
+[2023-05-12 16:59:13] INFO root fetch - processPackages [scsd]: Start processing: Dev-Helper-CLI
+[2023-05-12 16:59:13] INFO root fetch - main [MainThread]: End processing [scsd]: success
+[2023-05-12 16:59:13] INFO root fetch - processPackages [Dev-Helper-CLI]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 16:59:14] INFO root fetch - processPackages [Dev-Helper-CLI]: executing diffoscope
+[2023-05-12 16:59:14] INFO root fetch - processPackages [Dev-Helper-CLI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Dev-Helper-CLI-0.0.8.tar.gz tmp/Dev-Helper-CLI-0.0.9.tar.gz --markdown 20230512/D/Dev-Helper-CLI/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 16:59:14] INFO root fetch - processPackages [dbt-doc-py]: Start processing: mpc-obscodes
+[2023-05-12 16:59:14] INFO root fetch - main [MainThread]: End processing [dbt-doc-py]: success
+[2023-05-12 16:59:14] INFO root fetch - processPackages [mpc-obscodes]: New version: [2023.5.5] Old Version: [2023.5.12]
+[2023-05-12 16:59:14] INFO root fetch - processPackages [h2o-cloud-discovery]: Start processing: medsenger-api
+[2023-05-12 16:59:14] INFO root fetch - main [MainThread]: End processing [h2o-cloud-discovery]: success
+[2023-05-12 16:59:14] INFO root fetch - processPackages [medsenger-api]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-12 16:59:14] INFO root fetch - processPackages [simframe]: Downloading https://files.pythonhosted.org/packages/d7/66/d54309dd6fadb378d0461fa7494a05072d83983477310ac9e13cb9fd3d60/simframe-1.0.3rc0.tar.gz
+[2023-05-12 16:59:14] INFO root fetch - processPackages [mpc-obscodes]: Downloading https://files.pythonhosted.org/packages/52/c3/1646c474be850098aeec3aeb640f1a1b20fb913e9d81cedd62f1256c8286/mpc_obscodes-2023.5.12.tar.gz
+[2023-05-12 16:59:14] INFO root fetch - processPackages [medsenger-api]: executing diffoscope
+[2023-05-12 16:59:14] INFO root fetch - processPackages [medsenger-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medsenger_api-0.1.8.tar.gz tmp/medsenger_api-0.1.9.tar.gz --markdown 20230512/m/medsenger-api/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-12 16:59:14] INFO root fetch - processPackages [alldebrid.py]: Start processing: scipy-cut-tree-balanced
+[2023-05-12 16:59:14] INFO root fetch - main [MainThread]: End processing [alldebrid.py]: success
+[2023-05-12 16:59:14] INFO root fetch - processPackages [scipy-cut-tree-balanced]: New version: [1.2] Old Version: [1.1]
+[2023-05-12 16:59:14] INFO root fetch - processPackages [simframe]: executing diffoscope
+[2023-05-12 16:59:14] INFO root fetch - processPackages [simframe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simframe-1.0.2.tar.gz tmp/simframe-1.0.3rc0.tar.gz --markdown 20230512/s/simframe/1.0.2-1.0.3rc0/diff.md --exclude *.pyd
+[2023-05-12 16:59:14] INFO root fetch - processPackages [rfcontrolpy]: Start processing: easy-pil
+[2023-05-12 16:59:14] INFO root fetch - main [MainThread]: End processing [rfcontrolpy]: success
+[2023-05-12 16:59:14] INFO root fetch - processPackages [redmage]: Start processing: s2aff
+[2023-05-12 16:59:14] INFO root fetch - main [MainThread]: End processing [redmage]: success
+[2023-05-12 16:59:14] INFO root fetch - processPackages [s2aff]: New version: [0.20] Old Version: [0.19]
+[2023-05-12 16:59:14] INFO root fetch - processPackages [mpc-obscodes]: Downloading https://files.pythonhosted.org/packages/da/c4/8b81f28ad9451675ebc85587236ad8c5a89d61ce67fe99d3aab673f1894a/mpc_obscodes-2023.5.5.tar.gz
+[2023-05-12 16:59:14] INFO root fetch - processPackages [scipy-cut-tree-balanced]: Downloading https://files.pythonhosted.org/packages/e0/14/0c8c7d128cac4c418b39f8322401dc915b4f5b38364e80e670bbca32cf8f/scipy_cut_tree_balanced-1.1.tar.gz
+[2023-05-12 16:59:14] INFO root fetch - processPackages [s2aff]: executing diffoscope
+[2023-05-12 16:59:14] INFO root fetch - processPackages [s2aff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s2aff-0.19.tar.gz tmp/s2aff-0.20.tar.gz --markdown 20230512/s/s2aff/0.19-0.20/diff.md --exclude *.pyd
+[2023-05-12 16:59:14] INFO root fetch - processPackages [easy-pil]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-12 16:59:14] INFO root fetch - processPackages [mpc-obscodes]: executing diffoscope
+[2023-05-12 16:59:14] INFO root fetch - processPackages [mpc-obscodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpc_obscodes-2023.5.12.tar.gz tmp/mpc_obscodes-2023.5.5.tar.gz --markdown 20230512/m/mpc-obscodes/2023.5.12-2023.5.5/diff.md --exclude *.pyd
+[2023-05-12 16:59:15] INFO root fetch - processPackages [scipy-cut-tree-balanced]: Downloading https://files.pythonhosted.org/packages/4a/de/576ebd0db929119da828644c1fe9a460af1e4187c35577806aa71b9a45d3/scipy_cut_tree_balanced-1.2.tar.gz
+[2023-05-12 16:59:15] INFO root fetch - main [MainThread]: End processing [mcrit]: success
+[2023-05-12 16:59:15] INFO root fetch - main [MainThread]: End processing [cognite-sdk]: success
+[2023-05-12 16:59:15] INFO root fetch - processPackages [scipy-cut-tree-balanced]: executing diffoscope
+[2023-05-12 16:59:15] INFO root fetch - processPackages [scipy-cut-tree-balanced]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scipy_cut_tree_balanced-1.1.tar.gz tmp/scipy_cut_tree_balanced-1.2.tar.gz --markdown 20230512/s/scipy-cut-tree-balanced/1.1-1.2/diff.md --exclude *.pyd
+[2023-05-12 16:59:15] INFO root fetch - processPackages [easy-pil]: Downloading https://files.pythonhosted.org/packages/c4/9d/fc1ea818c982715d4b9275d66511f80ce24a0e67caa634a37f8d6f5cc15d/easy_pil-0.2.4.tar.gz
+[2023-05-12 16:59:15] INFO root fetch - processPackages [easy-pil]: executing diffoscope
+[2023-05-12 16:59:15] INFO root fetch - processPackages [easy-pil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy-pil-0.2.3.tar.gz tmp/easy_pil-0.2.4.tar.gz --markdown 20230512/e/easy-pil/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-12 16:59:15] INFO root fetch - main [MainThread]: End processing [Dev-Helper-CLI]: success
+[2023-05-12 16:59:15] INFO root fetch - main [MainThread]: End processing [medsenger-api]: success
+[2023-05-12 16:59:16] INFO root fetch - main [MainThread]: End processing [s2aff]: success
+[2023-05-12 16:59:16] INFO root fetch - main [MainThread]: End processing [mpc-obscodes]: success
+[2023-05-12 16:59:16] INFO root fetch - main [MainThread]: End processing [scipy-cut-tree-balanced]: success
+[2023-05-12 16:59:16] INFO root fetch - main [MainThread]: End processing [easy-pil]: success
+[2023-05-12 16:59:17] INFO root fetch - main [MainThread]: End processing [simframe]: success
+[2023-05-12 16:59:18] INFO root fetch - main [MainThread]: End processing [resolwe]: success
+[2023-05-12 16:59:18] INFO root fetch - main [MainThread]: Store serial: [18079567]
