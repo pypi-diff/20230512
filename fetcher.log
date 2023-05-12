@@ -13049,3 +13049,70 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-12 16:31:33] INFO root fetch - main [MainThread]: End processing [hrin-msb]: success
 [2023-05-12 16:31:35] INFO root fetch - main [MainThread]: End processing [countryguess]: success
 [2023-05-12 16:31:35] INFO root fetch - main [MainThread]: Store serial: [18079307]
+[2023-05-12 16:36:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18079307]
+[2023-05-12 16:36:45] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-12 16:36:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pierskarsenbarg-pulumi-ngrok
+[2023-05-12 16:36:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: checkov
+[2023-05-12 16:36:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: masonite-servicing
+[2023-05-12 16:36:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lithic
+[2023-05-12 16:36:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aleksis-app-resint
+[2023-05-12 16:36:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cardano-nft-vending-machine
+[2023-05-12 16:36:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: adapta
+[2023-05-12 16:36:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: text-fabric
+[2023-05-12 16:36:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyasic
+[2023-05-12 16:36:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vollseg
+[2023-05-12 16:36:45] INFO root fetch - processPackages [aleksis-app-resint]: New version: [3.0b2] Old Version: [3.0b1]
+[2023-05-12 16:36:45] WARNING root fetch - processPackages [pierskarsenbarg-pulumi-ngrok]: Skipping, unable to determine old version
+[2023-05-12 16:36:45] INFO root fetch - processPackages [pierskarsenbarg-pulumi-ngrok]: Start processing: gitlabdata
+[2023-05-12 16:36:45] INFO root fetch - main [MainThread]: End processing [pierskarsenbarg-pulumi-ngrok] error
+[2023-05-12 16:36:45] INFO root fetch - processPackages [masonite-servicing]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-12 16:36:45] INFO root fetch - processPackages [lithic]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-12 16:36:45] INFO root fetch - processPackages [adapta]: New version: [2.2.7] Old Version: [2.2.5]
+[2023-05-12 16:36:45] INFO root fetch - processPackages [text-fabric]: New version: [9.5.2] Old Version: [9.4.4]
+[2023-05-12 16:36:45] INFO root fetch - processPackages [vollseg]: New version: [8.0.0] Old Version: [7.0.0]
+[2023-05-12 16:36:45] INFO root fetch - processPackages [gitlabdata]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-12 16:36:45] INFO root fetch - processPackages [cardano-nft-vending-machine]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-05-12 16:36:45] INFO root fetch - processPackages [pyasic]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-12 16:36:45] INFO root fetch - processPackages [vollseg]: Downloading https://files.pythonhosted.org/packages/49/5e/9558410d2a3b0f12598784a6541087a52cb9eac28650e25b7d767e2c56b0/vollseg-7.0.0.tar.gz
+[2023-05-12 16:36:45] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-05-12 16:36:45] INFO root fetch - processPackages [aleksis-app-resint]: Downloading https://files.pythonhosted.org/packages/40/96/8f3756fb3ea947bb8a9d303b391d30036cbb5dd122b5d4b3b6f6fc78acb6/aleksis_app_resint-3.0b1.tar.gz
+[2023-05-12 16:36:45] INFO root fetch - processPackages [lithic]: executing diffoscope
+[2023-05-12 16:36:45] INFO root fetch - processPackages [lithic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lithic-0.8.0.tar.gz tmp/lithic-0.9.0.tar.gz --markdown 20230512/l/lithic/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-12 16:36:45] WARNING root fetch - processPackages [vollseg]: Skipping package: exceeds size limit 29985919>=10485760
+[2023-05-12 16:36:45] INFO root fetch - processPackages [vollseg]: Start processing: pyowletapi
+[2023-05-12 16:36:45] INFO root fetch - main [MainThread]: End processing [vollseg] error
+[2023-05-12 16:36:45] INFO root fetch - processPackages [pyasic]: Downloading https://files.pythonhosted.org/packages/8b/cb/6d4cd3f342cc1eda735f322c923e89b06fb809652bccc8f7ba41b10189f2/pyasic-0.9.3.tar.gz
+[2023-05-12 16:36:45] INFO root fetch - processPackages [gitlabdata]: executing diffoscope
+[2023-05-12 16:36:45] INFO root fetch - processPackages [gitlabdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlabdata-0.3.8.tar.gz tmp/gitlabdata-0.3.9.tar.gz --markdown 20230512/g/gitlabdata/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-12 16:36:45] INFO root fetch - processPackages [pyowletapi]: New version: [2023.5.9] Old Version: [2023.5.7]
+[2023-05-12 16:36:45] INFO root fetch - processPackages [masonite-servicing]: Downloading https://files.pythonhosted.org/packages/81/b1/d4cedc0a2e861866a3d763aa85b0447fb5cd93714edb975d8b8e96d7ca63/masonite-servicing-0.0.7.tar.gz
+[2023-05-12 16:36:45] INFO root fetch - processPackages [pyowletapi]: executing diffoscope
+[2023-05-12 16:36:45] INFO root fetch - processPackages [pyowletapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyowletapi-2023.5.7.tar.gz tmp/pyowletapi-2023.5.9.tar.gz --markdown 20230512/p/pyowletapi/2023.5.7-2023.5.9/diff.md --exclude *.pyd
+[2023-05-12 16:36:45] INFO root fetch - processPackages [adapta]: Downloading https://files.pythonhosted.org/packages/85/3f/adaeb73c66228a886d3dabf96a03fc7be0634ff64155593b1c61c369b997/adapta-2.2.7.tar.gz
+[2023-05-12 16:36:45] INFO root fetch - processPackages [text-fabric]: executing diffoscope
+[2023-05-12 16:36:45] INFO root fetch - processPackages [text-fabric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text_fabric-9.4.4-py3-none-any.whl.zip tmp/text_fabric-9.5.2-py3-none-any.whl.zip --markdown 20230512/t/text-fabric/9.4.4-9.5.2/diff.md --exclude *.pyd
+[2023-05-12 16:36:45] INFO root fetch - processPackages [cardano-nft-vending-machine]: executing diffoscope
+[2023-05-12 16:36:45] INFO root fetch - processPackages [cardano-nft-vending-machine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cardano-nft-vending-machine-0.7.0.tar.gz tmp/cardano-nft-vending-machine-0.7.1.tar.gz --markdown 20230512/c/cardano-nft-vending-machine/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-05-12 16:36:45] INFO root fetch - processPackages [aleksis-app-resint]: Downloading https://files.pythonhosted.org/packages/51/96/7a5419d1ca8147a674731fa61f2efcc6ee3b6eff6247ed6781571e90625f/aleksis_app_resint-3.0b2.tar.gz
+[2023-05-12 16:36:45] INFO root fetch - processPackages [masonite-servicing]: executing diffoscope
+[2023-05-12 16:36:45] INFO root fetch - processPackages [masonite-servicing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/masonite-servicing-0.0.6.tar.gz tmp/masonite-servicing-0.0.7.tar.gz --markdown 20230512/m/masonite-servicing/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-12 16:36:45] INFO root fetch - processPackages [adapta]: executing diffoscope
+[2023-05-12 16:36:45] INFO root fetch - processPackages [adapta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adapta-2.2.5.tar.gz tmp/adapta-2.2.7.tar.gz --markdown 20230512/a/adapta/2.2.5-2.2.7/diff.md --exclude *.pyd
+[2023-05-12 16:36:45] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-05-12 16:36:45] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230512/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-05-12 16:36:45] INFO root fetch - processPackages [pyasic]: Downloading https://files.pythonhosted.org/packages/70/30/6c8b77c23f901b5c8b406344a29a98220a0b5212116530bd177635c4430d/pyasic-0.9.4.tar.gz
+[2023-05-12 16:36:45] INFO root fetch - processPackages [aleksis-app-resint]: executing diffoscope
+[2023-05-12 16:36:45] INFO root fetch - processPackages [aleksis-app-resint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aleksis_app_resint-3.0b1.tar.gz tmp/aleksis_app_resint-3.0b2.tar.gz --markdown 20230512/a/aleksis-app-resint/3.0b1-3.0b2/diff.md --exclude *.pyd
+[2023-05-12 16:36:46] INFO root fetch - processPackages [pyasic]: executing diffoscope
+[2023-05-12 16:36:46] INFO root fetch - processPackages [pyasic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyasic-0.9.3.tar.gz tmp/pyasic-0.9.4.tar.gz --markdown 20230512/p/pyasic/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-12 16:36:46] INFO root fetch - main [MainThread]: End processing [gitlabdata]: success
+[2023-05-12 16:36:47] INFO root fetch - main [MainThread]: End processing [pyowletapi]: success
+[2023-05-12 16:36:47] INFO root fetch - main [MainThread]: End processing [masonite-servicing]: success
+[2023-05-12 16:36:47] INFO root fetch - main [MainThread]: End processing [cardano-nft-vending-machine]: success
+[2023-05-12 16:36:47] INFO root fetch - main [MainThread]: End processing [adapta]: success
+[2023-05-12 16:36:48] INFO root fetch - main [MainThread]: End processing [pyasic]: success
+[2023-05-12 16:36:48] INFO root fetch - main [MainThread]: End processing [aleksis-app-resint]: success
+[2023-05-12 16:36:48] INFO root fetch - main [MainThread]: End processing [lithic]: success
+[2023-05-12 16:36:48] INFO root fetch - main [MainThread]: End processing [text-fabric]: success
+[2023-05-12 16:37:28] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-05-12 16:37:28] INFO root fetch - main [MainThread]: Store serial: [18079343]
