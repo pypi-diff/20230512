@@ -17700,3 +17700,80 @@ EOFError: EOF read where object expected
 [2023-05-12 20:38:09] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-05-12 20:38:32] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-05-12 20:38:32] INFO root fetch - main [MainThread]: Store serial: [18082169]
+[2023-05-12 20:43:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18082169]
+[2023-05-12 20:43:44] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-12 20:43:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: volttron-dnp3-outstation
+[2023-05-12 20:43:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pipfontinglibaryV1
+[2023-05-12 20:43:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-kubernetes
+[2023-05-12 20:43:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oglio
+[2023-05-12 20:43:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flet-core
+[2023-05-12 20:43:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flet
+[2023-05-12 20:43:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: leosanab-leopdf
+[2023-05-12 20:43:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PyHaier
+[2023-05-12 20:43:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: compressed-segmentation
+[2023-05-12 20:43:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dataverse-api
+[2023-05-12 20:43:44] INFO root fetch - processPackages [pipfontinglibaryV1]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-12 20:43:44] INFO root fetch - processPackages [volttron-dnp3-outstation]: New version: [0.1.1a6] Old Version: [0.1.1a5]
+[2023-05-12 20:43:44] INFO root fetch - processPackages [PyHaier]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-12 20:43:44] INFO root fetch - processPackages [flet-core]: New version: [0.8.0.dev1406] Old Version: [0.8.0.dev1402]
+[2023-05-12 20:43:44] INFO root fetch - processPackages [flet]: New version: [0.8.0.dev1406] Old Version: [0.8.0.dev1402]
+[2023-05-12 20:43:44] WARNING root fetch - processPackages [dataverse-api]: Skipping, unable to determine old version
+[2023-05-12 20:43:44] INFO root fetch - processPackages [dataverse-api]: Start processing: flet-pyodide
+[2023-05-12 20:43:44] INFO root fetch - main [MainThread]: End processing [dataverse-api] error
+[2023-05-12 20:43:44] INFO root fetch - processPackages [compressed-segmentation]: New version: [2.2.0] Old Version: [2.1.1]
+[2023-05-12 20:43:44] INFO root fetch - processPackages [pulumi-kubernetes]: New version: [3.9.0] Old Version: [3.8.3]
+[2023-05-12 20:43:44] INFO root fetch - processPackages [flet-pyodide]: New version: [0.8.0.dev1406] Old Version: [0.8.0.dev1402]
+[2023-05-12 20:43:44] INFO root fetch - processPackages [oglio]: New version: [0.7.4] Old Version: [0.7.3]
+[2023-05-12 20:43:44] WARNING root fetch - processPackages [leosanab-leopdf]: Skipping, unable to determine old version
+[2023-05-12 20:43:44] INFO root fetch - processPackages [leosanab-leopdf]: Start processing: ebau-gwr
+[2023-05-12 20:43:44] INFO root fetch - main [MainThread]: End processing [leosanab-leopdf] error
+[2023-05-12 20:43:44] INFO root fetch - processPackages [flet]: executing diffoscope
+[2023-05-12 20:43:44] INFO root fetch - processPackages [flet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet-0.8.0.dev1402.tar.gz tmp/flet-0.8.0.dev1406.tar.gz --markdown 20230512/f/flet/0.8.0.dev1402-0.8.0.dev1406/diff.md --exclude *.pyd
+[2023-05-12 20:43:44] INFO root fetch - processPackages [pulumi-kubernetes]: executing diffoscope
+[2023-05-12 20:43:44] INFO root fetch - processPackages [pulumi-kubernetes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes-3.8.3.tar.gz tmp/pulumi_kubernetes-3.9.0.tar.gz --markdown 20230512/p/pulumi-kubernetes/3.8.3-3.9.0/diff.md --exclude *.pyd
+[2023-05-12 20:43:44] INFO root fetch - processPackages [flet-core]: executing diffoscope
+[2023-05-12 20:43:44] INFO root fetch - processPackages [flet-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_core-0.8.0.dev1402.tar.gz tmp/flet_core-0.8.0.dev1406.tar.gz --markdown 20230512/f/flet-core/0.8.0.dev1402-0.8.0.dev1406/diff.md --exclude *.pyd
+[2023-05-12 20:43:44] INFO root fetch - processPackages [flet-pyodide]: executing diffoscope
+[2023-05-12 20:43:44] INFO root fetch - processPackages [flet-pyodide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_pyodide-0.8.0.dev1402.tar.gz tmp/flet_pyodide-0.8.0.dev1406.tar.gz --markdown 20230512/f/flet-pyodide/0.8.0.dev1402-0.8.0.dev1406/diff.md --exclude *.pyd
+[2023-05-12 20:43:44] ERROR root fetch - processPackages [pipfontinglibaryV1]: Unable to fetch info: No such project/version 'pipfontinglibaryV1' 1.0.0
+[2023-05-12 20:43:44] INFO root fetch - processPackages [pipfontinglibaryV1]: Start processing: PatryksAutoAI
+[2023-05-12 20:43:44] INFO root fetch - main [MainThread]: End processing [pipfontinglibaryV1] error
+[2023-05-12 20:43:44] INFO root fetch - processPackages [PatryksAutoAI]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-05-12 20:43:44] INFO root fetch - processPackages [compressed-segmentation]: Downloading https://files.pythonhosted.org/packages/84/4f/3e7a971054d861930489445ff1eaf69ec98d752c270fd785abbd57e4cf2e/compressed_segmentation-2.1.1.tar.gz
+[2023-05-12 20:43:44] INFO root fetch - processPackages [ebau-gwr]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-05-12 20:43:44] INFO root fetch - processPackages [PyHaier]: Downloading https://files.pythonhosted.org/packages/d0/30/571ffbf66e23a715349be01445fc752ccebc187cec6ae0ec04dc392b474f/PyHaier-0.1.8.tar.gz
+[2023-05-12 20:43:44] INFO root fetch - processPackages [PyHaier]: executing diffoscope
+[2023-05-12 20:43:44] INFO root fetch - processPackages [PyHaier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyHaier-0.1.7.tar.gz tmp/PyHaier-0.1.8.tar.gz --markdown 20230512/P/PyHaier/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-12 20:43:44] INFO root fetch - processPackages [PatryksAutoAI]: executing diffoscope
+[2023-05-12 20:43:44] INFO root fetch - processPackages [PatryksAutoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PatryksAutoAI-0.3.5.tar.gz tmp/PatryksAutoAI-0.3.6.tar.gz --markdown 20230512/P/PatryksAutoAI/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-05-12 20:43:44] INFO root fetch - processPackages [volttron-dnp3-outstation]: Downloading https://files.pythonhosted.org/packages/64/5e/9eab5de2a70d46bc56c388574d5dfa1cbe5080666695daa2774ea4ffdbec/volttron_dnp3_outstation-0.1.1a6.tar.gz
+[2023-05-12 20:43:44] INFO root fetch - processPackages [ebau-gwr]: Downloading https://files.pythonhosted.org/packages/0d/31/03832cd2eb65e94e9a0ec3c966323a6bbcfb2e45685ebed32af3ef96cc93/ebau-gwr-0.6.1.tar.gz
+[2023-05-12 20:43:44] INFO root fetch - processPackages [oglio]: Downloading https://files.pythonhosted.org/packages/66/b4/db2a75217974c8a5c6bb92c3dfb262968baae1e2b95d2c7ea891026f9882/oglio-0.7.4.tar.gz
+[2023-05-12 20:43:44] INFO root fetch - processPackages [volttron-dnp3-outstation]: executing diffoscope
+[2023-05-12 20:43:44] INFO root fetch - processPackages [volttron-dnp3-outstation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volttron_dnp3_outstation-0.1.1a5.tar.gz tmp/volttron_dnp3_outstation-0.1.1a6.tar.gz --markdown 20230512/v/volttron-dnp3-outstation/0.1.1a5-0.1.1a6/diff.md --exclude *.pyd
+[2023-05-12 20:43:44] INFO root fetch - processPackages [compressed-segmentation]: Downloading https://files.pythonhosted.org/packages/bb/2d/f68952c7a3c808e44654e3402f5fa6d2c8c58b8652dc34ed9fbd1de0636a/compressed_segmentation-2.2.0.tar.gz
+[2023-05-12 20:43:44] INFO root fetch - processPackages [compressed-segmentation]: executing diffoscope
+[2023-05-12 20:43:44] INFO root fetch - processPackages [compressed-segmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/compressed_segmentation-2.1.1.tar.gz tmp/compressed_segmentation-2.2.0.tar.gz --markdown 20230512/c/compressed-segmentation/2.1.1-2.2.0/diff.md --exclude *.pyd
+[2023-05-12 20:43:44] INFO root fetch - processPackages [oglio]: executing diffoscope
+[2023-05-12 20:43:44] INFO root fetch - processPackages [oglio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oglio-0.7.3.tar.gz tmp/oglio-0.7.4.tar.gz --markdown 20230512/o/oglio/0.7.3-0.7.4/diff.md --exclude *.pyd
+[2023-05-12 20:43:45] INFO root fetch - processPackages [ebau-gwr]: Downloading https://files.pythonhosted.org/packages/fc/e4/549fce911afdd8a3d27c5ca816fc0a836f76f5f343e5f947ff69c67857eb/ebau_gwr-0.6.2.tar.gz
+[2023-05-12 20:43:45] INFO root fetch - processPackages [ebau-gwr]: executing diffoscope
+[2023-05-12 20:43:45] INFO root fetch - processPackages [ebau-gwr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ebau-gwr-0.6.1.tar.gz tmp/ebau_gwr-0.6.2.tar.gz --markdown 20230512/e/ebau-gwr/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-05-12 20:43:45] INFO root fetch - processPackages [flet-pyodide]: Start processing: harlequin
+[2023-05-12 20:43:45] INFO root fetch - main [MainThread]: End processing [flet-pyodide]: success
+[2023-05-12 20:43:46] INFO root fetch - processPackages [harlequin]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-12 20:43:46] INFO root fetch - main [MainThread]: End processing [PyHaier]: success
+[2023-05-12 20:43:46] INFO root fetch - processPackages [harlequin]: Downloading https://files.pythonhosted.org/packages/1f/5e/f55f9fbd516781329acd8318a0123b1657ef98f2a62fb0ae9d31475718e9/harlequin-0.0.6.tar.gz
+[2023-05-12 20:43:46] INFO root fetch - processPackages [harlequin]: Downloading https://files.pythonhosted.org/packages/2f/1b/c31741adeceb5cc87424721ba0fd9e9e2e8b1dc9bee402994fb74430aeb4/harlequin-0.0.7.tar.gz
+[2023-05-12 20:43:46] INFO root fetch - main [MainThread]: End processing [volttron-dnp3-outstation]: success
+[2023-05-12 20:43:46] INFO root fetch - main [MainThread]: End processing [ebau-gwr]: success
+[2023-05-12 20:43:46] INFO root fetch - main [MainThread]: End processing [oglio]: success
+[2023-05-12 20:43:46] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
+[2023-05-12 20:43:47] INFO root fetch - processPackages [harlequin]: executing diffoscope
+[2023-05-12 20:43:47] INFO root fetch - processPackages [harlequin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/harlequin-0.0.6.tar.gz tmp/harlequin-0.0.7.tar.gz --markdown 20230512/h/harlequin/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-12 20:43:47] INFO root fetch - main [MainThread]: End processing [flet-core]: success
+[2023-05-12 20:43:48] INFO root fetch - main [MainThread]: End processing [harlequin]: success
+[2023-05-12 20:43:49] INFO root fetch - main [MainThread]: End processing [compressed-segmentation]: success
+[2023-05-12 20:43:50] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes]: success
+[2023-05-12 20:44:34] INFO root fetch - main [MainThread]: End processing [flet]: success
+[2023-05-12 20:44:34] INFO root fetch - main [MainThread]: Store serial: [18082253]
