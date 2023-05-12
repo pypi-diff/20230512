@@ -6525,3 +6525,46 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-12 09:44:42] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-l4d2-server]: success
 [2023-05-12 09:44:45] INFO root fetch - main [MainThread]: End processing [mlrun]: success
 [2023-05-12 09:44:45] INFO root fetch - main [MainThread]: Store serial: [18074855]
+[2023-05-12 09:49:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18074855]
+[2023-05-12 09:49:56] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-12 09:49:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ats-case
+[2023-05-12 09:49:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyraUtils
+[2023-05-12 09:49:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: did-py
+[2023-05-12 09:49:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: opta
+[2023-05-12 09:49:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spaceone-core
+[2023-05-12 09:49:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: panel
+[2023-05-12 09:49:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: DDesignerAPI
+[2023-05-12 09:49:56] INFO root fetch - processPackages [did-py]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-05-12 09:49:56] INFO root fetch - processPackages [ats-case]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-05-12 09:49:56] INFO root fetch - processPackages [panel]: New version: [1.0.0rc7] Old Version: [1.0.0rc6]
+[2023-05-12 09:49:56] INFO root fetch - processPackages [did-py]: executing diffoscope
+[2023-05-12 09:49:56] INFO root fetch - processPackages [did-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/did-py-0.0.7.tar.gz tmp/did-py-0.0.9.tar.gz --markdown 20230512/d/did-py/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 09:49:56] INFO root fetch - processPackages [DDesignerAPI]: New version: [0.0.2.3] Old Version: [0.0.2.2]
+[2023-05-12 09:49:56] INFO root fetch - processPackages [opta]: New version: [0.6.0] Old Version: [0.3.3]
+[2023-05-12 09:49:56] INFO root fetch - processPackages [PyraUtils]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-12 09:49:56] INFO root fetch - processPackages [spaceone-core]: New version: [1.9.7rc1] Old Version: [1.9.7.1]
+[2023-05-12 09:49:56] INFO root fetch - processPackages [ats-case]: executing diffoscope
+[2023-05-12 09:49:56] INFO root fetch - processPackages [ats-case]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ats_case-0.7.1.tar.gz tmp/ats_case-0.7.2.tar.gz --markdown 20230512/a/ats-case/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-05-12 09:49:56] INFO root fetch - processPackages [panel]: Downloading https://files.pythonhosted.org/packages/96/fb/ab803584ae0a045299130a9f17f49fa012f76fe8152912778ddc595a35fb/panel-1.0.0rc6.tar.gz
+[2023-05-12 09:49:56] INFO root fetch - processPackages [DDesignerAPI]: Downloading https://files.pythonhosted.org/packages/44/a8/c375db57373cbee2373ca45d8ca70f8fb1d06ffc48afe21f80e6fa15a69b/DDesignerAPI-0.0.2.2-py3-none-any.whl
+[2023-05-12 09:49:56] INFO root fetch - processPackages [PyraUtils]: Downloading https://files.pythonhosted.org/packages/2f/85/b33f6c344c3778fa610b82459d74e75ade3e2030b7ec93b793fd905ef491/PyraUtils-0.9.0.tar.gz
+[2023-05-12 09:49:56] WARNING root fetch - processPackages [panel]: Skipping package: exceeds size limit 24540123>=10485760
+[2023-05-12 09:49:56] INFO root fetch - main [MainThread]: End processing [panel] error
+[2023-05-12 09:49:56] INFO root fetch - processPackages [DDesignerAPI]: Downloading https://files.pythonhosted.org/packages/70/55/e964e53eb5e2be9198d7a4b06bc9cc80afb80599a6bd1f808913b121b746/DDesignerAPI-0.0.2.3-py3-none-any.whl
+[2023-05-12 09:49:56] INFO root fetch - processPackages [spaceone-core]: executing diffoscope
+[2023-05-12 09:49:56] INFO root fetch - processPackages [spaceone-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_core-1.9.7.1-py3-none-any.whl.zip tmp/spaceone_core-1.9.7rc1-py3-none-any.whl.zip --markdown 20230512/s/spaceone-core/1.9.7.1-1.9.7rc1/diff.md --exclude *.pyd
+[2023-05-12 09:49:56] INFO root fetch - processPackages [PyraUtils]: Downloading https://files.pythonhosted.org/packages/3b/13/2119d50ce17e3b70af66fcf3cfc0a4a16cf443f472a2e6c6a3365a9cfcea/PyraUtils-0.9.1-py3-none-any.whl
+[2023-05-12 09:49:56] INFO root fetch - processPackages [opta]: Downloading https://files.pythonhosted.org/packages/d5/9d/caab680894ad681b8cb01d16304b0aaf2a9840392b54e850811d90e0cf80/opta-0.6.0-py3-none-any.whl
+[2023-05-12 09:49:56] INFO root fetch - processPackages [DDesignerAPI]: executing diffoscope
+[2023-05-12 09:49:56] INFO root fetch - processPackages [DDesignerAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DDesignerAPI-0.0.2.2-py3-none-any.whl.zip tmp/DDesignerAPI-0.0.2.3-py3-none-any.whl.zip --markdown 20230512/D/DDesignerAPI/0.0.2.2-0.0.2.3/diff.md --exclude *.pyd
+[2023-05-12 09:49:56] INFO root fetch - processPackages [opta]: executing diffoscope
+[2023-05-12 09:49:56] INFO root fetch - processPackages [opta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opta-0.3.3.tar.gz tmp/opta-0.6.0-py3-none-any.whl.zip --markdown 20230512/o/opta/0.3.3-0.6.0/diff.md --exclude *.pyd
+[2023-05-12 09:49:56] INFO root fetch - processPackages [PyraUtils]: executing diffoscope
+[2023-05-12 09:49:56] INFO root fetch - processPackages [PyraUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyraUtils-0.9.0.tar.gz tmp/PyraUtils-0.9.1-py3-none-any.whl.zip --markdown 20230512/P/PyraUtils/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-12 09:49:57] INFO root fetch - main [MainThread]: End processing [did-py]: success
+[2023-05-12 09:49:57] INFO root fetch - main [MainThread]: End processing [ats-case]: success
+[2023-05-12 09:49:58] INFO root fetch - main [MainThread]: End processing [opta]: success
+[2023-05-12 09:49:58] INFO root fetch - main [MainThread]: End processing [spaceone-core]: success
+[2023-05-12 09:49:58] INFO root fetch - main [MainThread]: End processing [DDesignerAPI]: success
+[2023-05-12 09:49:58] INFO root fetch - main [MainThread]: End processing [PyraUtils]: success
+[2023-05-12 09:49:58] INFO root fetch - main [MainThread]: Store serial: [18074900]
