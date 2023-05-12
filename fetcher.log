@@ -20012,3 +20012,154 @@ EOFError: EOF read where object expected
 [2023-05-12 22:45:13] ERROR root fetch - processPackages [sage-conf]: Timeout during execution of pkgdiff
 [2023-05-12 22:45:13] INFO root fetch - main [MainThread]: End processing [sage-conf] error
 [2023-05-12 22:45:13] INFO root fetch - main [MainThread]: Store serial: [18083910]
+[2023-05-12 22:50:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18083910]
+[2023-05-12 22:50:23] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-05-12 22:50:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dash-connectivity-viewer
+[2023-05-12 22:50:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: simstring-fast
+[2023-05-12 22:50:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytest-xdist
+[2023-05-12 22:50:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: z3-solver
+[2023-05-12 22:50:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: llamabot
+[2023-05-12 22:50:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tomtoolkit
+[2023-05-12 22:50:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cmflib
+[2023-05-12 22:50:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyproject-generator
+[2023-05-12 22:50:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: certora-cli-alpha-jtoman-try-catch
+[2023-05-12 22:50:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: certora-cli-alpha-jtoman-infinite-loop-fix
+[2023-05-12 22:50:23] INFO root fetch - processPackages [dash-connectivity-viewer]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-05-12 22:50:23] INFO root fetch - processPackages [pytest-xdist]: New version: [3.3.0] Old Version: [3.2.1]
+[2023-05-12 22:50:23] INFO root fetch - processPackages [pyproject-generator]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-05-12 22:50:23] INFO root fetch - processPackages [llamabot]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 22:50:23] INFO root fetch - processPackages [cmflib]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-12 22:50:23] INFO root fetch - processPackages [simstring-fast]: New version: [0.2.6] Old Version: [0.2.4]
+[2023-05-12 22:50:23] INFO root fetch - processPackages [z3-solver]: New version: [4.9.1.0] Old Version: [4.9.0.0]
+[2023-05-12 22:50:23] INFO root fetch - processPackages [certora-cli-alpha-jtoman-try-catch]: New version: [20230512.9.39.729450] Old Version: [20230512.20.44.92474]
+[2023-05-12 22:50:23] INFO root fetch - processPackages [certora-cli-alpha-jtoman-infinite-loop-fix]: New version: [20230512.9.39.601040] Old Version: [20230512.20.44.819171]
+[2023-05-12 22:50:23] INFO root fetch - processPackages [tomtoolkit]: New version: [2.9.2] Old Version: [2.9.1]
+[2023-05-12 22:50:23] INFO root fetch - processPackages [z3-solver]: Downloading https://files.pythonhosted.org/packages/0a/aa/78ae5a972762484594f5c091d426855749604a82b7bc3733cd5dc080cda1/z3-solver-4.9.0.0.tar.gz
+[2023-05-12 22:50:23] INFO root fetch - processPackages [pytest-xdist]: Downloading https://files.pythonhosted.org/packages/e3/f8/de2dcd2938c05270c9881cb1463dea388acd0b239ee76809160420157784/pytest-xdist-3.2.1.tar.gz
+[2023-05-12 22:50:23] INFO root fetch - processPackages [certora-cli-alpha-jtoman-infinite-loop-fix]: Downloading https://files.pythonhosted.org/packages/d1/ff/1b064e1aa6834f3d0aa78326e0a8ca1d514e195ba68fa9803f247ccf3b6a/certora-cli-alpha-jtoman-infinite-loop-fix-20230512.20.44.819171.tar.gz
+[2023-05-12 22:50:23] INFO root fetch - processPackages [certora-cli-alpha-jtoman-try-catch]: Downloading https://files.pythonhosted.org/packages/44/14/da9a696b29c9df9e7045550a5343cf4545662b6b662568eb97ed1ab94834/certora-cli-alpha-jtoman-try-catch-20230512.20.44.92474.tar.gz
+[2023-05-12 22:50:23] WARNING root fetch - processPackages [certora-cli-alpha-jtoman-try-catch]: Skipping package: exceeds size limit 39430662>=10485760
+[2023-05-12 22:50:23] INFO root fetch - processPackages [certora-cli-alpha-jtoman-try-catch]: Start processing: volttron-postgresql-historian
+[2023-05-12 22:50:23] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-jtoman-try-catch] error
+[2023-05-12 22:50:23] INFO root fetch - processPackages [dash-connectivity-viewer]: Downloading https://files.pythonhosted.org/packages/41/e0/ba55821eaf1309656ed59d46721e48a92a0fbc18b12d42bd22b41b123337/dash-connectivity-viewer-2.0.3.tar.gz
+[2023-05-12 22:50:23] INFO root fetch - processPackages [cmflib]: Downloading https://files.pythonhosted.org/packages/f5/60/b8a3fb1d6434a21219f1934bcfe7f093c547c3184ee783b42c25b99067cb/cmflib-0.0.2.tar.gz
+[2023-05-12 22:50:23] WARNING root fetch - processPackages [certora-cli-alpha-jtoman-infinite-loop-fix]: Skipping package: exceeds size limit 39430872>=10485760
+[2023-05-12 22:50:23] INFO root fetch - processPackages [certora-cli-alpha-jtoman-infinite-loop-fix]: Start processing: langmuir-trough
+[2023-05-12 22:50:23] INFO root fetch - processPackages [volttron-postgresql-historian]: New version: [0.1.2rc0] Old Version: [0.1.1a4]
+[2023-05-12 22:50:23] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-jtoman-infinite-loop-fix] error
+[2023-05-12 22:50:23] INFO root fetch - processPackages [dash-connectivity-viewer]: executing diffoscope
+[2023-05-12 22:50:23] INFO root fetch - processPackages [dash-connectivity-viewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dash-connectivity-viewer-2.0.2.tar.gz tmp/dash-connectivity-viewer-2.0.3.tar.gz --markdown 20230512/d/dash-connectivity-viewer/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-05-12 22:50:23] INFO root fetch - processPackages [langmuir-trough]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-05-12 22:50:23] INFO root fetch - processPackages [simstring-fast]: Downloading https://files.pythonhosted.org/packages/a7/48/036b7316ee7e73035c7bf54d429522b211fadba26fdcf13592a9e6731832/simstring_fast-0.2.6.tar.gz
+[2023-05-12 22:50:23] INFO root fetch - processPackages [pyproject-generator]: Downloading https://files.pythonhosted.org/packages/a6/3e/de542c5fca0e113544d518a421683ef5231c72135e4c86b569df62de1065/pyproject-generator-0.2.5.tar.gz
+[2023-05-12 22:50:23] INFO root fetch - processPackages [tomtoolkit]: executing diffoscope
+[2023-05-12 22:50:23] INFO root fetch - processPackages [tomtoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tomtoolkit-2.9.1.tar.gz tmp/tomtoolkit-2.9.2.tar.gz --markdown 20230512/t/tomtoolkit/2.9.1-2.9.2/diff.md --exclude *.pyd
+[2023-05-12 22:50:23] INFO root fetch - processPackages [pytest-xdist]: Downloading https://files.pythonhosted.org/packages/eb/27/91ef12c3b2e334ae8803dd461eacdb8258760f241fbbf3a4f053456fed3a/pytest-xdist-3.3.0.tar.gz
+[2023-05-12 22:50:23] INFO root fetch - processPackages [simstring-fast]: executing diffoscope
+[2023-05-12 22:50:23] INFO root fetch - processPackages [simstring-fast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simstring_fast-0.2.4.tar.gz tmp/simstring_fast-0.2.6.tar.gz --markdown 20230512/s/simstring-fast/0.2.4-0.2.6/diff.md --exclude *.pyd
+[2023-05-12 22:50:23] INFO root fetch - processPackages [pyproject-generator]: executing diffoscope
+[2023-05-12 22:50:23] INFO root fetch - processPackages [pyproject-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyproject-generator-0.2.4.tar.gz tmp/pyproject-generator-0.2.5.tar.gz --markdown 20230512/p/pyproject-generator/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-05-12 22:50:24] INFO root fetch - processPackages [llamabot]: executing diffoscope
+[2023-05-12 22:50:24] INFO root fetch - processPackages [llamabot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llamabot-0.0.8.tar.gz tmp/llamabot-0.0.9.tar.gz --markdown 20230512/l/llamabot/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 22:50:24] INFO root fetch - processPackages [pytest-xdist]: executing diffoscope
+[2023-05-12 22:50:24] INFO root fetch - processPackages [pytest-xdist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-xdist-3.2.1.tar.gz tmp/pytest-xdist-3.3.0.tar.gz --markdown 20230512/p/pytest-xdist/3.2.1-3.3.0/diff.md --exclude *.pyd
+[2023-05-12 22:50:24] INFO root fetch - processPackages [cmflib]: Downloading https://files.pythonhosted.org/packages/78/9a/e1b3ab870549250a7bc10842b99dd1b84e503309acb969caf75d10dae921/cmflib-0.0.3.tar.gz
+[2023-05-12 22:50:24] INFO root fetch - processPackages [volttron-postgresql-historian]: Downloading https://files.pythonhosted.org/packages/8e/92/3907d5279a9f2ba5f5a0ef5b1764b9d26f41f46216bc50c2b09058f53697/volttron_postgresql_historian-0.1.1a4.tar.gz
+[2023-05-12 22:50:24] INFO root fetch - processPackages [langmuir-trough]: Downloading https://files.pythonhosted.org/packages/d3/b7/34d3ad7b8440ca9543ef2a6f4bf394a03a9c925a931c4ff5de66ba08639d/langmuir_trough-0.7.0.tar.gz
+[2023-05-12 22:50:24] INFO root fetch - processPackages [cmflib]: executing diffoscope
+[2023-05-12 22:50:24] INFO root fetch - processPackages [cmflib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmflib-0.0.2.tar.gz tmp/cmflib-0.0.3.tar.gz --markdown 20230512/c/cmflib/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-12 22:50:24] INFO root fetch - processPackages [langmuir-trough]: Downloading https://files.pythonhosted.org/packages/23/62/fcf521fc9db5079205fc4132228fd9dcc2c86ee43f104031e0d164c31468/langmuir_trough-0.8.0.tar.gz
+[2023-05-12 22:50:24] INFO root fetch - processPackages [langmuir-trough]: executing diffoscope
+[2023-05-12 22:50:24] INFO root fetch - processPackages [langmuir-trough]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langmuir_trough-0.7.0.tar.gz tmp/langmuir_trough-0.8.0.tar.gz --markdown 20230512/l/langmuir-trough/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-05-12 22:50:24] INFO root fetch - processPackages [volttron-postgresql-historian]: Downloading https://files.pythonhosted.org/packages/ff/0c/b89e2da28d99008bed723cd3975b32a8778747f7a7e7755ef73610859ba7/volttron_postgresql_historian-0.1.2rc0.tar.gz
+[2023-05-12 22:50:24] INFO root fetch - processPackages [volttron-postgresql-historian]: executing diffoscope
+[2023-05-12 22:50:24] INFO root fetch - processPackages [volttron-postgresql-historian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volttron_postgresql_historian-0.1.1a4.tar.gz tmp/volttron_postgresql_historian-0.1.2rc0.tar.gz --markdown 20230512/v/volttron-postgresql-historian/0.1.1a4-0.1.2rc0/diff.md --exclude *.pyd
+[2023-05-12 22:50:24] INFO root fetch - processPackages [z3-solver]: Downloading https://files.pythonhosted.org/packages/91/be/d247b751fd779e2e6abb175347cf97893e8606a19deaeab4ed26581b81a0/z3-solver-4.9.1.0.tar.gz
+[2023-05-12 22:50:25] INFO root fetch - processPackages [dash-connectivity-viewer]: Start processing: certora-cli-alpha-master
+[2023-05-12 22:50:25] INFO root fetch - main [MainThread]: End processing [dash-connectivity-viewer]: success
+[2023-05-12 22:50:25] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230512.9.43.869128] Old Version: [20230512.20.45.247588]
+[2023-05-12 22:50:25] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/14/58/4911c42c06f38b0727b1df86bbaf5a98cffc6c1e24e193217d46e28db86b/certora-cli-alpha-master-20230512.20.45.247588.tar.gz
+[2023-05-12 22:50:25] INFO root fetch - processPackages [z3-solver]: executing diffoscope
+[2023-05-12 22:50:25] INFO root fetch - processPackages [z3-solver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/z3-solver-4.9.0.0.tar.gz tmp/z3-solver-4.9.1.0.tar.gz --markdown 20230512/z/z3-solver/4.9.0.0-4.9.1.0/diff.md --exclude *.pyd
+[2023-05-12 22:50:25] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 39430822>=10485760
+[2023-05-12 22:50:25] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: volttron-postgresql-historian
+[2023-05-12 22:50:25] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-05-12 22:50:25] INFO root fetch - processPackages [volttron-postgresql-historian]: New version: [0.1.2rc1] Old Version: [0.1.2rc0]
+[2023-05-12 22:50:25] INFO root fetch - processPackages [simstring-fast]: Start processing: kfsd
+[2023-05-12 22:50:25] INFO root fetch - main [MainThread]: End processing [simstring-fast]: success
+[2023-05-12 22:50:25] INFO root fetch - processPackages [kfsd]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 22:50:25] INFO root fetch - processPackages [llamabot]: Start processing: dragonfly-grasshopper
+[2023-05-12 22:50:25] INFO root fetch - main [MainThread]: End processing [llamabot]: success
+[2023-05-12 22:50:25] INFO root fetch - processPackages [kfsd]: executing diffoscope
+[2023-05-12 22:50:25] INFO root fetch - processPackages [kfsd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfsd-0.0.8.tar.gz tmp/kfsd-0.0.9.tar.gz --markdown 20230512/k/kfsd/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 22:50:25] INFO root fetch - processPackages [dragonfly-grasshopper]: New version: [1.9.0] Old Version: [1.8.4]
+[2023-05-12 22:50:25] INFO root fetch - processPackages [volttron-postgresql-historian]: Downloading https://files.pythonhosted.org/packages/8a/88/1d18831ececb2d8ff2c7e8c1c02e05ed450c6400e100fec533985fa756b8/volttron_postgresql_historian-0.1.2rc1.tar.gz
+[2023-05-12 22:50:25] INFO root fetch - processPackages [volttron-postgresql-historian]: executing diffoscope
+[2023-05-12 22:50:25] INFO root fetch - processPackages [volttron-postgresql-historian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volttron_postgresql_historian-0.1.2rc0.tar.gz tmp/volttron_postgresql_historian-0.1.2rc1.tar.gz --markdown 20230512/v/volttron-postgresql-historian/0.1.2rc0-0.1.2rc1/diff.md --exclude *.pyd
+[2023-05-12 22:50:26] INFO root fetch - processPackages [dragonfly-grasshopper]: Downloading https://files.pythonhosted.org/packages/61/7c/926c180ac51778655057fbd9c2b7a694a7cfbc634c510e4bab5af0beb8d9/dragonfly-grasshopper-1.8.4.tar.gz
+[2023-05-12 22:50:26] INFO root fetch - processPackages [volttron-postgresql-historian]: Start processing: wyoming-piper
+[2023-05-12 22:50:26] INFO root fetch - main [MainThread]: End processing [volttron-postgresql-historian]: success
+[2023-05-12 22:50:26] INFO root fetch - processPackages [wyoming-piper]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-12 22:50:26] INFO root fetch - processPackages [langmuir-trough]: Start processing: PyLTSpice
+[2023-05-12 22:50:26] INFO root fetch - main [MainThread]: End processing [langmuir-trough]: success
+[2023-05-12 22:50:26] INFO root fetch - processPackages [pytest-xdist]: Start processing: volttron-postgresql-historian
+[2023-05-12 22:50:26] INFO root fetch - main [MainThread]: End processing [pytest-xdist]: success
+[2023-05-12 22:50:26] INFO root fetch - processPackages [volttron-postgresql-historian]: New version: [0.1.2rc1] Old Version: [0.1.2rc0]
+[2023-05-12 22:50:26] INFO root fetch - processPackages [wyoming-piper]: Downloading https://files.pythonhosted.org/packages/cf/45/df339bfcda96b1ed5629bb35d129e67d3f582b8ae29061fa6971525bc24f/wyoming_piper-0.0.2.tar.gz
+[2023-05-12 22:50:26] INFO root fetch - processPackages [PyLTSpice]: New version: [4.0.1] Old Version: [4.0]
+[2023-05-12 22:50:26] INFO root fetch - processPackages [cmflib]: Start processing: esgcet
+[2023-05-12 22:50:26] INFO root fetch - main [MainThread]: End processing [cmflib]: success
+[2023-05-12 22:50:26] INFO root fetch - processPackages [volttron-postgresql-historian]: executing diffoscope
+[2023-05-12 22:50:26] INFO root fetch - processPackages [volttron-postgresql-historian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volttron_postgresql_historian-0.1.2rc0.tar.gz tmp/volttron_postgresql_historian-0.1.2rc1.tar.gz --markdown 20230512/v/volttron-postgresql-historian/0.1.2rc0-0.1.2rc1/diff.md --exclude *.pyd
+[2023-05-12 22:50:26] INFO root fetch - processPackages [esgcet]: New version: [5.2.0rc2] Old Version: [5.1.0b13]
+[2023-05-12 22:50:26] INFO root fetch - processPackages [PyLTSpice]: Downloading https://files.pythonhosted.org/packages/1e/e8/33401b2d50d90cefd993584f321e842f71ccbd549797d3959ac30234d1f6/PyLTSpice-4.0.tar.gz
+[2023-05-12 22:50:26] INFO root fetch - processPackages [dragonfly-grasshopper]: Downloading https://files.pythonhosted.org/packages/ed/a1/8b42a38306e46248ca16ca8ad5c9b02b4f86db7634aa329ec5ef99e2a623/dragonfly-grasshopper-1.9.0.tar.gz
+[2023-05-12 22:50:26] INFO root fetch - processPackages [wyoming-piper]: Downloading https://files.pythonhosted.org/packages/c5/15/847202c136c93fe940f8244535e2fb5f275ffc16b7d5388750d1f2e7489d/wyoming_piper-0.0.3.tar.gz
+[2023-05-12 22:50:26] INFO root fetch - processPackages [esgcet]: Downloading https://files.pythonhosted.org/packages/ee/cc/e4bb466a5d143064df403c1b2791e19935c4c409446ac15c70e22b5a83d0/esgcet-5.1.0b13.tar.gz
+[2023-05-12 22:50:26] INFO root fetch - processPackages [pyproject-generator]: Start processing: llamabot
+[2023-05-12 22:50:26] INFO root fetch - main [MainThread]: End processing [pyproject-generator]: success
+[2023-05-12 22:50:26] INFO root fetch - processPackages [wyoming-piper]: executing diffoscope
+[2023-05-12 22:50:26] INFO root fetch - processPackages [wyoming-piper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wyoming_piper-0.0.2.tar.gz tmp/wyoming_piper-0.0.3.tar.gz --markdown 20230512/w/wyoming-piper/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-12 22:50:26] INFO root fetch - processPackages [PyLTSpice]: Downloading https://files.pythonhosted.org/packages/39/de/eac5c68830a93ef33e4138aa81ed99ba97b5b1796023eca600888fcb8e74/PyLTSpice-4.0.1.tar.gz
+[2023-05-12 22:50:26] INFO root fetch - processPackages [llamabot]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 22:50:26] INFO root fetch - processPackages [llamabot]: executing diffoscope
+[2023-05-12 22:50:26] INFO root fetch - processPackages [llamabot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llamabot-0.0.8.tar.gz tmp/llamabot-0.0.9.tar.gz --markdown 20230512/l/llamabot/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 22:50:27] INFO root fetch - processPackages [PyLTSpice]: executing diffoscope
+[2023-05-12 22:50:27] INFO root fetch - processPackages [PyLTSpice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyLTSpice-4.0.tar.gz tmp/PyLTSpice-4.0.1.tar.gz --markdown 20230512/P/PyLTSpice/4.0-4.0.1/diff.md --exclude *.pyd
+[2023-05-12 22:50:27] INFO root fetch - processPackages [esgcet]: Downloading https://files.pythonhosted.org/packages/5c/b4/a66308aae631878a328188697f2a6f6c039d190b005f53deb8154e352794/esgcet-5.2.0rc2.tar.gz
+[2023-05-12 22:50:27] INFO root fetch - processPackages [dragonfly-grasshopper]: executing diffoscope
+[2023-05-12 22:50:27] INFO root fetch - processPackages [dragonfly-grasshopper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-grasshopper-1.8.4.tar.gz tmp/dragonfly-grasshopper-1.9.0.tar.gz --markdown 20230512/d/dragonfly-grasshopper/1.8.4-1.9.0/diff.md --exclude *.pyd
+[2023-05-12 22:50:27] INFO root fetch - processPackages [esgcet]: executing diffoscope
+[2023-05-12 22:50:27] INFO root fetch - processPackages [esgcet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esgcet-5.1.0b13.tar.gz tmp/esgcet-5.2.0rc2.tar.gz --markdown 20230512/e/esgcet/5.1.0b13-5.2.0rc2/diff.md --exclude *.pyd
+[2023-05-12 22:50:27] INFO root fetch - processPackages [volttron-postgresql-historian]: Start processing: shoulder
+[2023-05-12 22:50:27] INFO root fetch - main [MainThread]: End processing [volttron-postgresql-historian]: success
+[2023-05-12 22:50:28] INFO root fetch - processPackages [shoulder]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-12 22:50:28] INFO root fetch - processPackages [shoulder]: Downloading https://files.pythonhosted.org/packages/26/96/23025dada311122ccc10a227fdad4cda0331ee3f68511dba238d6a2973d8/shoulder-1.0.5.tar.gz
+[2023-05-12 22:50:28] INFO root fetch - processPackages [volttron-postgresql-historian]: Start processing: lbt-grasshopper
+[2023-05-12 22:50:28] INFO root fetch - main [MainThread]: End processing [volttron-postgresql-historian]: success
+[2023-05-12 22:50:28] INFO root fetch - processPackages [shoulder]: executing diffoscope
+[2023-05-12 22:50:28] INFO root fetch - processPackages [shoulder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shoulder-1.0.4.tar.gz tmp/shoulder-1.0.5.tar.gz --markdown 20230512/s/shoulder/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-12 22:50:28] INFO root fetch - processPackages [kfsd]: Start processing: contique
+[2023-05-12 22:50:28] INFO root fetch - main [MainThread]: End processing [kfsd]: success
+[2023-05-12 22:50:28] INFO root fetch - processPackages [contique]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-12 22:50:28] INFO root fetch - processPackages [lbt-grasshopper]: New version: [1.6.9] Old Version: [1.6.8]
+[2023-05-12 22:50:28] INFO root fetch - processPackages [wyoming-piper]: Start processing: syscryptpackageV1
+[2023-05-12 22:50:28] INFO root fetch - main [MainThread]: End processing [wyoming-piper]: success
+[2023-05-12 22:50:28] INFO root fetch - processPackages [contique]: Downloading https://files.pythonhosted.org/packages/f3/6c/c8243e59f3f835f58b93f1ad11529ed0d8545e1a84f4acf8400f4cb2cb51/contique-0.1.8.tar.gz
+[2023-05-12 22:50:28] ERROR root fetch - processPackages [syscryptpackageV1]: Unable to get metadata: No such project 'syscryptpackageV1'
+[2023-05-12 22:50:28] INFO root fetch - main [MainThread]: End processing [syscryptpackageV1] error
+[2023-05-12 22:50:28] INFO root fetch - processPackages [lbt-grasshopper]: executing diffoscope
+[2023-05-12 22:50:28] INFO root fetch - processPackages [lbt-grasshopper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-grasshopper-1.6.8.tar.gz tmp/lbt-grasshopper-1.6.9.tar.gz --markdown 20230512/l/lbt-grasshopper/1.6.8-1.6.9/diff.md --exclude *.pyd
+[2023-05-12 22:50:28] INFO root fetch - processPackages [contique]: Downloading https://files.pythonhosted.org/packages/84/e4/abfbef9faa3e72f479cd0aad9edbd0941ab96de65891343d88fd8bc4207d/contique-0.1.9.tar.gz
+[2023-05-12 22:50:28] INFO root fetch - main [MainThread]: End processing [llamabot]: success
+[2023-05-12 22:50:28] INFO root fetch - processPackages [contique]: executing diffoscope
+[2023-05-12 22:50:28] INFO root fetch - processPackages [contique]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contique-0.1.8.tar.gz tmp/contique-0.1.9.tar.gz --markdown 20230512/c/contique/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-12 22:50:29] INFO root fetch - main [MainThread]: End processing [esgcet]: success
+[2023-05-12 22:50:29] INFO root fetch - main [MainThread]: End processing [shoulder]: success
+[2023-05-12 22:50:30] INFO root fetch - main [MainThread]: End processing [tomtoolkit]: success
+[2023-05-12 22:50:30] INFO root fetch - main [MainThread]: End processing [lbt-grasshopper]: success
+[2023-05-12 22:50:30] INFO root fetch - main [MainThread]: End processing [PyLTSpice]: success
+[2023-05-12 22:50:31] INFO root fetch - main [MainThread]: End processing [contique]: success
+[2023-05-12 22:50:31] INFO root fetch - main [MainThread]: End processing [dragonfly-grasshopper]: success
+[2023-05-12 22:51:14] INFO root fetch - main [MainThread]: End processing [z3-solver]: success
+[2023-05-12 22:51:14] INFO root fetch - main [MainThread]: Store serial: [18083988]
