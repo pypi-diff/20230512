@@ -4319,3 +4319,44 @@
 [2023-05-12 06:32:09] INFO root fetch - main [MainThread]: End processing [zytlib]: success
 [2023-05-12 06:32:10] INFO root fetch - main [MainThread]: End processing [validmind]: success
 [2023-05-12 06:32:10] INFO root fetch - main [MainThread]: Store serial: [18073291]
+[2023-05-12 06:37:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18073291]
+[2023-05-12 06:37:23] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-12 06:37:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: edc-listboard
+[2023-05-12 06:37:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: render-engine
+[2023-05-12 06:37:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastapi-poe
+[2023-05-12 06:37:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aiohttp-poe
+[2023-05-12 06:37:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: elefanto-drf-exceptions
+[2023-05-12 06:37:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Dev-Helper-CLI
+[2023-05-12 06:37:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: furiosa-native-postprocess
+[2023-05-12 06:37:23] WARNING root fetch - processPackages [elefanto-drf-exceptions]: Skipping, unable to determine old version
+[2023-05-12 06:37:23] INFO root fetch - main [MainThread]: End processing [elefanto-drf-exceptions] error
+[2023-05-12 06:37:23] INFO root fetch - processPackages [furiosa-native-postprocess]: New version: [0.9.0] Old Version: [0.2.2]
+[2023-05-12 06:37:23] INFO root fetch - processPackages [render-engine]: New version: [2023.5.1a2] Old Version: [2023.5.1a1]
+[2023-05-12 06:37:23] INFO root fetch - processPackages [Dev-Helper-CLI]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-12 06:37:23] INFO root fetch - processPackages [edc-listboard]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-12 06:37:23] INFO root fetch - processPackages [fastapi-poe]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-05-12 06:37:23] INFO root fetch - processPackages [aiohttp-poe]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-05-12 06:37:23] INFO root fetch - processPackages [furiosa-native-postprocess]: Downloading https://files.pythonhosted.org/packages/4d/82/0dac7733470ce82d704c7d2bdafbea830a5af568c070845ea41985258965/furiosa_native_postprocess-0.2.2-pp37-pypy37_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-12 06:37:23] INFO root fetch - processPackages [Dev-Helper-CLI]: Downloading https://files.pythonhosted.org/packages/b2/f7/6728dc8d55c514bcbe62aa9269978098c5e2b3d912218547bedd7e63ab6d/Dev-Helper-CLI-0.0.6.tar.gz
+[2023-05-12 06:37:23] INFO root fetch - processPackages [edc-listboard]: Downloading https://files.pythonhosted.org/packages/88/ef/d9b1f51eb7e77d504f159d99b5d9551ea675c2f5f1bc8b4eae3a18f25d61/edc-listboard-0.1.7.tar.gz
+[2023-05-12 06:37:24] INFO root fetch - processPackages [Dev-Helper-CLI]: executing diffoscope
+[2023-05-12 06:37:24] INFO root fetch - processPackages [Dev-Helper-CLI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Dev-Helper-CLI-0.0.5.tar.gz tmp/Dev-Helper-CLI-0.0.6.tar.gz --markdown 20230512/D/Dev-Helper-CLI/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-12 06:37:24] INFO root fetch - processPackages [aiohttp-poe]: executing diffoscope
+[2023-05-12 06:37:24] INFO root fetch - processPackages [aiohttp-poe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiohttp_poe-0.0.7.tar.gz tmp/aiohttp_poe-0.0.9.tar.gz --markdown 20230512/a/aiohttp-poe/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 06:37:24] INFO root fetch - processPackages [render-engine]: executing diffoscope
+[2023-05-12 06:37:24] INFO root fetch - processPackages [render-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/render_engine-2023.5.1a1.tar.gz tmp/render_engine-2023.5.1a2.tar.gz --markdown 20230512/r/render-engine/2023.5.1a1-2023.5.1a2/diff.md --exclude *.pyd
+[2023-05-12 06:37:24] INFO root fetch - processPackages [fastapi-poe]: executing diffoscope
+[2023-05-12 06:37:24] INFO root fetch - processPackages [fastapi-poe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_poe-0.0.7.tar.gz tmp/fastapi_poe-0.0.9.tar.gz --markdown 20230512/f/fastapi-poe/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 06:37:24] INFO root fetch - processPackages [edc-listboard]: Downloading https://files.pythonhosted.org/packages/44/da/9378ed95f6e91ff4cfd958e2962897c6f3779cfdaeee7da8f5694ceb0f2d/edc-listboard-0.1.8.tar.gz
+[2023-05-12 06:37:24] INFO root fetch - processPackages [edc-listboard]: executing diffoscope
+[2023-05-12 06:37:24] INFO root fetch - processPackages [edc-listboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-listboard-0.1.7.tar.gz tmp/edc-listboard-0.1.8.tar.gz --markdown 20230512/e/edc-listboard/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-12 06:37:24] INFO root fetch - processPackages [furiosa-native-postprocess]: Downloading https://files.pythonhosted.org/packages/20/e5/69e057205753dc2913e495b8a2b071fe75075827982b2072ad3fd1217df6/furiosa_native_postprocess-0.9.0.tar.gz
+[2023-05-12 06:37:24] INFO root fetch - processPackages [furiosa-native-postprocess]: executing diffoscope
+[2023-05-12 06:37:24] INFO root fetch - processPackages [furiosa-native-postprocess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/furiosa_native_postprocess-0.2.2-pp37-pypy37_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/furiosa_native_postprocess-0.9.0.tar.gz --markdown 20230512/f/furiosa-native-postprocess/0.2.2-0.9.0/diff.md --exclude *.pyd
+[2023-05-12 06:37:25] INFO root fetch - main [MainThread]: End processing [Dev-Helper-CLI]: success
+[2023-05-12 06:37:25] INFO root fetch - main [MainThread]: End processing [fastapi-poe]: success
+[2023-05-12 06:37:25] INFO root fetch - main [MainThread]: End processing [aiohttp-poe]: success
+[2023-05-12 06:37:25] INFO root fetch - main [MainThread]: End processing [edc-listboard]: success
+[2023-05-12 06:37:25] INFO root fetch - main [MainThread]: End processing [render-engine]: success
+[2023-05-12 06:37:27] INFO root fetch - main [MainThread]: End processing [furiosa-native-postprocess]: success
+[2023-05-12 06:37:27] INFO root fetch - main [MainThread]: Store serial: [18073315]
