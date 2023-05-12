@@ -3046,3 +3046,68 @@
 [2023-05-12 04:52:20] INFO root fetch - main [MainThread]: End processing [rapidtide] error
 [2023-05-12 04:52:21] INFO root fetch - main [MainThread]: End processing [mystring]: success
 [2023-05-12 04:52:21] INFO root fetch - main [MainThread]: Store serial: [18072563]
+[2023-05-12 04:57:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18072563]
+[2023-05-12 04:57:30] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-12 04:57:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-oci
+[2023-05-12 04:57:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-account-fiscal-month
+[2023-05-12 04:57:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: waveforms
+[2023-05-12 04:57:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: read-rapidpe
+[2023-05-12 04:57:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-account-move-fiscal-month
+[2023-05-12 04:57:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: makeDirs
+[2023-05-12 04:57:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bambooai
+[2023-05-12 04:57:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tencentcloud-sdk-python-lp
+[2023-05-12 04:57:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addons-oca-account-financial-tools
+[2023-05-12 04:57:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pandas-validate
+[2023-05-12 04:57:30] INFO root fetch - processPackages [read-rapidpe]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-05-12 04:57:30] INFO root fetch - processPackages [odoo-addon-account-fiscal-month]: New version: [15.0.1.0.0.3] Old Version: [15.0.1.0.0.2]
+[2023-05-12 04:57:30] INFO root fetch - processPackages [pulumi-oci]: New version: [0.9.1a1677791364] Old Version: [0.9.0]
+[2023-05-12 04:57:30] INFO root fetch - processPackages [odoo-addon-account-move-fiscal-month]: New version: [15.0.1.0.0.3] Old Version: [15.0.1.0.0.2]
+[2023-05-12 04:57:30] INFO root fetch - processPackages [bambooai]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-12 04:57:30] INFO root fetch - processPackages [makeDirs]: New version: [2.3.0] Old Version: [1.3.0]
+[2023-05-12 04:57:30] INFO root fetch - processPackages [waveforms]: New version: [1.5.97] Old Version: [1.5.96]
+[2023-05-12 04:57:30] INFO root fetch - processPackages [tencentcloud-sdk-python-lp]: New version: [3.0.890] Old Version: [3.0.889]
+[2023-05-12 04:57:30] INFO root fetch - processPackages [odoo-addons-oca-account-financial-tools]: New version: [16.0.20230216.0] Old Version: [16.0.20230204.0]
+[2023-05-12 04:57:30] WARNING root fetch - processPackages [pandas-validate]: Skipping, unable to determine old version
+[2023-05-12 04:57:30] INFO root fetch - main [MainThread]: End processing [pandas-validate] error
+[2023-05-12 04:57:30] INFO root fetch - processPackages [makeDirs]: Downloading https://files.pythonhosted.org/packages/44/cd/dbeafda110d28d87eb26a4d00dc8d2172c49b31f5231514af5169b02c79a/makedirs-1.3.0.tar.gz
+[2023-05-12 04:57:30] INFO root fetch - processPackages [odoo-addon-account-fiscal-month]: Downloading https://files.pythonhosted.org/packages/76/91/6f393d9f1d5146803b4a79a8550a7d699e36094206f2368d13dbe5a2459b/odoo_addon_account_fiscal_month-15.0.1.0.0.2-py3-none-any.whl
+[2023-05-12 04:57:30] INFO root fetch - processPackages [odoo-addon-account-move-fiscal-month]: Downloading https://files.pythonhosted.org/packages/8f/49/74b41c4e9649b75df7a027f71b7f8571aa04ad4f54c9f2e752b9a0c8e60f/odoo_addon_account_move_fiscal_month-15.0.1.0.0.2-py3-none-any.whl
+[2023-05-12 04:57:30] INFO root fetch - processPackages [bambooai]: Downloading https://files.pythonhosted.org/packages/5a/9d/1d5ab6ef2250c66326c327d9881524df53616842bd246ff5d5f64327a5c4/bambooai-0.1.3.tar.gz
+[2023-05-12 04:57:30] INFO root fetch - processPackages [waveforms]: Downloading https://files.pythonhosted.org/packages/51/d4/89232fcd20aff640d2fa3c1516ee881c112bfa797a6ac3e9828e99917450/waveforms-1.5.96.tar.gz
+[2023-05-12 04:57:30] INFO root fetch - processPackages [odoo-addons-oca-account-financial-tools]: Downloading https://files.pythonhosted.org/packages/74/7d/0744d8df44d637fdb7f0373683069bd30c6c02ec25f6c2337bf99cc92e48/odoo_addons_oca_account_financial_tools-16.0.20230204.0-py3-none-any.whl
+[2023-05-12 04:57:30] INFO root fetch - processPackages [tencentcloud-sdk-python-lp]: Downloading https://files.pythonhosted.org/packages/3f/81/df9e4d7cdc2754781d93fcd21d928a42eb4de4b949a67706961adac9d58b/tencentcloud-sdk-python-lp-3.0.890.tar.gz
+[2023-05-12 04:57:30] INFO root fetch - processPackages [pulumi-oci]: executing diffoscope
+[2023-05-12 04:57:30] INFO root fetch - processPackages [pulumi-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_oci-0.9.0.tar.gz tmp/pulumi_oci-0.9.1a1677791364.tar.gz --markdown 20230512/p/pulumi-oci/0.9.0-0.9.1a1677791364/diff.md --exclude *.pyd
+[2023-05-12 04:57:30] INFO root fetch - processPackages [read-rapidpe]: Downloading https://files.pythonhosted.org/packages/a3/60/688c5d87c556943c605d004f336598128f64daf78072727a0d8cc3dd3257/read_rapidpe-0.3.4-py3-none-any.whl
+[2023-05-12 04:57:30] INFO root fetch - processPackages [tencentcloud-sdk-python-lp]: executing diffoscope
+[2023-05-12 04:57:30] INFO root fetch - processPackages [tencentcloud-sdk-python-lp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-lp-3.0.889.tar.gz tmp/tencentcloud-sdk-python-lp-3.0.890.tar.gz --markdown 20230512/t/tencentcloud-sdk-python-lp/3.0.889-3.0.890/diff.md --exclude *.pyd
+[2023-05-12 04:57:30] INFO root fetch - processPackages [odoo-addon-account-fiscal-month]: Downloading https://files.pythonhosted.org/packages/66/86/c99bb15215882702643c1d71387caed7fedb088ba68028ef1a8b9b53a6d9/odoo_addon_account_fiscal_month-15.0.1.0.0.3-py3-none-any.whl
+[2023-05-12 04:57:31] INFO root fetch - processPackages [makeDirs]: Downloading https://files.pythonhosted.org/packages/80/0d/1b2291fbb7a0faebe38d8ae80865857368c84bc8fc23c308145991c6088c/makedirs-2.3.0.tar.gz
+[2023-05-12 04:57:31] INFO root fetch - processPackages [read-rapidpe]: executing diffoscope
+[2023-05-12 04:57:31] INFO root fetch - processPackages [read-rapidpe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/read_rapidpe-0.3.3.tar.gz tmp/read_rapidpe-0.3.4-py3-none-any.whl.zip --markdown 20230512/r/read-rapidpe/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-05-12 04:57:31] INFO root fetch - processPackages [odoo-addon-account-move-fiscal-month]: Downloading https://files.pythonhosted.org/packages/2c/9b/29b60304f82541a04963a4c21f52c86dcad4ce8c4fd34b3d7c3a3a2c4981/odoo_addon_account_move_fiscal_month-15.0.1.0.0.3-py3-none-any.whl
+[2023-05-12 04:57:31] INFO root fetch - processPackages [bambooai]: Downloading https://files.pythonhosted.org/packages/e6/66/61b0df838e7b8296ada366f1f1ef835fe5c0023a0e0e2a6b5faf9118527d/bambooai-0.1.4.tar.gz
+[2023-05-12 04:57:31] INFO root fetch - processPackages [odoo-addons-oca-account-financial-tools]: Downloading https://files.pythonhosted.org/packages/19/f4/cc376ae8ca2897dcbda6648245499d5262a1c7f2191ea46d428de3307c37/odoo_addons_oca_account_financial_tools-16.0.20230216.0-py3-none-any.whl
+[2023-05-12 04:57:31] INFO root fetch - processPackages [odoo-addon-account-fiscal-month]: executing diffoscope
+[2023-05-12 04:57:31] INFO root fetch - processPackages [odoo-addon-account-fiscal-month]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_fiscal_month-15.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_account_fiscal_month-15.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230512/o/odoo-addon-account-fiscal-month/15.0.1.0.0.2-15.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-05-12 04:57:31] INFO root fetch - processPackages [makeDirs]: executing diffoscope
+[2023-05-12 04:57:31] INFO root fetch - processPackages [makeDirs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/makedirs-1.3.0.tar.gz tmp/makedirs-2.3.0.tar.gz --markdown 20230512/m/makeDirs/1.3.0-2.3.0/diff.md --exclude *.pyd
+[2023-05-12 04:57:31] INFO root fetch - processPackages [odoo-addon-account-move-fiscal-month]: executing diffoscope
+[2023-05-12 04:57:31] INFO root fetch - processPackages [odoo-addon-account-move-fiscal-month]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_move_fiscal_month-15.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_account_move_fiscal_month-15.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230512/o/odoo-addon-account-move-fiscal-month/15.0.1.0.0.2-15.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-05-12 04:57:31] INFO root fetch - processPackages [odoo-addons-oca-account-financial-tools]: executing diffoscope
+[2023-05-12 04:57:31] INFO root fetch - processPackages [odoo-addons-oca-account-financial-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_account_financial_tools-16.0.20230204.0-py3-none-any.whl.zip tmp/odoo_addons_oca_account_financial_tools-16.0.20230216.0-py3-none-any.whl.zip --markdown 20230512/o/odoo-addons-oca-account-financial-tools/16.0.20230204.0-16.0.20230216.0/diff.md --exclude *.pyd
+[2023-05-12 04:57:31] INFO root fetch - processPackages [waveforms]: Downloading https://files.pythonhosted.org/packages/f7/26/9892d4a7ba9f056f1001f9860a8e9e5488342fbb04033824098f8e25dfcb/waveforms-1.5.97.tar.gz
+[2023-05-12 04:57:31] INFO root fetch - processPackages [bambooai]: executing diffoscope
+[2023-05-12 04:57:31] INFO root fetch - processPackages [bambooai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bambooai-0.1.3.tar.gz tmp/bambooai-0.1.4.tar.gz --markdown 20230512/b/bambooai/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-12 04:57:31] INFO root fetch - processPackages [waveforms]: executing diffoscope
+[2023-05-12 04:57:31] INFO root fetch - processPackages [waveforms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waveforms-1.5.96.tar.gz tmp/waveforms-1.5.97.tar.gz --markdown 20230512/w/waveforms/1.5.96-1.5.97/diff.md --exclude *.pyd
+[2023-05-12 04:57:32] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-lp]: success
+[2023-05-12 04:57:32] INFO root fetch - main [MainThread]: End processing [read-rapidpe]: success
+[2023-05-12 04:57:32] INFO root fetch - main [MainThread]: End processing [makeDirs]: success
+[2023-05-12 04:57:32] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-account-financial-tools]: success
+[2023-05-12 04:57:33] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-move-fiscal-month]: success
+[2023-05-12 04:57:33] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-fiscal-month]: success
+[2023-05-12 04:57:33] INFO root fetch - main [MainThread]: End processing [bambooai]: success
+[2023-05-12 04:57:34] INFO root fetch - main [MainThread]: End processing [waveforms]: success
+[2023-05-12 04:58:16] INFO root fetch - main [MainThread]: End processing [pulumi-oci]: success
+[2023-05-12 04:58:16] INFO root fetch - main [MainThread]: Store serial: [18072603]
