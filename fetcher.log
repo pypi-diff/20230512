@@ -9812,3 +9812,184 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-12 13:19:37] INFO root fetch - main [MainThread]: End processing [pyjpt]: success
 [2023-05-12 13:19:39] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
 [2023-05-12 13:19:39] INFO root fetch - main [MainThread]: Store serial: [18077116]
+[2023-05-12 13:24:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18077116]
+[2023-05-12 13:24:51] INFO root fetch - main [MainThread]: Found 31 changed packages
+[2023-05-12 13:24:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: joshbasiccalculatortest5552
+[2023-05-12 13:24:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: clickhouse-ddl
+[2023-05-12 13:24:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: macrobond-data-api
+[2023-05-12 13:24:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ciscoconfparse
+[2023-05-12 13:24:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: buteo
+[2023-05-12 13:24:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyminflux
+[2023-05-12 13:24:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vtece4564-gamelib
+[2023-05-12 13:24:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lib310-lite
+[2023-05-12 13:24:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mly-pipeline
+[2023-05-12 13:24:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: statefun-tasks
+[2023-05-12 13:24:52] WARNING root fetch - processPackages [joshbasiccalculatortest5552]: Skipping, unable to determine old version
+[2023-05-12 13:24:52] INFO root fetch - processPackages [joshbasiccalculatortest5552]: Start processing: pollination-streamlit
+[2023-05-12 13:24:52] INFO root fetch - main [MainThread]: End processing [joshbasiccalculatortest5552] error
+[2023-05-12 13:24:52] WARNING root fetch - processPackages [clickhouse-ddl]: Skipping, unable to determine old version
+[2023-05-12 13:24:52] INFO root fetch - processPackages [clickhouse-ddl]: Start processing: insightconnect-plugin-runtime
+[2023-05-12 13:24:52] INFO root fetch - main [MainThread]: End processing [clickhouse-ddl] error
+[2023-05-12 13:24:52] INFO root fetch - processPackages [ciscoconfparse]: New version: [1.7.9] Old Version: [1.7.8]
+[2023-05-12 13:24:52] INFO root fetch - processPackages [macrobond-data-api]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-12 13:24:52] INFO root fetch - processPackages [mly-pipeline]: New version: [0.3.1.2] Old Version: [0.3.1.1]
+[2023-05-12 13:24:52] INFO root fetch - processPackages [pollination-streamlit]: New version: [0.5.5] Old Version: [0.5.4]
+[2023-05-12 13:24:52] INFO root fetch - processPackages [buteo]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-05-12 13:24:52] INFO root fetch - processPackages [vtece4564-gamelib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 13:24:52] INFO root fetch - processPackages [lib310-lite]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-12 13:24:52] INFO root fetch - processPackages [pyminflux]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-12 13:24:52] INFO root fetch - processPackages [insightconnect-plugin-runtime]: New version: [5.1.1] Old Version: [5.1.0]
+[2023-05-12 13:24:52] INFO root fetch - processPackages [statefun-tasks]: New version: [0.9.93] Old Version: [0.9.92]
+[2023-05-12 13:24:52] INFO root fetch - processPackages [vtece4564-gamelib]: executing diffoscope
+[2023-05-12 13:24:52] INFO root fetch - processPackages [vtece4564-gamelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vtece4564-gamelib-0.0.8.tar.gz tmp/vtece4564-gamelib-0.0.9.tar.gz --markdown 20230512/v/vtece4564-gamelib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 13:24:52] INFO root fetch - processPackages [macrobond-data-api]: Downloading https://files.pythonhosted.org/packages/15/60/3342610072b774621fbce528082fc38d1ceaf108bf76f42f1ba365e4ce68/macrobond-data-api-1.0.4.tar.gz
+[2023-05-12 13:24:52] INFO root fetch - processPackages [insightconnect-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/fc/5f/3bf9001338182317f207092c281e27922005bf57eb0b1dd664294aad0f81/insightconnect-plugin-runtime-5.1.0.tar.gz
+[2023-05-12 13:24:52] INFO root fetch - processPackages [lib310-lite]: Downloading https://files.pythonhosted.org/packages/67/9e/14813ace36d6e3ad4a8fd4adef454806f52444288c56498d9b646881a14a/lib310_lite-0.0.7.tar.gz
+[2023-05-12 13:24:52] INFO root fetch - processPackages [mly-pipeline]: Downloading https://files.pythonhosted.org/packages/45/ee/365057c46949cb7da9cf7b41909f46ad946338a4433a680163219ddc19e1/mly_pipeline-0.3.1.1.tar.gz
+[2023-05-12 13:24:52] INFO root fetch - processPackages [statefun-tasks]: Downloading https://files.pythonhosted.org/packages/96/a8/ef5430f14729831226a3cc83ff9b379458cd203fb1b9df9af9e27f158dc5/statefun-tasks-0.9.92.tar.gz
+[2023-05-12 13:24:52] INFO root fetch - processPackages [pyminflux]: Downloading https://files.pythonhosted.org/packages/a8/66/68b30c78c737d3b2b6861be2a2de7f165688fe78ac6302b3ecf4df88afe7/pyminflux-0.1.1.tar.gz
+[2023-05-12 13:24:52] INFO root fetch - processPackages [pollination-streamlit]: Downloading https://files.pythonhosted.org/packages/ba/9b/581fbc5baa024d8f0e46f0ce1f178197bc8a2e096d33333e6002d51751df/pollination-streamlit-0.5.5.tar.gz
+[2023-05-12 13:24:52] INFO root fetch - processPackages [buteo]: Downloading https://files.pythonhosted.org/packages/33/1f/a37b41b4e8aa58caf3d5199acffa320d9d67a6260d93d4dd4418ef98fbcf/buteo-0.9.7.tar.gz
+[2023-05-12 13:24:52] INFO root fetch - processPackages [ciscoconfparse]: executing diffoscope
+[2023-05-12 13:24:52] INFO root fetch - processPackages [ciscoconfparse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ciscoconfparse-1.7.8.tar.gz tmp/ciscoconfparse-1.7.9.tar.gz --markdown 20230512/c/ciscoconfparse/1.7.8-1.7.9/diff.md --exclude *.pyd
+[2023-05-12 13:24:52] INFO root fetch - processPackages [macrobond-data-api]: Downloading https://files.pythonhosted.org/packages/04/78/7255fbc71d630dd03c73006dc9901e9d03f210d1b78e5a4dcd0c019dc006/macrobond-data-api-1.0.5.tar.gz
+[2023-05-12 13:24:52] INFO root fetch - processPackages [insightconnect-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/ac/9f/e04fc6c484d853674f39e2d533c72e9bcbe6efa24a4e1aec6b806cea3276/insightconnect-plugin-runtime-5.1.1.tar.gz
+[2023-05-12 13:24:52] INFO root fetch - processPackages [lib310-lite]: Downloading https://files.pythonhosted.org/packages/e8/cf/162b088c2472b938b5e73d57ea300650b30d3b907db7043dab4eb2e74b58/lib310_lite-0.0.8.tar.gz
+[2023-05-12 13:24:52] INFO root fetch - processPackages [pollination-streamlit]: executing diffoscope
+[2023-05-12 13:24:52] INFO root fetch - processPackages [pollination-streamlit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pollination-streamlit-0.5.4.tar.gz tmp/pollination-streamlit-0.5.5.tar.gz --markdown 20230512/p/pollination-streamlit/0.5.4-0.5.5/diff.md --exclude *.pyd
+[2023-05-12 13:24:52] INFO root fetch - processPackages [buteo]: executing diffoscope
+[2023-05-12 13:24:52] INFO root fetch - processPackages [buteo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buteo-0.9.6.tar.gz tmp/buteo-0.9.7.tar.gz --markdown 20230512/b/buteo/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-05-12 13:24:52] INFO root fetch - processPackages [mly-pipeline]: Downloading https://files.pythonhosted.org/packages/be/cc/14dfdbe66c43b8d02a65c5a25f19725f43c4f1e3fa1930142eea8b9e981c/mly_pipeline-0.3.1.2.tar.gz
+[2023-05-12 13:24:52] INFO root fetch - processPackages [pyminflux]: Downloading https://files.pythonhosted.org/packages/de/08/c1615577b9c7365ede314687e990ccc6112936f0cab0c844254c3b8d1dea/pyminflux-0.1.2-py3-none-any.whl
+[2023-05-12 13:24:52] INFO root fetch - processPackages [macrobond-data-api]: executing diffoscope
+[2023-05-12 13:24:52] INFO root fetch - processPackages [macrobond-data-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrobond-data-api-1.0.4.tar.gz tmp/macrobond-data-api-1.0.5.tar.gz --markdown 20230512/m/macrobond-data-api/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-12 13:24:52] INFO root fetch - processPackages [statefun-tasks]: Downloading https://files.pythonhosted.org/packages/a6/12/9d37f5e06479955e0e0731701ef34f16065dc1e495583911d9f589ffb570/statefun-tasks-0.9.93.tar.gz
+[2023-05-12 13:24:52] INFO root fetch - processPackages [lib310-lite]: executing diffoscope
+[2023-05-12 13:24:52] INFO root fetch - processPackages [insightconnect-plugin-runtime]: executing diffoscope
+[2023-05-12 13:24:52] INFO root fetch - processPackages [lib310-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib310_lite-0.0.7.tar.gz tmp/lib310_lite-0.0.8.tar.gz --markdown 20230512/l/lib310-lite/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-12 13:24:52] INFO root fetch - processPackages [insightconnect-plugin-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/insightconnect-plugin-runtime-5.1.0.tar.gz tmp/insightconnect-plugin-runtime-5.1.1.tar.gz --markdown 20230512/i/insightconnect-plugin-runtime/5.1.0-5.1.1/diff.md --exclude *.pyd
+[2023-05-12 13:24:52] INFO root fetch - processPackages [pyminflux]: executing diffoscope
+[2023-05-12 13:24:52] INFO root fetch - processPackages [pyminflux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyminflux-0.1.1.tar.gz tmp/pyminflux-0.1.2-py3-none-any.whl.zip --markdown 20230512/p/pyminflux/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-12 13:24:52] INFO root fetch - processPackages [mly-pipeline]: executing diffoscope
+[2023-05-12 13:24:52] INFO root fetch - processPackages [mly-pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mly_pipeline-0.3.1.1.tar.gz tmp/mly_pipeline-0.3.1.2.tar.gz --markdown 20230512/m/mly-pipeline/0.3.1.1-0.3.1.2/diff.md --exclude *.pyd
+[2023-05-12 13:24:52] INFO root fetch - processPackages [statefun-tasks]: executing diffoscope
+[2023-05-12 13:24:52] INFO root fetch - processPackages [statefun-tasks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/statefun-tasks-0.9.92.tar.gz tmp/statefun-tasks-0.9.93.tar.gz --markdown 20230512/s/statefun-tasks/0.9.92-0.9.93/diff.md --exclude *.pyd
+[2023-05-12 13:24:53] INFO root fetch - processPackages [vtece4564-gamelib]: Start processing: carefree-creator
+[2023-05-12 13:24:53] INFO root fetch - main [MainThread]: End processing [vtece4564-gamelib]: success
+[2023-05-12 13:24:53] INFO root fetch - processPackages [carefree-creator]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-12 13:24:53] INFO root fetch - processPackages [carefree-creator]: Downloading https://files.pythonhosted.org/packages/41/ff/96520a9b4a6edfa8194c82ecd3e9698dcd2c2376ea02c14e65c089848cfc/carefree-creator-0.2.3.tar.gz
+[2023-05-12 13:24:54] INFO root fetch - processPackages [carefree-creator]: Downloading https://files.pythonhosted.org/packages/55/cc/666ab5cfab5bc2542c05c101f88ac03c50cb6f52e912d4f365868f1c0e32/carefree-creator-0.2.4.tar.gz
+[2023-05-12 13:24:54] INFO root fetch - processPackages [carefree-creator]: executing diffoscope
+[2023-05-12 13:24:54] INFO root fetch - processPackages [carefree-creator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carefree-creator-0.2.3.tar.gz tmp/carefree-creator-0.2.4.tar.gz --markdown 20230512/c/carefree-creator/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-12 13:24:54] INFO root fetch - processPackages [ciscoconfparse]: Start processing: dialog-workflow-local-python-package
+[2023-05-12 13:24:54] INFO root fetch - main [MainThread]: End processing [ciscoconfparse]: success
+[2023-05-12 13:24:54] INFO root fetch - processPackages [dialog-workflow-local-python-package]: New version: [0.0.15] Old Version: [0.0.14]
+[2023-05-12 13:24:54] INFO root fetch - processPackages [lib310-lite]: Start processing: volt-client-web
+[2023-05-12 13:24:54] INFO root fetch - main [MainThread]: End processing [lib310-lite]: success
+[2023-05-12 13:24:54] INFO root fetch - processPackages [volt-client-web]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-12 13:24:54] INFO root fetch - processPackages [dialog-workflow-local-python-package]: Downloading https://files.pythonhosted.org/packages/e9/6b/bfe72f49e310cd5b26fc8c6e8d2d5fe44beec2c5a5d110be397bffab5b64/dialog-workflow-local-python-package-0.0.15.tar.gz
+[2023-05-12 13:24:54] INFO root fetch - processPackages [volt-client-web]: Downloading https://files.pythonhosted.org/packages/43/bd/1bde324cfc3574df7b4d0821c5f4de9cffd1938444cb11829788c483958f/volt_client_web-0.1.2.tar.gz
+[2023-05-12 13:24:54] INFO root fetch - processPackages [buteo]: Start processing: tensordict-nightly
+[2023-05-12 13:24:54] INFO root fetch - main [MainThread]: End processing [buteo]: success
+[2023-05-12 13:24:54] INFO root fetch - processPackages [tensordict-nightly]: New version: [2023.5.9] Old Version: [2023.5.8]
+[2023-05-12 13:24:54] INFO root fetch - processPackages [pyminflux]: Start processing: lambdaprompt
+[2023-05-12 13:24:54] INFO root fetch - main [MainThread]: End processing [pyminflux]: success
+[2023-05-12 13:24:54] INFO root fetch - processPackages [lambdaprompt]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-05-12 13:24:54] INFO root fetch - processPackages [statefun-tasks]: Start processing: vive-tracker-apiserver
+[2023-05-12 13:24:54] INFO root fetch - main [MainThread]: End processing [statefun-tasks]: success
+[2023-05-12 13:24:54] INFO root fetch - processPackages [dialog-workflow-local-python-package]: executing diffoscope
+[2023-05-12 13:24:54] INFO root fetch - processPackages [dialog-workflow-local-python-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dialog-workflow-local-python-package-0.0.14.tar.gz tmp/dialog-workflow-local-python-package-0.0.15.tar.gz --markdown 20230512/d/dialog-workflow-local-python-package/0.0.14-0.0.15/diff.md --exclude *.pyd
+[2023-05-12 13:24:54] INFO root fetch - processPackages [tensordict-nightly]: executing diffoscope
+[2023-05-12 13:24:54] INFO root fetch - processPackages [tensordict-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensordict_nightly-2023.5.8-py39-none-any.whl.zip tmp/tensordict_nightly-2023.5.9-py39-none-any.whl.zip --markdown 20230512/t/tensordict-nightly/2023.5.8-2023.5.9/diff.md --exclude *.pyd
+[2023-05-12 13:24:54] INFO root fetch - processPackages [vive-tracker-apiserver]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-12 13:24:55] INFO root fetch - processPackages [lambdaprompt]: Downloading https://files.pythonhosted.org/packages/64/58/aefdd44f6cfe94060021c13d3aa330a1eca6b84016f42576d474274505ad/lambdaprompt-0.5.1.tar.gz
+[2023-05-12 13:24:55] INFO root fetch - processPackages [macrobond-data-api]: Start processing: reolink-aio
+[2023-05-12 13:24:55] INFO root fetch - main [MainThread]: End processing [macrobond-data-api]: success
+[2023-05-12 13:24:55] INFO root fetch - processPackages [reolink-aio]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-05-12 13:24:55] INFO root fetch - processPackages [volt-client-web]: Downloading https://files.pythonhosted.org/packages/67/d0/89c2c8ed8f9ad8be911089f3c3b3c30f8f81da302521fee7dd5abf681c0c/volt_client_web-0.1.3.tar.gz
+[2023-05-12 13:24:55] INFO root fetch - processPackages [vive-tracker-apiserver]: Downloading https://files.pythonhosted.org/packages/46/5d/e768f5b9a45889f2d1461d6caf21477d748d85d66f297f88f966a845f402/vive-tracker-apiserver-0.0.5.tar.gz
+[2023-05-12 13:24:55] INFO root fetch - processPackages [pollination-streamlit]: Start processing: carefree-learn
+[2023-05-12 13:24:55] INFO root fetch - main [MainThread]: End processing [pollination-streamlit]: success
+[2023-05-12 13:24:55] INFO root fetch - processPackages [carefree-learn]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-05-12 13:24:55] INFO root fetch - processPackages [volt-client-web]: executing diffoscope
+[2023-05-12 13:24:55] INFO root fetch - processPackages [volt-client-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volt_client_web-0.1.2.tar.gz tmp/volt_client_web-0.1.3.tar.gz --markdown 20230512/v/volt-client-web/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-12 13:24:55] INFO root fetch - processPackages [vive-tracker-apiserver]: executing diffoscope
+[2023-05-12 13:24:55] INFO root fetch - processPackages [vive-tracker-apiserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vive-tracker-apiserver-0.0.4.tar.gz tmp/vive-tracker-apiserver-0.0.5.tar.gz --markdown 20230512/v/vive-tracker-apiserver/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-12 13:24:55] INFO root fetch - processPackages [mly-pipeline]: Start processing: cognite-power-ops
+[2023-05-12 13:24:55] INFO root fetch - main [MainThread]: End processing [mly-pipeline]: success
+[2023-05-12 13:24:55] INFO root fetch - processPackages [cognite-power-ops]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-05-12 13:24:55] INFO root fetch - processPackages [carefree-learn]: Downloading https://files.pythonhosted.org/packages/af/8c/ec4dc69a771518a49fe93e42b8df3e07ffefa48a06bcc9ace12e89ffeeea/carefree-learn-0.4.2.tar.gz
+[2023-05-12 13:24:55] INFO root fetch - processPackages [lambdaprompt]: Downloading https://files.pythonhosted.org/packages/86/fe/d6c4ab280fab05ab86dbcb4c60038567f226fb206237d547d1d4027e0c05/lambdaprompt-0.5.2.tar.gz
+[2023-05-12 13:24:55] INFO root fetch - processPackages [reolink-aio]: executing diffoscope
+[2023-05-12 13:24:55] INFO root fetch - processPackages [reolink-aio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reolink_aio-0.5.8.tar.gz tmp/reolink_aio-0.5.9.tar.gz --markdown 20230512/r/reolink-aio/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-05-12 13:24:55] INFO root fetch - processPackages [cognite-power-ops]: Downloading https://files.pythonhosted.org/packages/7e/4c/5d58a11e703aa1c9fb2ca00bcf7806c95b4930df5c2fdcdd62dbef49789d/cognite_power_ops-0.3.0.tar.gz
+[2023-05-12 13:24:55] INFO root fetch - processPackages [lambdaprompt]: executing diffoscope
+[2023-05-12 13:24:55] INFO root fetch - processPackages [lambdaprompt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lambdaprompt-0.5.1.tar.gz tmp/lambdaprompt-0.5.2.tar.gz --markdown 20230512/l/lambdaprompt/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-05-12 13:24:55] INFO root fetch - processPackages [carefree-learn]: Downloading https://files.pythonhosted.org/packages/8f/4f/42327b799157b4b908161f05fbf9b31e5469fefd8a41c89119e7f0a6457a/carefree-learn-0.4.3.tar.gz
+[2023-05-12 13:24:55] INFO root fetch - processPackages [cognite-power-ops]: executing diffoscope
+[2023-05-12 13:24:55] INFO root fetch - processPackages [cognite-power-ops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_power_ops-0.2.2.tar.gz tmp/cognite_power_ops-0.3.0.tar.gz --markdown 20230512/c/cognite-power-ops/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-05-12 13:24:55] INFO root fetch - processPackages [carefree-learn]: executing diffoscope
+[2023-05-12 13:24:55] INFO root fetch - processPackages [carefree-learn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carefree-learn-0.4.2.tar.gz tmp/carefree-learn-0.4.3.tar.gz --markdown 20230512/c/carefree-learn/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-05-12 13:24:55] INFO root fetch - processPackages [insightconnect-plugin-runtime]: Start processing: zivid
+[2023-05-12 13:24:55] INFO root fetch - main [MainThread]: End processing [insightconnect-plugin-runtime]: success
+[2023-05-12 13:24:55] INFO root fetch - processPackages [zivid]: New version: [2.9.0.2.9.0] Old Version: [2.8.0.2.9.0]
+[2023-05-12 13:24:55] INFO root fetch - processPackages [zivid]: Downloading https://files.pythonhosted.org/packages/f9/84/609324140d84c400619601b8b611d43e128cedbb9dbfb05e7ef5f9cbde2b/zivid-2.8.0.2.9.0.tar.gz
+[2023-05-12 13:24:56] INFO root fetch - processPackages [zivid]: Downloading https://files.pythonhosted.org/packages/e6/68/5df11f0a680d029d0d90e3c41ed510f1b1d5159fc3dabb5e39e6b2586bf9/zivid-2.9.0.2.9.0.tar.gz
+[2023-05-12 13:24:56] INFO root fetch - processPackages [zivid]: executing diffoscope
+[2023-05-12 13:24:56] INFO root fetch - processPackages [zivid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zivid-2.8.0.2.9.0.tar.gz tmp/zivid-2.9.0.2.9.0.tar.gz --markdown 20230512/z/zivid/2.8.0.2.9.0-2.9.0.2.9.0/diff.md --exclude *.pyd
+[2023-05-12 13:24:56] INFO root fetch - processPackages [carefree-creator]: Start processing: vtece4564-gamelib
+[2023-05-12 13:24:56] INFO root fetch - main [MainThread]: End processing [carefree-creator]: success
+[2023-05-12 13:24:56] INFO root fetch - processPackages [vtece4564-gamelib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 13:24:56] INFO root fetch - processPackages [vtece4564-gamelib]: executing diffoscope
+[2023-05-12 13:24:56] INFO root fetch - processPackages [vtece4564-gamelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vtece4564-gamelib-0.0.8.tar.gz tmp/vtece4564-gamelib-0.0.9.tar.gz --markdown 20230512/v/vtece4564-gamelib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 13:24:56] INFO root fetch - processPackages [dialog-workflow-local-python-package]: Start processing: torchrl-nightly
+[2023-05-12 13:24:56] INFO root fetch - main [MainThread]: End processing [dialog-workflow-local-python-package]: success
+[2023-05-12 13:24:56] INFO root fetch - processPackages [torchrl-nightly]: New version: [2023.5.9] Old Version: [2023.5.8]
+[2023-05-12 13:24:56] INFO root fetch - processPackages [reolink-aio]: Start processing: torchtnt-nightly
+[2023-05-12 13:24:56] INFO root fetch - main [MainThread]: End processing [reolink-aio]: success
+[2023-05-12 13:24:57] INFO root fetch - processPackages [volt-client-web]: Start processing: cubed
+[2023-05-12 13:24:57] INFO root fetch - main [MainThread]: End processing [volt-client-web]: success
+[2023-05-12 13:24:57] INFO root fetch - processPackages [cubed]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-05-12 13:24:57] INFO root fetch - processPackages [torchtnt-nightly]: New version: [2023.5.9] Old Version: [2023.5.8]
+[2023-05-12 13:24:57] INFO root fetch - processPackages [torchtnt-nightly]: executing diffoscope
+[2023-05-12 13:24:57] INFO root fetch - processPackages [torchtnt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchtnt-nightly-2023.5.8.tar.gz tmp/torchtnt-nightly-2023.5.9.tar.gz --markdown 20230512/t/torchtnt-nightly/2023.5.8-2023.5.9/diff.md --exclude *.pyd
+[2023-05-12 13:24:57] INFO root fetch - processPackages [lambdaprompt]: Start processing: carefree-creator
+[2023-05-12 13:24:57] INFO root fetch - main [MainThread]: End processing [lambdaprompt]: success
+[2023-05-12 13:24:57] INFO root fetch - processPackages [carefree-creator]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-12 13:24:57] INFO root fetch - processPackages [torchrl-nightly]: executing diffoscope
+[2023-05-12 13:24:57] INFO root fetch - processPackages [torchrl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrl_nightly-2023.5.8-cp39-cp39-win_amd64.whl.zip tmp/torchrl_nightly-2023.5.9-cp39-cp39-win_amd64.whl.zip --markdown 20230512/t/torchrl-nightly/2023.5.8-2023.5.9/diff.md --exclude *.pyd
+[2023-05-12 13:24:57] INFO root fetch - processPackages [cubed]: Downloading https://files.pythonhosted.org/packages/41/68/f8b9075e819352741d779be9ec9dee7324e9e30b42733c7d513fb45abe80/cubed-0.6.1.tar.gz
+[2023-05-12 13:24:57] INFO root fetch - processPackages [vive-tracker-apiserver]: Start processing: windpyutils
+[2023-05-12 13:24:57] INFO root fetch - main [MainThread]: End processing [vive-tracker-apiserver]: success
+[2023-05-12 13:24:57] INFO root fetch - processPackages [windpyutils]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-05-12 13:24:57] INFO root fetch - processPackages [tensordict-nightly]: Start processing: EdiHeadyTrack
+[2023-05-12 13:24:57] INFO root fetch - main [MainThread]: End processing [tensordict-nightly]: success
+[2023-05-12 13:24:57] WARNING root fetch - processPackages [EdiHeadyTrack]: Skipping, unable to determine old version
+[2023-05-12 13:24:57] INFO root fetch - processPackages [EdiHeadyTrack]: Start processing: samna
+[2023-05-12 13:24:57] INFO root fetch - main [MainThread]: End processing [EdiHeadyTrack] error
+[2023-05-12 13:24:57] INFO root fetch - processPackages [carefree-creator]: executing diffoscope
+[2023-05-12 13:24:57] INFO root fetch - processPackages [carefree-creator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carefree-creator-0.2.3.tar.gz tmp/carefree-creator-0.2.4.tar.gz --markdown 20230512/c/carefree-creator/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-12 13:24:57] INFO root fetch - processPackages [samna]: New version: [0.9.39.0] Old Version: [0.9.38.0]
+[2023-05-12 13:24:57] INFO root fetch - processPackages [windpyutils]: Downloading https://files.pythonhosted.org/packages/ac/8c/2614eb99a1814611752dd6b4c0cc1ee6ebbbd0e650dcc68f90c49c452609/windpyutils-2.0.8.tar.gz
+[2023-05-12 13:24:57] INFO root fetch - processPackages [samna]: executing diffoscope
+[2023-05-12 13:24:57] INFO root fetch - processPackages [samna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/samna-0.9.38.0-py3-none-any.whl.zip tmp/samna-0.9.39.0-py3-none-any.whl.zip --markdown 20230512/s/samna/0.9.38.0-0.9.39.0/diff.md --exclude *.pyd
+[2023-05-12 13:24:57] INFO root fetch - processPackages [cubed]: Downloading https://files.pythonhosted.org/packages/1c/26/7ee9255961b91a2854e3aa7da2c1ee4a172510e591188168104849bdb13c/cubed-0.6.2.tar.gz
+[2023-05-12 13:24:57] INFO root fetch - processPackages [cubed]: executing diffoscope
+[2023-05-12 13:24:57] INFO root fetch - processPackages [cubed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cubed-0.6.1.tar.gz tmp/cubed-0.6.2.tar.gz --markdown 20230512/c/cubed/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-05-12 13:24:58] INFO root fetch - processPackages [cognite-power-ops]: Start processing: text-chunker
+[2023-05-12 13:24:58] INFO root fetch - main [MainThread]: End processing [cognite-power-ops]: success
+[2023-05-12 13:24:58] INFO root fetch - processPackages [windpyutils]: Downloading https://files.pythonhosted.org/packages/77/34/f29f466178be699a3a4f46c4a0a4dd2b9b6aa80dee5bc8fc08b8385515a1/windpyutils-2.0.9.tar.gz
+[2023-05-12 13:24:58] WARNING root fetch - processPackages [text-chunker]: Skipping, unable to determine old version
+[2023-05-12 13:24:58] INFO root fetch - main [MainThread]: End processing [text-chunker] error
+[2023-05-12 13:24:58] INFO root fetch - processPackages [windpyutils]: executing diffoscope
+[2023-05-12 13:24:58] INFO root fetch - processPackages [windpyutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windpyutils-2.0.8.tar.gz tmp/windpyutils-2.0.9.tar.gz --markdown 20230512/w/windpyutils/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-05-12 13:24:58] INFO root fetch - main [MainThread]: End processing [vtece4564-gamelib]: success
+[2023-05-12 13:24:58] INFO root fetch - main [MainThread]: End processing [zivid]: success
+[2023-05-12 13:24:59] INFO root fetch - main [MainThread]: End processing [torchtnt-nightly]: success
+[2023-05-12 13:24:59] INFO root fetch - main [MainThread]: End processing [carefree-creator]: success
+[2023-05-12 13:24:59] INFO root fetch - main [MainThread]: End processing [samna]: success
+[2023-05-12 13:24:59] INFO root fetch - main [MainThread]: End processing [carefree-learn]: success
+[2023-05-12 13:24:59] INFO root fetch - main [MainThread]: End processing [windpyutils]: success
+[2023-05-12 13:24:59] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
+[2023-05-12 13:25:00] INFO root fetch - main [MainThread]: End processing [cubed]: success
+[2023-05-12 13:25:00] INFO root fetch - main [MainThread]: Store serial: [18077216]
