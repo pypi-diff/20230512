@@ -19634,3 +19634,77 @@ EOFError: EOF read where object expected
 [2023-05-12 22:21:10] INFO root fetch - main [MainThread]: End processing [aim]: success
 [2023-05-12 22:21:14] INFO root fetch - main [MainThread]: End processing [vspk]: success
 [2023-05-12 22:21:14] INFO root fetch - main [MainThread]: Store serial: [18083699]
+[2023-05-12 22:26:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18083699]
+[2023-05-12 22:26:24] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-12 22:26:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spanishconjugator
+[2023-05-12 22:26:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dict-toolbox
+[2023-05-12 22:26:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PatryksAutoAI
+[2023-05-12 22:26:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: downstream-fairness
+[2023-05-12 22:26:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alldebrid.py
+[2023-05-12 22:26:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: napari-LF
+[2023-05-12 22:26:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sca-rhythm
+[2023-05-12 22:26:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: shoulder
+[2023-05-12 22:26:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bt-test-interfaces
+[2023-05-12 22:26:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: DSMLTF
+[2023-05-12 22:26:24] INFO root fetch - processPackages [downstream-fairness]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-12 22:26:24] WARNING root fetch - processPackages [bt-test-interfaces]: Skipping, unable to determine old version
+[2023-05-12 22:26:24] INFO root fetch - processPackages [bt-test-interfaces]: Start processing: dash-connectivity-viewer
+[2023-05-12 22:26:24] INFO root fetch - main [MainThread]: End processing [bt-test-interfaces] error
+[2023-05-12 22:26:24] INFO root fetch - processPackages [dict-toolbox]: New version: [3.1.1] Old Version: [3.1.0]
+[2023-05-12 22:26:24] INFO root fetch - processPackages [alldebrid.py]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-12 22:26:24] INFO root fetch - processPackages [sca-rhythm]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-05-12 22:26:24] INFO root fetch - processPackages [PatryksAutoAI]: New version: [0.4.0] Old Version: [0.3.9]
+[2023-05-12 22:26:24] INFO root fetch - processPackages [shoulder]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-12 22:26:24] INFO root fetch - processPackages [napari-LF]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-12 22:26:24] WARNING root fetch - processPackages [DSMLTF]: Skipping, unable to determine old version
+[2023-05-12 22:26:24] INFO root fetch - processPackages [DSMLTF]: Start processing: latch
+[2023-05-12 22:26:24] INFO root fetch - main [MainThread]: End processing [DSMLTF] error
+[2023-05-12 22:26:24] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-05-12 22:26:24] INFO root fetch - processPackages [dash-connectivity-viewer]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-05-12 22:26:24] INFO root fetch - processPackages [latch]: New version: [2.9.6] Old Version: [2.9.5]
+[2023-05-12 22:26:24] INFO root fetch - processPackages [sca-rhythm]: Downloading https://files.pythonhosted.org/packages/13/ce/073245a084dfecc60050d687ef62682de583d11c2add62365bcc7bdc2f41/sca_rhythm-0.4.4.tar.gz
+[2023-05-12 22:26:24] INFO root fetch - processPackages [downstream-fairness]: Downloading https://files.pythonhosted.org/packages/c4/47/22561cb9bbc4db1fdba8da30b10e3e6a9797009de3f9781bdf9883089150/downstream_fairness-0.1.1.tar.gz
+[2023-05-12 22:26:24] INFO root fetch - processPackages [alldebrid.py]: Downloading https://files.pythonhosted.org/packages/e4/b6/f94a18915323a55aacae3e31f860bfa9bcded8bd9c71d63e8c092057facc/alldebrid.py-1.0.5.tar.gz
+[2023-05-12 22:26:24] INFO root fetch - processPackages [dict-toolbox]: Downloading https://files.pythonhosted.org/packages/14/33/1a86228eceb6563ebbdcce3dc0868b7b25989e6db509ef136d1b6c60e264/dict-toolbox-3.1.0.tar.gz
+[2023-05-12 22:26:24] INFO root fetch - processPackages [shoulder]: Downloading https://files.pythonhosted.org/packages/a3/1d/35d5e98a9bc1c4456b2e7e2a4d0145f5caae69b8531da0b00fc5852dda69/shoulder-1.0.4.tar.gz
+[2023-05-12 22:26:24] INFO root fetch - processPackages [napari-LF]: Downloading https://files.pythonhosted.org/packages/63/e0/eaea93169b8dee86d21c09b7f665e8b69f88b8df4a1a35d321d3fdb3bb58/napari-LF-0.1.5.tar.gz
+[2023-05-12 22:26:24] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/8c/20/3f2e578860db766c6807cb0111c9f9e20887265a4f1f4938b53173e58f33/PatryksAutoAI-0.4.0.tar.gz
+[2023-05-12 22:26:24] WARNING root fetch - processPackages [napari-LF]: Skipping package: exceeds size limit 28810422>=10485760
+[2023-05-12 22:26:24] INFO root fetch - processPackages [napari-LF]: Start processing: ruff-lsp
+[2023-05-12 22:26:24] INFO root fetch - main [MainThread]: End processing [napari-LF] error
+[2023-05-12 22:26:24] INFO root fetch - processPackages [ruff-lsp]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 22:26:24] INFO root fetch - processPackages [alldebrid.py]: executing diffoscope
+[2023-05-12 22:26:24] INFO root fetch - processPackages [alldebrid.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alldebrid.py-1.0.4.tar.gz tmp/alldebrid.py-1.0.5.tar.gz --markdown 20230512/a/alldebrid.py/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-12 22:26:24] INFO root fetch - processPackages [PatryksAutoAI]: executing diffoscope
+[2023-05-12 22:26:24] INFO root fetch - processPackages [PatryksAutoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PatryksAutoAI-0.3.9.tar.gz tmp/PatryksAutoAI-0.4.0.tar.gz --markdown 20230512/P/PatryksAutoAI/0.3.9-0.4.0/diff.md --exclude *.pyd
+[2023-05-12 22:26:24] INFO root fetch - processPackages [dash-connectivity-viewer]: Downloading https://files.pythonhosted.org/packages/ba/d5/55a2558da3a58ddf8e0872ef194eb3c7e1bba76ff84dd709cf09f7446b2a/dash-connectivity-viewer-2.0.0.tar.gz
+[2023-05-12 22:26:24] INFO root fetch - processPackages [downstream-fairness]: executing diffoscope
+[2023-05-12 22:26:24] INFO root fetch - processPackages [downstream-fairness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/downstream_fairness-0.1.0.tar.gz tmp/downstream_fairness-0.1.1.tar.gz --markdown 20230512/d/downstream-fairness/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-12 22:26:24] INFO root fetch - processPackages [shoulder]: executing diffoscope
+[2023-05-12 22:26:24] INFO root fetch - processPackages [shoulder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shoulder-1.0.3.tar.gz tmp/shoulder-1.0.4.tar.gz --markdown 20230512/s/shoulder/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-12 22:26:24] INFO root fetch - processPackages [ruff-lsp]: executing diffoscope
+[2023-05-12 22:26:24] INFO root fetch - processPackages [ruff-lsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ruff-lsp-0.0.8.tar.gz tmp/ruff-lsp-0.0.9.tar.gz --markdown 20230512/r/ruff-lsp/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 22:26:24] INFO root fetch - processPackages [dict-toolbox]: Downloading https://files.pythonhosted.org/packages/0a/58/379d697c9bf33b30bba6e5f427f391b5e4bfbb6efe0c6eef942202412773/dict-toolbox-3.1.1.tar.gz
+[2023-05-12 22:26:24] INFO root fetch - processPackages [sca-rhythm]: Downloading https://files.pythonhosted.org/packages/4a/17/06e8412727024b89408facf9bada0fd918819502a6a571e974aa323fc552/sca_rhythm-0.4.5.tar.gz
+[2023-05-12 22:26:24] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-05-12 22:26:24] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230512/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-05-12 22:26:25] INFO root fetch - processPackages [latch]: executing diffoscope
+[2023-05-12 22:26:25] INFO root fetch - processPackages [latch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latch-2.9.5.tar.gz tmp/latch-2.9.6.tar.gz --markdown 20230512/l/latch/2.9.5-2.9.6/diff.md --exclude *.pyd
+[2023-05-12 22:26:25] INFO root fetch - processPackages [dash-connectivity-viewer]: Downloading https://files.pythonhosted.org/packages/0c/a8/955a5ffc5496b94ad8138d8d5c506cf0e7ecdc407dc95b9cd01b6d9e7ddf/dash-connectivity-viewer-2.0.1.tar.gz
+[2023-05-12 22:26:25] INFO root fetch - processPackages [dict-toolbox]: executing diffoscope
+[2023-05-12 22:26:25] INFO root fetch - processPackages [dict-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dict-toolbox-3.1.0.tar.gz tmp/dict-toolbox-3.1.1.tar.gz --markdown 20230512/d/dict-toolbox/3.1.0-3.1.1/diff.md --exclude *.pyd
+[2023-05-12 22:26:25] INFO root fetch - processPackages [sca-rhythm]: executing diffoscope
+[2023-05-12 22:26:25] INFO root fetch - processPackages [sca-rhythm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sca_rhythm-0.4.4.tar.gz tmp/sca_rhythm-0.4.5.tar.gz --markdown 20230512/s/sca-rhythm/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-05-12 22:26:25] INFO root fetch - processPackages [dash-connectivity-viewer]: executing diffoscope
+[2023-05-12 22:26:25] INFO root fetch - processPackages [dash-connectivity-viewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dash-connectivity-viewer-2.0.0.tar.gz tmp/dash-connectivity-viewer-2.0.1.tar.gz --markdown 20230512/d/dash-connectivity-viewer/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-05-12 22:26:26] INFO root fetch - main [MainThread]: End processing [alldebrid.py]: success
+[2023-05-12 22:26:26] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
+[2023-05-12 22:26:26] INFO root fetch - main [MainThread]: End processing [downstream-fairness]: success
+[2023-05-12 22:26:26] INFO root fetch - main [MainThread]: End processing [shoulder]: success
+[2023-05-12 22:26:26] INFO root fetch - main [MainThread]: End processing [ruff-lsp]: success
+[2023-05-12 22:26:27] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-05-12 22:26:27] INFO root fetch - main [MainThread]: End processing [sca-rhythm]: success
+[2023-05-12 22:26:27] INFO root fetch - main [MainThread]: End processing [latch]: success
+[2023-05-12 22:26:27] INFO root fetch - main [MainThread]: End processing [dict-toolbox]: success
+[2023-05-12 22:26:27] INFO root fetch - main [MainThread]: End processing [dash-connectivity-viewer]: success
+[2023-05-12 22:26:27] INFO root fetch - main [MainThread]: Store serial: [18083744]
