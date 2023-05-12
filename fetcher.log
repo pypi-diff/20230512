@@ -7267,3 +7267,152 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-12 10:33:20] INFO root fetch - main [MainThread]: End processing [capellambse]: success
 [2023-05-12 10:33:47] INFO root fetch - main [MainThread]: End processing [hubspot-api-client]: success
 [2023-05-12 10:33:47] INFO root fetch - main [MainThread]: Store serial: [18075383]
+[2023-05-12 10:38:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18075383]
+[2023-05-12 10:38:56] INFO root fetch - main [MainThread]: Found 26 changed packages
+[2023-05-12 10:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hubspot-api-client
+[2023-05-12 10:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odap-qi
+[2023-05-12 10:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: auto-snorkel
+[2023-05-12 10:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pm-food-lib
+[2023-05-12 10:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pool-resources
+[2023-05-12 10:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nonebot-plugin-arcaeabot
+[2023-05-12 10:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: testit-adapter-nose
+[2023-05-12 10:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: testit-adapter-pytest
+[2023-05-12 10:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: testit-python-commons
+[2023-05-12 10:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: testit-adapter-robotframework
+[2023-05-12 10:38:56] WARNING root fetch - processPackages [pool-resources]: Skipping, unable to determine old version
+[2023-05-12 10:38:56] INFO root fetch - processPackages [pool-resources]: Start processing: testit-adapter-behave
+[2023-05-12 10:38:56] INFO root fetch - main [MainThread]: End processing [pool-resources] error
+[2023-05-12 10:38:56] WARNING root fetch - processPackages [odap-qi]: Skipping, unable to determine old version
+[2023-05-12 10:38:56] INFO root fetch - processPackages [odap-qi]: Start processing: desktop-notifier
+[2023-05-12 10:38:56] INFO root fetch - main [MainThread]: End processing [odap-qi] error
+[2023-05-12 10:38:56] INFO root fetch - processPackages [nonebot-plugin-arcaeabot]: New version: [3.1.9] Old Version: [3.1.7]
+[2023-05-12 10:38:56] INFO root fetch - processPackages [hubspot-api-client]: New version: [8.0.0b5] Old Version: [8.0.0b4]
+[2023-05-12 10:38:56] INFO root fetch - processPackages [testit-adapter-robotframework]: New version: [2.1.8] Old Version: [2.1.7]
+[2023-05-12 10:38:56] WARNING root fetch - processPackages [auto-snorkel]: Skipping, unable to determine old version
+[2023-05-12 10:38:56] INFO root fetch - processPackages [testit-adapter-pytest]: New version: [2.1.8] Old Version: [2.1.7]
+[2023-05-12 10:38:56] INFO root fetch - processPackages [auto-snorkel]: Start processing: khhhhastetbvufowb25
+[2023-05-12 10:38:56] INFO root fetch - main [MainThread]: End processing [auto-snorkel] error
+[2023-05-12 10:38:56] INFO root fetch - processPackages [testit-python-commons]: New version: [2.1.8] Old Version: [2.1.7]
+[2023-05-12 10:38:56] INFO root fetch - processPackages [desktop-notifier]: New version: [3.5.3] Old Version: [3.5.2]
+[2023-05-12 10:38:56] INFO root fetch - processPackages [pm-food-lib]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-05-12 10:38:56] INFO root fetch - processPackages [testit-adapter-nose]: New version: [2.1.8] Old Version: [2.1.7]
+[2023-05-12 10:38:56] INFO root fetch - processPackages [testit-adapter-behave]: New version: [2.1.8] Old Version: [2.1.7]
+[2023-05-12 10:38:56] WARNING root fetch - processPackages [khhhhastetbvufowb25]: Skipping, unable to determine old version
+[2023-05-12 10:38:56] INFO root fetch - processPackages [khhhhastetbvufowb25]: Start processing: pandas-llm
+[2023-05-12 10:38:56] INFO root fetch - main [MainThread]: End processing [khhhhastetbvufowb25] error
+[2023-05-12 10:38:56] WARNING root fetch - processPackages [pandas-llm]: Skipping, unable to determine old version
+[2023-05-12 10:38:56] INFO root fetch - processPackages [pandas-llm]: Start processing: fast-bf
+[2023-05-12 10:38:56] INFO root fetch - main [MainThread]: End processing [pandas-llm] error
+[2023-05-12 10:38:56] INFO root fetch - processPackages [fast-bf]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-12 10:38:56] INFO root fetch - processPackages [testit-adapter-robotframework]: Downloading https://files.pythonhosted.org/packages/56/29/7d6e4b34d75f929eb3e76ebf3119b415cf4dedcde8e07caf2c809c98b685/testit-adapter-robotframework-2.1.7.tar.gz
+[2023-05-12 10:38:56] INFO root fetch - processPackages [testit-adapter-pytest]: Downloading https://files.pythonhosted.org/packages/66/59/57dc68a65e8050ff19607a78478919d3036d6df936a64403a1e8c4a9dd7b/testit-adapter-pytest-2.1.7.tar.gz
+[2023-05-12 10:38:56] INFO root fetch - processPackages [testit-adapter-nose]: Downloading https://files.pythonhosted.org/packages/72/05/4b5e79e767eebc4e9e4e35b9737969228978fc6d32cdb83e857432aab1ce/testit-adapter-nose-2.1.7.tar.gz
+[2023-05-12 10:38:56] INFO root fetch - processPackages [testit-python-commons]: Downloading https://files.pythonhosted.org/packages/14/3a/6e83830f00c8e5c3f75f3e31210fc3ddb987d39ad5db92cb9ef37c722b00/testit-python-commons-2.1.7.tar.gz
+[2023-05-12 10:38:56] INFO root fetch - processPackages [testit-adapter-behave]: Downloading https://files.pythonhosted.org/packages/d8/99/c7aa0bf425b8a4046dd65c5d3ce0e0358ddb97d43f15eae186e5a6307b05/testit-adapter-behave-2.1.7.tar.gz
+[2023-05-12 10:38:56] INFO root fetch - processPackages [nonebot-plugin-arcaeabot]: Downloading https://files.pythonhosted.org/packages/45/70/e66fdf34eb1c5cd335f0a7a6ed5d0796b64a9212f42ce8e33aa299929001/nonebot_plugin_arcaeabot-3.1.7.tar.gz
+[2023-05-12 10:38:56] INFO root fetch - processPackages [pm-food-lib]: Downloading https://files.pythonhosted.org/packages/a7/ca/f34321b5ac2ab23c047cad60d75e1df62cddc3ea3aad8473a99e8c409a38/pm_food_lib-0.2.6.tar.gz
+[2023-05-12 10:38:56] INFO root fetch - processPackages [fast-bf]: Downloading https://files.pythonhosted.org/packages/9e/b9/9c0cc9212fd5bffbfacbbb1d9df0d2e0f1bd4fe52517f31cdcfc920ba078/fast-bf-1.0.0.tar.gz
+[2023-05-12 10:38:56] INFO root fetch - processPackages [desktop-notifier]: Downloading https://files.pythonhosted.org/packages/54/0c/bac4ba22505cf808e2b71df77a409e4c854dd98b9f0bfe5aa9a21db5f484/desktop-notifier-3.5.2.tar.gz
+[2023-05-12 10:38:56] INFO root fetch - processPackages [pm-food-lib]: executing diffoscope
+[2023-05-12 10:38:56] INFO root fetch - processPackages [pm-food-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pm_food_lib-0.2.5.tar.gz tmp/pm_food_lib-0.2.6.tar.gz --markdown 20230512/p/pm-food-lib/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-05-12 10:38:56] INFO root fetch - processPackages [hubspot-api-client]: Downloading https://files.pythonhosted.org/packages/ff/67/f7319c578c2c192bfe491510169acc8c6d27d5b6c03ab473ceff4b1b43e7/hubspot-api-client-8.0.0b5.tar.gz
+[2023-05-12 10:38:57] INFO root fetch - processPackages [testit-adapter-robotframework]: Downloading https://files.pythonhosted.org/packages/fd/e7/403e9826ce99ec895d09b1d8f19c017f7c787c7df4a336517f91bb668252/testit-adapter-robotframework-2.1.8.tar.gz
+[2023-05-12 10:38:57] INFO root fetch - processPackages [testit-adapter-pytest]: Downloading https://files.pythonhosted.org/packages/cf/5f/ecb43e327b3230bdcdef0f85f14b557bf1b29ce5b1238c284ead11ebf97f/testit-adapter-pytest-2.1.8.tar.gz
+[2023-05-12 10:38:57] INFO root fetch - processPackages [testit-adapter-nose]: Downloading https://files.pythonhosted.org/packages/75/3e/aaf8b7d2d666c03260b8e750c40f6afb829aea5be1ab21cc6e06ea902978/testit-adapter-nose-2.1.8.tar.gz
+[2023-05-12 10:38:57] INFO root fetch - processPackages [fast-bf]: Downloading https://files.pythonhosted.org/packages/d8/c4/24473bf0758a35c95b984db801eb9332aec4402383c493a1f00a603f81a3/fast-bf-1.0.1.tar.gz
+[2023-05-12 10:38:57] INFO root fetch - processPackages [desktop-notifier]: Downloading https://files.pythonhosted.org/packages/1d/c3/f78ac7f1a3a40572f0c97725ac50a5e2d0679f118b015d416186de87286c/desktop-notifier-3.5.3.tar.gz
+[2023-05-12 10:38:57] INFO root fetch - processPackages [testit-adapter-behave]: Downloading https://files.pythonhosted.org/packages/26/83/d6e753f5a7bcd3fa4d9db78484d0b4bbe7c3b6da7b4aa5d2a03f723a1ab6/testit-adapter-behave-2.1.8.tar.gz
+[2023-05-12 10:38:57] INFO root fetch - processPackages [testit-adapter-robotframework]: executing diffoscope
+[2023-05-12 10:38:57] INFO root fetch - processPackages [testit-adapter-robotframework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testit-adapter-robotframework-2.1.7.tar.gz tmp/testit-adapter-robotframework-2.1.8.tar.gz --markdown 20230512/t/testit-adapter-robotframework/2.1.7-2.1.8/diff.md --exclude *.pyd
+[2023-05-12 10:38:57] INFO root fetch - processPackages [testit-python-commons]: Downloading https://files.pythonhosted.org/packages/70/3e/c7b8e8ee87b41633ec58668976ea9060c2db0fa9779d9f83ee5e366d0f3a/testit-python-commons-2.1.8.tar.gz
+[2023-05-12 10:38:57] INFO root fetch - processPackages [testit-adapter-pytest]: executing diffoscope
+[2023-05-12 10:38:57] INFO root fetch - processPackages [testit-adapter-pytest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testit-adapter-pytest-2.1.7.tar.gz tmp/testit-adapter-pytest-2.1.8.tar.gz --markdown 20230512/t/testit-adapter-pytest/2.1.7-2.1.8/diff.md --exclude *.pyd
+[2023-05-12 10:38:57] INFO root fetch - processPackages [fast-bf]: executing diffoscope
+[2023-05-12 10:38:57] INFO root fetch - processPackages [fast-bf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast-bf-1.0.0.tar.gz tmp/fast-bf-1.0.1.tar.gz --markdown 20230512/f/fast-bf/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-12 10:38:57] INFO root fetch - processPackages [desktop-notifier]: executing diffoscope
+[2023-05-12 10:38:57] INFO root fetch - processPackages [desktop-notifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/desktop-notifier-3.5.2.tar.gz tmp/desktop-notifier-3.5.3.tar.gz --markdown 20230512/d/desktop-notifier/3.5.2-3.5.3/diff.md --exclude *.pyd
+[2023-05-12 10:38:57] INFO root fetch - processPackages [testit-adapter-nose]: executing diffoscope
+[2023-05-12 10:38:57] INFO root fetch - processPackages [testit-adapter-nose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testit-adapter-nose-2.1.7.tar.gz tmp/testit-adapter-nose-2.1.8.tar.gz --markdown 20230512/t/testit-adapter-nose/2.1.7-2.1.8/diff.md --exclude *.pyd
+[2023-05-12 10:38:57] INFO root fetch - processPackages [testit-adapter-behave]: executing diffoscope
+[2023-05-12 10:38:57] INFO root fetch - processPackages [testit-adapter-behave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testit-adapter-behave-2.1.7.tar.gz tmp/testit-adapter-behave-2.1.8.tar.gz --markdown 20230512/t/testit-adapter-behave/2.1.7-2.1.8/diff.md --exclude *.pyd
+[2023-05-12 10:38:57] INFO root fetch - processPackages [testit-python-commons]: executing diffoscope
+[2023-05-12 10:38:57] INFO root fetch - processPackages [testit-python-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testit-python-commons-2.1.7.tar.gz tmp/testit-python-commons-2.1.8.tar.gz --markdown 20230512/t/testit-python-commons/2.1.7-2.1.8/diff.md --exclude *.pyd
+[2023-05-12 10:38:57] INFO root fetch - processPackages [hubspot-api-client]: executing diffoscope
+[2023-05-12 10:38:57] INFO root fetch - processPackages [hubspot-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hubspot-api-client-8.0.0b4.tar.gz tmp/hubspot-api-client-8.0.0b5.tar.gz --markdown 20230512/h/hubspot-api-client/8.0.0b4-8.0.0b5/diff.md --exclude *.pyd
+[2023-05-12 10:38:57] WARNING root fetch - processPackages [nonebot-plugin-arcaeabot]: Skipping package: exceeds size limit 20780877>=10485760
+[2023-05-12 10:38:57] INFO root fetch - processPackages [nonebot-plugin-arcaeabot]: Start processing: stylo-metrix
+[2023-05-12 10:38:57] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-arcaeabot] error
+[2023-05-12 10:38:57] INFO root fetch - processPackages [stylo-metrix]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-12 10:38:57] INFO root fetch - processPackages [stylo-metrix]: Downloading https://files.pythonhosted.org/packages/f7/a1/132d5a9b2993cfcb26266306a65fdad8c7bb33eb53dadc88b4d0b0e2868d/stylo_metrix-0.1.3.tar.gz
+[2023-05-12 10:38:57] INFO root fetch - processPackages [stylo-metrix]: executing diffoscope
+[2023-05-12 10:38:57] INFO root fetch - processPackages [stylo-metrix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stylo_metrix-0.1.2.tar.gz tmp/stylo_metrix-0.1.3.tar.gz --markdown 20230512/s/stylo-metrix/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-12 10:38:58] INFO root fetch - processPackages [fast-bf]: Start processing: arclet-alconna
+[2023-05-12 10:38:58] INFO root fetch - main [MainThread]: End processing [fast-bf]: success
+[2023-05-12 10:38:58] INFO root fetch - processPackages [pm-food-lib]: Start processing: azure-ml-component
+[2023-05-12 10:38:58] INFO root fetch - main [MainThread]: End processing [pm-food-lib]: success
+[2023-05-12 10:38:58] INFO root fetch - processPackages [arclet-alconna]: New version: [1.7.1] Old Version: [1.7.0rc7]
+[2023-05-12 10:38:58] INFO root fetch - processPackages [azure-ml-component]: New version: [0.9.9.post3] Old Version: [0.9.9.post2]
+[2023-05-12 10:38:58] INFO root fetch - processPackages [testit-adapter-nose]: Start processing: microcosm-flask
+[2023-05-12 10:38:58] INFO root fetch - main [MainThread]: End processing [testit-adapter-nose]: success
+[2023-05-12 10:38:58] INFO root fetch - processPackages [testit-adapter-robotframework]: Start processing: azureml-pipeline-wrapper
+[2023-05-12 10:38:58] INFO root fetch - main [MainThread]: End processing [testit-adapter-robotframework]: success
+[2023-05-12 10:38:58] INFO root fetch - processPackages [microcosm-flask]: New version: [4.1.3] Old Version: [4.1.1]
+[2023-05-12 10:38:58] INFO root fetch - processPackages [azureml-pipeline-wrapper]: New version: [0.9.9.post3] Old Version: [0.9.9.post2]
+[2023-05-12 10:38:59] INFO root fetch - processPackages [arclet-alconna]: Downloading https://files.pythonhosted.org/packages/2e/5b/6d8c35c244e9f1c2ef9292f550f282ab68e3c1d01ae707c7910b847694c8/arclet-alconna-1.7.1.tar.gz
+[2023-05-12 10:38:59] INFO root fetch - processPackages [arclet-alconna]: executing diffoscope
+[2023-05-12 10:38:59] INFO root fetch - processPackages [arclet-alconna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arclet-alconna-1.7.0rc7.tar.gz tmp/arclet-alconna-1.7.1.tar.gz --markdown 20230512/a/arclet-alconna/1.7.0rc7-1.7.1/diff.md --exclude *.pyd
+[2023-05-12 10:38:59] INFO root fetch - processPackages [azure-ml-component]: executing diffoscope
+[2023-05-12 10:38:59] INFO root fetch - processPackages [azure-ml-component]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure_ml_component-0.9.9.post2-py3-none-any.whl.zip tmp/azure_ml_component-0.9.9.post3-py3-none-any.whl.zip --markdown 20230512/a/azure-ml-component/0.9.9.post2-0.9.9.post3/diff.md --exclude *.pyd
+[2023-05-12 10:38:59] INFO root fetch - processPackages [microcosm-flask]: Downloading https://files.pythonhosted.org/packages/de/59/1ef11182a18deff6486bf2e6a0bf9e1ac1d71bf0ea77b9fcead832bf923b/microcosm-flask-4.1.1.tar.gz
+[2023-05-12 10:38:59] INFO root fetch - processPackages [testit-adapter-behave]: Start processing: tf-estimator-nightly
+[2023-05-12 10:38:59] INFO root fetch - main [MainThread]: End processing [testit-adapter-behave]: success
+[2023-05-12 10:38:59] INFO root fetch - processPackages [testit-adapter-pytest]: Start processing: chython
+[2023-05-12 10:38:59] INFO root fetch - main [MainThread]: End processing [testit-adapter-pytest]: success
+[2023-05-12 10:38:59] INFO root fetch - processPackages [tf-estimator-nightly]: New version: [2.9.0.dev2022033108] Old Version: [2.9.0.dev2022033008]
+[2023-05-12 10:38:59] INFO root fetch - processPackages [chython]: New version: [1.8] Old Version: [1.64]
+[2023-05-12 10:38:59] INFO root fetch - processPackages [tf-estimator-nightly]: executing diffoscope
+[2023-05-12 10:38:59] INFO root fetch - processPackages [tf-estimator-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip --markdown 20230512/t/tf-estimator-nightly/2.9.0.dev2022033008-2.9.0.dev2022033108/diff.md --exclude *.pyd
+[2023-05-12 10:38:59] INFO root fetch - processPackages [microcosm-flask]: Downloading https://files.pythonhosted.org/packages/1c/28/d7a12e5a9c6722aca74c8a3d192f8c3dc6e574cfdb6b375f7eef0b5c9a52/microcosm-flask-4.1.3.tar.gz
+[2023-05-12 10:38:59] INFO root fetch - processPackages [azureml-pipeline-wrapper]: executing diffoscope
+[2023-05-12 10:38:59] INFO root fetch - processPackages [azureml-pipeline-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_pipeline_wrapper-0.9.9.post2-py3-none-any.whl.zip tmp/azureml_pipeline_wrapper-0.9.9.post3-py3-none-any.whl.zip --markdown 20230512/a/azureml-pipeline-wrapper/0.9.9.post2-0.9.9.post3/diff.md --exclude *.pyd
+[2023-05-12 10:38:59] INFO root fetch - processPackages [testit-python-commons]: Start processing: gradiop
+[2023-05-12 10:38:59] INFO root fetch - main [MainThread]: End processing [testit-python-commons]: success
+[2023-05-12 10:38:59] INFO root fetch - processPackages [microcosm-flask]: executing diffoscope
+[2023-05-12 10:38:59] INFO root fetch - processPackages [microcosm-flask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microcosm-flask-4.1.1.tar.gz tmp/microcosm-flask-4.1.3.tar.gz --markdown 20230512/m/microcosm-flask/4.1.1-4.1.3/diff.md --exclude *.pyd
+[2023-05-12 10:38:59] INFO root fetch - processPackages [gradiop]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-12 10:38:59] INFO root fetch - processPackages [gradiop]: executing diffoscope
+[2023-05-12 10:38:59] INFO root fetch - processPackages [gradiop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gradiop-0.0.2.tar.gz tmp/gradiop-0.0.3.tar.gz --markdown 20230512/g/gradiop/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-12 10:38:59] INFO root fetch - processPackages [chython]: executing diffoscope
+[2023-05-12 10:38:59] INFO root fetch - processPackages [chython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chython-1.64.tar.gz tmp/chython-1.8.tar.gz --markdown 20230512/c/chython/1.64-1.8/diff.md --exclude *.pyd
+[2023-05-12 10:38:59] INFO root fetch - processPackages [stylo-metrix]: Start processing: specex
+[2023-05-12 10:38:59] INFO root fetch - main [MainThread]: End processing [stylo-metrix]: success
+[2023-05-12 10:38:59] INFO root fetch - processPackages [desktop-notifier]: Start processing: local-database-python-backend
+[2023-05-12 10:38:59] INFO root fetch - main [MainThread]: End processing [desktop-notifier]: success
+[2023-05-12 10:38:59] INFO root fetch - processPackages [specex]: New version: [0.6.3] Old Version: [0.6.1]
+[2023-05-12 10:38:59] INFO root fetch - processPackages [local-database-python-backend]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-12 10:38:59] INFO root fetch - processPackages [specex]: Downloading https://files.pythonhosted.org/packages/0d/37/8ae4c7f376cec98ba10a2ad94ac0d6be653ec6b1b5af24ad92b5e130ff55/specex-0.6.1.tar.gz
+[2023-05-12 10:38:59] INFO root fetch - processPackages [local-database-python-backend]: Downloading https://files.pythonhosted.org/packages/d5/c4/23c7cae3a70304f9adb031b5c9a8b776a2dc6e37a0da5881c540452f09a6/local-database-python-backend-0.0.5.tar.gz
+[2023-05-12 10:39:00] INFO root fetch - processPackages [specex]: Downloading https://files.pythonhosted.org/packages/3d/33/0669716ead83a192553d93e4af1fef32cb63ab0504298acf8bd3cfa488ec/specex-0.6.3.tar.gz
+[2023-05-12 10:39:00] INFO root fetch - processPackages [local-database-python-backend]: Downloading https://files.pythonhosted.org/packages/28/c9/f1a99a87a7bf602888c85dae81aa24ac3a0bdc9d08bc7d2a527b50a45636/local-database-python-backend-0.0.6.tar.gz
+[2023-05-12 10:39:00] INFO root fetch - processPackages [specex]: executing diffoscope
+[2023-05-12 10:39:00] INFO root fetch - processPackages [specex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/specex-0.6.1.tar.gz tmp/specex-0.6.3.tar.gz --markdown 20230512/s/specex/0.6.1-0.6.3/diff.md --exclude *.pyd
+[2023-05-12 10:39:00] INFO root fetch - processPackages [local-database-python-backend]: executing diffoscope
+[2023-05-12 10:39:00] INFO root fetch - processPackages [local-database-python-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/local-database-python-backend-0.0.5.tar.gz tmp/local-database-python-backend-0.0.6.tar.gz --markdown 20230512/l/local-database-python-backend/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-12 10:39:00] INFO root fetch - processPackages [arclet-alconna]: Start processing: symba
+[2023-05-12 10:39:00] INFO root fetch - main [MainThread]: End processing [arclet-alconna]: success
+[2023-05-12 10:39:01] INFO root fetch - main [MainThread]: End processing [gradiop]: success
+[2023-05-12 10:39:01] INFO root fetch - main [MainThread]: End processing [azureml-pipeline-wrapper]: success
+[2023-05-12 10:39:01] INFO root fetch - processPackages [symba]: New version: [2.2.1] Old Version: [2.2.0]
+[2023-05-12 10:39:01] INFO root fetch - processPackages [symba]: Downloading https://files.pythonhosted.org/packages/12/47/b0ab50ff62a934705469d456f8611466a08f205593ad659c1e9514dbce7f/symba-2.2.0.tar.gz
+[2023-05-12 10:39:01] INFO root fetch - main [MainThread]: End processing [tf-estimator-nightly]: success
+[2023-05-12 10:39:01] INFO root fetch - processPackages [symba]: Downloading https://files.pythonhosted.org/packages/0b/44/c7ee0f513b65defed92820d1ec64e89fa8d7e9bbb3df03c679c38e8501cb/symba-2.2.1-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-12 10:39:01] INFO root fetch - main [MainThread]: End processing [local-database-python-backend]: success
+[2023-05-12 10:39:01] INFO root fetch - processPackages [symba]: executing diffoscope
+[2023-05-12 10:39:01] INFO root fetch - processPackages [symba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symba-2.2.0.tar.gz tmp/symba-2.2.1-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230512/s/symba/2.2.0-2.2.1/diff.md --exclude *.pyd
+[2023-05-12 10:39:02] INFO root fetch - main [MainThread]: End processing [azure-ml-component]: success
+[2023-05-12 10:39:02] INFO root fetch - main [MainThread]: End processing [specex]: success
+[2023-05-12 10:39:02] INFO root fetch - main [MainThread]: End processing [microcosm-flask]: success
+[2023-05-12 10:39:02] INFO root fetch - main [MainThread]: End processing [symba]: success
+[2023-05-12 10:39:06] INFO root fetch - main [MainThread]: End processing [chython]: success
+[2023-05-12 10:39:31] INFO root fetch - main [MainThread]: End processing [hubspot-api-client]: success
+[2023-05-12 10:39:31] INFO root fetch - main [MainThread]: Store serial: [18075470]
