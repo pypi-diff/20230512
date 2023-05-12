@@ -1995,3 +1995,25 @@
 [2023-05-12 03:19:44] INFO root fetch - main [MainThread]: End processing [eyes-soatra]: success
 [2023-05-12 03:19:56] INFO root fetch - main [MainThread]: End processing [vspk]: success
 [2023-05-12 03:19:56] INFO root fetch - main [MainThread]: Store serial: [18071794]
+[2023-05-12 03:25:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18071794]
+[2023-05-12 03:25:05] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-05-12 03:25:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scotthsieh-projen-statemachine
+[2023-05-12 03:25:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: semterm
+[2023-05-12 03:25:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: baseten
+[2023-05-12 03:25:05] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-12 03:25:05] INFO root fetch - processPackages [baseten]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-05-12 03:25:05] INFO root fetch - processPackages [semterm]: New version: [0.3.0] Old Version: [0.2.3]
+[2023-05-12 03:25:05] INFO root fetch - processPackages [baseten]: Downloading https://files.pythonhosted.org/packages/b4/65/b8af36421167d74ebc51df51130eb88b81e25dcc2d1014e7f9b30b57d8fc/baseten-0.6.0.tar.gz
+[2023-05-12 03:25:05] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: executing diffoscope
+[2023-05-12 03:25:05] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scotthsieh_projen_statemachine-2.0.98.tar.gz tmp/scotthsieh_projen_statemachine-2.0.99.tar.gz --markdown 20230512/s/scotthsieh-projen-statemachine/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-12 03:25:05] INFO root fetch - processPackages [semterm]: Downloading https://files.pythonhosted.org/packages/81/51/e03e19867c60410407640d82d6e79543495d117605398480fe23a468bbf9/semterm-0.2.3.tar.gz
+[2023-05-12 03:25:05] INFO root fetch - processPackages [semterm]: Downloading https://files.pythonhosted.org/packages/4b/76/aa26c233029f0a3b8f852502a50ce1dc6fc6d4d0e117df11530b49a72348/semterm-0.3.0-py3-none-any.whl
+[2023-05-12 03:25:05] INFO root fetch - processPackages [baseten]: Downloading https://files.pythonhosted.org/packages/15/e9/3fec5b23db3ebddbf96baa238cb95857c5bdb8b8899e1912ebc763c849e9/baseten-0.6.1.tar.gz
+[2023-05-12 03:25:06] INFO root fetch - processPackages [baseten]: executing diffoscope
+[2023-05-12 03:25:06] INFO root fetch - processPackages [baseten]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baseten-0.6.0.tar.gz tmp/baseten-0.6.1.tar.gz --markdown 20230512/b/baseten/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-05-12 03:25:06] INFO root fetch - processPackages [semterm]: executing diffoscope
+[2023-05-12 03:25:06] INFO root fetch - processPackages [semterm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semterm-0.2.3.tar.gz tmp/semterm-0.3.0-py3-none-any.whl.zip --markdown 20230512/s/semterm/0.2.3-0.3.0/diff.md --exclude *.pyd
+[2023-05-12 03:25:06] INFO root fetch - main [MainThread]: End processing [scotthsieh-projen-statemachine]: success
+[2023-05-12 03:25:07] INFO root fetch - main [MainThread]: End processing [semterm]: success
+[2023-05-12 03:25:07] INFO root fetch - main [MainThread]: End processing [baseten]: success
+[2023-05-12 03:25:07] INFO root fetch - main [MainThread]: Store serial: [18071825]
