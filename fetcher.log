@@ -7162,3 +7162,108 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-12 10:27:54] INFO root fetch - main [MainThread]: End processing [capellambse]: success
 [2023-05-12 10:28:01] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
 [2023-05-12 10:28:01] INFO root fetch - main [MainThread]: Store serial: [18075320]
+[2023-05-12 10:33:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18075320]
+[2023-05-12 10:33:12] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-12 10:33:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: azure-mgmt-machinelearningservices
+[2023-05-12 10:33:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mmcb-avt
+[2023-05-12 10:33:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: capellambse
+[2023-05-12 10:33:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fastel
+[2023-05-12 10:33:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ykenan-fragments
+[2023-05-12 10:33:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gradiop
+[2023-05-12 10:33:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: triglav
+[2023-05-12 10:33:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pvai
+[2023-05-12 10:33:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nlptest
+[2023-05-12 10:33:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fastramqpi
+[2023-05-12 10:33:12] INFO root fetch - processPackages [mmcb-avt]: New version: [0.0.86] Old Version: [0.0.85]
+[2023-05-12 10:33:12] INFO root fetch - processPackages [azure-mgmt-machinelearningservices]: New version: [2.0.0b2] Old Version: [2.0.0b1]
+[2023-05-12 10:33:12] INFO root fetch - processPackages [ykenan-fragments]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-12 10:33:12] WARNING root fetch - processPackages [triglav]: Skipping, unable to determine old version
+[2023-05-12 10:33:12] INFO root fetch - processPackages [triglav]: Start processing: osm-bot-abstraction-layer
+[2023-05-12 10:33:12] INFO root fetch - processPackages [gradiop]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-12 10:33:12] INFO root fetch - main [MainThread]: End processing [triglav] error
+[2023-05-12 10:33:12] WARNING root fetch - processPackages [pvai]: Skipping, unable to determine old version
+[2023-05-12 10:33:12] INFO root fetch - processPackages [nlptest]: New version: [1.2.0rc2] Old Version: [1.2.0rc1]
+[2023-05-12 10:33:12] INFO root fetch - processPackages [pvai]: Start processing: seven-cloudapp-frame
+[2023-05-12 10:33:12] INFO root fetch - main [MainThread]: End processing [pvai] error
+[2023-05-12 10:33:12] INFO root fetch - processPackages [capellambse]: New version: [0.5.9.dev5] Old Version: [0.5.9]
+[2023-05-12 10:33:12] INFO root fetch - processPackages [fastramqpi]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-05-12 10:33:12] INFO root fetch - processPackages [fastel]: New version: [2.7.9] Old Version: [2.7.8]
+[2023-05-12 10:33:12] INFO root fetch - processPackages [osm-bot-abstraction-layer]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 10:33:12] INFO root fetch - processPackages [seven-cloudapp-frame]: New version: [1.0.9.9] Old Version: [1.0.9.8]
+[2023-05-12 10:33:12] INFO root fetch - processPackages [capellambse]: executing diffoscope
+[2023-05-12 10:33:12] INFO root fetch - processPackages [capellambse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capellambse-0.5.9.tar.gz tmp/capellambse-0.5.9.dev5.tar.gz --markdown 20230512/c/capellambse/0.5.9-0.5.9.dev5/diff.md --exclude *.pyd
+[2023-05-12 10:33:12] INFO root fetch - processPackages [fastel]: executing diffoscope
+[2023-05-12 10:33:12] INFO root fetch - processPackages [fastel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastel-2.7.8.tar.gz tmp/fastel-2.7.9.tar.gz --markdown 20230512/f/fastel/2.7.8-2.7.9/diff.md --exclude *.pyd
+[2023-05-12 10:33:12] INFO root fetch - processPackages [seven-cloudapp-frame]: executing diffoscope
+[2023-05-12 10:33:12] INFO root fetch - processPackages [seven-cloudapp-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_cloudapp_frame-1.0.9.8.tar.gz tmp/seven_cloudapp_frame-1.0.9.9.tar.gz --markdown 20230512/s/seven-cloudapp-frame/1.0.9.8-1.0.9.9/diff.md --exclude *.pyd
+[2023-05-12 10:33:12] INFO root fetch - processPackages [gradiop]: Downloading https://files.pythonhosted.org/packages/b7/e1/31869ac9bd82a3f3fd8eccf227e7c1b90b064775877615469aef6b2c18c4/gradiop-0.0.3.tar.gz
+[2023-05-12 10:33:12] INFO root fetch - processPackages [osm-bot-abstraction-layer]: Downloading https://files.pythonhosted.org/packages/ad/3f/0132c08a7517fb3228e9418c753525f96fdf288c7d55c83415e2363a71dc/osm_bot_abstraction_layer-0.0.8.tar.gz
+[2023-05-12 10:33:12] INFO root fetch - processPackages [fastramqpi]: Downloading https://files.pythonhosted.org/packages/a6/fc/dac02df48e4838b52853e6c00f7a2793140a461f9270697aed646b22b813/fastramqpi-1.4.0.tar.gz
+[2023-05-12 10:33:12] INFO root fetch - processPackages [mmcb-avt]: Downloading https://files.pythonhosted.org/packages/67/d0/805b22e4276f375e40604315ce08be34cc3d5c8f9cd647c65fe9c6c27662/mmcb-avt-0.0.86.tar.gz
+[2023-05-12 10:33:12] INFO root fetch - processPackages [nlptest]: Downloading https://files.pythonhosted.org/packages/e9/bf/a7c10e91810c9bfbff6a097a700a23434d1df2a29dba3e2a7b46414671a4/nlptest-1.2.0rc1.tar.gz
+[2023-05-12 10:33:12] WARNING root fetch - processPackages [nlptest]: Skipping package: exceeds size limit 54670541>=10485760
+[2023-05-12 10:33:12] INFO root fetch - processPackages [nlptest]: Start processing: cartagen4py
+[2023-05-12 10:33:12] INFO root fetch - processPackages [gradiop]: executing diffoscope
+[2023-05-12 10:33:12] INFO root fetch - main [MainThread]: End processing [nlptest] error
+[2023-05-12 10:33:12] INFO root fetch - processPackages [gradiop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gradiop-0.0.2.tar.gz tmp/gradiop-0.0.3.tar.gz --markdown 20230512/g/gradiop/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-12 10:33:12] INFO root fetch - processPackages [cartagen4py]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-12 10:33:12] INFO root fetch - processPackages [mmcb-avt]: executing diffoscope
+[2023-05-12 10:33:12] INFO root fetch - processPackages [mmcb-avt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mmcb-avt-0.0.85.tar.gz tmp/mmcb-avt-0.0.86.tar.gz --markdown 20230512/m/mmcb-avt/0.0.85-0.0.86/diff.md --exclude *.pyd
+[2023-05-12 10:33:12] INFO root fetch - processPackages [ykenan-fragments]: executing diffoscope
+[2023-05-12 10:33:12] INFO root fetch - processPackages [ykenan-fragments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ykenan_fragments-1.2.8.tar.gz tmp/ykenan_fragments-1.2.9.tar.gz --markdown 20230512/y/ykenan-fragments/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-12 10:33:12] INFO root fetch - processPackages [azure-mgmt-machinelearningservices]: executing diffoscope
+[2023-05-12 10:33:12] INFO root fetch - processPackages [azure-mgmt-machinelearningservices]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-mgmt-machinelearningservices-2.0.0b1.zip tmp/azure-mgmt-machinelearningservices-2.0.0b2.zip --markdown 20230512/a/azure-mgmt-machinelearningservices/2.0.0b1-2.0.0b2/diff.md --exclude *.pyd
+[2023-05-12 10:33:12] INFO root fetch - processPackages [fastramqpi]: Downloading https://files.pythonhosted.org/packages/4a/02/6826682a67a8aa2ac36df594986296fe9e599bc282586611abc96ccad85b/fastramqpi-1.4.1.tar.gz
+[2023-05-12 10:33:12] INFO root fetch - processPackages [cartagen4py]: Downloading https://files.pythonhosted.org/packages/92/df/bb638d4e258521b98701e0de092b3c9783fe776971ef283c97335fc19294/cartagen4py-0.1.2.tar.gz
+[2023-05-12 10:33:12] INFO root fetch - processPackages [osm-bot-abstraction-layer]: Downloading https://files.pythonhosted.org/packages/ae/3a/00d1eee694d9e95a311643da625ee14858a0dc47ba8a3b27f91fd340b7e6/osm_bot_abstraction_layer-0.0.9.tar.gz
+[2023-05-12 10:33:12] INFO root fetch - processPackages [fastramqpi]: executing diffoscope
+[2023-05-12 10:33:12] INFO root fetch - processPackages [fastramqpi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastramqpi-1.4.0.tar.gz tmp/fastramqpi-1.4.1.tar.gz --markdown 20230512/f/fastramqpi/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-05-12 10:33:12] INFO root fetch - processPackages [cartagen4py]: Downloading https://files.pythonhosted.org/packages/4f/e7/23af2e4c8dc5c702db2a573fc8f7a4be41f3286b7b2733f7a7e8fdafd897/cartagen4py-0.1.3.tar.gz
+[2023-05-12 10:33:12] INFO root fetch - processPackages [osm-bot-abstraction-layer]: executing diffoscope
+[2023-05-12 10:33:12] INFO root fetch - processPackages [osm-bot-abstraction-layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osm_bot_abstraction_layer-0.0.8.tar.gz tmp/osm_bot_abstraction_layer-0.0.9.tar.gz --markdown 20230512/o/osm-bot-abstraction-layer/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 10:33:13] INFO root fetch - processPackages [cartagen4py]: executing diffoscope
+[2023-05-12 10:33:13] INFO root fetch - processPackages [cartagen4py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cartagen4py-0.1.2.tar.gz tmp/cartagen4py-0.1.3.tar.gz --markdown 20230512/c/cartagen4py/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-12 10:33:13] INFO root fetch - processPackages [gradiop]: Start processing: python-cli-scheduler
+[2023-05-12 10:33:13] INFO root fetch - main [MainThread]: End processing [gradiop]: success
+[2023-05-12 10:33:13] WARNING root fetch - processPackages [python-cli-scheduler]: Skipping, unable to determine old version
+[2023-05-12 10:33:13] INFO root fetch - processPackages [python-cli-scheduler]: Start processing: genio-tools
+[2023-05-12 10:33:13] INFO root fetch - main [MainThread]: End processing [python-cli-scheduler] error
+[2023-05-12 10:33:14] INFO root fetch - processPackages [genio-tools]: New version: [1.4a2] Old Version: [1.4a1.dev9]
+[2023-05-12 10:33:14] INFO root fetch - processPackages [fastel]: Start processing: odoo14-addon-endpoint
+[2023-05-12 10:33:14] INFO root fetch - main [MainThread]: End processing [fastel]: success
+[2023-05-12 10:33:14] INFO root fetch - processPackages [odoo14-addon-endpoint]: New version: [14.0.2.0.1.dev3] Old Version: [14.0.2.0.1.dev2]
+[2023-05-12 10:33:14] INFO root fetch - processPackages [mmcb-avt]: Start processing: odoo14-addon-endpoint-route-handler
+[2023-05-12 10:33:14] INFO root fetch - main [MainThread]: End processing [mmcb-avt]: success
+[2023-05-12 10:33:14] INFO root fetch - processPackages [genio-tools]: Downloading https://files.pythonhosted.org/packages/c7/37/b568230dc9c566aae312de986fccc20045d1744b83331de293ad68516e6a/genio_tools-1.4a2-py3-none-any.whl
+[2023-05-12 10:33:14] INFO root fetch - processPackages [odoo14-addon-endpoint-route-handler]: New version: [14.0.2.0.1.dev2] Old Version: [14.0.1.1.1.dev4]
+[2023-05-12 10:33:14] INFO root fetch - processPackages [odoo14-addon-endpoint]: executing diffoscope
+[2023-05-12 10:33:14] INFO root fetch - processPackages [odoo14-addon-endpoint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_endpoint-14.0.2.0.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_endpoint-14.0.2.0.1.dev3-py3-none-any.whl.zip --markdown 20230512/o/odoo14-addon-endpoint/14.0.2.0.1.dev2-14.0.2.0.1.dev3/diff.md --exclude *.pyd
+[2023-05-12 10:33:14] INFO root fetch - processPackages [odoo14-addon-endpoint-route-handler]: executing diffoscope
+[2023-05-12 10:33:14] INFO root fetch - processPackages [odoo14-addon-endpoint-route-handler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_endpoint_route_handler-14.0.1.1.1.dev4-py3-none-any.whl.zip tmp/odoo14_addon_endpoint_route_handler-14.0.2.0.1.dev2-py3-none-any.whl.zip --markdown 20230512/o/odoo14-addon-endpoint-route-handler/14.0.1.1.1.dev4-14.0.2.0.1.dev2/diff.md --exclude *.pyd
+[2023-05-12 10:33:14] INFO root fetch - processPackages [ykenan-fragments]: Start processing: lanceotron
+[2023-05-12 10:33:14] INFO root fetch - main [MainThread]: End processing [ykenan-fragments]: success
+[2023-05-12 10:33:14] INFO root fetch - processPackages [lanceotron]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-05-12 10:33:14] INFO root fetch - processPackages [genio-tools]: executing diffoscope
+[2023-05-12 10:33:14] INFO root fetch - processPackages [genio-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genio_tools-1.4a1.dev9-py3-none-any.whl.zip tmp/genio_tools-1.4a2-py3-none-any.whl.zip --markdown 20230512/g/genio-tools/1.4a1.dev9-1.4a2/diff.md --exclude *.pyd
+[2023-05-12 10:33:14] INFO root fetch - processPackages [lanceotron]: executing diffoscope
+[2023-05-12 10:33:14] INFO root fetch - processPackages [lanceotron]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lanceotron-1.2.3-py3-none-any.whl.zip tmp/lanceotron-1.2.4-py3-none-any.whl.zip --markdown 20230512/l/lanceotron/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-05-12 10:33:14] INFO root fetch - processPackages [cartagen4py]: Start processing: hubspot-api-client
+[2023-05-12 10:33:14] INFO root fetch - main [MainThread]: End processing [cartagen4py]: success
+[2023-05-12 10:33:14] INFO root fetch - processPackages [hubspot-api-client]: New version: [8.0.0b4] Old Version: [8.0.0b3]
+[2023-05-12 10:33:14] INFO root fetch - processPackages [fastramqpi]: Start processing: odap-qi
+[2023-05-12 10:33:14] INFO root fetch - main [MainThread]: End processing [fastramqpi]: success
+[2023-05-12 10:33:14] INFO root fetch - main [MainThread]: End processing [osm-bot-abstraction-layer]: success
+[2023-05-12 10:33:14] WARNING root fetch - processPackages [odap-qi]: Skipping, unable to determine old version
+[2023-05-12 10:33:14] INFO root fetch - main [MainThread]: End processing [odap-qi] error
+[2023-05-12 10:33:14] INFO root fetch - processPackages [hubspot-api-client]: Downloading https://files.pythonhosted.org/packages/39/5a/f413e101a5e40092fb3edbac402f6f47936b0d366fdecdba93c8dec3eff2/hubspot-api-client-8.0.0b4.tar.gz
+[2023-05-12 10:33:15] INFO root fetch - processPackages [hubspot-api-client]: executing diffoscope
+[2023-05-12 10:33:15] INFO root fetch - processPackages [hubspot-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hubspot-api-client-8.0.0b3.tar.gz tmp/hubspot-api-client-8.0.0b4.tar.gz --markdown 20230512/h/hubspot-api-client/8.0.0b3-8.0.0b4/diff.md --exclude *.pyd
+[2023-05-12 10:33:15] INFO root fetch - main [MainThread]: End processing [odoo14-addon-endpoint]: success
+[2023-05-12 10:33:15] INFO root fetch - main [MainThread]: End processing [odoo14-addon-endpoint-route-handler]: success
+[2023-05-12 10:33:16] INFO root fetch - main [MainThread]: End processing [lanceotron]: success
+[2023-05-12 10:33:16] INFO root fetch - main [MainThread]: End processing [genio-tools]: success
+[2023-05-12 10:33:16] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
+[2023-05-12 10:33:17] INFO root fetch - main [MainThread]: End processing [azure-mgmt-machinelearningservices]: success
+[2023-05-12 10:33:20] INFO root fetch - main [MainThread]: End processing [capellambse]: success
+[2023-05-12 10:33:47] INFO root fetch - main [MainThread]: End processing [hubspot-api-client]: success
+[2023-05-12 10:33:47] INFO root fetch - main [MainThread]: Store serial: [18075383]
