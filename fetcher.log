@@ -9627,3 +9627,54 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-12 13:03:44] INFO root fetch - main [MainThread]: End processing [django-dbsemaphore]: success
 [2023-05-12 13:03:51] INFO root fetch - main [MainThread]: End processing [fedml]: success
 [2023-05-12 13:03:51] INFO root fetch - main [MainThread]: Store serial: [18076989]
+[2023-05-12 13:08:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18076989]
+[2023-05-12 13:09:00] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-12 13:09:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ciscoconfparse
+[2023-05-12 13:09:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pollination-honeybee-radiance-postprocess
+[2023-05-12 13:09:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyvast
+[2023-05-12 13:09:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dissect.target
+[2023-05-12 13:09:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lambdaprompt
+[2023-05-12 13:09:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vtece4564-gamelib
+[2023-05-12 13:09:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lesscode-tool
+[2023-05-12 13:09:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: scsmote-package
+[2023-05-12 13:09:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyright
+[2023-05-12 13:09:00] INFO root fetch - processPackages [pyvast]: New version: [3.1.0rc2] Old Version: [3.1.0rc1]
+[2023-05-12 13:09:00] INFO root fetch - processPackages [ciscoconfparse]: New version: [1.7.9] Old Version: [1.7.8]
+[2023-05-12 13:09:00] INFO root fetch - processPackages [lambdaprompt]: New version: [0.5.0] Old Version: [0.4.2]
+[2023-05-12 13:09:00] INFO root fetch - processPackages [pyvast]: executing diffoscope
+[2023-05-12 13:09:00] INFO root fetch - processPackages [pyvast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvast-3.1.0rc1.tar.gz tmp/pyvast-3.1.0rc2.tar.gz --markdown 20230512/p/pyvast/3.1.0rc1-3.1.0rc2/diff.md --exclude *.pyd
+[2023-05-12 13:09:00] WARNING root fetch - processPackages [scsmote-package]: Skipping, unable to determine old version
+[2023-05-12 13:09:00] INFO root fetch - processPackages [vtece4564-gamelib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 13:09:00] INFO root fetch - main [MainThread]: End processing [scsmote-package] error
+[2023-05-12 13:09:00] INFO root fetch - processPackages [pyright]: New version: [1.1.308] Old Version: [1.1.307]
+[2023-05-12 13:09:00] INFO root fetch - processPackages [lesscode-tool]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 13:09:00] INFO root fetch - processPackages [pollination-honeybee-radiance-postprocess]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 13:09:00] INFO root fetch - processPackages [dissect.target]: New version: [3.9.dev9] Old Version: [3.9.dev8]
+[2023-05-12 13:09:00] INFO root fetch - processPackages [ciscoconfparse]: executing diffoscope
+[2023-05-12 13:09:00] INFO root fetch - processPackages [ciscoconfparse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ciscoconfparse-1.7.8.tar.gz tmp/ciscoconfparse-1.7.9.tar.gz --markdown 20230512/c/ciscoconfparse/1.7.8-1.7.9/diff.md --exclude *.pyd
+[2023-05-12 13:09:00] INFO root fetch - processPackages [lambdaprompt]: executing diffoscope
+[2023-05-12 13:09:00] INFO root fetch - processPackages [lambdaprompt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lambdaprompt-0.4.2.tar.gz tmp/lambdaprompt-0.5.0.tar.gz --markdown 20230512/l/lambdaprompt/0.4.2-0.5.0/diff.md --exclude *.pyd
+[2023-05-12 13:09:00] INFO root fetch - processPackages [dissect.target]: Downloading https://files.pythonhosted.org/packages/b1/a4/24f9ce2eb6a1913b82598a01b68b634c9fe5535a9484bff3d7d56a0ae929/dissect.target-3.9.dev8.tar.gz
+[2023-05-12 13:09:00] INFO root fetch - processPackages [vtece4564-gamelib]: Downloading https://files.pythonhosted.org/packages/9e/c7/5a9649e42e44f0d545673583bd78da320e4df0301288c4e2c209bd555fb4/vtece4564-gamelib-0.0.8.tar.gz
+[2023-05-12 13:09:00] INFO root fetch - processPackages [pollination-honeybee-radiance-postprocess]: Downloading https://files.pythonhosted.org/packages/c0/2a/a1cb300a1ce2c8cdc255508263cdb6c9e1fcf3043abe76574fc9a54b3462/pollination-honeybee-radiance-postprocess-0.0.8.tar.gz
+[2023-05-12 13:09:01] INFO root fetch - processPackages [pyright]: Downloading https://files.pythonhosted.org/packages/a0/6b/094ba0fce5e869bd38e8aec9e8d08b80d9dd8aed5f870e10d3004e6e012d/pyright-1.1.308-py3-none-any.whl
+[2023-05-12 13:09:01] INFO root fetch - processPackages [lesscode-tool]: executing diffoscope
+[2023-05-12 13:09:01] INFO root fetch - processPackages [lesscode-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lesscode_tool-0.0.8.tar.gz tmp/lesscode_tool-0.0.9.tar.gz --markdown 20230512/l/lesscode-tool/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 13:09:01] INFO root fetch - processPackages [pollination-honeybee-radiance-postprocess]: Downloading https://files.pythonhosted.org/packages/9f/af/69afc250a74fbb4d68f79e7a56b129e9c351b60e36e11f19e9ff367d2cf8/pollination-honeybee-radiance-postprocess-0.0.9.tar.gz
+[2023-05-12 13:09:01] INFO root fetch - processPackages [pyright]: executing diffoscope
+[2023-05-12 13:09:01] INFO root fetch - processPackages [pyright]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyright-1.1.307.tar.gz tmp/pyright-1.1.308-py3-none-any.whl.zip --markdown 20230512/p/pyright/1.1.307-1.1.308/diff.md --exclude *.pyd
+[2023-05-12 13:09:01] WARNING root fetch - processPackages [dissect.target]: Skipping package: exceeds size limit 63555307>=10485760
+[2023-05-12 13:09:01] INFO root fetch - main [MainThread]: End processing [dissect.target] error
+[2023-05-12 13:09:01] INFO root fetch - processPackages [vtece4564-gamelib]: Downloading https://files.pythonhosted.org/packages/71/6a/15f6b3cfa1cd19a8244b43f2f07bb9620df8549ab68a89c67815308dde98/vtece4564-gamelib-0.0.9.tar.gz
+[2023-05-12 13:09:01] INFO root fetch - processPackages [pollination-honeybee-radiance-postprocess]: executing diffoscope
+[2023-05-12 13:09:01] INFO root fetch - processPackages [pollination-honeybee-radiance-postprocess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pollination-honeybee-radiance-postprocess-0.0.8.tar.gz tmp/pollination-honeybee-radiance-postprocess-0.0.9.tar.gz --markdown 20230512/p/pollination-honeybee-radiance-postprocess/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 13:09:01] INFO root fetch - processPackages [vtece4564-gamelib]: executing diffoscope
+[2023-05-12 13:09:01] INFO root fetch - processPackages [vtece4564-gamelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vtece4564-gamelib-0.0.8.tar.gz tmp/vtece4564-gamelib-0.0.9.tar.gz --markdown 20230512/v/vtece4564-gamelib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 13:09:01] INFO root fetch - main [MainThread]: End processing [pyvast]: success
+[2023-05-12 13:09:02] INFO root fetch - main [MainThread]: End processing [ciscoconfparse]: success
+[2023-05-12 13:09:02] INFO root fetch - main [MainThread]: End processing [lesscode-tool]: success
+[2023-05-12 13:09:02] INFO root fetch - main [MainThread]: End processing [lambdaprompt]: success
+[2023-05-12 13:09:02] INFO root fetch - main [MainThread]: End processing [pollination-honeybee-radiance-postprocess]: success
+[2023-05-12 13:09:02] INFO root fetch - main [MainThread]: End processing [pyright]: success
+[2023-05-12 13:09:02] INFO root fetch - main [MainThread]: End processing [vtece4564-gamelib]: success
+[2023-05-12 13:09:02] INFO root fetch - main [MainThread]: Store serial: [18077021]
