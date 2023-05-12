@@ -10097,3 +10097,36 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-12 13:35:24] INFO root fetch - main [MainThread]: End processing [clickhouse-ddl]: success
 [2023-05-12 13:35:24] INFO root fetch - main [MainThread]: End processing [domino-py]: success
 [2023-05-12 13:35:24] INFO root fetch - main [MainThread]: Store serial: [18077317]
+[2023-05-12 13:40:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18077317]
+[2023-05-12 13:40:33] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-12 13:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sketch
+[2023-05-12 13:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wfetch-cli
+[2023-05-12 13:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eswrap
+[2023-05-12 13:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dialog-workflow-local-python-package
+[2023-05-12 13:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: DTCO
+[2023-05-12 13:40:33] INFO root fetch - processPackages [eswrap]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-05-12 13:40:33] WARNING root fetch - processPackages [wfetch-cli]: Skipping, unable to determine old version
+[2023-05-12 13:40:33] INFO root fetch - main [MainThread]: End processing [wfetch-cli] error
+[2023-05-12 13:40:33] INFO root fetch - processPackages [DTCO]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-12 13:40:33] INFO root fetch - processPackages [sketch]: New version: [0.4.0] Old Version: [0.3.5]
+[2023-05-12 13:40:33] INFO root fetch - processPackages [dialog-workflow-local-python-package]: New version: [0.0.17] Old Version: [0.0.15]
+[2023-05-12 13:40:33] INFO root fetch - processPackages [eswrap]: Downloading https://files.pythonhosted.org/packages/df/96/cd7c6cd3abf89df50ed6182fc803f2536cfad2f005685a3b32a26189641d/eswrap-0.4.3.tar.gz
+[2023-05-12 13:40:33] INFO root fetch - processPackages [DTCO]: Downloading https://files.pythonhosted.org/packages/0a/24/1f33a97722226b93df9a08a3bb01b42edc1ca2ff33fc84555a0616f9467d/DTCO-0.1.2.tar.gz
+[2023-05-12 13:40:33] INFO root fetch - processPackages [sketch]: Downloading https://files.pythonhosted.org/packages/65/83/efa1c440414a4f91359c71cbcc3cda52f7ed1166f36a60c6038fe110c909/sketch-0.3.5.tar.gz
+[2023-05-12 13:40:33] INFO root fetch - processPackages [dialog-workflow-local-python-package]: Downloading https://files.pythonhosted.org/packages/92/36/260f4d06fde7c0bd5a82d9070eaa6dca7fa3bc6e83779147bfde518f0a7f/dialog_workflow_local_python_package-0.0.17-py3-none-any.whl
+[2023-05-12 13:40:33] INFO root fetch - processPackages [dialog-workflow-local-python-package]: executing diffoscope
+[2023-05-12 13:40:33] INFO root fetch - processPackages [dialog-workflow-local-python-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dialog-workflow-local-python-package-0.0.15.tar.gz tmp/dialog_workflow_local_python_package-0.0.17-py3-none-any.whl.zip --markdown 20230512/d/dialog-workflow-local-python-package/0.0.15-0.0.17/diff.md --exclude *.pyd
+[2023-05-12 13:40:33] INFO root fetch - processPackages [eswrap]: Downloading https://files.pythonhosted.org/packages/3c/91/8eb79805613fe943b5cc8ccd0ef27e0bad26ae9775f317a6d3d61311d366/eswrap-0.4.4.tar.gz
+[2023-05-12 13:40:33] INFO root fetch - processPackages [DTCO]: Downloading https://files.pythonhosted.org/packages/29/f1/b41b3a8dc1305e331326ae57a457fa8f76f9948877d2a51bb34ac9881520/DTCO-0.1.3.tar.gz
+[2023-05-12 13:40:33] INFO root fetch - processPackages [sketch]: Downloading https://files.pythonhosted.org/packages/08/65/0adecd0a2040cb41b28e1aae5adc7e950f7b1c385909e1b9160e6f280113/sketch-0.4.0.tar.gz
+[2023-05-12 13:40:33] INFO root fetch - processPackages [eswrap]: executing diffoscope
+[2023-05-12 13:40:33] INFO root fetch - processPackages [eswrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eswrap-0.4.3.tar.gz tmp/eswrap-0.4.4.tar.gz --markdown 20230512/e/eswrap/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-05-12 13:40:33] INFO root fetch - processPackages [DTCO]: executing diffoscope
+[2023-05-12 13:40:33] INFO root fetch - processPackages [DTCO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DTCO-0.1.2.tar.gz tmp/DTCO-0.1.3.tar.gz --markdown 20230512/D/DTCO/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-12 13:40:34] INFO root fetch - processPackages [sketch]: executing diffoscope
+[2023-05-12 13:40:34] INFO root fetch - processPackages [sketch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sketch-0.3.5.tar.gz tmp/sketch-0.4.0.tar.gz --markdown 20230512/s/sketch/0.3.5-0.4.0/diff.md --exclude *.pyd
+[2023-05-12 13:40:34] INFO root fetch - main [MainThread]: End processing [dialog-workflow-local-python-package]: success
+[2023-05-12 13:40:34] INFO root fetch - main [MainThread]: End processing [eswrap]: success
+[2023-05-12 13:40:35] INFO root fetch - main [MainThread]: End processing [DTCO]: success
+[2023-05-12 13:40:35] INFO root fetch - main [MainThread]: End processing [sketch]: success
+[2023-05-12 13:40:35] INFO root fetch - main [MainThread]: Store serial: [18077349]
