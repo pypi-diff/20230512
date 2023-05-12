@@ -21110,3 +21110,196 @@ EOFError: EOF read where object expected
 [2023-05-12 23:28:38] INFO root fetch - main [MainThread]: End processing [flash-attn]: success
 [2023-05-12 23:30:08] INFO root fetch - main [MainThread]: End processing [cornac]: success
 [2023-05-12 23:30:08] INFO root fetch - main [MainThread]: Store serial: [18084477]
+[2023-05-12 23:35:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18084477]
+[2023-05-12 23:35:18] INFO root fetch - main [MainThread]: Found 34 changed packages
+[2023-05-12 23:35:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stix-shifter-modules-rhacs
+[2023-05-12 23:35:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stix-shifter-modules-secretserver
+[2023-05-12 23:35:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stix-shifter-modules-security-advisor
+[2023-05-12 23:35:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stix-shifter-modules-sentinelone
+[2023-05-12 23:35:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stix-shifter-modules-splunk
+[2023-05-12 23:35:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: stix-shifter-modules-stix-bundle
+[2023-05-12 23:35:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: stix-shifter-modules-sumologic
+[2023-05-12 23:35:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: stix-shifter-modules-synchronous-template
+[2023-05-12 23:35:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: stix-shifter-modules-threat-grid
+[2023-05-12 23:35:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: stix-shifter-modules-threat-q
+[2023-05-12 23:35:18] INFO root fetch - processPackages [stix-shifter-modules-rhacs]: New version: [5.2.1.dev816] Old Version: [5.2.1.dev815]
+[2023-05-12 23:35:18] INFO root fetch - processPackages [stix-shifter-modules-sentinelone]: New version: [5.2.1.dev816] Old Version: [5.2.1.dev815]
+[2023-05-12 23:35:18] INFO root fetch - processPackages [stix-shifter-modules-stix-bundle]: New version: [5.2.1.dev816] Old Version: [5.2.1.dev815]
+[2023-05-12 23:35:18] INFO root fetch - processPackages [stix-shifter-modules-synchronous-template]: New version: [5.2.1.dev816] Old Version: [5.2.1.dev815]
+[2023-05-12 23:35:18] WARNING root fetch - processPackages [stix-shifter-modules-threat-grid]: Skipping, unable to determine old version
+[2023-05-12 23:35:18] INFO root fetch - processPackages [stix-shifter-modules-threat-grid]: Start processing: stix-shifter-modules-trendmicro-vision-one
+[2023-05-12 23:35:18] INFO root fetch - main [MainThread]: End processing [stix-shifter-modules-threat-grid] error
+[2023-05-12 23:35:18] INFO root fetch - processPackages [stix-shifter-modules-secretserver]: New version: [5.2.1.dev816] Old Version: [5.2.1.dev815]
+[2023-05-12 23:35:18] WARNING root fetch - processPackages [stix-shifter-modules-threat-q]: Skipping, unable to determine old version
+[2023-05-12 23:35:18] INFO root fetch - processPackages [stix-shifter-modules-threat-q]: Start processing: stix-shifter-modules-virus-total
+[2023-05-12 23:35:18] INFO root fetch - main [MainThread]: End processing [stix-shifter-modules-threat-q] error
+[2023-05-12 23:35:18] INFO root fetch - processPackages [stix-shifter-modules-splunk]: New version: [5.2.1.dev816] Old Version: [5.2.1.dev815]
+[2023-05-12 23:35:18] INFO root fetch - processPackages [stix-shifter-modules-security-advisor]: New version: [5.2.1.dev816] Old Version: [5.2.1.dev815]
+[2023-05-12 23:35:18] INFO root fetch - processPackages [stix-shifter-modules-sumologic]: New version: [5.2.1.dev816] Old Version: [5.2.1.dev815]
+[2023-05-12 23:35:18] WARNING root fetch - processPackages [stix-shifter-modules-virus-total]: Skipping, unable to determine old version
+[2023-05-12 23:35:18] INFO root fetch - processPackages [stix-shifter-modules-virus-total]: Start processing: stix-shifter-utils
+[2023-05-12 23:35:18] INFO root fetch - main [MainThread]: End processing [stix-shifter-modules-virus-total] error
+[2023-05-12 23:35:18] INFO root fetch - processPackages [stix-shifter-modules-trendmicro-vision-one]: New version: [5.2.1.dev816] Old Version: [5.2.1.dev815]
+[2023-05-12 23:35:18] INFO root fetch - processPackages [stix-shifter-utils]: New version: [5.2.1.dev816] Old Version: [5.2.1.dev815]
+[2023-05-12 23:35:18] INFO root fetch - processPackages [stix-shifter-modules-rhacs]: executing diffoscope
+[2023-05-12 23:35:18] INFO root fetch - processPackages [stix-shifter-modules-rhacs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stix_shifter_modules_rhacs-5.2.1.dev815-py2.py3-none-any.whl.zip tmp/stix_shifter_modules_rhacs-5.2.1.dev816-py2.py3-none-any.whl.zip --markdown 20230512/s/stix-shifter-modules-rhacs/5.2.1.dev815-5.2.1.dev816/diff.md --exclude *.pyd
+[2023-05-12 23:35:18] INFO root fetch - processPackages [stix-shifter-modules-sentinelone]: executing diffoscope
+[2023-05-12 23:35:18] INFO root fetch - processPackages [stix-shifter-modules-sentinelone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stix_shifter_modules_sentinelone-5.2.1.dev815-py2.py3-none-any.whl.zip tmp/stix_shifter_modules_sentinelone-5.2.1.dev816-py2.py3-none-any.whl.zip --markdown 20230512/s/stix-shifter-modules-sentinelone/5.2.1.dev815-5.2.1.dev816/diff.md --exclude *.pyd
+[2023-05-12 23:35:18] INFO root fetch - processPackages [stix-shifter-modules-secretserver]: executing diffoscope
+[2023-05-12 23:35:18] INFO root fetch - processPackages [stix-shifter-modules-secretserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stix_shifter_modules_secretserver-5.2.1.dev815-py2.py3-none-any.whl.zip tmp/stix_shifter_modules_secretserver-5.2.1.dev816-py2.py3-none-any.whl.zip --markdown 20230512/s/stix-shifter-modules-secretserver/5.2.1.dev815-5.2.1.dev816/diff.md --exclude *.pyd
+[2023-05-12 23:35:18] INFO root fetch - processPackages [stix-shifter-modules-stix-bundle]: executing diffoscope
+[2023-05-12 23:35:18] INFO root fetch - processPackages [stix-shifter-modules-stix-bundle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stix_shifter_modules_stix_bundle-5.2.1.dev815-py2.py3-none-any.whl.zip tmp/stix_shifter_modules_stix_bundle-5.2.1.dev816-py2.py3-none-any.whl.zip --markdown 20230512/s/stix-shifter-modules-stix-bundle/5.2.1.dev815-5.2.1.dev816/diff.md --exclude *.pyd
+[2023-05-12 23:35:18] INFO root fetch - processPackages [stix-shifter-modules-security-advisor]: executing diffoscope
+[2023-05-12 23:35:18] INFO root fetch - processPackages [stix-shifter-modules-security-advisor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stix_shifter_modules_security_advisor-5.2.1.dev815-py2.py3-none-any.whl.zip tmp/stix_shifter_modules_security_advisor-5.2.1.dev816-py2.py3-none-any.whl.zip --markdown 20230512/s/stix-shifter-modules-security-advisor/5.2.1.dev815-5.2.1.dev816/diff.md --exclude *.pyd
+[2023-05-12 23:35:18] INFO root fetch - processPackages [stix-shifter-modules-trendmicro-vision-one]: executing diffoscope
+[2023-05-12 23:35:18] INFO root fetch - processPackages [stix-shifter-modules-trendmicro-vision-one]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stix_shifter_modules_trendmicro_vision_one-5.2.1.dev815-py2.py3-none-any.whl.zip tmp/stix_shifter_modules_trendmicro_vision_one-5.2.1.dev816-py2.py3-none-any.whl.zip --markdown 20230512/s/stix-shifter-modules-trendmicro-vision-one/5.2.1.dev815-5.2.1.dev816/diff.md --exclude *.pyd
+[2023-05-12 23:35:18] INFO root fetch - processPackages [stix-shifter-modules-sumologic]: executing diffoscope
+[2023-05-12 23:35:18] INFO root fetch - processPackages [stix-shifter-modules-splunk]: executing diffoscope
+[2023-05-12 23:35:18] INFO root fetch - processPackages [stix-shifter-modules-sumologic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stix_shifter_modules_sumologic-5.2.1.dev815-py2.py3-none-any.whl.zip tmp/stix_shifter_modules_sumologic-5.2.1.dev816-py2.py3-none-any.whl.zip --markdown 20230512/s/stix-shifter-modules-sumologic/5.2.1.dev815-5.2.1.dev816/diff.md --exclude *.pyd
+[2023-05-12 23:35:18] INFO root fetch - processPackages [stix-shifter-modules-splunk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stix_shifter_modules_splunk-5.2.1.dev815-py2.py3-none-any.whl.zip tmp/stix_shifter_modules_splunk-5.2.1.dev816-py2.py3-none-any.whl.zip --markdown 20230512/s/stix-shifter-modules-splunk/5.2.1.dev815-5.2.1.dev816/diff.md --exclude *.pyd
+[2023-05-12 23:35:18] INFO root fetch - processPackages [stix-shifter-utils]: executing diffoscope
+[2023-05-12 23:35:18] INFO root fetch - processPackages [stix-shifter-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stix_shifter_utils-5.2.1.dev815-py2.py3-none-any.whl.zip tmp/stix_shifter_utils-5.2.1.dev816-py2.py3-none-any.whl.zip --markdown 20230512/s/stix-shifter-utils/5.2.1.dev815-5.2.1.dev816/diff.md --exclude *.pyd
+[2023-05-12 23:35:18] INFO root fetch - processPackages [stix-shifter-modules-synchronous-template]: executing diffoscope
+[2023-05-12 23:35:18] INFO root fetch - processPackages [stix-shifter-modules-synchronous-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stix_shifter_modules_synchronous_template-5.2.1.dev815-py2.py3-none-any.whl.zip tmp/stix_shifter_modules_synchronous_template-5.2.1.dev816-py2.py3-none-any.whl.zip --markdown 20230512/s/stix-shifter-modules-synchronous-template/5.2.1.dev815-5.2.1.dev816/diff.md --exclude *.pyd
+[2023-05-12 23:35:19] INFO root fetch - processPackages [stix-shifter-modules-rhacs]: Start processing: pytest-enabler
+[2023-05-12 23:35:19] INFO root fetch - main [MainThread]: End processing [stix-shifter-modules-rhacs]: success
+[2023-05-12 23:35:19] INFO root fetch - processPackages [pytest-enabler]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-05-12 23:35:20] INFO root fetch - processPackages [pytest-enabler]: Downloading https://files.pythonhosted.org/packages/ca/d1/fae31b0db5c6798efdb9b89de4fe829233ca2ff2c03fbd46d5d5c2406760/pytest-enabler-2.1.0.tar.gz
+[2023-05-12 23:35:20] INFO root fetch - processPackages [stix-shifter-modules-sentinelone]: Start processing: rpls-py
+[2023-05-12 23:35:20] INFO root fetch - main [MainThread]: End processing [stix-shifter-modules-sentinelone]: success
+[2023-05-12 23:35:20] INFO root fetch - processPackages [rpls-py]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-12 23:35:20] INFO root fetch - processPackages [pytest-enabler]: Downloading https://files.pythonhosted.org/packages/b1/c0/f860bbf520461453726b45c2de6f39f8d00a6ef7ca9df4a0dde6f919e5a1/pytest-enabler-2.1.1.tar.gz
+[2023-05-12 23:35:20] INFO root fetch - processPackages [pytest-enabler]: executing diffoscope
+[2023-05-12 23:35:20] INFO root fetch - processPackages [pytest-enabler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-enabler-2.1.0.tar.gz tmp/pytest-enabler-2.1.1.tar.gz --markdown 20230512/p/pytest-enabler/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-05-12 23:35:20] INFO root fetch - processPackages [stix-shifter-modules-secretserver]: Start processing: vale
+[2023-05-12 23:35:20] INFO root fetch - main [MainThread]: End processing [stix-shifter-modules-secretserver]: success
+[2023-05-12 23:35:20] INFO root fetch - processPackages [vale]: New version: [2.26.0.0] Old Version: [2.25.2.0]
+[2023-05-12 23:35:20] INFO root fetch - processPackages [rpls-py]: Downloading https://files.pythonhosted.org/packages/fa/ca/cc021b64b6e1894b745c3c73687e31d4247bf1b195cb1ee50e211af5b56e/rpls_py-0.3.1.tar.gz
+[2023-05-12 23:35:20] INFO root fetch - processPackages [rpls-py]: executing diffoscope
+[2023-05-12 23:35:20] INFO root fetch - processPackages [rpls-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rpls_py-0.3.0.tar.gz tmp/rpls_py-0.3.1.tar.gz --markdown 20230512/r/rpls-py/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-12 23:35:20] INFO root fetch - processPackages [stix-shifter-modules-stix-bundle]: Start processing: fastapi-htmx
+[2023-05-12 23:35:20] INFO root fetch - main [MainThread]: End processing [stix-shifter-modules-stix-bundle]: success
+[2023-05-12 23:35:20] INFO root fetch - processPackages [stix-shifter-modules-trendmicro-vision-one]: Start processing: vale
+[2023-05-12 23:35:20] INFO root fetch - main [MainThread]: End processing [stix-shifter-modules-trendmicro-vision-one]: success
+[2023-05-12 23:35:20] INFO root fetch - processPackages [fastapi-htmx]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-12 23:35:20] INFO root fetch - processPackages [vale]: Downloading https://files.pythonhosted.org/packages/fc/22/6903fb1aa39688eb485bc82a760dbc9f480ca59ddff8be348d0afe4a0a79/vale-2.25.2.0.tar.gz
+[2023-05-12 23:35:20] INFO root fetch - processPackages [vale]: New version: [2.26.0.0] Old Version: [2.25.2.0]
+[2023-05-12 23:35:20] INFO root fetch - processPackages [vale]: Downloading https://files.pythonhosted.org/packages/fc/22/6903fb1aa39688eb485bc82a760dbc9f480ca59ddff8be348d0afe4a0a79/vale-2.25.2.0.tar.gz
+[2023-05-12 23:35:21] INFO root fetch - processPackages [vale]: Downloading https://files.pythonhosted.org/packages/03/ed/e2fa9bc40a611d95e3c52fe9ad8a1c69e35d5d37d5d904cdf00c122a022b/vale-2.26.0.0.tar.gz
+[2023-05-12 23:35:21] INFO root fetch - processPackages [vale]: Downloading https://files.pythonhosted.org/packages/03/ed/e2fa9bc40a611d95e3c52fe9ad8a1c69e35d5d37d5d904cdf00c122a022b/vale-2.26.0.0.tar.gz
+[2023-05-12 23:35:21] INFO root fetch - processPackages [fastapi-htmx]: Downloading https://files.pythonhosted.org/packages/e4/20/4267623630abee5049a6b7a48956e598b57f5d1632572fd7bcd6ef1d9e16/fastapi_htmx-0.2.0.tar.gz
+[2023-05-12 23:35:21] INFO root fetch - processPackages [vale]: executing diffoscope
+[2023-05-12 23:35:21] INFO root fetch - processPackages [vale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vale-2.25.2.0.tar.gz tmp/vale-2.26.0.0.tar.gz --markdown 20230512/v/vale/2.25.2.0-2.26.0.0/diff.md --exclude *.pyd
+[2023-05-12 23:35:21] INFO root fetch - processPackages [vale]: executing diffoscope
+[2023-05-12 23:35:21] INFO root fetch - processPackages [vale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vale-2.25.2.0.tar.gz tmp/vale-2.26.0.0.tar.gz --markdown 20230512/v/vale/2.25.2.0-2.26.0.0/diff.md --exclude *.pyd
+[2023-05-12 23:35:21] INFO root fetch - processPackages [stix-shifter-modules-sumologic]: Start processing: vale
+[2023-05-12 23:35:21] INFO root fetch - main [MainThread]: End processing [stix-shifter-modules-sumologic]: success
+[2023-05-12 23:35:21] INFO root fetch - processPackages [vale]: New version: [2.26.0.0] Old Version: [2.25.2.0]
+[2023-05-12 23:35:21] INFO root fetch - processPackages [stix-shifter-modules-splunk]: Start processing: ntheory
+[2023-05-12 23:35:21] INFO root fetch - main [MainThread]: End processing [stix-shifter-modules-splunk]: success
+[2023-05-12 23:35:21] INFO root fetch - processPackages [stix-shifter-modules-synchronous-template]: Start processing: ntheory
+[2023-05-12 23:35:21] INFO root fetch - main [MainThread]: End processing [stix-shifter-modules-synchronous-template]: success
+[2023-05-12 23:35:21] INFO root fetch - processPackages [ntheory]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-12 23:35:21] INFO root fetch - processPackages [stix-shifter-modules-security-advisor]: Start processing: unicode-name-inquiry
+[2023-05-12 23:35:21] INFO root fetch - main [MainThread]: End processing [stix-shifter-modules-security-advisor]: success
+[2023-05-12 23:35:21] INFO root fetch - processPackages [ntheory]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-12 23:35:21] WARNING root fetch - processPackages [unicode-name-inquiry]: Skipping, unable to determine old version
+[2023-05-12 23:35:21] INFO root fetch - processPackages [unicode-name-inquiry]: Start processing: braincube-aws-core-alpha
+[2023-05-12 23:35:21] INFO root fetch - main [MainThread]: End processing [unicode-name-inquiry] error
+[2023-05-12 23:35:21] INFO root fetch - processPackages [braincube-aws-core-alpha]: New version: [0.0.27] Old Version: [0.0.26]
+[2023-05-12 23:35:21] INFO root fetch - processPackages [vale]: executing diffoscope
+[2023-05-12 23:35:21] INFO root fetch - processPackages [vale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vale-2.25.2.0.tar.gz tmp/vale-2.26.0.0.tar.gz --markdown 20230512/v/vale/2.25.2.0-2.26.0.0/diff.md --exclude *.pyd
+[2023-05-12 23:35:21] INFO root fetch - processPackages [ntheory]: Downloading https://files.pythonhosted.org/packages/4d/8e/d3f3388007110941b9a827e3dc974c8e8af720480d503f4a50e2d7c7a25e/ntheory-0.0.1.tar.gz
+[2023-05-12 23:35:21] INFO root fetch - processPackages [ntheory]: Downloading https://files.pythonhosted.org/packages/4d/8e/d3f3388007110941b9a827e3dc974c8e8af720480d503f4a50e2d7c7a25e/ntheory-0.0.1.tar.gz
+[2023-05-12 23:35:21] INFO root fetch - processPackages [fastapi-htmx]: Downloading https://files.pythonhosted.org/packages/cb/19/632d66b6f7fa28b6b1c45966c5e7353401f90bc231524cf04bc08a6578a9/fastapi_htmx-0.2.1.tar.gz
+[2023-05-12 23:35:21] INFO root fetch - processPackages [fastapi-htmx]: executing diffoscope
+[2023-05-12 23:35:21] INFO root fetch - processPackages [fastapi-htmx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_htmx-0.2.0.tar.gz tmp/fastapi_htmx-0.2.1.tar.gz --markdown 20230512/f/fastapi-htmx/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-12 23:35:21] INFO root fetch - processPackages [braincube-aws-core-alpha]: Downloading https://files.pythonhosted.org/packages/11/79/abf0aeb81d33a4291439b7a9e36d709b9652d935539018f844f7ab9f5d52/braincube-aws-core-alpha-0.0.27.tar.gz
+[2023-05-12 23:35:21] INFO root fetch - processPackages [stix-shifter-utils]: Start processing: cpython-lldb
+[2023-05-12 23:35:21] INFO root fetch - main [MainThread]: End processing [stix-shifter-utils]: success
+[2023-05-12 23:35:21] INFO root fetch - processPackages [cpython-lldb]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-12 23:35:21] INFO root fetch - processPackages [braincube-aws-core-alpha]: executing diffoscope
+[2023-05-12 23:35:21] INFO root fetch - processPackages [braincube-aws-core-alpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/braincube-aws-core-alpha-0.0.26.tar.gz tmp/braincube-aws-core-alpha-0.0.27.tar.gz --markdown 20230512/b/braincube-aws-core-alpha/0.0.26-0.0.27/diff.md --exclude *.pyd
+[2023-05-12 23:35:21] INFO root fetch - processPackages [ntheory]: Downloading https://files.pythonhosted.org/packages/4e/3a/4472153185840eddee607d80769a1fdbfe81b465b7699ea63eb74b535486/ntheory-0.0.2.tar.gz
+[2023-05-12 23:35:21] INFO root fetch - processPackages [ntheory]: Downloading https://files.pythonhosted.org/packages/4e/3a/4472153185840eddee607d80769a1fdbfe81b465b7699ea63eb74b535486/ntheory-0.0.2.tar.gz
+[2023-05-12 23:35:21] INFO root fetch - processPackages [cpython-lldb]: Downloading https://files.pythonhosted.org/packages/6f/40/fc757fbdb1f52fc376be245309dcab18bb64b9e04757c025f2d8d2092318/cpython-lldb-0.3.0.tar.gz
+[2023-05-12 23:35:21] INFO root fetch - processPackages [ntheory]: executing diffoscope
+[2023-05-12 23:35:21] INFO root fetch - processPackages [ntheory]: executing diffoscope
+[2023-05-12 23:35:21] INFO root fetch - processPackages [ntheory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ntheory-0.0.1.tar.gz tmp/ntheory-0.0.2.tar.gz --markdown 20230512/n/ntheory/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-12 23:35:21] INFO root fetch - processPackages [ntheory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ntheory-0.0.1.tar.gz tmp/ntheory-0.0.2.tar.gz --markdown 20230512/n/ntheory/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-12 23:35:21] INFO root fetch - processPackages [cpython-lldb]: Downloading https://files.pythonhosted.org/packages/42/a5/3cc8bb29e42267abe909908910a76fead42c9c12723c2bc81e5ae09a57ac/cpython_lldb-0.3.1.tar.gz
+[2023-05-12 23:35:21] INFO root fetch - processPackages [cpython-lldb]: executing diffoscope
+[2023-05-12 23:35:21] INFO root fetch - processPackages [cpython-lldb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpython-lldb-0.3.0.tar.gz tmp/cpython_lldb-0.3.1.tar.gz --markdown 20230512/c/cpython-lldb/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-12 23:35:22] INFO root fetch - processPackages [pytest-enabler]: Start processing: lsqfit
+[2023-05-12 23:35:22] INFO root fetch - main [MainThread]: End processing [pytest-enabler]: success
+[2023-05-12 23:35:22] INFO root fetch - processPackages [lsqfit]: New version: [9.5] Old Version: [9.4]
+[2023-05-12 23:35:22] INFO root fetch - processPackages [lsqfit]: Downloading https://files.pythonhosted.org/packages/c0/90/7af19bee6e6e768f38eb74ba09f8460a03973bc8cac729e67ac801b36266/lsqfit-9.4.tar.gz
+[2023-05-12 23:35:22] INFO root fetch - processPackages [rpls-py]: Start processing: connpy
+[2023-05-12 23:35:22] INFO root fetch - main [MainThread]: End processing [rpls-py]: success
+[2023-05-12 23:35:22] INFO root fetch - processPackages [connpy]: New version: [3.2.4] Old Version: [3.2.3]
+[2023-05-12 23:35:22] INFO root fetch - processPackages [connpy]: Downloading https://files.pythonhosted.org/packages/18/33/5034bc589313619a25dde66f7257820ede9d2279b88a4d10991a8e446761/connpy-3.2.4.tar.gz
+[2023-05-12 23:35:22] INFO root fetch - processPackages [vale]: Start processing: generativepy
+[2023-05-12 23:35:22] INFO root fetch - main [MainThread]: End processing [vale]: success
+[2023-05-12 23:35:22] INFO root fetch - processPackages [connpy]: executing diffoscope
+[2023-05-12 23:35:22] INFO root fetch - processPackages [connpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/connpy-3.2.3.tar.gz tmp/connpy-3.2.4.tar.gz --markdown 20230512/c/connpy/3.2.3-3.2.4/diff.md --exclude *.pyd
+[2023-05-12 23:35:22] INFO root fetch - processPackages [generativepy]: New version: [4.0b0] Old Version: [3.2]
+[2023-05-12 23:35:22] INFO root fetch - processPackages [vale]: Start processing: mlnext-framework
+[2023-05-12 23:35:22] INFO root fetch - main [MainThread]: End processing [vale]: success
+[2023-05-12 23:35:23] INFO root fetch - processPackages [mlnext-framework]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-05-12 23:35:23] INFO root fetch - processPackages [generativepy]: Downloading https://files.pythonhosted.org/packages/5a/eb/6fecfe641124ceefb0bf871a8aa2cb4e3e9017a68fb86ab289c81089dd2a/generativepy-3.2.tar.gz
+[2023-05-12 23:35:23] INFO root fetch - processPackages [mlnext-framework]: Downloading https://files.pythonhosted.org/packages/1d/98/b7b644940050dd0fc051d21d788a1c149eaf9b7d9fc681d0603c05b1c5e4/mlnext_framework-0.4.0.tar.gz
+[2023-05-12 23:35:23] INFO root fetch - processPackages [lsqfit]: Downloading https://files.pythonhosted.org/packages/a8/71/771fc4eb228b4a205dce41126dc84361c0d2bfb93f49e7720f3f9ae108d3/lsqfit-9.5.tar.gz
+[2023-05-12 23:35:23] INFO root fetch - processPackages [vale]: Start processing: exceptnotifier
+[2023-05-12 23:35:23] INFO root fetch - main [MainThread]: End processing [vale]: success
+[2023-05-12 23:35:23] INFO root fetch - processPackages [exceptnotifier]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-12 23:35:23] INFO root fetch - processPackages [fastapi-htmx]: Start processing: pyKVFinder
+[2023-05-12 23:35:23] INFO root fetch - main [MainThread]: End processing [fastapi-htmx]: success
+[2023-05-12 23:35:23] INFO root fetch - processPackages [pyKVFinder]: New version: [0.6.0] Old Version: [0.5.5]
+[2023-05-12 23:35:23] INFO root fetch - processPackages [generativepy]: Downloading https://files.pythonhosted.org/packages/9e/0a/559d20c5bbea843b8777f47c696d09458d990459b9043dbd69b1ff58b2e8/generativepy-4.0b0.tar.gz
+[2023-05-12 23:35:23] INFO root fetch - processPackages [braincube-aws-core-alpha]: Start processing: satori-ci
+[2023-05-12 23:35:23] INFO root fetch - main [MainThread]: End processing [braincube-aws-core-alpha]: success
+[2023-05-12 23:35:23] INFO root fetch - processPackages [generativepy]: executing diffoscope
+[2023-05-12 23:35:23] INFO root fetch - processPackages [generativepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/generativepy-3.2.tar.gz tmp/generativepy-4.0b0.tar.gz --markdown 20230512/g/generativepy/3.2-4.0b0/diff.md --exclude *.pyd
+[2023-05-12 23:35:23] INFO root fetch - processPackages [satori-ci]: New version: [1.2.4] Old Version: [1.1.9]
+[2023-05-12 23:35:23] INFO root fetch - processPackages [mlnext-framework]: Downloading https://files.pythonhosted.org/packages/99/11/ce6231303c147a80562c0087c6e166a19a546f5f06d32d50bab139b6add5/mlnext_framework-0.4.1.tar.gz
+[2023-05-12 23:35:23] INFO root fetch - processPackages [exceptnotifier]: executing diffoscope
+[2023-05-12 23:35:23] INFO root fetch - processPackages [exceptnotifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exceptnotifier-0.2.8.tar.gz tmp/exceptnotifier-0.2.9.tar.gz --markdown 20230512/e/exceptnotifier/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-12 23:35:23] INFO root fetch - processPackages [mlnext-framework]: executing diffoscope
+[2023-05-12 23:35:23] INFO root fetch - processPackages [mlnext-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlnext_framework-0.4.0.tar.gz tmp/mlnext_framework-0.4.1.tar.gz --markdown 20230512/m/mlnext-framework/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-12 23:35:23] INFO root fetch - processPackages [pyKVFinder]: Downloading https://files.pythonhosted.org/packages/0d/6a/1f7b136f14a2f974ff96e14af698a8b1b1bb2de7e157cf0ba3aa8a6bf646/pyKVFinder-0.5.5.tar.gz
+[2023-05-12 23:35:23] INFO root fetch - processPackages [ntheory]: Start processing: protoletariat
+[2023-05-12 23:35:23] INFO root fetch - main [MainThread]: End processing [ntheory]: success
+[2023-05-12 23:35:23] INFO root fetch - processPackages [lsqfit]: executing diffoscope
+[2023-05-12 23:35:23] INFO root fetch - processPackages [lsqfit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsqfit-9.4.tar.gz tmp/lsqfit-9.5.tar.gz --markdown 20230512/l/lsqfit/9.4-9.5/diff.md --exclude *.pyd
+[2023-05-12 23:35:23] INFO root fetch - processPackages [protoletariat]: New version: [3.2.6] Old Version: [3.2.5]
+[2023-05-12 23:35:23] INFO root fetch - processPackages [satori-ci]: Downloading https://files.pythonhosted.org/packages/5e/9a/6cfd282963557dcaddef231f1d071033255d4cc52138879d814e80cca01b/satori-ci-1.1.9.tar.gz
+[2023-05-12 23:35:23] INFO root fetch - processPackages [ntheory]: Start processing: graphscope
+[2023-05-12 23:35:23] INFO root fetch - main [MainThread]: End processing [ntheory]: success
+[2023-05-12 23:35:23] INFO root fetch - processPackages [graphscope]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-12 23:35:23] INFO root fetch - processPackages [pyKVFinder]: Downloading https://files.pythonhosted.org/packages/8a/c1/d83c77c434ba9be60a646be162a909c1fb343fbf033bee6399b38129ef79/pyKVFinder-0.6.0.tar.gz
+[2023-05-12 23:35:23] INFO root fetch - processPackages [pyKVFinder]: executing diffoscope
+[2023-05-12 23:35:23] INFO root fetch - processPackages [pyKVFinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyKVFinder-0.5.5.tar.gz tmp/pyKVFinder-0.6.0.tar.gz --markdown 20230512/p/pyKVFinder/0.5.5-0.6.0/diff.md --exclude *.pyd
+[2023-05-12 23:35:23] INFO root fetch - processPackages [satori-ci]: Downloading https://files.pythonhosted.org/packages/b5/c4/5fc9e1301039dab36b6473c704543e7a055b55026a28bc44d0758e8d0d0d/satori_ci-1.2.4.tar.gz
+[2023-05-12 23:35:24] INFO root fetch - processPackages [protoletariat]: Downloading https://files.pythonhosted.org/packages/c8/90/2082224b026374355092b0454c6caf8fb3ec1361474effa81b2bc076f487/protoletariat-3.2.6.tar.gz
+[2023-05-12 23:35:24] INFO root fetch - processPackages [cpython-lldb]: Start processing: graphscope-client
+[2023-05-12 23:35:24] INFO root fetch - main [MainThread]: End processing [cpython-lldb]: success
+[2023-05-12 23:35:24] INFO root fetch - processPackages [satori-ci]: executing diffoscope
+[2023-05-12 23:35:24] INFO root fetch - processPackages [satori-ci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satori-ci-1.1.9.tar.gz tmp/satori_ci-1.2.4.tar.gz --markdown 20230512/s/satori-ci/1.1.9-1.2.4/diff.md --exclude *.pyd
+[2023-05-12 23:35:24] INFO root fetch - processPackages [graphscope-client]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-12 23:35:24] INFO root fetch - processPackages [protoletariat]: executing diffoscope
+[2023-05-12 23:35:24] INFO root fetch - processPackages [protoletariat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protoletariat-3.2.5.tar.gz tmp/protoletariat-3.2.6.tar.gz --markdown 20230512/p/protoletariat/3.2.5-3.2.6/diff.md --exclude *.pyd
+[2023-05-12 23:35:24] INFO root fetch - processPackages [graphscope]: executing diffoscope
+[2023-05-12 23:35:24] INFO root fetch - processPackages [graphscope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphscope-0.9.0-py2.py3-none-macosx_10_9_x86_64.whl.zip tmp/graphscope-0.9.1-py2.py3-none-macosx_11_0_arm64.whl.zip --markdown 20230512/g/graphscope/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-12 23:35:24] INFO root fetch - processPackages [graphscope-client]: Downloading https://files.pythonhosted.org/packages/f7/53/c1ffb245684956bc30883fd2945f3e1677b030e8d69945fbfca28db2b46a/graphscope_client-0.9.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-12 23:35:24] WARNING root fetch - processPackages [graphscope-client]: Skipping package: exceeds size limit 48560616>=10485760
+[2023-05-12 23:35:24] INFO root fetch - main [MainThread]: End processing [graphscope-client] error
+[2023-05-12 23:35:25] INFO root fetch - main [MainThread]: End processing [connpy]: success
+[2023-05-12 23:35:25] INFO root fetch - main [MainThread]: End processing [generativepy]: success
+[2023-05-12 23:35:25] INFO root fetch - main [MainThread]: End processing [exceptnotifier]: success
+[2023-05-12 23:35:25] INFO root fetch - main [MainThread]: End processing [mlnext-framework]: success
+[2023-05-12 23:35:25] INFO root fetch - main [MainThread]: End processing [graphscope]: success
+[2023-05-12 23:35:26] INFO root fetch - main [MainThread]: End processing [protoletariat]: success
+[2023-05-12 23:35:26] INFO root fetch - main [MainThread]: End processing [satori-ci]: success
+[2023-05-12 23:35:27] INFO root fetch - main [MainThread]: End processing [pyKVFinder]: success
+[2023-05-12 23:35:28] INFO root fetch - main [MainThread]: End processing [lsqfit]: success
+[2023-05-12 23:35:28] INFO root fetch - main [MainThread]: Store serial: [18084590]
