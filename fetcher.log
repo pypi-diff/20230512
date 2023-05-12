@@ -14170,3 +14170,97 @@ EOFError: EOF read where object expected
 [2023-05-12 17:33:24] INFO root fetch - main [MainThread]: End processing [simpleimageio]: success
 [2023-05-12 17:33:34] INFO root fetch - main [MainThread]: End processing [cmeel-urdfdom]: success
 [2023-05-12 17:33:34] INFO root fetch - main [MainThread]: Store serial: [18080099]
+[2023-05-12 17:38:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18080099]
+[2023-05-12 17:38:45] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-12 17:38:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hotspotty-payment-email
+[2023-05-12 17:38:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: coloredpy
+[2023-05-12 17:38:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: graph-datasets
+[2023-05-12 17:38:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spotify-dl
+[2023-05-12 17:38:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: simbi
+[2023-05-12 17:38:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tutor-jupyter
+[2023-05-12 17:38:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rio-trend
+[2023-05-12 17:38:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dbt-core
+[2023-05-12 17:38:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dbt-postgres
+[2023-05-12 17:38:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dbt-tests-adapter
+[2023-05-12 17:38:45] WARNING root fetch - processPackages [coloredpy]: Skipping, unable to determine old version
+[2023-05-12 17:38:45] INFO root fetch - processPackages [coloredpy]: Start processing: deciphon
+[2023-05-12 17:38:45] INFO root fetch - main [MainThread]: End processing [coloredpy] error
+[2023-05-12 17:38:45] INFO root fetch - processPackages [graph-datasets]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-12 17:38:45] INFO root fetch - processPackages [spotify-dl]: New version: [8.8.1] Old Version: [8.8.0]
+[2023-05-12 17:38:45] WARNING root fetch - processPackages [simbi]: Skipping, unable to determine old version
+[2023-05-12 17:38:45] INFO root fetch - processPackages [simbi]: Start processing: sagemaker-ssh-helper
+[2023-05-12 17:38:45] INFO root fetch - main [MainThread]: End processing [simbi] error
+[2023-05-12 17:38:45] WARNING root fetch - processPackages [tutor-jupyter]: Skipping, unable to determine old version
+[2023-05-12 17:38:45] WARNING root fetch - processPackages [hotspotty-payment-email]: Skipping, unable to determine old version
+[2023-05-12 17:38:45] WARNING root fetch - processPackages [rio-trend]: Skipping, unable to determine old version
+[2023-05-12 17:38:45] INFO root fetch - processPackages [tutor-jupyter]: Start processing: filter-vcf
+[2023-05-12 17:38:45] INFO root fetch - main [MainThread]: End processing [tutor-jupyter] error
+[2023-05-12 17:38:45] INFO root fetch - processPackages [hotspotty-payment-email]: Start processing: requests-oidc
+[2023-05-12 17:38:45] INFO root fetch - processPackages [rio-trend]: Start processing: oloren
+[2023-05-12 17:38:45] INFO root fetch - main [MainThread]: End processing [hotspotty-payment-email] error
+[2023-05-12 17:38:45] INFO root fetch - processPackages [dbt-core]: New version: [1.5.1rc1] Old Version: [1.5.0rc2]
+[2023-05-12 17:38:46] INFO root fetch - main [MainThread]: End processing [rio-trend] error
+[2023-05-12 17:38:46] INFO root fetch - processPackages [sagemaker-ssh-helper]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-05-12 17:38:46] INFO root fetch - processPackages [dbt-tests-adapter]: New version: [1.5.1rc1] Old Version: [1.5.0rc2]
+[2023-05-12 17:38:46] INFO root fetch - processPackages [dbt-postgres]: New version: [1.5.1rc1] Old Version: [1.5.0rc2]
+[2023-05-12 17:38:46] INFO root fetch - processPackages [filter-vcf]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-12 17:38:46] INFO root fetch - processPackages [graph-datasets]: Downloading https://files.pythonhosted.org/packages/8b/f4/026c0ae6df5aaed0ee603472738e6e34d19834b2dbdd7b2988c82658d532/graph_datasets-0.1.0.tar.gz
+[2023-05-12 17:38:46] INFO root fetch - processPackages [deciphon]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-05-12 17:38:46] INFO root fetch - processPackages [sagemaker-ssh-helper]: executing diffoscope
+[2023-05-12 17:38:46] INFO root fetch - processPackages [sagemaker-ssh-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sagemaker-ssh-helper-1.9.0.tar.gz tmp/sagemaker-ssh-helper-1.9.1.tar.gz --markdown 20230512/s/sagemaker-ssh-helper/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-05-12 17:38:46] INFO root fetch - processPackages [oloren]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 17:38:46] INFO root fetch - processPackages [requests-oidc]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-05-12 17:38:46] INFO root fetch - processPackages [filter-vcf]: executing diffoscope
+[2023-05-12 17:38:46] INFO root fetch - processPackages [filter-vcf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/filter-vcf-0.1.5.tar.gz tmp/filter-vcf-0.1.6.tar.gz --markdown 20230512/f/filter-vcf/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-12 17:38:46] INFO root fetch - processPackages [dbt-postgres]: Downloading https://files.pythonhosted.org/packages/01/a7/5a11922e593a0c0cec7ab6a4675d388e9ba1ede0f096a0979f9b68e796ad/dbt-postgres-1.5.0rc2.tar.gz
+[2023-05-12 17:38:46] INFO root fetch - processPackages [oloren]: executing diffoscope
+[2023-05-12 17:38:46] INFO root fetch - processPackages [oloren]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oloren-0.0.8.tar.gz tmp/oloren-0.0.9.tar.gz --markdown 20230512/o/oloren/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 17:38:46] INFO root fetch - processPackages [deciphon]: Downloading https://files.pythonhosted.org/packages/e4/29/6000aa8719a08470c03c011a0bb80377a2e60160fa3cd30a472f1035257d/deciphon-0.8.0.tar.gz
+[2023-05-12 17:38:46] INFO root fetch - processPackages [dbt-core]: Downloading https://files.pythonhosted.org/packages/be/3c/46a753257b7e21af53cdd54244e7e9aac24cbcd49fef9b9bb19b0089a289/dbt-core-1.5.0rc2.tar.gz
+[2023-05-12 17:38:46] INFO root fetch - processPackages [requests-oidc]: Downloading https://files.pythonhosted.org/packages/18/81/e6613fbbb2ccd9ce84eb50f1599fe703d75b282e342a91d0eb930ff3b468/requests_oidc-0.5.0.tar.gz
+[2023-05-12 17:38:46] INFO root fetch - processPackages [dbt-tests-adapter]: Downloading https://files.pythonhosted.org/packages/b4/4f/666adea028e949f6c34943b05e7f6d41c9e93bb1a371228d66b24c790732/dbt-tests-adapter-1.5.0rc2.tar.gz
+[2023-05-12 17:38:46] INFO root fetch - processPackages [graph-datasets]: Downloading https://files.pythonhosted.org/packages/f6/09/6736f76fb9d9818e48ead15fd8abd590c3412ec95b66af40521205b9ae2a/graph_datasets-0.1.1.tar.gz
+[2023-05-12 17:38:46] INFO root fetch - processPackages [graph-datasets]: executing diffoscope
+[2023-05-12 17:38:46] INFO root fetch - processPackages [graph-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graph_datasets-0.1.0.tar.gz tmp/graph_datasets-0.1.1.tar.gz --markdown 20230512/g/graph-datasets/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-12 17:38:46] INFO root fetch - processPackages [dbt-postgres]: Downloading https://files.pythonhosted.org/packages/b6/94/7f13d1cd17967fb6c454235038113ad708a49e21be87f84b93e9baa16230/dbt-postgres-1.5.1rc1.tar.gz
+[2023-05-12 17:38:46] INFO root fetch - processPackages [deciphon]: Downloading https://files.pythonhosted.org/packages/1a/20/178f6e1d6a538f0267c0e9dfc682b08a9ac568c6a2951d1bcc059ac3191c/deciphon-0.8.1.tar.gz
+[2023-05-12 17:38:46] INFO root fetch - processPackages [requests-oidc]: Downloading https://files.pythonhosted.org/packages/55/05/caae67297a01ee9b37ae5b739578cadd0d512bf06caa281645d4340ddef8/requests_oidc-0.6.0.tar.gz
+[2023-05-12 17:38:46] INFO root fetch - processPackages [spotify-dl]: Downloading https://files.pythonhosted.org/packages/4d/5f/7a4acea5a35c5b462bb720739dcf51aef511f3574a14933e538e51a88dbe/spotify_dl-8.8.1.tar.gz
+[2023-05-12 17:38:46] INFO root fetch - processPackages [dbt-core]: Downloading https://files.pythonhosted.org/packages/f5/db/860cc1acb0fa469ca95921b1a560f2e546becc53fe1c2d080f97d74bc265/dbt-core-1.5.1rc1.tar.gz
+[2023-05-12 17:38:46] INFO root fetch - processPackages [requests-oidc]: executing diffoscope
+[2023-05-12 17:38:46] INFO root fetch - processPackages [requests-oidc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/requests_oidc-0.5.0.tar.gz tmp/requests_oidc-0.6.0.tar.gz --markdown 20230512/r/requests-oidc/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-05-12 17:38:46] INFO root fetch - processPackages [dbt-tests-adapter]: Downloading https://files.pythonhosted.org/packages/c8/ae/5953efe4e9e3bd398656d5643180a8bfb4d6e7331223b77aa870e58ae579/dbt-tests-adapter-1.5.1rc1.tar.gz
+[2023-05-12 17:38:46] INFO root fetch - processPackages [dbt-postgres]: executing diffoscope
+[2023-05-12 17:38:46] INFO root fetch - processPackages [dbt-postgres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-postgres-1.5.0rc2.tar.gz tmp/dbt-postgres-1.5.1rc1.tar.gz --markdown 20230512/d/dbt-postgres/1.5.0rc2-1.5.1rc1/diff.md --exclude *.pyd
+[2023-05-12 17:38:46] INFO root fetch - processPackages [deciphon]: executing diffoscope
+[2023-05-12 17:38:46] INFO root fetch - processPackages [deciphon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deciphon-0.8.0.tar.gz tmp/deciphon-0.8.1.tar.gz --markdown 20230512/d/deciphon/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-05-12 17:38:46] INFO root fetch - processPackages [dbt-core]: executing diffoscope
+[2023-05-12 17:38:46] INFO root fetch - processPackages [dbt-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-core-1.5.0rc2.tar.gz tmp/dbt-core-1.5.1rc1.tar.gz --markdown 20230512/d/dbt-core/1.5.0rc2-1.5.1rc1/diff.md --exclude *.pyd
+[2023-05-12 17:38:46] INFO root fetch - processPackages [dbt-tests-adapter]: executing diffoscope
+[2023-05-12 17:38:46] INFO root fetch - processPackages [dbt-tests-adapter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-tests-adapter-1.5.0rc2.tar.gz tmp/dbt-tests-adapter-1.5.1rc1.tar.gz --markdown 20230512/d/dbt-tests-adapter/1.5.0rc2-1.5.1rc1/diff.md --exclude *.pyd
+[2023-05-12 17:38:47] INFO root fetch - processPackages [spotify-dl]: executing diffoscope
+[2023-05-12 17:38:47] INFO root fetch - processPackages [spotify-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotify_dl-8.8.0.tar.gz tmp/spotify_dl-8.8.1.tar.gz --markdown 20230512/s/spotify-dl/8.8.0-8.8.1/diff.md --exclude *.pyd
+[2023-05-12 17:38:47] INFO root fetch - processPackages [sagemaker-ssh-helper]: Start processing: tabdoc
+[2023-05-12 17:38:47] INFO root fetch - main [MainThread]: End processing [sagemaker-ssh-helper]: success
+[2023-05-12 17:38:47] INFO root fetch - processPackages [filter-vcf]: Start processing: ansys-tools-path
+[2023-05-12 17:38:47] INFO root fetch - main [MainThread]: End processing [filter-vcf]: success
+[2023-05-12 17:38:47] INFO root fetch - processPackages [tabdoc]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-12 17:38:47] INFO root fetch - processPackages [ansys-tools-path]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-12 17:38:48] INFO root fetch - main [MainThread]: End processing [graph-datasets]: success
+[2023-05-12 17:38:48] INFO root fetch - processPackages [tabdoc]: Downloading https://files.pythonhosted.org/packages/ac/44/268fbcf6b9e65e8ddb8a1457e41faffed18bf9669b8cbbae9d831a77efa5/tabdoc-1.0.2-py3-none-any.whl
+[2023-05-12 17:38:48] INFO root fetch - main [MainThread]: End processing [deciphon]: success
+[2023-05-12 17:38:48] INFO root fetch - processPackages [ansys-tools-path]: Downloading https://files.pythonhosted.org/packages/05/31/454d5140f7d612be5f479d5c62d0cad5ac89cd2f0887301c01b33a311f71/ansys-tools-path-0.2.2.tar.gz
+[2023-05-12 17:38:48] INFO root fetch - main [MainThread]: End processing [requests-oidc]: success
+[2023-05-12 17:38:48] INFO root fetch - processPackages [ansys-tools-path]: executing diffoscope
+[2023-05-12 17:38:48] INFO root fetch - processPackages [ansys-tools-path]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys-tools-path-0.2.1.tar.gz tmp/ansys-tools-path-0.2.2.tar.gz --markdown 20230512/a/ansys-tools-path/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-12 17:38:48] INFO root fetch - main [MainThread]: End processing [dbt-postgres]: success
+[2023-05-12 17:38:48] INFO root fetch - main [MainThread]: End processing [spotify-dl]: success
+[2023-05-12 17:38:48] INFO root fetch - main [MainThread]: End processing [dbt-tests-adapter]: success
+[2023-05-12 17:38:49] INFO root fetch - processPackages [tabdoc]: Downloading https://files.pythonhosted.org/packages/a5/12/d39c16a163b53f9c25dd66abe6c6c56734a9b03524ba510055d8acc13a45/tabdoc-1.0.3-py3-none-any.whl
+[2023-05-12 17:38:49] INFO root fetch - main [MainThread]: End processing [ansys-tools-path]: success
+[2023-05-12 17:38:49] INFO root fetch - processPackages [tabdoc]: executing diffoscope
+[2023-05-12 17:38:49] INFO root fetch - processPackages [tabdoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tabdoc-1.0.2-py3-none-any.whl.zip tmp/tabdoc-1.0.3-py3-none-any.whl.zip --markdown 20230512/t/tabdoc/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-12 17:38:50] INFO root fetch - main [MainThread]: End processing [dbt-core]: success
+[2023-05-12 17:38:51] INFO root fetch - main [MainThread]: End processing [tabdoc]: success
+[2023-05-12 17:38:54] INFO root fetch - main [MainThread]: End processing [oloren]: success
+[2023-05-12 17:38:54] INFO root fetch - main [MainThread]: Store serial: [18080158]
