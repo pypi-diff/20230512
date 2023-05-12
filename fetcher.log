@@ -4255,3 +4255,67 @@
 [2023-05-12 06:26:57] INFO root fetch - main [MainThread]: End processing [ripandtear]: success
 [2023-05-12 06:26:57] INFO root fetch - main [MainThread]: End processing [intecomm-rando]: success
 [2023-05-12 06:26:57] INFO root fetch - main [MainThread]: Store serial: [18073243]
+[2023-05-12 06:32:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18073243]
+[2023-05-12 06:32:06] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-12 06:32:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Dev-Helper-CLI
+[2023-05-12 06:32:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cloud-mappings
+[2023-05-12 06:32:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zytlib
+[2023-05-12 06:32:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tencentcloud-sdk-python-trro
+[2023-05-12 06:32:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: antchain-dtx
+[2023-05-12 06:32:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: validmind
+[2023-05-12 06:32:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: capabilities
+[2023-05-12 06:32:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tencentcloud-sdk-python-trtc
+[2023-05-12 06:32:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: zytlib
+[2023-05-12 06:32:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: zytlib
+[2023-05-12 06:32:06] INFO root fetch - processPackages [cloud-mappings]: New version: [2.0.0a0] Old Version: [2.0.0]
+[2023-05-12 06:32:06] WARNING root fetch - processPackages [antchain-dtx]: Skipping, unable to determine old version
+[2023-05-12 06:32:06] INFO root fetch - processPackages [tencentcloud-sdk-python-trro]: New version: [3.0.890] Old Version: [3.0.889]
+[2023-05-12 06:32:06] INFO root fetch - processPackages [Dev-Helper-CLI]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-12 06:32:06] INFO root fetch - main [MainThread]: End processing [antchain-dtx] error
+[2023-05-12 06:32:06] INFO root fetch - processPackages [zytlib]: New version: [0.3.339] Old Version: [0.3.338]
+[2023-05-12 06:32:06] INFO root fetch - processPackages [validmind]: New version: [1.8.1] Old Version: [1.8.0]
+[2023-05-12 06:32:06] INFO root fetch - processPackages [zytlib]: New version: [0.3.339] Old Version: [0.3.338]
+[2023-05-12 06:32:06] INFO root fetch - processPackages [zytlib]: New version: [0.3.339] Old Version: [0.3.338]
+[2023-05-12 06:32:06] INFO root fetch - processPackages [capabilities]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-05-12 06:32:06] INFO root fetch - processPackages [tencentcloud-sdk-python-trtc]: New version: [3.0.890] Old Version: [3.0.889]
+[2023-05-12 06:32:06] INFO root fetch - processPackages [cloud-mappings]: Downloading https://files.pythonhosted.org/packages/7a/d3/8a5eef5bac0a53c925793e8fd02765aaf3a234cf01f567d4ea24ff4401b6/cloud_mappings-2.0.0-py3-none-any.whl
+[2023-05-12 06:32:06] INFO root fetch - processPackages [zytlib]: Downloading https://files.pythonhosted.org/packages/c7/b0/7f93aee59eea63650a8023b3893cecd1025838afcc59f037997e0b402b87/zytlib-0.3.338-py3-none-any.whl
+[2023-05-12 06:32:06] INFO root fetch - processPackages [zytlib]: Downloading https://files.pythonhosted.org/packages/c7/b0/7f93aee59eea63650a8023b3893cecd1025838afcc59f037997e0b402b87/zytlib-0.3.338-py3-none-any.whl
+[2023-05-12 06:32:06] INFO root fetch - processPackages [zytlib]: Downloading https://files.pythonhosted.org/packages/c7/b0/7f93aee59eea63650a8023b3893cecd1025838afcc59f037997e0b402b87/zytlib-0.3.338-py3-none-any.whl
+[2023-05-12 06:32:06] INFO root fetch - processPackages [Dev-Helper-CLI]: Downloading https://files.pythonhosted.org/packages/9c/a6/d25b9c9419ce78aeecfc14b536b10df5860205986d63436b2d799983deda/Dev-Helper-CLI-0.0.5.tar.gz
+[2023-05-12 06:32:06] INFO root fetch - processPackages [validmind]: Downloading https://files.pythonhosted.org/packages/a4/4c/c637c90bbcf5b85fab532c1c267d53045142dc3f251e422b1659221fea23/validmind-1.8.1.tar.gz
+[2023-05-12 06:32:06] INFO root fetch - processPackages [capabilities]: Downloading https://files.pythonhosted.org/packages/75/0d/5742756c512b7854ce01b39c9a19280eed064ee621b509385338540592a3/capabilities-0.1.0.tar.gz
+[2023-05-12 06:32:07] INFO root fetch - processPackages [tencentcloud-sdk-python-trro]: Downloading https://files.pythonhosted.org/packages/5d/62/24d25872f11d85c58ab90d2c4b35664ddf4af5920a9130aa2a770352830c/tencentcloud_sdk_python_trro-3.0.890-py2.py3-none-any.whl
+[2023-05-12 06:32:07] INFO root fetch - processPackages [cloud-mappings]: executing diffoscope
+[2023-05-12 06:32:07] INFO root fetch - processPackages [cloud-mappings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud_mappings-2.0.0-py3-none-any.whl.zip tmp/cloud-mappings-2.0.0a0.tar.gz --markdown 20230512/c/cloud-mappings/2.0.0-2.0.0a0/diff.md --exclude *.pyd
+[2023-05-12 06:32:07] INFO root fetch - processPackages [Dev-Helper-CLI]: executing diffoscope
+[2023-05-12 06:32:07] INFO root fetch - processPackages [Dev-Helper-CLI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Dev-Helper-CLI-0.0.4.tar.gz tmp/Dev-Helper-CLI-0.0.5.tar.gz --markdown 20230512/D/Dev-Helper-CLI/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-12 06:32:07] INFO root fetch - processPackages [tencentcloud-sdk-python-trtc]: Downloading https://files.pythonhosted.org/packages/b4/8e/0a67f3b787df020db1b431a9f3b063834d37ad983308a021ba3b21192078/tencentcloud-sdk-python-trtc-3.0.890.tar.gz
+[2023-05-12 06:32:07] INFO root fetch - processPackages [zytlib]: Downloading https://files.pythonhosted.org/packages/67/c3/9d62691d35504464fccd3fa67928156d7f755571002324dcbf15b4bd9b27/zytlib-0.3.339-py3-none-any.whl
+[2023-05-12 06:32:07] INFO root fetch - processPackages [zytlib]: Downloading https://files.pythonhosted.org/packages/67/c3/9d62691d35504464fccd3fa67928156d7f755571002324dcbf15b4bd9b27/zytlib-0.3.339-py3-none-any.whl
+[2023-05-12 06:32:07] INFO root fetch - processPackages [zytlib]: Downloading https://files.pythonhosted.org/packages/67/c3/9d62691d35504464fccd3fa67928156d7f755571002324dcbf15b4bd9b27/zytlib-0.3.339-py3-none-any.whl
+[2023-05-12 06:32:07] INFO root fetch - processPackages [validmind]: executing diffoscope
+[2023-05-12 06:32:07] INFO root fetch - processPackages [validmind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/validmind-1.8.0-py3-none-any.whl.zip tmp/validmind-1.8.1.tar.gz --markdown 20230512/v/validmind/1.8.0-1.8.1/diff.md --exclude *.pyd
+[2023-05-12 06:32:07] INFO root fetch - processPackages [tencentcloud-sdk-python-trro]: executing diffoscope
+[2023-05-12 06:32:07] INFO root fetch - processPackages [tencentcloud-sdk-python-trro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-trro-3.0.889.tar.gz tmp/tencentcloud_sdk_python_trro-3.0.890-py2.py3-none-any.whl.zip --markdown 20230512/t/tencentcloud-sdk-python-trro/3.0.889-3.0.890/diff.md --exclude *.pyd
+[2023-05-12 06:32:07] INFO root fetch - processPackages [capabilities]: Downloading https://files.pythonhosted.org/packages/10/b1/4d3931ff5e4ad05f54b89846df636878da8143cb2500c98176c84227409a/capabilities-0.1.2.tar.gz
+[2023-05-12 06:32:07] INFO root fetch - processPackages [tencentcloud-sdk-python-trtc]: executing diffoscope
+[2023-05-12 06:32:07] INFO root fetch - processPackages [tencentcloud-sdk-python-trtc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-trtc-3.0.889.tar.gz tmp/tencentcloud-sdk-python-trtc-3.0.890.tar.gz --markdown 20230512/t/tencentcloud-sdk-python-trtc/3.0.889-3.0.890/diff.md --exclude *.pyd
+[2023-05-12 06:32:07] INFO root fetch - processPackages [zytlib]: executing diffoscope
+[2023-05-12 06:32:07] INFO root fetch - processPackages [zytlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zytlib-0.3.338-py3-none-any.whl.zip tmp/zytlib-0.3.339-py3-none-any.whl.zip --markdown 20230512/z/zytlib/0.3.338-0.3.339/diff.md --exclude *.pyd
+[2023-05-12 06:32:07] INFO root fetch - processPackages [zytlib]: executing diffoscope
+[2023-05-12 06:32:07] INFO root fetch - processPackages [zytlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zytlib-0.3.338-py3-none-any.whl.zip tmp/zytlib-0.3.339-py3-none-any.whl.zip --markdown 20230512/z/zytlib/0.3.338-0.3.339/diff.md --exclude *.pyd
+[2023-05-12 06:32:07] INFO root fetch - processPackages [zytlib]: executing diffoscope
+[2023-05-12 06:32:07] INFO root fetch - processPackages [zytlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zytlib-0.3.338-py3-none-any.whl.zip tmp/zytlib-0.3.339-py3-none-any.whl.zip --markdown 20230512/z/zytlib/0.3.338-0.3.339/diff.md --exclude *.pyd
+[2023-05-12 06:32:07] INFO root fetch - processPackages [capabilities]: executing diffoscope
+[2023-05-12 06:32:07] INFO root fetch - processPackages [capabilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capabilities-0.1.0.tar.gz tmp/capabilities-0.1.2.tar.gz --markdown 20230512/c/capabilities/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2023-05-12 06:32:08] INFO root fetch - main [MainThread]: End processing [cloud-mappings]: success
+[2023-05-12 06:32:08] INFO root fetch - main [MainThread]: End processing [Dev-Helper-CLI]: success
+[2023-05-12 06:32:08] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-trro]: success
+[2023-05-12 06:32:08] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-trtc]: success
+[2023-05-12 06:32:09] INFO root fetch - main [MainThread]: End processing [zytlib]: success
+[2023-05-12 06:32:09] INFO root fetch - main [MainThread]: End processing [zytlib]: success
+[2023-05-12 06:32:09] INFO root fetch - main [MainThread]: End processing [capabilities]: success
+[2023-05-12 06:32:09] INFO root fetch - main [MainThread]: End processing [zytlib]: success
+[2023-05-12 06:32:10] INFO root fetch - main [MainThread]: End processing [validmind]: success
+[2023-05-12 06:32:10] INFO root fetch - main [MainThread]: Store serial: [18073291]
