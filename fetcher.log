@@ -3381,3 +3381,97 @@
 [2023-05-12 05:13:53] INFO root fetch - main [MainThread]: End processing [qcontext]: success
 [2023-05-12 05:13:55] INFO root fetch - main [MainThread]: End processing [GANDLF]: success
 [2023-05-12 05:13:55] INFO root fetch - main [MainThread]: Store serial: [18072745]
+[2023-05-12 05:18:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18072745]
+[2023-05-12 05:19:04] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-12 05:19:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yw-etl-tap-sqlalchemy
+[2023-05-12 05:19:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: taichi
+[2023-05-12 05:19:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ykenan-fragments
+[2023-05-12 05:19:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: countess
+[2023-05-12 05:19:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addons-oca-account-payment
+[2023-05-12 05:19:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: netpackAIO
+[2023-05-12 05:19:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pdcscore
+[2023-05-12 05:19:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tencentcloud-sdk-python-rce
+[2023-05-12 05:19:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-fragments
+[2023-05-12 05:19:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sca-rhythm
+[2023-05-12 05:19:04] INFO root fetch - processPackages [yw-etl-tap-sqlalchemy]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-12 05:19:04] INFO root fetch - processPackages [ykenan-fragments]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-05-12 05:19:04] INFO root fetch - processPackages [sca-rhythm]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-05-12 05:19:04] INFO root fetch - processPackages [odoo-addons-oca-account-payment]: New version: [16.0.20230511.0] Old Version: [16.0.20230418.0]
+[2023-05-12 05:19:04] INFO root fetch - processPackages [netpackAIO]: New version: [0.0.8] Old Version: [0.0.5]
+[2023-05-12 05:19:04] INFO root fetch - processPackages [countess]: New version: [0.0.27] Old Version: [0.0.26]
+[2023-05-12 05:19:04] INFO root fetch - processPackages [django-fragments]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-12 05:19:04] INFO root fetch - processPackages [pdcscore]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-05-12 05:19:04] INFO root fetch - processPackages [taichi]: New version: [1.6.0] Old Version: [1.5.0]
+[2023-05-12 05:19:04] INFO root fetch - processPackages [sca-rhythm]: executing diffoscope
+[2023-05-12 05:19:04] INFO root fetch - processPackages [sca-rhythm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sca_rhythm-0.4.2.tar.gz tmp/sca_rhythm-0.4.3.tar.gz --markdown 20230512/s/sca-rhythm/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-05-12 05:19:05] INFO root fetch - processPackages [countess]: Downloading https://files.pythonhosted.org/packages/77/8f/7f256b54b3d88428f30bbed74cc871b40e6d57cda24ebaeea6fee8ced0a0/countess-0.0.26.tar.gz
+[2023-05-12 05:19:05] INFO root fetch - processPackages [odoo-addons-oca-account-payment]: Downloading https://files.pythonhosted.org/packages/06/6d/60f5a83670c71dbd6ed33b27aaf2ba4f103e90ac3fa6f033c837ffd7bce1/odoo_addons_oca_account_payment-16.0.20230418.0-py3-none-any.whl
+[2023-05-12 05:19:05] INFO root fetch - processPackages [tencentcloud-sdk-python-rce]: New version: [3.0.890] Old Version: [3.0.889]
+[2023-05-12 05:19:05] INFO root fetch - processPackages [ykenan-fragments]: Downloading https://files.pythonhosted.org/packages/96/5b/065fed73125437dde818c6b0d0faf0bd026663fc6b7c7f1aabfd19de8ed1/ykenan_fragments-1.2.8.tar.gz
+[2023-05-12 05:19:05] INFO root fetch - processPackages [yw-etl-tap-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/8c/e7/47ea812e8ee8a4bdc9603cb8f36e417d0ef4414c625311a439c3dd27d7da/yw_etl_tap_sqlalchemy-0.1.4.tar.gz
+[2023-05-12 05:19:05] INFO root fetch - processPackages [taichi]: Downloading https://files.pythonhosted.org/packages/1b/5f/43b78b824fb3821ccb5047ab68af2579e4f2d6b576dfdf39f7f258f7964c/taichi-1.5.0-cp39-cp39-win_amd64.whl
+[2023-05-12 05:19:05] INFO root fetch - processPackages [netpackAIO]: Downloading https://files.pythonhosted.org/packages/7b/46/29447802d74e563521fe2602777e840438509148ba9990a504d41ca9bf30/netpackAIO-0.0.5.tar.gz
+[2023-05-12 05:19:05] INFO root fetch - processPackages [django-fragments]: Downloading https://files.pythonhosted.org/packages/98/ee/5817c93e3d976e1367a304e9703676bfdc125dc1a702d2c3d8218a162fb9/django_fragments-0.1.3.tar.gz
+[2023-05-12 05:19:05] WARNING root fetch - processPackages [taichi]: Skipping package: exceeds size limit 50107048>=10485760
+[2023-05-12 05:19:05] INFO root fetch - processPackages [taichi]: Start processing: tencentcloud-sdk-python-redis
+[2023-05-12 05:19:05] INFO root fetch - main [MainThread]: End processing [taichi] error
+[2023-05-12 05:19:05] INFO root fetch - processPackages [yw-etl-tap-sqlalchemy]: executing diffoscope
+[2023-05-12 05:19:05] INFO root fetch - processPackages [yw-etl-tap-sqlalchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yw_etl_tap_sqlalchemy-0.1.3.tar.gz tmp/yw_etl_tap_sqlalchemy-0.1.4.tar.gz --markdown 20230512/y/yw-etl-tap-sqlalchemy/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-12 05:19:05] INFO root fetch - processPackages [django-fragments]: executing diffoscope
+[2023-05-12 05:19:05] INFO root fetch - processPackages [django-fragments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_fragments-0.1.2.tar.gz tmp/django_fragments-0.1.3.tar.gz --markdown 20230512/d/django-fragments/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-12 05:19:05] INFO root fetch - processPackages [pdcscore]: Downloading https://files.pythonhosted.org/packages/22/cd/76b821014bf9011de2827cad8e2c6d469af0e24453041bbd8b0a0aafc83f/pdcscore-1.1.5.tar.gz
+[2023-05-12 05:19:05] INFO root fetch - processPackages [ykenan-fragments]: executing diffoscope
+[2023-05-12 05:19:05] INFO root fetch - processPackages [ykenan-fragments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ykenan_fragments-1.2.7.tar.gz tmp/ykenan_fragments-1.2.8.tar.gz --markdown 20230512/y/ykenan-fragments/1.2.7-1.2.8/diff.md --exclude *.pyd
+[2023-05-12 05:19:05] INFO root fetch - processPackages [countess]: Downloading https://files.pythonhosted.org/packages/7f/c9/7f55245649dcf08c1981af4d408b9739cd191d01144f392114fdf698f14e/countess-0.0.27-py3-none-any.whl
+[2023-05-12 05:19:05] INFO root fetch - processPackages [tencentcloud-sdk-python-redis]: New version: [3.0.890] Old Version: [3.0.889]
+[2023-05-12 05:19:05] INFO root fetch - processPackages [odoo-addons-oca-account-payment]: Downloading https://files.pythonhosted.org/packages/5d/42/08bd96b487fe09c67c91a563b3c3a490d09c017512ad2e7d9517c636386c/odoo_addons_oca_account_payment-16.0.20230511.0-py3-none-any.whl
+[2023-05-12 05:19:05] INFO root fetch - processPackages [netpackAIO]: Downloading https://files.pythonhosted.org/packages/bd/59/bd8df97f29f36a0f99b7f42501acc69b34d61608508020cdf3882e5fe06f/netpackAIO-0.0.8.tar.gz
+[2023-05-12 05:19:05] INFO root fetch - processPackages [pdcscore]: executing diffoscope
+[2023-05-12 05:19:05] INFO root fetch - processPackages [pdcscore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdcscore-1.1.4.tar.gz tmp/pdcscore-1.1.5.tar.gz --markdown 20230512/p/pdcscore/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-05-12 05:19:05] INFO root fetch - processPackages [netpackAIO]: executing diffoscope
+[2023-05-12 05:19:05] INFO root fetch - processPackages [netpackAIO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netpackAIO-0.0.5.tar.gz tmp/netpackAIO-0.0.8.tar.gz --markdown 20230512/n/netpackAIO/0.0.5-0.0.8/diff.md --exclude *.pyd
+[2023-05-12 05:19:05] INFO root fetch - processPackages [tencentcloud-sdk-python-rce]: Downloading https://files.pythonhosted.org/packages/42/2e/27fa3620721d8ef3acbffa3d88148477f9494e92c70f7a24f2bca7e402ca/tencentcloud-sdk-python-rce-3.0.890.tar.gz
+[2023-05-12 05:19:05] INFO root fetch - processPackages [countess]: executing diffoscope
+[2023-05-12 05:19:05] INFO root fetch - processPackages [countess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/countess-0.0.26.tar.gz tmp/countess-0.0.27-py3-none-any.whl.zip --markdown 20230512/c/countess/0.0.26-0.0.27/diff.md --exclude *.pyd
+[2023-05-12 05:19:05] INFO root fetch - processPackages [odoo-addons-oca-account-payment]: executing diffoscope
+[2023-05-12 05:19:05] INFO root fetch - processPackages [odoo-addons-oca-account-payment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_account_payment-16.0.20230418.0-py3-none-any.whl.zip tmp/odoo_addons_oca_account_payment-16.0.20230511.0-py3-none-any.whl.zip --markdown 20230512/o/odoo-addons-oca-account-payment/16.0.20230418.0-16.0.20230511.0/diff.md --exclude *.pyd
+[2023-05-12 05:19:05] INFO root fetch - processPackages [tencentcloud-sdk-python-rce]: executing diffoscope
+[2023-05-12 05:19:05] INFO root fetch - processPackages [tencentcloud-sdk-python-rce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-rce-3.0.889.tar.gz tmp/tencentcloud-sdk-python-rce-3.0.890.tar.gz --markdown 20230512/t/tencentcloud-sdk-python-rce/3.0.889-3.0.890/diff.md --exclude *.pyd
+[2023-05-12 05:19:05] INFO root fetch - processPackages [tencentcloud-sdk-python-redis]: Downloading https://files.pythonhosted.org/packages/a0/e5/a70ddec367677c52be44a6192741c98b939eaaf8305b88b1188327ddf1d3/tencentcloud-sdk-python-redis-3.0.890.tar.gz
+[2023-05-12 05:19:05] INFO root fetch - processPackages [tencentcloud-sdk-python-redis]: executing diffoscope
+[2023-05-12 05:19:05] INFO root fetch - processPackages [tencentcloud-sdk-python-redis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-redis-3.0.889.tar.gz tmp/tencentcloud-sdk-python-redis-3.0.890.tar.gz --markdown 20230512/t/tencentcloud-sdk-python-redis/3.0.889-3.0.890/diff.md --exclude *.pyd
+[2023-05-12 05:19:06] INFO root fetch - processPackages [sca-rhythm]: Start processing: raindancers-network.raindancers-cdk
+[2023-05-12 05:19:06] INFO root fetch - main [MainThread]: End processing [sca-rhythm]: success
+[2023-05-12 05:19:06] INFO root fetch - processPackages [raindancers-network.raindancers-cdk]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-12 05:19:06] INFO root fetch - processPackages [yw-etl-tap-sqlalchemy]: Start processing: odoo-addon-account-reconcile-payment-order
+[2023-05-12 05:19:06] INFO root fetch - main [MainThread]: End processing [yw-etl-tap-sqlalchemy]: success
+[2023-05-12 05:19:06] INFO root fetch - processPackages [raindancers-network.raindancers-cdk]: Downloading https://files.pythonhosted.org/packages/ea/54/6bf13cb9d57a01641363fc9468f24695092a5666812a549bcd43fa803f56/raindancers-network.raindancers-cdk-1.9.8.tar.gz
+[2023-05-12 05:19:06] WARNING root fetch - processPackages [odoo-addon-account-reconcile-payment-order]: Skipping, unable to determine old version
+[2023-05-12 05:19:06] INFO root fetch - processPackages [odoo-addon-account-reconcile-payment-order]: Start processing: hagrid
+[2023-05-12 05:19:06] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-reconcile-payment-order] error
+[2023-05-12 05:19:06] INFO root fetch - processPackages [django-fragments]: Start processing: odoo-addons-oca-account-reconcile
+[2023-05-12 05:19:06] INFO root fetch - main [MainThread]: End processing [django-fragments]: success
+[2023-05-12 05:19:06] INFO root fetch - processPackages [hagrid]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-12 05:19:06] INFO root fetch - processPackages [odoo-addons-oca-account-reconcile]: New version: [16.0.20230331.0] Old Version: [16.0.20230330.0]
+[2023-05-12 05:19:07] INFO root fetch - main [MainThread]: End processing [ykenan-fragments]: success
+[2023-05-12 05:19:07] INFO root fetch - processPackages [hagrid]: Downloading https://files.pythonhosted.org/packages/63/8f/f6b3f8daafd8bb51dd59ed15dee9f83776e53b4bd4f460239542b391169f/hagrid-0.3.8.tar.gz
+[2023-05-12 05:19:07] INFO root fetch - processPackages [odoo-addons-oca-account-reconcile]: Downloading https://files.pythonhosted.org/packages/81/25/ae5c3dc38d9e9605ca4726bb6f5d543b1b75c5397f708e277ba77767fc13/odoo_addons_oca_account_reconcile-16.0.20230330.0-py3-none-any.whl
+[2023-05-12 05:19:07] INFO root fetch - main [MainThread]: End processing [netpackAIO]: success
+[2023-05-12 05:19:07] INFO root fetch - processPackages [raindancers-network.raindancers-cdk]: Downloading https://files.pythonhosted.org/packages/9a/d5/818105d18635e2296178505d8da89a15b0b8c0c5ecdae0cbf83882f33347/raindancers-network.raindancers-cdk-1.9.9.tar.gz
+[2023-05-12 05:19:07] INFO root fetch - processPackages [hagrid]: Downloading https://files.pythonhosted.org/packages/93/62/db70dc46e40b49bc26e4074bed1920230e6deffcc964b82b28bdc7cfccdc/hagrid-0.3.9.tar.gz
+[2023-05-12 05:19:07] INFO root fetch - processPackages [raindancers-network.raindancers-cdk]: executing diffoscope
+[2023-05-12 05:19:07] INFO root fetch - processPackages [raindancers-network.raindancers-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raindancers-network.raindancers-cdk-1.9.8.tar.gz tmp/raindancers-network.raindancers-cdk-1.9.9.tar.gz --markdown 20230512/r/raindancers-network.raindancers-cdk/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-12 05:19:07] INFO root fetch - processPackages [odoo-addons-oca-account-reconcile]: Downloading https://files.pythonhosted.org/packages/2e/b5/6a917e079bb5ff7a7fb2a1e10e38d2bf76864b6e4326406174d223a7a3fa/odoo_addons_oca_account_reconcile-16.0.20230331.0-py3-none-any.whl
+[2023-05-12 05:19:07] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-rce]: success
+[2023-05-12 05:19:07] INFO root fetch - processPackages [odoo-addons-oca-account-reconcile]: executing diffoscope
+[2023-05-12 05:19:07] INFO root fetch - processPackages [odoo-addons-oca-account-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_account_reconcile-16.0.20230330.0-py3-none-any.whl.zip tmp/odoo_addons_oca_account_reconcile-16.0.20230331.0-py3-none-any.whl.zip --markdown 20230512/o/odoo-addons-oca-account-reconcile/16.0.20230330.0-16.0.20230331.0/diff.md --exclude *.pyd
+[2023-05-12 05:19:07] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-account-payment]: success
+[2023-05-12 05:19:07] INFO root fetch - main [MainThread]: End processing [pdcscore]: success
+[2023-05-12 05:19:07] INFO root fetch - processPackages [hagrid]: executing diffoscope
+[2023-05-12 05:19:07] INFO root fetch - processPackages [hagrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hagrid-0.3.8.tar.gz tmp/hagrid-0.3.9.tar.gz --markdown 20230512/h/hagrid/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-12 05:19:07] INFO root fetch - main [MainThread]: End processing [countess]: success
+[2023-05-12 05:19:07] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-redis]: success
+[2023-05-12 05:19:08] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-account-reconcile]: success
+[2023-05-12 05:19:09] INFO root fetch - main [MainThread]: End processing [hagrid]: success
+[2023-05-12 05:19:09] INFO root fetch - main [MainThread]: End processing [raindancers-network.raindancers-cdk]: success
+[2023-05-12 05:19:09] INFO root fetch - main [MainThread]: Store serial: [18072814]
