@@ -5929,3 +5929,281 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-12 09:22:10] INFO root fetch - main [MainThread]: End processing [scine-readuct]: success
 [2023-05-12 09:22:14] INFO root fetch - main [MainThread]: End processing [scine-xtb-wrapper]: success
 [2023-05-12 09:22:14] INFO root fetch - main [MainThread]: Store serial: [18074498]
+[2023-05-12 09:28:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18074498]
+[2023-05-12 09:28:29] INFO root fetch - main [MainThread]: Found 43 changed packages
+[2023-05-12 09:28:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dialog-workflow-local-python-package
+[2023-05-12 09:28:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: g42cloudsdkcce
+[2023-05-12 09:28:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: g42cloudsdkcdn
+[2023-05-12 09:28:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addons-oca-sale-workflow
+[2023-05-12 09:28:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: usearch
+[2023-05-12 09:28:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: g42cloudsdkces
+[2023-05-12 09:28:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: g42cloudsdkcore
+[2023-05-12 09:28:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: g42cloudsdkcse
+[2023-05-12 09:28:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: troposphere-awscommunity-applicationautoscaling-scheduledaction
+[2023-05-12 09:28:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: g42cloudsdkcts
+[2023-05-12 09:28:29] INFO root fetch - processPackages [g42cloudsdkcce]: New version: [0.0.6b0] Old Version: [0.0.5b0]
+[2023-05-12 09:28:29] INFO root fetch - processPackages [dialog-workflow-local-python-package]: New version: [0.0.14] Old Version: [0.0.13]
+[2023-05-12 09:28:29] INFO root fetch - processPackages [g42cloudsdkces]: New version: [0.0.6b0] Old Version: [0.0.5b0]
+[2023-05-12 09:28:29] INFO root fetch - processPackages [g42cloudsdkcse]: New version: [0.0.6b0] Old Version: [0.0.5b0]
+[2023-05-12 09:28:29] INFO root fetch - processPackages [g42cloudsdkcore]: New version: [0.0.6b0] Old Version: [0.0.5b0]
+[2023-05-12 09:28:29] INFO root fetch - processPackages [g42cloudsdkcdn]: New version: [0.0.6b0] Old Version: [0.0.5b0]
+[2023-05-12 09:28:29] INFO root fetch - processPackages [g42cloudsdkcts]: New version: [0.0.6b0] Old Version: [0.0.5b0]
+[2023-05-12 09:28:29] INFO root fetch - processPackages [troposphere-awscommunity-applicationautoscaling-scheduledaction]: New version: [0.1.1] Old Version: [0.0.1]
+[2023-05-12 09:28:29] INFO root fetch - processPackages [odoo14-addons-oca-sale-workflow]: New version: [14.0.20230511.0] Old Version: [14.0.20230317.0]
+[2023-05-12 09:28:29] INFO root fetch - processPackages [usearch]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-12 09:28:29] INFO root fetch - processPackages [dialog-workflow-local-python-package]: Downloading https://files.pythonhosted.org/packages/90/99/9107273bf352d8244bc396259a0cc24132fae725e413d13383a938648134/dialog-workflow-local-python-package-0.0.13.tar.gz
+[2023-05-12 09:28:29] INFO root fetch - processPackages [g42cloudsdkcce]: Downloading https://files.pythonhosted.org/packages/bf/4c/27b1ff919f80ea98534e85bbcbe1f538f5877b9fc975c6500b0ccd2bfde3/g42cloudsdkcce-0.0.5b0-py2.py3-none-any.whl
+[2023-05-12 09:28:29] INFO root fetch - processPackages [g42cloudsdkcts]: Downloading https://files.pythonhosted.org/packages/a8/00/8cf929e22843aaa7bfef5e6ce26eeb2066264c09d9c11bebc66bdaf0b7d7/g42cloudsdkcts-0.0.5b0-py2.py3-none-any.whl
+[2023-05-12 09:28:29] INFO root fetch - processPackages [g42cloudsdkcse]: Downloading https://files.pythonhosted.org/packages/da/94/d2c3a3f0b0f26084227eeb594bf3ec7f64b1bdd38d78e4e6122571402c4d/g42cloudsdkcse-0.0.5b0-py2.py3-none-any.whl
+[2023-05-12 09:28:29] INFO root fetch - processPackages [g42cloudsdkcore]: Downloading https://files.pythonhosted.org/packages/a6/1e/5b34cfa448ad5b6007aa9b6db83ff4205df4b542a1af833549e038fddf10/g42cloudsdkcore-0.0.5b0-py2.py3-none-any.whl
+[2023-05-12 09:28:29] INFO root fetch - processPackages [g42cloudsdkcdn]: Downloading https://files.pythonhosted.org/packages/63/9d/324e519f5b0efeaca387103277fcd8855d0e4dc26f133678b77a04ccbb5e/g42cloudsdkcdn-0.0.5b0-py2.py3-none-any.whl
+[2023-05-12 09:28:29] INFO root fetch - processPackages [g42cloudsdkces]: Downloading https://files.pythonhosted.org/packages/e4/63/eac4c00dfe9bd05a5b2a9247662551eea9419c1379cc6d634bd2ff6e7cbc/g42cloudsdkces-0.0.5b0-py2.py3-none-any.whl
+[2023-05-12 09:28:29] INFO root fetch - processPackages [odoo14-addons-oca-sale-workflow]: Downloading https://files.pythonhosted.org/packages/f6/41/91e943797f52e148c9de5115a366cc6dad2586ff538cd029ccb4516e31b6/odoo14_addons_oca_sale_workflow-14.0.20230317.0-py3-none-any.whl
+[2023-05-12 09:28:29] INFO root fetch - processPackages [troposphere-awscommunity-applicationautoscaling-scheduledaction]: Downloading https://files.pythonhosted.org/packages/d4/56/8bbbfbfa835d91f26ace6d8381790b30bb249da32b6cf2e232d3a514e2d7/troposphere_awscommunity_applicationautoscaling_scheduledaction-0.1.1.tar.gz
+[2023-05-12 09:28:29] INFO root fetch - processPackages [dialog-workflow-local-python-package]: Downloading https://files.pythonhosted.org/packages/bf/a6/40d5c0f4444582d8793417552aa3368503dca9670a3a1f0fd8f8c1c5ee09/dialog-workflow-local-python-package-0.0.14.tar.gz
+[2023-05-12 09:28:29] INFO root fetch - processPackages [usearch]: Downloading https://files.pythonhosted.org/packages/cc/27/4053a6dae07cb4ea6560298b0e5a9aef6f85419913229c9431222ed0779d/usearch-0.2.1-cp39-cp39-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl
+[2023-05-12 09:28:29] INFO root fetch - processPackages [g42cloudsdkcse]: Downloading https://files.pythonhosted.org/packages/36/ee/7bbcef8369004cd18b9a7666b9041ef119b529cdcdb32a82ed61a3915130/g42cloudsdkcse-0.0.6b0-py2.py3-none-any.whl
+[2023-05-12 09:28:30] INFO root fetch - processPackages [dialog-workflow-local-python-package]: executing diffoscope
+[2023-05-12 09:28:30] INFO root fetch - processPackages [dialog-workflow-local-python-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dialog-workflow-local-python-package-0.0.13.tar.gz tmp/dialog-workflow-local-python-package-0.0.14.tar.gz --markdown 20230512/d/dialog-workflow-local-python-package/0.0.13-0.0.14/diff.md --exclude *.pyd
+[2023-05-12 09:28:30] INFO root fetch - processPackages [g42cloudsdkcts]: Downloading https://files.pythonhosted.org/packages/97/40/658ef7f482e5536f0d6dd555cfadf04e98f49eb435bd567a340ed74672a4/g42cloudsdkcts-0.0.6b0-py2.py3-none-any.whl
+[2023-05-12 09:28:30] INFO root fetch - processPackages [odoo14-addons-oca-sale-workflow]: Downloading https://files.pythonhosted.org/packages/56/88/0fa5bfa19e0defd5480ac9d551b01b7ed2b0a6b018665574bb4d8f6c60d9/odoo14_addons_oca_sale_workflow-14.0.20230511.0-py3-none-any.whl
+[2023-05-12 09:28:30] INFO root fetch - processPackages [g42cloudsdkces]: Downloading https://files.pythonhosted.org/packages/a0/70/88aa2820cb8842765702b6cb991dcb6cd7da5876ef4e4b1bdc70391ad955/g42cloudsdkces-0.0.6b0-py2.py3-none-any.whl
+[2023-05-12 09:28:30] INFO root fetch - processPackages [g42cloudsdkcdn]: Downloading https://files.pythonhosted.org/packages/49/cc/06c78b4beddb9c14a38924c3c73ebbf6d834cb9a0f77e3164e0a4b5f0003/g42cloudsdkcdn-0.0.6b0-py2.py3-none-any.whl
+[2023-05-12 09:28:30] INFO root fetch - processPackages [troposphere-awscommunity-applicationautoscaling-scheduledaction]: executing diffoscope
+[2023-05-12 09:28:30] INFO root fetch - processPackages [troposphere-awscommunity-applicationautoscaling-scheduledaction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/troposphere_awscommunity_applicationautoscaling_scheduledaction-0.0.1.tar.gz tmp/troposphere_awscommunity_applicationautoscaling_scheduledaction-0.1.1.tar.gz --markdown 20230512/t/troposphere-awscommunity-applicationautoscaling-scheduledaction/0.0.1-0.1.1/diff.md --exclude *.pyd
+[2023-05-12 09:28:30] INFO root fetch - processPackages [g42cloudsdkcce]: Downloading https://files.pythonhosted.org/packages/44/ba/63d2c6f657b7d539cdb87521a44d21da8bf620383236685dfdc6fd73a88d/g42cloudsdkcce-0.0.6b0-py2.py3-none-any.whl
+[2023-05-12 09:28:30] INFO root fetch - processPackages [g42cloudsdkcts]: executing diffoscope
+[2023-05-12 09:28:30] INFO root fetch - processPackages [g42cloudsdkcts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/g42cloudsdkcts-0.0.5b0-py2.py3-none-any.whl.zip tmp/g42cloudsdkcts-0.0.6b0-py2.py3-none-any.whl.zip --markdown 20230512/g/g42cloudsdkcts/0.0.5b0-0.0.6b0/diff.md --exclude *.pyd
+[2023-05-12 09:28:30] INFO root fetch - processPackages [g42cloudsdkcore]: Downloading https://files.pythonhosted.org/packages/ee/e9/824ead451e56c2734685f376fc80c3dce0d1b260bcba43dd457790ca1a10/g42cloudsdkcore-0.0.6b0-py2.py3-none-any.whl
+[2023-05-12 09:28:30] INFO root fetch - processPackages [odoo14-addons-oca-sale-workflow]: executing diffoscope
+[2023-05-12 09:28:30] INFO root fetch - processPackages [odoo14-addons-oca-sale-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_sale_workflow-14.0.20230317.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_sale_workflow-14.0.20230511.0-py3-none-any.whl.zip --markdown 20230512/o/odoo14-addons-oca-sale-workflow/14.0.20230317.0-14.0.20230511.0/diff.md --exclude *.pyd
+[2023-05-12 09:28:30] INFO root fetch - processPackages [g42cloudsdkces]: executing diffoscope
+[2023-05-12 09:28:30] INFO root fetch - processPackages [g42cloudsdkces]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/g42cloudsdkces-0.0.5b0-py2.py3-none-any.whl.zip tmp/g42cloudsdkces-0.0.6b0-py2.py3-none-any.whl.zip --markdown 20230512/g/g42cloudsdkces/0.0.5b0-0.0.6b0/diff.md --exclude *.pyd
+[2023-05-12 09:28:30] INFO root fetch - processPackages [g42cloudsdkcse]: executing diffoscope
+[2023-05-12 09:28:30] INFO root fetch - processPackages [g42cloudsdkcse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/g42cloudsdkcse-0.0.5b0-py2.py3-none-any.whl.zip tmp/g42cloudsdkcse-0.0.6b0-py2.py3-none-any.whl.zip --markdown 20230512/g/g42cloudsdkcse/0.0.5b0-0.0.6b0/diff.md --exclude *.pyd
+[2023-05-12 09:28:30] INFO root fetch - processPackages [g42cloudsdkcdn]: executing diffoscope
+[2023-05-12 09:28:30] INFO root fetch - processPackages [g42cloudsdkcdn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/g42cloudsdkcdn-0.0.5b0-py2.py3-none-any.whl.zip tmp/g42cloudsdkcdn-0.0.6b0-py2.py3-none-any.whl.zip --markdown 20230512/g/g42cloudsdkcdn/0.0.5b0-0.0.6b0/diff.md --exclude *.pyd
+[2023-05-12 09:28:30] INFO root fetch - processPackages [usearch]: executing diffoscope
+[2023-05-12 09:28:30] INFO root fetch - processPackages [g42cloudsdkcore]: executing diffoscope
+[2023-05-12 09:28:30] INFO root fetch - processPackages [g42cloudsdkcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/g42cloudsdkcore-0.0.5b0-py2.py3-none-any.whl.zip tmp/g42cloudsdkcore-0.0.6b0-py2.py3-none-any.whl.zip --markdown 20230512/g/g42cloudsdkcore/0.0.5b0-0.0.6b0/diff.md --exclude *.pyd
+[2023-05-12 09:28:30] INFO root fetch - processPackages [usearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usearch-0.2.0-cp39-cp39-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.zip tmp/usearch-0.2.1-cp39-cp39-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.zip --markdown 20230512/u/usearch/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-12 09:28:30] INFO root fetch - processPackages [g42cloudsdkcce]: executing diffoscope
+[2023-05-12 09:28:30] INFO root fetch - processPackages [g42cloudsdkcce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/g42cloudsdkcce-0.0.5b0-py2.py3-none-any.whl.zip tmp/g42cloudsdkcce-0.0.6b0-py2.py3-none-any.whl.zip --markdown 20230512/g/g42cloudsdkcce/0.0.5b0-0.0.6b0/diff.md --exclude *.pyd
+[2023-05-12 09:28:31] INFO root fetch - processPackages [troposphere-awscommunity-applicationautoscaling-scheduledaction]: Start processing: fiddler-client
+[2023-05-12 09:28:31] INFO root fetch - main [MainThread]: End processing [troposphere-awscommunity-applicationautoscaling-scheduledaction]: success
+[2023-05-12 09:28:31] INFO root fetch - processPackages [fiddler-client]: New version: [2.0.0.dev3] Old Version: [2.0.0.dev1]
+[2023-05-12 09:28:31] INFO root fetch - processPackages [dialog-workflow-local-python-package]: Start processing: g42cloudsdkecs
+[2023-05-12 09:28:31] INFO root fetch - main [MainThread]: End processing [dialog-workflow-local-python-package]: success
+[2023-05-12 09:28:31] INFO root fetch - processPackages [odoo14-addons-oca-sale-workflow]: Start processing: g42cloudsdkelb
+[2023-05-12 09:28:31] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-sale-workflow]: success
+[2023-05-12 09:28:31] INFO root fetch - processPackages [g42cloudsdkecs]: New version: [0.0.6b0] Old Version: [0.0.5b0]
+[2023-05-12 09:28:31] INFO root fetch - processPackages [g42cloudsdkelb]: New version: [0.0.6b0] Old Version: [0.0.5b0]
+[2023-05-12 09:28:32] INFO root fetch - processPackages [g42cloudsdkecs]: Downloading https://files.pythonhosted.org/packages/62/20/26ba55b3423c3484568970c2f966477d4f1fbf97915b23082f879d19ca37/g42cloudsdkecs-0.0.5b0-py2.py3-none-any.whl
+[2023-05-12 09:28:32] INFO root fetch - processPackages [g42cloudsdkelb]: Downloading https://files.pythonhosted.org/packages/3b/29/c684da333ce0dbeb9b967fef27e40f27d4b2a5f5908b2231c8c8523a09e8/g42cloudsdkelb-0.0.5b0-py2.py3-none-any.whl
+[2023-05-12 09:28:32] INFO root fetch - processPackages [fiddler-client]: executing diffoscope
+[2023-05-12 09:28:32] INFO root fetch - processPackages [fiddler-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiddler-client-2.0.0.dev1.tar.gz tmp/fiddler-client-2.0.0.dev3.tar.gz --markdown 20230512/f/fiddler-client/2.0.0.dev1-2.0.0.dev3/diff.md --exclude *.pyd
+[2023-05-12 09:28:32] INFO root fetch - processPackages [g42cloudsdkcore]: Start processing: g42cloudsdkevs
+[2023-05-12 09:28:32] INFO root fetch - main [MainThread]: End processing [g42cloudsdkcore]: success
+[2023-05-12 09:28:32] INFO root fetch - processPackages [g42cloudsdkevs]: New version: [0.0.6b0] Old Version: [0.0.5b0]
+[2023-05-12 09:28:32] INFO root fetch - processPackages [g42cloudsdkecs]: Downloading https://files.pythonhosted.org/packages/da/38/cc155d5e1ed77bc1a5d89f5b028977bfb4a7758790ffb8703d950f41dfee/g42cloudsdkecs-0.0.6b0-py2.py3-none-any.whl
+[2023-05-12 09:28:32] INFO root fetch - processPackages [g42cloudsdkelb]: Downloading https://files.pythonhosted.org/packages/9b/29/c982159ea06bb27a5dad9ec92f766539b0082f9ed9167e3025f180d9bbb5/g42cloudsdkelb-0.0.6b0-py2.py3-none-any.whl
+[2023-05-12 09:28:32] INFO root fetch - processPackages [g42cloudsdkecs]: executing diffoscope
+[2023-05-12 09:28:32] INFO root fetch - processPackages [g42cloudsdkecs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/g42cloudsdkecs-0.0.5b0-py2.py3-none-any.whl.zip tmp/g42cloudsdkecs-0.0.6b0-py2.py3-none-any.whl.zip --markdown 20230512/g/g42cloudsdkecs/0.0.5b0-0.0.6b0/diff.md --exclude *.pyd
+[2023-05-12 09:28:32] INFO root fetch - processPackages [g42cloudsdkcse]: Start processing: g42cloudsdkims
+[2023-05-12 09:28:32] INFO root fetch - main [MainThread]: End processing [g42cloudsdkcse]: success
+[2023-05-12 09:28:32] INFO root fetch - processPackages [g42cloudsdkelb]: executing diffoscope
+[2023-05-12 09:28:32] INFO root fetch - processPackages [g42cloudsdkelb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/g42cloudsdkelb-0.0.5b0-py2.py3-none-any.whl.zip tmp/g42cloudsdkelb-0.0.6b0-py2.py3-none-any.whl.zip --markdown 20230512/g/g42cloudsdkelb/0.0.5b0-0.0.6b0/diff.md --exclude *.pyd
+[2023-05-12 09:28:32] INFO root fetch - processPackages [g42cloudsdkcts]: Start processing: g42cloudsdkrds
+[2023-05-12 09:28:32] INFO root fetch - main [MainThread]: End processing [g42cloudsdkcts]: success
+[2023-05-12 09:28:32] INFO root fetch - processPackages [g42cloudsdkevs]: Downloading https://files.pythonhosted.org/packages/03/67/226042ec41d01a9f35f61775bd2cfc821aeed1c27ed5d5581ade84372c3a/g42cloudsdkevs-0.0.5b0-py2.py3-none-any.whl
+[2023-05-12 09:28:32] INFO root fetch - processPackages [g42cloudsdkims]: New version: [0.0.6b0] Old Version: [0.0.5b0]
+[2023-05-12 09:28:32] INFO root fetch - processPackages [g42cloudsdkrds]: New version: [0.0.6b0] Old Version: [0.0.5b0]
+[2023-05-12 09:28:32] INFO root fetch - processPackages [g42cloudsdkims]: Downloading https://files.pythonhosted.org/packages/87/2b/818262ffa398db33a1ba42dcb2d92d4b70f55bb3ca0f0433fc0bd6d4532d/g42cloudsdkims-0.0.5b0-py2.py3-none-any.whl
+[2023-05-12 09:28:32] INFO root fetch - processPackages [g42cloudsdkrds]: Downloading https://files.pythonhosted.org/packages/b7/e1/69b122b636f740cd1381fc4b01498f657d430b715aa6c37eb12211e39c72/g42cloudsdkrds-0.0.5b0-py2.py3-none-any.whl
+[2023-05-12 09:28:32] INFO root fetch - processPackages [g42cloudsdkevs]: Downloading https://files.pythonhosted.org/packages/53/87/b0487f65c9777d6edc4cf2046687c3df157094464c37013e305c17451b75/g42cloudsdkevs-0.0.6b0-py2.py3-none-any.whl
+[2023-05-12 09:28:33] INFO root fetch - processPackages [g42cloudsdkevs]: executing diffoscope
+[2023-05-12 09:28:33] INFO root fetch - processPackages [g42cloudsdkevs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/g42cloudsdkevs-0.0.5b0-py2.py3-none-any.whl.zip tmp/g42cloudsdkevs-0.0.6b0-py2.py3-none-any.whl.zip --markdown 20230512/g/g42cloudsdkevs/0.0.5b0-0.0.6b0/diff.md --exclude *.pyd
+[2023-05-12 09:28:33] INFO root fetch - processPackages [g42cloudsdkims]: Downloading https://files.pythonhosted.org/packages/32/c3/99161cc419bde1ded1b02dc9c51e24ca9b2401fd3f27a7145cd54999b2c2/g42cloudsdkims-0.0.6b0-py2.py3-none-any.whl
+[2023-05-12 09:28:33] INFO root fetch - processPackages [g42cloudsdkrds]: Downloading https://files.pythonhosted.org/packages/f6/8c/6fc9aa206f4cd9610bffeb926f78ce5c07ba66a1d29a0d98fd42d0a4fd12/g42cloudsdkrds-0.0.6b0-py2.py3-none-any.whl
+[2023-05-12 09:28:33] INFO root fetch - processPackages [g42cloudsdkims]: executing diffoscope
+[2023-05-12 09:28:33] INFO root fetch - processPackages [g42cloudsdkims]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/g42cloudsdkims-0.0.5b0-py2.py3-none-any.whl.zip tmp/g42cloudsdkims-0.0.6b0-py2.py3-none-any.whl.zip --markdown 20230512/g/g42cloudsdkims/0.0.5b0-0.0.6b0/diff.md --exclude *.pyd
+[2023-05-12 09:28:33] INFO root fetch - processPackages [g42cloudsdkrds]: executing diffoscope
+[2023-05-12 09:28:33] INFO root fetch - processPackages [g42cloudsdkrds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/g42cloudsdkrds-0.0.5b0-py2.py3-none-any.whl.zip tmp/g42cloudsdkrds-0.0.6b0-py2.py3-none-any.whl.zip --markdown 20230512/g/g42cloudsdkrds/0.0.5b0-0.0.6b0/diff.md --exclude *.pyd
+[2023-05-12 09:28:34] INFO root fetch - processPackages [fiddler-client]: Start processing: exasol-integration-test-docker-environment
+[2023-05-12 09:28:34] INFO root fetch - main [MainThread]: End processing [fiddler-client]: success
+[2023-05-12 09:28:34] INFO root fetch - processPackages [exasol-integration-test-docker-environment]: New version: [1.6.0] Old Version: [1.5.0]
+[2023-05-12 09:28:34] INFO root fetch - processPackages [exasol-integration-test-docker-environment]: Downloading https://files.pythonhosted.org/packages/b2/f8/75e66643a6ffec16b9f3f7404cd3ae920d5988ec2f067fe12abaf88b1a6d/exasol-integration-test-docker-environment-1.5.0.tar.gz
+[2023-05-12 09:28:34] INFO root fetch - processPackages [exasol-integration-test-docker-environment]: Downloading https://files.pythonhosted.org/packages/1b/bf/c005eae618f3e70e730f7698523f8f9420633000bd0ce5fca171163a1c93/exasol_integration_test_docker_environment-1.6.0.tar.gz
+[2023-05-12 09:28:34] INFO root fetch - processPackages [g42cloudsdkcdn]: Start processing: g42cloudsdksmn
+[2023-05-12 09:28:34] INFO root fetch - main [MainThread]: End processing [g42cloudsdkcdn]: success
+[2023-05-12 09:28:34] INFO root fetch - processPackages [g42cloudsdkces]: Start processing: g42cloudsdkvpc
+[2023-05-12 09:28:34] INFO root fetch - main [MainThread]: End processing [g42cloudsdkces]: success
+[2023-05-12 09:28:34] INFO root fetch - processPackages [exasol-integration-test-docker-environment]: executing diffoscope
+[2023-05-12 09:28:34] INFO root fetch - processPackages [exasol-integration-test-docker-environment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exasol-integration-test-docker-environment-1.5.0.tar.gz tmp/exasol_integration_test_docker_environment-1.6.0.tar.gz --markdown 20230512/e/exasol-integration-test-docker-environment/1.5.0-1.6.0/diff.md --exclude *.pyd
+[2023-05-12 09:28:35] INFO root fetch - processPackages [g42cloudsdksmn]: New version: [0.0.6b0] Old Version: [0.0.5b0]
+[2023-05-12 09:28:35] INFO root fetch - processPackages [g42cloudsdkvpc]: New version: [0.0.6b0] Old Version: [0.0.5b0]
+[2023-05-12 09:28:35] INFO root fetch - processPackages [g42cloudsdksmn]: Downloading https://files.pythonhosted.org/packages/04/0c/348c9f36658c3c101667059906cf8ab8d712e3fc5fa9aaf2121f73b0c522/g42cloudsdksmn-0.0.5b0-py2.py3-none-any.whl
+[2023-05-12 09:28:35] INFO root fetch - processPackages [g42cloudsdkcce]: Start processing: gradiop
+[2023-05-12 09:28:35] INFO root fetch - main [MainThread]: End processing [g42cloudsdkcce]: success
+[2023-05-12 09:28:35] INFO root fetch - processPackages [g42cloudsdkvpc]: Downloading https://files.pythonhosted.org/packages/2a/24/21b01b85e43a1860d21d5beefbf5c64023dcbc6acfa9ecac24b5d789eb53/g42cloudsdkvpc-0.0.5b0-py2.py3-none-any.whl
+[2023-05-12 09:28:35] INFO root fetch - processPackages [gradiop]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-12 09:28:35] INFO root fetch - processPackages [g42cloudsdksmn]: Downloading https://files.pythonhosted.org/packages/e5/22/3b756ddeed8741a0f8bc8435ca090031d4329faac45e3d01b0df516794ff/g42cloudsdksmn-0.0.6b0-py2.py3-none-any.whl
+[2023-05-12 09:28:35] INFO root fetch - processPackages [gradiop]: Downloading https://files.pythonhosted.org/packages/4a/bb/21ac1c07b63ce00e1a01b86c460a7134be2e36489acaf5a20f8e9edd2539/gradiop-0.0.1.tar.gz
+[2023-05-12 09:28:35] INFO root fetch - processPackages [g42cloudsdksmn]: executing diffoscope
+[2023-05-12 09:28:35] INFO root fetch - processPackages [g42cloudsdksmn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/g42cloudsdksmn-0.0.5b0-py2.py3-none-any.whl.zip tmp/g42cloudsdksmn-0.0.6b0-py2.py3-none-any.whl.zip --markdown 20230512/g/g42cloudsdksmn/0.0.5b0-0.0.6b0/diff.md --exclude *.pyd
+[2023-05-12 09:28:35] INFO root fetch - processPackages [g42cloudsdkvpc]: Downloading https://files.pythonhosted.org/packages/5d/f8/5ffe35e46dec6606d6bdd457d94b2d4f6d9e538b012ace4a61de7e4eb911/g42cloudsdkvpc-0.0.6b0-py2.py3-none-any.whl
+[2023-05-12 09:28:35] INFO root fetch - processPackages [g42cloudsdkvpc]: executing diffoscope
+[2023-05-12 09:28:35] INFO root fetch - processPackages [g42cloudsdkvpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/g42cloudsdkvpc-0.0.5b0-py2.py3-none-any.whl.zip tmp/g42cloudsdkvpc-0.0.6b0-py2.py3-none-any.whl.zip --markdown 20230512/g/g42cloudsdkvpc/0.0.5b0-0.0.6b0/diff.md --exclude *.pyd
+[2023-05-12 09:28:35] INFO root fetch - processPackages [gradiop]: Downloading https://files.pythonhosted.org/packages/ea/bc/a32642fcc064374858c91ebd211008cbfc1cfde4b2f53ea18c3321296525/gradiop-0.0.2.tar.gz
+[2023-05-12 09:28:35] INFO root fetch - processPackages [gradiop]: executing diffoscope
+[2023-05-12 09:28:35] INFO root fetch - processPackages [gradiop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gradiop-0.0.1.tar.gz tmp/gradiop-0.0.2.tar.gz --markdown 20230512/g/gradiop/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-12 09:28:36] INFO root fetch - processPackages [usearch]: Start processing: gardener-cicd-base
+[2023-05-12 09:28:36] INFO root fetch - main [MainThread]: End processing [usearch]: success
+[2023-05-12 09:28:36] INFO root fetch - processPackages [gardener-cicd-base]: New version: [1.2054.0] Old Version: [1.2052.0]
+[2023-05-12 09:28:36] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/c0/de/e544e3afeff1043212f1847256d1c946cc7d72e5b7b07f2f1a8b26d6b679/gardener-cicd-base-1.2054.0.tar.gz
+[2023-05-12 09:28:36] INFO root fetch - processPackages [gardener-cicd-base]: executing diffoscope
+[2023-05-12 09:28:36] INFO root fetch - processPackages [gardener-cicd-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-base-1.2052.0.tar.gz tmp/gardener-cicd-base-1.2054.0.tar.gz --markdown 20230512/g/gardener-cicd-base/1.2052.0-1.2054.0/diff.md --exclude *.pyd
+[2023-05-12 09:28:37] INFO root fetch - processPackages [g42cloudsdkevs]: Start processing: gardener-cicd-cli
+[2023-05-12 09:28:37] INFO root fetch - main [MainThread]: End processing [g42cloudsdkevs]: success
+[2023-05-12 09:28:37] INFO root fetch - processPackages [gardener-cicd-cli]: New version: [1.2054.0] Old Version: [1.2052.0]
+[2023-05-12 09:28:37] INFO root fetch - processPackages [g42cloudsdkims]: Start processing: jupyterlab-hide-code
+[2023-05-12 09:28:37] INFO root fetch - main [MainThread]: End processing [g42cloudsdkims]: success
+[2023-05-12 09:28:37] INFO root fetch - processPackages [gradiop]: Start processing: gardener-cicd-dso
+[2023-05-12 09:28:37] INFO root fetch - main [MainThread]: End processing [gradiop]: success
+[2023-05-12 09:28:37] INFO root fetch - processPackages [jupyterlab-hide-code]: New version: [3.6.3] Old Version: [3.6.2]
+[2023-05-12 09:28:37] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/b3/df/f3f1d6cd97e00de81c2df22b94dc89803369d927be6623fb8c8df84c0f46/gardener-cicd-cli-1.2054.0.tar.gz
+[2023-05-12 09:28:37] INFO root fetch - processPackages [gardener-cicd-dso]: New version: [1.2054.0] Old Version: [1.2052.0]
+[2023-05-12 09:28:37] INFO root fetch - processPackages [jupyterlab-hide-code]: Downloading https://files.pythonhosted.org/packages/fb/58/c677647b68827d891eba95abbdadcfdc664c4a938adeb1f972e0e77c1bb8/jupyterlab_hide_code-3.6.2.tar.gz
+[2023-05-12 09:28:37] INFO root fetch - processPackages [gardener-cicd-cli]: executing diffoscope
+[2023-05-12 09:28:37] INFO root fetch - processPackages [gardener-cicd-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-cli-1.2052.0.tar.gz tmp/gardener-cicd-cli-1.2054.0.tar.gz --markdown 20230512/g/gardener-cicd-cli/1.2052.0-1.2054.0/diff.md --exclude *.pyd
+[2023-05-12 09:28:37] INFO root fetch - processPackages [jupyterlab-hide-code]: Downloading https://files.pythonhosted.org/packages/fd/3b/5cf90d661c693db77a68669f08b389b8502b77350edddcde6262c66ec504/jupyterlab_hide_code-3.6.3.tar.gz
+[2023-05-12 09:28:38] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/08/7d/c8511f312af54fd9876f7f45c876fdb5003363b55542fe2edf2ace249055/gardener-cicd-dso-1.2054.0.tar.gz
+[2023-05-12 09:28:38] INFO root fetch - processPackages [jupyterlab-hide-code]: executing diffoscope
+[2023-05-12 09:28:38] INFO root fetch - processPackages [jupyterlab-hide-code]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_hide_code-3.6.2.tar.gz tmp/jupyterlab_hide_code-3.6.3.tar.gz --markdown 20230512/j/jupyterlab-hide-code/3.6.2-3.6.3/diff.md --exclude *.pyd
+[2023-05-12 09:28:38] INFO root fetch - processPackages [gardener-cicd-dso]: executing diffoscope
+[2023-05-12 09:28:38] INFO root fetch - processPackages [gardener-cicd-dso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-dso-1.2052.0.tar.gz tmp/gardener-cicd-dso-1.2054.0.tar.gz --markdown 20230512/g/gardener-cicd-dso/1.2052.0-1.2054.0/diff.md --exclude *.pyd
+[2023-05-12 09:28:39] INFO root fetch - processPackages [gardener-cicd-cli]: Start processing: gardener-cicd-libs
+[2023-05-12 09:28:39] INFO root fetch - main [MainThread]: End processing [gardener-cicd-cli]: success
+[2023-05-12 09:28:39] INFO root fetch - processPackages [g42cloudsdksmn]: Start processing: gardener-cicd-whd
+[2023-05-12 09:28:39] INFO root fetch - main [MainThread]: End processing [g42cloudsdksmn]: success
+[2023-05-12 09:28:39] INFO root fetch - processPackages [gardener-cicd-libs]: New version: [1.2054.0] Old Version: [1.2052.0]
+[2023-05-12 09:28:39] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/f4/47/0768dc92f1549b80a9169781d05eb61dd67e928f94f15ee4cfaeae299ba4/gardener-cicd-libs-1.2052.0.tar.gz
+[2023-05-12 09:28:39] INFO root fetch - processPackages [gardener-cicd-whd]: New version: [1.2054.0] Old Version: [1.2052.0]
+[2023-05-12 09:28:39] INFO root fetch - processPackages [gardener-cicd-dso]: Start processing: lisf
+[2023-05-12 09:28:39] INFO root fetch - main [MainThread]: End processing [gardener-cicd-dso]: success
+[2023-05-12 09:28:39] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/41/40/3f2c41ad94c383863bfb37c0d82fa270b1df9e5060a09e8f2532f42218ca/gardener-cicd-whd-1.2052.0.tar.gz
+[2023-05-12 09:28:39] INFO root fetch - processPackages [lisf]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-12 09:28:39] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/dd/51/251adbc9fcc3a811433ff68a47f9a22f868055d0584132f38ee06a9ef920/gardener-cicd-libs-1.2054.0.tar.gz
+[2023-05-12 09:28:39] INFO root fetch - processPackages [gardener-cicd-libs]: executing diffoscope
+[2023-05-12 09:28:39] INFO root fetch - processPackages [gardener-cicd-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-libs-1.2052.0.tar.gz tmp/gardener-cicd-libs-1.2054.0.tar.gz --markdown 20230512/g/gardener-cicd-libs/1.2052.0-1.2054.0/diff.md --exclude *.pyd
+[2023-05-12 09:28:39] INFO root fetch - processPackages [lisf]: Downloading https://files.pythonhosted.org/packages/66/71/e203ab53a331686ef234e93aed6509843837fba574b3502a32996afc4dc8/lisf-0.1.5.tar.gz
+[2023-05-12 09:28:39] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/b0/07/2ae2634709d16b8bac5fd822b2fb2a0082d2057e0f4612263bed265d72e9/gardener-cicd-whd-1.2054.0.tar.gz
+[2023-05-12 09:28:40] INFO root fetch - processPackages [gardener-cicd-whd]: executing diffoscope
+[2023-05-12 09:28:40] INFO root fetch - processPackages [gardener-cicd-whd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-whd-1.2052.0.tar.gz tmp/gardener-cicd-whd-1.2054.0.tar.gz --markdown 20230512/g/gardener-cicd-whd/1.2052.0-1.2054.0/diff.md --exclude *.pyd
+[2023-05-12 09:28:40] INFO root fetch - processPackages [lisf]: Downloading https://files.pythonhosted.org/packages/cc/44/5447862588f3abb05061da6f2aeb6e5c22a38bef6a52c62c2430ec04bf11/lisf-0.1.6.tar.gz
+[2023-05-12 09:28:40] INFO root fetch - processPackages [g42cloudsdkelb]: Start processing: gardener-oci
+[2023-05-12 09:28:40] INFO root fetch - main [MainThread]: End processing [g42cloudsdkelb]: success
+[2023-05-12 09:28:40] INFO root fetch - processPackages [gardener-cicd-base]: Start processing: napari-tomotwin
+[2023-05-12 09:28:40] INFO root fetch - main [MainThread]: End processing [gardener-cicd-base]: success
+[2023-05-12 09:28:40] INFO root fetch - processPackages [lisf]: executing diffoscope
+[2023-05-12 09:28:40] INFO root fetch - processPackages [lisf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lisf-0.1.5.tar.gz tmp/lisf-0.1.6.tar.gz --markdown 20230512/l/lisf/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-12 09:28:40] INFO root fetch - processPackages [napari-tomotwin]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-12 09:28:40] INFO root fetch - processPackages [gardener-oci]: New version: [1.999.0] Old Version: [1.998.0]
+[2023-05-12 09:28:40] INFO root fetch - processPackages [exasol-integration-test-docker-environment]: Start processing: kf6py
+[2023-05-12 09:28:40] INFO root fetch - main [MainThread]: End processing [exasol-integration-test-docker-environment]: success
+[2023-05-12 09:28:40] INFO root fetch - processPackages [g42cloudsdkecs]: Start processing: mynacode
+[2023-05-12 09:28:40] INFO root fetch - main [MainThread]: End processing [g42cloudsdkecs]: success
+[2023-05-12 09:28:40] INFO root fetch - processPackages [napari-tomotwin]: Downloading https://files.pythonhosted.org/packages/2b/fa/277b89305bc906fc1f33943270ea2e7e203a653908778f9a4b890b781f0d/napari-tomotwin-0.1.4.tar.gz
+[2023-05-12 09:28:40] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-05-12 09:28:40] INFO root fetch - processPackages [kf6py]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-12 09:28:40] INFO root fetch - processPackages [jupyterlab-hide-code]: Start processing: validmind
+[2023-05-12 09:28:40] INFO root fetch - main [MainThread]: End processing [jupyterlab-hide-code]: success
+[2023-05-12 09:28:40] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-05-12 09:28:40] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230512/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-05-12 09:28:40] INFO root fetch - processPackages [validmind]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-05-12 09:28:40] INFO root fetch - processPackages [napari-tomotwin]: Downloading https://files.pythonhosted.org/packages/29/f4/471639618b7e9086a1a0e29fe2251d393b2a966c951b60a5699b51ced15c/napari-tomotwin-0.1.5.tar.gz
+[2023-05-12 09:28:40] INFO root fetch - processPackages [kf6py]: Downloading https://files.pythonhosted.org/packages/ae/a5/30cc58d0f3516b19bfad37e033cd64eb31007c33199cd5c9bcfd654edd57/kf6py-0.1.0.tar.gz
+[2023-05-12 09:28:40] INFO root fetch - processPackages [gardener-oci]: executing diffoscope
+[2023-05-12 09:28:40] INFO root fetch - processPackages [gardener-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-oci-1.998.0.tar.gz tmp/gardener-oci-1.999.0.tar.gz --markdown 20230512/g/gardener-oci/1.998.0-1.999.0/diff.md --exclude *.pyd
+[2023-05-12 09:28:41] INFO root fetch - processPackages [napari-tomotwin]: executing diffoscope
+[2023-05-12 09:28:41] INFO root fetch - processPackages [napari-tomotwin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-tomotwin-0.1.4.tar.gz tmp/napari-tomotwin-0.1.5.tar.gz --markdown 20230512/n/napari-tomotwin/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-12 09:28:41] INFO root fetch - processPackages [kf6py]: Downloading https://files.pythonhosted.org/packages/66/b1/e801a933acd0e7db479b696640517eff772131381946d0c5b04ea0ac04bf/kf6py-0.2.0.tar.gz
+[2023-05-12 09:28:41] INFO root fetch - processPackages [validmind]: Downloading https://files.pythonhosted.org/packages/5f/36/4c24816808e21de7a705421b4229e482dcc892195fc3f3c0d848809c58fd/validmind-1.9.0.tar.gz
+[2023-05-12 09:28:41] INFO root fetch - processPackages [kf6py]: executing diffoscope
+[2023-05-12 09:28:41] INFO root fetch - processPackages [kf6py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kf6py-0.1.0.tar.gz tmp/kf6py-0.2.0.tar.gz --markdown 20230512/k/kf6py/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-12 09:28:41] INFO root fetch - processPackages [validmind]: executing diffoscope
+[2023-05-12 09:28:41] INFO root fetch - processPackages [validmind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/validmind-1.8.1.tar.gz tmp/validmind-1.9.0.tar.gz --markdown 20230512/v/validmind/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-05-12 09:28:41] INFO root fetch - processPackages [lisf]: Start processing: google-sheet-downloader
+[2023-05-12 09:28:41] INFO root fetch - main [MainThread]: End processing [lisf]: success
+[2023-05-12 09:28:41] INFO root fetch - processPackages [google-sheet-downloader]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-12 09:28:41] INFO root fetch - processPackages [google-sheet-downloader]: executing diffoscope
+[2023-05-12 09:28:41] INFO root fetch - processPackages [google-sheet-downloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-sheet-downloader-1.0.0.tar.gz tmp/google-sheet-downloader-1.0.1.tar.gz --markdown 20230512/g/google-sheet-downloader/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-12 09:28:42] INFO root fetch - processPackages [mynacode]: Start processing: WordsToPdfs
+[2023-05-12 09:28:42] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-05-12 09:28:42] INFO root fetch - processPackages [WordsToPdfs]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-12 09:28:42] INFO root fetch - processPackages [gardener-cicd-whd]: Start processing: openmetadata-managed-apis
+[2023-05-12 09:28:42] INFO root fetch - main [MainThread]: End processing [gardener-cicd-whd]: success
+[2023-05-12 09:28:42] INFO root fetch - processPackages [WordsToPdfs]: executing diffoscope
+[2023-05-12 09:28:42] INFO root fetch - processPackages [WordsToPdfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WordsToPdfs-0.3.0.tar.gz tmp/WordsToPdfs-0.3.1.tar.gz --markdown 20230512/W/WordsToPdfs/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-12 09:28:42] INFO root fetch - processPackages [openmetadata-managed-apis]: New version: [1.0.1.2] Old Version: [1.0.1.1]
+[2023-05-12 09:28:42] INFO root fetch - processPackages [gardener-oci]: Start processing: savant-rs
+[2023-05-12 09:28:42] INFO root fetch - main [MainThread]: End processing [gardener-oci]: success
+[2023-05-12 09:28:42] WARNING root fetch - processPackages [savant-rs]: Skipping, unable to determine old version
+[2023-05-12 09:28:42] INFO root fetch - processPackages [savant-rs]: Start processing: histcite-python
+[2023-05-12 09:28:42] INFO root fetch - main [MainThread]: End processing [savant-rs] error
+[2023-05-12 09:28:42] WARNING root fetch - processPackages [openmetadata-managed-apis]: fallback to get urls: [1.0.1.2]
+[2023-05-12 09:28:42] WARNING root fetch - processPackages [openmetadata-managed-apis]: None
+[2023-05-12 09:28:42] WARNING root fetch - processPackages [openmetadata-managed-apis]: None
+[2023-05-12 09:28:42] INFO root fetch - processPackages [kf6py]: Start processing: KaggleToDatabricks
+[2023-05-12 09:28:42] INFO root fetch - main [MainThread]: End processing [kf6py]: success
+[2023-05-12 09:28:42] WARNING root fetch - processPackages [openmetadata-managed-apis]: unable to get url for both version [1.0.1.2]
+[2023-05-12 09:28:42] INFO root fetch - processPackages [KaggleToDatabricks]: New version: [0.9] Old Version: [0.8]
+[2023-05-12 09:28:42] WARNING root fetch - processPackages [openmetadata-managed-apis]: None
+[2023-05-12 09:28:42] INFO root fetch - processPackages [openmetadata-managed-apis]: Start processing: lisf
+[2023-05-12 09:28:42] INFO root fetch - main [MainThread]: End processing [openmetadata-managed-apis] error
+[2023-05-12 09:28:42] INFO root fetch - processPackages [histcite-python]: New version: [0.2.0] Old Version: [0.1.5]
+[2023-05-12 09:28:42] INFO root fetch - processPackages [lisf]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-12 09:28:42] INFO root fetch - processPackages [KaggleToDatabricks]: executing diffoscope
+[2023-05-12 09:28:42] INFO root fetch - processPackages [KaggleToDatabricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KaggleToDatabricks-0.8.tar.gz tmp/KaggleToDatabricks-0.9.tar.gz --markdown 20230512/K/KaggleToDatabricks/0.8-0.9/diff.md --exclude *.pyd
+[2023-05-12 09:28:42] INFO root fetch - processPackages [lisf]: executing diffoscope
+[2023-05-12 09:28:42] INFO root fetch - processPackages [lisf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lisf-0.1.5.tar.gz tmp/lisf-0.1.6.tar.gz --markdown 20230512/l/lisf/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-12 09:28:42] INFO root fetch - processPackages [histcite-python]: Downloading https://files.pythonhosted.org/packages/b8/52/722e3e5cd5dc5dc3e19892eed901660f54c6a218189ded4b18e7449713a7/histcite-python-0.1.5.tar.gz
+[2023-05-12 09:28:43] INFO root fetch - processPackages [napari-tomotwin]: Start processing: queryandprocessdatautility
+[2023-05-12 09:28:43] INFO root fetch - main [MainThread]: End processing [napari-tomotwin]: success
+[2023-05-12 09:28:43] INFO root fetch - processPackages [histcite-python]: Downloading https://files.pythonhosted.org/packages/3d/5f/207dc68e08f22fd4dbeee016af4ecb3653f71df2d1ffd6eba5256f723959/histcite-python-0.2.0.tar.gz
+[2023-05-12 09:28:43] INFO root fetch - processPackages [queryandprocessdatautility]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 09:28:43] INFO root fetch - processPackages [histcite-python]: executing diffoscope
+[2023-05-12 09:28:43] INFO root fetch - processPackages [histcite-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/histcite-python-0.1.5.tar.gz tmp/histcite-python-0.2.0.tar.gz --markdown 20230512/h/histcite-python/0.1.5-0.2.0/diff.md --exclude *.pyd
+[2023-05-12 09:28:43] INFO root fetch - processPackages [google-sheet-downloader]: Start processing: cyberutils
+[2023-05-12 09:28:43] INFO root fetch - main [MainThread]: End processing [google-sheet-downloader]: success
+[2023-05-12 09:28:43] INFO root fetch - processPackages [WordsToPdfs]: Start processing: sphinxawesome-theme
+[2023-05-12 09:28:43] INFO root fetch - main [MainThread]: End processing [WordsToPdfs]: success
+[2023-05-12 09:28:43] INFO root fetch - processPackages [queryandprocessdatautility]: Downloading https://files.pythonhosted.org/packages/e5/18/ab2dd9cc1f7178820c2f15a2587d89212f36475e8a62df5f390d5d5e6795/queryandprocessdatautility-0.0.8-py3-none-any.whl
+[2023-05-12 09:28:43] INFO root fetch - processPackages [cyberutils]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-12 09:28:43] INFO root fetch - processPackages [sphinxawesome-theme]: New version: [4.1.0] Old Version: [4.0.3]
+[2023-05-12 09:28:43] INFO root fetch - processPackages [sphinxawesome-theme]: Downloading https://files.pythonhosted.org/packages/6b/66/cb65e15e8929b6542fb80df034908f2c79f643abfa51c42f3946f2082fe0/sphinxawesome_theme-4.0.3.tar.gz
+[2023-05-12 09:28:43] INFO root fetch - processPackages [queryandprocessdatautility]: Downloading https://files.pythonhosted.org/packages/dc/18/de6ee5fff1b47eae3227bc53bfc0e1cbd8796730d2c45800dd46e1c9d264/queryandprocessdatautility-0.0.9-py3-none-any.whl
+[2023-05-12 09:28:43] INFO root fetch - processPackages [cyberutils]: Downloading https://files.pythonhosted.org/packages/90/25/0867edffe6e444c67661b65fc9aa763904ca4a983026688a7bdb800e9c22/cyberutils-0.0.4.tar.gz
+[2023-05-12 09:28:43] INFO root fetch - processPackages [queryandprocessdatautility]: executing diffoscope
+[2023-05-12 09:28:43] INFO root fetch - processPackages [queryandprocessdatautility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/queryandprocessdatautility-0.0.8-py3-none-any.whl.zip tmp/queryandprocessdatautility-0.0.9-py3-none-any.whl.zip --markdown 20230512/q/queryandprocessdatautility/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 09:28:43] INFO root fetch - processPackages [cyberutils]: executing diffoscope
+[2023-05-12 09:28:43] INFO root fetch - processPackages [cyberutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyberutils-0.0.3.tar.gz tmp/cyberutils-0.0.4.tar.gz --markdown 20230512/c/cyberutils/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-12 09:28:44] INFO root fetch - processPackages [KaggleToDatabricks]: Start processing: lamindb
+[2023-05-12 09:28:44] INFO root fetch - main [MainThread]: End processing [KaggleToDatabricks]: success
+[2023-05-12 09:28:44] INFO root fetch - main [MainThread]: End processing [lisf]: success
+[2023-05-12 09:28:44] INFO root fetch - processPackages [lamindb]: New version: [0.9.6] Old Version: [0.9.4]
+[2023-05-12 09:28:44] INFO root fetch - main [MainThread]: End processing [histcite-python]: success
+[2023-05-12 09:28:44] INFO root fetch - processPackages [sphinxawesome-theme]: Downloading https://files.pythonhosted.org/packages/31/ec/fb1eff65b17f19b2fd5b593f01a81556267b2c977a8271ebdb1b8c293e1b/sphinxawesome_theme-4.1.0.tar.gz
+[2023-05-12 09:28:44] INFO root fetch - processPackages [lamindb]: executing diffoscope
+[2023-05-12 09:28:44] INFO root fetch - processPackages [lamindb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamindb-0.9.4.tar.gz tmp/lamindb-0.9.6.tar.gz --markdown 20230512/l/lamindb/0.9.4-0.9.6/diff.md --exclude *.pyd
+[2023-05-12 09:28:44] INFO root fetch - main [MainThread]: End processing [g42cloudsdkrds]: success
+[2023-05-12 09:28:44] INFO root fetch - processPackages [sphinxawesome-theme]: executing diffoscope
+[2023-05-12 09:28:44] INFO root fetch - processPackages [sphinxawesome-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinxawesome_theme-4.0.3.tar.gz tmp/sphinxawesome_theme-4.1.0.tar.gz --markdown 20230512/s/sphinxawesome-theme/4.0.3-4.1.0/diff.md --exclude *.pyd
+[2023-05-12 09:28:45] INFO root fetch - main [MainThread]: End processing [queryandprocessdatautility]: success
+[2023-05-12 09:28:45] INFO root fetch - main [MainThread]: End processing [cyberutils]: success
+[2023-05-12 09:28:45] INFO root fetch - main [MainThread]: End processing [validmind]: success
+[2023-05-12 09:28:45] INFO root fetch - main [MainThread]: End processing [g42cloudsdkvpc]: success
+[2023-05-12 09:28:46] INFO root fetch - main [MainThread]: End processing [lamindb]: success
+[2023-05-12 09:28:46] INFO root fetch - main [MainThread]: End processing [gardener-cicd-libs]: success
+[2023-05-12 09:28:48] INFO root fetch - main [MainThread]: End processing [sphinxawesome-theme]: success
+[2023-05-12 09:28:48] INFO root fetch - main [MainThread]: Store serial: [18074650]
