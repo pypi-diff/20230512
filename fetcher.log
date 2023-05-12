@@ -16660,3 +16660,74 @@ EOFError: EOF read where object expected
 [2023-05-12 19:28:40] INFO root fetch - main [MainThread]: End processing [langchain]: success
 [2023-05-12 19:28:44] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-05-12 19:28:44] INFO root fetch - main [MainThread]: Store serial: [18081503]
+[2023-05-12 19:33:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18081503]
+[2023-05-12 19:33:53] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-12 19:33:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shermed
+[2023-05-12 19:33:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scdiffeq
+[2023-05-12 19:33:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: deeplake
+[2023-05-12 19:33:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autotraders
+[2023-05-12 19:33:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: es7s
+[2023-05-12 19:33:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pymx2
+[2023-05-12 19:33:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dojo-ds
+[2023-05-12 19:33:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: autotraders
+[2023-05-12 19:33:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jupyter-repl
+[2023-05-12 19:33:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: coastsat-package
+[2023-05-12 19:33:53] INFO root fetch - processPackages [autotraders]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-12 19:33:53] INFO root fetch - processPackages [scdiffeq]: New version: [0.0.46rc3] Old Version: [0.0.46rc1]
+[2023-05-12 19:33:53] INFO root fetch - processPackages [dojo-ds]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-05-12 19:33:53] INFO root fetch - processPackages [es7s]: New version: [3.6.0.dev0] Old Version: [3.5.0.dev0]
+[2023-05-12 19:33:53] INFO root fetch - processPackages [autotraders]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-12 19:33:53] INFO root fetch - processPackages [scdiffeq]: executing diffoscope
+[2023-05-12 19:33:53] INFO root fetch - processPackages [scdiffeq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scdiffeq-0.0.46rc1.tar.gz tmp/scdiffeq-0.0.46rc3.tar.gz --markdown 20230512/s/scdiffeq/0.0.46rc1-0.0.46rc3/diff.md --exclude *.pyd
+[2023-05-12 19:33:53] WARNING root fetch - processPackages [shermed]: Skipping, unable to determine old version
+[2023-05-12 19:33:53] INFO root fetch - processPackages [shermed]: Start processing: meerschaum
+[2023-05-12 19:33:53] INFO root fetch - main [MainThread]: End processing [shermed] error
+[2023-05-12 19:33:53] INFO root fetch - processPackages [deeplake]: New version: [3.4.3] Old Version: [3.4.2]
+[2023-05-12 19:33:53] INFO root fetch - processPackages [pymx2]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-12 19:33:53] WARNING root fetch - processPackages [jupyter-repl]: Skipping, unable to determine old version
+[2023-05-12 19:33:53] INFO root fetch - processPackages [jupyter-repl]: Start processing: autotraders
+[2023-05-12 19:33:53] INFO root fetch - main [MainThread]: End processing [jupyter-repl] error
+[2023-05-12 19:33:53] INFO root fetch - processPackages [coastsat-package]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-12 19:33:53] INFO root fetch - processPackages [es7s]: executing diffoscope
+[2023-05-12 19:33:53] INFO root fetch - processPackages [es7s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/es7s-3.5.0.dev0.tar.gz tmp/es7s-3.6.0.dev0.tar.gz --markdown 20230512/e/es7s/3.5.0.dev0-3.6.0.dev0/diff.md --exclude *.pyd
+[2023-05-12 19:33:53] INFO root fetch - processPackages [autotraders]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-12 19:33:53] INFO root fetch - processPackages [dojo-ds]: executing diffoscope
+[2023-05-12 19:33:53] INFO root fetch - processPackages [dojo-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dojo_ds-0.1.1.tar.gz tmp/dojo_ds-0.2.0.tar.gz --markdown 20230512/d/dojo-ds/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-05-12 19:33:53] INFO root fetch - processPackages [meerschaum]: New version: [1.6.8] Old Version: [1.6.7]
+[2023-05-12 19:33:53] INFO root fetch - processPackages [autotraders]: Downloading https://files.pythonhosted.org/packages/0f/2d/e88be513ff5582ac61bff948dc4241b6fc5996a1ba089731b69383b13cec/autotraders-0.1.2.tar.gz
+[2023-05-12 19:33:53] INFO root fetch - processPackages [autotraders]: Downloading https://files.pythonhosted.org/packages/0f/2d/e88be513ff5582ac61bff948dc4241b6fc5996a1ba089731b69383b13cec/autotraders-0.1.2.tar.gz
+[2023-05-12 19:33:54] INFO root fetch - processPackages [autotraders]: Downloading https://files.pythonhosted.org/packages/bb/45/5b5c2c50c47a3fe31ef339782d26c36ecc6cdfbca8667eb152a670fcb926/autotraders-0.1.4.tar.gz
+[2023-05-12 19:33:54] INFO root fetch - processPackages [coastsat-package]: Downloading https://files.pythonhosted.org/packages/c5/b9/bbe0f91e773f2ff00b4883939c25278cb13099ac01d05593e3bae87ad82c/coastsat_package-0.1.8.tar.gz
+[2023-05-12 19:33:54] INFO root fetch - processPackages [deeplake]: Downloading https://files.pythonhosted.org/packages/6f/ad/7d1b3fd0b14917d089871d0ef41bc492fc86c39bc8fe95a9ae0acd2fa8aa/deeplake-3.4.3.tar.gz
+[2023-05-12 19:33:54] WARNING root fetch - processPackages [coastsat-package]: Skipping package: exceeds size limit 32859514>=10485760
+[2023-05-12 19:33:54] INFO root fetch - processPackages [coastsat-package]: Start processing: gen-pop-linkml2sheets
+[2023-05-12 19:33:54] INFO root fetch - main [MainThread]: End processing [coastsat-package] error
+[2023-05-12 19:33:54] INFO root fetch - processPackages [autotraders]: executing diffoscope
+[2023-05-12 19:33:54] INFO root fetch - processPackages [autotraders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autotraders-0.1.1.tar.gz tmp/autotraders-0.1.2.tar.gz --markdown 20230512/a/autotraders/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-12 19:33:54] INFO root fetch - processPackages [autotraders]: executing diffoscope
+[2023-05-12 19:33:54] INFO root fetch - processPackages [autotraders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autotraders-0.1.1.tar.gz tmp/autotraders-0.1.2.tar.gz --markdown 20230512/a/autotraders/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-12 19:33:54] INFO root fetch - processPackages [pymx2]: Downloading https://files.pythonhosted.org/packages/f5/35/3877a2f03da83989685b19a3e490e82d719c5742ef2da265dffe59b89db4/pymx2-0.1.6.tar.gz
+[2023-05-12 19:33:54] INFO root fetch - processPackages [gen-pop-linkml2sheets]: New version: [0.1.6] Old Version: [0.1.4]
+[2023-05-12 19:33:54] INFO root fetch - processPackages [pymx2]: executing diffoscope
+[2023-05-12 19:33:54] INFO root fetch - processPackages [pymx2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymx2-0.1.5.tar.gz tmp/pymx2-0.1.6.tar.gz --markdown 20230512/p/pymx2/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-12 19:33:54] INFO root fetch - processPackages [autotraders]: Downloading https://files.pythonhosted.org/packages/32/3c/0f76044ad13a0b551acb86765b3aa7124c881251f9c07bd6bb5d5343b7bb/autotraders-0.1.5.tar.gz
+[2023-05-12 19:33:54] INFO root fetch - processPackages [deeplake]: executing diffoscope
+[2023-05-12 19:33:54] INFO root fetch - processPackages [deeplake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deeplake-3.4.2.tar.gz tmp/deeplake-3.4.3.tar.gz --markdown 20230512/d/deeplake/3.4.2-3.4.3/diff.md --exclude *.pyd
+[2023-05-12 19:33:54] INFO root fetch - processPackages [autotraders]: executing diffoscope
+[2023-05-12 19:33:54] INFO root fetch - processPackages [autotraders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autotraders-0.1.4.tar.gz tmp/autotraders-0.1.5.tar.gz --markdown 20230512/a/autotraders/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-12 19:33:54] INFO root fetch - processPackages [gen-pop-linkml2sheets]: Downloading https://files.pythonhosted.org/packages/ec/94/b27114ad4b586fa8e21be1a2ce4123e602e2c4d5fc1a366b360f54a32375/gen_pop_linkml2sheets-0.1.6.tar.gz
+[2023-05-12 19:33:54] INFO root fetch - processPackages [gen-pop-linkml2sheets]: executing diffoscope
+[2023-05-12 19:33:54] INFO root fetch - processPackages [gen-pop-linkml2sheets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gen_pop_linkml2sheets-0.1.4.tar.gz tmp/gen_pop_linkml2sheets-0.1.6.tar.gz --markdown 20230512/g/gen-pop-linkml2sheets/0.1.4-0.1.6/diff.md --exclude *.pyd
+[2023-05-12 19:33:54] INFO root fetch - processPackages [meerschaum]: executing diffoscope
+[2023-05-12 19:33:54] INFO root fetch - processPackages [meerschaum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meerschaum-1.6.7.tar.gz tmp/meerschaum-1.6.8.tar.gz --markdown 20230512/m/meerschaum/1.6.7-1.6.8/diff.md --exclude *.pyd
+[2023-05-12 19:33:55] INFO root fetch - main [MainThread]: End processing [autotraders]: success
+[2023-05-12 19:33:55] INFO root fetch - main [MainThread]: End processing [autotraders]: success
+[2023-05-12 19:33:55] INFO root fetch - main [MainThread]: End processing [dojo-ds]: success
+[2023-05-12 19:33:56] INFO root fetch - main [MainThread]: End processing [es7s]: success
+[2023-05-12 19:33:56] INFO root fetch - main [MainThread]: End processing [autotraders]: success
+[2023-05-12 19:33:56] INFO root fetch - main [MainThread]: End processing [scdiffeq]: success
+[2023-05-12 19:33:56] INFO root fetch - main [MainThread]: End processing [gen-pop-linkml2sheets]: success
+[2023-05-12 19:33:57] INFO root fetch - main [MainThread]: End processing [pymx2]: success
+[2023-05-12 19:33:58] INFO root fetch - main [MainThread]: End processing [meerschaum]: success
+[2023-05-12 19:33:59] INFO root fetch - main [MainThread]: End processing [deeplake]: success
+[2023-05-12 19:33:59] INFO root fetch - main [MainThread]: Store serial: [18081549]
