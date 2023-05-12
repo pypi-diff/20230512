@@ -16595,3 +16595,68 @@ EOFError: EOF read where object expected
 [2023-05-12 19:23:27] INFO root fetch - main [MainThread]: End processing [fdtdz]: success
 [2023-05-12 19:23:27] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes]: success
 [2023-05-12 19:23:27] INFO root fetch - main [MainThread]: Store serial: [18081439]
+[2023-05-12 19:28:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18081439]
+[2023-05-12 19:28:36] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-12 19:28:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: netbox-bgp
+[2023-05-12 19:28:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-msgbuf
+[2023-05-12 19:28:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: googleapiutils2
+[2023-05-12 19:28:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: patato
+[2023-05-12 19:28:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: autotraders
+[2023-05-12 19:28:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: langchain
+[2023-05-12 19:28:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: exceptnotifier
+[2023-05-12 19:28:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hpo-toolkit
+[2023-05-12 19:28:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kcli
+[2023-05-12 19:28:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: crazy-thursday
+[2023-05-12 19:28:36] INFO root fetch - processPackages [autotraders]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-12 19:28:36] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.5.9.1] Old Version: [2023.5.9.0]
+[2023-05-12 19:28:36] INFO root fetch - processPackages [kcli]: New version: [99.0.202305121716] Old Version: [99.0.202305121543]
+[2023-05-12 19:28:36] INFO root fetch - processPackages [googleapiutils2]: New version: [0.5.7] Old Version: [0.5.6]
+[2023-05-12 19:28:36] INFO root fetch - processPackages [netbox-bgp]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-05-12 19:28:36] INFO root fetch - processPackages [hpo-toolkit]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-12 19:28:36] WARNING root fetch - processPackages [nonebot-plugin-msgbuf]: Skipping, unable to determine old version
+[2023-05-12 19:28:36] INFO root fetch - processPackages [nonebot-plugin-msgbuf]: Start processing: streaming-indicators
+[2023-05-12 19:28:36] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-msgbuf] error
+[2023-05-12 19:28:36] INFO root fetch - processPackages [exceptnotifier]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-12 19:28:36] INFO root fetch - processPackages [langchain]: New version: [0.0.99rc0] Old Version: [0.0.99]
+[2023-05-12 19:28:36] INFO root fetch - processPackages [patato]: New version: [0.4.0] Old Version: [0.2.4]
+[2023-05-12 19:28:36] INFO root fetch - processPackages [autotraders]: executing diffoscope
+[2023-05-12 19:28:36] INFO root fetch - processPackages [autotraders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autotraders-0.1.0.tar.gz tmp/autotraders-0.1.1.tar.gz --markdown 20230512/a/autotraders/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-12 19:28:36] WARNING root fetch - processPackages [streaming-indicators]: Skipping, unable to determine old version
+[2023-05-12 19:28:36] INFO root fetch - main [MainThread]: End processing [streaming-indicators] error
+[2023-05-12 19:28:36] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-05-12 19:28:36] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.5.9.0.tar.gz tmp/crazy-thursday-2023.5.9.1.tar.gz --markdown 20230512/c/crazy-thursday/2023.5.9.0-2023.5.9.1/diff.md --exclude *.pyd
+[2023-05-12 19:28:36] INFO root fetch - processPackages [googleapiutils2]: Downloading https://files.pythonhosted.org/packages/83/ca/47115091dc9bf58cb0d564a064e247ed6e2e454edfc245fac249f1913cc0/googleapiutils2-0.5.6.tar.gz
+[2023-05-12 19:28:36] INFO root fetch - processPackages [netbox-bgp]: Downloading https://files.pythonhosted.org/packages/39/f8/8249b1ed61b2d7ec0fc2f1364108e852d0493f80a0d3eaea2ba52b89acd3/netbox-bgp-0.8.1.tar.gz
+[2023-05-12 19:28:36] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/23/2a/4f675d3026d9922cd3763ae180d681ac071a724475104aa473fbadc0508b/kcli-99.0.202305121716-py3-none-any.whl
+[2023-05-12 19:28:36] INFO root fetch - processPackages [hpo-toolkit]: Downloading https://files.pythonhosted.org/packages/7b/1a/8fa1f88a56555956f4999c1fa51be406293df8d965deb1d600ddf885b298/hpo-toolkit-0.1.4.tar.gz
+[2023-05-12 19:28:36] INFO root fetch - processPackages [patato]: Downloading https://files.pythonhosted.org/packages/09/c1/b6de76a807c56ab7abec6a855ff112739e1eac98daf0f0010b5dcc78e43f/patato-0.2.4-pp39-pypy39_pp73-win_amd64.whl
+[2023-05-12 19:28:36] INFO root fetch - processPackages [exceptnotifier]: Downloading https://files.pythonhosted.org/packages/a1/e1/b9d6584bd68edaccbe428a0616b72c900592fafd9ac6e040838c8e152545/exceptnotifier-0.2.8.tar.gz
+[2023-05-12 19:28:37] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-05-12 19:28:37] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202305121543-py3-none-any.whl.zip tmp/kcli-99.0.202305121716-py3-none-any.whl.zip --markdown 20230512/k/kcli/99.0.202305121543-99.0.202305121716/diff.md --exclude *.pyd
+[2023-05-12 19:28:37] INFO root fetch - processPackages [googleapiutils2]: Downloading https://files.pythonhosted.org/packages/e7/63/2a2c3a1fd75dbca72dbb1cfa37fd08a55bc0a578294a1a6df5dcadc74c0a/googleapiutils2-0.5.7.tar.gz
+[2023-05-12 19:28:37] INFO root fetch - processPackages [langchain]: executing diffoscope
+[2023-05-12 19:28:37] INFO root fetch - processPackages [langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-0.0.99.tar.gz tmp/langchain-0.0.99rc0.tar.gz --markdown 20230512/l/langchain/0.0.99-0.0.99rc0/diff.md --exclude *.pyd
+[2023-05-12 19:28:37] INFO root fetch - processPackages [hpo-toolkit]: Downloading https://files.pythonhosted.org/packages/03/82/910c6f0cd8ce4491c883f4097599e66ce693ad1ed56ab09cc7885388cc78/hpo-toolkit-0.1.5.tar.gz
+[2023-05-12 19:28:37] INFO root fetch - processPackages [googleapiutils2]: executing diffoscope
+[2023-05-12 19:28:37] INFO root fetch - processPackages [googleapiutils2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/googleapiutils2-0.5.6.tar.gz tmp/googleapiutils2-0.5.7.tar.gz --markdown 20230512/g/googleapiutils2/0.5.6-0.5.7/diff.md --exclude *.pyd
+[2023-05-12 19:28:37] INFO root fetch - processPackages [exceptnotifier]: Downloading https://files.pythonhosted.org/packages/c6/9a/2f96e000f272bb58245ef8af716138613c779aae410a60a3b93ee9e2f8fc/exceptnotifier-0.2.9.tar.gz
+[2023-05-12 19:28:37] INFO root fetch - processPackages [patato]: Downloading https://files.pythonhosted.org/packages/72/16/1279b1b033dafb425d45027037d08d3c4e533d8d89f3389c55f3d857ab2f/patato-0.4.0-pp39-pypy39_pp73-win_amd64.whl
+[2023-05-12 19:28:37] INFO root fetch - processPackages [netbox-bgp]: Downloading https://files.pythonhosted.org/packages/06/9d/5b3e55fa867eb0506bfecef15dc84a67d7da7cd77367bba1e7538d0c77d9/netbox-bgp-0.9.0.tar.gz
+[2023-05-12 19:28:37] INFO root fetch - processPackages [hpo-toolkit]: executing diffoscope
+[2023-05-12 19:28:37] INFO root fetch - processPackages [hpo-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hpo-toolkit-0.1.4.tar.gz tmp/hpo-toolkit-0.1.5.tar.gz --markdown 20230512/h/hpo-toolkit/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-12 19:28:37] INFO root fetch - processPackages [exceptnotifier]: executing diffoscope
+[2023-05-12 19:28:37] INFO root fetch - processPackages [exceptnotifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exceptnotifier-0.2.8.tar.gz tmp/exceptnotifier-0.2.9.tar.gz --markdown 20230512/e/exceptnotifier/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-12 19:28:37] INFO root fetch - processPackages [netbox-bgp]: executing diffoscope
+[2023-05-12 19:28:37] INFO root fetch - processPackages [netbox-bgp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-bgp-0.8.1.tar.gz tmp/netbox-bgp-0.9.0.tar.gz --markdown 20230512/n/netbox-bgp/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-05-12 19:28:37] INFO root fetch - processPackages [patato]: executing diffoscope
+[2023-05-12 19:28:37] INFO root fetch - processPackages [patato]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/patato-0.2.4-pp39-pypy39_pp73-win_amd64.whl.zip tmp/patato-0.4.0-pp39-pypy39_pp73-win_amd64.whl.zip --markdown 20230512/p/patato/0.2.4-0.4.0/diff.md --exclude *.pyd
+[2023-05-12 19:28:38] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-05-12 19:28:38] INFO root fetch - main [MainThread]: End processing [autotraders]: success
+[2023-05-12 19:28:38] INFO root fetch - main [MainThread]: End processing [googleapiutils2]: success
+[2023-05-12 19:28:39] INFO root fetch - main [MainThread]: End processing [netbox-bgp]: success
+[2023-05-12 19:28:39] INFO root fetch - main [MainThread]: End processing [patato]: success
+[2023-05-12 19:28:40] INFO root fetch - main [MainThread]: End processing [hpo-toolkit]: success
+[2023-05-12 19:28:40] INFO root fetch - main [MainThread]: End processing [exceptnotifier]: success
+[2023-05-12 19:28:40] INFO root fetch - main [MainThread]: End processing [langchain]: success
+[2023-05-12 19:28:44] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-05-12 19:28:44] INFO root fetch - main [MainThread]: Store serial: [18081503]
