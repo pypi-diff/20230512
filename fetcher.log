@@ -17541,3 +17541,65 @@ EOFError: EOF read where object expected
 [2023-05-12 20:26:50] INFO root fetch - main [MainThread]: End processing [flet-core]: success
 [2023-05-12 20:27:36] INFO root fetch - main [MainThread]: End processing [flet]: success
 [2023-05-12 20:27:36] INFO root fetch - main [MainThread]: Store serial: [18082084]
+[2023-05-12 20:32:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18082084]
+[2023-05-12 20:32:45] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-12 20:32:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: btecli
+[2023-05-12 20:32:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: syscoloringaddons
+[2023-05-12 20:32:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: enochecker-test
+[2023-05-12 20:32:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mitzu
+[2023-05-12 20:32:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PyFlyt
+[2023-05-12 20:32:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ipyflow-core
+[2023-05-12 20:32:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ipyflow
+[2023-05-12 20:32:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tryhackme-offensive
+[2023-05-12 20:32:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dataverse-api
+[2023-05-12 20:32:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gpyt
+[2023-05-12 20:32:45] INFO root fetch - processPackages [mitzu]: New version: [0.6.0rc7] Old Version: [0.6.0rc6]
+[2023-05-12 20:32:45] INFO root fetch - processPackages [ipyflow-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-12 20:32:45] INFO root fetch - processPackages [gpyt]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-12 20:32:45] INFO root fetch - processPackages [PyFlyt]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-05-12 20:32:45] INFO root fetch - processPackages [ipyflow]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-12 20:32:45] INFO root fetch - processPackages [enochecker-test]: New version: [0.8.0] Old Version: [0.7.1]
+[2023-05-12 20:32:45] INFO root fetch - processPackages [btecli]: New version: [1.6.4] Old Version: [1.6.3]
+[2023-05-12 20:32:45] INFO root fetch - processPackages [mitzu]: executing diffoscope
+[2023-05-12 20:32:45] INFO root fetch - processPackages [mitzu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mitzu-0.6.0rc6.tar.gz tmp/mitzu-0.6.0rc7.tar.gz --markdown 20230512/m/mitzu/0.6.0rc6-0.6.0rc7/diff.md --exclude *.pyd
+[2023-05-12 20:32:45] INFO root fetch - processPackages [syscoloringaddons]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-12 20:32:45] WARNING root fetch - processPackages [tryhackme-offensive]: Skipping, unable to determine old version
+[2023-05-12 20:32:45] INFO root fetch - processPackages [tryhackme-offensive]: Start processing: alvin-cli
+[2023-05-12 20:32:45] INFO root fetch - main [MainThread]: End processing [tryhackme-offensive] error
+[2023-05-12 20:32:45] WARNING root fetch - processPackages [dataverse-api]: Skipping, unable to determine old version
+[2023-05-12 20:32:45] INFO root fetch - main [MainThread]: End processing [dataverse-api] error
+[2023-05-12 20:32:45] INFO root fetch - processPackages [ipyflow-core]: executing diffoscope
+[2023-05-12 20:32:45] INFO root fetch - processPackages [ipyflow-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipyflow-core-0.0.98.tar.gz tmp/ipyflow-core-0.0.99.tar.gz --markdown 20230512/i/ipyflow-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-12 20:32:45] INFO root fetch - processPackages [PyFlyt]: executing diffoscope
+[2023-05-12 20:32:45] INFO root fetch - processPackages [PyFlyt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyFlyt-0.6.3.tar.gz tmp/PyFlyt-0.6.4.tar.gz --markdown 20230512/P/PyFlyt/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-05-12 20:32:45] INFO root fetch - processPackages [ipyflow]: executing diffoscope
+[2023-05-12 20:32:45] INFO root fetch - processPackages [ipyflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipyflow-0.0.98.tar.gz tmp/ipyflow-0.0.99.tar.gz --markdown 20230512/i/ipyflow/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-12 20:32:45] INFO root fetch - processPackages [syscoloringaddons]: Downloading https://files.pythonhosted.org/packages/74/41/1a7dffec28ffb292181c4d61bdb28a54e793a12f710c41f3106044838907/syscoloringaddons-1.0.0.tar.gz
+[2023-05-12 20:32:45] INFO root fetch - processPackages [enochecker-test]: Downloading https://files.pythonhosted.org/packages/eb/db/c4df372df1d48ba9d2fc0c15fa7f6db15419b15acb570c686e17138318e0/enochecker_test-0.7.1.tar.gz
+[2023-05-12 20:32:45] INFO root fetch - processPackages [alvin-cli]: New version: [1.2.0rc9] Old Version: [1.2.0rc8]
+[2023-05-12 20:32:45] INFO root fetch - processPackages [btecli]: Downloading https://files.pythonhosted.org/packages/b1/9e/7b835e7769660049383860a35df18d5da4edfcce2732daef6010e07c369d/btecli-1.6.3.tar.gz
+[2023-05-12 20:32:45] INFO root fetch - processPackages [gpyt]: executing diffoscope
+[2023-05-12 20:32:45] INFO root fetch - processPackages [gpyt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpyt-0.2.8.tar.gz tmp/gpyt-0.2.9.tar.gz --markdown 20230512/g/gpyt/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-12 20:32:45] INFO root fetch - processPackages [alvin-cli]: Downloading https://files.pythonhosted.org/packages/1b/6a/73c4be64b212d1c04a4a0ee4897a3745ec7758b1d6bfc714491eafddc6b1/alvin_cli-1.2.0rc8.tar.gz
+[2023-05-12 20:32:45] INFO root fetch - processPackages [btecli]: Downloading https://files.pythonhosted.org/packages/2e/54/0654acb20772ffa6aaf3d6a84b6173d79f89dd5d1b85061e483b4b639509/btecli-1.6.4.tar.gz
+[2023-05-12 20:32:46] INFO root fetch - processPackages [syscoloringaddons]: Downloading https://files.pythonhosted.org/packages/fa/69/962765fe4d7db7398979d066d4fa84211543dd9b0cb79015e7e18500448b/syscoloringaddons-1.1.0.tar.gz
+[2023-05-12 20:32:46] INFO root fetch - processPackages [enochecker-test]: Downloading https://files.pythonhosted.org/packages/7d/58/8fca5907cce7098c8337170cd6f39be77ff1e60603458996cac391dadc79/enochecker_test-0.8.0.tar.gz
+[2023-05-12 20:32:46] INFO root fetch - processPackages [btecli]: executing diffoscope
+[2023-05-12 20:32:46] INFO root fetch - processPackages [btecli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/btecli-1.6.3.tar.gz tmp/btecli-1.6.4.tar.gz --markdown 20230512/b/btecli/1.6.3-1.6.4/diff.md --exclude *.pyd
+[2023-05-12 20:32:46] INFO root fetch - processPackages [enochecker-test]: executing diffoscope
+[2023-05-12 20:32:46] INFO root fetch - processPackages [enochecker-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enochecker_test-0.7.1.tar.gz tmp/enochecker_test-0.8.0.tar.gz --markdown 20230512/e/enochecker-test/0.7.1-0.8.0/diff.md --exclude *.pyd
+[2023-05-12 20:32:46] INFO root fetch - processPackages [syscoloringaddons]: executing diffoscope
+[2023-05-12 20:32:46] INFO root fetch - processPackages [syscoloringaddons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syscoloringaddons-1.0.0.tar.gz tmp/syscoloringaddons-1.1.0.tar.gz --markdown 20230512/s/syscoloringaddons/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-12 20:32:46] INFO root fetch - processPackages [alvin-cli]: Downloading https://files.pythonhosted.org/packages/ea/4d/4552432f48b77c2b9f79da3907636f2977d47ffef3a806abe169a1121641/alvin_cli-1.2.0rc9.tar.gz
+[2023-05-12 20:32:46] INFO root fetch - processPackages [alvin-cli]: executing diffoscope
+[2023-05-12 20:32:46] INFO root fetch - processPackages [alvin-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alvin_cli-1.2.0rc8.tar.gz tmp/alvin_cli-1.2.0rc9.tar.gz --markdown 20230512/a/alvin-cli/1.2.0rc8-1.2.0rc9/diff.md --exclude *.pyd
+[2023-05-12 20:32:47] INFO root fetch - main [MainThread]: End processing [ipyflow-core]: success
+[2023-05-12 20:32:47] INFO root fetch - main [MainThread]: End processing [enochecker-test]: success
+[2023-05-12 20:32:47] INFO root fetch - main [MainThread]: End processing [gpyt]: success
+[2023-05-12 20:32:47] INFO root fetch - main [MainThread]: End processing [syscoloringaddons]: success
+[2023-05-12 20:32:47] INFO root fetch - main [MainThread]: End processing [btecli]: success
+[2023-05-12 20:32:47] INFO root fetch - main [MainThread]: End processing [alvin-cli]: success
+[2023-05-12 20:32:49] INFO root fetch - main [MainThread]: End processing [ipyflow]: success
+[2023-05-12 20:32:49] INFO root fetch - main [MainThread]: End processing [PyFlyt]: success
+[2023-05-12 20:32:49] INFO root fetch - main [MainThread]: End processing [mitzu]: success
+[2023-05-12 20:32:49] INFO root fetch - main [MainThread]: Store serial: [18082117]
