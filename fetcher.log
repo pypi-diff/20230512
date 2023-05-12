@@ -2039,3 +2039,25 @@
 [2023-05-12 03:35:23] INFO root fetch - main [MainThread]: End processing [plugnplai]: success
 [2023-05-12 03:35:30] INFO root fetch - main [MainThread]: End processing [phonopy]: success
 [2023-05-12 03:35:30] INFO root fetch - main [MainThread]: Store serial: [18071889]
+[2023-05-12 03:40:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18071889]
+[2023-05-12 03:40:38] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-05-12 03:40:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tradchat
+[2023-05-12 03:40:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: twitter-2-album
+[2023-05-12 03:40:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-docker-image-deployment
+[2023-05-12 03:40:38] INFO root fetch - processPackages [tradchat]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-12 03:40:38] INFO root fetch - processPackages [twitter-2-album]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 03:40:38] INFO root fetch - processPackages [cdk-docker-image-deployment]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-12 03:40:38] INFO root fetch - processPackages [twitter-2-album]: Downloading https://files.pythonhosted.org/packages/1e/d6/4d6ef7b77aeaf5bbd2900b4f81696de137cf58cffd136cbef03fbef48afc/twitter_2_album-0.0.8.tar.gz
+[2023-05-12 03:40:38] INFO root fetch - processPackages [tradchat]: Downloading https://files.pythonhosted.org/packages/f0/4a/45d35f9011bc2bdfd0cf0660c7d4b16d03fa4c7d2775f8009a3c9e1188b5/tradchat-0.1.5.tar.gz
+[2023-05-12 03:40:39] INFO root fetch - processPackages [cdk-docker-image-deployment]: executing diffoscope
+[2023-05-12 03:40:39] INFO root fetch - processPackages [cdk-docker-image-deployment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-docker-image-deployment-0.0.98.tar.gz tmp/cdk-docker-image-deployment-0.0.99.tar.gz --markdown 20230512/c/cdk-docker-image-deployment/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-12 03:40:39] INFO root fetch - processPackages [tradchat]: Downloading https://files.pythonhosted.org/packages/66/cd/e86c5caa5aab443a396ed1c18597db86e8c3e47af2eac766d6495c69217b/tradchat-0.1.6.tar.gz
+[2023-05-12 03:40:39] INFO root fetch - processPackages [twitter-2-album]: Downloading https://files.pythonhosted.org/packages/23/75/01e92edca6290ac3d76c2efd0dfce4b9c440d66f53fffaaedba554b8ce1f/twitter_2_album-0.0.9.tar.gz
+[2023-05-12 03:40:39] INFO root fetch - processPackages [twitter-2-album]: executing diffoscope
+[2023-05-12 03:40:39] INFO root fetch - processPackages [twitter-2-album]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twitter_2_album-0.0.8.tar.gz tmp/twitter_2_album-0.0.9.tar.gz --markdown 20230512/t/twitter-2-album/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 03:40:39] INFO root fetch - processPackages [tradchat]: executing diffoscope
+[2023-05-12 03:40:39] INFO root fetch - processPackages [tradchat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tradchat-0.1.5.tar.gz tmp/tradchat-0.1.6.tar.gz --markdown 20230512/t/tradchat/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-12 03:40:40] INFO root fetch - main [MainThread]: End processing [twitter-2-album]: success
+[2023-05-12 03:40:40] INFO root fetch - main [MainThread]: End processing [cdk-docker-image-deployment]: success
+[2023-05-12 03:40:45] INFO root fetch - main [MainThread]: End processing [tradchat]: success
+[2023-05-12 03:40:45] INFO root fetch - main [MainThread]: Store serial: [18071910]
