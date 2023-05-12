@@ -6807,3 +6807,64 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-12 10:06:54] INFO root fetch - main [MainThread]: End processing [vdk-impala]: success
 [2023-05-12 10:06:54] INFO root fetch - main [MainThread]: End processing [pyglove]: success
 [2023-05-12 10:06:54] INFO root fetch - main [MainThread]: Store serial: [18075091]
+[2023-05-12 10:11:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18075091]
+[2023-05-12 10:12:03] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-12 10:12:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: FlyHash
+[2023-05-12 10:12:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vdaq-soap
+[2023-05-12 10:12:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: irene-pro1
+[2023-05-12 10:12:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: solarmach
+[2023-05-12 10:12:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: safetypes
+[2023-05-12 10:12:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: returnn
+[2023-05-12 10:12:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dve-lumipy-preview
+[2023-05-12 10:12:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aamt
+[2023-05-12 10:12:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nodeenv
+[2023-05-12 10:12:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dl2050utils
+[2023-05-12 10:12:03] INFO root fetch - processPackages [FlyHash]: New version: [1.1.0] Old Version: [0.3.0]
+[2023-05-12 10:12:03] INFO root fetch - processPackages [vdaq-soap]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-12 10:12:03] INFO root fetch - processPackages [safetypes]: New version: [0.1rc2.post3] Old Version: [0.1rc2.post2]
+[2023-05-12 10:12:03] INFO root fetch - processPackages [dl2050utils]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-05-12 10:12:03] INFO root fetch - processPackages [nodeenv]: New version: [1.7.0] Old Version: [1.6.0]
+[2023-05-12 10:12:03] INFO root fetch - processPackages [aamt]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-12 10:12:03] INFO root fetch - processPackages [returnn]: New version: [1.20230512.5307] Old Version: [1.20230511.233623]
+[2023-05-12 10:12:03] INFO root fetch - processPackages [vdaq-soap]: executing diffoscope
+[2023-05-12 10:12:03] INFO root fetch - processPackages [vdaq-soap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdaq_soap-1.0.1.tar.gz tmp/vdaq_soap-1.0.2.tar.gz --markdown 20230512/v/vdaq-soap/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-12 10:12:03] INFO root fetch - processPackages [FlyHash]: executing diffoscope
+[2023-05-12 10:12:03] INFO root fetch - processPackages [FlyHash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FlyHash-0.3.0.tar.gz tmp/FlyHash-1.1.0-py3-none-any.whl.zip --markdown 20230512/F/FlyHash/0.3.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-12 10:12:03] INFO root fetch - processPackages [solarmach]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-12 10:12:03] WARNING root fetch - processPackages [irene-pro1]: Skipping, unable to determine old version
+[2023-05-12 10:12:03] INFO root fetch - processPackages [irene-pro1]: Start processing: smart-app-framework
+[2023-05-12 10:12:03] INFO root fetch - main [MainThread]: End processing [irene-pro1] error
+[2023-05-12 10:12:03] INFO root fetch - processPackages [safetypes]: executing diffoscope
+[2023-05-12 10:12:03] INFO root fetch - processPackages [safetypes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/safetypes-0.1rc2.post2.tar.gz tmp/safetypes-0.1rc2.post3.tar.gz --markdown 20230512/s/safetypes/0.1rc2.post2-0.1rc2.post3/diff.md --exclude *.pyd
+[2023-05-12 10:12:03] INFO root fetch - processPackages [dve-lumipy-preview]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-12 10:12:03] INFO root fetch - processPackages [aamt]: executing diffoscope
+[2023-05-12 10:12:03] INFO root fetch - processPackages [aamt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aamt-0.2.3.tar.gz tmp/aamt-0.2.4-py3-none-any.whl.zip --markdown 20230512/a/aamt/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-12 10:12:03] INFO root fetch - processPackages [dl2050utils]: executing diffoscope
+[2023-05-12 10:12:03] INFO root fetch - processPackages [dl2050utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dl2050utils-1.0.98.tar.gz tmp/dl2050utils-1.0.99.tar.gz --markdown 20230512/d/dl2050utils/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-05-12 10:12:03] INFO root fetch - processPackages [nodeenv]: Downloading https://files.pythonhosted.org/packages/75/8d/14c4ac588711f8de0dd02a11460ed72f48cab65a998994ca20f40c6e1a8f/nodeenv-1.6.0.tar.gz
+[2023-05-12 10:12:03] INFO root fetch - processPackages [smart-app-framework]: New version: [2.0.2rc1] Old Version: [2.0.1rc9]
+[2023-05-12 10:12:03] INFO root fetch - processPackages [solarmach]: Downloading https://files.pythonhosted.org/packages/69/60/c998ecf4e3b40dcbf147745ce6ff8f6928af1914e872e262f0989789f01c/solarmach-0.2.1.tar.gz
+[2023-05-12 10:12:03] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/a4/d8/baf7ca3ac6fe15a60e814ba090e908ef4ab6af0b4c4c7ee6d9045764db51/returnn-1.20230512.5307.tar.gz
+[2023-05-12 10:12:03] INFO root fetch - processPackages [nodeenv]: Downloading https://files.pythonhosted.org/packages/f3/9d/a28ecbd1721cd6c0ea65da6bfb2771d31c5d7e32d916a8f643b062530af3/nodeenv-1.7.0.tar.gz
+[2023-05-12 10:12:03] INFO root fetch - processPackages [nodeenv]: executing diffoscope
+[2023-05-12 10:12:03] INFO root fetch - processPackages [nodeenv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nodeenv-1.6.0.tar.gz tmp/nodeenv-1.7.0.tar.gz --markdown 20230512/n/nodeenv/1.6.0-1.7.0/diff.md --exclude *.pyd
+[2023-05-12 10:12:03] INFO root fetch - processPackages [dve-lumipy-preview]: executing diffoscope
+[2023-05-12 10:12:03] INFO root fetch - processPackages [dve-lumipy-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dve_lumipy_preview-0.1.98-py3-none-any.whl.zip tmp/dve_lumipy_preview-0.1.99-py3-none-any.whl.zip --markdown 20230512/d/dve-lumipy-preview/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-12 10:12:03] INFO root fetch - processPackages [smart-app-framework]: Downloading https://files.pythonhosted.org/packages/94/ba/9ce16ce9c93fd59f523d81448223ae1dd607a17f521e52d21c3927c93387/smart_app_framework-2.0.2rc1-py3-none-any.whl
+[2023-05-12 10:12:03] INFO root fetch - processPackages [solarmach]: executing diffoscope
+[2023-05-12 10:12:03] INFO root fetch - processPackages [solarmach]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solarmach-0.2.0.tar.gz tmp/solarmach-0.2.1.tar.gz --markdown 20230512/s/solarmach/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-12 10:12:04] INFO root fetch - processPackages [smart-app-framework]: executing diffoscope
+[2023-05-12 10:12:04] INFO root fetch - processPackages [smart-app-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smart_app_framework-2.0.1rc9-py3-none-any.whl.zip tmp/smart_app_framework-2.0.2rc1-py3-none-any.whl.zip --markdown 20230512/s/smart-app-framework/2.0.1rc9-2.0.2rc1/diff.md --exclude *.pyd
+[2023-05-12 10:12:04] INFO root fetch - processPackages [returnn]: executing diffoscope
+[2023-05-12 10:12:04] INFO root fetch - processPackages [returnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/returnn-1.20230511.233623.tar.gz tmp/returnn-1.20230512.5307.tar.gz --markdown 20230512/r/returnn/1.20230511.233623-1.20230512.5307/diff.md --exclude *.pyd
+[2023-05-12 10:12:04] INFO root fetch - main [MainThread]: End processing [aamt]: success
+[2023-05-12 10:12:04] INFO root fetch - main [MainThread]: End processing [FlyHash]: success
+[2023-05-12 10:12:05] INFO root fetch - main [MainThread]: End processing [safetypes]: success
+[2023-05-12 10:12:05] INFO root fetch - main [MainThread]: End processing [vdaq-soap]: success
+[2023-05-12 10:12:05] INFO root fetch - main [MainThread]: End processing [dl2050utils]: success
+[2023-05-12 10:12:05] INFO root fetch - main [MainThread]: End processing [solarmach]: success
+[2023-05-12 10:12:05] INFO root fetch - main [MainThread]: End processing [nodeenv]: success
+[2023-05-12 10:12:06] INFO root fetch - main [MainThread]: End processing [dve-lumipy-preview]: success
+[2023-05-12 10:12:08] INFO root fetch - main [MainThread]: End processing [returnn]: success
+[2023-05-12 10:12:08] INFO root fetch - main [MainThread]: End processing [smart-app-framework]: success
+[2023-05-12 10:12:08] INFO root fetch - main [MainThread]: Store serial: [18075152]
