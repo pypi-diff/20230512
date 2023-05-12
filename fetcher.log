@@ -13116,3 +13116,117 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-12 16:36:48] INFO root fetch - main [MainThread]: End processing [text-fabric]: success
 [2023-05-12 16:37:28] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-05-12 16:37:28] INFO root fetch - main [MainThread]: Store serial: [18079343]
+[2023-05-12 16:42:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18079343]
+[2023-05-12 16:42:36] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-12 16:42:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: graph-datasets
+[2023-05-12 16:42:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lib310-lite
+[2023-05-12 16:42:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: coastseg
+[2023-05-12 16:42:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: os-brick
+[2023-05-12 16:42:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hkfdb
+[2023-05-12 16:42:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alacorder
+[2023-05-12 16:42:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: medsenger-api
+[2023-05-12 16:42:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kf6py
+[2023-05-12 16:42:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gbd-tools
+[2023-05-12 16:42:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: btssh
+[2023-05-12 16:42:37] WARNING root fetch - processPackages [graph-datasets]: Skipping, unable to determine old version
+[2023-05-12 16:42:37] INFO root fetch - processPackages [graph-datasets]: Start processing: bridgecrew
+[2023-05-12 16:42:37] INFO root fetch - main [MainThread]: End processing [graph-datasets] error
+[2023-05-12 16:42:37] INFO root fetch - processPackages [os-brick]: New version: [6.3.0] Old Version: [6.2.2]
+[2023-05-12 16:42:37] INFO root fetch - processPackages [coastseg]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 16:42:37] INFO root fetch - processPackages [kf6py]: New version: [0.2.1] Old Version: [0.1.0]
+[2023-05-12 16:42:37] INFO root fetch - processPackages [alacorder]: New version: [80.4.0] Old Version: [80.3.9]
+[2023-05-12 16:42:37] INFO root fetch - processPackages [lib310-lite]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 16:42:37] INFO root fetch - processPackages [btssh]: New version: [1.2.0] Old Version: [1.1.2]
+[2023-05-12 16:42:37] INFO root fetch - processPackages [hkfdb]: New version: [3.2] Old Version: [3.1]
+[2023-05-12 16:42:37] INFO root fetch - processPackages [medsenger-api]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-12 16:42:37] INFO root fetch - processPackages [gbd-tools]: New version: [4.5.9] Old Version: [4.5.8]
+[2023-05-12 16:42:37] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-05-12 16:42:37] INFO root fetch - processPackages [coastseg]: Downloading https://files.pythonhosted.org/packages/75/3b/19efffac60ef69a861417a37a370dc3f3a497cb93009fe8fff8dda38b476/coastseg-0.0.8.tar.gz
+[2023-05-12 16:42:37] INFO root fetch - processPackages [kf6py]: Downloading https://files.pythonhosted.org/packages/73/06/6546572a2d6341759d674fa3caa5f3442da3db3db37c05bf69fe40c1ae33/kf6py-0.2.1.tar.gz
+[2023-05-12 16:42:37] INFO root fetch - processPackages [hkfdb]: Downloading https://files.pythonhosted.org/packages/3f/58/55bfb3257ccb88df577b12254665639229dbbd86976ca43a479b6244d8e8/hkfdb-3.1.tar.gz
+[2023-05-12 16:42:37] INFO root fetch - processPackages [btssh]: Downloading https://files.pythonhosted.org/packages/8e/92/b4331828b54224b206c63b0dda4cd5aa8b75dc677369dc3bf1f441d877ef/btssh-1.1.2.tar.gz
+[2023-05-12 16:42:37] WARNING root fetch - processPackages [coastseg]: Skipping package: exceeds size limit 38421077>=10485760
+[2023-05-12 16:42:37] INFO root fetch - processPackages [gbd-tools]: Downloading https://files.pythonhosted.org/packages/36/0f/37fc70c7c4b7a218d8047b611072d06d28c736a486bedfdaaf03f2ca15c2/gbd_tools-4.5.8.tar.gz
+[2023-05-12 16:42:37] INFO root fetch - processPackages [coastseg]: Start processing: cybrid-api-organization-python
+[2023-05-12 16:42:37] INFO root fetch - main [MainThread]: End processing [coastseg] error
+[2023-05-12 16:42:37] INFO root fetch - processPackages [os-brick]: Downloading https://files.pythonhosted.org/packages/20/39/c330d5b4091508ee425b8f7d02a7f6eca18126a81f6ae34ee7972a033d3a/os-brick-6.3.0.tar.gz
+[2023-05-12 16:42:37] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-12 16:42:37] INFO root fetch - processPackages [kf6py]: executing diffoscope
+[2023-05-12 16:42:37] INFO root fetch - processPackages [kf6py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kf6py-0.1.0.tar.gz tmp/kf6py-0.2.1.tar.gz --markdown 20230512/k/kf6py/0.1.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-12 16:42:37] INFO root fetch - processPackages [lib310-lite]: Downloading https://files.pythonhosted.org/packages/c2/47/ae54cf654defd7565606225f3c484272d6795a65e08e5ae265600b704386/lib310_lite-0.0.9.tar.gz
+[2023-05-12 16:42:37] INFO root fetch - processPackages [alacorder]: Downloading https://files.pythonhosted.org/packages/57/17/d5cc12aef6530f09b65747f654f527ffbe90c6ef083310f0974c13946c42/alacorder-80.4.0.tar.gz
+[2023-05-12 16:42:37] INFO root fetch - processPackages [medsenger-api]: executing diffoscope
+[2023-05-12 16:42:37] INFO root fetch - processPackages [medsenger-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medsenger_api-0.1.8.tar.gz tmp/medsenger_api-0.1.9.tar.gz --markdown 20230512/m/medsenger-api/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-12 16:42:37] INFO root fetch - processPackages [os-brick]: executing diffoscope
+[2023-05-12 16:42:37] INFO root fetch - processPackages [os-brick]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/os-brick-6.2.2.tar.gz tmp/os-brick-6.3.0.tar.gz --markdown 20230512/o/os-brick/6.2.2-6.3.0/diff.md --exclude *.pyd
+[2023-05-12 16:42:37] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2023-05-12 16:42:37] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.9.8.tar.gz tmp/cybrid-api-organization-python-0.9.9.tar.gz --markdown 20230512/c/cybrid-api-organization-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-12 16:42:37] INFO root fetch - processPackages [lib310-lite]: executing diffoscope
+[2023-05-12 16:42:37] INFO root fetch - processPackages [lib310-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib310_lite-0.0.8.tar.gz tmp/lib310_lite-0.0.9.tar.gz --markdown 20230512/l/lib310-lite/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 16:42:37] INFO root fetch - processPackages [hkfdb]: Downloading https://files.pythonhosted.org/packages/5e/78/a4fae6ab145fa5dc4930b96686fc26f12b24d677be29d1fa93c1f71bb876/hkfdb-3.2.tar.gz
+[2023-05-12 16:42:37] INFO root fetch - processPackages [btssh]: Downloading https://files.pythonhosted.org/packages/3d/10/d2b97ce371daaa6ecff34480c667aa532f0a6df8e866b072e78bc3c1715b/btssh-1.2.0.tar.gz
+[2023-05-12 16:42:37] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-05-12 16:42:37] INFO root fetch - processPackages [alacorder]: executing diffoscope
+[2023-05-12 16:42:37] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230512/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-05-12 16:42:37] INFO root fetch - processPackages [alacorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alacorder-80.3.9.tar.gz tmp/alacorder-80.4.0.tar.gz --markdown 20230512/a/alacorder/80.3.9-80.4.0/diff.md --exclude *.pyd
+[2023-05-12 16:42:37] INFO root fetch - processPackages [gbd-tools]: Downloading https://files.pythonhosted.org/packages/5d/85/64cabd1d3bc5b07d019c8c4e8e26fb43a8e68f1505c19e7f85c20a2c0992/gbd_tools-4.5.9.tar.gz
+[2023-05-12 16:42:37] INFO root fetch - processPackages [hkfdb]: executing diffoscope
+[2023-05-12 16:42:37] INFO root fetch - processPackages [hkfdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hkfdb-3.1.tar.gz tmp/hkfdb-3.2.tar.gz --markdown 20230512/h/hkfdb/3.1-3.2/diff.md --exclude *.pyd
+[2023-05-12 16:42:37] INFO root fetch - processPackages [btssh]: executing diffoscope
+[2023-05-12 16:42:37] INFO root fetch - processPackages [btssh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/btssh-1.1.2.tar.gz tmp/btssh-1.2.0.tar.gz --markdown 20230512/b/btssh/1.1.2-1.2.0/diff.md --exclude *.pyd
+[2023-05-12 16:42:37] INFO root fetch - processPackages [gbd-tools]: executing diffoscope
+[2023-05-12 16:42:37] INFO root fetch - processPackages [gbd-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gbd_tools-4.5.8.tar.gz tmp/gbd_tools-4.5.9.tar.gz --markdown 20230512/g/gbd-tools/4.5.8-4.5.9/diff.md --exclude *.pyd
+[2023-05-12 16:42:38] INFO root fetch - processPackages [kf6py]: Start processing: cybrid-api-id-python
+[2023-05-12 16:42:38] INFO root fetch - main [MainThread]: End processing [kf6py]: success
+[2023-05-12 16:42:38] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-12 16:42:38] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2023-05-12 16:42:38] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.9.8.tar.gz tmp/cybrid-api-id-python-0.9.9.tar.gz --markdown 20230512/c/cybrid-api-id-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-12 16:42:39] INFO root fetch - processPackages [medsenger-api]: Start processing: com.castsoftware.uc.oneclick
+[2023-05-12 16:42:39] INFO root fetch - main [MainThread]: End processing [medsenger-api]: success
+[2023-05-12 16:42:39] INFO root fetch - processPackages [com.castsoftware.uc.oneclick]: New version: [0.2.2.4] Old Version: [0.2.2.3]
+[2023-05-12 16:42:39] INFO root fetch - processPackages [com.castsoftware.uc.oneclick]: Downloading https://files.pythonhosted.org/packages/79/66/ea346a622f5939168286d0bcc8f12994816e5ec59f210818653a236d4367/com.castsoftware.uc.oneclick-0.2.2.3.tar.gz
+[2023-05-12 16:42:39] INFO root fetch - processPackages [lib310-lite]: Start processing: discovery-transition-ds
+[2023-05-12 16:42:39] INFO root fetch - main [MainThread]: End processing [lib310-lite]: success
+[2023-05-12 16:42:39] INFO root fetch - processPackages [discovery-transition-ds]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-05-12 16:42:39] INFO root fetch - processPackages [discovery-transition-ds]: executing diffoscope
+[2023-05-12 16:42:39] INFO root fetch - processPackages [discovery-transition-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discovery-transition-ds-4.9.8.tar.gz tmp/discovery-transition-ds-4.9.9.tar.gz --markdown 20230512/d/discovery-transition-ds/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-05-12 16:42:39] INFO root fetch - processPackages [bridgecrew]: Start processing: strangeworks-qaoa
+[2023-05-12 16:42:39] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-05-12 16:42:39] INFO root fetch - processPackages [com.castsoftware.uc.oneclick]: Downloading https://files.pythonhosted.org/packages/ac/ff/2dc8544558d08599f1980e678a60172c7280b2ad5fb70e0e7430ef2bc4e1/com.castsoftware.uc.oneclick-0.2.2.4.tar.gz
+[2023-05-12 16:42:39] INFO root fetch - processPackages [com.castsoftware.uc.oneclick]: executing diffoscope
+[2023-05-12 16:42:39] INFO root fetch - processPackages [com.castsoftware.uc.oneclick]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/com.castsoftware.uc.oneclick-0.2.2.3.tar.gz tmp/com.castsoftware.uc.oneclick-0.2.2.4.tar.gz --markdown 20230512/c/com.castsoftware.uc.oneclick/0.2.2.3-0.2.2.4/diff.md --exclude *.pyd
+[2023-05-12 16:42:39] INFO root fetch - processPackages [strangeworks-qaoa]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-12 16:42:39] INFO root fetch - processPackages [alacorder]: Start processing: glance
+[2023-05-12 16:42:39] INFO root fetch - main [MainThread]: End processing [alacorder]: success
+[2023-05-12 16:42:39] INFO root fetch - processPackages [glance]: New version: [27.0.0.0b1] Old Version: [26.0.0.0rc1]
+[2023-05-12 16:42:40] INFO root fetch - processPackages [btssh]: Start processing: cybrid-api-bank-python
+[2023-05-12 16:42:40] INFO root fetch - main [MainThread]: End processing [btssh]: success
+[2023-05-12 16:42:40] INFO root fetch - processPackages [glance]: Downloading https://files.pythonhosted.org/packages/10/36/afb591c8ef9398cce2f437b80d5d8a51ec75e638b7385f86191606c640a0/glance-26.0.0.0rc1.tar.gz
+[2023-05-12 16:42:40] INFO root fetch - processPackages [strangeworks-qaoa]: Downloading https://files.pythonhosted.org/packages/72/4f/5797733028f1e5a8b770344c0c24c7c9e924bcb0cbbea4d4e63253fde168/strangeworks_qaoa-0.1.4.tar.gz
+[2023-05-12 16:42:40] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-12 16:42:40] INFO root fetch - processPackages [hkfdb]: Start processing: huak
+[2023-05-12 16:42:40] INFO root fetch - main [MainThread]: End processing [hkfdb]: success
+[2023-05-12 16:42:40] INFO root fetch - main [MainThread]: End processing [gbd-tools]: success
+[2023-05-12 16:42:40] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2023-05-12 16:42:40] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.9.8.tar.gz tmp/cybrid-api-bank-python-0.9.9.tar.gz --markdown 20230512/c/cybrid-api-bank-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-12 16:42:40] INFO root fetch - processPackages [huak]: New version: [0.0.9a3] Old Version: [0.0.9a2]
+[2023-05-12 16:42:40] INFO root fetch - processPackages [strangeworks-qaoa]: Downloading https://files.pythonhosted.org/packages/43/1f/e872c76c408ac84d0937c2fdf899d18930e9c3a4b30eaa7910c287f4dd2b/strangeworks_qaoa-0.1.5.tar.gz
+[2023-05-12 16:42:40] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2023-05-12 16:42:40] INFO root fetch - processPackages [huak]: Downloading https://files.pythonhosted.org/packages/98/8b/172d25411e26cfc7cfea14b8a146d31c903346b4ccd5e6c177688218dfc9/huak-0.0.9a2-py3-none-win_amd64.whl
+[2023-05-12 16:42:40] INFO root fetch - processPackages [strangeworks-qaoa]: executing diffoscope
+[2023-05-12 16:42:40] INFO root fetch - processPackages [strangeworks-qaoa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strangeworks_qaoa-0.1.4.tar.gz tmp/strangeworks_qaoa-0.1.5.tar.gz --markdown 20230512/s/strangeworks-qaoa/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-12 16:42:40] INFO root fetch - main [MainThread]: End processing [os-brick]: success
+[2023-05-12 16:42:40] INFO root fetch - processPackages [huak]: Downloading https://files.pythonhosted.org/packages/6f/20/02c1f9d07c47a67e87e546bc37499299b77465536483d8f4e74d411d9af4/huak-0.0.9a3-py3-none-win_amd64.whl
+[2023-05-12 16:42:41] INFO root fetch - main [MainThread]: End processing [com.castsoftware.uc.oneclick]: success
+[2023-05-12 16:42:41] INFO root fetch - main [MainThread]: End processing [strangeworks-qaoa]: success
+[2023-05-12 16:42:41] INFO root fetch - processPackages [glance]: Downloading https://files.pythonhosted.org/packages/95/0d/69aa0d0a704cad0e1fa008a6c91f479c189b4ebacf39d0669f7d5e7021aa/glance-27.0.0.0b1.tar.gz
+[2023-05-12 16:42:41] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2023-05-12 16:42:42] INFO root fetch - processPackages [huak]: executing diffoscope
+[2023-05-12 16:42:42] INFO root fetch - processPackages [huak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huak-0.0.9a2-py3-none-win_amd64.whl.zip tmp/huak-0.0.9a3-py3-none-win_amd64.whl.zip --markdown 20230512/h/huak/0.0.9a2-0.0.9a3/diff.md --exclude *.pyd
+[2023-05-12 16:42:42] INFO root fetch - processPackages [glance]: executing diffoscope
+[2023-05-12 16:42:42] INFO root fetch - processPackages [glance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glance-26.0.0.0rc1.tar.gz tmp/glance-27.0.0.0b1.tar.gz --markdown 20230512/g/glance/26.0.0.0rc1-27.0.0.0b1/diff.md --exclude *.pyd
+[2023-05-12 16:42:43] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2023-05-12 16:42:43] INFO root fetch - main [MainThread]: End processing [discovery-transition-ds]: success
+[2023-05-12 16:42:52] INFO root fetch - main [MainThread]: End processing [glance]: success
+[2023-05-12 16:43:13] INFO root fetch - main [MainThread]: End processing [huak]: success
+[2023-05-12 16:43:13] INFO root fetch - main [MainThread]: Store serial: [18079410]
