@@ -15870,3 +15870,138 @@ EOFError: EOF read where object expected
 [2023-05-12 18:46:22] INFO root fetch - main [MainThread]: End processing [returnn]: success
 [2023-05-12 18:46:22] INFO root fetch - main [MainThread]: End processing [open-metric-learning]: success
 [2023-05-12 18:46:22] INFO root fetch - main [MainThread]: Store serial: [18080985]
+[2023-05-12 18:51:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18080985]
+[2023-05-12 18:51:31] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-05-12 18:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ofxstatement-intesasp
+[2023-05-12 18:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: magyar
+[2023-05-12 18:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: volttron-lib-base-historian
+[2023-05-12 18:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aacommpy
+[2023-05-12 18:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: google-dataproc-templates
+[2023-05-12 18:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: eulertools
+[2023-05-12 18:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Adafruit-PlatformDetect
+[2023-05-12 18:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyreason
+[2023-05-12 18:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lockss-soap
+[2023-05-12 18:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ladybug-rhino
+[2023-05-12 18:51:31] INFO root fetch - processPackages [ofxstatement-intesasp]: New version: [0.2.0] Old Version: [0.1.5]
+[2023-05-12 18:51:31] INFO root fetch - processPackages [volttron-lib-base-historian]: New version: [0.2.1rc1] Old Version: [0.2.1rc0]
+[2023-05-12 18:51:31] INFO root fetch - processPackages [magyar]: New version: [3.0.2] Old Version: [3.0.1]
+[2023-05-12 18:51:31] INFO root fetch - processPackages [aacommpy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-12 18:51:31] INFO root fetch - processPackages [eulertools]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-05-12 18:51:31] INFO root fetch - processPackages [lockss-soap]: New version: [0.8.0.dev4] Old Version: [0.8.0.dev3]
+[2023-05-12 18:51:31] INFO root fetch - processPackages [google-dataproc-templates]: New version: [0.3.0b0] Old Version: [0.2.0b0]
+[2023-05-12 18:51:31] INFO root fetch - processPackages [pyreason]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-05-12 18:51:31] INFO root fetch - processPackages [Adafruit-PlatformDetect]: New version: [3.9.0] Old Version: [3.8.0]
+[2023-05-12 18:51:31] INFO root fetch - processPackages [ladybug-rhino]: New version: [1.9.0] Old Version: [1.8.2]
+[2023-05-12 18:51:31] INFO root fetch - processPackages [aacommpy]: executing diffoscope
+[2023-05-12 18:51:31] INFO root fetch - processPackages [aacommpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aacommpy-0.1.8.tar.gz tmp/aacommpy-0.1.9.tar.gz --markdown 20230512/a/aacommpy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-12 18:51:31] INFO root fetch - processPackages [volttron-lib-base-historian]: Downloading https://files.pythonhosted.org/packages/cd/5c/c5b4d7b65a91cc2c5c401d8fb13afc652fb17cd013f32caced79e2fa2c17/volttron_lib_base_historian-0.2.1rc0.tar.gz
+[2023-05-12 18:51:31] INFO root fetch - processPackages [ofxstatement-intesasp]: Downloading https://files.pythonhosted.org/packages/a6/32/760f4b4f4d54d3bbb30ce991b9c0e82104b91d44d6ccf9b0c154e0d6ab0f/ofxstatement_intesasp-0.1.5-py3-none-any.whl
+[2023-05-12 18:51:31] INFO root fetch - processPackages [magyar]: Downloading https://files.pythonhosted.org/packages/c1/67/e9ca11cb3ef40a29bb9f8252f48a4b09554aaccef60627150e9129b228cb/magyar-3.0.2.tar.gz
+[2023-05-12 18:51:31] INFO root fetch - processPackages [ladybug-rhino]: Downloading https://files.pythonhosted.org/packages/3e/ea/279627047f65a2f54a45f8477bb6a56f8dd994d92483ad83290eaf24ac31/ladybug-rhino-1.8.2.tar.gz
+[2023-05-12 18:51:31] INFO root fetch - processPackages [lockss-soap]: Downloading https://files.pythonhosted.org/packages/b2/e4/5fd7d7273f2f8b4de69e21b473bcfbaef767d16ef99ca4d5b995031ea443/lockss_soap-0.8.0.dev3.tar.gz
+[2023-05-12 18:51:31] INFO root fetch - processPackages [google-dataproc-templates]: Downloading https://files.pythonhosted.org/packages/ee/8e/b3feefbd08b641113b7a752e7454cfcb9a8d68c8755aa8135e720e953f54/google-dataproc-templates-0.2.0b0.tar.gz
+[2023-05-12 18:51:31] INFO root fetch - processPackages [magyar]: executing diffoscope
+[2023-05-12 18:51:31] INFO root fetch - processPackages [magyar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magyar-3.0.1.tar.gz tmp/magyar-3.0.2.tar.gz --markdown 20230512/m/magyar/3.0.1-3.0.2/diff.md --exclude *.pyd
+[2023-05-12 18:51:31] INFO root fetch - processPackages [pyreason]: Downloading https://files.pythonhosted.org/packages/a8/94/3e01b64e20efc2573478d87e3bf448105788aa20e116c4223caf8d35db28/pyreason-1.4.2.tar.gz
+[2023-05-12 18:51:31] INFO root fetch - processPackages [eulertools]: Downloading https://files.pythonhosted.org/packages/c2/1c/109f3d71a66674e8c6cad4dbc837a9159c9f4abd080db936fe32d1102542/eulertools-0.4.0.tar.gz
+[2023-05-12 18:51:31] INFO root fetch - processPackages [pyreason]: executing diffoscope
+[2023-05-12 18:51:31] INFO root fetch - processPackages [pyreason]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyreason-1.4.1.tar.gz tmp/pyreason-1.4.2.tar.gz --markdown 20230512/p/pyreason/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-05-12 18:51:31] INFO root fetch - processPackages [Adafruit-PlatformDetect]: executing diffoscope
+[2023-05-12 18:51:31] INFO root fetch - processPackages [Adafruit-PlatformDetect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Adafruit-PlatformDetect-3.8.0.tar.gz tmp/Adafruit-PlatformDetect-3.9.0.tar.gz --markdown 20230512/A/Adafruit-PlatformDetect/3.8.0-3.9.0/diff.md --exclude *.pyd
+[2023-05-12 18:51:31] INFO root fetch - processPackages [ofxstatement-intesasp]: Downloading https://files.pythonhosted.org/packages/98/2b/901039519ba803ae3fce92c9a318d0b3a9d7b2845fb1e81a51a8653780a0/ofxstatement-intesasp-0.2.0.tar.gz
+[2023-05-12 18:51:31] INFO root fetch - processPackages [volttron-lib-base-historian]: Downloading https://files.pythonhosted.org/packages/41/28/e39a7eaeeab382f1a43e55653d2c95e22dd0c5a616f47eb81e79e945aa76/volttron_lib_base_historian-0.2.1rc1.tar.gz
+[2023-05-12 18:51:31] INFO root fetch - processPackages [eulertools]: executing diffoscope
+[2023-05-12 18:51:31] INFO root fetch - processPackages [eulertools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eulertools-0.3.0.tar.gz tmp/eulertools-0.4.0.tar.gz --markdown 20230512/e/eulertools/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-12 18:51:31] INFO root fetch - processPackages [ofxstatement-intesasp]: executing diffoscope
+[2023-05-12 18:51:31] INFO root fetch - processPackages [ofxstatement-intesasp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofxstatement_intesasp-0.1.5-py3-none-any.whl.zip tmp/ofxstatement-intesasp-0.2.0.tar.gz --markdown 20230512/o/ofxstatement-intesasp/0.1.5-0.2.0/diff.md --exclude *.pyd
+[2023-05-12 18:51:31] INFO root fetch - processPackages [lockss-soap]: Downloading https://files.pythonhosted.org/packages/c8/a3/32d9fef9ed910e475590ff4766b8fba3f1d9ab7f6553ffad51e8fff539af/lockss_soap-0.8.0.dev4.tar.gz
+[2023-05-12 18:51:31] INFO root fetch - processPackages [google-dataproc-templates]: Downloading https://files.pythonhosted.org/packages/70/ca/0a94332ef109f20efd572a94216f8ea19286e34400b515b21c81e45de059/google-dataproc-templates-0.3.0b0.tar.gz
+[2023-05-12 18:51:32] INFO root fetch - processPackages [ladybug-rhino]: Downloading https://files.pythonhosted.org/packages/ae/2c/4b673aff780c15e5f2dbf5d94772c420baf196f6fdccfad08abb98e5e21d/ladybug-rhino-1.9.0.tar.gz
+[2023-05-12 18:51:32] INFO root fetch - processPackages [volttron-lib-base-historian]: executing diffoscope
+[2023-05-12 18:51:32] INFO root fetch - processPackages [volttron-lib-base-historian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volttron_lib_base_historian-0.2.1rc0.tar.gz tmp/volttron_lib_base_historian-0.2.1rc1.tar.gz --markdown 20230512/v/volttron-lib-base-historian/0.2.1rc0-0.2.1rc1/diff.md --exclude *.pyd
+[2023-05-12 18:51:32] INFO root fetch - processPackages [lockss-soap]: executing diffoscope
+[2023-05-12 18:51:32] INFO root fetch - processPackages [lockss-soap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lockss_soap-0.8.0.dev3.tar.gz tmp/lockss_soap-0.8.0.dev4.tar.gz --markdown 20230512/l/lockss-soap/0.8.0.dev3-0.8.0.dev4/diff.md --exclude *.pyd
+[2023-05-12 18:51:32] INFO root fetch - processPackages [google-dataproc-templates]: executing diffoscope
+[2023-05-12 18:51:32] INFO root fetch - processPackages [google-dataproc-templates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-dataproc-templates-0.2.0b0.tar.gz tmp/google-dataproc-templates-0.3.0b0.tar.gz --markdown 20230512/g/google-dataproc-templates/0.2.0b0-0.3.0b0/diff.md --exclude *.pyd
+[2023-05-12 18:51:32] INFO root fetch - processPackages [ladybug-rhino]: executing diffoscope
+[2023-05-12 18:51:32] INFO root fetch - processPackages [ladybug-rhino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ladybug-rhino-1.8.2.tar.gz tmp/ladybug-rhino-1.9.0.tar.gz --markdown 20230512/l/ladybug-rhino/1.8.2-1.9.0/diff.md --exclude *.pyd
+[2023-05-12 18:51:32] INFO root fetch - processPackages [aacommpy]: Start processing: neon-homeassistant-skill
+[2023-05-12 18:51:32] INFO root fetch - main [MainThread]: End processing [aacommpy]: success
+[2023-05-12 18:51:32] INFO root fetch - processPackages [neon-homeassistant-skill]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 18:51:32] INFO root fetch - processPackages [neon-homeassistant-skill]: executing diffoscope
+[2023-05-12 18:51:32] INFO root fetch - processPackages [neon-homeassistant-skill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_homeassistant_skill-0.0.8.tar.gz tmp/neon_homeassistant_skill-0.0.9.tar.gz --markdown 20230512/n/neon-homeassistant-skill/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 18:51:33] INFO root fetch - processPackages [magyar]: Start processing: vollseg
+[2023-05-12 18:51:33] INFO root fetch - main [MainThread]: End processing [magyar]: success
+[2023-05-12 18:51:33] INFO root fetch - processPackages [vollseg]: New version: [8.0.0] Old Version: [7.0.0]
+[2023-05-12 18:51:33] INFO root fetch - processPackages [vollseg]: Downloading https://files.pythonhosted.org/packages/49/5e/9558410d2a3b0f12598784a6541087a52cb9eac28650e25b7d767e2c56b0/vollseg-7.0.0.tar.gz
+[2023-05-12 18:51:33] WARNING root fetch - processPackages [vollseg]: Skipping package: exceeds size limit 29985919>=10485760
+[2023-05-12 18:51:33] INFO root fetch - processPackages [vollseg]: Start processing: pyhyperbolic3d
+[2023-05-12 18:51:33] INFO root fetch - main [MainThread]: End processing [vollseg] error
+[2023-05-12 18:51:33] WARNING root fetch - processPackages [pyhyperbolic3d]: Skipping, unable to determine old version
+[2023-05-12 18:51:33] INFO root fetch - processPackages [pyhyperbolic3d]: Start processing: lazycodr
+[2023-05-12 18:51:33] INFO root fetch - main [MainThread]: End processing [pyhyperbolic3d] error
+[2023-05-12 18:51:33] INFO root fetch - processPackages [lazycodr]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-12 18:51:33] INFO root fetch - processPackages [eulertools]: Start processing: dstack
+[2023-05-12 18:51:33] INFO root fetch - main [MainThread]: End processing [eulertools]: success
+[2023-05-12 18:51:33] INFO root fetch - processPackages [ofxstatement-intesasp]: Start processing: retaped-tui
+[2023-05-12 18:51:33] INFO root fetch - main [MainThread]: End processing [ofxstatement-intesasp]: success
+[2023-05-12 18:51:33] INFO root fetch - processPackages [dstack]: New version: [0.8.1] Old Version: [0.8]
+[2023-05-12 18:51:33] WARNING root fetch - processPackages [retaped-tui]: Skipping, unable to determine old version
+[2023-05-12 18:51:33] INFO root fetch - processPackages [retaped-tui]: Start processing: blockpipe
+[2023-05-12 18:51:33] INFO root fetch - main [MainThread]: End processing [retaped-tui] error
+[2023-05-12 18:51:33] INFO root fetch - processPackages [blockpipe]: New version: [0.1.0] Old Version: [0.0.3]
+[2023-05-12 18:51:33] INFO root fetch - processPackages [pyreason]: Start processing: ovos-classifiers
+[2023-05-12 18:51:33] INFO root fetch - main [MainThread]: End processing [pyreason]: success
+[2023-05-12 18:51:33] INFO root fetch - processPackages [lazycodr]: Downloading https://files.pythonhosted.org/packages/ef/ab/4f3b786e232338a3ef6e39a1563fb24c4e37ddff92ac148e7f0f912d7db0/lazycodr-0.1.2.tar.gz
+[2023-05-12 18:51:33] INFO root fetch - processPackages [Adafruit-PlatformDetect]: Start processing: qcew
+[2023-05-12 18:51:33] INFO root fetch - main [MainThread]: End processing [Adafruit-PlatformDetect]: success
+[2023-05-12 18:51:33] INFO root fetch - processPackages [blockpipe]: executing diffoscope
+[2023-05-12 18:51:33] INFO root fetch - processPackages [blockpipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blockpipe-0.0.3.tar.gz tmp/blockpipe-0.1.0.tar.gz --markdown 20230512/b/blockpipe/0.0.3-0.1.0/diff.md --exclude *.pyd
+[2023-05-12 18:51:33] INFO root fetch - processPackages [ovos-classifiers]: New version: [0.0.0a9] Old Version: [0.0.0a8]
+[2023-05-12 18:51:34] INFO root fetch - processPackages [qcew]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-12 18:51:34] INFO root fetch - processPackages [dstack]: Downloading https://files.pythonhosted.org/packages/87/48/4ed965b83f3481ceae36ae6a334ece36c1e848179336e573b95f5be72134/dstack-0.8.tar.gz
+[2023-05-12 18:51:34] INFO root fetch - processPackages [lazycodr]: executing diffoscope
+[2023-05-12 18:51:34] INFO root fetch - processPackages [lazycodr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazycodr-0.1.1.tar.gz tmp/lazycodr-0.1.2.tar.gz --markdown 20230512/l/lazycodr/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-12 18:51:34] INFO root fetch - processPackages [lockss-soap]: Start processing: exceptnotifier
+[2023-05-12 18:51:34] INFO root fetch - main [MainThread]: End processing [lockss-soap]: success
+[2023-05-12 18:51:34] INFO root fetch - processPackages [exceptnotifier]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-05-12 18:51:34] INFO root fetch - processPackages [qcew]: executing diffoscope
+[2023-05-12 18:51:34] INFO root fetch - processPackages [qcew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qcew-0.0.1.tar.gz tmp/qcew-0.0.2.tar.gz --markdown 20230512/q/qcew/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-12 18:51:34] INFO root fetch - processPackages [ovos-classifiers]: Downloading https://files.pythonhosted.org/packages/3d/bf/d7564ff0e1f7e3f0fb7eac8019535b1448a1007b085b5a972d8a879bcda5/ovos_classifiers-0.0.0a8-py3-none-any.whl
+[2023-05-12 18:51:34] INFO root fetch - processPackages [exceptnotifier]: executing diffoscope
+[2023-05-12 18:51:34] INFO root fetch - processPackages [exceptnotifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exceptnotifier-0.2.6.tar.gz tmp/exceptnotifier-0.2.7.tar.gz --markdown 20230512/e/exceptnotifier/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-05-12 18:51:34] INFO root fetch - processPackages [ladybug-rhino]: Start processing: scdiffeq-plots
+[2023-05-12 18:51:34] INFO root fetch - main [MainThread]: End processing [ladybug-rhino]: success
+[2023-05-12 18:51:34] INFO root fetch - processPackages [scdiffeq-plots]: New version: [0.0.1rc0] Old Version: [0.0.0rc0]
+[2023-05-12 18:51:34] INFO root fetch - processPackages [dstack]: Downloading https://files.pythonhosted.org/packages/dc/10/01c67c68b283f4694c8a07b80957bf84bdab15253e7bdd1b0e9329273601/dstack-0.8.1.tar.gz
+[2023-05-12 18:51:34] INFO root fetch - processPackages [volttron-lib-base-historian]: Start processing: aiogram3-form
+[2023-05-12 18:51:34] INFO root fetch - main [MainThread]: End processing [volttron-lib-base-historian]: success
+[2023-05-12 18:51:34] INFO root fetch - processPackages [scdiffeq-plots]: executing diffoscope
+[2023-05-12 18:51:34] INFO root fetch - processPackages [scdiffeq-plots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scdiffeq_plots-0.0.0rc0.tar.gz tmp/scdiffeq_plots-0.0.1rc0.tar.gz --markdown 20230512/s/scdiffeq-plots/0.0.0rc0-0.0.1rc0/diff.md --exclude *.pyd
+[2023-05-12 18:51:34] INFO root fetch - processPackages [dstack]: executing diffoscope
+[2023-05-12 18:51:34] INFO root fetch - processPackages [dstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dstack-0.8.tar.gz tmp/dstack-0.8.1.tar.gz --markdown 20230512/d/dstack/0.8-0.8.1/diff.md --exclude *.pyd
+[2023-05-12 18:51:34] INFO root fetch - processPackages [aiogram3-form]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-12 18:51:34] INFO root fetch - processPackages [ovos-classifiers]: Downloading https://files.pythonhosted.org/packages/de/c2/a7611d4080a75efee622171a47f6d2c86828139a54f8559166765f73f7de/ovos_classifiers-0.0.0a9-py3-none-any.whl
+[2023-05-12 18:51:34] INFO root fetch - processPackages [neon-homeassistant-skill]: Start processing: timm
+[2023-05-12 18:51:34] INFO root fetch - main [MainThread]: End processing [neon-homeassistant-skill]: success
+[2023-05-12 18:51:34] INFO root fetch - processPackages [ovos-classifiers]: executing diffoscope
+[2023-05-12 18:51:34] INFO root fetch - processPackages [ovos-classifiers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_classifiers-0.0.0a8-py3-none-any.whl.zip tmp/ovos_classifiers-0.0.0a9-py3-none-any.whl.zip --markdown 20230512/o/ovos-classifiers/0.0.0a8-0.0.0a9/diff.md --exclude *.pyd
+[2023-05-12 18:51:34] INFO root fetch - processPackages [timm]: New version: [0.9.0] Old Version: [0.8.6.dev0]
+[2023-05-12 18:51:34] INFO root fetch - main [MainThread]: End processing [google-dataproc-templates]: success
+[2023-05-12 18:51:34] INFO root fetch - processPackages [aiogram3-form]: Downloading https://files.pythonhosted.org/packages/e4/a8/06bc3cee9982180c9148a6ebe9d4cf31d66e3c0488f3f92782b80f4b2c5b/aiogram3_form-0.3.1.tar.gz
+[2023-05-12 18:51:34] INFO root fetch - processPackages [aiogram3-form]: Downloading https://files.pythonhosted.org/packages/9e/f1/ab6f8de13273e5332c53953d7072e07a3debd6cc8c6924d8662052a75168/aiogram3_form-0.3.2.tar.gz
+[2023-05-12 18:51:35] INFO root fetch - processPackages [aiogram3-form]: executing diffoscope
+[2023-05-12 18:51:35] INFO root fetch - processPackages [aiogram3-form]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiogram3_form-0.3.1.tar.gz tmp/aiogram3_form-0.3.2.tar.gz --markdown 20230512/a/aiogram3-form/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-12 18:51:35] INFO root fetch - processPackages [timm]: Downloading https://files.pythonhosted.org/packages/7d/b7/696b0c84ab6c1df727252d2421f0bde4a31a75771f8bfe3afc59456974de/timm-0.9.0.tar.gz
+[2023-05-12 18:51:35] INFO root fetch - processPackages [timm]: executing diffoscope
+[2023-05-12 18:51:35] INFO root fetch - processPackages [timm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timm-0.8.6.dev0.tar.gz tmp/timm-0.9.0.tar.gz --markdown 20230512/t/timm/0.8.6.dev0-0.9.0/diff.md --exclude *.pyd
+[2023-05-12 18:51:35] INFO root fetch - main [MainThread]: End processing [blockpipe]: success
+[2023-05-12 18:51:35] INFO root fetch - main [MainThread]: End processing [qcew]: success
+[2023-05-12 18:51:35] INFO root fetch - main [MainThread]: End processing [lazycodr]: success
+[2023-05-12 18:51:36] INFO root fetch - main [MainThread]: End processing [scdiffeq-plots]: success
+[2023-05-12 18:51:36] INFO root fetch - main [MainThread]: End processing [ovos-classifiers]: success
+[2023-05-12 18:51:36] INFO root fetch - main [MainThread]: End processing [aiogram3-form]: success
+[2023-05-12 18:51:37] INFO root fetch - main [MainThread]: End processing [exceptnotifier]: success
+[2023-05-12 18:51:40] INFO root fetch - main [MainThread]: End processing [dstack]: success
+[2023-05-12 18:51:40] INFO root fetch - main [MainThread]: End processing [timm]: success
+[2023-05-12 18:51:40] INFO root fetch - main [MainThread]: Store serial: [18081080]
