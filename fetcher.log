@@ -20809,3 +20809,304 @@ EOFError: EOF read where object expected
 [2023-05-12 23:22:57] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-05-12 23:22:58] INFO root fetch - main [MainThread]: End processing [hordelib]: success
 [2023-05-12 23:22:58] INFO root fetch - main [MainThread]: Store serial: [18084315]
+[2023-05-12 23:28:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18084315]
+[2023-05-12 23:28:07] INFO root fetch - main [MainThread]: Found 57 changed packages
+[2023-05-12 23:28:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: psstdata
+[2023-05-12 23:28:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pysqlite3addonV1
+[2023-05-12 23:28:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dfdfdfdfhhh
+[2023-05-12 23:28:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-databricks
+[2023-05-12 23:28:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flash-attn
+[2023-05-12 23:28:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: iqmotion
+[2023-05-12 23:28:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pysqlite3addonV1
+[2023-05-12 23:28:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sqlglot
+[2023-05-12 23:28:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ecopipeline
+[2023-05-12 23:28:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: neon-stt-plugin-nemo
+[2023-05-12 23:28:07] INFO root fetch - processPackages [psstdata]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-12 23:28:07] INFO root fetch - processPackages [dfdfdfdfhhh]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-12 23:28:07] INFO root fetch - processPackages [ecopipeline]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 23:28:07] INFO root fetch - processPackages [pulumi-databricks]: New version: [1.9.0a1678745257] Old Version: [1.8.0a1678127428]
+[2023-05-12 23:28:07] INFO root fetch - processPackages [flash-attn]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-12 23:28:07] INFO root fetch - processPackages [iqmotion]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-12 23:28:07] INFO root fetch - processPackages [pysqlite3addonV1]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-12 23:28:07] INFO root fetch - processPackages [pysqlite3addonV1]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-12 23:28:07] INFO root fetch - processPackages [neon-stt-plugin-nemo]: New version: [0.0.3a3] Old Version: [0.0.3a2]
+[2023-05-12 23:28:07] INFO root fetch - processPackages [sqlglot]: New version: [9.0.6] Old Version: [9.0.5]
+[2023-05-12 23:28:07] INFO root fetch - processPackages [pulumi-databricks]: executing diffoscope
+[2023-05-12 23:28:07] INFO root fetch - processPackages [pulumi-databricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_databricks-1.8.0a1678127428.tar.gz tmp/pulumi_databricks-1.9.0a1678745257.tar.gz --markdown 20230512/p/pulumi-databricks/1.8.0a1678127428-1.9.0a1678745257/diff.md --exclude *.pyd
+[2023-05-12 23:28:07] INFO root fetch - processPackages [ecopipeline]: executing diffoscope
+[2023-05-12 23:28:07] INFO root fetch - processPackages [ecopipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecopipeline-0.0.8.tar.gz tmp/ecopipeline-0.0.9.tar.gz --markdown 20230512/e/ecopipeline/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 23:28:07] INFO root fetch - processPackages [pysqlite3addonV1]: Downloading https://files.pythonhosted.org/packages/80/51/4d54f9ba94191fb6bae16a018dafd1748e0beed8cae2b6117ade07f450bc/pysqlite3addonV1-1.0.0.tar.gz
+[2023-05-12 23:28:07] INFO root fetch - processPackages [pysqlite3addonV1]: Downloading https://files.pythonhosted.org/packages/80/51/4d54f9ba94191fb6bae16a018dafd1748e0beed8cae2b6117ade07f450bc/pysqlite3addonV1-1.0.0.tar.gz
+[2023-05-12 23:28:07] INFO root fetch - processPackages [iqmotion]: Downloading https://files.pythonhosted.org/packages/ea/98/6064b454685dafe6c4e5e7122a44adfbbab5d132bc349ac3424198208b3e/iqmotion-0.9.2.tar.gz
+[2023-05-12 23:28:07] INFO root fetch - processPackages [flash-attn]: Downloading https://files.pythonhosted.org/packages/25/0f/80f16a741e328342ed4e9b3c010ec87f0ef939a71154b7b8bd22d70a0bb8/flash_attn-1.0.4.tar.gz
+[2023-05-12 23:28:07] INFO root fetch - processPackages [dfdfdfdfhhh]: Downloading https://files.pythonhosted.org/packages/91/ea/33c98535b07ca4abc9a4e2bb10d52cf01d30a88969193e057abfd5821b2b/dfdfdfdfhhh-1.0.3.tar.gz
+[2023-05-12 23:28:07] INFO root fetch - processPackages [psstdata]: Downloading https://files.pythonhosted.org/packages/1f/81/da1f291838979becd608b6c34d6fe35eb114593e76eecfb08f60f12ffd07/psstdata-1.0.0.tar.gz
+[2023-05-12 23:28:07] INFO root fetch - processPackages [dfdfdfdfhhh]: executing diffoscope
+[2023-05-12 23:28:07] INFO root fetch - processPackages [dfdfdfdfhhh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dfdfdfdfhhh-1.0.2.tar.gz tmp/dfdfdfdfhhh-1.0.3.tar.gz --markdown 20230512/d/dfdfdfdfhhh/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-12 23:28:08] INFO root fetch - processPackages [neon-stt-plugin-nemo]: Downloading https://files.pythonhosted.org/packages/4b/b0/fc3c6f5a615538eafd1a97e7640b096caf66e425902ed438dee23eb0bdc8/neon_stt_plugin_nemo-0.0.3a3-py3-none-any.whl
+[2023-05-12 23:28:08] INFO root fetch - processPackages [pysqlite3addonV1]: Downloading https://files.pythonhosted.org/packages/4b/0d/0f270099b23a5c23b4c2ff7d315012d8ab3726527df4ab181d65529e7263/pysqlite3addonV1-1.1.0.tar.gz
+[2023-05-12 23:28:08] INFO root fetch - processPackages [pysqlite3addonV1]: Downloading https://files.pythonhosted.org/packages/4b/0d/0f270099b23a5c23b4c2ff7d315012d8ab3726527df4ab181d65529e7263/pysqlite3addonV1-1.1.0.tar.gz
+[2023-05-12 23:28:08] INFO root fetch - processPackages [sqlglot]: executing diffoscope
+[2023-05-12 23:28:08] INFO root fetch - processPackages [sqlglot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlglot-9.0.5.tar.gz tmp/sqlglot-9.0.6.tar.gz --markdown 20230512/s/sqlglot/9.0.5-9.0.6/diff.md --exclude *.pyd
+[2023-05-12 23:28:08] INFO root fetch - processPackages [flash-attn]: Downloading https://files.pythonhosted.org/packages/f0/b1/5e8d517b76f6efce8ba2a47f8b4e7e463a3ea0c1b3677c738fb819888369/flash_attn-1.0.5.tar.gz
+[2023-05-12 23:28:08] INFO root fetch - processPackages [pysqlite3addonV1]: executing diffoscope
+[2023-05-12 23:28:08] INFO root fetch - processPackages [pysqlite3addonV1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysqlite3addonV1-1.0.0.tar.gz tmp/pysqlite3addonV1-1.1.0.tar.gz --markdown 20230512/p/pysqlite3addonV1/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-12 23:28:08] INFO root fetch - processPackages [pysqlite3addonV1]: executing diffoscope
+[2023-05-12 23:28:08] INFO root fetch - processPackages [pysqlite3addonV1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysqlite3addonV1-1.0.0.tar.gz tmp/pysqlite3addonV1-1.1.0.tar.gz --markdown 20230512/p/pysqlite3addonV1/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-12 23:28:08] INFO root fetch - processPackages [neon-stt-plugin-nemo]: executing diffoscope
+[2023-05-12 23:28:08] INFO root fetch - processPackages [neon-stt-plugin-nemo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_stt_plugin_nemo-0.0.3a2-py3-none-any.whl.zip tmp/neon_stt_plugin_nemo-0.0.3a3-py3-none-any.whl.zip --markdown 20230512/n/neon-stt-plugin-nemo/0.0.3a2-0.0.3a3/diff.md --exclude *.pyd
+[2023-05-12 23:28:08] INFO root fetch - processPackages [psstdata]: Downloading https://files.pythonhosted.org/packages/51/7d/47113da5c87788b80e2e6693d6988aeb6d12351fd119e04c56251b46a937/psstdata-1.0.1.tar.gz
+[2023-05-12 23:28:08] INFO root fetch - processPackages [iqmotion]: Downloading https://files.pythonhosted.org/packages/c5/bd/e0e822fe29eca6852ed05652e150c11b8dc57f4352ccdb66a34640b3b3d3/iqmotion-0.9.3.tar.gz
+[2023-05-12 23:28:08] INFO root fetch - processPackages [psstdata]: executing diffoscope
+[2023-05-12 23:28:08] INFO root fetch - processPackages [psstdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psstdata-1.0.0.tar.gz tmp/psstdata-1.0.1.tar.gz --markdown 20230512/p/psstdata/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-12 23:28:08] INFO root fetch - processPackages [iqmotion]: executing diffoscope
+[2023-05-12 23:28:08] INFO root fetch - processPackages [iqmotion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iqmotion-0.9.2.tar.gz tmp/iqmotion-0.9.3.tar.gz --markdown 20230512/i/iqmotion/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-12 23:28:08] INFO root fetch - processPackages [flash-attn]: executing diffoscope
+[2023-05-12 23:28:08] INFO root fetch - processPackages [flash-attn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flash_attn-1.0.4.tar.gz tmp/flash_attn-1.0.5.tar.gz --markdown 20230512/f/flash-attn/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-12 23:28:09] INFO root fetch - processPackages [ecopipeline]: Start processing: stix-shifter
+[2023-05-12 23:28:09] INFO root fetch - main [MainThread]: End processing [ecopipeline]: success
+[2023-05-12 23:28:09] INFO root fetch - processPackages [stix-shifter]: New version: [5.2.1.dev816] Old Version: [5.2.1.dev815]
+[2023-05-12 23:28:09] INFO root fetch - processPackages [stix-shifter]: executing diffoscope
+[2023-05-12 23:28:09] INFO root fetch - processPackages [stix-shifter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stix_shifter-5.2.1.dev815-py2.py3-none-any.whl.zip tmp/stix_shifter-5.2.1.dev816-py2.py3-none-any.whl.zip --markdown 20230512/s/stix-shifter/5.2.1.dev815-5.2.1.dev816/diff.md --exclude *.pyd
+[2023-05-12 23:28:09] INFO root fetch - processPackages [dfdfdfdfhhh]: Start processing: stix-shifter-modules-abuseipdb
+[2023-05-12 23:28:09] INFO root fetch - main [MainThread]: End processing [dfdfdfdfhhh]: success
+[2023-05-12 23:28:09] INFO root fetch - processPackages [stix-shifter-modules-abuseipdb]: New version: [5.1.1.dev821] Old Version: [5.1.1.dev807]
+[2023-05-12 23:28:09] INFO root fetch - processPackages [stix-shifter-modules-abuseipdb]: Downloading https://files.pythonhosted.org/packages/c0/1f/367dacd8ac69033521e3d72453b2c153181b6958ee8136641a4142c5d199/stix_shifter_modules_abuseipdb-5.1.1.dev807-py2.py3-none-any.whl
+[2023-05-12 23:28:09] INFO root fetch - processPackages [pysqlite3addonV1]: Start processing: stix-shifter-modules-alertflex
+[2023-05-12 23:28:09] INFO root fetch - main [MainThread]: End processing [pysqlite3addonV1]: success
+[2023-05-12 23:28:09] INFO root fetch - processPackages [stix-shifter-modules-alertflex]: New version: [5.2.1.dev816] Old Version: [5.2.1.dev815]
+[2023-05-12 23:28:09] INFO root fetch - processPackages [stix-shifter-modules-alertflex]: executing diffoscope
+[2023-05-12 23:28:09] INFO root fetch - processPackages [stix-shifter-modules-alertflex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stix_shifter_modules_alertflex-5.2.1.dev815-py2.py3-none-any.whl.zip tmp/stix_shifter_modules_alertflex-5.2.1.dev816-py2.py3-none-any.whl.zip --markdown 20230512/s/stix-shifter-modules-alertflex/5.2.1.dev815-5.2.1.dev816/diff.md --exclude *.pyd
+[2023-05-12 23:28:09] INFO root fetch - processPackages [neon-stt-plugin-nemo]: Start processing: stix-shifter-modules-alienvault-otx
+[2023-05-12 23:28:09] INFO root fetch - main [MainThread]: End processing [neon-stt-plugin-nemo]: success
+[2023-05-12 23:28:09] WARNING root fetch - processPackages [stix-shifter-modules-alienvault-otx]: Skipping, unable to determine old version
+[2023-05-12 23:28:09] INFO root fetch - processPackages [stix-shifter-modules-alienvault-otx]: Start processing: stix-shifter-modules-arcsight
+[2023-05-12 23:28:09] INFO root fetch - main [MainThread]: End processing [stix-shifter-modules-alienvault-otx] error
+[2023-05-12 23:28:09] INFO root fetch - processPackages [stix-shifter-modules-abuseipdb]: Downloading https://files.pythonhosted.org/packages/ee/3b/d3faf6f65226992c6ef5c17df95900198cdcc0f1282bc3607b8124fec204/stix_shifter_modules_abuseipdb-5.1.1.dev821-py2.py3-none-any.whl
+[2023-05-12 23:28:09] INFO root fetch - processPackages [stix-shifter-modules-arcsight]: New version: [5.2.1.dev816] Old Version: [5.2.1.dev815]
+[2023-05-12 23:28:10] INFO root fetch - processPackages [stix-shifter-modules-arcsight]: executing diffoscope
+[2023-05-12 23:28:10] INFO root fetch - processPackages [stix-shifter-modules-arcsight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stix_shifter_modules_arcsight-5.2.1.dev815-py2.py3-none-any.whl.zip tmp/stix_shifter_modules_arcsight-5.2.1.dev816-py2.py3-none-any.whl.zip --markdown 20230512/s/stix-shifter-modules-arcsight/5.2.1.dev815-5.2.1.dev816/diff.md --exclude *.pyd
+[2023-05-12 23:28:10] INFO root fetch - processPackages [stix-shifter-modules-abuseipdb]: executing diffoscope
+[2023-05-12 23:28:10] INFO root fetch - processPackages [stix-shifter-modules-abuseipdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stix_shifter_modules_abuseipdb-5.1.1.dev807-py2.py3-none-any.whl.zip tmp/stix_shifter_modules_abuseipdb-5.1.1.dev821-py2.py3-none-any.whl.zip --markdown 20230512/s/stix-shifter-modules-abuseipdb/5.1.1.dev807-5.1.1.dev821/diff.md --exclude *.pyd
+[2023-05-12 23:28:10] INFO root fetch - processPackages [sqlglot]: Start processing: stix-shifter-modules-async-template
+[2023-05-12 23:28:10] INFO root fetch - main [MainThread]: End processing [sqlglot]: success
+[2023-05-12 23:28:10] INFO root fetch - processPackages [stix-shifter-modules-async-template]: New version: [5.2.1.dev816] Old Version: [5.2.1.dev815]
+[2023-05-12 23:28:10] INFO root fetch - processPackages [pysqlite3addonV1]: Start processing: stix-shifter-modules-aws-athena
+[2023-05-12 23:28:10] INFO root fetch - main [MainThread]: End processing [pysqlite3addonV1]: success
+[2023-05-12 23:28:10] INFO root fetch - processPackages [stix-shifter-modules-aws-athena]: New version: [5.2.1.dev816] Old Version: [5.2.1.dev815]
+[2023-05-12 23:28:10] INFO root fetch - processPackages [stix-shifter-modules-async-template]: executing diffoscope
+[2023-05-12 23:28:10] INFO root fetch - processPackages [stix-shifter-modules-async-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stix_shifter_modules_async_template-5.2.1.dev815-py2.py3-none-any.whl.zip tmp/stix_shifter_modules_async_template-5.2.1.dev816-py2.py3-none-any.whl.zip --markdown 20230512/s/stix-shifter-modules-async-template/5.2.1.dev815-5.2.1.dev816/diff.md --exclude *.pyd
+[2023-05-12 23:28:10] INFO root fetch - processPackages [iqmotion]: Start processing: stix-shifter-modules-aws-cloud-watch-logs
+[2023-05-12 23:28:10] INFO root fetch - main [MainThread]: End processing [iqmotion]: success
+[2023-05-12 23:28:10] INFO root fetch - processPackages [stix-shifter-modules-aws-athena]: executing diffoscope
+[2023-05-12 23:28:10] INFO root fetch - processPackages [stix-shifter-modules-aws-athena]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stix_shifter_modules_aws_athena-5.2.1.dev815-py2.py3-none-any.whl.zip tmp/stix_shifter_modules_aws_athena-5.2.1.dev816-py2.py3-none-any.whl.zip --markdown 20230512/s/stix-shifter-modules-aws-athena/5.2.1.dev815-5.2.1.dev816/diff.md --exclude *.pyd
+[2023-05-12 23:28:10] INFO root fetch - processPackages [stix-shifter-modules-aws-cloud-watch-logs]: New version: [5.2.1.dev816] Old Version: [5.2.1.dev815]
+[2023-05-12 23:28:10] INFO root fetch - processPackages [stix-shifter-modules-aws-cloud-watch-logs]: executing diffoscope
+[2023-05-12 23:28:10] INFO root fetch - processPackages [stix-shifter-modules-aws-cloud-watch-logs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stix_shifter_modules_aws_cloud_watch_logs-5.2.1.dev815-py2.py3-none-any.whl.zip tmp/stix_shifter_modules_aws_cloud_watch_logs-5.2.1.dev816-py2.py3-none-any.whl.zip --markdown 20230512/s/stix-shifter-modules-aws-cloud-watch-logs/5.2.1.dev815-5.2.1.dev816/diff.md --exclude *.pyd
+[2023-05-12 23:28:10] INFO root fetch - processPackages [stix-shifter]: Start processing: stix-shifter-modules-azure-log-analytics
+[2023-05-12 23:28:10] INFO root fetch - main [MainThread]: End processing [stix-shifter]: success
+[2023-05-12 23:28:10] INFO root fetch - processPackages [stix-shifter-modules-azure-log-analytics]: New version: [5.2.1.dev816] Old Version: [5.2.1.dev815]
+[2023-05-12 23:28:11] INFO root fetch - processPackages [stix-shifter-modules-azure-log-analytics]: executing diffoscope
+[2023-05-12 23:28:11] INFO root fetch - processPackages [stix-shifter-modules-azure-log-analytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stix_shifter_modules_azure_log_analytics-5.2.1.dev815-py2.py3-none-any.whl.zip tmp/stix_shifter_modules_azure_log_analytics-5.2.1.dev816-py2.py3-none-any.whl.zip --markdown 20230512/s/stix-shifter-modules-azure-log-analytics/5.2.1.dev815-5.2.1.dev816/diff.md --exclude *.pyd
+[2023-05-12 23:28:11] INFO root fetch - processPackages [psstdata]: Start processing: stix-shifter-modules-azure-sentinel
+[2023-05-12 23:28:11] INFO root fetch - main [MainThread]: End processing [psstdata]: success
+[2023-05-12 23:28:11] INFO root fetch - processPackages [stix-shifter-modules-azure-sentinel]: New version: [5.2.1.dev816] Old Version: [5.2.1.dev815]
+[2023-05-12 23:28:11] INFO root fetch - processPackages [stix-shifter-modules-alertflex]: Start processing: stix-shifter-modules-bigfix
+[2023-05-12 23:28:11] INFO root fetch - main [MainThread]: End processing [stix-shifter-modules-alertflex]: success
+[2023-05-12 23:28:11] INFO root fetch - processPackages [stix-shifter-modules-bigfix]: New version: [5.2.1.dev816] Old Version: [5.2.1.dev815]
+[2023-05-12 23:28:11] INFO root fetch - processPackages [stix-shifter-modules-bigfix]: executing diffoscope
+[2023-05-12 23:28:11] INFO root fetch - processPackages [stix-shifter-modules-bigfix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stix_shifter_modules_bigfix-5.2.1.dev815-py2.py3-none-any.whl.zip tmp/stix_shifter_modules_bigfix-5.2.1.dev816-py2.py3-none-any.whl.zip --markdown 20230512/s/stix-shifter-modules-bigfix/5.2.1.dev815-5.2.1.dev816/diff.md --exclude *.pyd
+[2023-05-12 23:28:11] INFO root fetch - processPackages [stix-shifter-modules-azure-sentinel]: executing diffoscope
+[2023-05-12 23:28:11] INFO root fetch - processPackages [stix-shifter-modules-azure-sentinel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stix_shifter_modules_azure_sentinel-5.2.1.dev815-py2.py3-none-any.whl.zip tmp/stix_shifter_modules_azure_sentinel-5.2.1.dev816-py2.py3-none-any.whl.zip --markdown 20230512/s/stix-shifter-modules-azure-sentinel/5.2.1.dev815-5.2.1.dev816/diff.md --exclude *.pyd
+[2023-05-12 23:28:12] INFO root fetch - processPackages [stix-shifter-modules-arcsight]: Start processing: stix-shifter-modules-carbonblack
+[2023-05-12 23:28:12] INFO root fetch - main [MainThread]: End processing [stix-shifter-modules-arcsight]: success
+[2023-05-12 23:28:12] INFO root fetch - processPackages [stix-shifter-modules-carbonblack]: New version: [5.2.1.dev816] Old Version: [5.2.1.dev815]
+[2023-05-12 23:28:12] INFO root fetch - processPackages [stix-shifter-modules-abuseipdb]: Start processing: cornac
+[2023-05-12 23:28:12] INFO root fetch - main [MainThread]: End processing [stix-shifter-modules-abuseipdb]: success
+[2023-05-12 23:28:12] INFO root fetch - processPackages [cornac]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-12 23:28:12] INFO root fetch - processPackages [stix-shifter-modules-carbonblack]: executing diffoscope
+[2023-05-12 23:28:12] INFO root fetch - processPackages [stix-shifter-modules-carbonblack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stix_shifter_modules_carbonblack-5.2.1.dev815-py2.py3-none-any.whl.zip tmp/stix_shifter_modules_carbonblack-5.2.1.dev816-py2.py3-none-any.whl.zip --markdown 20230512/s/stix-shifter-modules-carbonblack/5.2.1.dev815-5.2.1.dev816/diff.md --exclude *.pyd
+[2023-05-12 23:28:12] INFO root fetch - processPackages [cornac]: Downloading https://files.pythonhosted.org/packages/05/07/74994927058219b1c0801b0997cd0a25ab288713fbdcc2187002b59230b5/cornac-1.8.0.tar.gz
+[2023-05-12 23:28:12] INFO root fetch - processPackages [stix-shifter-modules-async-template]: Start processing: stix-shifter-modules-cbcloud
+[2023-05-12 23:28:12] INFO root fetch - main [MainThread]: End processing [stix-shifter-modules-async-template]: success
+[2023-05-12 23:28:12] INFO root fetch - processPackages [stix-shifter-modules-cbcloud]: New version: [5.2.1.dev816] Old Version: [5.2.1.dev815]
+[2023-05-12 23:28:12] INFO root fetch - processPackages [stix-shifter-modules-cbcloud]: executing diffoscope
+[2023-05-12 23:28:12] INFO root fetch - processPackages [stix-shifter-modules-cbcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stix_shifter_modules_cbcloud-5.2.1.dev815-py2.py3-none-any.whl.zip tmp/stix_shifter_modules_cbcloud-5.2.1.dev816-py2.py3-none-any.whl.zip --markdown 20230512/s/stix-shifter-modules-cbcloud/5.2.1.dev815-5.2.1.dev816/diff.md --exclude *.pyd
+[2023-05-12 23:28:12] INFO root fetch - processPackages [stix-shifter-modules-aws-cloud-watch-logs]: Start processing: stix-shifter-modules-crowdstrike
+[2023-05-12 23:28:12] INFO root fetch - main [MainThread]: End processing [stix-shifter-modules-aws-cloud-watch-logs]: success
+[2023-05-12 23:28:12] INFO root fetch - processPackages [stix-shifter-modules-crowdstrike]: New version: [5.2.1.dev816] Old Version: [5.2.1.dev815]
+[2023-05-12 23:28:12] INFO root fetch - processPackages [stix-shifter-modules-aws-athena]: Start processing: stix-shifter-modules-cybereason
+[2023-05-12 23:28:12] INFO root fetch - main [MainThread]: End processing [stix-shifter-modules-aws-athena]: success
+[2023-05-12 23:28:12] INFO root fetch - processPackages [stix-shifter-modules-cybereason]: New version: [5.2.1.dev816] Old Version: [5.2.1.dev815]
+[2023-05-12 23:28:12] INFO root fetch - processPackages [stix-shifter-modules-crowdstrike]: executing diffoscope
+[2023-05-12 23:28:12] INFO root fetch - processPackages [stix-shifter-modules-crowdstrike]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stix_shifter_modules_crowdstrike-5.2.1.dev815-py2.py3-none-any.whl.zip tmp/stix_shifter_modules_crowdstrike-5.2.1.dev816-py2.py3-none-any.whl.zip --markdown 20230512/s/stix-shifter-modules-crowdstrike/5.2.1.dev815-5.2.1.dev816/diff.md --exclude *.pyd
+[2023-05-12 23:28:12] INFO root fetch - processPackages [stix-shifter-modules-cybereason]: executing diffoscope
+[2023-05-12 23:28:12] INFO root fetch - processPackages [stix-shifter-modules-cybereason]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stix_shifter_modules_cybereason-5.2.1.dev815-py2.py3-none-any.whl.zip tmp/stix_shifter_modules_cybereason-5.2.1.dev816-py2.py3-none-any.whl.zip --markdown 20230512/s/stix-shifter-modules-cybereason/5.2.1.dev815-5.2.1.dev816/diff.md --exclude *.pyd
+[2023-05-12 23:28:13] INFO root fetch - processPackages [stix-shifter-modules-azure-log-analytics]: Start processing: stix-shifter-modules-darktrace
+[2023-05-12 23:28:13] INFO root fetch - main [MainThread]: End processing [stix-shifter-modules-azure-log-analytics]: success
+[2023-05-12 23:28:13] INFO root fetch - processPackages [stix-shifter-modules-darktrace]: New version: [5.2.1.dev816] Old Version: [5.2.1.dev815]
+[2023-05-12 23:28:13] INFO root fetch - processPackages [stix-shifter-modules-darktrace]: executing diffoscope
+[2023-05-12 23:28:13] INFO root fetch - processPackages [stix-shifter-modules-darktrace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stix_shifter_modules_darktrace-5.2.1.dev815-py2.py3-none-any.whl.zip tmp/stix_shifter_modules_darktrace-5.2.1.dev816-py2.py3-none-any.whl.zip --markdown 20230512/s/stix-shifter-modules-darktrace/5.2.1.dev815-5.2.1.dev816/diff.md --exclude *.pyd
+[2023-05-12 23:28:13] INFO root fetch - processPackages [stix-shifter-modules-bigfix]: Start processing: stix-shifter-modules-datadog
+[2023-05-12 23:28:13] INFO root fetch - main [MainThread]: End processing [stix-shifter-modules-bigfix]: success
+[2023-05-12 23:28:13] INFO root fetch - processPackages [stix-shifter-modules-datadog]: New version: [5.2.1.dev816] Old Version: [5.2.1.dev815]
+[2023-05-12 23:28:13] INFO root fetch - processPackages [stix-shifter-modules-datadog]: executing diffoscope
+[2023-05-12 23:28:13] INFO root fetch - processPackages [stix-shifter-modules-datadog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stix_shifter_modules_datadog-5.2.1.dev815-py2.py3-none-any.whl.zip tmp/stix_shifter_modules_datadog-5.2.1.dev816-py2.py3-none-any.whl.zip --markdown 20230512/s/stix-shifter-modules-datadog/5.2.1.dev815-5.2.1.dev816/diff.md --exclude *.pyd
+[2023-05-12 23:28:13] INFO root fetch - processPackages [pulumi-databricks]: Start processing: iteriotools
+[2023-05-12 23:28:13] INFO root fetch - main [MainThread]: End processing [pulumi-databricks]: success
+[2023-05-12 23:28:13] INFO root fetch - processPackages [stix-shifter-modules-azure-sentinel]: Start processing: stix-shifter-modules-demo-template
+[2023-05-12 23:28:13] INFO root fetch - main [MainThread]: End processing [stix-shifter-modules-azure-sentinel]: success
+[2023-05-12 23:28:13] INFO root fetch - processPackages [iteriotools]: New version: [0.0.2] Old Version: [0.0.0]
+[2023-05-12 23:28:13] INFO root fetch - processPackages [stix-shifter-modules-demo-template]: New version: [5.2.1.dev816] Old Version: [5.2.1.dev815]
+[2023-05-12 23:28:13] INFO root fetch - processPackages [stix-shifter-modules-demo-template]: executing diffoscope
+[2023-05-12 23:28:13] INFO root fetch - processPackages [stix-shifter-modules-demo-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stix_shifter_modules_demo_template-5.2.1.dev815-py2.py3-none-any.whl.zip tmp/stix_shifter_modules_demo_template-5.2.1.dev816-py2.py3-none-any.whl.zip --markdown 20230512/s/stix-shifter-modules-demo-template/5.2.1.dev815-5.2.1.dev816/diff.md --exclude *.pyd
+[2023-05-12 23:28:13] INFO root fetch - processPackages [cornac]: Downloading https://files.pythonhosted.org/packages/fe/41/dbca7be6102f78aa7cfa474e2f6bafccb3de33eeb6f64e5531d06973e28f/cornac-1.9.0.tar.gz
+[2023-05-12 23:28:13] INFO root fetch - processPackages [iteriotools]: Downloading https://files.pythonhosted.org/packages/b5/51/09e4715cf250de86bf63aee3cfa5fe46d0c816d951ac930d4b9d93fda646/iteriotools-0.0.0.tar.gz
+[2023-05-12 23:28:14] INFO root fetch - processPackages [stix-shifter-modules-carbonblack]: Start processing: stix-shifter-modules-dshield
+[2023-05-12 23:28:14] INFO root fetch - main [MainThread]: End processing [stix-shifter-modules-carbonblack]: success
+[2023-05-12 23:28:14] WARNING root fetch - processPackages [stix-shifter-modules-dshield]: Skipping, unable to determine old version
+[2023-05-12 23:28:14] INFO root fetch - processPackages [stix-shifter-modules-dshield]: Start processing: stix-shifter-modules-elastic-ecs
+[2023-05-12 23:28:14] INFO root fetch - main [MainThread]: End processing [stix-shifter-modules-dshield] error
+[2023-05-12 23:28:14] INFO root fetch - processPackages [iteriotools]: Downloading https://files.pythonhosted.org/packages/8e/e8/85239d3dfae9cd5518ab4f463f16a37a6356540416ed5355ac660d2fb4be/iteriotools-0.0.2.tar.gz
+[2023-05-12 23:28:14] INFO root fetch - processPackages [stix-shifter-modules-elastic-ecs]: New version: [5.2.1.dev816] Old Version: [5.2.1.dev815]
+[2023-05-12 23:28:14] INFO root fetch - processPackages [stix-shifter-modules-elastic-ecs]: executing diffoscope
+[2023-05-12 23:28:14] INFO root fetch - processPackages [stix-shifter-modules-elastic-ecs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stix_shifter_modules_elastic_ecs-5.2.1.dev815-py2.py3-none-any.whl.zip tmp/stix_shifter_modules_elastic_ecs-5.2.1.dev816-py2.py3-none-any.whl.zip --markdown 20230512/s/stix-shifter-modules-elastic-ecs/5.2.1.dev815-5.2.1.dev816/diff.md --exclude *.pyd
+[2023-05-12 23:28:14] INFO root fetch - processPackages [iteriotools]: executing diffoscope
+[2023-05-12 23:28:14] INFO root fetch - processPackages [iteriotools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iteriotools-0.0.0.tar.gz tmp/iteriotools-0.0.2.tar.gz --markdown 20230512/i/iteriotools/0.0.0-0.0.2/diff.md --exclude *.pyd
+[2023-05-12 23:28:14] INFO root fetch - processPackages [stix-shifter-modules-cbcloud]: Start processing: billiards
+[2023-05-12 23:28:14] INFO root fetch - main [MainThread]: End processing [stix-shifter-modules-cbcloud]: success
+[2023-05-12 23:28:14] WARNING root fetch - processPackages [billiards]: Skipping, unable to determine old version
+[2023-05-12 23:28:14] INFO root fetch - processPackages [billiards]: Start processing: stix-shifter-modules-error-test
+[2023-05-12 23:28:14] INFO root fetch - main [MainThread]: End processing [billiards] error
+[2023-05-12 23:28:14] INFO root fetch - processPackages [stix-shifter-modules-error-test]: New version: [5.2.1.dev816] Old Version: [5.2.1.dev815]
+[2023-05-12 23:28:14] INFO root fetch - processPackages [stix-shifter-modules-error-test]: executing diffoscope
+[2023-05-12 23:28:14] INFO root fetch - processPackages [stix-shifter-modules-error-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stix_shifter_modules_error_test-5.2.1.dev815-py2.py3-none-any.whl.zip tmp/stix_shifter_modules_error_test-5.2.1.dev816-py2.py3-none-any.whl.zip --markdown 20230512/s/stix-shifter-modules-error-test/5.2.1.dev815-5.2.1.dev816/diff.md --exclude *.pyd
+[2023-05-12 23:28:14] INFO root fetch - processPackages [stix-shifter-modules-cybereason]: Start processing: stix-shifter-modules-gcp-chronicle
+[2023-05-12 23:28:14] INFO root fetch - main [MainThread]: End processing [stix-shifter-modules-cybereason]: success
+[2023-05-12 23:28:14] INFO root fetch - processPackages [stix-shifter-modules-gcp-chronicle]: New version: [5.2.1.dev816] Old Version: [5.2.1.dev815]
+[2023-05-12 23:28:14] INFO root fetch - processPackages [stix-shifter-modules-crowdstrike]: Start processing: maestral
+[2023-05-12 23:28:14] INFO root fetch - main [MainThread]: End processing [stix-shifter-modules-crowdstrike]: success
+[2023-05-12 23:28:14] INFO root fetch - processPackages [maestral]: New version: [1.7.3.dev1] Old Version: [1.7.3.dev0]
+[2023-05-12 23:28:14] INFO root fetch - processPackages [stix-shifter-modules-gcp-chronicle]: executing diffoscope
+[2023-05-12 23:28:14] INFO root fetch - processPackages [stix-shifter-modules-gcp-chronicle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stix_shifter_modules_gcp_chronicle-5.2.1.dev815-py2.py3-none-any.whl.zip tmp/stix_shifter_modules_gcp_chronicle-5.2.1.dev816-py2.py3-none-any.whl.zip --markdown 20230512/s/stix-shifter-modules-gcp-chronicle/5.2.1.dev815-5.2.1.dev816/diff.md --exclude *.pyd
+[2023-05-12 23:28:15] INFO root fetch - processPackages [cornac]: executing diffoscope
+[2023-05-12 23:28:15] INFO root fetch - processPackages [cornac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cornac-1.8.0.tar.gz tmp/cornac-1.9.0.tar.gz --markdown 20230512/c/cornac/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-12 23:28:15] INFO root fetch - processPackages [maestral]: Downloading https://files.pythonhosted.org/packages/f9/6d/09cb607cfa7e92eb04d55e83c555b17e78118023229a66085c108fe72b30/maestral-1.7.3.dev1.tar.gz
+[2023-05-12 23:28:15] INFO root fetch - processPackages [maestral]: executing diffoscope
+[2023-05-12 23:28:15] INFO root fetch - processPackages [maestral]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maestral-1.7.3.dev0.tar.gz tmp/maestral-1.7.3.dev1.tar.gz --markdown 20230512/m/maestral/1.7.3.dev0-1.7.3.dev1/diff.md --exclude *.pyd
+[2023-05-12 23:28:15] INFO root fetch - processPackages [stix-shifter-modules-darktrace]: Start processing: stix-shifter-modules-guardium
+[2023-05-12 23:28:15] INFO root fetch - main [MainThread]: End processing [stix-shifter-modules-darktrace]: success
+[2023-05-12 23:28:15] INFO root fetch - processPackages [stix-shifter-modules-guardium]: New version: [5.2.1.dev816] Old Version: [5.2.1.dev815]
+[2023-05-12 23:28:15] INFO root fetch - processPackages [stix-shifter-modules-datadog]: Start processing: vale
+[2023-05-12 23:28:15] INFO root fetch - main [MainThread]: End processing [stix-shifter-modules-datadog]: success
+[2023-05-12 23:28:15] INFO root fetch - processPackages [vale]: New version: [2.25.0.0] Old Version: [2.24.4.0]
+[2023-05-12 23:28:15] INFO root fetch - processPackages [stix-shifter-modules-guardium]: executing diffoscope
+[2023-05-12 23:28:15] INFO root fetch - processPackages [stix-shifter-modules-guardium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stix_shifter_modules_guardium-5.2.1.dev815-py2.py3-none-any.whl.zip tmp/stix_shifter_modules_guardium-5.2.1.dev816-py2.py3-none-any.whl.zip --markdown 20230512/s/stix-shifter-modules-guardium/5.2.1.dev815-5.2.1.dev816/diff.md --exclude *.pyd
+[2023-05-12 23:28:15] INFO root fetch - processPackages [vale]: Downloading https://files.pythonhosted.org/packages/76/9a/c3f868950ec18fbc04f786caa767d7bad12b150ab39e2baf1814369ee5f1/vale-2.24.4.0.tar.gz
+[2023-05-12 23:28:15] INFO root fetch - processPackages [stix-shifter-modules-demo-template]: Start processing: stix-shifter-modules-ibm-security-verify
+[2023-05-12 23:28:15] INFO root fetch - main [MainThread]: End processing [stix-shifter-modules-demo-template]: success
+[2023-05-12 23:28:15] INFO root fetch - processPackages [stix-shifter-modules-ibm-security-verify]: New version: [5.2.1.dev816] Old Version: [5.2.1.dev815]
+[2023-05-12 23:28:15] INFO root fetch - processPackages [stix-shifter-modules-ibm-security-verify]: executing diffoscope
+[2023-05-12 23:28:15] INFO root fetch - processPackages [stix-shifter-modules-ibm-security-verify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stix_shifter_modules_ibm_security_verify-5.2.1.dev815-py2.py3-none-any.whl.zip tmp/stix_shifter_modules_ibm_security_verify-5.2.1.dev816-py2.py3-none-any.whl.zip --markdown 20230512/s/stix-shifter-modules-ibm-security-verify/5.2.1.dev815-5.2.1.dev816/diff.md --exclude *.pyd
+[2023-05-12 23:28:15] INFO root fetch - processPackages [vale]: Downloading https://files.pythonhosted.org/packages/e6/d2/054a4673046d8ec02abcc4f1b7737cfe588002321d19157eb355367d108a/vale-2.25.0.0.tar.gz
+[2023-05-12 23:28:15] INFO root fetch - processPackages [vale]: executing diffoscope
+[2023-05-12 23:28:15] INFO root fetch - processPackages [vale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vale-2.24.4.0.tar.gz tmp/vale-2.25.0.0.tar.gz --markdown 20230512/v/vale/2.24.4.0-2.25.0.0/diff.md --exclude *.pyd
+[2023-05-12 23:28:16] INFO root fetch - processPackages [iteriotools]: Start processing: maestral-qt
+[2023-05-12 23:28:16] INFO root fetch - main [MainThread]: End processing [iteriotools]: success
+[2023-05-12 23:28:16] INFO root fetch - processPackages [maestral-qt]: New version: [1.7.3.dev1] Old Version: [1.7.3.dev0]
+[2023-05-12 23:28:16] INFO root fetch - processPackages [maestral-qt]: Downloading https://files.pythonhosted.org/packages/55/81/b09da5e54695d1ded2f2bca4f4483a33b23f50342bc0d9c3a717acb22d01/maestral-qt-1.7.3.dev1.tar.gz
+[2023-05-12 23:28:16] INFO root fetch - processPackages [stix-shifter-modules-error-test]: Start processing: stix-shifter-modules-infoblox
+[2023-05-12 23:28:16] INFO root fetch - main [MainThread]: End processing [stix-shifter-modules-error-test]: success
+[2023-05-12 23:28:16] INFO root fetch - processPackages [stix-shifter-modules-infoblox]: New version: [5.2.1.dev816] Old Version: [5.2.1.dev815]
+[2023-05-12 23:28:16] INFO root fetch - processPackages [stix-shifter-modules-infoblox]: executing diffoscope
+[2023-05-12 23:28:16] INFO root fetch - processPackages [stix-shifter-modules-infoblox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stix_shifter_modules_infoblox-5.2.1.dev815-py2.py3-none-any.whl.zip tmp/stix_shifter_modules_infoblox-5.2.1.dev816-py2.py3-none-any.whl.zip --markdown 20230512/s/stix-shifter-modules-infoblox/5.2.1.dev815-5.2.1.dev816/diff.md --exclude *.pyd
+[2023-05-12 23:28:16] INFO root fetch - processPackages [stix-shifter-modules-elastic-ecs]: Start processing: maestral-cocoa
+[2023-05-12 23:28:16] INFO root fetch - main [MainThread]: End processing [stix-shifter-modules-elastic-ecs]: success
+[2023-05-12 23:28:16] INFO root fetch - processPackages [maestral-qt]: executing diffoscope
+[2023-05-12 23:28:16] INFO root fetch - processPackages [maestral-qt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maestral-qt-1.7.3.dev0.tar.gz tmp/maestral-qt-1.7.3.dev1.tar.gz --markdown 20230512/m/maestral-qt/1.7.3.dev0-1.7.3.dev1/diff.md --exclude *.pyd
+[2023-05-12 23:28:16] INFO root fetch - processPackages [maestral-cocoa]: New version: [1.7.3.dev1] Old Version: [1.7.3.dev0]
+[2023-05-12 23:28:16] INFO root fetch - processPackages [maestral-cocoa]: Downloading https://files.pythonhosted.org/packages/8e/69/714550af061d76c239d0e07ef5df44f6bd03c7ca452ba6aa7adbe7ddd00a/maestral-cocoa-1.7.3.dev1.tar.gz
+[2023-05-12 23:28:17] INFO root fetch - processPackages [stix-shifter-modules-gcp-chronicle]: Start processing: stix-shifter-modules-intezer
+[2023-05-12 23:28:17] INFO root fetch - main [MainThread]: End processing [stix-shifter-modules-gcp-chronicle]: success
+[2023-05-12 23:28:17] WARNING root fetch - processPackages [stix-shifter-modules-intezer]: Skipping, unable to determine old version
+[2023-05-12 23:28:17] INFO root fetch - processPackages [stix-shifter-modules-intezer]: Start processing: stix-shifter-modules-msatp
+[2023-05-12 23:28:17] INFO root fetch - main [MainThread]: End processing [stix-shifter-modules-intezer] error
+[2023-05-12 23:28:17] INFO root fetch - processPackages [stix-shifter-modules-msatp]: New version: [5.2.1.dev816] Old Version: [5.2.1.dev815]
+[2023-05-12 23:28:17] INFO root fetch - processPackages [maestral-cocoa]: executing diffoscope
+[2023-05-12 23:28:17] INFO root fetch - processPackages [maestral-cocoa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maestral-cocoa-1.7.3.dev0.tar.gz tmp/maestral-cocoa-1.7.3.dev1.tar.gz --markdown 20230512/m/maestral-cocoa/1.7.3.dev0-1.7.3.dev1/diff.md --exclude *.pyd
+[2023-05-12 23:28:17] INFO root fetch - processPackages [stix-shifter-modules-msatp]: executing diffoscope
+[2023-05-12 23:28:17] INFO root fetch - processPackages [stix-shifter-modules-msatp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stix_shifter_modules_msatp-5.2.1.dev815-py2.py3-none-any.whl.zip tmp/stix_shifter_modules_msatp-5.2.1.dev816-py2.py3-none-any.whl.zip --markdown 20230512/s/stix-shifter-modules-msatp/5.2.1.dev815-5.2.1.dev816/diff.md --exclude *.pyd
+[2023-05-12 23:28:17] INFO root fetch - processPackages [stix-shifter-modules-guardium]: Start processing: stix-shifter-modules-mysql
+[2023-05-12 23:28:17] INFO root fetch - main [MainThread]: End processing [stix-shifter-modules-guardium]: success
+[2023-05-12 23:28:17] INFO root fetch - processPackages [stix-shifter-modules-mysql]: New version: [5.2.1.dev816] Old Version: [5.2.1.dev815]
+[2023-05-12 23:28:17] INFO root fetch - processPackages [stix-shifter-modules-mysql]: executing diffoscope
+[2023-05-12 23:28:17] INFO root fetch - processPackages [stix-shifter-modules-mysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stix_shifter_modules_mysql-5.2.1.dev815-py2.py3-none-any.whl.zip tmp/stix_shifter_modules_mysql-5.2.1.dev816-py2.py3-none-any.whl.zip --markdown 20230512/s/stix-shifter-modules-mysql/5.2.1.dev815-5.2.1.dev816/diff.md --exclude *.pyd
+[2023-05-12 23:28:17] INFO root fetch - processPackages [stix-shifter-modules-ibm-security-verify]: Start processing: stix-shifter-modules-okta
+[2023-05-12 23:28:17] INFO root fetch - main [MainThread]: End processing [stix-shifter-modules-ibm-security-verify]: success
+[2023-05-12 23:28:17] INFO root fetch - processPackages [vale]: Start processing: stix-shifter-modules-onelogin
+[2023-05-12 23:28:17] INFO root fetch - main [MainThread]: End processing [vale]: success
+[2023-05-12 23:28:17] INFO root fetch - processPackages [stix-shifter-modules-okta]: New version: [5.2.1.dev816] Old Version: [5.2.1.dev815]
+[2023-05-12 23:28:17] INFO root fetch - processPackages [stix-shifter-modules-onelogin]: New version: [5.2.1.dev816] Old Version: [5.2.1.dev815]
+[2023-05-12 23:28:17] INFO root fetch - processPackages [stix-shifter-modules-okta]: executing diffoscope
+[2023-05-12 23:28:17] INFO root fetch - processPackages [stix-shifter-modules-okta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stix_shifter_modules_okta-5.2.1.dev815-py2.py3-none-any.whl.zip tmp/stix_shifter_modules_okta-5.2.1.dev816-py2.py3-none-any.whl.zip --markdown 20230512/s/stix-shifter-modules-okta/5.2.1.dev815-5.2.1.dev816/diff.md --exclude *.pyd
+[2023-05-12 23:28:17] INFO root fetch - processPackages [stix-shifter-modules-onelogin]: executing diffoscope
+[2023-05-12 23:28:17] INFO root fetch - processPackages [stix-shifter-modules-onelogin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stix_shifter_modules_onelogin-5.2.1.dev815-py2.py3-none-any.whl.zip tmp/stix_shifter_modules_onelogin-5.2.1.dev816-py2.py3-none-any.whl.zip --markdown 20230512/s/stix-shifter-modules-onelogin/5.2.1.dev815-5.2.1.dev816/diff.md --exclude *.pyd
+[2023-05-12 23:28:18] INFO root fetch - processPackages [stix-shifter-modules-infoblox]: Start processing: kotlin-jupyter-kernel
+[2023-05-12 23:28:18] INFO root fetch - main [MainThread]: End processing [stix-shifter-modules-infoblox]: success
+[2023-05-12 23:28:18] INFO root fetch - processPackages [kotlin-jupyter-kernel]: New version: [0.9.1.9] Old Version: [0.9.1.51]
+[2023-05-12 23:28:18] INFO root fetch - processPackages [kotlin-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/84/d8/070fb52aa873f86e8a019d38a7c7c4dca376350d00e416c60a93da4a7387/kotlin_jupyter_kernel-0.9.1.51-py3-none-any.whl
+[2023-05-12 23:28:18] WARNING root fetch - processPackages [kotlin-jupyter-kernel]: Skipping package: exceeds size limit 64206818>=10485760
+[2023-05-12 23:28:18] INFO root fetch - processPackages [kotlin-jupyter-kernel]: Start processing: stix-shifter-modules-paloalto
+[2023-05-12 23:28:18] INFO root fetch - main [MainThread]: End processing [kotlin-jupyter-kernel] error
+[2023-05-12 23:28:18] INFO root fetch - processPackages [stix-shifter-modules-paloalto]: New version: [5.2.1.dev816] Old Version: [5.2.1.dev815]
+[2023-05-12 23:28:18] INFO root fetch - processPackages [stix-shifter-modules-paloalto]: executing diffoscope
+[2023-05-12 23:28:18] INFO root fetch - processPackages [stix-shifter-modules-paloalto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stix_shifter_modules_paloalto-5.2.1.dev815-py2.py3-none-any.whl.zip tmp/stix_shifter_modules_paloalto-5.2.1.dev816-py2.py3-none-any.whl.zip --markdown 20230512/s/stix-shifter-modules-paloalto/5.2.1.dev815-5.2.1.dev816/diff.md --exclude *.pyd
+[2023-05-12 23:28:18] INFO root fetch - processPackages [maestral]: Start processing: stix-shifter-modules-proofpoint
+[2023-05-12 23:28:18] INFO root fetch - main [MainThread]: End processing [maestral]: success
+[2023-05-12 23:28:18] INFO root fetch - processPackages [stix-shifter-modules-proofpoint]: New version: [5.2.1.dev816] Old Version: [5.2.1.dev815]
+[2023-05-12 23:28:19] INFO root fetch - processPackages [stix-shifter-modules-proofpoint]: executing diffoscope
+[2023-05-12 23:28:19] INFO root fetch - processPackages [stix-shifter-modules-proofpoint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stix_shifter_modules_proofpoint-5.2.1.dev815-py2.py3-none-any.whl.zip tmp/stix_shifter_modules_proofpoint-5.2.1.dev816-py2.py3-none-any.whl.zip --markdown 20230512/s/stix-shifter-modules-proofpoint/5.2.1.dev815-5.2.1.dev816/diff.md --exclude *.pyd
+[2023-05-12 23:28:19] INFO root fetch - processPackages [maestral-qt]: Start processing: stix-shifter-modules-proxy
+[2023-05-12 23:28:19] INFO root fetch - main [MainThread]: End processing [maestral-qt]: success
+[2023-05-12 23:28:19] INFO root fetch - processPackages [stix-shifter-modules-proxy]: New version: [5.2.1.dev816] Old Version: [5.2.1.dev815]
+[2023-05-12 23:28:19] INFO root fetch - processPackages [stix-shifter-modules-proxy]: executing diffoscope
+[2023-05-12 23:28:19] INFO root fetch - processPackages [stix-shifter-modules-proxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stix_shifter_modules_proxy-5.2.1.dev815-py2.py3-none-any.whl.zip tmp/stix_shifter_modules_proxy-5.2.1.dev816-py2.py3-none-any.whl.zip --markdown 20230512/s/stix-shifter-modules-proxy/5.2.1.dev815-5.2.1.dev816/diff.md --exclude *.pyd
+[2023-05-12 23:28:19] INFO root fetch - processPackages [stix-shifter-modules-mysql]: Start processing: stix-shifter-modules-qradar
+[2023-05-12 23:28:19] INFO root fetch - main [MainThread]: End processing [stix-shifter-modules-mysql]: success
+[2023-05-12 23:28:19] INFO root fetch - processPackages [stix-shifter-modules-onelogin]: Start processing: stix-shifter-modules-qradar-perf-test
+[2023-05-12 23:28:19] INFO root fetch - main [MainThread]: End processing [stix-shifter-modules-onelogin]: success
+[2023-05-12 23:28:19] INFO root fetch - processPackages [stix-shifter-modules-qradar]: New version: [5.2.1.dev816] Old Version: [5.2.1.dev815]
+[2023-05-12 23:28:19] INFO root fetch - processPackages [maestral-cocoa]: Start processing: stix-shifter-modules-reaqta
+[2023-05-12 23:28:19] INFO root fetch - main [MainThread]: End processing [maestral-cocoa]: success
+[2023-05-12 23:28:19] INFO root fetch - processPackages [stix-shifter-modules-qradar-perf-test]: New version: [5.2.1.dev816] Old Version: [5.2.1.dev815]
+[2023-05-12 23:28:19] INFO root fetch - processPackages [stix-shifter-modules-reaqta]: New version: [5.2.1.dev816] Old Version: [5.2.1.dev815]
+[2023-05-12 23:28:19] INFO root fetch - processPackages [stix-shifter-modules-okta]: Start processing: stix-shifter-modules-recorded-future
+[2023-05-12 23:28:19] INFO root fetch - main [MainThread]: End processing [stix-shifter-modules-okta]: success
+[2023-05-12 23:28:19] INFO root fetch - processPackages [stix-shifter-modules-msatp]: Start processing: stix-shifter-modules-reversinglabs
+[2023-05-12 23:28:19] INFO root fetch - main [MainThread]: End processing [stix-shifter-modules-msatp]: success
+[2023-05-12 23:28:20] INFO root fetch - processPackages [stix-shifter-modules-reversinglabs]: New version: [5.2.1.dev816] Old Version: [5.2.1.dev815]
+[2023-05-12 23:28:20] INFO root fetch - processPackages [stix-shifter-modules-qradar]: executing diffoscope
+[2023-05-12 23:28:20] INFO root fetch - processPackages [stix-shifter-modules-qradar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stix_shifter_modules_qradar-5.2.1.dev815-py2.py3-none-any.whl.zip tmp/stix_shifter_modules_qradar-5.2.1.dev816-py2.py3-none-any.whl.zip --markdown 20230512/s/stix-shifter-modules-qradar/5.2.1.dev815-5.2.1.dev816/diff.md --exclude *.pyd
+[2023-05-12 23:28:20] INFO root fetch - processPackages [stix-shifter-modules-qradar-perf-test]: executing diffoscope
+[2023-05-12 23:28:20] INFO root fetch - processPackages [stix-shifter-modules-qradar-perf-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stix_shifter_modules_qradar_perf_test-5.2.1.dev815-py2.py3-none-any.whl.zip tmp/stix_shifter_modules_qradar_perf_test-5.2.1.dev816-py2.py3-none-any.whl.zip --markdown 20230512/s/stix-shifter-modules-qradar-perf-test/5.2.1.dev815-5.2.1.dev816/diff.md --exclude *.pyd
+[2023-05-12 23:28:20] INFO root fetch - processPackages [stix-shifter-modules-reaqta]: executing diffoscope
+[2023-05-12 23:28:20] INFO root fetch - processPackages [stix-shifter-modules-reaqta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stix_shifter_modules_reaqta-5.2.1.dev815-py2.py3-none-any.whl.zip tmp/stix_shifter_modules_reaqta-5.2.1.dev816-py2.py3-none-any.whl.zip --markdown 20230512/s/stix-shifter-modules-reaqta/5.2.1.dev815-5.2.1.dev816/diff.md --exclude *.pyd
+[2023-05-12 23:28:20] WARNING root fetch - processPackages [stix-shifter-modules-recorded-future]: Skipping, unable to determine old version
+[2023-05-12 23:28:20] INFO root fetch - processPackages [stix-shifter-modules-recorded-future]: Start processing: stix-shifter-modules-rhacs
+[2023-05-12 23:28:20] INFO root fetch - main [MainThread]: End processing [stix-shifter-modules-recorded-future] error
+[2023-05-12 23:28:20] INFO root fetch - processPackages [stix-shifter-modules-rhacs]: New version: [5.2.1.dev816] Old Version: [5.2.1.dev815]
+[2023-05-12 23:28:20] INFO root fetch - processPackages [stix-shifter-modules-reversinglabs]: executing diffoscope
+[2023-05-12 23:28:20] INFO root fetch - processPackages [stix-shifter-modules-reversinglabs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stix_shifter_modules_reversinglabs-5.2.1.dev815-py2.py3-none-any.whl.zip tmp/stix_shifter_modules_reversinglabs-5.2.1.dev816-py2.py3-none-any.whl.zip --markdown 20230512/s/stix-shifter-modules-reversinglabs/5.2.1.dev815-5.2.1.dev816/diff.md --exclude *.pyd
+[2023-05-12 23:28:20] INFO root fetch - processPackages [stix-shifter-modules-rhacs]: executing diffoscope
+[2023-05-12 23:28:20] INFO root fetch - processPackages [stix-shifter-modules-rhacs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stix_shifter_modules_rhacs-5.2.1.dev815-py2.py3-none-any.whl.zip tmp/stix_shifter_modules_rhacs-5.2.1.dev816-py2.py3-none-any.whl.zip --markdown 20230512/s/stix-shifter-modules-rhacs/5.2.1.dev815-5.2.1.dev816/diff.md --exclude *.pyd
+[2023-05-12 23:28:20] INFO root fetch - main [MainThread]: End processing [stix-shifter-modules-proofpoint]: success
+[2023-05-12 23:28:21] INFO root fetch - main [MainThread]: End processing [stix-shifter-modules-paloalto]: success
+[2023-05-12 23:28:21] INFO root fetch - main [MainThread]: End processing [stix-shifter-modules-proxy]: success
+[2023-05-12 23:28:21] INFO root fetch - main [MainThread]: End processing [stix-shifter-modules-qradar]: success
+[2023-05-12 23:28:22] INFO root fetch - main [MainThread]: End processing [stix-shifter-modules-reaqta]: success
+[2023-05-12 23:28:22] INFO root fetch - main [MainThread]: End processing [stix-shifter-modules-qradar-perf-test]: success
+[2023-05-12 23:28:22] INFO root fetch - main [MainThread]: End processing [stix-shifter-modules-rhacs]: success
+[2023-05-12 23:28:22] INFO root fetch - main [MainThread]: End processing [stix-shifter-modules-reversinglabs]: success
+[2023-05-12 23:28:38] INFO root fetch - main [MainThread]: End processing [flash-attn]: success
+[2023-05-12 23:30:08] INFO root fetch - main [MainThread]: End processing [cornac]: success
+[2023-05-12 23:30:08] INFO root fetch - main [MainThread]: Store serial: [18084477]
