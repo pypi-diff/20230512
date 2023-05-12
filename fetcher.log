@@ -5782,3 +5782,150 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-12 09:15:22] INFO root fetch - main [MainThread]: End processing [copernicus-marine-client]: success
 [2023-05-12 09:15:23] INFO root fetch - main [MainThread]: End processing [clophfit]: success
 [2023-05-12 09:15:23] INFO root fetch - main [MainThread]: Store serial: [18074415]
+[2023-05-12 09:20:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18074415]
+[2023-05-12 09:20:32] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-05-12 09:20:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: h2o-lightwave-web
+[2023-05-12 09:20:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: caraml-store
+[2023-05-12 09:20:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scine-database
+[2023-05-12 09:20:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: google-sheet-downloader
+[2023-05-12 09:20:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scine-kinetx
+[2023-05-12 09:20:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scine-molassembler
+[2023-05-12 09:20:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: scine-readuct
+[2023-05-12 09:20:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: CrawlersTools
+[2023-05-12 09:20:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: autoai-ts-libs
+[2023-05-12 09:20:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: scine-serenity-wrapper
+[2023-05-12 09:20:32] INFO root fetch - processPackages [google-sheet-downloader]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-12 09:20:32] INFO root fetch - processPackages [caraml-store]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-12 09:20:32] INFO root fetch - processPackages [scine-database]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-05-12 09:20:32] INFO root fetch - processPackages [h2o-lightwave-web]: New version: [0.25.3] Old Version: [0.25.2]
+[2023-05-12 09:20:32] WARNING root fetch - processPackages [scine-kinetx]: Skipping, unable to determine old version
+[2023-05-12 09:20:32] INFO root fetch - processPackages [scine-kinetx]: Start processing: Decryption
+[2023-05-12 09:20:32] INFO root fetch - main [MainThread]: End processing [scine-kinetx] error
+[2023-05-12 09:20:32] INFO root fetch - processPackages [scine-serenity-wrapper]: New version: [2.0.0] Old Version: [1.0.1]
+[2023-05-12 09:20:32] INFO root fetch - processPackages [scine-readuct]: New version: [5.0.0] Old Version: [4.1.0]
+[2023-05-12 09:20:32] INFO root fetch - processPackages [scine-molassembler]: New version: [2.0.0] Old Version: [1.2.1]
+[2023-05-12 09:20:32] INFO root fetch - processPackages [autoai-ts-libs]: New version: [3.0.4] Old Version: [2.0.9]
+[2023-05-12 09:20:32] INFO root fetch - processPackages [CrawlersTools]: New version: [1.4.74] Old Version: [1.4.73]
+[2023-05-12 09:20:32] WARNING root fetch - processPackages [Decryption]: Skipping, unable to determine old version
+[2023-05-12 09:20:32] INFO root fetch - processPackages [Decryption]: Start processing: scine-sparrow
+[2023-05-12 09:20:32] INFO root fetch - main [MainThread]: End processing [Decryption] error
+[2023-05-12 09:20:32] INFO root fetch - processPackages [google-sheet-downloader]: Downloading https://files.pythonhosted.org/packages/7c/77/7d756de60298eff383bf67cf45f19dfb70b593f9c398e489d9386a4bf8bf/google-sheet-downloader-1.0.0.tar.gz
+[2023-05-12 09:20:32] INFO root fetch - processPackages [scine-sparrow]: New version: [4.0.0] Old Version: [3.1.0]
+[2023-05-12 09:20:33] INFO root fetch - processPackages [caraml-store]: Downloading https://files.pythonhosted.org/packages/0a/5a/dc5170e3db3c45ff0dc3747470466628098c66a28496534e88e8cbc859f7/caraml-store-0.1.3.tar.gz
+[2023-05-12 09:20:33] INFO root fetch - processPackages [scine-serenity-wrapper]: Downloading https://files.pythonhosted.org/packages/8d/8e/4ecc80b23d3ff7cd6be21240c64a0aa6472dbd5d432ad1fd38a61320cf4e/scine_serenity_wrapper-1.0.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-12 09:20:33] INFO root fetch - processPackages [autoai-ts-libs]: Downloading https://files.pythonhosted.org/packages/3c/d9/86d4ad9d059ee2263c6c06e70a8ad0ef6f31db50263b5f8ccc6fb1e2000a/autoai_ts_libs-2.0.9-109-cp310-cp310-win_amd64.whl
+[2023-05-12 09:20:33] INFO root fetch - processPackages [scine-readuct]: Downloading https://files.pythonhosted.org/packages/10/ec/7e9d9ca85f598aebcfe300c8c118787b5fb9adfbac4b756eae85402abdf7/scine_readuct-4.1.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-12 09:20:33] INFO root fetch - processPackages [h2o-lightwave-web]: Downloading https://files.pythonhosted.org/packages/9d/4a/309b02aa00b55cc868ac52d1c8c56087af04a6a2f3663f17286cd4f7213e/h2o_lightwave_web-0.25.2-py3-none-any.whl
+[2023-05-12 09:20:33] INFO root fetch - processPackages [scine-database]: Downloading https://files.pythonhosted.org/packages/13/a9/47b1b613869e4b742c4952ac077e1a83e548ef1b6adaf5050743b9113866/scine_database-1.1.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-12 09:20:33] INFO root fetch - processPackages [scine-molassembler]: Downloading https://files.pythonhosted.org/packages/94/61/4c6f10a805ec13232a9b9c7feb4d31188937b755148f4f55a983501b0689/scine_molassembler-1.2.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-12 09:20:33] WARNING root fetch - processPackages [scine-serenity-wrapper]: Skipping package: exceeds size limit 59219701>=10485760
+[2023-05-12 09:20:33] INFO root fetch - processPackages [scine-serenity-wrapper]: Start processing: cdk-certbot-dns-route53
+[2023-05-12 09:20:33] INFO root fetch - main [MainThread]: End processing [scine-serenity-wrapper] error
+[2023-05-12 09:20:33] INFO root fetch - processPackages [scine-sparrow]: Downloading https://files.pythonhosted.org/packages/4f/3d/76427e3e0996661b21e38b6d9eb3b82e032e181b04fcca0ce5f4107a0f67/scine_sparrow-3.1.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-12 09:20:33] WARNING root fetch - processPackages [autoai-ts-libs]: Skipping package: exceeds size limit 22802160>=10485760
+[2023-05-12 09:20:33] INFO root fetch - processPackages [autoai-ts-libs]: Start processing: scine-utilities
+[2023-05-12 09:20:33] INFO root fetch - main [MainThread]: End processing [autoai-ts-libs] error
+[2023-05-12 09:20:33] INFO root fetch - processPackages [CrawlersTools]: Downloading https://files.pythonhosted.org/packages/b0/ad/a59edb320533ac31d321dcc9ef5d02765e747b8bd371c100ed12d32117d7/CrawlersTools-1.4.74.tar.gz
+[2023-05-12 09:20:33] INFO root fetch - processPackages [google-sheet-downloader]: Downloading https://files.pythonhosted.org/packages/a8/ee/b98fdbd639bd18e968dd9e3d693502276c76e1c43a1689ff8db590e42c77/google-sheet-downloader-1.0.1.tar.gz
+[2023-05-12 09:20:33] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-05-12 09:20:33] WARNING root fetch - processPackages [scine-sparrow]: Skipping package: exceeds size limit 22703124>=10485760
+[2023-05-12 09:20:33] INFO root fetch - processPackages [scine-sparrow]: Start processing: scine-xtb-wrapper
+[2023-05-12 09:20:33] INFO root fetch - main [MainThread]: End processing [scine-sparrow] error
+[2023-05-12 09:20:33] INFO root fetch - processPackages [scine-utilities]: New version: [8.0.0] Old Version: [7.0.0]
+[2023-05-12 09:20:33] INFO root fetch - processPackages [google-sheet-downloader]: executing diffoscope
+[2023-05-12 09:20:33] INFO root fetch - processPackages [CrawlersTools]: executing diffoscope
+[2023-05-12 09:20:33] INFO root fetch - processPackages [google-sheet-downloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-sheet-downloader-1.0.0.tar.gz tmp/google-sheet-downloader-1.0.1.tar.gz --markdown 20230512/g/google-sheet-downloader/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-12 09:20:33] INFO root fetch - processPackages [CrawlersTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CrawlersTools-1.4.73.tar.gz tmp/CrawlersTools-1.4.74.tar.gz --markdown 20230512/C/CrawlersTools/1.4.73-1.4.74/diff.md --exclude *.pyd
+[2023-05-12 09:20:33] INFO root fetch - processPackages [scine-xtb-wrapper]: New version: [2.0.0] Old Version: [1.0.2]
+[2023-05-12 09:20:33] INFO root fetch - processPackages [caraml-store]: Downloading https://files.pythonhosted.org/packages/3c/db/a4b0a0727588613e7712825b551d9dc8accb3b0edcbd621a170f317778c3/caraml-store-0.1.4.tar.gz
+[2023-05-12 09:20:33] INFO root fetch - processPackages [scine-utilities]: Downloading https://files.pythonhosted.org/packages/67/08/9fcf8eb1b9490cafbe782486482b8b12a1c1503509dbf9c9feaad62b35c1/scine_utilities-7.0.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-12 09:20:33] INFO root fetch - processPackages [scine-database]: Downloading https://files.pythonhosted.org/packages/84/5c/3f7862a5032751474c9a2202523a937fdc6fdefc28d0e7d768c4f3857067/scine_database-1.2.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-12 09:20:33] INFO root fetch - processPackages [scine-xtb-wrapper]: Downloading https://files.pythonhosted.org/packages/d6/c8/cc37f023159c02b540a7f14ef0677419c5d3089d0a8320aedeeea045e613/scine_xtb_wrapper-1.0.2-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-12 09:20:33] INFO root fetch - processPackages [caraml-store]: executing diffoscope
+[2023-05-12 09:20:33] INFO root fetch - processPackages [caraml-store]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caraml-store-0.1.3.tar.gz tmp/caraml-store-0.1.4.tar.gz --markdown 20230512/c/caraml-store/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-12 09:20:33] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2023-05-12 09:20:33] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.1.98.tar.gz tmp/cdk-certbot-dns-route53-2.1.99.tar.gz --markdown 20230512/c/cdk-certbot-dns-route53/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-05-12 09:20:33] INFO root fetch - processPackages [scine-readuct]: Downloading https://files.pythonhosted.org/packages/c3/23/bcea39989f837b90e8b6da65460f89a30139425e5c1403b4898d7c1064de/scine_readuct-5.0.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-12 09:20:33] INFO root fetch - processPackages [h2o-lightwave-web]: Downloading https://files.pythonhosted.org/packages/cd/4c/e93f9326a8a231a476f3a903ba04ce87de84352ed8cfcb468e7e4d280dd6/h2o_lightwave_web-0.25.3-py3-none-any.whl
+[2023-05-12 09:20:33] INFO root fetch - processPackages [scine-molassembler]: Downloading https://files.pythonhosted.org/packages/94/38/57f6ce62f62197127c21b07cea66163e08782efd0a3f382f09ad4a3ce6e4/scine_molassembler-2.0.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-12 09:20:34] INFO root fetch - processPackages [h2o-lightwave-web]: executing diffoscope
+[2023-05-12 09:20:34] INFO root fetch - processPackages [h2o-lightwave-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h2o_lightwave_web-0.25.2-py3-none-any.whl.zip tmp/h2o_lightwave_web-0.25.3-py3-none-any.whl.zip --markdown 20230512/h/h2o-lightwave-web/0.25.2-0.25.3/diff.md --exclude *.pyd
+[2023-05-12 09:20:34] INFO root fetch - processPackages [scine-utilities]: Downloading https://files.pythonhosted.org/packages/4e/15/1d415313a694e256972d025e9b4fbb6f0c560d9e893762f21acc743eb130/scine_utilities-8.0.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-12 09:20:34] INFO root fetch - processPackages [google-sheet-downloader]: Start processing: dataquality
+[2023-05-12 09:20:34] INFO root fetch - main [MainThread]: End processing [google-sheet-downloader]: success
+[2023-05-12 09:20:34] INFO root fetch - processPackages [dataquality]: New version: [0.9.1a3] Old Version: [0.9.1a2]
+[2023-05-12 09:20:34] INFO root fetch - processPackages [scine-molassembler]: executing diffoscope
+[2023-05-12 09:20:34] INFO root fetch - processPackages [scine-molassembler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scine_molassembler-1.2.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/scine_molassembler-2.0.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230512/s/scine-molassembler/1.2.1-2.0.0/diff.md --exclude *.pyd
+[2023-05-12 09:20:34] INFO root fetch - processPackages [scine-database]: executing diffoscope
+[2023-05-12 09:20:34] INFO root fetch - processPackages [scine-database]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scine_database-1.1.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/scine_database-1.2.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230512/s/scine-database/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-05-12 09:20:34] INFO root fetch - processPackages [scine-readuct]: executing diffoscope
+[2023-05-12 09:20:34] INFO root fetch - processPackages [scine-readuct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scine_readuct-4.1.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/scine_readuct-5.0.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230512/s/scine-readuct/4.1.0-5.0.0/diff.md --exclude *.pyd
+[2023-05-12 09:20:34] INFO root fetch - processPackages [CrawlersTools]: Start processing: scine-art
+[2023-05-12 09:20:34] INFO root fetch - main [MainThread]: End processing [CrawlersTools]: success
+[2023-05-12 09:20:35] INFO root fetch - processPackages [dataquality]: executing diffoscope
+[2023-05-12 09:20:35] INFO root fetch - processPackages [dataquality]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataquality-0.9.1a2.tar.gz tmp/dataquality-0.9.1a3.tar.gz --markdown 20230512/d/dataquality/0.9.1a2-0.9.1a3/diff.md --exclude *.pyd
+[2023-05-12 09:20:35] WARNING root fetch - processPackages [scine-art]: Skipping, unable to determine old version
+[2023-05-12 09:20:35] INFO root fetch - processPackages [scine-art]: Start processing: scine-chemoton
+[2023-05-12 09:20:35] INFO root fetch - main [MainThread]: End processing [scine-art] error
+[2023-05-12 09:20:35] INFO root fetch - processPackages [scine-xtb-wrapper]: Downloading https://files.pythonhosted.org/packages/6b/42/3a464585fde796bede27caa025bd6e51dbb2ab733f85d61dc63d05d60e99/scine_xtb_wrapper-2.0.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-12 09:20:35] INFO root fetch - processPackages [scine-chemoton]: New version: [3.0.0] Old Version: [2.2.0]
+[2023-05-12 09:20:35] INFO root fetch - processPackages [caraml-store]: Start processing: scine-puffin
+[2023-05-12 09:20:35] INFO root fetch - main [MainThread]: End processing [caraml-store]: success
+[2023-05-12 09:20:35] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Start processing: tfq-nightly
+[2023-05-12 09:20:35] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2023-05-12 09:20:35] INFO root fetch - processPackages [scine-puffin]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-05-12 09:20:35] INFO root fetch - processPackages [tfq-nightly]: New version: [0.7.3.dev20230511] Old Version: [0.7.3.dev20230510]
+[2023-05-12 09:20:35] INFO root fetch - processPackages [scine-chemoton]: Downloading https://files.pythonhosted.org/packages/9e/2c/3a11352d6a61564e8b4f804f1eb6963ce5d43e3c8db64051b9e452bb2f43/scine_chemoton-2.2.0.tar.gz
+[2023-05-12 09:20:35] INFO root fetch - processPackages [scine-puffin]: Downloading https://files.pythonhosted.org/packages/59/10/b0b23a5ce307df6ea74c3b47d95b13fa9dbf62879d52c381149ea1ad1bd6/scine_puffin-1.1.0.tar.gz
+[2023-05-12 09:20:35] INFO root fetch - processPackages [tfq-nightly]: Downloading https://files.pythonhosted.org/packages/f7/da/6bbeb52b4e3fa3c854c4100a443a4d6d62cdfc8cbd7479d531241deaf077/tfq_nightly-0.7.3.dev20230510-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-12 09:20:35] WARNING root fetch - processPackages [tfq-nightly]: Skipping package: exceeds size limit 10819849>=10485760
+[2023-05-12 09:20:35] INFO root fetch - processPackages [tfq-nightly]: Start processing: wanna-ml
+[2023-05-12 09:20:35] INFO root fetch - main [MainThread]: End processing [tfq-nightly] error
+[2023-05-12 09:20:35] INFO root fetch - processPackages [scine-chemoton]: Downloading https://files.pythonhosted.org/packages/47/81/65f8d79d054ffd48cfa475f155c1a632bf5bdfc41be146744fb557a0d152/scine_chemoton-3.0.0.tar.gz
+[2023-05-12 09:20:35] INFO root fetch - processPackages [wanna-ml]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-12 09:20:35] INFO root fetch - processPackages [scine-utilities]: executing diffoscope
+[2023-05-12 09:20:35] INFO root fetch - processPackages [scine-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scine_utilities-7.0.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/scine_utilities-8.0.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230512/s/scine-utilities/7.0.0-8.0.0/diff.md --exclude *.pyd
+[2023-05-12 09:20:35] INFO root fetch - processPackages [wanna-ml]: executing diffoscope
+[2023-05-12 09:20:35] INFO root fetch - processPackages [wanna-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wanna-ml-0.2.8.tar.gz tmp/wanna-ml-0.2.9.tar.gz --markdown 20230512/w/wanna-ml/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-12 09:20:35] INFO root fetch - processPackages [scine-chemoton]: executing diffoscope
+[2023-05-12 09:20:35] INFO root fetch - processPackages [scine-chemoton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scine_chemoton-2.2.0.tar.gz tmp/scine_chemoton-3.0.0.tar.gz --markdown 20230512/s/scine-chemoton/2.2.0-3.0.0/diff.md --exclude *.pyd
+[2023-05-12 09:20:35] INFO root fetch - processPackages [scine-puffin]: Downloading https://files.pythonhosted.org/packages/f4/25/0517e4a95c601e081eea28d1402285b245c922252afcd1893fea4ccd7cdd/scine_puffin-1.2.0.tar.gz
+[2023-05-12 09:20:36] INFO root fetch - processPackages [scine-xtb-wrapper]: executing diffoscope
+[2023-05-12 09:20:36] INFO root fetch - processPackages [scine-xtb-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scine_xtb_wrapper-1.0.2-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/scine_xtb_wrapper-2.0.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230512/s/scine-xtb-wrapper/1.0.2-2.0.0/diff.md --exclude *.pyd
+[2023-05-12 09:20:36] INFO root fetch - processPackages [scine-puffin]: executing diffoscope
+[2023-05-12 09:20:36] INFO root fetch - processPackages [scine-puffin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scine_puffin-1.1.0.tar.gz tmp/scine_puffin-1.2.0.tar.gz --markdown 20230512/s/scine-puffin/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-05-12 09:20:38] INFO root fetch - processPackages [dataquality]: Start processing: py2nut
+[2023-05-12 09:20:38] INFO root fetch - main [MainThread]: End processing [dataquality]: success
+[2023-05-12 09:20:38] INFO root fetch - processPackages [py2nut]: New version: [3.2.4] Old Version: [3.2.3]
+[2023-05-12 09:20:38] INFO root fetch - processPackages [scine-chemoton]: Start processing: fiddler-client
+[2023-05-12 09:20:38] INFO root fetch - main [MainThread]: End processing [scine-chemoton]: success
+[2023-05-12 09:20:39] INFO root fetch - processPackages [py2nut]: Downloading https://files.pythonhosted.org/packages/4c/a7/ecd99bc4bf031e3bd3424f3aa1bf57a7ff6633aecd4adac2caf06227be2f/py2nut-3.2.3.tar.gz
+[2023-05-12 09:20:39] INFO root fetch - processPackages [fiddler-client]: New version: [2.0.0.dev3] Old Version: [2.0.0.dev1]
+[2023-05-12 09:20:39] INFO root fetch - processPackages [wanna-ml]: Start processing: salure-helpers-profit
+[2023-05-12 09:20:39] INFO root fetch - main [MainThread]: End processing [wanna-ml]: success
+[2023-05-12 09:20:39] INFO root fetch - processPackages [salure-helpers-profit]: New version: [1.3.0] Old Version: [1.2.4]
+[2023-05-12 09:20:39] INFO root fetch - processPackages [py2nut]: Downloading https://files.pythonhosted.org/packages/4d/28/5b18c79d85b0cbdbc843a23e90d0241c3a395f877e6efa1abeb4525ef03f/py2nut-3.2.4.tar.gz
+[2023-05-12 09:20:39] INFO root fetch - processPackages [salure-helpers-profit]: Downloading https://files.pythonhosted.org/packages/dc/e7/74d5f55ae64be580050f89a1a3cbe7350ed857b736e5c994d9f9c3241083/salure_helpers_profit-1.2.4.tar.gz
+[2023-05-12 09:20:39] INFO root fetch - processPackages [py2nut]: executing diffoscope
+[2023-05-12 09:20:39] INFO root fetch - processPackages [py2nut]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py2nut-3.2.3.tar.gz tmp/py2nut-3.2.4.tar.gz --markdown 20230512/p/py2nut/3.2.3-3.2.4/diff.md --exclude *.pyd
+[2023-05-12 09:20:39] INFO root fetch - processPackages [scine-puffin]: Start processing: qontract-reconcile
+[2023-05-12 09:20:39] INFO root fetch - main [MainThread]: End processing [scine-puffin]: success
+[2023-05-12 09:20:39] INFO root fetch - processPackages [fiddler-client]: executing diffoscope
+[2023-05-12 09:20:39] INFO root fetch - processPackages [fiddler-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiddler-client-2.0.0.dev1.tar.gz tmp/fiddler-client-2.0.0.dev3.tar.gz --markdown 20230512/f/fiddler-client/2.0.0.dev1-2.0.0.dev3/diff.md --exclude *.pyd
+[2023-05-12 09:20:39] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-05-12 09:20:39] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-05-12 09:20:39] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230512/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-05-12 09:20:39] INFO root fetch - processPackages [salure-helpers-profit]: Downloading https://files.pythonhosted.org/packages/8f/1a/76e74e2668c6f5f73b615740ccf536702c2d15a0546d979b5f5c36a6d068/salure_helpers_profit-1.3.0.tar.gz
+[2023-05-12 09:20:39] INFO root fetch - processPackages [salure-helpers-profit]: executing diffoscope
+[2023-05-12 09:20:39] INFO root fetch - processPackages [salure-helpers-profit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/salure_helpers_profit-1.2.4.tar.gz tmp/salure_helpers_profit-1.3.0.tar.gz --markdown 20230512/s/salure-helpers-profit/1.2.4-1.3.0/diff.md --exclude *.pyd
+[2023-05-12 09:20:41] INFO root fetch - main [MainThread]: End processing [py2nut]: success
+[2023-05-12 09:20:41] INFO root fetch - main [MainThread]: End processing [salure-helpers-profit]: success
+[2023-05-12 09:20:41] INFO root fetch - main [MainThread]: End processing [fiddler-client]: success
+[2023-05-12 09:20:46] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-05-12 09:21:32] INFO root fetch - main [MainThread]: End processing [scine-molassembler]: success
+[2023-05-12 09:21:47] INFO root fetch - main [MainThread]: End processing [scine-database]: success
+[2023-05-12 09:21:52] INFO root fetch - main [MainThread]: End processing [scine-utilities]: success
+[2023-05-12 09:21:55] INFO root fetch - main [MainThread]: End processing [h2o-lightwave-web]: success
+[2023-05-12 09:22:10] INFO root fetch - main [MainThread]: End processing [scine-readuct]: success
+[2023-05-12 09:22:14] INFO root fetch - main [MainThread]: End processing [scine-xtb-wrapper]: success
+[2023-05-12 09:22:14] INFO root fetch - main [MainThread]: Store serial: [18074498]
