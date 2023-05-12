@@ -4932,3 +4932,18 @@
 [2023-05-12 07:50:59] INFO root fetch - main [MainThread]: End processing [azure-synapse-artifacts]: success
 [2023-05-12 07:51:28] INFO root fetch - main [MainThread]: End processing [mrq-custom]: success
 [2023-05-12 07:51:28] INFO root fetch - main [MainThread]: Store serial: [18073737]
+[2023-05-12 07:56:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18073737]
+[2023-05-12 07:56:41] INFO root fetch - main [MainThread]: No changed packages found
+[2023-05-12 08:01:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18073768]
+[2023-05-12 08:01:46] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-05-12 08:01:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openai-promptify-py
+[2023-05-12 08:01:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cardmasking
+[2023-05-12 08:01:46] INFO root fetch - processPackages [openai-promptify-py]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-12 08:01:46] WARNING root fetch - processPackages [cardmasking]: Skipping, unable to determine old version
+[2023-05-12 08:01:46] INFO root fetch - main [MainThread]: End processing [cardmasking] error
+[2023-05-12 08:01:47] INFO root fetch - processPackages [openai-promptify-py]: Downloading https://files.pythonhosted.org/packages/1f/d7/a18fc078f39ec8b8ad3e9b6e7af87d75992a44ced4244f8474a69bb720e9/openai-promptify-py-0.0.2.tar.gz
+[2023-05-12 08:01:47] INFO root fetch - processPackages [openai-promptify-py]: Downloading https://files.pythonhosted.org/packages/b9/19/3b6c71988f49c3c532cd116e2e16acf0f39cab63cb492ef472bd2b64f088/openai_promptify_py-0.0.3-py3-none-any.whl
+[2023-05-12 08:01:47] INFO root fetch - processPackages [openai-promptify-py]: executing diffoscope
+[2023-05-12 08:01:47] INFO root fetch - processPackages [openai-promptify-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai-promptify-py-0.0.2.tar.gz tmp/openai_promptify_py-0.0.3-py3-none-any.whl.zip --markdown 20230512/o/openai-promptify-py/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-12 08:01:48] INFO root fetch - main [MainThread]: End processing [openai-promptify-py]: success
+[2023-05-12 08:01:48] INFO root fetch - main [MainThread]: Store serial: [18073803]
