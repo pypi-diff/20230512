@@ -17603,3 +17603,100 @@ EOFError: EOF read where object expected
 [2023-05-12 20:32:49] INFO root fetch - main [MainThread]: End processing [PyFlyt]: success
 [2023-05-12 20:32:49] INFO root fetch - main [MainThread]: End processing [mitzu]: success
 [2023-05-12 20:32:49] INFO root fetch - main [MainThread]: Store serial: [18082117]
+[2023-05-12 20:37:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18082117]
+[2023-05-12 20:37:59] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-12 20:37:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alvin-cli
+[2023-05-12 20:37:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: getdaft
+[2023-05-12 20:37:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kcli
+[2023-05-12 20:37:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: atsphinx-og-article
+[2023-05-12 20:37:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: heaobject
+[2023-05-12 20:37:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alacorder
+[2023-05-12 20:37:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: oking-oz
+[2023-05-12 20:37:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyalpa
+[2023-05-12 20:37:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kcli
+[2023-05-12 20:37:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: moto
+[2023-05-12 20:37:59] INFO root fetch - processPackages [getdaft]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-12 20:37:59] INFO root fetch - processPackages [alvin-cli]: New version: [1.2.0rc9] Old Version: [1.2.0rc8]
+[2023-05-12 20:37:59] INFO root fetch - processPackages [oking-oz]: New version: [3.2.31] Old Version: [3.2.30]
+[2023-05-12 20:37:59] INFO root fetch - processPackages [atsphinx-og-article]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-12 20:37:59] INFO root fetch - processPackages [pyalpa]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-12 20:37:59] INFO root fetch - processPackages [heaobject]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-05-12 20:37:59] INFO root fetch - processPackages [alacorder]: New version: [80.4.4] Old Version: [80.4.3]
+[2023-05-12 20:37:59] INFO root fetch - processPackages [kcli]: New version: [99.0.202305121835] Old Version: [99.0.202305121833]
+[2023-05-12 20:37:59] INFO root fetch - processPackages [kcli]: New version: [99.0.202305121835] Old Version: [99.0.202305121833]
+[2023-05-12 20:37:59] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-05-12 20:37:59] INFO root fetch - processPackages [pyalpa]: executing diffoscope
+[2023-05-12 20:37:59] INFO root fetch - processPackages [pyalpa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyalpa-0.9.0.tar.gz tmp/pyalpa-0.9.1.tar.gz --markdown 20230512/p/pyalpa/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-12 20:37:59] INFO root fetch - processPackages [getdaft]: Downloading https://files.pythonhosted.org/packages/db/ba/9389e02c5722faf7f7a194f81ad11f47a384592a9c1e6332dbe2d7ed77c5/getdaft-0.1.0.tar.gz
+[2023-05-12 20:37:59] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-05-12 20:37:59] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230512/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-05-12 20:37:59] INFO root fetch - processPackages [oking-oz]: Downloading https://files.pythonhosted.org/packages/ae/ac/36f30f5f419c8863738791d563c866f7b12fdb5acb3932db8a8ec35cd660/oking_oz-3.2.30.tar.gz
+[2023-05-12 20:37:59] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/c5/99/0ed68453bfaf1976fbcaf2eec0e46c8710d0c885502a0d98377fa9e30158/kcli-99.0.202305121833-py3-none-any.whl
+[2023-05-12 20:37:59] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/c5/99/0ed68453bfaf1976fbcaf2eec0e46c8710d0c885502a0d98377fa9e30158/kcli-99.0.202305121833-py3-none-any.whl
+[2023-05-12 20:37:59] INFO root fetch - processPackages [alacorder]: Downloading https://files.pythonhosted.org/packages/ab/03/a5ca7d319d6e349e46323430248f29db0b77295f9a384a37ee439debdc4a/alacorder-80.4.4.tar.gz
+[2023-05-12 20:37:59] INFO root fetch - processPackages [atsphinx-og-article]: Downloading https://files.pythonhosted.org/packages/90/78/b3ef10597958d1ae313cc52f026be72e3e8840c435a5898d9f427ca76c3e/atsphinx-og-article-0.2.1.tar.gz
+[2023-05-12 20:37:59] INFO root fetch - processPackages [alacorder]: executing diffoscope
+[2023-05-12 20:37:59] INFO root fetch - processPackages [alacorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alacorder-80.4.3.tar.gz tmp/alacorder-80.4.4.tar.gz --markdown 20230512/a/alacorder/80.4.3-80.4.4/diff.md --exclude *.pyd
+[2023-05-12 20:37:59] INFO root fetch - processPackages [atsphinx-og-article]: executing diffoscope
+[2023-05-12 20:37:59] INFO root fetch - processPackages [atsphinx-og-article]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atsphinx-og-article-0.2.0.tar.gz tmp/atsphinx-og-article-0.2.1.tar.gz --markdown 20230512/a/atsphinx-og-article/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-12 20:37:59] INFO root fetch - processPackages [alvin-cli]: executing diffoscope
+[2023-05-12 20:37:59] INFO root fetch - processPackages [alvin-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alvin_cli-1.2.0rc8.tar.gz tmp/alvin_cli-1.2.0rc9.tar.gz --markdown 20230512/a/alvin-cli/1.2.0rc8-1.2.0rc9/diff.md --exclude *.pyd
+[2023-05-12 20:37:59] INFO root fetch - processPackages [getdaft]: Downloading https://files.pythonhosted.org/packages/00/c4/e6b0cecdc88f730247f53001c362ec2725524acaa618b663c3689f248eef/getdaft-0.1.1.tar.gz
+[2023-05-12 20:37:59] INFO root fetch - processPackages [heaobject]: executing diffoscope
+[2023-05-12 20:37:59] INFO root fetch - processPackages [heaobject]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaobject-1.0.0a8.tar.gz tmp/heaobject-1.0.0a9.tar.gz --markdown 20230512/h/heaobject/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-05-12 20:37:59] INFO root fetch - processPackages [oking-oz]: Downloading https://files.pythonhosted.org/packages/73/56/5f8d7f5885f410dc9b75e8338bf4575f3da92053af09f869cfdc88d11352/oking_oz-3.2.31.tar.gz
+[2023-05-12 20:37:59] INFO root fetch - processPackages [oking-oz]: executing diffoscope
+[2023-05-12 20:37:59] INFO root fetch - processPackages [oking-oz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oking_oz-3.2.30.tar.gz tmp/oking_oz-3.2.31.tar.gz --markdown 20230512/o/oking-oz/3.2.30-3.2.31/diff.md --exclude *.pyd
+[2023-05-12 20:37:59] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/0f/4e/0bd88f4b31dcc17975303a0ac0efbd43f30fc848c1818f2f82dd9a4d8082/kcli-99.0.202305121835-py3-none-any.whl
+[2023-05-12 20:37:59] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/0f/4e/0bd88f4b31dcc17975303a0ac0efbd43f30fc848c1818f2f82dd9a4d8082/kcli-99.0.202305121835-py3-none-any.whl
+[2023-05-12 20:37:59] INFO root fetch - processPackages [getdaft]: executing diffoscope
+[2023-05-12 20:37:59] INFO root fetch - processPackages [getdaft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/getdaft-0.1.0.tar.gz tmp/getdaft-0.1.1.tar.gz --markdown 20230512/g/getdaft/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-12 20:38:00] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-05-12 20:38:00] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202305121833-py3-none-any.whl.zip tmp/kcli-99.0.202305121835-py3-none-any.whl.zip --markdown 20230512/k/kcli/99.0.202305121833-99.0.202305121835/diff.md --exclude *.pyd
+[2023-05-12 20:38:00] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-05-12 20:38:00] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202305121833-py3-none-any.whl.zip tmp/kcli-99.0.202305121835-py3-none-any.whl.zip --markdown 20230512/k/kcli/99.0.202305121833-99.0.202305121835/diff.md --exclude *.pyd
+[2023-05-12 20:38:00] INFO root fetch - processPackages [pyalpa]: Start processing: apache-airflow-providers-fastetl
+[2023-05-12 20:38:00] INFO root fetch - main [MainThread]: End processing [pyalpa]: success
+[2023-05-12 20:38:00] INFO root fetch - processPackages [apache-airflow-providers-fastetl]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 20:38:00] INFO root fetch - processPackages [apache-airflow-providers-fastetl]: Downloading https://files.pythonhosted.org/packages/f2/c2/9e7ac137ff43470836125dc5e1c2227595775ef8f30a2c6d2085dd8eb7fe/apache-airflow-providers-fastetl-0.0.8.tar.gz
+[2023-05-12 20:38:01] INFO root fetch - processPackages [apache-airflow-providers-fastetl]: Downloading https://files.pythonhosted.org/packages/d4/f8/baf9fc62b93aeb50681580f8298179926c73ad768fa3910640c56d6c583e/apache-airflow-providers-fastetl-0.0.9.tar.gz
+[2023-05-12 20:38:01] INFO root fetch - processPackages [atsphinx-og-article]: Start processing: mpcontribs-client
+[2023-05-12 20:38:01] INFO root fetch - main [MainThread]: End processing [atsphinx-og-article]: success
+[2023-05-12 20:38:01] INFO root fetch - processPackages [apache-airflow-providers-fastetl]: executing diffoscope
+[2023-05-12 20:38:01] INFO root fetch - processPackages [apache-airflow-providers-fastetl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-fastetl-0.0.8.tar.gz tmp/apache-airflow-providers-fastetl-0.0.9.tar.gz --markdown 20230512/a/apache-airflow-providers-fastetl/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 20:38:01] INFO root fetch - processPackages [mpcontribs-client]: New version: [5.3.2] Old Version: [5.3.1]
+[2023-05-12 20:38:01] INFO root fetch - processPackages [heaobject]: Start processing: pytreeclass
+[2023-05-12 20:38:01] INFO root fetch - main [MainThread]: End processing [heaobject]: success
+[2023-05-12 20:38:01] INFO root fetch - processPackages [mpcontribs-client]: Downloading https://files.pythonhosted.org/packages/b0/d6/e6156434d08de1fc1d3152183d1d00f415af5b85976426b1e332fdf085cc/mpcontribs-client-5.3.2.tar.gz
+[2023-05-12 20:38:01] INFO root fetch - processPackages [pytreeclass]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-05-12 20:38:01] INFO root fetch - processPackages [mpcontribs-client]: executing diffoscope
+[2023-05-12 20:38:01] INFO root fetch - processPackages [mpcontribs-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpcontribs_client-5.3.1-py3-none-any.whl.zip tmp/mpcontribs-client-5.3.2.tar.gz --markdown 20230512/m/mpcontribs-client/5.3.1-5.3.2/diff.md --exclude *.pyd
+[2023-05-12 20:38:01] INFO root fetch - processPackages [alacorder]: Start processing: pipfontinglibaryV1
+[2023-05-12 20:38:01] INFO root fetch - main [MainThread]: End processing [alacorder]: success
+[2023-05-12 20:38:01] INFO root fetch - processPackages [pytreeclass]: Downloading https://files.pythonhosted.org/packages/e3/d3/6c3e76d0568e105eb4c49cd68652a325abd94bc53f31b27fce48623437df/pytreeclass-0.3.3.tar.gz
+[2023-05-12 20:38:01] WARNING root fetch - processPackages [pipfontinglibaryV1]: Skipping, unable to determine old version
+[2023-05-12 20:38:01] INFO root fetch - processPackages [pipfontinglibaryV1]: Start processing: moneyonchain-prices-source
+[2023-05-12 20:38:01] INFO root fetch - main [MainThread]: End processing [pipfontinglibaryV1] error
+[2023-05-12 20:38:01] INFO root fetch - processPackages [moneyonchain-prices-source]: New version: [0.6.4b0] Old Version: [0.6.3]
+[2023-05-12 20:38:01] INFO root fetch - processPackages [pytreeclass]: Downloading https://files.pythonhosted.org/packages/05/9f/e127aa58f34db6f4116623c6300adb37f3d7e77e5f354ab1852bfbd5943c/pytreeclass-0.3.4.tar.gz
+[2023-05-12 20:38:01] INFO root fetch - processPackages [alvin-cli]: Start processing: gpt-review
+[2023-05-12 20:38:01] INFO root fetch - main [MainThread]: End processing [alvin-cli]: success
+[2023-05-12 20:38:01] INFO root fetch - processPackages [pytreeclass]: executing diffoscope
+[2023-05-12 20:38:01] INFO root fetch - processPackages [pytreeclass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytreeclass-0.3.3.tar.gz tmp/pytreeclass-0.3.4.tar.gz --markdown 20230512/p/pytreeclass/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-05-12 20:38:01] INFO root fetch - processPackages [gpt-review]: New version: [0.9.0rc678.post1] Old Version: [0.9.0rc675.post1]
+[2023-05-12 20:38:02] INFO root fetch - processPackages [moneyonchain-prices-source]: Downloading https://files.pythonhosted.org/packages/9d/c3/f015cb4ac2c31c4667cdfcb3af728d6f8cbf2bb9a703dbff0bfaaa39731f/moneyonchain_prices_source-0.6.4b0.tar.gz
+[2023-05-12 20:38:02] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-05-12 20:38:02] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-review-0.9.0rc675.post1.tar.gz tmp/gpt-review-0.9.0rc678.post1.tar.gz --markdown 20230512/g/gpt-review/0.9.0rc675.post1-0.9.0rc678.post1/diff.md --exclude *.pyd
+[2023-05-12 20:38:02] INFO root fetch - processPackages [moneyonchain-prices-source]: executing diffoscope
+[2023-05-12 20:38:02] INFO root fetch - processPackages [moneyonchain-prices-source]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moneyonchain_prices_source-0.6.3.tar.gz tmp/moneyonchain_prices_source-0.6.4b0.tar.gz --markdown 20230512/m/moneyonchain-prices-source/0.6.3-0.6.4b0/diff.md --exclude *.pyd
+[2023-05-12 20:38:03] INFO root fetch - main [MainThread]: End processing [mpcontribs-client]: success
+[2023-05-12 20:38:03] INFO root fetch - main [MainThread]: End processing [oking-oz]: success
+[2023-05-12 20:38:03] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-fastetl]: success
+[2023-05-12 20:38:03] INFO root fetch - main [MainThread]: End processing [pytreeclass]: success
+[2023-05-12 20:38:04] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-05-12 20:38:04] INFO root fetch - main [MainThread]: End processing [moneyonchain-prices-source]: success
+[2023-05-12 20:38:07] INFO root fetch - main [MainThread]: End processing [getdaft]: success
+[2023-05-12 20:38:08] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-05-12 20:38:09] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-05-12 20:38:32] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-05-12 20:38:32] INFO root fetch - main [MainThread]: Store serial: [18082169]
