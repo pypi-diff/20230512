@@ -8749,3 +8749,38 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-12 11:59:15] INFO root fetch - main [MainThread]: End processing [cheap-pie]: success
 [2023-05-12 11:59:16] INFO root fetch - main [MainThread]: End processing [imio.helpers]: success
 [2023-05-12 11:59:16] INFO root fetch - main [MainThread]: Store serial: [18076286]
+[2023-05-12 12:04:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18076286]
+[2023-05-12 12:04:25] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-12 12:04:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: DrissionPage
+[2023-05-12 12:04:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: simstring-fast
+[2023-05-12 12:04:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mimeograph
+[2023-05-12 12:04:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hcloud
+[2023-05-12 12:04:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qeschema
+[2023-05-12 12:04:25] INFO root fetch - processPackages [simstring-fast]: New version: [0.2.0] Old Version: [0.1.7]
+[2023-05-12 12:04:25] INFO root fetch - processPackages [mimeograph]: New version: [0.5.0] Old Version: [0.4.3]
+[2023-05-12 12:04:25] INFO root fetch - processPackages [DrissionPage]: New version: [3.2.9] Old Version: [3.2.8]
+[2023-05-12 12:04:25] INFO root fetch - processPackages [hcloud]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-05-12 12:04:25] INFO root fetch - processPackages [qeschema]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-05-12 12:04:25] INFO root fetch - processPackages [simstring-fast]: Downloading https://files.pythonhosted.org/packages/6e/95/1755a079115c71315efc59e1954a5043f2788fd042fa182ef8e4e6774e6a/simstring_fast-0.1.7.tar.gz
+[2023-05-12 12:04:25] INFO root fetch - processPackages [hcloud]: Downloading https://files.pythonhosted.org/packages/75/ae/3377e93b699a5a13d41b1da469eadc345a199ceebf95e75d000414478955/hcloud-1.9.0.tar.gz
+[2023-05-12 12:04:25] INFO root fetch - processPackages [qeschema]: Downloading https://files.pythonhosted.org/packages/4b/da/bb9bf3be552a20187ca65566e477201bfa6c5c07522262f1fd6c8b2969ed/qeschema-1.4.0.tar.gz
+[2023-05-12 12:04:25] INFO root fetch - processPackages [DrissionPage]: executing diffoscope
+[2023-05-12 12:04:25] INFO root fetch - processPackages [DrissionPage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DrissionPage-3.2.8.tar.gz tmp/DrissionPage-3.2.9.tar.gz --markdown 20230512/D/DrissionPage/3.2.8-3.2.9/diff.md --exclude *.pyd
+[2023-05-12 12:04:25] INFO root fetch - processPackages [mimeograph]: Downloading https://files.pythonhosted.org/packages/72/de/717c28ce48e55b8b62404ad6788ac7f2f406ce9d93b68fc5212049ab52a2/mimeograph-0.5.0.tar.gz
+[2023-05-12 12:04:25] INFO root fetch - processPackages [simstring-fast]: Downloading https://files.pythonhosted.org/packages/47/33/9877a7f65fe08a91ba08bf165dab93d0ced7070c72b91f51e6149ca15f45/simstring_fast-0.2.0.tar.gz
+[2023-05-12 12:04:26] INFO root fetch - processPackages [hcloud]: Downloading https://files.pythonhosted.org/packages/57/06/ffb83beaa4a583e87937570492b0fa3ee49120b1617e90ec90aa3801054e/hcloud-1.9.1.tar.gz
+[2023-05-12 12:04:26] INFO root fetch - processPackages [simstring-fast]: executing diffoscope
+[2023-05-12 12:04:26] INFO root fetch - processPackages [simstring-fast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simstring_fast-0.1.7.tar.gz tmp/simstring_fast-0.2.0.tar.gz --markdown 20230512/s/simstring-fast/0.1.7-0.2.0/diff.md --exclude *.pyd
+[2023-05-12 12:04:26] INFO root fetch - processPackages [qeschema]: Downloading https://files.pythonhosted.org/packages/98/33/73ec6eeaee44c9bcdce985980453a9b86d15a6907cd996ebd3de377027db/qeschema-1.5.0-py3-none-any.whl
+[2023-05-12 12:04:26] INFO root fetch - processPackages [mimeograph]: executing diffoscope
+[2023-05-12 12:04:26] INFO root fetch - processPackages [mimeograph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mimeograph-0.4.3.tar.gz tmp/mimeograph-0.5.0.tar.gz --markdown 20230512/m/mimeograph/0.4.3-0.5.0/diff.md --exclude *.pyd
+[2023-05-12 12:04:26] INFO root fetch - processPackages [hcloud]: executing diffoscope
+[2023-05-12 12:04:26] INFO root fetch - processPackages [hcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcloud-1.9.0.tar.gz tmp/hcloud-1.9.1.tar.gz --markdown 20230512/h/hcloud/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-05-12 12:04:26] INFO root fetch - processPackages [qeschema]: executing diffoscope
+[2023-05-12 12:04:26] INFO root fetch - processPackages [qeschema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qeschema-1.4.0.tar.gz tmp/qeschema-1.5.0-py3-none-any.whl.zip --markdown 20230512/q/qeschema/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-05-12 12:04:27] INFO root fetch - main [MainThread]: End processing [simstring-fast]: success
+[2023-05-12 12:04:27] INFO root fetch - main [MainThread]: End processing [DrissionPage]: success
+[2023-05-12 12:04:29] INFO root fetch - main [MainThread]: End processing [hcloud]: success
+[2023-05-12 12:04:30] INFO root fetch - main [MainThread]: End processing [mimeograph]: success
+[2023-05-12 12:05:01] INFO root fetch - main [MainThread]: End processing [qeschema]: success
+[2023-05-12 12:05:01] INFO root fetch - main [MainThread]: Store serial: [18076311]
