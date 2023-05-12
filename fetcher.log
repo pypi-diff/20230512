@@ -7836,3 +7836,109 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-12 11:06:38] INFO root fetch - main [MainThread]: End processing [sharingiscaring]: success
 [2023-05-12 11:06:39] INFO root fetch - main [MainThread]: End processing [ambient-toolbox]: success
 [2023-05-12 11:06:39] INFO root fetch - main [MainThread]: Store serial: [18075738]
+[2023-05-12 11:11:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18075738]
+[2023-05-12 11:11:48] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-12 11:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: atmoswing-toolbox
+[2023-05-12 11:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-roborock
+[2023-05-12 11:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ogc-na
+[2023-05-12 11:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: single-char-counter-by-ng
+[2023-05-12 11:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: autogluon.cloud
+[2023-05-12 11:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python-gvm
+[2023-05-12 11:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: harborapi
+[2023-05-12 11:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lmcloud
+[2023-05-12 11:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: journify-python-sdk
+[2023-05-12 11:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gradiop
+[2023-05-12 11:11:48] INFO root fetch - processPackages [atmoswing-toolbox]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-05-12 11:11:48] INFO root fetch - processPackages [gradiop]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-12 11:11:48] INFO root fetch - processPackages [ogc-na]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-05-12 11:11:48] INFO root fetch - processPackages [python-roborock]: New version: [0.9.0rc0] Old Version: [0.9.0]
+[2023-05-12 11:11:48] WARNING root fetch - processPackages [single-char-counter-by-ng]: Skipping, unable to determine old version
+[2023-05-12 11:11:48] INFO root fetch - processPackages [single-char-counter-by-ng]: Start processing: bycon
+[2023-05-12 11:11:48] INFO root fetch - main [MainThread]: End processing [single-char-counter-by-ng] error
+[2023-05-12 11:11:48] INFO root fetch - processPackages [lmcloud]: New version: [0.3.0] Old Version: [0.2.3]
+[2023-05-12 11:11:48] INFO root fetch - processPackages [autogluon.cloud]: New version: [0.2.1b20230512] Old Version: [0.2.1b20230511]
+[2023-05-12 11:11:48] INFO root fetch - processPackages [harborapi]: New version: [0.9.0] Old Version: [0.8.6]
+[2023-05-12 11:11:48] INFO root fetch - processPackages [python-gvm]: New version: [23.5.0] Old Version: [23.4.2]
+[2023-05-12 11:11:48] INFO root fetch - processPackages [journify-python-sdk]: New version: [2.2.5] Old Version: [2.2.4]
+[2023-05-12 11:11:48] INFO root fetch - processPackages [bycon]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-12 11:11:48] INFO root fetch - processPackages [python-roborock]: executing diffoscope
+[2023-05-12 11:11:48] INFO root fetch - processPackages [python-roborock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_roborock-0.9.0.tar.gz tmp/python_roborock-0.9.0rc0.tar.gz --markdown 20230512/p/python-roborock/0.9.0-0.9.0rc0/diff.md --exclude *.pyd
+[2023-05-12 11:11:48] INFO root fetch - processPackages [gradiop]: Downloading https://files.pythonhosted.org/packages/80/18/11f7c1399995d3ab37b2a8ebd8805139eaf70e4522304e3a16ac01a5f86a/gradiop-0.0.4.tar.gz
+[2023-05-12 11:11:48] INFO root fetch - processPackages [atmoswing-toolbox]: Downloading https://files.pythonhosted.org/packages/d9/5c/d2ec82bd8d76089b5b1b378d418149b1a1f8f0be6171c1bd84965c20ee1b/atmoswing-toolbox-1.3.3.tar.gz
+[2023-05-12 11:11:48] INFO root fetch - processPackages [harborapi]: Downloading https://files.pythonhosted.org/packages/5c/2a/58d6ecd57c3d1b448b9dc47dc94b6192a2d2a954d42fc450e4d4e9ac2017/harborapi-0.8.6.tar.gz
+[2023-05-12 11:11:48] INFO root fetch - processPackages [lmcloud]: Downloading https://files.pythonhosted.org/packages/a5/e9/2eede19cc80e2408b7e678e655031867f3ad387aa2139d15bcb2800275ec/lmcloud-0.2.3.tar.gz
+[2023-05-12 11:11:48] INFO root fetch - processPackages [autogluon.cloud]: Downloading https://files.pythonhosted.org/packages/6a/c5/5dc710c87bd36e694eaec55d053db8fbef22f4fafea718b579b27a65e4b6/autogluon.cloud-0.2.1b20230511.tar.gz
+[2023-05-12 11:11:48] INFO root fetch - processPackages [ogc-na]: Downloading https://files.pythonhosted.org/packages/45/d3/986606afa5f4aee5d43f2db4afaedc9f8b511ee75a38504ef3d50f0eb711/ogc_na-0.2.5-py3-none-any.whl
+[2023-05-12 11:11:48] INFO root fetch - processPackages [python-gvm]: Downloading https://files.pythonhosted.org/packages/75/09/b31ffc01e193a9fa4b19a3fea6566994a4ca2c64f7ca91add8a9217c6ec3/python_gvm-23.4.2.tar.gz
+[2023-05-12 11:11:48] INFO root fetch - processPackages [journify-python-sdk]: Downloading https://files.pythonhosted.org/packages/22/5a/8509a08b8c741e3e6090a55ce3351b8530ecfafd24ec9986db5f4b09b303/journify_python_sdk-2.2.5-py2.py3-none-any.whl
+[2023-05-12 11:11:49] INFO root fetch - processPackages [gradiop]: Downloading https://files.pythonhosted.org/packages/c1/d5/68fab9ccab7af8ff83ed5bcf4dcffafe3556d26bdb5c16f13f5a8054ce63/gradiop-0.0.5.tar.gz
+[2023-05-12 11:11:49] INFO root fetch - processPackages [ogc-na]: executing diffoscope
+[2023-05-12 11:11:49] INFO root fetch - processPackages [ogc-na]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ogc_na-0.2.4.tar.gz tmp/ogc_na-0.2.5-py3-none-any.whl.zip --markdown 20230512/o/ogc-na/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-05-12 11:11:49] INFO root fetch - processPackages [atmoswing-toolbox]: Downloading https://files.pythonhosted.org/packages/33/b3/024e2986cc931224c2c9b63635e6eca7f14e603a8d4ad83847fca620abb7/atmoswing-toolbox-1.3.4.tar.gz
+[2023-05-12 11:11:49] INFO root fetch - processPackages [bycon]: executing diffoscope
+[2023-05-12 11:11:49] INFO root fetch - processPackages [bycon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bycon-1.0.8.tar.gz tmp/bycon-1.0.9.tar.gz --markdown 20230512/b/bycon/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-12 11:11:49] INFO root fetch - processPackages [autogluon.cloud]: Downloading https://files.pythonhosted.org/packages/e4/7e/a0e6e3dcd0616c256fae06b63aa8044a56c78db5f7c63e0833dcce4a5acb/autogluon.cloud-0.2.1b20230512-py3-none-any.whl
+[2023-05-12 11:11:49] INFO root fetch - processPackages [harborapi]: Downloading https://files.pythonhosted.org/packages/27/2c/7ea076b0aa166efe412bad3f442cd6278d311f903fcb51e89039fee40d71/harborapi-0.9.0.tar.gz
+[2023-05-12 11:11:49] INFO root fetch - processPackages [journify-python-sdk]: executing diffoscope
+[2023-05-12 11:11:49] INFO root fetch - processPackages [journify-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/journify-python-sdk-2.2.4.tar.gz tmp/journify_python_sdk-2.2.5-py2.py3-none-any.whl.zip --markdown 20230512/j/journify-python-sdk/2.2.4-2.2.5/diff.md --exclude *.pyd
+[2023-05-12 11:11:49] INFO root fetch - processPackages [python-gvm]: Downloading https://files.pythonhosted.org/packages/37/40/f51861c3add120ef1e59fe478147492188152cc5f41bc5e641ede3e69fc8/python_gvm-23.5.0-py3-none-any.whl
+[2023-05-12 11:11:49] INFO root fetch - processPackages [lmcloud]: Downloading https://files.pythonhosted.org/packages/4c/77/8740f2292a8a260b951f8dc3b7a3653b53e956d88fad3eeda5995dc12e26/lmcloud-0.3.0.tar.gz
+[2023-05-12 11:11:49] INFO root fetch - processPackages [gradiop]: executing diffoscope
+[2023-05-12 11:11:49] INFO root fetch - processPackages [gradiop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gradiop-0.0.4.tar.gz tmp/gradiop-0.0.5.tar.gz --markdown 20230512/g/gradiop/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-12 11:11:49] INFO root fetch - processPackages [harborapi]: executing diffoscope
+[2023-05-12 11:11:49] INFO root fetch - processPackages [harborapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/harborapi-0.8.6.tar.gz tmp/harborapi-0.9.0.tar.gz --markdown 20230512/h/harborapi/0.8.6-0.9.0/diff.md --exclude *.pyd
+[2023-05-12 11:11:49] INFO root fetch - processPackages [atmoswing-toolbox]: executing diffoscope
+[2023-05-12 11:11:49] INFO root fetch - processPackages [atmoswing-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atmoswing-toolbox-1.3.3.tar.gz tmp/atmoswing-toolbox-1.3.4.tar.gz --markdown 20230512/a/atmoswing-toolbox/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-05-12 11:11:49] INFO root fetch - processPackages [autogluon.cloud]: executing diffoscope
+[2023-05-12 11:11:49] INFO root fetch - processPackages [autogluon.cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.cloud-0.2.1b20230511.tar.gz tmp/autogluon.cloud-0.2.1b20230512-py3-none-any.whl.zip --markdown 20230512/a/autogluon.cloud/0.2.1b20230511-0.2.1b20230512/diff.md --exclude *.pyd
+[2023-05-12 11:11:49] INFO root fetch - processPackages [lmcloud]: executing diffoscope
+[2023-05-12 11:11:49] INFO root fetch - processPackages [lmcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lmcloud-0.2.3.tar.gz tmp/lmcloud-0.3.0.tar.gz --markdown 20230512/l/lmcloud/0.2.3-0.3.0/diff.md --exclude *.pyd
+[2023-05-12 11:11:49] INFO root fetch - processPackages [python-gvm]: executing diffoscope
+[2023-05-12 11:11:49] INFO root fetch - processPackages [python-gvm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_gvm-23.4.2.tar.gz tmp/python_gvm-23.5.0-py3-none-any.whl.zip --markdown 20230512/p/python-gvm/23.4.2-23.5.0/diff.md --exclude *.pyd
+[2023-05-12 11:11:50] INFO root fetch - processPackages [python-roborock]: Start processing: sharingiscaring
+[2023-05-12 11:11:50] INFO root fetch - main [MainThread]: End processing [python-roborock]: success
+[2023-05-12 11:11:50] INFO root fetch - processPackages [sharingiscaring]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-12 11:11:50] INFO root fetch - processPackages [journify-python-sdk]: Start processing: hyperparameter
+[2023-05-12 11:11:50] INFO root fetch - main [MainThread]: End processing [journify-python-sdk]: success
+[2023-05-12 11:11:50] INFO root fetch - processPackages [gradiop]: Start processing: rio-trend
+[2023-05-12 11:11:50] INFO root fetch - main [MainThread]: End processing [gradiop]: success
+[2023-05-12 11:11:50] INFO root fetch - processPackages [hyperparameter]: New version: [0.5.0] Old Version: [0.4.3]
+[2023-05-12 11:11:50] INFO root fetch - processPackages [rio-trend]: New version: [1.2.0] Old Version: [1.0.1]
+[2023-05-12 11:11:50] INFO root fetch - processPackages [sharingiscaring]: executing diffoscope
+[2023-05-12 11:11:50] INFO root fetch - processPackages [sharingiscaring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sharingiscaring-0.2.8.tar.gz tmp/sharingiscaring-0.2.9.tar.gz --markdown 20230512/s/sharingiscaring/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-12 11:11:50] INFO root fetch - processPackages [autogluon.cloud]: Start processing: hummuspy
+[2023-05-12 11:11:50] INFO root fetch - main [MainThread]: End processing [autogluon.cloud]: success
+[2023-05-12 11:11:50] INFO root fetch - processPackages [hummuspy]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-12 11:11:50] INFO root fetch - processPackages [hyperparameter]: Downloading https://files.pythonhosted.org/packages/9a/b2/0d556a679073def13d190d78b4ad30113bf65ec9251e07623553f3515fb5/hyperparameter-0.4.3.tar.gz
+[2023-05-12 11:11:50] INFO root fetch - processPackages [rio-trend]: Downloading https://files.pythonhosted.org/packages/1f/18/a1ab547ca908702b6046e802fa840546232f14bca56f6b5f1c5cc9b99464/rio-trend-1.0.1.tar.gz
+[2023-05-12 11:11:50] INFO root fetch - processPackages [atmoswing-toolbox]: Start processing: VidSummarization
+[2023-05-12 11:11:50] INFO root fetch - main [MainThread]: End processing [atmoswing-toolbox]: success
+[2023-05-12 11:11:51] INFO root fetch - processPackages [ogc-na]: Start processing: pysr
+[2023-05-12 11:11:51] INFO root fetch - main [MainThread]: End processing [ogc-na]: success
+[2023-05-12 11:11:51] INFO root fetch - processPackages [hummuspy]: Downloading https://files.pythonhosted.org/packages/49/90/ff2690f8ffb67b9878886bc7e8afb833ba16978076f0ccfd40b56662b013/hummuspy-0.0.7.tar.gz
+[2023-05-12 11:11:51] WARNING root fetch - processPackages [VidSummarization]: Skipping, unable to determine old version
+[2023-05-12 11:11:51] INFO root fetch - main [MainThread]: End processing [VidSummarization] error
+[2023-05-12 11:11:51] INFO root fetch - processPackages [pysr]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-05-12 11:11:51] INFO root fetch - processPackages [hyperparameter]: Downloading https://files.pythonhosted.org/packages/7b/ed/a26f314c0c1e1e48bf399f0797ee53a88f35f917cc76735f4f5d389c1121/hyperparameter-0.5.0.tar.gz
+[2023-05-12 11:11:51] INFO root fetch - processPackages [rio-trend]: Downloading https://files.pythonhosted.org/packages/9b/8c/ed60758add229aedbdd9adfa0ab1774d358e68af7e8e37034dc707c42f0b/rio_trend-1.2.0-py2.py3-none-any.whl
+[2023-05-12 11:11:51] INFO root fetch - main [MainThread]: End processing [lmcloud]: success
+[2023-05-12 11:11:51] INFO root fetch - processPackages [pysr]: Downloading https://files.pythonhosted.org/packages/73/ab/db4ac056fdd819802b0be21ffe3646ee022a42f6a5dc9284315b12b4a5a0/pysr-0.9.4.tar.gz
+[2023-05-12 11:11:51] INFO root fetch - processPackages [hyperparameter]: executing diffoscope
+[2023-05-12 11:11:51] INFO root fetch - processPackages [hyperparameter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperparameter-0.4.3.tar.gz tmp/hyperparameter-0.5.0.tar.gz --markdown 20230512/h/hyperparameter/0.4.3-0.5.0/diff.md --exclude *.pyd
+[2023-05-12 11:11:51] INFO root fetch - main [MainThread]: End processing [harborapi]: success
+[2023-05-12 11:11:51] INFO root fetch - processPackages [rio-trend]: executing diffoscope
+[2023-05-12 11:11:51] INFO root fetch - processPackages [rio-trend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rio-trend-1.0.1.tar.gz tmp/rio_trend-1.2.0-py2.py3-none-any.whl.zip --markdown 20230512/r/rio-trend/1.0.1-1.2.0/diff.md --exclude *.pyd
+[2023-05-12 11:11:51] INFO root fetch - processPackages [hummuspy]: Downloading https://files.pythonhosted.org/packages/6c/38/cc3cd3dbc914c44f6c121a1d2dc8cc7c16f0eb80a555fbed15b589b98fd9/hummuspy-0.0.8.tar.gz
+[2023-05-12 11:11:51] INFO root fetch - processPackages [hummuspy]: executing diffoscope
+[2023-05-12 11:11:51] INFO root fetch - processPackages [hummuspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hummuspy-0.0.7.tar.gz tmp/hummuspy-0.0.8.tar.gz --markdown 20230512/h/hummuspy/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-12 11:11:51] INFO root fetch - processPackages [pysr]: Downloading https://files.pythonhosted.org/packages/94/ab/d3fde0e696012fdbfa1a72dbc577dac59abbdf676445377b79642490eea7/pysr-0.9.5.tar.gz
+[2023-05-12 11:11:52] INFO root fetch - processPackages [pysr]: executing diffoscope
+[2023-05-12 11:11:52] INFO root fetch - processPackages [pysr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysr-0.9.4.tar.gz tmp/pysr-0.9.5.tar.gz --markdown 20230512/p/pysr/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-05-12 11:11:52] INFO root fetch - main [MainThread]: End processing [rio-trend]: success
+[2023-05-12 11:11:52] INFO root fetch - main [MainThread]: End processing [hyperparameter]: success
+[2023-05-12 11:11:52] INFO root fetch - main [MainThread]: End processing [hummuspy]: success
+[2023-05-12 11:11:53] INFO root fetch - main [MainThread]: End processing [pysr]: success
+[2023-05-12 11:11:54] INFO root fetch - main [MainThread]: End processing [sharingiscaring]: success
+[2023-05-12 11:11:55] INFO root fetch - main [MainThread]: End processing [python-gvm]: success
+[2023-05-12 11:11:58] INFO root fetch - main [MainThread]: End processing [bycon]: success
+[2023-05-12 11:11:58] INFO root fetch - main [MainThread]: Store serial: [18075804]
