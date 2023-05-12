@@ -18551,3 +18551,59 @@ EOFError: EOF read where object expected
 [2023-05-12 21:38:27] INFO root fetch - main [MainThread]: End processing [honeybee-energy]: success
 [2023-05-12 21:38:30] INFO root fetch - main [MainThread]: End processing [oloren]: success
 [2023-05-12 21:38:30] INFO root fetch - main [MainThread]: Store serial: [18083144]
+[2023-05-12 21:43:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18083144]
+[2023-05-12 21:43:39] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-12 21:43:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kerchunk
+[2023-05-12 21:43:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: exceptnotifier
+[2023-05-12 21:43:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: omnifig
+[2023-05-12 21:43:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: velour-client
+[2023-05-12 21:43:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ovos-PHAL-plugin-homeassistant
+[2023-05-12 21:43:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: butler-connect
+[2023-05-12 21:43:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pythonsqliteV1
+[2023-05-12 21:43:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jaxio
+[2023-05-12 21:43:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pythonsqliteV1
+[2023-05-12 21:43:39] INFO root fetch - processPackages [butler-connect]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-05-12 21:43:39] INFO root fetch - processPackages [exceptnotifier]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-12 21:43:40] WARNING root fetch - processPackages [velour-client]: Skipping, unable to determine old version
+[2023-05-12 21:43:40] INFO root fetch - main [MainThread]: End processing [velour-client] error
+[2023-05-12 21:43:40] INFO root fetch - processPackages [kerchunk]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-12 21:43:40] WARNING root fetch - processPackages [jaxio]: Skipping, unable to determine old version
+[2023-05-12 21:43:40] INFO root fetch - processPackages [pythonsqliteV1]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-12 21:43:40] INFO root fetch - processPackages [omnifig]: New version: [1.0.1] Old Version: [1.0.0b0]
+[2023-05-12 21:43:40] INFO root fetch - processPackages [pythonsqliteV1]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-12 21:43:40] INFO root fetch - main [MainThread]: End processing [jaxio] error
+[2023-05-12 21:43:40] INFO root fetch - processPackages [ovos-PHAL-plugin-homeassistant]: New version: [0.0.2a2] Old Version: [0.0.2a1]
+[2023-05-12 21:43:40] INFO root fetch - processPackages [exceptnotifier]: executing diffoscope
+[2023-05-12 21:43:40] INFO root fetch - processPackages [exceptnotifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exceptnotifier-0.2.8.tar.gz tmp/exceptnotifier-0.2.9.tar.gz --markdown 20230512/e/exceptnotifier/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-12 21:43:40] INFO root fetch - processPackages [butler-connect]: Downloading https://files.pythonhosted.org/packages/40/9a/09dc368972c1051db2340d1b1232eb3dcc1cfa6822ecb877c3507e4ce9bd/butler-connect-0.5.0.tar.gz
+[2023-05-12 21:43:40] INFO root fetch - processPackages [kerchunk]: Downloading https://files.pythonhosted.org/packages/57/c8/ba74e7b53884b24b034a8fd591ef3a898f83c2a94ebe6267c521234c14d6/kerchunk-0.1.1.tar.gz
+[2023-05-12 21:43:40] INFO root fetch - processPackages [ovos-PHAL-plugin-homeassistant]: Downloading https://files.pythonhosted.org/packages/96/e4/00c02a97240b3ffe6acb9989c464920cd2e8e41ca9f7a11308ecc7f3f414/ovos-PHAL-plugin-homeassistant-0.0.2a1.tar.gz
+[2023-05-12 21:43:40] INFO root fetch - processPackages [pythonsqliteV1]: Downloading https://files.pythonhosted.org/packages/7f/c9/9320f91ae2ab5815bef1bf5ab1240fe0703f9871863e7d547e06b0e5b296/pythonsqliteV1-1.0.0.tar.gz
+[2023-05-12 21:43:40] INFO root fetch - processPackages [pythonsqliteV1]: Downloading https://files.pythonhosted.org/packages/7f/c9/9320f91ae2ab5815bef1bf5ab1240fe0703f9871863e7d547e06b0e5b296/pythonsqliteV1-1.0.0.tar.gz
+[2023-05-12 21:43:40] INFO root fetch - processPackages [omnifig]: Downloading https://files.pythonhosted.org/packages/eb/13/295f7e54e802c699ee4f1cd246e0abcc547ad382f956f2fd7544e3271d4f/omnifig-1.0.0b0.tar.gz
+[2023-05-12 21:43:40] INFO root fetch - processPackages [butler-connect]: Downloading https://files.pythonhosted.org/packages/92/1e/b659ede167e79669e7050aa76da37343a646b216734ded48fc3d1112566c/butler-connect-0.5.1.tar.gz
+[2023-05-12 21:43:40] INFO root fetch - processPackages [butler-connect]: executing diffoscope
+[2023-05-12 21:43:40] INFO root fetch - processPackages [butler-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/butler-connect-0.5.0.tar.gz tmp/butler-connect-0.5.1.tar.gz --markdown 20230512/b/butler-connect/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-05-12 21:43:40] INFO root fetch - processPackages [ovos-PHAL-plugin-homeassistant]: Downloading https://files.pythonhosted.org/packages/c8/df/b79a5364471f1310f0a81ab64735332eded0e110363119704048a093da2f/ovos-PHAL-plugin-homeassistant-0.0.2a2.tar.gz
+[2023-05-12 21:43:40] INFO root fetch - processPackages [kerchunk]: Downloading https://files.pythonhosted.org/packages/bc/ad/bd78329790f26a462b30f59e3fead47f1b29784229b81317401a524e5468/kerchunk-0.1.2.tar.gz
+[2023-05-12 21:43:40] INFO root fetch - processPackages [pythonsqliteV1]: Downloading https://files.pythonhosted.org/packages/0f/7c/6a0baa56962e4398c5e12bc45a4fb21257631664a812b41fda7ee0af4b8f/pythonsqliteV1-1.1.0.tar.gz
+[2023-05-12 21:43:40] INFO root fetch - processPackages [pythonsqliteV1]: Downloading https://files.pythonhosted.org/packages/0f/7c/6a0baa56962e4398c5e12bc45a4fb21257631664a812b41fda7ee0af4b8f/pythonsqliteV1-1.1.0.tar.gz
+[2023-05-12 21:43:40] INFO root fetch - processPackages [omnifig]: Downloading https://files.pythonhosted.org/packages/13/a5/02360739d196444849dbee8f69ee1e4b942b0b5e82b17c2a4560b730001a/omnifig-1.0.1.tar.gz
+[2023-05-12 21:43:40] INFO root fetch - processPackages [ovos-PHAL-plugin-homeassistant]: executing diffoscope
+[2023-05-12 21:43:40] INFO root fetch - processPackages [ovos-PHAL-plugin-homeassistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos-PHAL-plugin-homeassistant-0.0.2a1.tar.gz tmp/ovos-PHAL-plugin-homeassistant-0.0.2a2.tar.gz --markdown 20230512/o/ovos-PHAL-plugin-homeassistant/0.0.2a1-0.0.2a2/diff.md --exclude *.pyd
+[2023-05-12 21:43:40] INFO root fetch - processPackages [kerchunk]: executing diffoscope
+[2023-05-12 21:43:40] INFO root fetch - processPackages [kerchunk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kerchunk-0.1.1.tar.gz tmp/kerchunk-0.1.2.tar.gz --markdown 20230512/k/kerchunk/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-12 21:43:40] INFO root fetch - processPackages [omnifig]: executing diffoscope
+[2023-05-12 21:43:40] INFO root fetch - processPackages [omnifig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnifig-1.0.0b0.tar.gz tmp/omnifig-1.0.1.tar.gz --markdown 20230512/o/omnifig/1.0.0b0-1.0.1/diff.md --exclude *.pyd
+[2023-05-12 21:43:41] INFO root fetch - processPackages [pythonsqliteV1]: executing diffoscope
+[2023-05-12 21:43:41] INFO root fetch - processPackages [pythonsqliteV1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythonsqliteV1-1.0.0.tar.gz tmp/pythonsqliteV1-1.1.0.tar.gz --markdown 20230512/p/pythonsqliteV1/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-12 21:43:41] INFO root fetch - processPackages [pythonsqliteV1]: executing diffoscope
+[2023-05-12 21:43:41] INFO root fetch - processPackages [pythonsqliteV1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythonsqliteV1-1.0.0.tar.gz tmp/pythonsqliteV1-1.1.0.tar.gz --markdown 20230512/p/pythonsqliteV1/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-12 21:43:41] INFO root fetch - main [MainThread]: End processing [butler-connect]: success
+[2023-05-12 21:43:41] INFO root fetch - main [MainThread]: End processing [exceptnotifier]: success
+[2023-05-12 21:43:42] INFO root fetch - main [MainThread]: End processing [ovos-PHAL-plugin-homeassistant]: success
+[2023-05-12 21:43:42] INFO root fetch - main [MainThread]: End processing [kerchunk]: success
+[2023-05-12 21:43:42] INFO root fetch - main [MainThread]: End processing [pythonsqliteV1]: success
+[2023-05-12 21:43:42] INFO root fetch - main [MainThread]: End processing [pythonsqliteV1]: success
+[2023-05-12 21:43:43] INFO root fetch - main [MainThread]: End processing [omnifig]: success
+[2023-05-12 21:43:43] INFO root fetch - main [MainThread]: Store serial: [18083175]
