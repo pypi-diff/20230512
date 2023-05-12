@@ -18756,3 +18756,53 @@ EOFError: EOF read where object expected
 [2023-05-12 21:54:15] INFO root fetch - main [MainThread]: End processing [compas-timber]: success
 [2023-05-12 21:54:16] INFO root fetch - main [MainThread]: End processing [deepchem]: success
 [2023-05-12 21:54:16] INFO root fetch - main [MainThread]: Store serial: [18083268]
+[2023-05-12 21:59:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18083268]
+[2023-05-12 21:59:26] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-12 21:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: austin-tui
+[2023-05-12 21:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lbt-dragonfly
+[2023-05-12 21:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pibble
+[2023-05-12 21:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Zones-EA
+[2023-05-12 21:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ket-lang
+[2023-05-12 21:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fern-belvo
+[2023-05-12 21:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: NbRisk
+[2023-05-12 21:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PatryksAutoAI
+[2023-05-12 21:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: certora-cli-alpha-eric-stack2
+[2023-05-12 21:59:26] INFO root fetch - processPackages [austin-tui]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-05-12 21:59:26] INFO root fetch - processPackages [NbRisk]: New version: [35.0.1] Old Version: [35.0.0]
+[2023-05-12 21:59:26] INFO root fetch - processPackages [pibble]: New version: [0.5.5] Old Version: [0.5.4]
+[2023-05-12 21:59:26] INFO root fetch - processPackages [ket-lang]: New version: [0.6.0.dev1] Old Version: [0.5.3b1]
+[2023-05-12 21:59:26] WARNING root fetch - processPackages [Zones-EA]: Skipping, unable to determine old version
+[2023-05-12 21:59:26] INFO root fetch - main [MainThread]: End processing [Zones-EA] error
+[2023-05-12 21:59:26] WARNING root fetch - processPackages [fern-belvo]: Skipping, unable to determine old version
+[2023-05-12 21:59:26] WARNING root fetch - processPackages [certora-cli-alpha-eric-stack2]: Skipping, unable to determine old version
+[2023-05-12 21:59:26] INFO root fetch - main [MainThread]: End processing [fern-belvo] error
+[2023-05-12 21:59:26] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-eric-stack2] error
+[2023-05-12 21:59:26] INFO root fetch - processPackages [PatryksAutoAI]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-12 21:59:26] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-05-12 21:59:26] INFO root fetch - processPackages [NbRisk]: executing diffoscope
+[2023-05-12 21:59:26] INFO root fetch - processPackages [NbRisk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NbRisk-35.0.0.tar.gz tmp/NbRisk-35.0.1.tar.gz --markdown 20230512/N/NbRisk/35.0.0-35.0.1/diff.md --exclude *.pyd
+[2023-05-12 21:59:26] INFO root fetch - processPackages [ket-lang]: Downloading https://files.pythonhosted.org/packages/95/d0/f849ab47601fac8834b47883b31ea8e46cba5b2ed1d1873685329ab92652/ket-lang-0.5.3b1.tar.gz
+[2023-05-12 21:59:26] INFO root fetch - processPackages [austin-tui]: Downloading https://files.pythonhosted.org/packages/35/5c/f44d10c0b69b310b2a59f9e75af94012f5d2a309622695e3916f6d09c8e5/austin_tui-1.2.2.tar.gz
+[2023-05-12 21:59:27] INFO root fetch - processPackages [pibble]: Downloading https://files.pythonhosted.org/packages/39/61/898eb6641b477356789ddc2ec98763adcfbc72731ca0fed48bbc2c02dfc1/pibble-0.5.4.tar.gz
+[2023-05-12 21:59:27] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/92/6b/55db2f1ec283a1c5d196ccc5d92b9fbe1620422941660948aad381b184a8/PatryksAutoAI-0.3.8.tar.gz
+[2023-05-12 21:59:27] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2023-05-12 21:59:27] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20230512/l/lbt-dragonfly/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-05-12 21:59:27] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/16/d9/07ec1591892c4dc1060b9781bd0375d7bbf1d1e3ff58b123fee4e9dba814/PatryksAutoAI-0.3.9.tar.gz
+[2023-05-12 21:59:27] INFO root fetch - processPackages [austin-tui]: Downloading https://files.pythonhosted.org/packages/f4/5a/5bb954f9c412ff145010429c89fbf5da3f517d2112cb675be16fa93d7cb2/austin_tui-1.2.3.tar.gz
+[2023-05-12 21:59:27] INFO root fetch - processPackages [ket-lang]: Downloading https://files.pythonhosted.org/packages/57/23/5cef3dcbb76ea9e9fd3d42e99cc9471c48c7948d742988b10e1bfde08260/ket-lang-0.6.0.dev1.tar.gz
+[2023-05-12 21:59:27] INFO root fetch - processPackages [pibble]: Downloading https://files.pythonhosted.org/packages/26/4d/5b34b1a4a40b50c2204cec9251d3a074e54869aa5c5baf312815a4d10f4d/pibble-0.5.5.tar.gz
+[2023-05-12 21:59:27] INFO root fetch - processPackages [pibble]: executing diffoscope
+[2023-05-12 21:59:27] INFO root fetch - processPackages [pibble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pibble-0.5.4.tar.gz tmp/pibble-0.5.5.tar.gz --markdown 20230512/p/pibble/0.5.4-0.5.5/diff.md --exclude *.pyd
+[2023-05-12 21:59:27] INFO root fetch - processPackages [PatryksAutoAI]: executing diffoscope
+[2023-05-12 21:59:27] INFO root fetch - processPackages [PatryksAutoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PatryksAutoAI-0.3.8.tar.gz tmp/PatryksAutoAI-0.3.9.tar.gz --markdown 20230512/P/PatryksAutoAI/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-12 21:59:27] INFO root fetch - processPackages [ket-lang]: executing diffoscope
+[2023-05-12 21:59:27] INFO root fetch - processPackages [ket-lang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ket-lang-0.5.3b1.tar.gz tmp/ket-lang-0.6.0.dev1.tar.gz --markdown 20230512/k/ket-lang/0.5.3b1-0.6.0.dev1/diff.md --exclude *.pyd
+[2023-05-12 21:59:27] INFO root fetch - processPackages [austin-tui]: executing diffoscope
+[2023-05-12 21:59:27] INFO root fetch - processPackages [austin-tui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/austin_tui-1.2.2.tar.gz tmp/austin_tui-1.2.3.tar.gz --markdown 20230512/a/austin-tui/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-05-12 21:59:28] INFO root fetch - main [MainThread]: End processing [NbRisk]: success
+[2023-05-12 21:59:28] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2023-05-12 21:59:28] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
+[2023-05-12 21:59:29] INFO root fetch - main [MainThread]: End processing [pibble]: success
+[2023-05-12 21:59:29] INFO root fetch - main [MainThread]: End processing [ket-lang]: success
+[2023-05-12 21:59:30] INFO root fetch - main [MainThread]: End processing [austin-tui]: success
+[2023-05-12 21:59:30] INFO root fetch - main [MainThread]: Store serial: [18083300]
