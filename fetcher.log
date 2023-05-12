@@ -2061,3 +2061,19 @@
 [2023-05-12 03:40:40] INFO root fetch - main [MainThread]: End processing [cdk-docker-image-deployment]: success
 [2023-05-12 03:40:45] INFO root fetch - main [MainThread]: End processing [tradchat]: success
 [2023-05-12 03:40:45] INFO root fetch - main [MainThread]: Store serial: [18071910]
+[2023-05-12 03:45:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18071910]
+[2023-05-12 03:45:54] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-05-12 03:45:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tremolo
+[2023-05-12 03:45:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: supriya
+[2023-05-12 03:45:54] INFO root fetch - processPackages [tremolo]: New version: [0.0.94] Old Version: [0.0.93]
+[2023-05-12 03:45:54] INFO root fetch - processPackages [supriya]: New version: [23.5b3] Old Version: [23.5b2]
+[2023-05-12 03:45:54] INFO root fetch - processPackages [supriya]: Downloading https://files.pythonhosted.org/packages/8d/e4/e18c7e907d61366575635222ee24b6a12e440ba75f99d275fd0495b7dd4d/supriya-23.5b2.tar.gz
+[2023-05-12 03:45:54] INFO root fetch - processPackages [tremolo]: Downloading https://files.pythonhosted.org/packages/70/3e/912635c467238bfc8d4c23acc8afe880a31efc1b2b3b5cb5309efbab54fb/tremolo-0.0.94.tar.gz
+[2023-05-12 03:45:54] INFO root fetch - processPackages [tremolo]: executing diffoscope
+[2023-05-12 03:45:54] INFO root fetch - processPackages [tremolo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tremolo-0.0.93.tar.gz tmp/tremolo-0.0.94.tar.gz --markdown 20230512/t/tremolo/0.0.93-0.0.94/diff.md --exclude *.pyd
+[2023-05-12 03:45:55] INFO root fetch - processPackages [supriya]: Downloading https://files.pythonhosted.org/packages/fd/36/229f36791475fc4e657a3c032f3d6c38c2af7acaa2410e3fecf1da2c92af/supriya-23.5b3-cp310-cp310-macosx_10_9_x86_64.whl
+[2023-05-12 03:45:55] INFO root fetch - processPackages [supriya]: executing diffoscope
+[2023-05-12 03:45:55] INFO root fetch - processPackages [supriya]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supriya-23.5b2.tar.gz tmp/supriya-23.5b3-cp310-cp310-macosx_10_9_x86_64.whl.zip --markdown 20230512/s/supriya/23.5b2-23.5b3/diff.md --exclude *.pyd
+[2023-05-12 03:45:56] INFO root fetch - main [MainThread]: End processing [tremolo]: success
+[2023-05-12 03:45:57] INFO root fetch - main [MainThread]: End processing [supriya]: success
+[2023-05-12 03:45:57] INFO root fetch - main [MainThread]: Store serial: [18071942]
