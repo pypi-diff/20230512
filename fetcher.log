@@ -5519,3 +5519,41 @@
 [2023-05-12 09:04:54] INFO root fetch - main [MainThread]: End processing [dataquality]: success
 [2023-05-12 09:04:56] INFO root fetch - main [MainThread]: End processing [g42cloudsdkcbr]: success
 [2023-05-12 09:04:56] INFO root fetch - main [MainThread]: Store serial: [18074283]
+[2023-05-12 09:10:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18074283]
+[2023-05-12 09:10:05] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-12 09:10:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gato-toolkit
+[2023-05-12 09:10:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odp-sdk-python-ingest
+[2023-05-12 09:10:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chanfig
+[2023-05-12 09:10:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: braincube-aws-core-alpha
+[2023-05-12 09:10:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vdaq-soap
+[2023-05-12 09:10:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bibtexautocomplete
+[2023-05-12 09:10:05] INFO root fetch - processPackages [chanfig]: New version: [0.0.9.post7] Old Version: [0.0.9.post5]
+[2023-05-12 09:10:05] INFO root fetch - processPackages [bibtexautocomplete]: New version: [1.2.0] Old Version: [1.1.8]
+[2023-05-12 09:10:05] INFO root fetch - processPackages [braincube-aws-core-alpha]: New version: [0.0.26] Old Version: [0.0.25]
+[2023-05-12 09:10:05] WARNING root fetch - processPackages [vdaq-soap]: Skipping, unable to determine old version
+[2023-05-12 09:10:05] INFO root fetch - main [MainThread]: End processing [vdaq-soap] error
+[2023-05-12 09:10:05] INFO root fetch - processPackages [gato-toolkit]: New version: [0.1.0rc3] Old Version: [0.1.0rc2]
+[2023-05-12 09:10:05] INFO root fetch - processPackages [odp-sdk-python-ingest]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-05-12 09:10:05] INFO root fetch - processPackages [chanfig]: executing diffoscope
+[2023-05-12 09:10:05] INFO root fetch - processPackages [chanfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chanfig-0.0.9.post5.tar.gz tmp/chanfig-0.0.9.post7.tar.gz --markdown 20230512/c/chanfig/0.0.9.post5-0.0.9.post7/diff.md --exclude *.pyd
+[2023-05-12 09:10:05] INFO root fetch - processPackages [bibtexautocomplete]: Downloading https://files.pythonhosted.org/packages/99/43/f15dcd746d146bae91136e676b4d5ace3d7aa5fde883a780c7a153333765/bibtexautocomplete-1.1.8.tar.gz
+[2023-05-12 09:10:05] INFO root fetch - processPackages [braincube-aws-core-alpha]: Downloading https://files.pythonhosted.org/packages/2a/25/3d58e9d5ce03ec698d4e0e3317db96b97c1051778e93dbc7967403e687d8/braincube-aws-core-alpha-0.0.25.tar.gz
+[2023-05-12 09:10:05] INFO root fetch - processPackages [gato-toolkit]: Downloading https://files.pythonhosted.org/packages/84/f3/2b570f77f75cd10ff5cad5d2734187cc132b38246ad0311a9c61dbf4e522/gato-toolkit-0.1.0rc3.tar.gz
+[2023-05-12 09:10:05] INFO root fetch - processPackages [odp-sdk-python-ingest]: Downloading https://files.pythonhosted.org/packages/96/be/f72bf7aa51999658e58e413bb7926d1b5187af275a6dd669ae8329e0070f/odp_sdk_python_ingest-0.3.1.tar.gz
+[2023-05-12 09:10:05] INFO root fetch - processPackages [gato-toolkit]: executing diffoscope
+[2023-05-12 09:10:05] INFO root fetch - processPackages [gato-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gato-toolkit-0.1.0rc2.tar.gz tmp/gato-toolkit-0.1.0rc3.tar.gz --markdown 20230512/g/gato-toolkit/0.1.0rc2-0.1.0rc3/diff.md --exclude *.pyd
+[2023-05-12 09:10:05] INFO root fetch - processPackages [braincube-aws-core-alpha]: Downloading https://files.pythonhosted.org/packages/54/e1/957eacc0a32fb2d8d84cf00406b4175bd09e55e7b53e90821588f86c7b9a/braincube-aws-core-alpha-0.0.26.tar.gz
+[2023-05-12 09:10:05] INFO root fetch - processPackages [bibtexautocomplete]: Downloading https://files.pythonhosted.org/packages/c8/6d/81fdfe5aef92ed516998ba7d19029e75071f5dd02f73f7cd945a1d569e0a/bibtexautocomplete-1.2.0.tar.gz
+[2023-05-12 09:10:05] INFO root fetch - processPackages [braincube-aws-core-alpha]: executing diffoscope
+[2023-05-12 09:10:05] INFO root fetch - processPackages [braincube-aws-core-alpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/braincube-aws-core-alpha-0.0.25.tar.gz tmp/braincube-aws-core-alpha-0.0.26.tar.gz --markdown 20230512/b/braincube-aws-core-alpha/0.0.25-0.0.26/diff.md --exclude *.pyd
+[2023-05-12 09:10:05] INFO root fetch - processPackages [odp-sdk-python-ingest]: Downloading https://files.pythonhosted.org/packages/aa/1a/0f376b9796e87540e7a0cc75b9b203fa5f410981b172c43aa127b32f833e/odp_sdk_python_ingest-0.4.0.tar.gz
+[2023-05-12 09:10:05] INFO root fetch - processPackages [bibtexautocomplete]: executing diffoscope
+[2023-05-12 09:10:05] INFO root fetch - processPackages [bibtexautocomplete]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bibtexautocomplete-1.1.8.tar.gz tmp/bibtexautocomplete-1.2.0.tar.gz --markdown 20230512/b/bibtexautocomplete/1.1.8-1.2.0/diff.md --exclude *.pyd
+[2023-05-12 09:10:05] INFO root fetch - processPackages [odp-sdk-python-ingest]: executing diffoscope
+[2023-05-12 09:10:05] INFO root fetch - processPackages [odp-sdk-python-ingest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odp_sdk_python_ingest-0.3.1.tar.gz tmp/odp_sdk_python_ingest-0.4.0.tar.gz --markdown 20230512/o/odp-sdk-python-ingest/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-05-12 09:10:06] INFO root fetch - main [MainThread]: End processing [chanfig]: success
+[2023-05-12 09:10:06] INFO root fetch - main [MainThread]: End processing [gato-toolkit]: success
+[2023-05-12 09:10:06] INFO root fetch - main [MainThread]: End processing [braincube-aws-core-alpha]: success
+[2023-05-12 09:10:07] INFO root fetch - main [MainThread]: End processing [bibtexautocomplete]: success
+[2023-05-12 09:10:07] INFO root fetch - main [MainThread]: End processing [odp-sdk-python-ingest]: success
+[2023-05-12 09:10:07] INFO root fetch - main [MainThread]: Store serial: [18074328]
