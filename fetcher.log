@@ -12869,3 +12869,122 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-12 16:20:56] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-05-12 16:20:59] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-05-12 16:20:59] INFO root fetch - main [MainThread]: Store serial: [18079218]
+[2023-05-12 16:26:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18079218]
+[2023-05-12 16:26:09] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-12 16:26:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spanishconjugator
+[2023-05-12 16:26:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lupin-grognard
+[2023-05-12 16:26:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flowhigh
+[2023-05-12 16:26:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spanishconjugator
+[2023-05-12 16:26:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wtlike
+[2023-05-12 16:26:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zephony
+[2023-05-12 16:26:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-nag
+[2023-05-12 16:26:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: trading-strategy
+[2023-05-12 16:26:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: naturalspeech2-pytorch
+[2023-05-12 16:26:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nonebot-adapter-telegram
+[2023-05-12 16:26:09] INFO root fetch - processPackages [flowhigh]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-12 16:26:09] INFO root fetch - processPackages [lupin-grognard]: New version: [2.0.0.dev5] Old Version: [2.0.0.dev2]
+[2023-05-12 16:26:09] INFO root fetch - processPackages [trading-strategy]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-12 16:26:09] INFO root fetch - processPackages [cdk-nag]: New version: [2.9.7] Old Version: [2.9.6]
+[2023-05-12 16:26:09] INFO root fetch - processPackages [zephony]: New version: [0.9.1] Old Version: [0.8.1]
+[2023-05-12 16:26:09] INFO root fetch - processPackages [naturalspeech2-pytorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 16:26:09] INFO root fetch - processPackages [wtlike]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-05-12 16:26:09] INFO root fetch - processPackages [nonebot-adapter-telegram]: New version: [0.1.0b9] Old Version: [0.1.0b8]
+[2023-05-12 16:26:09] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-05-12 16:26:09] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-05-12 16:26:09] INFO root fetch - processPackages [lupin-grognard]: executing diffoscope
+[2023-05-12 16:26:09] INFO root fetch - processPackages [lupin-grognard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lupin-grognard-2.0.0.dev2.tar.gz tmp/lupin-grognard-2.0.0.dev5.tar.gz --markdown 20230512/l/lupin-grognard/2.0.0.dev2-2.0.0.dev5/diff.md --exclude *.pyd
+[2023-05-12 16:26:09] INFO root fetch - processPackages [cdk-nag]: executing diffoscope
+[2023-05-12 16:26:09] INFO root fetch - processPackages [cdk-nag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-nag-2.9.6.tar.gz tmp/cdk-nag-2.9.7.tar.gz --markdown 20230512/c/cdk-nag/2.9.6-2.9.7/diff.md --exclude *.pyd
+[2023-05-12 16:26:09] INFO root fetch - processPackages [flowhigh]: Downloading https://files.pythonhosted.org/packages/6b/fa/dbb5d312fcdeca33b97a7dfd5fe200031fa947c622c2b6dc97ec600a4567/flowhigh-1.0.2.tar.gz
+[2023-05-12 16:26:09] INFO root fetch - processPackages [naturalspeech2-pytorch]: executing diffoscope
+[2023-05-12 16:26:09] INFO root fetch - processPackages [naturalspeech2-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naturalspeech2-pytorch-0.0.8.tar.gz tmp/naturalspeech2-pytorch-0.0.9.tar.gz --markdown 20230512/n/naturalspeech2-pytorch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 16:26:09] INFO root fetch - processPackages [wtlike]: Downloading https://files.pythonhosted.org/packages/05/b0/fb6fdf0ac1a637bc567ce0b107db24287741371e39ce6a865fa5f8cf2ee3/wtlike-0.9.7.tar.gz
+[2023-05-12 16:26:09] INFO root fetch - processPackages [trading-strategy]: executing diffoscope
+[2023-05-12 16:26:09] INFO root fetch - processPackages [trading-strategy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trading_strategy-0.9.0.tar.gz tmp/trading_strategy-0.9.1.tar.gz --markdown 20230512/t/trading-strategy/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-12 16:26:09] INFO root fetch - processPackages [zephony]: executing diffoscope
+[2023-05-12 16:26:09] INFO root fetch - processPackages [zephony]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zephony-0.8.1.tar.gz tmp/zephony-0.9.1.tar.gz --markdown 20230512/z/zephony/0.8.1-0.9.1/diff.md --exclude *.pyd
+[2023-05-12 16:26:09] INFO root fetch - processPackages [flowhigh]: Downloading https://files.pythonhosted.org/packages/03/0d/bb3228bbc4b9600c4cd04725fb3d7698b35c9f55f8754c59bdcaf3111c8d/flowhigh-1.0.3.tar.gz
+[2023-05-12 16:26:09] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-05-12 16:26:09] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230512/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-05-12 16:26:09] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-05-12 16:26:09] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230512/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-05-12 16:26:09] INFO root fetch - processPackages [flowhigh]: executing diffoscope
+[2023-05-12 16:26:09] INFO root fetch - processPackages [flowhigh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowhigh-1.0.2.tar.gz tmp/flowhigh-1.0.3.tar.gz --markdown 20230512/f/flowhigh/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-12 16:26:10] INFO root fetch - processPackages [nonebot-adapter-telegram]: Downloading https://files.pythonhosted.org/packages/39/63/352c95368189e3a1a9e243c03e6ff9d5aa229d35b74c7bd9917b194bcd0f/nonebot-adapter-telegram-0.1.0b8.tar.gz
+[2023-05-12 16:26:10] INFO root fetch - processPackages [wtlike]: Downloading https://files.pythonhosted.org/packages/ea/26/89c7e92dbbb1265e219e6e213236722a3bcdbea7eb3d803a81e1c77dcb60/wtlike-0.9.8.tar.gz
+[2023-05-12 16:26:10] INFO root fetch - processPackages [wtlike]: executing diffoscope
+[2023-05-12 16:26:10] INFO root fetch - processPackages [wtlike]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wtlike-0.9.7.tar.gz tmp/wtlike-0.9.8.tar.gz --markdown 20230512/w/wtlike/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-05-12 16:26:10] INFO root fetch - processPackages [nonebot-adapter-telegram]: Downloading https://files.pythonhosted.org/packages/5a/6e/76d06955b2984df0f0ae7d55dc31701c60646490b4b698e6d5ea1f1b4e1f/nonebot-adapter-telegram-0.1.0b9.tar.gz
+[2023-05-12 16:26:10] INFO root fetch - processPackages [nonebot-adapter-telegram]: executing diffoscope
+[2023-05-12 16:26:10] INFO root fetch - processPackages [nonebot-adapter-telegram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-adapter-telegram-0.1.0b8.tar.gz tmp/nonebot-adapter-telegram-0.1.0b9.tar.gz --markdown 20230512/n/nonebot-adapter-telegram/0.1.0b8-0.1.0b9/diff.md --exclude *.pyd
+[2023-05-12 16:26:11] INFO root fetch - processPackages [cdk-nag]: Start processing: dev-gpt
+[2023-05-12 16:26:11] INFO root fetch - main [MainThread]: End processing [cdk-nag]: success
+[2023-05-12 16:26:11] INFO root fetch - processPackages [lupin-grognard]: Start processing: opensesame-extension-updater
+[2023-05-12 16:26:11] INFO root fetch - main [MainThread]: End processing [lupin-grognard]: success
+[2023-05-12 16:26:11] INFO root fetch - processPackages [dev-gpt]: New version: [0.18.41.dev1] Old Version: [0.18.40.dev6]
+[2023-05-12 16:26:11] INFO root fetch - processPackages [opensesame-extension-updater]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-12 16:26:11] INFO root fetch - processPackages [naturalspeech2-pytorch]: Start processing: peachpayments-partner-marshmallow
+[2023-05-12 16:26:11] INFO root fetch - main [MainThread]: End processing [naturalspeech2-pytorch]: success
+[2023-05-12 16:26:11] INFO root fetch - processPackages [dev-gpt]: Downloading https://files.pythonhosted.org/packages/0d/23/fe4ec1d3f4236e43664c2d4afc87b6a334a94d5aacc8a87e1ec808c0e6b3/dev-gpt-0.18.40.dev6.tar.gz
+[2023-05-12 16:26:11] INFO root fetch - processPackages [peachpayments-partner-marshmallow]: New version: [1.1.0] Old Version: [0.2.9]
+[2023-05-12 16:26:11] INFO root fetch - processPackages [zephony]: Start processing: hygiene-dm
+[2023-05-12 16:26:11] INFO root fetch - main [MainThread]: End processing [zephony]: success
+[2023-05-12 16:26:11] WARNING root fetch - processPackages [hygiene-dm]: Skipping, unable to determine old version
+[2023-05-12 16:26:11] INFO root fetch - processPackages [hygiene-dm]: Start processing: localstack-core
+[2023-05-12 16:26:11] INFO root fetch - main [MainThread]: End processing [hygiene-dm] error
+[2023-05-12 16:26:11] INFO root fetch - processPackages [opensesame-extension-updater]: Downloading https://files.pythonhosted.org/packages/27/02/a140fdc45e1988fbc5b10fb951bdfe6895c2b82921714139c38d99be6873/opensesame_extension_updater-0.1.8.tar.gz
+[2023-05-12 16:26:11] INFO root fetch - processPackages [localstack-core]: New version: [2.0.3.dev20230512141810] Old Version: [2.0.3.dev20230512141621]
+[2023-05-12 16:26:11] INFO root fetch - processPackages [spanishconjugator]: Start processing: dev-gpt
+[2023-05-12 16:26:11] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-05-12 16:26:11] INFO root fetch - processPackages [peachpayments-partner-marshmallow]: Downloading https://files.pythonhosted.org/packages/f5/43/ac2b67b1dca3a19964e007489370fd1bce26ac076bec4988940c397318e1/peachpayments_partner_marshmallow-0.2.9.tar.gz
+[2023-05-12 16:26:11] INFO root fetch - processPackages [dev-gpt]: New version: [0.18.41.dev1] Old Version: [0.18.40.dev6]
+[2023-05-12 16:26:11] INFO root fetch - processPackages [dev-gpt]: Downloading https://files.pythonhosted.org/packages/c3/c2/4bb9e3fde5767cd4c0a5db3c683210c9287eb51792f30c86233a377acfb6/dev-gpt-0.18.41.dev1.tar.gz
+[2023-05-12 16:26:11] INFO root fetch - processPackages [dev-gpt]: Downloading https://files.pythonhosted.org/packages/c3/c2/4bb9e3fde5767cd4c0a5db3c683210c9287eb51792f30c86233a377acfb6/dev-gpt-0.18.41.dev1.tar.gz
+[2023-05-12 16:26:11] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/9a/f4/5678b1ad3ad93dbfcec8e5e1893c7d94f2135c32247d8e3b2baeb2f8fe45/localstack-core-2.0.3.dev20230512141621.tar.gz
+[2023-05-12 16:26:11] INFO root fetch - processPackages [dev-gpt]: executing diffoscope
+[2023-05-12 16:26:11] INFO root fetch - processPackages [dev-gpt]: executing diffoscope
+[2023-05-12 16:26:11] INFO root fetch - processPackages [dev-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dev-gpt-0.18.40.dev6.tar.gz tmp/dev-gpt-0.18.41.dev1.tar.gz --markdown 20230512/d/dev-gpt/0.18.40.dev6-0.18.41.dev1/diff.md --exclude *.pyd
+[2023-05-12 16:26:11] INFO root fetch - processPackages [dev-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dev-gpt-0.18.40.dev6.tar.gz tmp/dev-gpt-0.18.41.dev1.tar.gz --markdown 20230512/d/dev-gpt/0.18.40.dev6-0.18.41.dev1/diff.md --exclude *.pyd
+[2023-05-12 16:26:11] INFO root fetch - processPackages [opensesame-extension-updater]: Downloading https://files.pythonhosted.org/packages/da/7d/7e4365ec82cca407f06986e78fd186e4147a316db47de355e241393ff47f/opensesame_extension_updater-0.1.9.tar.gz
+[2023-05-12 16:26:11] INFO root fetch - processPackages [peachpayments-partner-marshmallow]: Downloading https://files.pythonhosted.org/packages/fa/1a/33305d61fcc06a2b6b22ed9f68842dfe4d79430fdd2d967bd1d6ac407f70/peachpayments_partner_marshmallow-1.1.0.tar.gz
+[2023-05-12 16:26:11] INFO root fetch - processPackages [opensesame-extension-updater]: executing diffoscope
+[2023-05-12 16:26:11] INFO root fetch - processPackages [opensesame-extension-updater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opensesame_extension_updater-0.1.8.tar.gz tmp/opensesame_extension_updater-0.1.9.tar.gz --markdown 20230512/o/opensesame-extension-updater/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-12 16:26:12] INFO root fetch - processPackages [peachpayments-partner-marshmallow]: executing diffoscope
+[2023-05-12 16:26:12] INFO root fetch - processPackages [peachpayments-partner-marshmallow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peachpayments_partner_marshmallow-0.2.9.tar.gz tmp/peachpayments_partner_marshmallow-1.1.0.tar.gz --markdown 20230512/p/peachpayments-partner-marshmallow/0.2.9-1.1.0/diff.md --exclude *.pyd
+[2023-05-12 16:26:12] INFO root fetch - processPackages [spanishconjugator]: Start processing: dev-gpt
+[2023-05-12 16:26:12] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-05-12 16:26:12] INFO root fetch - processPackages [dev-gpt]: New version: [0.18.41.dev1] Old Version: [0.18.40.dev6]
+[2023-05-12 16:26:12] INFO root fetch - processPackages [nonebot-adapter-telegram]: Start processing: weaviate-client
+[2023-05-12 16:26:12] INFO root fetch - main [MainThread]: End processing [nonebot-adapter-telegram]: success
+[2023-05-12 16:26:12] INFO root fetch - processPackages [weaviate-client]: New version: [3.9.0b0] Old Version: [3.9.0.dev2]
+[2023-05-12 16:26:12] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/b1/8f/b55bd2768939f479f2f390b8c14a37ce8b6c11c217d5345f431784123ac8/localstack-core-2.0.3.dev20230512141810.tar.gz
+[2023-05-12 16:26:12] INFO root fetch - processPackages [dev-gpt]: executing diffoscope
+[2023-05-12 16:26:12] INFO root fetch - processPackages [dev-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dev-gpt-0.18.40.dev6.tar.gz tmp/dev-gpt-0.18.41.dev1.tar.gz --markdown 20230512/d/dev-gpt/0.18.40.dev6-0.18.41.dev1/diff.md --exclude *.pyd
+[2023-05-12 16:26:12] INFO root fetch - processPackages [weaviate-client]: executing diffoscope
+[2023-05-12 16:26:12] INFO root fetch - processPackages [weaviate-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weaviate-client-3.9.0.dev2.tar.gz tmp/weaviate-client-3.9.0b0.tar.gz --markdown 20230512/w/weaviate-client/3.9.0.dev2-3.9.0b0/diff.md --exclude *.pyd
+[2023-05-12 16:26:12] INFO root fetch - processPackages [wtlike]: Start processing: kork
+[2023-05-12 16:26:12] INFO root fetch - main [MainThread]: End processing [wtlike]: success
+[2023-05-12 16:26:12] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-05-12 16:26:12] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.0.3.dev20230512141621.tar.gz tmp/localstack-core-2.0.3.dev20230512141810.tar.gz --markdown 20230512/l/localstack-core/2.0.3.dev20230512141621-2.0.3.dev20230512141810/diff.md --exclude *.pyd
+[2023-05-12 16:26:12] INFO root fetch - processPackages [kork]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-12 16:26:12] INFO root fetch - processPackages [kork]: Downloading https://files.pythonhosted.org/packages/d9/e0/536f12f71e02dc49ff3b4aa10b785d04b6fe53eed22229196c5ae161cb29/kork-0.0.1.tar.gz
+[2023-05-12 16:26:13] INFO root fetch - processPackages [kork]: Downloading https://files.pythonhosted.org/packages/c3/6d/72bb505f60b33f9eccc3369e7abee0531277b84f45fe8b5d068224d3a7bb/kork-0.0.2.tar.gz
+[2023-05-12 16:26:13] INFO root fetch - processPackages [flowhigh]: Start processing: Dev-Helper-CLI
+[2023-05-12 16:26:13] INFO root fetch - main [MainThread]: End processing [flowhigh]: success
+[2023-05-12 16:26:13] INFO root fetch - processPackages [kork]: executing diffoscope
+[2023-05-12 16:26:13] INFO root fetch - processPackages [kork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kork-0.0.1.tar.gz tmp/kork-0.0.2.tar.gz --markdown 20230512/k/kork/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-12 16:26:13] INFO root fetch - processPackages [Dev-Helper-CLI]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-12 16:26:13] INFO root fetch - main [MainThread]: End processing [dev-gpt]: success
+[2023-05-12 16:26:13] INFO root fetch - main [MainThread]: End processing [opensesame-extension-updater]: success
+[2023-05-12 16:26:13] INFO root fetch - main [MainThread]: End processing [peachpayments-partner-marshmallow]: success
+[2023-05-12 16:26:13] INFO root fetch - main [MainThread]: End processing [dev-gpt]: success
+[2023-05-12 16:26:13] INFO root fetch - processPackages [Dev-Helper-CLI]: Downloading https://files.pythonhosted.org/packages/53/61/1904845f7c98ef8ddc2c479f562b771292fa9e4c1a41eb98d50419325dd5/Dev-Helper-CLI-0.0.7.tar.gz
+[2023-05-12 16:26:13] INFO root fetch - processPackages [Dev-Helper-CLI]: executing diffoscope
+[2023-05-12 16:26:13] INFO root fetch - processPackages [Dev-Helper-CLI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Dev-Helper-CLI-0.0.6.tar.gz tmp/Dev-Helper-CLI-0.0.7.tar.gz --markdown 20230512/D/Dev-Helper-CLI/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-12 16:26:14] INFO root fetch - main [MainThread]: End processing [kork]: success
+[2023-05-12 16:26:14] INFO root fetch - main [MainThread]: End processing [dev-gpt]: success
+[2023-05-12 16:26:14] INFO root fetch - main [MainThread]: End processing [Dev-Helper-CLI]: success
+[2023-05-12 16:26:15] INFO root fetch - main [MainThread]: End processing [trading-strategy]: success
+[2023-05-12 16:26:15] INFO root fetch - main [MainThread]: End processing [weaviate-client]: success
+[2023-05-12 16:26:21] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-05-12 16:26:21] INFO root fetch - main [MainThread]: Store serial: [18079280]
