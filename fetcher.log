@@ -14549,3 +14549,58 @@ EOFError: EOF read where object expected
 [2023-05-12 17:55:55] INFO root fetch - main [MainThread]: End processing [distributed]: success
 [2023-05-12 17:55:57] INFO root fetch - main [MainThread]: End processing [dask]: success
 [2023-05-12 17:55:57] INFO root fetch - main [MainThread]: Store serial: [18080303]
+[2023-05-12 18:01:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18080303]
+[2023-05-12 18:01:08] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-12 18:01:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vollseg
+[2023-05-12 18:01:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rsconnect-python
+[2023-05-12 18:01:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: MotorDeCalidad
+[2023-05-12 18:01:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hassle
+[2023-05-12 18:01:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rio-trend
+[2023-05-12 18:01:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kaiko-research
+[2023-05-12 18:01:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: neon-homeassistant-skill
+[2023-05-12 18:01:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-autocomplete-light
+[2023-05-12 18:01:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-sale-order-type
+[2023-05-12 18:01:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: orbax-checkpoint
+[2023-05-12 18:01:08] WARNING root fetch - processPackages [rio-trend]: Skipping, unable to determine old version
+[2023-05-12 18:01:08] INFO root fetch - main [MainThread]: End processing [rio-trend] error
+[2023-05-12 18:01:08] INFO root fetch - processPackages [neon-homeassistant-skill]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 18:01:08] INFO root fetch - processPackages [rsconnect-python]: New version: [1.9.0b2] Old Version: [1.9.0b1]
+[2023-05-12 18:01:08] INFO root fetch - processPackages [orbax-checkpoint]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-12 18:01:08] INFO root fetch - processPackages [hassle]: New version: [2.8.4] Old Version: [2.8.3]
+[2023-05-12 18:01:08] INFO root fetch - processPackages [odoo14-addon-sale-order-type]: New version: [14.0.3.0.3.dev3] Old Version: [14.0.3.0.3.dev2]
+[2023-05-12 18:01:08] WARNING root fetch - processPackages [kaiko-research]: Skipping, unable to determine old version
+[2023-05-12 18:01:08] INFO root fetch - main [MainThread]: End processing [kaiko-research] error
+[2023-05-12 18:01:08] INFO root fetch - processPackages [django-autocomplete-light]: New version: [3.9.7] Old Version: [3.9.6rc1]
+[2023-05-12 18:01:08] INFO root fetch - processPackages [vollseg]: New version: [8.0.0] Old Version: [7.0.0]
+[2023-05-12 18:01:08] INFO root fetch - processPackages [MotorDeCalidad]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-12 18:01:08] INFO root fetch - processPackages [MotorDeCalidad]: executing diffoscope
+[2023-05-12 18:01:08] INFO root fetch - processPackages [neon-homeassistant-skill]: executing diffoscope
+[2023-05-12 18:01:08] INFO root fetch - processPackages [neon-homeassistant-skill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_homeassistant_skill-0.0.8.tar.gz tmp/neon_homeassistant_skill-0.0.9.tar.gz --markdown 20230512/n/neon-homeassistant-skill/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 18:01:08] INFO root fetch - processPackages [MotorDeCalidad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MotorDeCalidad-1.9.8.tar.gz tmp/MotorDeCalidad-1.9.9.tar.gz --markdown 20230512/M/MotorDeCalidad/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-12 18:01:08] INFO root fetch - processPackages [odoo14-addon-sale-order-type]: Downloading https://files.pythonhosted.org/packages/bd/b6/9546c43363d7d38d8d6f9959594e7ae942b2215f517dbedf8a592845b27a/odoo14_addon_sale_order_type-14.0.3.0.3.dev2-py3-none-any.whl
+[2023-05-12 18:01:08] INFO root fetch - processPackages [hassle]: Downloading https://files.pythonhosted.org/packages/ad/3a/cbb1c7acbe61a152551ca291622baf85e3ab84a031816ffa68172d4b2c5c/hassle-2.8.3.tar.gz
+[2023-05-12 18:01:08] INFO root fetch - processPackages [vollseg]: Downloading https://files.pythonhosted.org/packages/49/5e/9558410d2a3b0f12598784a6541087a52cb9eac28650e25b7d767e2c56b0/vollseg-7.0.0.tar.gz
+[2023-05-12 18:01:08] INFO root fetch - processPackages [django-autocomplete-light]: Downloading https://files.pythonhosted.org/packages/9e/b1/6dfeab35d090f4f318f428d3f4bf10e78428d3b46e05d18c60337f091dde/django-autocomplete-light-3.9.7.tar.gz
+[2023-05-12 18:01:08] WARNING root fetch - processPackages [vollseg]: Skipping package: exceeds size limit 29985919>=10485760
+[2023-05-12 18:01:08] INFO root fetch - main [MainThread]: End processing [vollseg] error
+[2023-05-12 18:01:09] INFO root fetch - processPackages [django-autocomplete-light]: executing diffoscope
+[2023-05-12 18:01:09] INFO root fetch - processPackages [django-autocomplete-light]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-autocomplete-light-3.9.6rc1.tar.gz tmp/django-autocomplete-light-3.9.7.tar.gz --markdown 20230512/d/django-autocomplete-light/3.9.6rc1-3.9.7/diff.md --exclude *.pyd
+[2023-05-12 18:01:09] INFO root fetch - processPackages [orbax-checkpoint]: Downloading https://files.pythonhosted.org/packages/e9/01/237399f62781295837eaf21a0315502fe2a7e98d1b314a0abae35334b856/orbax-checkpoint-0.2.3.tar.gz
+[2023-05-12 18:01:09] INFO root fetch - processPackages [hassle]: Downloading https://files.pythonhosted.org/packages/6b/7f/7787ad12761c114e4ab0cfb7c5b8fa72f79f02ccc7f5e6721f399e8a483d/hassle-2.8.4.tar.gz
+[2023-05-12 18:01:09] INFO root fetch - processPackages [rsconnect-python]: executing diffoscope
+[2023-05-12 18:01:09] INFO root fetch - processPackages [rsconnect-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rsconnect_python-1.9.0b1-py2.py3-none-any.whl.zip tmp/rsconnect_python-1.9.0b2-py2.py3-none-any.whl.zip --markdown 20230512/r/rsconnect-python/1.9.0b1-1.9.0b2/diff.md --exclude *.pyd
+[2023-05-12 18:01:09] INFO root fetch - processPackages [orbax-checkpoint]: executing diffoscope
+[2023-05-12 18:01:09] INFO root fetch - processPackages [orbax-checkpoint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orbax-checkpoint-0.2.2.tar.gz tmp/orbax-checkpoint-0.2.3.tar.gz --markdown 20230512/o/orbax-checkpoint/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-12 18:01:09] INFO root fetch - processPackages [hassle]: executing diffoscope
+[2023-05-12 18:01:09] INFO root fetch - processPackages [hassle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hassle-2.8.3.tar.gz tmp/hassle-2.8.4.tar.gz --markdown 20230512/h/hassle/2.8.3-2.8.4/diff.md --exclude *.pyd
+[2023-05-12 18:01:09] INFO root fetch - processPackages [odoo14-addon-sale-order-type]: Downloading https://files.pythonhosted.org/packages/b0/ad/8525d3239279e0122a36ed954a8edd5646bb5eb9f6574526a2cab92bacad/odoo14_addon_sale_order_type-14.0.3.0.3.dev3-py3-none-any.whl
+[2023-05-12 18:01:09] INFO root fetch - processPackages [odoo14-addon-sale-order-type]: executing diffoscope
+[2023-05-12 18:01:09] INFO root fetch - processPackages [odoo14-addon-sale-order-type]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_sale_order_type-14.0.3.0.3.dev2-py3-none-any.whl.zip tmp/odoo14_addon_sale_order_type-14.0.3.0.3.dev3-py3-none-any.whl.zip --markdown 20230512/o/odoo14-addon-sale-order-type/14.0.3.0.3.dev2-14.0.3.0.3.dev3/diff.md --exclude *.pyd
+[2023-05-12 18:01:10] INFO root fetch - main [MainThread]: End processing [neon-homeassistant-skill]: success
+[2023-05-12 18:01:10] INFO root fetch - main [MainThread]: End processing [MotorDeCalidad]: success
+[2023-05-12 18:01:10] INFO root fetch - main [MainThread]: End processing [rsconnect-python]: success
+[2023-05-12 18:01:11] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-order-type]: success
+[2023-05-12 18:01:11] INFO root fetch - main [MainThread]: End processing [orbax-checkpoint]: success
+[2023-05-12 18:01:12] INFO root fetch - main [MainThread]: End processing [hassle]: success
+[2023-05-12 18:01:13] INFO root fetch - main [MainThread]: End processing [django-autocomplete-light]: success
+[2023-05-12 18:01:13] INFO root fetch - main [MainThread]: Store serial: [18080337]
