@@ -14439,3 +14439,113 @@ EOFError: EOF read where object expected
 [2023-05-12 17:49:31] INFO root fetch - main [MainThread]: End processing [pandapower]: success
 [2023-05-12 17:50:38] INFO root fetch - main [MainThread]: End processing [OpenFisca-France]: success
 [2023-05-12 17:50:38] INFO root fetch - main [MainThread]: Store serial: [18080253]
+[2023-05-12 17:55:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18080253]
+[2023-05-12 17:55:48] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-12 17:55:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cyberpay-utils-lib
+[2023-05-12 17:55:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lbt-dragonfly
+[2023-05-12 17:55:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hotspotty-payment-email
+[2023-05-12 17:55:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: MotorDeCalidad
+[2023-05-12 17:55:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vollseg
+[2023-05-12 17:55:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyg-nightly
+[2023-05-12 17:55:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kfsd
+[2023-05-12 17:55:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: elm-messenger
+[2023-05-12 17:55:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: s2aff
+[2023-05-12 17:55:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dask
+[2023-05-12 17:55:48] INFO root fetch - processPackages [vollseg]: New version: [8.0.0] Old Version: [7.0.0]
+[2023-05-12 17:55:48] INFO root fetch - processPackages [hotspotty-payment-email]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-12 17:55:48] INFO root fetch - processPackages [s2aff]: New version: [0.21] Old Version: [0.20]
+[2023-05-12 17:55:48] INFO root fetch - processPackages [elm-messenger]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-12 17:55:48] INFO root fetch - processPackages [vollseg]: Downloading https://files.pythonhosted.org/packages/49/5e/9558410d2a3b0f12598784a6541087a52cb9eac28650e25b7d767e2c56b0/vollseg-7.0.0.tar.gz
+[2023-05-12 17:55:48] WARNING root fetch - processPackages [vollseg]: Skipping package: exceeds size limit 29985919>=10485760
+[2023-05-12 17:55:48] INFO root fetch - processPackages [vollseg]: Start processing: amazon-omics-tools
+[2023-05-12 17:55:48] INFO root fetch - main [MainThread]: End processing [vollseg] error
+[2023-05-12 17:55:48] INFO root fetch - processPackages [MotorDeCalidad]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-12 17:55:48] INFO root fetch - processPackages [dask]: New version: [2023.5.0] Old Version: [2023.4.1]
+[2023-05-12 17:55:48] INFO root fetch - processPackages [cyberpay-utils-lib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 17:55:48] INFO root fetch - processPackages [elm-messenger]: executing diffoscope
+[2023-05-12 17:55:48] INFO root fetch - processPackages [elm-messenger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elm-messenger-0.1.4.tar.gz tmp/elm-messenger-0.1.5.tar.gz --markdown 20230512/e/elm-messenger/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-12 17:55:48] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-05-12 17:55:48] INFO root fetch - processPackages [pyg-nightly]: New version: [2.4.0.dev20230512] Old Version: [2.4.0.dev20230511]
+[2023-05-12 17:55:48] INFO root fetch - processPackages [amazon-omics-tools]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-05-12 17:55:48] INFO root fetch - processPackages [hotspotty-payment-email]: Downloading https://files.pythonhosted.org/packages/8d/20/c71caaa5d7bb263b0a800458075fe9e078359d4935a2471f58e7207e0217/hotspotty_payment_email-0.2.2.tar.gz
+[2023-05-12 17:55:48] INFO root fetch - processPackages [s2aff]: Downloading https://files.pythonhosted.org/packages/37/34/8c3e4245b4bc4b7f3703fdd63f0548b7f74db054f5d1308c4ee11e0c8688/s2aff-0.21.tar.gz
+[2023-05-12 17:55:48] INFO root fetch - processPackages [kfsd]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 17:55:48] INFO root fetch - processPackages [dask]: Downloading https://files.pythonhosted.org/packages/3b/48/5d73c3eca309266f497816a042588b1f3d20702dd8b6c912d8015c1358c7/dask-2023.4.1.tar.gz
+[2023-05-12 17:55:48] INFO root fetch - processPackages [cyberpay-utils-lib]: Downloading https://files.pythonhosted.org/packages/d1/37/c7a6768099dde787cb2f08158c5d504678a728b1b4f6d7e92a14cb4c9463/cyberpay-utils-lib-0.0.8.tar.gz
+[2023-05-12 17:55:48] INFO root fetch - processPackages [MotorDeCalidad]: Downloading https://files.pythonhosted.org/packages/d0/81/ddc2ac32f7d98b3665b98b4a804156419dce82d6c51d95007a15154c7421/MotorDeCalidad-1.9.8.tar.gz
+[2023-05-12 17:55:48] INFO root fetch - processPackages [s2aff]: executing diffoscope
+[2023-05-12 17:55:48] INFO root fetch - processPackages [s2aff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s2aff-0.20.tar.gz tmp/s2aff-0.21.tar.gz --markdown 20230512/s/s2aff/0.20-0.21/diff.md --exclude *.pyd
+[2023-05-12 17:55:48] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/ed/8b/da51fa799fc62bc5c3dcad6ba1d10b1c0eb5512f68ca8b7cb7d98285a4a5/pyg-nightly-2.4.0.dev20230511.tar.gz
+[2023-05-12 17:55:48] INFO root fetch - processPackages [amazon-omics-tools]: Downloading https://files.pythonhosted.org/packages/29/01/3ef94f92aafc42e27c9f5881c7c9bfdc942dea07ebdcd161a3591cdb34af/amazon-omics-tools-0.1.1.tar.gz
+[2023-05-12 17:55:48] INFO root fetch - processPackages [kfsd]: Downloading https://files.pythonhosted.org/packages/bc/a3/f3db8d87a39f5eb8a59d2664840211b257e17b2838d141754bf65b5b99d4/kfsd-0.0.8.tar.gz
+[2023-05-12 17:55:48] INFO root fetch - processPackages [cyberpay-utils-lib]: Downloading https://files.pythonhosted.org/packages/3b/fc/c4ac385101b801421bfeda8cc9d67e2a5f8d18b38cac31400e3559963190/cyberpay-utils-lib-0.0.9.tar.gz
+[2023-05-12 17:55:48] INFO root fetch - processPackages [MotorDeCalidad]: Downloading https://files.pythonhosted.org/packages/3f/36/ceedf8c8af40f8e52f69a6db0ce90933ba09e1b843e83b3d0e91e01012be/MotorDeCalidad-1.9.9.tar.gz
+[2023-05-12 17:55:48] INFO root fetch - processPackages [hotspotty-payment-email]: Downloading https://files.pythonhosted.org/packages/1c/a1/16574a02ec0d780d59da639beec580bd0aabeb98f248fa59181e168c273c/hotspotty_payment_email-0.2.3.tar.gz
+[2023-05-12 17:55:48] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2023-05-12 17:55:48] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20230512/l/lbt-dragonfly/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-05-12 17:55:48] INFO root fetch - processPackages [cyberpay-utils-lib]: executing diffoscope
+[2023-05-12 17:55:48] INFO root fetch - processPackages [cyberpay-utils-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyberpay-utils-lib-0.0.8.tar.gz tmp/cyberpay-utils-lib-0.0.9.tar.gz --markdown 20230512/c/cyberpay-utils-lib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 17:55:48] INFO root fetch - processPackages [MotorDeCalidad]: executing diffoscope
+[2023-05-12 17:55:48] INFO root fetch - processPackages [MotorDeCalidad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MotorDeCalidad-1.9.8.tar.gz tmp/MotorDeCalidad-1.9.9.tar.gz --markdown 20230512/M/MotorDeCalidad/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-12 17:55:48] INFO root fetch - processPackages [hotspotty-payment-email]: executing diffoscope
+[2023-05-12 17:55:48] INFO root fetch - processPackages [hotspotty-payment-email]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotspotty_payment_email-0.2.2.tar.gz tmp/hotspotty_payment_email-0.2.3.tar.gz --markdown 20230512/h/hotspotty-payment-email/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-12 17:55:48] INFO root fetch - processPackages [amazon-omics-tools]: Downloading https://files.pythonhosted.org/packages/ad/19/e617da92bd0fb981744745b5b98071733dcd2afd9d60ec623e38745e0e86/amazon_omics_tools-0.2.0.tar.gz
+[2023-05-12 17:55:48] INFO root fetch - processPackages [kfsd]: Downloading https://files.pythonhosted.org/packages/cc/18/f96c1914d54bd725df13ee5bf82870ca513b9a3c82d89aa30a7d271fa26a/kfsd-0.0.9.tar.gz
+[2023-05-12 17:55:49] INFO root fetch - processPackages [amazon-omics-tools]: executing diffoscope
+[2023-05-12 17:55:49] INFO root fetch - processPackages [amazon-omics-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amazon-omics-tools-0.1.1.tar.gz tmp/amazon_omics_tools-0.2.0.tar.gz --markdown 20230512/a/amazon-omics-tools/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-05-12 17:55:49] INFO root fetch - processPackages [kfsd]: executing diffoscope
+[2023-05-12 17:55:49] INFO root fetch - processPackages [kfsd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfsd-0.0.8.tar.gz tmp/kfsd-0.0.9.tar.gz --markdown 20230512/k/kfsd/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 17:55:49] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/a5/4e/7f10f13fcbb519150367338ab4bbceb47c7a0143bcc762c2979368f7b315/pyg-nightly-2.4.0.dev20230512.tar.gz
+[2023-05-12 17:55:49] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2023-05-12 17:55:49] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg-nightly-2.4.0.dev20230511.tar.gz tmp/pyg-nightly-2.4.0.dev20230512.tar.gz --markdown 20230512/p/pyg-nightly/2.4.0.dev20230511-2.4.0.dev20230512/diff.md --exclude *.pyd
+[2023-05-12 17:55:49] INFO root fetch - processPackages [elm-messenger]: Start processing: hotspotty-payment-email
+[2023-05-12 17:55:49] INFO root fetch - main [MainThread]: End processing [elm-messenger]: success
+[2023-05-12 17:55:49] INFO root fetch - processPackages [hotspotty-payment-email]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-05-12 17:55:49] INFO root fetch - processPackages [hotspotty-payment-email]: Downloading https://files.pythonhosted.org/packages/53/af/7eaa32f49155de4f1ed51314548f58d58f8db6dea43eef92c281b13d7aa3/hotspotty_payment_email-0.2.4.tar.gz
+[2023-05-12 17:55:50] INFO root fetch - processPackages [dask]: Downloading https://files.pythonhosted.org/packages/84/51/c8abbf0ea47edcb841e10229b412da3ec4be0a762b02b900c57786c1e640/dask-2023.5.0.tar.gz
+[2023-05-12 17:55:50] INFO root fetch - processPackages [hotspotty-payment-email]: Downloading https://files.pythonhosted.org/packages/af/89/b8a2655acd4aa72995db00d289d83755a1ab0aa37e503e6a24bd333194bd/hotspotty_payment_email-0.2.5.tar.gz
+[2023-05-12 17:55:50] INFO root fetch - processPackages [cyberpay-utils-lib]: Start processing: distributed
+[2023-05-12 17:55:50] INFO root fetch - main [MainThread]: End processing [cyberpay-utils-lib]: success
+[2023-05-12 17:55:50] INFO root fetch - processPackages [distributed]: New version: [2023.5.0] Old Version: [2023.4.1]
+[2023-05-12 17:55:50] INFO root fetch - processPackages [MotorDeCalidad]: Start processing: django-autocomplete-light
+[2023-05-12 17:55:50] INFO root fetch - main [MainThread]: End processing [MotorDeCalidad]: success
+[2023-05-12 17:55:50] INFO root fetch - processPackages [hotspotty-payment-email]: executing diffoscope
+[2023-05-12 17:55:50] INFO root fetch - processPackages [hotspotty-payment-email]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotspotty_payment_email-0.2.4.tar.gz tmp/hotspotty_payment_email-0.2.5.tar.gz --markdown 20230512/h/hotspotty-payment-email/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-05-12 17:55:50] INFO root fetch - processPackages [hotspotty-payment-email]: Start processing: terka
+[2023-05-12 17:55:50] INFO root fetch - main [MainThread]: End processing [hotspotty-payment-email]: success
+[2023-05-12 17:55:50] INFO root fetch - processPackages [distributed]: Downloading https://files.pythonhosted.org/packages/31/4d/c010392d955666e5aebdd0c2bafdf7675aa7849952e70c0ea5df26d2a09d/distributed-2023.4.1.tar.gz
+[2023-05-12 17:55:50] INFO root fetch - processPackages [lbt-dragonfly]: Start processing: gstorm
+[2023-05-12 17:55:50] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2023-05-12 17:55:50] INFO root fetch - processPackages [django-autocomplete-light]: New version: [3.9.6rc1] Old Version: [3.9.5rc6]
+[2023-05-12 17:55:50] INFO root fetch - processPackages [s2aff]: Start processing: naturalspeech2-pytorch
+[2023-05-12 17:55:50] INFO root fetch - main [MainThread]: End processing [s2aff]: success
+[2023-05-12 17:55:50] INFO root fetch - processPackages [terka]: New version: [1.8.3] Old Version: [1.8.2]
+[2023-05-12 17:55:50] INFO root fetch - processPackages [naturalspeech2-pytorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 17:55:50] INFO root fetch - processPackages [gstorm]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-12 17:55:50] INFO root fetch - processPackages [naturalspeech2-pytorch]: executing diffoscope
+[2023-05-12 17:55:50] INFO root fetch - processPackages [naturalspeech2-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naturalspeech2-pytorch-0.0.8.tar.gz tmp/naturalspeech2-pytorch-0.0.9.tar.gz --markdown 20230512/n/naturalspeech2-pytorch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 17:55:50] INFO root fetch - processPackages [terka]: Downloading https://files.pythonhosted.org/packages/71/5d/a036ec2acf2ee23eedf901f1bd2400bb9deafddfeb12b69cf039f7fba166/terka-1.8.2.tar.gz
+[2023-05-12 17:55:50] INFO root fetch - processPackages [distributed]: Downloading https://files.pythonhosted.org/packages/fa/af/26ae3485c44e6e84230a70b4a1a616f1cec034046815f4b5ee2c8ba72ad3/distributed-2023.5.0.tar.gz
+[2023-05-12 17:55:50] INFO root fetch - processPackages [django-autocomplete-light]: Downloading https://files.pythonhosted.org/packages/31/c2/e8046c906631fdf689c815dcb498eb3633bccf667c9d32cd9a951e87a62e/django-autocomplete-light-3.9.6rc1.tar.gz
+[2023-05-12 17:55:51] INFO root fetch - processPackages [terka]: Downloading https://files.pythonhosted.org/packages/a2/03/2f63356d99be395f812532e3c69439ea339c86eb81486b5c6052484762e4/terka-1.8.3.tar.gz
+[2023-05-12 17:55:51] INFO root fetch - processPackages [django-autocomplete-light]: executing diffoscope
+[2023-05-12 17:55:51] INFO root fetch - processPackages [django-autocomplete-light]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-autocomplete-light-3.9.5rc6.tar.gz tmp/django-autocomplete-light-3.9.6rc1.tar.gz --markdown 20230512/d/django-autocomplete-light/3.9.5rc6-3.9.6rc1/diff.md --exclude *.pyd
+[2023-05-12 17:55:51] INFO root fetch - processPackages [distributed]: executing diffoscope
+[2023-05-12 17:55:51] INFO root fetch - processPackages [distributed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/distributed-2023.4.1.tar.gz tmp/distributed-2023.5.0.tar.gz --markdown 20230512/d/distributed/2023.4.1-2023.5.0/diff.md --exclude *.pyd
+[2023-05-12 17:55:51] INFO root fetch - processPackages [gstorm]: executing diffoscope
+[2023-05-12 17:55:51] INFO root fetch - processPackages [gstorm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gstorm-0.9.0.tar.gz tmp/gstorm-0.9.1-py3.8.egg --markdown 20230512/g/gstorm/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-12 17:55:51] INFO root fetch - processPackages [dask]: executing diffoscope
+[2023-05-12 17:55:51] INFO root fetch - processPackages [terka]: executing diffoscope
+[2023-05-12 17:55:51] INFO root fetch - processPackages [dask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-2023.4.1.tar.gz tmp/dask-2023.5.0.tar.gz --markdown 20230512/d/dask/2023.4.1-2023.5.0/diff.md --exclude *.pyd
+[2023-05-12 17:55:51] INFO root fetch - processPackages [terka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terka-1.8.2.tar.gz tmp/terka-1.8.3.tar.gz --markdown 20230512/t/terka/1.8.2-1.8.3/diff.md --exclude *.pyd
+[2023-05-12 17:55:51] INFO root fetch - main [MainThread]: End processing [amazon-omics-tools]: success
+[2023-05-12 17:55:51] INFO root fetch - main [MainThread]: End processing [kfsd]: success
+[2023-05-12 17:55:51] INFO root fetch - main [MainThread]: End processing [hotspotty-payment-email]: success
+[2023-05-12 17:55:52] INFO root fetch - main [MainThread]: End processing [naturalspeech2-pytorch]: success
+[2023-05-12 17:55:53] INFO root fetch - main [MainThread]: End processing [gstorm]: success
+[2023-05-12 17:55:53] INFO root fetch - main [MainThread]: End processing [terka]: success
+[2023-05-12 17:55:54] INFO root fetch - main [MainThread]: End processing [django-autocomplete-light]: success
+[2023-05-12 17:55:55] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2023-05-12 17:55:55] INFO root fetch - main [MainThread]: End processing [distributed]: success
+[2023-05-12 17:55:57] INFO root fetch - main [MainThread]: End processing [dask]: success
+[2023-05-12 17:55:57] INFO root fetch - main [MainThread]: Store serial: [18080303]
