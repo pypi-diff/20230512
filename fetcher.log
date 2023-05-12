@@ -21383,3 +21383,81 @@ EOFError: EOF read where object expected
 [2023-05-12 23:40:41] INFO root fetch - main [MainThread]: End processing [ontogpt]: success
 [2023-05-12 23:40:41] INFO root fetch - main [MainThread]: End processing [pulumi-hcloud]: success
 [2023-05-12 23:40:41] INFO root fetch - main [MainThread]: Store serial: [18084651]
+[2023-05-12 23:45:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18084651]
+[2023-05-12 23:45:50] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-12 23:45:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: certora-cli-alpha-benkushigian-gambit-refactor
+[2023-05-12 23:45:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: biobricks
+[2023-05-12 23:45:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kcli
+[2023-05-12 23:45:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: coiled
+[2023-05-12 23:45:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ngsolve
+[2023-05-12 23:45:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ai-ghostfunctions
+[2023-05-12 23:45:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gato-toolkit
+[2023-05-12 23:45:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: generativepy
+[2023-05-12 23:45:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pysafeguard
+[2023-05-12 23:45:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pybowl
+[2023-05-12 23:45:50] INFO root fetch - processPackages [coiled]: New version: [0.6.4.dev3] Old Version: [0.6.4.dev1]
+[2023-05-12 23:45:50] INFO root fetch - processPackages [generativepy]: New version: [4.0b0] Old Version: [3.2]
+[2023-05-12 23:45:50] INFO root fetch - processPackages [ngsolve]: New version: [6.2.2302.post93.dev0] Old Version: [6.2.2302.post92.dev0]
+[2023-05-12 23:45:50] WARNING root fetch - processPackages [pybowl]: Skipping, unable to determine old version
+[2023-05-12 23:45:50] INFO root fetch - processPackages [pybowl]: Start processing: CmonCrawl
+[2023-05-12 23:45:50] INFO root fetch - processPackages [gato-toolkit]: New version: [0.2.0] Old Version: [0.1.0rc3]
+[2023-05-12 23:45:50] INFO root fetch - main [MainThread]: End processing [pybowl] error
+[2023-05-12 23:45:50] INFO root fetch - processPackages [kcli]: New version: [99.0.202305122114] Old Version: [99.0.202305121835]
+[2023-05-12 23:45:50] INFO root fetch - processPackages [ai-ghostfunctions]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-05-12 23:45:50] INFO root fetch - processPackages [certora-cli-alpha-benkushigian-gambit-refactor]: New version: [20230512.21.40.829629] Old Version: [20230512.1.6.236299]
+[2023-05-12 23:45:50] INFO root fetch - processPackages [pysafeguard]: New version: [7.3.0] Old Version: [1.0.2]
+[2023-05-12 23:45:50] INFO root fetch - processPackages [biobricks]: New version: [0.1.63] Old Version: [0.1.62]
+[2023-05-12 23:45:50] INFO root fetch - processPackages [CmonCrawl]: New version: [1.0.0] Old Version: [0.9.3]
+[2023-05-12 23:45:50] INFO root fetch - processPackages [generativepy]: executing diffoscope
+[2023-05-12 23:45:50] INFO root fetch - processPackages [generativepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/generativepy-3.2.tar.gz tmp/generativepy-4.0b0.tar.gz --markdown 20230512/g/generativepy/3.2-4.0b0/diff.md --exclude *.pyd
+[2023-05-12 23:45:51] INFO root fetch - processPackages [ngsolve]: Downloading https://files.pythonhosted.org/packages/72/f0/fc18e08e80ef35349525fe72a8f462b44f451ae8627b4fe62b5a7e1c8c76/ngsolve-6.2.2302.post92.dev0-cp39-cp39-win_amd64.whl
+[2023-05-12 23:45:51] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-05-12 23:45:51] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202305121835-py3-none-any.whl.zip tmp/kcli-99.0.202305122114-py3-none-any.whl.zip --markdown 20230512/k/kcli/99.0.202305121835-99.0.202305122114/diff.md --exclude *.pyd
+[2023-05-12 23:45:51] WARNING root fetch - processPackages [ngsolve]: Skipping package: exceeds size limit 13384458>=10485760
+[2023-05-12 23:45:51] INFO root fetch - processPackages [ngsolve]: Start processing: pulumi-cloudflare
+[2023-05-12 23:45:51] INFO root fetch - main [MainThread]: End processing [ngsolve] error
+[2023-05-12 23:45:51] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/d6/4e/862f0c9ea64489cdc727c8c43996e10e57a2eaf150fdf0d9c0af28e6d27d/coiled-0.6.4.dev3.tar.gz
+[2023-05-12 23:45:51] INFO root fetch - processPackages [ai-ghostfunctions]: Downloading https://files.pythonhosted.org/packages/6a/78/c4285b978936f29a44982c424cf734fe748ca5a7554e575bf0e79444dc53/ai_ghostfunctions-0.4.0.tar.gz
+[2023-05-12 23:45:51] INFO root fetch - processPackages [pysafeguard]: Downloading https://files.pythonhosted.org/packages/e9/dd/3b38ff24424f45536b7eb6d1d7c44e53c1fd49176ec83b336595b651f2a1/pysafeguard-1.0.2.tar.gz
+[2023-05-12 23:45:51] INFO root fetch - processPackages [certora-cli-alpha-benkushigian-gambit-refactor]: Downloading https://files.pythonhosted.org/packages/92/cf/bc218358ecd599e698b4f9b3517d18248841a064fbd708558c2565ee94a1/certora-cli-alpha-benkushigian-gambit-refactor-20230512.1.6.236299.tar.gz
+[2023-05-12 23:45:51] INFO root fetch - processPackages [biobricks]: Downloading https://files.pythonhosted.org/packages/98/0e/1d56b01849ed4d22e276f1b55e2f99081dced2d9699d4f97f4e9ccd3a9a0/biobricks-0.1.62.tar.gz
+[2023-05-12 23:45:51] WARNING root fetch - processPackages [certora-cli-alpha-benkushigian-gambit-refactor]: Skipping package: exceeds size limit 39443339>=10485760
+[2023-05-12 23:45:51] INFO root fetch - processPackages [CmonCrawl]: Downloading https://files.pythonhosted.org/packages/f1/dc/377064c4966c4dc8f8d56e9d95c90285310d5a17fee115bf843dd6d8320f/CmonCrawl-1.0.0.tar.gz
+[2023-05-12 23:45:51] INFO root fetch - processPackages [certora-cli-alpha-benkushigian-gambit-refactor]: Start processing: vstutils
+[2023-05-12 23:45:51] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-benkushigian-gambit-refactor] error
+[2023-05-12 23:45:51] INFO root fetch - processPackages [gato-toolkit]: Downloading https://files.pythonhosted.org/packages/b0/bc/129d5e8f06cb79c6391c46bab610e321accd93ac5f7e8df749116784d19e/gato-toolkit-0.2.0.tar.gz
+[2023-05-12 23:45:51] INFO root fetch - processPackages [pulumi-cloudflare]: New version: [5.1.0a1683926391] Old Version: [5.1.0a1683783241]
+[2023-05-12 23:45:51] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-05-12 23:45:51] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.6.4.dev1.tar.gz tmp/coiled-0.6.4.dev3.tar.gz --markdown 20230512/c/coiled/0.6.4.dev1-0.6.4.dev3/diff.md --exclude *.pyd
+[2023-05-12 23:45:51] INFO root fetch - processPackages [gato-toolkit]: executing diffoscope
+[2023-05-12 23:45:51] INFO root fetch - processPackages [gato-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gato-toolkit-0.1.0rc3.tar.gz tmp/gato-toolkit-0.2.0.tar.gz --markdown 20230512/g/gato-toolkit/0.1.0rc3-0.2.0/diff.md --exclude *.pyd
+[2023-05-12 23:45:51] INFO root fetch - processPackages [vstutils]: New version: [5.4.4] Old Version: [5.4.3]
+[2023-05-12 23:45:51] INFO root fetch - processPackages [pysafeguard]: Downloading https://files.pythonhosted.org/packages/fc/28/f88d2c848761d1fde5a3da111cba4b50b843057fa1934bbb43d477c2b8a0/pysafeguard-7.3.0.tar.gz
+[2023-05-12 23:45:51] INFO root fetch - processPackages [ai-ghostfunctions]: Downloading https://files.pythonhosted.org/packages/3f/5b/cc868eac979498ebfa1bbbada29335ce093ae025316eafda4b3618058281/ai_ghostfunctions-0.5.0.tar.gz
+[2023-05-12 23:45:51] INFO root fetch - processPackages [pysafeguard]: executing diffoscope
+[2023-05-12 23:45:51] INFO root fetch - processPackages [pysafeguard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysafeguard-1.0.2.tar.gz tmp/pysafeguard-7.3.0.tar.gz --markdown 20230512/p/pysafeguard/1.0.2-7.3.0/diff.md --exclude *.pyd
+[2023-05-12 23:45:51] INFO root fetch - processPackages [ai-ghostfunctions]: executing diffoscope
+[2023-05-12 23:45:51] INFO root fetch - processPackages [ai-ghostfunctions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_ghostfunctions-0.4.0.tar.gz tmp/ai_ghostfunctions-0.5.0.tar.gz --markdown 20230512/a/ai-ghostfunctions/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-05-12 23:45:51] INFO root fetch - processPackages [biobricks]: Downloading https://files.pythonhosted.org/packages/04/de/335c175ca59192a21bcf76528bbe706c9d0b4169d06b37180374c67d83b7/biobricks-0.1.63.tar.gz
+[2023-05-12 23:45:51] INFO root fetch - processPackages [CmonCrawl]: executing diffoscope
+[2023-05-12 23:45:51] INFO root fetch - processPackages [CmonCrawl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CmonCrawl-0.9.3.tar.gz tmp/CmonCrawl-1.0.0.tar.gz --markdown 20230512/C/CmonCrawl/0.9.3-1.0.0/diff.md --exclude *.pyd
+[2023-05-12 23:45:51] INFO root fetch - processPackages [vstutils]: Downloading https://files.pythonhosted.org/packages/32/87/f5071818f7d605f62d0b7301c3484c4d32209913df6411fff6578bf77788/vstutils-5.4.3.tar.gz
+[2023-05-12 23:45:51] INFO root fetch - processPackages [pulumi-cloudflare]: Downloading https://files.pythonhosted.org/packages/b3/0a/74eda6095d70b5853229b38e4e7cd8607b86757e83cf6ff9d79821eec905/pulumi_cloudflare-5.1.0a1683926391.tar.gz
+[2023-05-12 23:45:51] INFO root fetch - processPackages [biobricks]: executing diffoscope
+[2023-05-12 23:45:51] INFO root fetch - processPackages [biobricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biobricks-0.1.62.tar.gz tmp/biobricks-0.1.63.tar.gz --markdown 20230512/b/biobricks/0.1.62-0.1.63/diff.md --exclude *.pyd
+[2023-05-12 23:45:51] INFO root fetch - processPackages [pulumi-cloudflare]: executing diffoscope
+[2023-05-12 23:45:51] INFO root fetch - processPackages [pulumi-cloudflare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_cloudflare-5.1.0a1683783241.tar.gz tmp/pulumi_cloudflare-5.1.0a1683926391.tar.gz --markdown 20230512/p/pulumi-cloudflare/5.1.0a1683783241-5.1.0a1683926391/diff.md --exclude *.pyd
+[2023-05-12 23:45:52] INFO root fetch - processPackages [vstutils]: Downloading https://files.pythonhosted.org/packages/42/e1/86e25863b29f1d4b38fa63d6b951b6b7dff4c404dd85428272253edafbb2/vstutils-5.4.4.tar.gz
+[2023-05-12 23:45:52] INFO root fetch - main [MainThread]: End processing [generativepy]: success
+[2023-05-12 23:45:52] INFO root fetch - main [MainThread]: End processing [gato-toolkit]: success
+[2023-05-12 23:45:52] INFO root fetch - processPackages [vstutils]: executing diffoscope
+[2023-05-12 23:45:52] INFO root fetch - processPackages [vstutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vstutils-5.4.3.tar.gz tmp/vstutils-5.4.4.tar.gz --markdown 20230512/v/vstutils/5.4.3-5.4.4/diff.md --exclude *.pyd
+[2023-05-12 23:45:53] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-05-12 23:45:53] INFO root fetch - main [MainThread]: End processing [ai-ghostfunctions]: success
+[2023-05-12 23:45:53] INFO root fetch - main [MainThread]: End processing [pysafeguard]: success
+[2023-05-12 23:45:53] INFO root fetch - main [MainThread]: End processing [biobricks]: success
+[2023-05-12 23:45:55] INFO root fetch - main [MainThread]: End processing [pulumi-cloudflare]: success
+[2023-05-12 23:45:57] INFO root fetch - main [MainThread]: End processing [CmonCrawl]: success
+[2023-05-12 23:45:58] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-05-12 23:45:59] INFO root fetch - main [MainThread]: End processing [vstutils]: success
+[2023-05-12 23:45:59] INFO root fetch - main [MainThread]: Store serial: [18084697]
