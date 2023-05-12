@@ -21518,3 +21518,73 @@ EOFError: EOF read where object expected
 [2023-05-12 23:51:12] INFO root fetch - main [MainThread]: End processing [srsgui]: success
 [2023-05-12 23:51:13] INFO root fetch - main [MainThread]: End processing [gdbgui-bugfix]: success
 [2023-05-12 23:51:13] INFO root fetch - main [MainThread]: Store serial: [18084735]
+[2023-05-12 23:56:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18084735]
+[2023-05-12 23:56:22] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-12 23:56:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: srsinst.rga100
+[2023-05-12 23:56:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Sphinx
+[2023-05-12 23:56:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py-rpautom
+[2023-05-12 23:56:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: elemental-cms
+[2023-05-12 23:56:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: windmill-api
+[2023-05-12 23:56:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wmill
+[2023-05-12 23:56:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pybowl
+[2023-05-12 23:56:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wmill-pg
+[2023-05-12 23:56:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PyFlyt
+[2023-05-12 23:56:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: apache-airflow
+[2023-05-12 23:56:22] WARNING root fetch - processPackages [srsinst.rga100]: Skipping, unable to determine old version
+[2023-05-12 23:56:22] INFO root fetch - processPackages [srsinst.rga100]: Start processing: bpkio-cli
+[2023-05-12 23:56:22] INFO root fetch - main [MainThread]: End processing [srsinst.rga100] error
+[2023-05-12 23:56:22] INFO root fetch - processPackages [py-rpautom]: New version: [0.0.9b0] Old Version: [0.0.8b0]
+[2023-05-12 23:56:22] WARNING root fetch - processPackages [pybowl]: Skipping, unable to determine old version
+[2023-05-12 23:56:22] INFO root fetch - processPackages [pybowl]: Start processing: QuickReaderPDF
+[2023-05-12 23:56:22] INFO root fetch - main [MainThread]: End processing [pybowl] error
+[2023-05-12 23:56:22] INFO root fetch - processPackages [PyFlyt]: New version: [0.6.7] Old Version: [0.6.6]
+[2023-05-12 23:56:22] INFO root fetch - processPackages [windmill-api]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-05-12 23:56:22] INFO root fetch - processPackages [wmill-pg]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-05-12 23:56:22] INFO root fetch - processPackages [wmill]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-05-12 23:56:22] INFO root fetch - processPackages [Sphinx]: New version: [7.0.1] Old Version: [7.0.0rc1]
+[2023-05-12 23:56:22] INFO root fetch - processPackages [PyFlyt]: executing diffoscope
+[2023-05-12 23:56:22] INFO root fetch - processPackages [PyFlyt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyFlyt-0.6.6.tar.gz tmp/PyFlyt-0.6.7.tar.gz --markdown 20230512/P/PyFlyt/0.6.6-0.6.7/diff.md --exclude *.pyd
+[2023-05-12 23:56:22] INFO root fetch - processPackages [elemental-cms]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-12 23:56:22] INFO root fetch - processPackages [wmill-pg]: executing diffoscope
+[2023-05-12 23:56:22] INFO root fetch - processPackages [windmill-api]: executing diffoscope
+[2023-05-12 23:56:22] INFO root fetch - processPackages [wmill-pg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill_pg-1.98.0.tar.gz tmp/wmill_pg-1.99.0.tar.gz --markdown 20230512/w/wmill-pg/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-05-12 23:56:22] INFO root fetch - processPackages [windmill-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windmill_api-1.98.0.tar.gz tmp/windmill_api-1.99.0.tar.gz --markdown 20230512/w/windmill-api/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-05-12 23:56:22] INFO root fetch - processPackages [QuickReaderPDF]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-12 23:56:22] INFO root fetch - processPackages [bpkio-cli]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-05-12 23:56:22] INFO root fetch - processPackages [apache-airflow]: New version: [2.6.1rc2] Old Version: [2.6.1rc1]
+[2023-05-12 23:56:22] INFO root fetch - processPackages [wmill]: executing diffoscope
+[2023-05-12 23:56:22] INFO root fetch - processPackages [wmill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill-1.98.0.tar.gz tmp/wmill-1.99.0.tar.gz --markdown 20230512/w/wmill/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-05-12 23:56:22] INFO root fetch - processPackages [py-rpautom]: Downloading https://files.pythonhosted.org/packages/6e/39/46bb536db45da28d5a4efe63087cf7df066dd3b823715358df3eaff4fe72/py-rpautom-0.0.8b0.tar.gz
+[2023-05-12 23:56:22] INFO root fetch - processPackages [Sphinx]: Downloading https://files.pythonhosted.org/packages/67/cc/803407edc06b4fac6f3083d1aa29530044fe52d72b2d1ed04d02de904d02/Sphinx-7.0.0rc1.tar.gz
+[2023-05-12 23:56:22] INFO root fetch - processPackages [bpkio-cli]: Downloading https://files.pythonhosted.org/packages/91/56/41de3b5965e0c78fd209251b792266b743b75c1038d26ef05fe824cd2ddc/bpkio_cli-1.1.0.tar.gz
+[2023-05-12 23:56:22] INFO root fetch - processPackages [elemental-cms]: Downloading https://files.pythonhosted.org/packages/ff/31/a61145ea3afd98fd1705d9cca8370058991cc15842213969472f6b4a8c7b/elemental-cms-1.1.8.tar.gz
+[2023-05-12 23:56:22] INFO root fetch - processPackages [QuickReaderPDF]: Downloading https://files.pythonhosted.org/packages/45/ea/68c28e31645df4c37bcca66db3133abdba8853e7921f71c62ac8ad0456a1/QuickReaderPDF-0.1.3.tar.gz
+[2023-05-12 23:56:22] INFO root fetch - processPackages [bpkio-cli]: executing diffoscope
+[2023-05-12 23:56:22] INFO root fetch - processPackages [bpkio-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bpkio_cli-1.0.1.tar.gz tmp/bpkio_cli-1.1.0.tar.gz --markdown 20230512/b/bpkio-cli/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-05-12 23:56:23] INFO root fetch - processPackages [QuickReaderPDF]: executing diffoscope
+[2023-05-12 23:56:23] INFO root fetch - processPackages [QuickReaderPDF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuickReaderPDF-0.1.2.tar.gz tmp/QuickReaderPDF-0.1.3.tar.gz --markdown 20230512/Q/QuickReaderPDF/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-12 23:56:23] INFO root fetch - processPackages [elemental-cms]: Downloading https://files.pythonhosted.org/packages/82/1a/f9f57635eaa24d95131900d1ff41a669ad3ee3dc9738484c1f626acf201c/elemental-cms-1.1.9.tar.gz
+[2023-05-12 23:56:23] INFO root fetch - processPackages [elemental-cms]: executing diffoscope
+[2023-05-12 23:56:23] INFO root fetch - processPackages [elemental-cms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elemental-cms-1.1.8.tar.gz tmp/elemental-cms-1.1.9.tar.gz --markdown 20230512/e/elemental-cms/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-12 23:56:23] INFO root fetch - processPackages [Sphinx]: Downloading https://files.pythonhosted.org/packages/61/b6/b2ca621fba7f1d938d75891fe175ba8054b47e803d11727d3e9f4433d86c/Sphinx-7.0.1.tar.gz
+[2023-05-12 23:56:23] INFO root fetch - processPackages [wmill-pg]: Start processing: srsinst.uga100
+[2023-05-12 23:56:23] INFO root fetch - main [MainThread]: End processing [wmill-pg]: success
+[2023-05-12 23:56:23] INFO root fetch - processPackages [apache-airflow]: Downloading https://files.pythonhosted.org/packages/a7/a9/a48a202f434a1a05126c43b0ef76c18759b22d291693357f5390f27d9f20/apache-airflow-2.6.1rc1.tar.gz
+[2023-05-12 23:56:23] WARNING root fetch - processPackages [apache-airflow]: Skipping package: exceeds size limit 11471889>=10485760
+[2023-05-12 23:56:23] INFO root fetch - main [MainThread]: End processing [apache-airflow] error
+[2023-05-12 23:56:23] WARNING root fetch - processPackages [srsinst.uga100]: Skipping, unable to determine old version
+[2023-05-12 23:56:23] INFO root fetch - main [MainThread]: End processing [srsinst.uga100] error
+[2023-05-12 23:56:23] INFO root fetch - processPackages [py-rpautom]: Downloading https://files.pythonhosted.org/packages/15/df/aca01fc29617ab2b4273b63a58b5cabaec5b193a2123d1bda0b5f8e7a87a/py-rpautom-0.0.9b0.tar.gz
+[2023-05-12 23:56:24] INFO root fetch - main [MainThread]: End processing [wmill]: success
+[2023-05-12 23:56:24] INFO root fetch - processPackages [py-rpautom]: executing diffoscope
+[2023-05-12 23:56:24] INFO root fetch - processPackages [py-rpautom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-rpautom-0.0.8b0.tar.gz tmp/py-rpautom-0.0.9b0.tar.gz --markdown 20230512/p/py-rpautom/0.0.8b0-0.0.9b0/diff.md --exclude *.pyd
+[2023-05-12 23:56:24] INFO root fetch - processPackages [Sphinx]: executing diffoscope
+[2023-05-12 23:56:24] INFO root fetch - processPackages [Sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Sphinx-7.0.0rc1.tar.gz tmp/Sphinx-7.0.1.tar.gz --markdown 20230512/S/Sphinx/7.0.0rc1-7.0.1/diff.md --exclude *.pyd
+[2023-05-12 23:56:24] INFO root fetch - main [MainThread]: End processing [PyFlyt]: success
+[2023-05-12 23:56:24] INFO root fetch - main [MainThread]: End processing [QuickReaderPDF]: success
+[2023-05-12 23:56:25] INFO root fetch - main [MainThread]: End processing [bpkio-cli]: success
+[2023-05-12 23:56:25] INFO root fetch - main [MainThread]: End processing [py-rpautom]: success
+[2023-05-12 23:56:25] INFO root fetch - main [MainThread]: End processing [elemental-cms]: success
+[2023-05-12 23:56:38] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
+[2023-05-12 23:56:49] INFO root fetch - main [MainThread]: End processing [Sphinx]: success
+[2023-05-12 23:56:49] INFO root fetch - main [MainThread]: Store serial: [18084786]
