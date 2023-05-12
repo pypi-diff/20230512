@@ -3546,3 +3546,30 @@
 [2023-05-12 05:24:22] INFO root fetch - main [MainThread]: End processing [vcorelib]: success
 [2023-05-12 05:24:23] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-azuread]: success
 [2023-05-12 05:24:23] INFO root fetch - main [MainThread]: Store serial: [18072855]
+[2023-05-12 05:29:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18072855]
+[2023-05-12 05:29:32] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-12 05:29:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: covalent-slurm-plugin
+[2023-05-12 05:29:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pandas-validate
+[2023-05-12 05:29:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pai-easy-rec
+[2023-05-12 05:29:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: konfuzio-sdk
+[2023-05-12 05:29:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tencentcloud-sdk-python-ses
+[2023-05-12 05:29:32] WARNING root fetch - processPackages [pandas-validate]: Skipping, unable to determine old version
+[2023-05-12 05:29:32] INFO root fetch - main [MainThread]: End processing [pandas-validate] error
+[2023-05-12 05:29:32] INFO root fetch - processPackages [pai-easy-rec]: New version: [0.6.0] Old Version: [0.5.6]
+[2023-05-12 05:29:32] INFO root fetch - processPackages [covalent-slurm-plugin]: New version: [0.8.0rc0] Old Version: [0.8.0]
+[2023-05-12 05:29:32] INFO root fetch - processPackages [konfuzio-sdk]: New version: [0.2.9.dev20230104175944] Old Version: [0.2.9.dev20221227125623]
+[2023-05-12 05:29:32] INFO root fetch - processPackages [konfuzio-sdk]: executing diffoscope
+[2023-05-12 05:29:32] INFO root fetch - processPackages [konfuzio-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz tmp/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz --markdown 20230512/k/konfuzio-sdk/0.2.9.dev20221227125623-0.2.9.dev20230104175944/diff.md --exclude *.pyd
+[2023-05-12 05:29:33] INFO root fetch - processPackages [pai-easy-rec]: Downloading https://files.pythonhosted.org/packages/8e/24/4d328e43d6de6efeaff63579c1071e5db8f8f8e6793a4492a4ee718c609e/pai-easy-rec-0.5.6.tar.gz
+[2023-05-12 05:29:33] WARNING root fetch - processPackages [pai-easy-rec]: Skipping package: exceeds size limit 15961659>=10485760
+[2023-05-12 05:29:33] INFO root fetch - main [MainThread]: End processing [pai-easy-rec] error
+[2023-05-12 05:29:33] INFO root fetch - processPackages [covalent-slurm-plugin]: executing diffoscope
+[2023-05-12 05:29:33] INFO root fetch - processPackages [covalent-slurm-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/covalent-slurm-plugin-0.8.0.tar.gz tmp/covalent-slurm-plugin-0.8.0rc0.tar.gz --markdown 20230512/c/covalent-slurm-plugin/0.8.0-0.8.0rc0/diff.md --exclude *.pyd
+[2023-05-12 05:29:33] INFO root fetch - processPackages [tencentcloud-sdk-python-ses]: New version: [3.0.890] Old Version: [3.0.889]
+[2023-05-12 05:29:33] INFO root fetch - processPackages [tencentcloud-sdk-python-ses]: Downloading https://files.pythonhosted.org/packages/59/5d/521d55f14346eff0a40e4f9cb9a486107bc670a0872ca2ff47af7a916de1/tencentcloud_sdk_python_ses-3.0.890-py2.py3-none-any.whl
+[2023-05-12 05:29:33] INFO root fetch - processPackages [tencentcloud-sdk-python-ses]: executing diffoscope
+[2023-05-12 05:29:33] INFO root fetch - processPackages [tencentcloud-sdk-python-ses]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-ses-3.0.889.tar.gz tmp/tencentcloud_sdk_python_ses-3.0.890-py2.py3-none-any.whl.zip --markdown 20230512/t/tencentcloud-sdk-python-ses/3.0.889-3.0.890/diff.md --exclude *.pyd
+[2023-05-12 05:29:34] INFO root fetch - main [MainThread]: End processing [konfuzio-sdk]: success
+[2023-05-12 05:29:34] INFO root fetch - main [MainThread]: End processing [covalent-slurm-plugin]: success
+[2023-05-12 05:29:34] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-ses]: success
+[2023-05-12 05:29:34] INFO root fetch - main [MainThread]: Store serial: [18072872]
