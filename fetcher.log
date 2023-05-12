@@ -9394,3 +9394,81 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-12 12:47:59] INFO root fetch - main [MainThread]: End processing [rns]: success
 [2023-05-12 12:48:01] INFO root fetch - main [MainThread]: End processing [rnspure]: success
 [2023-05-12 12:48:01] INFO root fetch - main [MainThread]: Store serial: [18076817]
+[2023-05-12 12:53:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18076817]
+[2023-05-12 12:53:10] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-12 12:53:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: titan-iris
+[2023-05-12 12:53:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dvc-data
+[2023-05-12 12:53:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: noisy-outlier
+[2023-05-12 12:53:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyiosbackup
+[2023-05-12 12:53:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: granian
+[2023-05-12 12:53:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flexmeasures
+[2023-05-12 12:53:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mmcb-avt
+[2023-05-12 12:53:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hea-cgml
+[2023-05-12 12:53:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mugisync
+[2023-05-12 12:53:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: invopt
+[2023-05-12 12:53:10] INFO root fetch - processPackages [titan-iris]: New version: [0.3.9a2] Old Version: [0.3.9a1]
+[2023-05-12 12:53:10] ERROR root fetch - processPackages [hea-cgml]: Unable to get metadata: No such project 'hea-cgml'
+[2023-05-12 12:53:10] INFO root fetch - processPackages [hea-cgml]: Start processing: thefittest
+[2023-05-12 12:53:10] INFO root fetch - main [MainThread]: End processing [hea-cgml] error
+[2023-05-12 12:53:10] INFO root fetch - processPackages [invopt]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-12 12:53:10] INFO root fetch - processPackages [pyiosbackup]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-12 12:53:10] INFO root fetch - processPackages [mugisync]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 12:53:10] INFO root fetch - processPackages [mmcb-avt]: New version: [0.0.89] Old Version: [0.0.88]
+[2023-05-12 12:53:10] INFO root fetch - processPackages [noisy-outlier]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-12 12:53:10] INFO root fetch - processPackages [granian]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-05-12 12:53:10] INFO root fetch - processPackages [flexmeasures]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-12 12:53:10] INFO root fetch - processPackages [dvc-data]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-12 12:53:11] INFO root fetch - processPackages [thefittest]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-12 12:53:11] INFO root fetch - processPackages [pyiosbackup]: Downloading https://files.pythonhosted.org/packages/31/1f/f42eb9c3d77f2605da4dac9916145b87eb9635a271f085de71947f0654d8/pyiosbackup-0.2.1.tar.gz
+[2023-05-12 12:53:11] INFO root fetch - processPackages [mmcb-avt]: Downloading https://files.pythonhosted.org/packages/df/a5/3247ae8f755ece2041b457328ffea92391cc6dd4de2e15f8e653b0a5d3a2/mmcb-avt-0.0.88.tar.gz
+[2023-05-12 12:53:11] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-05-12 12:53:11] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.3.9a1.tar.gz tmp/titan-iris-0.3.9a2.tar.gz --markdown 20230512/t/titan-iris/0.3.9a1-0.3.9a2/diff.md --exclude *.pyd
+[2023-05-12 12:53:11] INFO root fetch - processPackages [mugisync]: Downloading https://files.pythonhosted.org/packages/94/f3/cb649132342d276561396d6638dc7a9e4f8ae283164738da1f63db74502f/mugisync-0.0.8-py3-none-any.whl
+[2023-05-12 12:53:11] INFO root fetch - processPackages [flexmeasures]: Downloading https://files.pythonhosted.org/packages/54/d6/5f4106babfe3f4bed4f79ff5e21ee46b716203802745656119b7921714e7/flexmeasures-0.9.3.tar.gz
+[2023-05-12 12:53:11] INFO root fetch - processPackages [invopt]: Downloading https://files.pythonhosted.org/packages/d0/6b/6e6afa24fc4f5c6dba8d33507f5c1658413b9d774507e5528e3350ba18da/invopt-0.0.1.tar.gz
+[2023-05-12 12:53:11] INFO root fetch - processPackages [noisy-outlier]: Downloading https://files.pythonhosted.org/packages/b5/60/6562b9753d4a1503c827d5a5bf74a3e8a4843acd7a262fea7d8d60b19f83/noisy_outlier-0.1.4.tar.gz
+[2023-05-12 12:53:11] INFO root fetch - processPackages [thefittest]: Downloading https://files.pythonhosted.org/packages/93/60/3c64ce2e4821f7354f9a3c398be1f99aaf33ccd26fad382b9303f233cfb5/thefittest-0.1.8.tar.gz
+[2023-05-12 12:53:11] INFO root fetch - processPackages [pyiosbackup]: Downloading https://files.pythonhosted.org/packages/c5/41/bb5a1fe921707360e96d5a92391cd06db0fc24b64539fee79fd3c092000f/pyiosbackup-0.2.2.tar.gz
+[2023-05-12 12:53:11] INFO root fetch - processPackages [mmcb-avt]: Downloading https://files.pythonhosted.org/packages/bc/54/7555c2d625ecb969f7fe8d024eac27c0a36fd2ca6e4a793426b76db4bc24/mmcb-avt-0.0.89.tar.gz
+[2023-05-12 12:53:11] INFO root fetch - processPackages [dvc-data]: executing diffoscope
+[2023-05-12 12:53:11] INFO root fetch - processPackages [dvc-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvc-data-0.8.0.tar.gz tmp/dvc-data-0.9.0.tar.gz --markdown 20230512/d/dvc-data/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-12 12:53:11] INFO root fetch - processPackages [granian]: Downloading https://files.pythonhosted.org/packages/e7/29/9d0bba98c69c2f39df378406aace3d2f82c50013b986d5230bb49d144b21/granian-0.4.1.tar.gz
+[2023-05-12 12:53:11] INFO root fetch - processPackages [noisy-outlier]: Downloading https://files.pythonhosted.org/packages/e7/45/a111773de8f37afac13db15dd16bcd7b4d964362f2afee6618852faae9ac/noisy_outlier-0.1.5.tar.gz
+[2023-05-12 12:53:11] INFO root fetch - processPackages [invopt]: Downloading https://files.pythonhosted.org/packages/d8/ab/d0e6795730bf887dd07ff308a3da87f2cea8c96589cf74a96ab91c0f3de1/invopt-0.0.2.tar.gz
+[2023-05-12 12:53:11] INFO root fetch - processPackages [mmcb-avt]: executing diffoscope
+[2023-05-12 12:53:11] INFO root fetch - processPackages [mmcb-avt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mmcb-avt-0.0.88.tar.gz tmp/mmcb-avt-0.0.89.tar.gz --markdown 20230512/m/mmcb-avt/0.0.88-0.0.89/diff.md --exclude *.pyd
+[2023-05-12 12:53:11] INFO root fetch - processPackages [pyiosbackup]: executing diffoscope
+[2023-05-12 12:53:11] INFO root fetch - processPackages [pyiosbackup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyiosbackup-0.2.1.tar.gz tmp/pyiosbackup-0.2.2.tar.gz --markdown 20230512/p/pyiosbackup/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-12 12:53:11] INFO root fetch - processPackages [mugisync]: Downloading https://files.pythonhosted.org/packages/e4/ee/9cc322325824044076954900321a7083ae0e6d6088f23eb58a0fee43b3ab/mugisync-0.0.9-py3-none-any.whl
+[2023-05-12 12:53:11] INFO root fetch - processPackages [granian]: executing diffoscope
+[2023-05-12 12:53:11] INFO root fetch - processPackages [granian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/granian-0.4.0.tar.gz tmp/granian-0.4.1.tar.gz --markdown 20230512/g/granian/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-12 12:53:11] INFO root fetch - processPackages [noisy-outlier]: executing diffoscope
+[2023-05-12 12:53:11] INFO root fetch - processPackages [noisy-outlier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/noisy_outlier-0.1.4.tar.gz tmp/noisy_outlier-0.1.5.tar.gz --markdown 20230512/n/noisy-outlier/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-12 12:53:11] INFO root fetch - processPackages [invopt]: executing diffoscope
+[2023-05-12 12:53:11] INFO root fetch - processPackages [invopt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invopt-0.0.1.tar.gz tmp/invopt-0.0.2.tar.gz --markdown 20230512/i/invopt/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-12 12:53:11] INFO root fetch - processPackages [mugisync]: executing diffoscope
+[2023-05-12 12:53:11] INFO root fetch - processPackages [mugisync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mugisync-0.0.8-py3-none-any.whl.zip tmp/mugisync-0.0.9-py3-none-any.whl.zip --markdown 20230512/m/mugisync/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 12:53:11] INFO root fetch - processPackages [flexmeasures]: Downloading https://files.pythonhosted.org/packages/36/f9/a77949c243c7adde4c28f2a6861c0208ad20e4f95832238f910fdbea1103/flexmeasures-0.9.4.tar.gz
+[2023-05-12 12:53:12] INFO root fetch - processPackages [thefittest]: Downloading https://files.pythonhosted.org/packages/71/37/a73212b818fec1a569da8c77c5c19b5978bac4743fd10ba8a161616aaeb9/thefittest-0.1.9.tar.gz
+[2023-05-12 12:53:12] INFO root fetch - processPackages [titan-iris]: Start processing: AICreator
+[2023-05-12 12:53:12] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-05-12 12:53:12] INFO root fetch - processPackages [flexmeasures]: executing diffoscope
+[2023-05-12 12:53:12] INFO root fetch - processPackages [flexmeasures]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flexmeasures-0.9.3.tar.gz tmp/flexmeasures-0.9.4.tar.gz --markdown 20230512/f/flexmeasures/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-12 12:53:12] INFO root fetch - processPackages [AICreator]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-12 12:53:12] INFO root fetch - processPackages [AICreator]: Downloading https://files.pythonhosted.org/packages/d0/71/1fb226c81cf2ab8e1c5d4b55ecffeefb446f53fec961f48545391e4872cb/AICreator-0.1.2.tar.gz
+[2023-05-12 12:53:12] INFO root fetch - processPackages [thefittest]: executing diffoscope
+[2023-05-12 12:53:12] INFO root fetch - processPackages [thefittest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thefittest-0.1.8.tar.gz tmp/thefittest-0.1.9.tar.gz --markdown 20230512/t/thefittest/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-12 12:53:12] INFO root fetch - processPackages [AICreator]: Downloading https://files.pythonhosted.org/packages/5c/e5/1fefcd70758bb4a9aec9faad4ad4e477dad661076b42408d30877113d1e3/AICreator-0.1.3.tar.gz
+[2023-05-12 12:53:13] INFO root fetch - main [MainThread]: End processing [dvc-data]: success
+[2023-05-12 12:53:13] INFO root fetch - processPackages [AICreator]: executing diffoscope
+[2023-05-12 12:53:13] INFO root fetch - processPackages [AICreator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AICreator-0.1.2.tar.gz tmp/AICreator-0.1.3.tar.gz --markdown 20230512/A/AICreator/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-12 12:53:13] INFO root fetch - main [MainThread]: End processing [invopt]: success
+[2023-05-12 12:53:13] INFO root fetch - main [MainThread]: End processing [mmcb-avt]: success
+[2023-05-12 12:53:13] INFO root fetch - main [MainThread]: End processing [mugisync]: success
+[2023-05-12 12:53:13] INFO root fetch - main [MainThread]: End processing [noisy-outlier]: success
+[2023-05-12 12:53:13] INFO root fetch - main [MainThread]: End processing [pyiosbackup]: success
+[2023-05-12 12:53:14] INFO root fetch - main [MainThread]: End processing [AICreator]: success
+[2023-05-12 12:53:14] INFO root fetch - main [MainThread]: End processing [granian]: success
+[2023-05-12 12:53:15] INFO root fetch - main [MainThread]: End processing [thefittest]: success
+[2023-05-12 12:53:18] INFO root fetch - main [MainThread]: End processing [flexmeasures]: success
+[2023-05-12 12:53:18] INFO root fetch - main [MainThread]: Store serial: [18076900]
