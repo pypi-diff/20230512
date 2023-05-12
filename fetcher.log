@@ -7942,3 +7942,61 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-12 11:11:55] INFO root fetch - main [MainThread]: End processing [python-gvm]: success
 [2023-05-12 11:11:58] INFO root fetch - main [MainThread]: End processing [bycon]: success
 [2023-05-12 11:11:58] INFO root fetch - main [MainThread]: Store serial: [18075804]
+[2023-05-12 11:17:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18075804]
+[2023-05-12 11:17:08] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-12 11:17:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pystlouisfed
+[2023-05-12 11:17:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ykenan-fragments
+[2023-05-12 11:17:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: adapta
+[2023-05-12 11:17:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: MixPage
+[2023-05-12 11:17:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: reolink-aio
+[2023-05-12 11:17:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: physiofit
+[2023-05-12 11:17:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: machine-stats
+[2023-05-12 11:17:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mecord-cli
+[2023-05-12 11:17:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tf-nightly
+[2023-05-12 11:17:08] INFO root fetch - processPackages [MixPage]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-12 11:17:08] INFO root fetch - processPackages [mecord-cli]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-12 11:17:08] INFO root fetch - processPackages [ykenan-fragments]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-12 11:17:08] INFO root fetch - processPackages [tf-nightly]: New version: [2.14.0.dev20230511] Old Version: [2.14.0.dev20230510]
+[2023-05-12 11:17:08] INFO root fetch - processPackages [pystlouisfed]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-05-12 11:17:08] INFO root fetch - processPackages [physiofit]: New version: [3.0.4] Old Version: [3.0.2]
+[2023-05-12 11:17:08] INFO root fetch - processPackages [reolink-aio]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-05-12 11:17:08] INFO root fetch - processPackages [adapta]: New version: [2.2.5] Old Version: [2.2.4]
+[2023-05-12 11:17:08] INFO root fetch - processPackages [ykenan-fragments]: executing diffoscope
+[2023-05-12 11:17:08] INFO root fetch - processPackages [ykenan-fragments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ykenan_fragments-1.2.8.tar.gz tmp/ykenan_fragments-1.2.9.tar.gz --markdown 20230512/y/ykenan-fragments/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-12 11:17:08] INFO root fetch - processPackages [MixPage]: executing diffoscope
+[2023-05-12 11:17:08] INFO root fetch - processPackages [MixPage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MixPage-1.0.0-py3-none-any.whl.zip tmp/MixPage-1.0.1-py3-none-any.whl.zip --markdown 20230512/M/MixPage/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-12 11:17:08] INFO root fetch - processPackages [machine-stats]: New version: [2.5.8] Old Version: [2.5.7a0]
+[2023-05-12 11:17:09] INFO root fetch - processPackages [pystlouisfed]: Downloading https://files.pythonhosted.org/packages/7a/ad/3498d666d99a3640f9505405644bb1c8e5b83c3e922971340f93dd35a17c/pystlouisfed-2.1.0.tar.gz
+[2023-05-12 11:17:09] INFO root fetch - processPackages [physiofit]: Downloading https://files.pythonhosted.org/packages/f6/9a/282534a607629d3034d9a0943d3d2030f376d10618248cd72db3c962eb48/physiofit-3.0.2.tar.gz
+[2023-05-12 11:17:09] INFO root fetch - processPackages [reolink-aio]: Downloading https://files.pythonhosted.org/packages/1e/21/6e81cae2a4c915cf3bd0de1ae6887f9af93a07a1e4713aa1e8747d17d91f/reolink_aio-0.5.8.tar.gz
+[2023-05-12 11:17:09] INFO root fetch - processPackages [machine-stats]: Downloading https://files.pythonhosted.org/packages/d1/26/80d508e16e8077a3dc499335f73e92b8e7d2fc619087ad44f513a4671802/machine_stats-2.5.7a0.tar.gz
+[2023-05-12 11:17:09] INFO root fetch - processPackages [mecord-cli]: executing diffoscope
+[2023-05-12 11:17:09] INFO root fetch - processPackages [mecord-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mecord-cli-0.1.8.tar.gz tmp/mecord-cli-0.1.9.tar.gz --markdown 20230512/m/mecord-cli/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-12 11:17:09] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/0a/c1/4bfe2babc99b9017f40f19f1359101b4d3fd36293e7db952e092d9d0ce9d/tf_nightly-2.14.0.dev20230511-cp39-cp39-win_amd64.whl
+[2023-05-12 11:17:09] INFO root fetch - processPackages [tf-nightly]: executing diffoscope
+[2023-05-12 11:17:09] INFO root fetch - processPackages [tf-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly-2.14.0.dev20230510-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly-2.14.0.dev20230511-cp39-cp39-win_amd64.whl.zip --markdown 20230512/t/tf-nightly/2.14.0.dev20230510-2.14.0.dev20230511/diff.md --exclude *.pyd
+[2023-05-12 11:17:09] INFO root fetch - processPackages [physiofit]: Downloading https://files.pythonhosted.org/packages/72/64/72152f5b3eb5ff252ad7a2a24f232560c9f61b01e3bf90f276f2a265d899/physiofit-3.0.4-py3-none-any.whl
+[2023-05-12 11:17:09] INFO root fetch - processPackages [machine-stats]: Downloading https://files.pythonhosted.org/packages/43/ce/56bdda6f4d4ee431aba949e913dd6898add4a175aade9496c6f01cfdd5fe/machine_stats-2.5.8-py3-none-any.whl
+[2023-05-12 11:17:09] INFO root fetch - processPackages [adapta]: Downloading https://files.pythonhosted.org/packages/08/84/26f42798614fab600742baadb5d7082adb9602cc9609e8a8fe73217e2a71/adapta-2.2.5.tar.gz
+[2023-05-12 11:17:09] INFO root fetch - processPackages [physiofit]: executing diffoscope
+[2023-05-12 11:17:09] INFO root fetch - processPackages [reolink-aio]: Downloading https://files.pythonhosted.org/packages/dd/0a/f711f244291fb1854667f9496c26c7b79a2f7afbdf6c355d899cb1f1f31b/reolink_aio-0.5.9.tar.gz
+[2023-05-12 11:17:09] INFO root fetch - processPackages [physiofit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/physiofit-3.0.2.tar.gz tmp/physiofit-3.0.4-py3-none-any.whl.zip --markdown 20230512/p/physiofit/3.0.2-3.0.4/diff.md --exclude *.pyd
+[2023-05-12 11:17:09] INFO root fetch - processPackages [pystlouisfed]: Downloading https://files.pythonhosted.org/packages/8f/ea/5ba947cd61c5d7476a079f3c3f285ccac585f887aee92dd929c288855123/pystlouisfed-2.1.1.tar.gz
+[2023-05-12 11:17:09] INFO root fetch - processPackages [machine-stats]: executing diffoscope
+[2023-05-12 11:17:09] INFO root fetch - processPackages [machine-stats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/machine_stats-2.5.7a0.tar.gz tmp/machine_stats-2.5.8-py3-none-any.whl.zip --markdown 20230512/m/machine-stats/2.5.7a0-2.5.8/diff.md --exclude *.pyd
+[2023-05-12 11:17:09] INFO root fetch - processPackages [adapta]: executing diffoscope
+[2023-05-12 11:17:09] INFO root fetch - processPackages [adapta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adapta-2.2.4.tar.gz tmp/adapta-2.2.5.tar.gz --markdown 20230512/a/adapta/2.2.4-2.2.5/diff.md --exclude *.pyd
+[2023-05-12 11:17:09] INFO root fetch - processPackages [pystlouisfed]: executing diffoscope
+[2023-05-12 11:17:09] INFO root fetch - processPackages [pystlouisfed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystlouisfed-2.1.0.tar.gz tmp/pystlouisfed-2.1.1.tar.gz --markdown 20230512/p/pystlouisfed/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-05-12 11:17:09] INFO root fetch - processPackages [reolink-aio]: executing diffoscope
+[2023-05-12 11:17:09] INFO root fetch - processPackages [reolink-aio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reolink_aio-0.5.8.tar.gz tmp/reolink_aio-0.5.9.tar.gz --markdown 20230512/r/reolink-aio/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-05-12 11:17:10] INFO root fetch - main [MainThread]: End processing [ykenan-fragments]: success
+[2023-05-12 11:17:10] INFO root fetch - main [MainThread]: End processing [MixPage]: success
+[2023-05-12 11:17:10] INFO root fetch - main [MainThread]: End processing [mecord-cli]: success
+[2023-05-12 11:17:10] INFO root fetch - main [MainThread]: End processing [tf-nightly]: success
+[2023-05-12 11:17:10] INFO root fetch - main [MainThread]: End processing [machine-stats]: success
+[2023-05-12 11:17:10] INFO root fetch - main [MainThread]: End processing [reolink-aio]: success
+[2023-05-12 11:17:11] INFO root fetch - main [MainThread]: End processing [pystlouisfed]: success
+[2023-05-12 11:17:11] INFO root fetch - main [MainThread]: End processing [physiofit]: success
+[2023-05-12 11:17:12] INFO root fetch - main [MainThread]: End processing [adapta]: success
+[2023-05-12 11:17:12] INFO root fetch - main [MainThread]: Store serial: [18075839]
