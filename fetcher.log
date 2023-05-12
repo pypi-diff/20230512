@@ -3610,3 +3610,9 @@
 [2023-05-12 05:34:45] INFO root fetch - main [MainThread]: End processing [cloud-mappings]: success
 [2023-05-12 05:34:45] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-smh]: success
 [2023-05-12 05:34:45] INFO root fetch - main [MainThread]: Store serial: [18072896]
+[2023-05-12 05:39:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18072896]
+[2023-05-12 05:39:54] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-05-12 05:39:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ConsolePrint
+[2023-05-12 05:39:55] WARNING root fetch - processPackages [ConsolePrint]: Skipping, unable to determine old version
+[2023-05-12 05:39:55] INFO root fetch - main [MainThread]: End processing [ConsolePrint] error
+[2023-05-12 05:39:55] INFO root fetch - main [MainThread]: Store serial: [18072897]
