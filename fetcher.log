@@ -19819,3 +19819,60 @@ EOFError: EOF read where object expected
 [2023-05-12 22:31:42] INFO root fetch - main [MainThread]: End processing [maestral]: success
 [2023-05-12 22:31:46] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-05-12 22:31:46] INFO root fetch - main [MainThread]: Store serial: [18083809]
+[2023-05-12 22:36:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18083809]
+[2023-05-12 22:36:55] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-12 22:36:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fmo-cli
+[2023-05-12 22:36:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dash-connectivity-viewer
+[2023-05-12 22:36:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fern-belvo
+[2023-05-12 22:36:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ovos-PHAL
+[2023-05-12 22:36:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ib110hw-testing
+[2023-05-12 22:36:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hummuspy
+[2023-05-12 22:36:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hotspotty-payment-email
+[2023-05-12 22:36:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dbt-redshift
+[2023-05-12 22:36:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: virtool-core
+[2023-05-12 22:36:55] INFO root fetch - processPackages [fern-belvo]: New version: [0.0.25] Old Version: [0.0.24]
+[2023-05-12 22:36:56] INFO root fetch - processPackages [hummuspy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 22:36:56] WARNING root fetch - processPackages [fmo-cli]: Skipping, unable to determine old version
+[2023-05-12 22:36:56] INFO root fetch - processPackages [ovos-PHAL]: New version: [0.0.5a5] Old Version: [0.0.5a4]
+[2023-05-12 22:36:56] INFO root fetch - main [MainThread]: End processing [fmo-cli] error
+[2023-05-12 22:36:56] INFO root fetch - processPackages [ib110hw-testing]: New version: [0.1.9] Old Version: [0.1.10]
+[2023-05-12 22:36:56] INFO root fetch - processPackages [dash-connectivity-viewer]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-05-12 22:36:56] INFO root fetch - processPackages [hotspotty-payment-email]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-05-12 22:36:56] INFO root fetch - processPackages [hummuspy]: executing diffoscope
+[2023-05-12 22:36:56] INFO root fetch - processPackages [hummuspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hummuspy-0.0.8.tar.gz tmp/hummuspy-0.0.9.tar.gz --markdown 20230512/h/hummuspy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 22:36:56] INFO root fetch - processPackages [dbt-redshift]: New version: [1.6.0b1] Old Version: [1.5.1]
+[2023-05-12 22:36:56] INFO root fetch - processPackages [virtool-core]: New version: [4.9.0] Old Version: [4.8.0]
+[2023-05-12 22:36:56] INFO root fetch - processPackages [ib110hw-testing]: Downloading https://files.pythonhosted.org/packages/d6/54/fa287a98305199908f17b59cae5ade6a3f63ae4d95781dfdd1b6bf1a0523/ib110hw_testing-0.1.10.tar.gz
+[2023-05-12 22:36:56] INFO root fetch - processPackages [fern-belvo]: Downloading https://files.pythonhosted.org/packages/8d/0f/baa458dd799210094836be8b60f51d6c4b690b8f1d3c21517c2787c44232/fern_belvo-0.0.25.tar.gz
+[2023-05-12 22:36:56] INFO root fetch - processPackages [ovos-PHAL]: Downloading https://files.pythonhosted.org/packages/df/4e/4edd27620fedccc22ade0aa78981ff83974783930ef67d756874101ec1ac/ovos_PHAL-0.0.5a4-py3-none-any.whl
+[2023-05-12 22:36:56] INFO root fetch - processPackages [hotspotty-payment-email]: Downloading https://files.pythonhosted.org/packages/b7/fc/447deb0538fc02df63ad051a4cad2cb2e9bed951de6f56f4f7bfb2bfea8e/hotspotty_payment_email-0.3.0.tar.gz
+[2023-05-12 22:36:56] INFO root fetch - processPackages [fern-belvo]: executing diffoscope
+[2023-05-12 22:36:56] INFO root fetch - processPackages [fern-belvo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fern_belvo-0.0.24.tar.gz tmp/fern_belvo-0.0.25.tar.gz --markdown 20230512/f/fern-belvo/0.0.24-0.0.25/diff.md --exclude *.pyd
+[2023-05-12 22:36:56] INFO root fetch - processPackages [dash-connectivity-viewer]: Downloading https://files.pythonhosted.org/packages/05/63/d5035269c3c0d281abade6dd3aceea72d7a5b7fcbbdd409939534a898a03/dash-connectivity-viewer-2.0.2.tar.gz
+[2023-05-12 22:36:56] INFO root fetch - processPackages [hotspotty-payment-email]: executing diffoscope
+[2023-05-12 22:36:56] INFO root fetch - processPackages [hotspotty-payment-email]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotspotty_payment_email-0.2.9.tar.gz tmp/hotspotty_payment_email-0.3.0.tar.gz --markdown 20230512/h/hotspotty-payment-email/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2023-05-12 22:36:56] INFO root fetch - processPackages [dbt-redshift]: Downloading https://files.pythonhosted.org/packages/e4/77/0ce6cb09dc79f7bf192115b300e1ffc0a8aa0b8be097af9f0b62ef0fa42a/dbt-redshift-1.5.1.tar.gz
+[2023-05-12 22:36:56] INFO root fetch - processPackages [dash-connectivity-viewer]: executing diffoscope
+[2023-05-12 22:36:56] INFO root fetch - processPackages [dash-connectivity-viewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dash-connectivity-viewer-2.0.1.tar.gz tmp/dash-connectivity-viewer-2.0.2.tar.gz --markdown 20230512/d/dash-connectivity-viewer/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-05-12 22:36:56] INFO root fetch - processPackages [virtool-core]: Downloading https://files.pythonhosted.org/packages/3a/e7/93fff90129a0dfa23e576b2920d6071f967736568db1774a992a4eb876df/virtool_core-4.8.0.tar.gz
+[2023-05-12 22:36:56] INFO root fetch - processPackages [ib110hw-testing]: Downloading https://files.pythonhosted.org/packages/85/af/e1c9b2cf1b2d505a303301863ede1fbfa64983a9678573d31762bfcc8eab/ib110hw_testing-0.1.9.tar.gz
+[2023-05-12 22:36:56] INFO root fetch - processPackages [ib110hw-testing]: executing diffoscope
+[2023-05-12 22:36:56] INFO root fetch - processPackages [ib110hw-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ib110hw_testing-0.1.10.tar.gz tmp/ib110hw_testing-0.1.9.tar.gz --markdown 20230512/i/ib110hw-testing/0.1.10-0.1.9/diff.md --exclude *.pyd
+[2023-05-12 22:36:56] INFO root fetch - processPackages [ovos-PHAL]: Downloading https://files.pythonhosted.org/packages/a7/bb/cc711b365feb0fd454d0b18286520e40e4d7407801076a1f35b723caaae4/ovos_PHAL-0.0.5a5-py3-none-any.whl
+[2023-05-12 22:36:56] INFO root fetch - processPackages [dbt-redshift]: Downloading https://files.pythonhosted.org/packages/41/4d/c43409cf59f4ff30ff21533235a0bb69efd8cd37778a218d2d10ec42d36d/dbt-redshift-1.6.0b1.tar.gz
+[2023-05-12 22:36:56] INFO root fetch - processPackages [ovos-PHAL]: executing diffoscope
+[2023-05-12 22:36:56] INFO root fetch - processPackages [ovos-PHAL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_PHAL-0.0.5a4-py3-none-any.whl.zip tmp/ovos_PHAL-0.0.5a5-py3-none-any.whl.zip --markdown 20230512/o/ovos-PHAL/0.0.5a4-0.0.5a5/diff.md --exclude *.pyd
+[2023-05-12 22:36:56] INFO root fetch - processPackages [virtool-core]: Downloading https://files.pythonhosted.org/packages/d3/1b/bdbfd8ccfab0e26265cd40e9ba68ff8ae89a5e602042a6fe7e33582d6245/virtool_core-4.9.0.tar.gz
+[2023-05-12 22:36:56] INFO root fetch - processPackages [dbt-redshift]: executing diffoscope
+[2023-05-12 22:36:56] INFO root fetch - processPackages [dbt-redshift]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-redshift-1.5.1.tar.gz tmp/dbt-redshift-1.6.0b1.tar.gz --markdown 20230512/d/dbt-redshift/1.5.1-1.6.0b1/diff.md --exclude *.pyd
+[2023-05-12 22:36:56] INFO root fetch - processPackages [virtool-core]: executing diffoscope
+[2023-05-12 22:36:56] INFO root fetch - processPackages [virtool-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/virtool_core-4.8.0.tar.gz tmp/virtool_core-4.9.0.tar.gz --markdown 20230512/v/virtool-core/4.8.0-4.9.0/diff.md --exclude *.pyd
+[2023-05-12 22:36:57] INFO root fetch - main [MainThread]: End processing [hummuspy]: success
+[2023-05-12 22:36:57] INFO root fetch - main [MainThread]: End processing [hotspotty-payment-email]: success
+[2023-05-12 22:36:57] INFO root fetch - main [MainThread]: End processing [ib110hw-testing]: success
+[2023-05-12 22:36:57] INFO root fetch - main [MainThread]: End processing [dash-connectivity-viewer]: success
+[2023-05-12 22:36:58] INFO root fetch - main [MainThread]: End processing [ovos-PHAL]: success
+[2023-05-12 22:36:58] INFO root fetch - main [MainThread]: End processing [dbt-redshift]: success
+[2023-05-12 22:36:58] INFO root fetch - main [MainThread]: End processing [virtool-core]: success
+[2023-05-12 22:37:01] INFO root fetch - main [MainThread]: End processing [fern-belvo]: success
+[2023-05-12 22:37:01] INFO root fetch - main [MainThread]: Store serial: [18083842]
