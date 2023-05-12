@@ -9333,3 +9333,64 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-12 12:42:40] INFO root fetch - main [MainThread]: End processing [jot-iris]: success
 [2023-05-12 12:42:46] INFO root fetch - main [MainThread]: End processing [areixio]: success
 [2023-05-12 12:42:46] INFO root fetch - main [MainThread]: Store serial: [18076754]
+[2023-05-12 12:47:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18076754]
+[2023-05-12 12:47:57] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-12 12:47:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: simple_openid_connect
+[2023-05-12 12:47:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sarus
+[2023-05-12 12:47:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py3dti
+[2023-05-12 12:47:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rns
+[2023-05-12 12:47:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rnspure
+[2023-05-12 12:47:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: titan-iris
+[2023-05-12 12:47:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: crawler-commons
+[2023-05-12 12:47:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fastapi-request-id
+[2023-05-12 12:47:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: eswrap
+[2023-05-12 12:47:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: single-char-counter-by-ng
+[2023-05-12 12:47:57] INFO root fetch - processPackages [sarus]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-05-12 12:47:57] INFO root fetch - processPackages [simple_openid_connect]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-12 12:47:57] INFO root fetch - processPackages [eswrap]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-05-12 12:47:57] WARNING root fetch - processPackages [single-char-counter-by-ng]: Skipping, unable to determine old version
+[2023-05-12 12:47:57] INFO root fetch - main [MainThread]: End processing [single-char-counter-by-ng] error
+[2023-05-12 12:47:57] INFO root fetch - processPackages [titan-iris]: New version: [0.3.9a2] Old Version: [0.3.9a1]
+[2023-05-12 12:47:57] INFO root fetch - processPackages [fastapi-request-id]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-12 12:47:57] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-05-12 12:47:57] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.3.9a1.tar.gz tmp/titan-iris-0.3.9a2.tar.gz --markdown 20230512/t/titan-iris/0.3.9a1-0.3.9a2/diff.md --exclude *.pyd
+[2023-05-12 12:47:57] INFO root fetch - processPackages [eswrap]: executing diffoscope
+[2023-05-12 12:47:57] INFO root fetch - processPackages [eswrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eswrap-0.4.1.tar.gz tmp/eswrap-0.4.2.tar.gz --markdown 20230512/e/eswrap/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-05-12 12:47:57] INFO root fetch - processPackages [py3dti]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-12 12:47:57] INFO root fetch - processPackages [rnspure]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-05-12 12:47:57] INFO root fetch - processPackages [crawler-commons]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-12 12:47:57] INFO root fetch - processPackages [rns]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-05-12 12:47:57] INFO root fetch - processPackages [simple_openid_connect]: Downloading https://files.pythonhosted.org/packages/c3/4b/7b813476a93326fdcb6fae33390bfca24edd0af0812d194ec5110118e4d2/simple_openid_connect-0.2.1.tar.gz
+[2023-05-12 12:47:57] INFO root fetch - processPackages [rnspure]: Downloading https://files.pythonhosted.org/packages/fc/49/37d3b8b8dd520880341e1d1239ec9de16de03cbe46ef3591cceaec9c967e/rnspure-0.5.1.tar.gz
+[2023-05-12 12:47:57] INFO root fetch - processPackages [py3dti]: Downloading https://files.pythonhosted.org/packages/fa/8c/94e90b7f44756e76a9d8d85d45c579df1270dfa8bff2eeba8cb122a34970/py3dti-0.1.0.tar.gz
+[2023-05-12 12:47:57] INFO root fetch - processPackages [crawler-commons]: Downloading https://files.pythonhosted.org/packages/d7/c2/0eae2fb9d2a1c92ad5796f47ee0fd8ba725ea728919f44601011d06968e9/crawler_commons-0.0.6.tar.gz
+[2023-05-12 12:47:57] INFO root fetch - processPackages [rns]: Downloading https://files.pythonhosted.org/packages/b4/4b/31c0e50e1d85cc4d9ea9116a83a91cdfb77ceb2ec92f6e5bd961876e6e40/rns-0.5.1.tar.gz
+[2023-05-12 12:47:57] INFO root fetch - processPackages [fastapi-request-id]: Downloading https://files.pythonhosted.org/packages/21/40/80ae8c1b3b6c1ea0ad29867d35ce0e3733f5e7fc17bca41af098a8fd9770/fastapi_request_id-1.1.1.tar.gz
+[2023-05-12 12:47:57] INFO root fetch - processPackages [sarus]: Downloading https://files.pythonhosted.org/packages/d8/3e/4e2617f08dcda038da47e1303a0dd44eafef98b9ad64f4e539fcfa03284d/sarus-0.6.2.tar.gz
+[2023-05-12 12:47:57] WARNING root fetch - processPackages [py3dti]: Skipping package: exceeds size limit 32636329>=10485760
+[2023-05-12 12:47:57] INFO root fetch - main [MainThread]: End processing [py3dti] error
+[2023-05-12 12:47:57] INFO root fetch - processPackages [sarus]: executing diffoscope
+[2023-05-12 12:47:57] INFO root fetch - processPackages [sarus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sarus-0.6.1.tar.gz tmp/sarus-0.6.2.tar.gz --markdown 20230512/s/sarus/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-05-12 12:47:57] INFO root fetch - processPackages [fastapi-request-id]: executing diffoscope
+[2023-05-12 12:47:57] INFO root fetch - processPackages [fastapi-request-id]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_request_id-1.1.0-py3-none-any.whl.zip tmp/fastapi_request_id-1.1.1.tar.gz --markdown 20230512/f/fastapi-request-id/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-12 12:47:57] INFO root fetch - processPackages [simple_openid_connect]: Downloading https://files.pythonhosted.org/packages/94/53/7b1d54582cca78c3ad4794306c5570f549906698c3a16cfc2ee2165fc1e1/simple_openid_connect-0.2.2.tar.gz
+[2023-05-12 12:47:57] INFO root fetch - processPackages [rnspure]: Downloading https://files.pythonhosted.org/packages/1e/89/59a9c29def1f576090573c1ea6a77635e9cdbeeb9b9a6d20fa21909a607c/rnspure-0.5.2.tar.gz
+[2023-05-12 12:47:57] INFO root fetch - processPackages [rns]: Downloading https://files.pythonhosted.org/packages/f1/09/4794bfe9f05f92d8f73a30a0794cc17a2c016e3230fb853b49472ddec5b2/rns-0.5.2.tar.gz
+[2023-05-12 12:47:57] INFO root fetch - processPackages [crawler-commons]: Downloading https://files.pythonhosted.org/packages/b7/49/420a89f7afb50de3eef38d3e69484dab0c02bf99644f7454ba28790d064a/crawler_commons-0.0.7.tar.gz
+[2023-05-12 12:47:57] INFO root fetch - processPackages [simple_openid_connect]: executing diffoscope
+[2023-05-12 12:47:57] INFO root fetch - processPackages [simple_openid_connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_openid_connect-0.2.1.tar.gz tmp/simple_openid_connect-0.2.2.tar.gz --markdown 20230512/s/simple_openid_connect/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-12 12:47:57] INFO root fetch - processPackages [rnspure]: executing diffoscope
+[2023-05-12 12:47:57] INFO root fetch - processPackages [rnspure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rnspure-0.5.1.tar.gz tmp/rnspure-0.5.2.tar.gz --markdown 20230512/r/rnspure/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-05-12 12:47:57] INFO root fetch - processPackages [rns]: executing diffoscope
+[2023-05-12 12:47:57] INFO root fetch - processPackages [rns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rns-0.5.1.tar.gz tmp/rns-0.5.2.tar.gz --markdown 20230512/r/rns/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-05-12 12:47:57] INFO root fetch - processPackages [crawler-commons]: executing diffoscope
+[2023-05-12 12:47:57] INFO root fetch - processPackages [crawler-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crawler_commons-0.0.6.tar.gz tmp/crawler_commons-0.0.7.tar.gz --markdown 20230512/c/crawler-commons/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-12 12:47:58] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-05-12 12:47:58] INFO root fetch - main [MainThread]: End processing [eswrap]: success
+[2023-05-12 12:47:58] INFO root fetch - main [MainThread]: End processing [fastapi-request-id]: success
+[2023-05-12 12:47:59] INFO root fetch - main [MainThread]: End processing [sarus]: success
+[2023-05-12 12:47:59] INFO root fetch - main [MainThread]: End processing [crawler-commons]: success
+[2023-05-12 12:47:59] INFO root fetch - main [MainThread]: End processing [simple_openid_connect]: success
+[2023-05-12 12:47:59] INFO root fetch - main [MainThread]: End processing [rns]: success
+[2023-05-12 12:48:01] INFO root fetch - main [MainThread]: End processing [rnspure]: success
+[2023-05-12 12:48:01] INFO root fetch - main [MainThread]: Store serial: [18076817]
