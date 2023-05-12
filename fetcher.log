@@ -4470,3 +4470,12 @@
 [2023-05-12 06:47:54] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-vms]: success
 [2023-05-12 06:47:58] INFO root fetch - main [MainThread]: End processing [guake]: success
 [2023-05-12 06:47:58] INFO root fetch - main [MainThread]: Store serial: [18073381]
+[2023-05-12 06:53:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18073381]
+[2023-05-12 06:53:07] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-05-12 06:53:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tencentcloud-sdk-python-vod
+[2023-05-12 06:53:08] INFO root fetch - processPackages [tencentcloud-sdk-python-vod]: New version: [3.0.890] Old Version: [3.0.889]
+[2023-05-12 06:53:08] INFO root fetch - processPackages [tencentcloud-sdk-python-vod]: Downloading https://files.pythonhosted.org/packages/c2/aa/d1bc82e6679e53dffdc74c6742fd6195a3bf5300e00e8febca03b362bcac/tencentcloud_sdk_python_vod-3.0.890-py2.py3-none-any.whl
+[2023-05-12 06:53:08] INFO root fetch - processPackages [tencentcloud-sdk-python-vod]: executing diffoscope
+[2023-05-12 06:53:08] INFO root fetch - processPackages [tencentcloud-sdk-python-vod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-vod-3.0.889.tar.gz tmp/tencentcloud_sdk_python_vod-3.0.890-py2.py3-none-any.whl.zip --markdown 20230512/t/tencentcloud-sdk-python-vod/3.0.889-3.0.890/diff.md --exclude *.pyd
+[2023-05-12 06:53:10] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-vod]: success
+[2023-05-12 06:53:10] INFO root fetch - main [MainThread]: Store serial: [18073385]
