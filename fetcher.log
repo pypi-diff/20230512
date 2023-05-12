@@ -11020,3 +11020,89 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-12 14:55:17] INFO root fetch - main [MainThread]: End processing [JBPhD]: success
 [2023-05-12 14:55:18] INFO root fetch - main [MainThread]: End processing [manticore]: success
 [2023-05-12 14:55:18] INFO root fetch - main [MainThread]: Store serial: [18078057]
+[2023-05-12 15:00:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18078057]
+[2023-05-12 15:00:28] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-12 15:00:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vcdip
+[2023-05-12 15:00:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wagtail-sharing
+[2023-05-12 15:00:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: invenio-records-marc21
+[2023-05-12 15:00:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: netcdf-to-csv
+[2023-05-12 15:00:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mlaas-sdk
+[2023-05-12 15:00:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pygnuutils
+[2023-05-12 15:00:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: blackjax-nightly
+[2023-05-12 15:00:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: AICreator
+[2023-05-12 15:00:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Hydro-Quebec-API-Wrapper
+[2023-05-12 15:00:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: reprotest
+[2023-05-12 15:00:28] INFO root fetch - processPackages [AICreator]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-12 15:00:28] INFO root fetch - processPackages [AICreator]: executing diffoscope
+[2023-05-12 15:00:28] INFO root fetch - processPackages [AICreator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AICreator-0.1.6.tar.gz tmp/AICreator-0.1.7.tar.gz --markdown 20230512/A/AICreator/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-12 15:00:28] WARNING root fetch - processPackages [mlaas-sdk]: Skipping, unable to determine old version
+[2023-05-12 15:00:28] INFO root fetch - processPackages [mlaas-sdk]: Start processing: netcdf-to-csv
+[2023-05-12 15:00:28] INFO root fetch - main [MainThread]: End processing [mlaas-sdk] error
+[2023-05-12 15:00:28] WARNING root fetch - processPackages [vcdip]: Skipping, unable to determine old version
+[2023-05-12 15:00:28] INFO root fetch - processPackages [vcdip]: Start processing: netcdf-meta
+[2023-05-12 15:00:28] INFO root fetch - main [MainThread]: End processing [vcdip] error
+[2023-05-12 15:00:28] INFO root fetch - processPackages [netcdf-to-csv]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-12 15:00:28] INFO root fetch - processPackages [wagtail-sharing]: New version: [2.9] Old Version: [2.8]
+[2023-05-12 15:00:28] INFO root fetch - processPackages [reprotest]: New version: [0.7.8] Old Version: [0.7.24]
+[2023-05-12 15:00:28] INFO root fetch - processPackages [invenio-records-marc21]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-12 15:00:28] INFO root fetch - processPackages [blackjax-nightly]: New version: [0.9.6.post99] Old Version: [0.9.6.post98]
+[2023-05-12 15:00:28] INFO root fetch - processPackages [Hydro-Quebec-API-Wrapper]: New version: [3.0.8] Old Version: [3.0.7]
+[2023-05-12 15:00:28] INFO root fetch - processPackages [pygnuutils]: New version: [0.1.1] Old Version: [0.0.7]
+[2023-05-12 15:00:28] INFO root fetch - processPackages [netcdf-to-csv]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-12 15:00:28] WARNING root fetch - processPackages [netcdf-meta]: Skipping, unable to determine old version
+[2023-05-12 15:00:28] INFO root fetch - processPackages [netcdf-meta]: Start processing: jupytercards
+[2023-05-12 15:00:28] INFO root fetch - main [MainThread]: End processing [netcdf-meta] error
+[2023-05-12 15:00:28] INFO root fetch - processPackages [jupytercards]: New version: [2.3.5] Old Version: [2.3.1]
+[2023-05-12 15:00:28] INFO root fetch - processPackages [netcdf-to-csv]: Downloading https://files.pythonhosted.org/packages/dc/37/8721015f54c42fccf0364b441d482e418b95eec63437c08d8114c72d43e7/netcdf-to-csv-1.0.1.tar.gz
+[2023-05-12 15:00:28] INFO root fetch - processPackages [reprotest]: Downloading https://files.pythonhosted.org/packages/74/c2/8b8f44d4c89cd22faccc87f92e22fa94ce1e7ce586a9d81b5702cbd4aaab/reprotest-0.7.24.tar.gz
+[2023-05-12 15:00:28] INFO root fetch - processPackages [netcdf-to-csv]: Downloading https://files.pythonhosted.org/packages/dc/37/8721015f54c42fccf0364b441d482e418b95eec63437c08d8114c72d43e7/netcdf-to-csv-1.0.1.tar.gz
+[2023-05-12 15:00:28] INFO root fetch - processPackages [Hydro-Quebec-API-Wrapper]: Downloading https://files.pythonhosted.org/packages/f7/65/2f8c4661877543f9b036e0862cec6cd30d46b0b2e2684a59865cb4b42865/Hydro-Quebec-API-Wrapper-3.0.7.tar.gz
+[2023-05-12 15:00:28] INFO root fetch - processPackages [wagtail-sharing]: Downloading https://files.pythonhosted.org/packages/e1/b4/37e239a825875e17abb86b87e12f6043d76d35abe508da834bea1e1f8635/wagtail-sharing-2.8.tar.gz
+[2023-05-12 15:00:28] INFO root fetch - processPackages [jupytercards]: executing diffoscope
+[2023-05-12 15:00:28] INFO root fetch - processPackages [jupytercards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupytercards-2.3.1.tar.gz tmp/jupytercards-2.3.5.tar.gz --markdown 20230512/j/jupytercards/2.3.1-2.3.5/diff.md --exclude *.pyd
+[2023-05-12 15:00:28] INFO root fetch - processPackages [blackjax-nightly]: executing diffoscope
+[2023-05-12 15:00:28] INFO root fetch - processPackages [blackjax-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blackjax-nightly-0.9.6.post98.tar.gz tmp/blackjax-nightly-0.9.6.post99.tar.gz --markdown 20230512/b/blackjax-nightly/0.9.6.post98-0.9.6.post99/diff.md --exclude *.pyd
+[2023-05-12 15:00:28] INFO root fetch - processPackages [pygnuutils]: Downloading https://files.pythonhosted.org/packages/03/20/6a828fe03d6586241b824ee06c7da854ea351716006a62fd2548eaa5710b/pygnuutils-0.1.1.tar.gz
+[2023-05-12 15:00:28] INFO root fetch - processPackages [netcdf-to-csv]: Downloading https://files.pythonhosted.org/packages/11/22/cba32657ce03b3e2e0f4a2efec3609ec1d08b5c58244e45c83d87fe78b0b/netcdf-to-csv-1.0.2.tar.gz
+[2023-05-12 15:00:28] INFO root fetch - processPackages [invenio-records-marc21]: executing diffoscope
+[2023-05-12 15:00:28] INFO root fetch - processPackages [invenio-records-marc21]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-records-marc21-0.9.1.tar.gz tmp/invenio-records-marc21-0.9.2.tar.gz --markdown 20230512/i/invenio-records-marc21/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-12 15:00:28] INFO root fetch - processPackages [netcdf-to-csv]: Downloading https://files.pythonhosted.org/packages/11/22/cba32657ce03b3e2e0f4a2efec3609ec1d08b5c58244e45c83d87fe78b0b/netcdf-to-csv-1.0.2.tar.gz
+[2023-05-12 15:00:28] INFO root fetch - processPackages [Hydro-Quebec-API-Wrapper]: Downloading https://files.pythonhosted.org/packages/e0/0f/c944bb2ca1b590deaa13c702ba77e83f273d511942c727c9d099a6e82cdb/Hydro-Quebec-API-Wrapper-3.0.8.tar.gz
+[2023-05-12 15:00:28] INFO root fetch - processPackages [reprotest]: Downloading https://files.pythonhosted.org/packages/02/b3/fbc845e7464827bf2f705fd2f4f99fe419fdd4e74d66c0f4ffc4a0e80aa8/reprotest-0.7.8.tar.gz
+[2023-05-12 15:00:28] INFO root fetch - processPackages [pygnuutils]: executing diffoscope
+[2023-05-12 15:00:28] INFO root fetch - processPackages [pygnuutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygnuutils-0.0.7.tar.gz tmp/pygnuutils-0.1.1.tar.gz --markdown 20230512/p/pygnuutils/0.0.7-0.1.1/diff.md --exclude *.pyd
+[2023-05-12 15:00:28] INFO root fetch - processPackages [netcdf-to-csv]: executing diffoscope
+[2023-05-12 15:00:28] INFO root fetch - processPackages [netcdf-to-csv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netcdf-to-csv-1.0.1.tar.gz tmp/netcdf-to-csv-1.0.2.tar.gz --markdown 20230512/n/netcdf-to-csv/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-12 15:00:28] INFO root fetch - processPackages [netcdf-to-csv]: executing diffoscope
+[2023-05-12 15:00:28] INFO root fetch - processPackages [netcdf-to-csv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netcdf-to-csv-1.0.1.tar.gz tmp/netcdf-to-csv-1.0.2.tar.gz --markdown 20230512/n/netcdf-to-csv/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-12 15:00:28] INFO root fetch - processPackages [wagtail-sharing]: Downloading https://files.pythonhosted.org/packages/d5/33/733a92a2cdad569026f05ee7e3b6f0afda39483e8d44bc39bf705579a86b/wagtail-sharing-2.9.tar.gz
+[2023-05-12 15:00:29] INFO root fetch - processPackages [wagtail-sharing]: executing diffoscope
+[2023-05-12 15:00:29] INFO root fetch - processPackages [wagtail-sharing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail-sharing-2.8.tar.gz tmp/wagtail-sharing-2.9.tar.gz --markdown 20230512/w/wagtail-sharing/2.8-2.9/diff.md --exclude *.pyd
+[2023-05-12 15:00:29] INFO root fetch - processPackages [Hydro-Quebec-API-Wrapper]: executing diffoscope
+[2023-05-12 15:00:29] INFO root fetch - processPackages [Hydro-Quebec-API-Wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Hydro-Quebec-API-Wrapper-3.0.7.tar.gz tmp/Hydro-Quebec-API-Wrapper-3.0.8.tar.gz --markdown 20230512/H/Hydro-Quebec-API-Wrapper/3.0.7-3.0.8/diff.md --exclude *.pyd
+[2023-05-12 15:00:29] INFO root fetch - processPackages [reprotest]: executing diffoscope
+[2023-05-12 15:00:29] INFO root fetch - processPackages [reprotest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reprotest-0.7.24.tar.gz tmp/reprotest-0.7.8.tar.gz --markdown 20230512/r/reprotest/0.7.24-0.7.8/diff.md --exclude *.pyd
+[2023-05-12 15:00:30] INFO root fetch - processPackages [jupytercards]: Start processing: AICreator
+[2023-05-12 15:00:30] INFO root fetch - main [MainThread]: End processing [jupytercards]: success
+[2023-05-12 15:00:30] INFO root fetch - processPackages [AICreator]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-12 15:00:30] INFO root fetch - processPackages [AICreator]: Start processing: AdsorptionBreakthroughAnalysis
+[2023-05-12 15:00:30] INFO root fetch - main [MainThread]: End processing [AICreator]: success
+[2023-05-12 15:00:30] INFO root fetch - processPackages [AICreator]: Downloading https://files.pythonhosted.org/packages/53/b6/328d7e3d260dbf46e55e7b3e1dfb66d8febb5d9173a2831c143373dafb4b/AICreator-0.1.8.tar.gz
+[2023-05-12 15:00:30] INFO root fetch - processPackages [AdsorptionBreakthroughAnalysis]: New version: [0.0.3.dev0] Old Version: [0.0.2]
+[2023-05-12 15:00:30] INFO root fetch - processPackages [AICreator]: Downloading https://files.pythonhosted.org/packages/77/a2/4d0a4c15e4123f1ee57bb455662e179c5112549ef3ba6e199f3aaea9614f/AICreator-0.1.9.tar.gz
+[2023-05-12 15:00:30] INFO root fetch - main [MainThread]: End processing [netcdf-to-csv]: success
+[2023-05-12 15:00:30] INFO root fetch - processPackages [AICreator]: executing diffoscope
+[2023-05-12 15:00:30] INFO root fetch - processPackages [AICreator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AICreator-0.1.8.tar.gz tmp/AICreator-0.1.9.tar.gz --markdown 20230512/A/AICreator/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-12 15:00:30] INFO root fetch - main [MainThread]: End processing [pygnuutils]: success
+[2023-05-12 15:00:30] INFO root fetch - main [MainThread]: End processing [netcdf-to-csv]: success
+[2023-05-12 15:00:30] INFO root fetch - processPackages [AdsorptionBreakthroughAnalysis]: Downloading https://files.pythonhosted.org/packages/33/c6/54cc2b4ba1d459c92c8f299ba7a26ea2c8ff7905faaec272245773520ab0/AdsorptionBreakthroughAnalysis-0.0.3.dev0.tar.gz
+[2023-05-12 15:00:30] INFO root fetch - main [MainThread]: End processing [wagtail-sharing]: success
+[2023-05-12 15:00:31] INFO root fetch - main [MainThread]: End processing [Hydro-Quebec-API-Wrapper]: success
+[2023-05-12 15:00:31] INFO root fetch - processPackages [AdsorptionBreakthroughAnalysis]: executing diffoscope
+[2023-05-12 15:00:31] INFO root fetch - processPackages [AdsorptionBreakthroughAnalysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AdsorptionBreakthroughAnalysis-0.0.2.tar.gz tmp/AdsorptionBreakthroughAnalysis-0.0.3.dev0.tar.gz --markdown 20230512/A/AdsorptionBreakthroughAnalysis/0.0.2-0.0.3.dev0/diff.md --exclude *.pyd
+[2023-05-12 15:00:31] INFO root fetch - main [MainThread]: End processing [AICreator]: success
+[2023-05-12 15:00:31] INFO root fetch - main [MainThread]: End processing [reprotest]: success
+[2023-05-12 15:00:32] INFO root fetch - main [MainThread]: End processing [blackjax-nightly]: success
+[2023-05-12 15:00:33] INFO root fetch - main [MainThread]: End processing [invenio-records-marc21]: success
+[2023-05-12 15:00:33] INFO root fetch - main [MainThread]: End processing [AdsorptionBreakthroughAnalysis]: success
+[2023-05-12 15:00:33] INFO root fetch - main [MainThread]: Store serial: [18078147]
