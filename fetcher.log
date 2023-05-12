@@ -18293,3 +18293,62 @@ EOFError: EOF read where object expected
 [2023-05-12 21:16:48] INFO root fetch - main [MainThread]: End processing [Keg-Auth]: success
 [2023-05-12 21:17:21] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-05-12 21:17:21] INFO root fetch - main [MainThread]: Store serial: [18082824]
+[2023-05-12 21:22:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18082824]
+[2023-05-12 21:22:30] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-12 21:22:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ovos-classifiers
+[2023-05-12 21:22:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: screeny
+[2023-05-12 21:22:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: peerai-python-sdk
+[2023-05-12 21:22:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: easyrequests
+[2023-05-12 21:22:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: compas-timber
+[2023-05-12 21:22:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sb6
+[2023-05-12 21:22:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sesg
+[2023-05-12 21:22:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: torchxrayvision
+[2023-05-12 21:22:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jaraco.packaging
+[2023-05-12 21:22:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: firepup650
+[2023-05-12 21:22:30] INFO root fetch - processPackages [screeny]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-12 21:22:30] WARNING root fetch - processPackages [peerai-python-sdk]: Skipping, unable to determine old version
+[2023-05-12 21:22:30] INFO root fetch - processPackages [peerai-python-sdk]: Start processing: vcdip
+[2023-05-12 21:22:30] INFO root fetch - main [MainThread]: End processing [peerai-python-sdk] error
+[2023-05-12 21:22:30] WARNING root fetch - processPackages [compas-timber]: Skipping, unable to determine old version
+[2023-05-12 21:22:30] INFO root fetch - processPackages [compas-timber]: Start processing: magyar
+[2023-05-12 21:22:30] INFO root fetch - main [MainThread]: End processing [compas-timber] error
+[2023-05-12 21:22:30] WARNING root fetch - processPackages [vcdip]: Skipping, unable to determine old version
+[2023-05-12 21:22:30] INFO root fetch - processPackages [vcdip]: Start processing: hbn-postprocessing
+[2023-05-12 21:22:30] INFO root fetch - main [MainThread]: End processing [vcdip] error
+[2023-05-12 21:22:30] INFO root fetch - processPackages [magyar]: New version: [3.0.2] Old Version: [3.0.1]
+[2023-05-12 21:22:30] INFO root fetch - processPackages [ovos-classifiers]: New version: [0.0.0a9] Old Version: [0.0.0a8]
+[2023-05-12 21:22:30] WARNING root fetch - processPackages [sb6]: Skipping, unable to determine old version
+[2023-05-12 21:22:30] INFO root fetch - main [MainThread]: End processing [sb6] error
+[2023-05-12 21:22:30] WARNING root fetch - processPackages [easyrequests]: Skipping, unable to determine old version
+[2023-05-12 21:22:30] INFO root fetch - processPackages [sesg]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 21:22:30] INFO root fetch - main [MainThread]: End processing [easyrequests] error
+[2023-05-12 21:22:30] INFO root fetch - processPackages [jaraco.packaging]: New version: [9.2.0] Old Version: [9.1.2]
+[2023-05-12 21:22:30] INFO root fetch - processPackages [firepup650]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-12 21:22:30] INFO root fetch - processPackages [torchxrayvision]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-12 21:22:30] WARNING root fetch - processPackages [hbn-postprocessing]: Skipping, unable to determine old version
+[2023-05-12 21:22:30] INFO root fetch - main [MainThread]: End processing [hbn-postprocessing] error
+[2023-05-12 21:22:30] INFO root fetch - processPackages [magyar]: executing diffoscope
+[2023-05-12 21:22:30] INFO root fetch - processPackages [magyar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magyar-3.0.1.tar.gz tmp/magyar-3.0.2.tar.gz --markdown 20230512/m/magyar/3.0.1-3.0.2/diff.md --exclude *.pyd
+[2023-05-12 21:22:30] INFO root fetch - processPackages [screeny]: Downloading https://files.pythonhosted.org/packages/e4/ce/f6c7567ff023274a76b712e57412cf60757a7f4739d02009e829d5367788/screeny-0.3.1.tar.gz
+[2023-05-12 21:22:30] INFO root fetch - processPackages [jaraco.packaging]: Downloading https://files.pythonhosted.org/packages/86/20/0b9141bcd3aec66ef6316547e629869921e02d99f0dabba4b5521bc09113/jaraco.packaging-9.1.2.tar.gz
+[2023-05-12 21:22:30] INFO root fetch - processPackages [screeny]: executing diffoscope
+[2023-05-12 21:22:30] INFO root fetch - processPackages [screeny]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/screeny-0.3.0.tar.gz tmp/screeny-0.3.1.tar.gz --markdown 20230512/s/screeny/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-12 21:22:30] INFO root fetch - processPackages [torchxrayvision]: Downloading https://files.pythonhosted.org/packages/f7/ae/3ac292a29335b4e3e53c939635d3eb587a77f19ceede83bacddc93f2120d/torchxrayvision-1.1.0.tar.gz
+[2023-05-12 21:22:30] WARNING root fetch - processPackages [torchxrayvision]: Skipping package: exceeds size limit 28980299>=10485760
+[2023-05-12 21:22:30] INFO root fetch - main [MainThread]: End processing [torchxrayvision] error
+[2023-05-12 21:22:30] INFO root fetch - processPackages [sesg]: executing diffoscope
+[2023-05-12 21:22:30] INFO root fetch - processPackages [sesg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sesg-0.0.8.tar.gz tmp/sesg-0.0.9.tar.gz --markdown 20230512/s/sesg/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 21:22:30] INFO root fetch - processPackages [ovos-classifiers]: executing diffoscope
+[2023-05-12 21:22:30] INFO root fetch - processPackages [ovos-classifiers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_classifiers-0.0.0a8-py3-none-any.whl.zip tmp/ovos_classifiers-0.0.0a9-py3-none-any.whl.zip --markdown 20230512/o/ovos-classifiers/0.0.0a8-0.0.0a9/diff.md --exclude *.pyd
+[2023-05-12 21:22:30] INFO root fetch - processPackages [jaraco.packaging]: Downloading https://files.pythonhosted.org/packages/46/60/c8469541f6f9ef3bb1bda7e33a99d4a744ad73d1eed562fcb48111a01d64/jaraco.packaging-9.2.0.tar.gz
+[2023-05-12 21:22:30] INFO root fetch - processPackages [firepup650]: executing diffoscope
+[2023-05-12 21:22:30] INFO root fetch - processPackages [firepup650]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/firepup650-1.0.8.tar.gz tmp/firepup650-1.0.9.tar.gz --markdown 20230512/f/firepup650/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-12 21:22:31] INFO root fetch - processPackages [jaraco.packaging]: executing diffoscope
+[2023-05-12 21:22:31] INFO root fetch - processPackages [jaraco.packaging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaraco.packaging-9.1.2.tar.gz tmp/jaraco.packaging-9.2.0.tar.gz --markdown 20230512/j/jaraco.packaging/9.1.2-9.2.0/diff.md --exclude *.pyd
+[2023-05-12 21:22:32] INFO root fetch - main [MainThread]: End processing [magyar]: success
+[2023-05-12 21:22:32] INFO root fetch - main [MainThread]: End processing [firepup650]: success
+[2023-05-12 21:22:32] INFO root fetch - main [MainThread]: End processing [ovos-classifiers]: success
+[2023-05-12 21:22:32] INFO root fetch - main [MainThread]: End processing [sesg]: success
+[2023-05-12 21:22:32] INFO root fetch - main [MainThread]: End processing [screeny]: success
+[2023-05-12 21:22:32] INFO root fetch - main [MainThread]: End processing [jaraco.packaging]: success
+[2023-05-12 21:22:32] INFO root fetch - main [MainThread]: Store serial: [18082995]
