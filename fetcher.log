@@ -12017,3 +12017,141 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-12 15:46:47] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
 [2023-05-12 15:47:03] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
 [2023-05-12 15:47:03] INFO root fetch - main [MainThread]: Store serial: [18078688]
+[2023-05-12 15:52:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18078688]
+[2023-05-12 15:52:15] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-05-12 15:52:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: splight-lib
+[2023-05-12 15:52:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oteapi-core
+[2023-05-12 15:52:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: benanalysis
+[2023-05-12 15:52:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cnki-html2json
+[2023-05-12 15:52:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fabric-orchestrator-client
+[2023-05-12 15:52:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: AICreatorPackage
+[2023-05-12 15:52:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fabrictestbed
+[2023-05-12 15:52:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: eir-dl
+[2023-05-12 15:52:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: marcflow
+[2023-05-12 15:52:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: python-quoridor
+[2023-05-12 15:52:15] INFO root fetch - processPackages [benanalysis]: New version: [3.0.0rc1] Old Version: [3.0.0]
+[2023-05-12 15:52:15] INFO root fetch - processPackages [oteapi-core]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-05-12 15:52:15] INFO root fetch - processPackages [cnki-html2json]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-12 15:52:15] INFO root fetch - processPackages [fabrictestbed]: New version: [1.5.0rc1] Old Version: [1.4.5rc3]
+[2023-05-12 15:52:15] INFO root fetch - processPackages [splight-lib]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-05-12 15:52:15] INFO root fetch - processPackages [fabrictestbed]: executing diffoscope
+[2023-05-12 15:52:15] INFO root fetch - processPackages [fabrictestbed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabrictestbed-1.4.5rc3.tar.gz tmp/fabrictestbed-1.5.0rc1.tar.gz --markdown 20230512/f/fabrictestbed/1.4.5rc3-1.5.0rc1/diff.md --exclude *.pyd
+[2023-05-12 15:52:15] WARNING root fetch - processPackages [python-quoridor]: Skipping, unable to determine old version
+[2023-05-12 15:52:15] INFO root fetch - processPackages [python-quoridor]: Start processing: cdascorer
+[2023-05-12 15:52:15] INFO root fetch - main [MainThread]: End processing [python-quoridor] error
+[2023-05-12 15:52:15] WARNING root fetch - processPackages [AICreatorPackage]: Skipping, unable to determine old version
+[2023-05-12 15:52:15] INFO root fetch - processPackages [AICreatorPackage]: Start processing: fabrictestbed-extensions
+[2023-05-12 15:52:15] INFO root fetch - processPackages [marcflow]: New version: [0.3] Old Version: [0.2]
+[2023-05-12 15:52:15] INFO root fetch - main [MainThread]: End processing [AICreatorPackage] error
+[2023-05-12 15:52:15] INFO root fetch - processPackages [eir-dl]: New version: [0.1.9a0] Old Version: [0.1.8a0]
+[2023-05-12 15:52:15] INFO root fetch - processPackages [fabric-orchestrator-client]: New version: [1.5.0rc2] Old Version: [1.5.0rc1]
+[2023-05-12 15:52:15] INFO root fetch - processPackages [benanalysis]: Downloading https://files.pythonhosted.org/packages/ca/f1/114e76975195dc7bdf1ced40b8937d88ad0ef8fb91df1a248c6750f595c1/benanalysis-3.0.0-cp39-cp39-win_amd64.whl
+[2023-05-12 15:52:15] INFO root fetch - processPackages [cdascorer]: New version: [0.0.0.dev9] Old Version: [0.0.0.dev8]
+[2023-05-12 15:52:15] INFO root fetch - processPackages [fabrictestbed-extensions]: New version: [1.5.0rc1] Old Version: [1.4.4rc1]
+[2023-05-12 15:52:15] INFO root fetch - processPackages [oteapi-core]: Downloading https://files.pythonhosted.org/packages/42/be/cf7a33ba33e2aa793c11950bdad378e6b50dd41b84068a3ad6fb66a64c7e/oteapi-core-0.4.1.tar.gz
+[2023-05-12 15:52:15] INFO root fetch - processPackages [marcflow]: Downloading https://files.pythonhosted.org/packages/46/36/224972c5f7f53bc507e3d6ebbc1aa9c26071ba91e5d743ec294e441032d6/marcflow-0.2.tar.gz
+[2023-05-12 15:52:15] INFO root fetch - processPackages [cdascorer]: executing diffoscope
+[2023-05-12 15:52:15] INFO root fetch - processPackages [cdascorer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdascorer-0.0.0.dev8.tar.gz tmp/cdascorer-0.0.0.dev9.tar.gz --markdown 20230512/c/cdascorer/0.0.0.dev8-0.0.0.dev9/diff.md --exclude *.pyd
+[2023-05-12 15:52:15] INFO root fetch - processPackages [fabrictestbed-extensions]: Downloading https://files.pythonhosted.org/packages/57/c1/74735e4bb3d2d6fe143ab9d408c04983cf52262c90556e95e04039f4a876/fabrictestbed-extensions-1.5.0rc1.tar.gz
+[2023-05-12 15:52:15] INFO root fetch - processPackages [splight-lib]: executing diffoscope
+[2023-05-12 15:52:15] INFO root fetch - processPackages [splight-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splight-lib-2.3.8.tar.gz tmp/splight-lib-2.3.9.tar.gz --markdown 20230512/s/splight-lib/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-05-12 15:52:15] INFO root fetch - processPackages [cnki-html2json]: Downloading https://files.pythonhosted.org/packages/4b/8a/4481218401b1ff0ad983c9fcd32e4e5b76c720a13a39f8d6dd5c9984c15b/cnki_html2json-0.1.9.tar.gz
+[2023-05-12 15:52:15] INFO root fetch - processPackages [oteapi-core]: Downloading https://files.pythonhosted.org/packages/04/a5/106472faf888148b4aa41c289297e0f2adae7613fc07f510f25351f53eed/oteapi-core-0.4.2.tar.gz
+[2023-05-12 15:52:15] INFO root fetch - processPackages [fabric-orchestrator-client]: Downloading https://files.pythonhosted.org/packages/ca/bf/670ab420e66ec0da1d71d4d9fcf8d0c013c4c47c5817bc81579a7973b976/fabric-orchestrator-client-1.5.0rc2.tar.gz
+[2023-05-12 15:52:15] INFO root fetch - processPackages [eir-dl]: executing diffoscope
+[2023-05-12 15:52:15] INFO root fetch - processPackages [eir-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eir-dl-0.1.8a0.tar.gz tmp/eir-dl-0.1.9a0.tar.gz --markdown 20230512/e/eir-dl/0.1.8a0-0.1.9a0/diff.md --exclude *.pyd
+[2023-05-12 15:52:15] INFO root fetch - processPackages [fabrictestbed-extensions]: executing diffoscope
+[2023-05-12 15:52:15] INFO root fetch - processPackages [fabrictestbed-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabrictestbed-extensions-1.4.4rc1.tar.gz tmp/fabrictestbed-extensions-1.5.0rc1.tar.gz --markdown 20230512/f/fabrictestbed-extensions/1.4.4rc1-1.5.0rc1/diff.md --exclude *.pyd
+[2023-05-12 15:52:15] INFO root fetch - processPackages [cnki-html2json]: executing diffoscope
+[2023-05-12 15:52:15] INFO root fetch - processPackages [cnki-html2json]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cnki_html2json-0.1.8.tar.gz tmp/cnki_html2json-0.1.9.tar.gz --markdown 20230512/c/cnki-html2json/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-12 15:52:15] INFO root fetch - processPackages [benanalysis]: Downloading https://files.pythonhosted.org/packages/8b/0e/af49509db6abce44b682d7efb17b16c1cbc6ac8fea3b99ef465e20d14533/benanalysis-3.0.0rc1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-12 15:52:15] INFO root fetch - processPackages [marcflow]: Downloading https://files.pythonhosted.org/packages/7a/bd/8cc31676fda37727de53823d54f850d4719e38a2df97e3dc4c6637d60c80/marcflow-0.3.tar.gz
+[2023-05-12 15:52:15] INFO root fetch - processPackages [oteapi-core]: executing diffoscope
+[2023-05-12 15:52:15] INFO root fetch - processPackages [oteapi-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oteapi-core-0.4.1.tar.gz tmp/oteapi-core-0.4.2.tar.gz --markdown 20230512/o/oteapi-core/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-05-12 15:52:15] INFO root fetch - processPackages [fabric-orchestrator-client]: executing diffoscope
+[2023-05-12 15:52:15] INFO root fetch - processPackages [fabric-orchestrator-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabric-orchestrator-client-1.5.0rc1.tar.gz tmp/fabric-orchestrator-client-1.5.0rc2.tar.gz --markdown 20230512/f/fabric-orchestrator-client/1.5.0rc1-1.5.0rc2/diff.md --exclude *.pyd
+[2023-05-12 15:52:16] INFO root fetch - processPackages [marcflow]: executing diffoscope
+[2023-05-12 15:52:16] INFO root fetch - processPackages [marcflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marcflow-0.2.tar.gz tmp/marcflow-0.3.tar.gz --markdown 20230512/m/marcflow/0.2-0.3/diff.md --exclude *.pyd
+[2023-05-12 15:52:16] ERROR root fetch - processPackages [fabric-orchestrator-client]: Diffoscope failed: Error: error creating container storage: the container name "awesome_matsumoto" is already in use by "ecc1821795a4830b417351285fff1729d697ca9c24e46d0b4e13a5f131653ee9". You have to remove that container to be able to reuse that name.: that name is already in use
+
+[2023-05-12 15:52:16] INFO root fetch - processPackages [fabric-orchestrator-client]: Start processing: Flask-AppBuilder
+[2023-05-12 15:52:16] INFO root fetch - main [MainThread]: End processing [fabric-orchestrator-client] error
+[2023-05-12 15:52:16] INFO root fetch - processPackages [Flask-AppBuilder]: New version: [4.3.2rc1] Old Version: [4.3.1rc1]
+[2023-05-12 15:52:16] INFO root fetch - processPackages [Flask-AppBuilder]: Downloading https://files.pythonhosted.org/packages/a6/ca/74f0f9a6069bd2ae1035a175ea3abee414bc15946f1429efb21611bb226c/Flask-AppBuilder-4.3.1rc1.tar.gz
+[2023-05-12 15:52:16] INFO root fetch - processPackages [benanalysis]: executing diffoscope
+[2023-05-12 15:52:16] INFO root fetch - processPackages [benanalysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benanalysis-3.0.0-cp39-cp39-win_amd64.whl.zip tmp/benanalysis-3.0.0rc1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230512/b/benanalysis/3.0.0-3.0.0rc1/diff.md --exclude *.pyd
+[2023-05-12 15:52:16] INFO root fetch - processPackages [fabrictestbed]: Start processing: cybrid-api-organization-python
+[2023-05-12 15:52:16] INFO root fetch - main [MainThread]: End processing [fabrictestbed]: success
+[2023-05-12 15:52:17] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-12 15:52:17] INFO root fetch - processPackages [cdascorer]: Start processing: cybrid-api-id-python
+[2023-05-12 15:52:17] INFO root fetch - main [MainThread]: End processing [cdascorer]: success
+[2023-05-12 15:52:17] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-12 15:52:17] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2023-05-12 15:52:17] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.9.8.tar.gz tmp/cybrid-api-organization-python-0.9.9.tar.gz --markdown 20230512/c/cybrid-api-organization-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-12 15:52:17] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2023-05-12 15:52:17] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.9.8.tar.gz tmp/cybrid-api-id-python-0.9.9.tar.gz --markdown 20230512/c/cybrid-api-id-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-12 15:52:17] INFO root fetch - processPackages [splight-lib]: Start processing: cybrid-api-bank-python
+[2023-05-12 15:52:17] INFO root fetch - main [MainThread]: End processing [splight-lib]: success
+[2023-05-12 15:52:17] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-12 15:52:17] INFO root fetch - processPackages [cnki-html2json]: Start processing: gravitypy
+[2023-05-12 15:52:17] INFO root fetch - main [MainThread]: End processing [cnki-html2json]: success
+[2023-05-12 15:52:17] INFO root fetch - processPackages [gravitypy]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-05-12 15:52:17] INFO root fetch - processPackages [eir-dl]: Start processing: schematodes
+[2023-05-12 15:52:17] INFO root fetch - main [MainThread]: End processing [eir-dl]: success
+[2023-05-12 15:52:17] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2023-05-12 15:52:17] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.9.8.tar.gz tmp/cybrid-api-bank-python-0.9.9.tar.gz --markdown 20230512/c/cybrid-api-bank-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-12 15:52:17] INFO root fetch - processPackages [marcflow]: Start processing: gridworks-atn
+[2023-05-12 15:52:17] INFO root fetch - main [MainThread]: End processing [marcflow]: success
+[2023-05-12 15:52:17] INFO root fetch - processPackages [Flask-AppBuilder]: Downloading https://files.pythonhosted.org/packages/56/8e/ca31cee5c8f4dfc24fface4bd3d453d2f824fec580cd0256be03a3612196/Flask-AppBuilder-4.3.2rc1.tar.gz
+[2023-05-12 15:52:17] INFO root fetch - processPackages [gridworks-atn]: New version: [0.3.2] Old Version: [0.2.4]
+[2023-05-12 15:52:17] INFO root fetch - processPackages [gravitypy]: Downloading https://files.pythonhosted.org/packages/7d/c1/5e593e5842cab217624bbade91a62003969e0ef87bdca2ff42ddfbb446c6/gravitypy-1.1.5.tar.gz
+[2023-05-12 15:52:17] INFO root fetch - processPackages [schematodes]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-12 15:52:17] INFO root fetch - processPackages [gridworks-atn]: executing diffoscope
+[2023-05-12 15:52:17] INFO root fetch - processPackages [gridworks-atn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gridworks_atn-0.2.4.tar.gz tmp/gridworks_atn-0.3.2.tar.gz --markdown 20230512/g/gridworks-atn/0.2.4-0.3.2/diff.md --exclude *.pyd
+[2023-05-12 15:52:17] INFO root fetch - processPackages [gravitypy]: executing diffoscope
+[2023-05-12 15:52:17] INFO root fetch - processPackages [gravitypy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gravitypy-1.1.4.tar.gz tmp/gravitypy-1.1.5.tar.gz --markdown 20230512/g/gravitypy/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-05-12 15:52:17] INFO root fetch - processPackages [schematodes]: Downloading https://files.pythonhosted.org/packages/54/0d/9e6cf0d130813fb5af173fa8e78dc21210a3b83a3466f21fea43e5282c0d/schematodes-0.1.0.tar.gz
+[2023-05-12 15:52:18] INFO root fetch - processPackages [schematodes]: Downloading https://files.pythonhosted.org/packages/67/fa/3fbc4e53eab4de2677a647ef6f844af36259ac698ccfcc5ecc5cfa03ac49/schematodes-0.2.0.tar.gz
+[2023-05-12 15:52:18] INFO root fetch - processPackages [schematodes]: executing diffoscope
+[2023-05-12 15:52:18] INFO root fetch - processPackages [schematodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schematodes-0.1.0.tar.gz tmp/schematodes-0.2.0.tar.gz --markdown 20230512/s/schematodes/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-12 15:52:18] INFO root fetch - processPackages [oteapi-core]: Start processing: mlflow-watsonml
+[2023-05-12 15:52:18] INFO root fetch - main [MainThread]: End processing [oteapi-core]: success
+[2023-05-12 15:52:18] INFO root fetch - processPackages [mlflow-watsonml]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-05-12 15:52:18] INFO root fetch - processPackages [mlflow-watsonml]: Downloading https://files.pythonhosted.org/packages/8d/89/0f1659cc96d2d101dd03e7d95ad54bf4461655222d8867ffe9cbd914679c/mlflow-watsonml-0.6.2.tar.gz
+[2023-05-12 15:52:18] INFO root fetch - processPackages [cybrid-api-organization-python]: Start processing: sf2
+[2023-05-12 15:52:18] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2023-05-12 15:52:18] INFO root fetch - processPackages [Flask-AppBuilder]: executing diffoscope
+[2023-05-12 15:52:18] INFO root fetch - processPackages [Flask-AppBuilder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Flask-AppBuilder-4.3.1rc1.tar.gz tmp/Flask-AppBuilder-4.3.2rc1.tar.gz --markdown 20230512/F/Flask-AppBuilder/4.3.1rc1-4.3.2rc1/diff.md --exclude *.pyd
+[2023-05-12 15:52:18] INFO root fetch - processPackages [benanalysis]: Start processing: processout
+[2023-05-12 15:52:18] INFO root fetch - main [MainThread]: End processing [benanalysis]: success
+[2023-05-12 15:52:18] INFO root fetch - processPackages [sf2]: New version: [2.0.0] Old Version: [1.4.0]
+[2023-05-12 15:52:18] INFO root fetch - processPackages [mlflow-watsonml]: Downloading https://files.pythonhosted.org/packages/2e/f7/f37ec308bbbb22c81f5046b729b938535e703b0f16775d6a2e8f73340042/mlflow-watsonml-0.6.3.tar.gz
+[2023-05-12 15:52:19] INFO root fetch - processPackages [processout]: New version: [6.9.0] Old Version: [6.8.0]
+[2023-05-12 15:52:19] INFO root fetch - processPackages [mlflow-watsonml]: executing diffoscope
+[2023-05-12 15:52:19] INFO root fetch - processPackages [mlflow-watsonml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlflow-watsonml-0.6.2.tar.gz tmp/mlflow-watsonml-0.6.3.tar.gz --markdown 20230512/m/mlflow-watsonml/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-05-12 15:52:19] INFO root fetch - processPackages [sf2]: Downloading https://files.pythonhosted.org/packages/9f/85/1e248f04dccad4bd805896973fc63e7becbd05eaaaa742045ee3bad13da5/sf2-1.4.0.tar.gz
+[2023-05-12 15:52:19] INFO root fetch - processPackages [gravitypy]: Start processing: graphicle
+[2023-05-12 15:52:19] INFO root fetch - main [MainThread]: End processing [gravitypy]: success
+[2023-05-12 15:52:19] INFO root fetch - processPackages [processout]: Downloading https://files.pythonhosted.org/packages/be/fe/6728a925bc3b2293cbe382aceeb88e48983a1285d9b5253971482d34e7a1/processout-6.8.0.tar.gz
+[2023-05-12 15:52:19] INFO root fetch - processPackages [sf2]: Downloading https://files.pythonhosted.org/packages/98/2d/0e29f89daddd9bbb61a442f503798af95d9d565da6e1f88043bd1a537819/sf2-2.0.0.tar.gz
+[2023-05-12 15:52:19] INFO root fetch - processPackages [graphicle]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-12 15:52:19] INFO root fetch - main [MainThread]: End processing [schematodes]: success
+[2023-05-12 15:52:19] INFO root fetch - processPackages [sf2]: executing diffoscope
+[2023-05-12 15:52:19] INFO root fetch - processPackages [sf2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sf2-1.4.0.tar.gz tmp/sf2-2.0.0.tar.gz --markdown 20230512/s/sf2/1.4.0-2.0.0/diff.md --exclude *.pyd
+[2023-05-12 15:52:19] INFO root fetch - processPackages [processout]: Downloading https://files.pythonhosted.org/packages/c1/0d/b8dcfe0e184e85295e07643b78bea7d3ef704aa2c8b5e4e089968b172644/processout-6.9.0.tar.gz
+[2023-05-12 15:52:19] INFO root fetch - processPackages [graphicle]: Downloading https://files.pythonhosted.org/packages/6a/d6/e84a6dcc5c7b4ddd64bac013a70e4b8275630396661dce769dbc8785b00b/graphicle-0.2.8.tar.gz
+[2023-05-12 15:52:19] INFO root fetch - processPackages [processout]: executing diffoscope
+[2023-05-12 15:52:19] INFO root fetch - processPackages [processout]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/processout-6.8.0.tar.gz tmp/processout-6.9.0.tar.gz --markdown 20230512/p/processout/6.8.0-6.9.0/diff.md --exclude *.pyd
+[2023-05-12 15:52:19] INFO root fetch - processPackages [graphicle]: Downloading https://files.pythonhosted.org/packages/bc/3b/0e9053e582b9521708aadd4dafdcbb0225f91eceaec2ae15e7db501e9062/graphicle-0.2.9.tar.gz
+[2023-05-12 15:52:20] INFO root fetch - processPackages [graphicle]: executing diffoscope
+[2023-05-12 15:52:20] INFO root fetch - processPackages [graphicle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphicle-0.2.8.tar.gz tmp/graphicle-0.2.9.tar.gz --markdown 20230512/g/graphicle/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-12 15:52:20] INFO root fetch - main [MainThread]: End processing [gridworks-atn]: success
+[2023-05-12 15:52:20] INFO root fetch - main [MainThread]: End processing [fabrictestbed-extensions]: success
+[2023-05-12 15:52:20] INFO root fetch - main [MainThread]: End processing [mlflow-watsonml]: success
+[2023-05-12 15:52:20] INFO root fetch - main [MainThread]: End processing [sf2]: success
+[2023-05-12 15:52:20] INFO root fetch - main [MainThread]: End processing [processout]: success
+[2023-05-12 15:52:21] INFO root fetch - main [MainThread]: End processing [graphicle]: success
+[2023-05-12 15:52:21] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2023-05-12 15:52:24] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2023-05-12 15:52:32] INFO root fetch - main [MainThread]: End processing [Flask-AppBuilder]: success
+[2023-05-12 15:52:32] INFO root fetch - main [MainThread]: Store serial: [18078845]
