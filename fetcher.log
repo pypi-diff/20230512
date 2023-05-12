@@ -2756,3 +2756,79 @@
 [2023-05-12 04:25:55] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-iecp]: success
 [2023-05-12 04:25:56] INFO root fetch - main [MainThread]: End processing [funasr-onnx]: success
 [2023-05-12 04:25:56] INFO root fetch - main [MainThread]: Store serial: [18072390]
+[2023-05-12 04:31:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18072390]
+[2023-05-12 04:31:05] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-12 04:31:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: smartis-sdk
+[2023-05-12 04:31:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sparseSEM
+[2023-05-12 04:31:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk8s-plus-24
+[2023-05-12 04:31:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: iam-actions
+[2023-05-12 04:31:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tencentcloud-sdk-python-ims
+[2023-05-12 04:31:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: funasr-onnx
+[2023-05-12 04:31:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pydrawise
+[2023-05-12 04:31:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk8s-plus-26
+[2023-05-12 04:31:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xdatasets
+[2023-05-12 04:31:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdk8s-plus-25
+[2023-05-12 04:31:05] INFO root fetch - processPackages [funasr-onnx]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 04:31:05] INFO root fetch - processPackages [cdk8s-plus-25]: New version: [2.7.9] Old Version: [2.7.8]
+[2023-05-12 04:31:05] INFO root fetch - processPackages [funasr-onnx]: executing diffoscope
+[2023-05-12 04:31:05] INFO root fetch - processPackages [funasr-onnx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funasr_onnx-0.0.8.tar.gz tmp/funasr_onnx-0.0.9.tar.gz --markdown 20230512/f/funasr-onnx/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 04:31:05] WARNING root fetch - processPackages [sparseSEM]: Skipping, unable to determine old version
+[2023-05-12 04:31:05] INFO root fetch - processPackages [sparseSEM]: Start processing: dbt-ai
+[2023-05-12 04:31:05] INFO root fetch - main [MainThread]: End processing [sparseSEM] error
+[2023-05-12 04:31:05] INFO root fetch - processPackages [smartis-sdk]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-12 04:31:05] INFO root fetch - processPackages [cdk8s-plus-25]: executing diffoscope
+[2023-05-12 04:31:05] INFO root fetch - processPackages [cdk8s-plus-25]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-25-2.7.8.tar.gz tmp/cdk8s-plus-25-2.7.9.tar.gz --markdown 20230512/c/cdk8s-plus-25/2.7.8-2.7.9/diff.md --exclude *.pyd
+[2023-05-12 04:31:05] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20230512] Old Version: [1.2.20230511]
+[2023-05-12 04:31:05] INFO root fetch - processPackages [dbt-ai]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-05-12 04:31:05] INFO root fetch - processPackages [cdk8s-plus-26]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-05-12 04:31:05] INFO root fetch - processPackages [pydrawise]: New version: [2023.5.0] Old Version: [2023.1.4]
+[2023-05-12 04:31:05] INFO root fetch - processPackages [dbt-ai]: executing diffoscope
+[2023-05-12 04:31:05] INFO root fetch - processPackages [dbt-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-ai-0.2.6.tar.gz tmp/dbt_ai-0.2.7-py3-none-any.whl.zip --markdown 20230512/d/dbt-ai/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-05-12 04:31:05] INFO root fetch - processPackages [xdatasets]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-05-12 04:31:05] INFO root fetch - processPackages [cdk8s-plus-24]: New version: [2.7.9] Old Version: [2.7.8]
+[2023-05-12 04:31:05] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/cf/cb/505ebc2ce4dbe2f0f9ee9a8a667a03fba6ef79f2b33790c89aa003187985/iam_actions-1.2.20230512.tar.gz
+[2023-05-12 04:31:05] INFO root fetch - processPackages [cdk8s-plus-24]: executing diffoscope
+[2023-05-12 04:31:05] INFO root fetch - processPackages [cdk8s-plus-24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-24-2.7.8.tar.gz tmp/cdk8s-plus-24-2.7.9.tar.gz --markdown 20230512/c/cdk8s-plus-24/2.7.8-2.7.9/diff.md --exclude *.pyd
+[2023-05-12 04:31:05] INFO root fetch - processPackages [smartis-sdk]: Downloading https://files.pythonhosted.org/packages/58/25/15e1eab0534393d937ab2e065ec4fe3115adb1bf0c43974438c135531848/smartis_sdk-0.1.0.tar.gz
+[2023-05-12 04:31:05] INFO root fetch - processPackages [tencentcloud-sdk-python-ims]: New version: [3.0.890] Old Version: [3.0.889]
+[2023-05-12 04:31:05] INFO root fetch - processPackages [pydrawise]: Downloading https://files.pythonhosted.org/packages/e3/74/17f53ba20dca8cd24b1b7d5ef2a1a62d7cd31e7ecec5f41439f0330d5948/pydrawise-2023.1.4.tar.gz
+[2023-05-12 04:31:05] INFO root fetch - processPackages [cdk8s-plus-26]: executing diffoscope
+[2023-05-12 04:31:05] INFO root fetch - processPackages [cdk8s-plus-26]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-26-2.3.8.tar.gz tmp/cdk8s-plus-26-2.3.9.tar.gz --markdown 20230512/c/cdk8s-plus-26/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-05-12 04:31:05] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2023-05-12 04:31:05] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20230511.tar.gz tmp/iam_actions-1.2.20230512.tar.gz --markdown 20230512/i/iam-actions/1.2.20230511-1.2.20230512/diff.md --exclude *.pyd
+[2023-05-12 04:31:05] INFO root fetch - processPackages [tencentcloud-sdk-python-ims]: Downloading https://files.pythonhosted.org/packages/7c/9d/ebd9251cfe15c7004afa9318fa36f0f25e90a230685f79a10df8ab5fe9d6/tencentcloud_sdk_python_ims-3.0.890-py2.py3-none-any.whl
+[2023-05-12 04:31:05] INFO root fetch - processPackages [smartis-sdk]: Downloading https://files.pythonhosted.org/packages/ea/c8/531522d2e0f84b278d9431386ae8727eb911fed41cb26d55c79b0ecbcf88/smartis_sdk-0.2.0.tar.gz
+[2023-05-12 04:31:05] INFO root fetch - processPackages [xdatasets]: Downloading https://files.pythonhosted.org/packages/fb/34/61ce213bfdc1560a8896e683253ef0e7a84ab7c8912a2bf418990f174fb4/xdatasets-0.2.7.tar.gz
+[2023-05-12 04:31:05] INFO root fetch - processPackages [xdatasets]: executing diffoscope
+[2023-05-12 04:31:05] INFO root fetch - processPackages [xdatasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xdatasets-0.2.6.tar.gz tmp/xdatasets-0.2.7.tar.gz --markdown 20230512/x/xdatasets/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-05-12 04:31:05] INFO root fetch - processPackages [pydrawise]: Downloading https://files.pythonhosted.org/packages/cc/ea/2e0780bf50671491816b16f5732f509deef0df3e6b3caeb2137adf00cb2b/pydrawise-2023.5.0.tar.gz
+[2023-05-12 04:31:05] INFO root fetch - processPackages [tencentcloud-sdk-python-ims]: executing diffoscope
+[2023-05-12 04:31:05] INFO root fetch - processPackages [tencentcloud-sdk-python-ims]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-ims-3.0.889.tar.gz tmp/tencentcloud_sdk_python_ims-3.0.890-py2.py3-none-any.whl.zip --markdown 20230512/t/tencentcloud-sdk-python-ims/3.0.889-3.0.890/diff.md --exclude *.pyd
+[2023-05-12 04:31:05] INFO root fetch - processPackages [smartis-sdk]: executing diffoscope
+[2023-05-12 04:31:05] INFO root fetch - processPackages [smartis-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartis_sdk-0.1.0.tar.gz tmp/smartis_sdk-0.2.0.tar.gz --markdown 20230512/s/smartis-sdk/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-12 04:31:05] INFO root fetch - processPackages [pydrawise]: executing diffoscope
+[2023-05-12 04:31:05] INFO root fetch - processPackages [pydrawise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydrawise-2023.1.4.tar.gz tmp/pydrawise-2023.5.0.tar.gz --markdown 20230512/p/pydrawise/2023.1.4-2023.5.0/diff.md --exclude *.pyd
+[2023-05-12 04:31:06] INFO root fetch - processPackages [dbt-ai]: Start processing: capcalc
+[2023-05-12 04:31:06] INFO root fetch - main [MainThread]: End processing [dbt-ai]: success
+[2023-05-12 04:31:06] INFO root fetch - processPackages [capcalc]: New version: [1.3.5] Old Version: [1.3.4]
+[2023-05-12 04:31:07] INFO root fetch - processPackages [capcalc]: Downloading https://files.pythonhosted.org/packages/6a/48/3176aa5a9e8f2e51f1d76b602168d1362950e586daac895478b7385ce652/capcalc-1.3.4.tar.gz
+[2023-05-12 04:31:07] INFO root fetch - processPackages [cdk8s-plus-24]: Start processing: pydal
+[2023-05-12 04:31:07] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-24]: success
+[2023-05-12 04:31:07] INFO root fetch - main [MainThread]: End processing [funasr-onnx]: success
+[2023-05-12 04:31:07] INFO root fetch - processPackages [pydal]: New version: [20230511.1] Old Version: [20230507.3]
+[2023-05-12 04:31:07] INFO root fetch - processPackages [capcalc]: Downloading https://files.pythonhosted.org/packages/1a/03/467c3058cc682df6a4b3deacf855fcf548e59345f3f5d1b6d0a036d5b455/capcalc-1.3.5.tar.gz
+[2023-05-12 04:31:07] INFO root fetch - processPackages [capcalc]: executing diffoscope
+[2023-05-12 04:31:07] INFO root fetch - processPackages [capcalc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capcalc-1.3.4.tar.gz tmp/capcalc-1.3.5.tar.gz --markdown 20230512/c/capcalc/1.3.4-1.3.5/diff.md --exclude *.pyd
+[2023-05-12 04:31:07] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
+[2023-05-12 04:31:07] INFO root fetch - main [MainThread]: End processing [smartis-sdk]: success
+[2023-05-12 04:31:07] INFO root fetch - processPackages [pydal]: Downloading https://files.pythonhosted.org/packages/82/aa/4cdff70e75770d3fde73a19e4eb896050984b188335a95e0e43b2c604095/pydal-20230511.1.tar.gz
+[2023-05-12 04:31:07] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-ims]: success
+[2023-05-12 04:31:07] INFO root fetch - main [MainThread]: End processing [xdatasets]: success
+[2023-05-12 04:31:07] INFO root fetch - main [MainThread]: End processing [pydrawise]: success
+[2023-05-12 04:31:08] INFO root fetch - processPackages [pydal]: executing diffoscope
+[2023-05-12 04:31:08] INFO root fetch - processPackages [pydal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydal-20230507.3.tar.gz tmp/pydal-20230511.1.tar.gz --markdown 20230512/p/pydal/20230507.3-20230511.1/diff.md --exclude *.pyd
+[2023-05-12 04:31:09] INFO root fetch - main [MainThread]: End processing [capcalc]: success
+[2023-05-12 04:31:09] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-25]: success
+[2023-05-12 04:31:09] INFO root fetch - main [MainThread]: End processing [pydal]: success
+[2023-05-12 04:31:11] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2023-05-12 04:31:11] INFO root fetch - main [MainThread]: Store serial: [18072433]
