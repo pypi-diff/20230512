@@ -6868,3 +6868,113 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-12 10:12:08] INFO root fetch - main [MainThread]: End processing [returnn]: success
 [2023-05-12 10:12:08] INFO root fetch - main [MainThread]: End processing [smart-app-framework]: success
 [2023-05-12 10:12:08] INFO root fetch - main [MainThread]: Store serial: [18075152]
+[2023-05-12 10:17:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18075152]
+[2023-05-12 10:17:17] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-12 10:17:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lanceotron
+[2023-05-12 10:17:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: twitter-api-py
+[2023-05-12 10:17:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: doeloe
+[2023-05-12 10:17:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-hotel
+[2023-05-12 10:17:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hikari-core
+[2023-05-12 10:17:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: es7s
+[2023-05-12 10:17:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tootstagram
+[2023-05-12 10:17:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyimporters-csv
+[2023-05-12 10:17:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-hotel
+[2023-05-12 10:17:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: griffe
+[2023-05-12 10:17:17] INFO root fetch - processPackages [lanceotron]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-05-12 10:17:17] INFO root fetch - processPackages [odoo14-addon-hotel]: New version: [14.0.1.0.1.dev9] Old Version: [14.0.1.0.1.dev7]
+[2023-05-12 10:17:17] INFO root fetch - processPackages [pyimporters-csv]: New version: [0.4.98] Old Version: [0.4.96]
+[2023-05-12 10:17:17] WARNING root fetch - processPackages [hikari-core]: Skipping, unable to determine old version
+[2023-05-12 10:17:17] INFO root fetch - processPackages [tootstagram]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-12 10:17:17] INFO root fetch - processPackages [hikari-core]: Start processing: testhhhhnko0912
+[2023-05-12 10:17:17] INFO root fetch - main [MainThread]: End processing [hikari-core] error
+[2023-05-12 10:17:17] INFO root fetch - processPackages [odoo-addon-hotel]: New version: [15.0.1.0.0.9] Old Version: [15.0.1.0.0.8]
+[2023-05-12 10:17:17] INFO root fetch - processPackages [es7s]: New version: [3.6.0.dev0] Old Version: [3.5.0.dev0]
+[2023-05-12 10:17:17] INFO root fetch - processPackages [griffe]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-12 10:17:17] INFO root fetch - processPackages [twitter-api-py]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-12 10:17:17] WARNING root fetch - processPackages [testhhhhnko0912]: Skipping, unable to determine old version
+[2023-05-12 10:17:17] INFO root fetch - processPackages [testhhhhnko0912]: Start processing: CosmoTech-Acceleration-Library
+[2023-05-12 10:17:17] INFO root fetch - main [MainThread]: End processing [testhhhhnko0912] error
+[2023-05-12 10:17:17] INFO root fetch - processPackages [CosmoTech-Acceleration-Library]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-12 10:17:17] WARNING root fetch - processPackages [doeloe]: Skipping, unable to determine old version
+[2023-05-12 10:17:17] INFO root fetch - processPackages [doeloe]: Start processing: install-torch
+[2023-05-12 10:17:17] INFO root fetch - main [MainThread]: End processing [doeloe] error
+[2023-05-12 10:17:17] WARNING root fetch - processPackages [install-torch]: Skipping, unable to determine old version
+[2023-05-12 10:17:17] INFO root fetch - processPackages [install-torch]: Start processing: BDMLtools
+[2023-05-12 10:17:17] INFO root fetch - main [MainThread]: End processing [install-torch] error
+[2023-05-12 10:17:17] INFO root fetch - processPackages [BDMLtools]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-05-12 10:17:17] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/85/49/8731778df26b93885c58aaa24ef7a03a3b978e531d33767c30f266673980/pyimporters-csv-0.4.96.tar.gz
+[2023-05-12 10:17:17] INFO root fetch - processPackages [lanceotron]: Downloading https://files.pythonhosted.org/packages/5d/90/e450820f7008f885271cce4240009e72477d1ef1cea6d9ee4971897f0091/lanceotron-1.2.3-py3-none-any.whl
+[2023-05-12 10:17:17] INFO root fetch - processPackages [tootstagram]: Downloading https://files.pythonhosted.org/packages/17/4f/68ef84be6b50efb9a14572e96329469836869c7c166f76a10af50637ad3c/tootstagram-0.0.5.tar.gz
+[2023-05-12 10:17:18] INFO root fetch - processPackages [BDMLtools]: Downloading https://files.pythonhosted.org/packages/a2/60/4e94f752103b1afa836b6bf52a78224cf46702ceb57b88e6f945125ee9c8/BDMLtools-0.3.5.tar.gz
+[2023-05-12 10:17:18] INFO root fetch - processPackages [es7s]: executing diffoscope
+[2023-05-12 10:17:18] INFO root fetch - processPackages [es7s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/es7s-3.5.0.dev0.tar.gz tmp/es7s-3.6.0.dev0.tar.gz --markdown 20230512/e/es7s/3.5.0.dev0-3.6.0.dev0/diff.md --exclude *.pyd
+[2023-05-12 10:17:18] INFO root fetch - processPackages [odoo-addon-hotel]: executing diffoscope
+[2023-05-12 10:17:18] INFO root fetch - processPackages [odoo-addon-hotel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_hotel-15.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_hotel-15.0.1.0.0.9-py3-none-any.whl.zip --markdown 20230512/o/odoo-addon-hotel/15.0.1.0.0.8-15.0.1.0.0.9/diff.md --exclude *.pyd
+[2023-05-12 10:17:18] INFO root fetch - processPackages [griffe]: executing diffoscope
+[2023-05-12 10:17:18] INFO root fetch - processPackages [griffe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/griffe-0.8.0.tar.gz tmp/griffe-0.9.0.tar.gz --markdown 20230512/g/griffe/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-12 10:17:18] INFO root fetch - processPackages [twitter-api-py]: executing diffoscope
+[2023-05-12 10:17:18] INFO root fetch - processPackages [twitter-api-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twitter_api_py-0.4.8.tar.gz tmp/twitter_api_py-0.4.9.tar.gz --markdown 20230512/t/twitter-api-py/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-05-12 10:17:18] INFO root fetch - processPackages [CosmoTech-Acceleration-Library]: executing diffoscope
+[2023-05-12 10:17:18] INFO root fetch - processPackages [CosmoTech-Acceleration-Library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CosmoTech_Acceleration_Library-0.2.8.tar.gz tmp/CosmoTech_Acceleration_Library-0.2.9.tar.gz --markdown 20230512/C/CosmoTech-Acceleration-Library/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-12 10:17:18] INFO root fetch - processPackages [odoo14-addon-hotel]: executing diffoscope
+[2023-05-12 10:17:18] INFO root fetch - processPackages [odoo14-addon-hotel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_hotel-14.0.1.0.1.dev7-py3-none-any.whl.zip tmp/odoo14_addon_hotel-14.0.1.0.1.dev9-py3-none-any.whl.zip --markdown 20230512/o/odoo14-addon-hotel/14.0.1.0.1.dev7-14.0.1.0.1.dev9/diff.md --exclude *.pyd
+[2023-05-12 10:17:18] INFO root fetch - processPackages [tootstagram]: Downloading https://files.pythonhosted.org/packages/5a/1c/d85b2131fd09c315ee04dfef0250ebb89a24942ee137ab9b32eff979b9cd/tootstagram-0.0.6-py3-none-any.whl
+[2023-05-12 10:17:18] INFO root fetch - processPackages [lanceotron]: Downloading https://files.pythonhosted.org/packages/44/fa/7b26bc0f97ad041562adb1ba27aecc0b27cd84a8642911bea08c107b0c3f/lanceotron-1.2.4-py3-none-any.whl
+[2023-05-12 10:17:18] INFO root fetch - processPackages [tootstagram]: executing diffoscope
+[2023-05-12 10:17:18] INFO root fetch - processPackages [BDMLtools]: Downloading https://files.pythonhosted.org/packages/8e/6d/fe66277722ee189a21a4f30e315c82f010059370b0767c745251cbddde36/BDMLtools-0.3.6.tar.gz
+[2023-05-12 10:17:18] INFO root fetch - processPackages [tootstagram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tootstagram-0.0.5.tar.gz tmp/tootstagram-0.0.6-py3-none-any.whl.zip --markdown 20230512/t/tootstagram/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-12 10:17:18] INFO root fetch - processPackages [lanceotron]: executing diffoscope
+[2023-05-12 10:17:18] INFO root fetch - processPackages [lanceotron]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lanceotron-1.2.3-py3-none-any.whl.zip tmp/lanceotron-1.2.4-py3-none-any.whl.zip --markdown 20230512/l/lanceotron/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-05-12 10:17:18] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/8b/2c/1f0de790074110fe1ce2035d0e9b3bb8e29aa0c961addfeb5b5924ccebbb/pyimporters-csv-0.4.98.tar.gz
+[2023-05-12 10:17:18] INFO root fetch - processPackages [BDMLtools]: executing diffoscope
+[2023-05-12 10:17:18] INFO root fetch - processPackages [BDMLtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BDMLtools-0.3.5.tar.gz tmp/BDMLtools-0.3.6.tar.gz --markdown 20230512/B/BDMLtools/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-05-12 10:17:18] INFO root fetch - processPackages [pyimporters-csv]: executing diffoscope
+[2023-05-12 10:17:18] INFO root fetch - processPackages [pyimporters-csv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyimporters-csv-0.4.96.tar.gz tmp/pyimporters-csv-0.4.98.tar.gz --markdown 20230512/p/pyimporters-csv/0.4.96-0.4.98/diff.md --exclude *.pyd
+[2023-05-12 10:17:19] INFO root fetch - processPackages [tootstagram]: Start processing: chrislab
+[2023-05-12 10:17:19] INFO root fetch - main [MainThread]: End processing [tootstagram]: success
+[2023-05-12 10:17:19] INFO root fetch - processPackages [chrislab]: New version: [0.5.0a0] Old Version: [0.4.4]
+[2023-05-12 10:17:20] INFO root fetch - processPackages [chrislab]: Downloading https://files.pythonhosted.org/packages/39/f1/5aec4d11a39e2777d0a40f64d2e77d5f1ced378f6b3d72295852bc27e1e8/chrislab-0.4.4.tar.gz
+[2023-05-12 10:17:20] INFO root fetch - processPackages [odoo-addon-hotel]: Start processing: opta
+[2023-05-12 10:17:20] INFO root fetch - main [MainThread]: End processing [odoo-addon-hotel]: success
+[2023-05-12 10:17:20] INFO root fetch - processPackages [opta]: New version: [0.6.1] Old Version: [0.3.3]
+[2023-05-12 10:17:20] INFO root fetch - processPackages [chrislab]: Downloading https://files.pythonhosted.org/packages/10/ce/12b3131b01c5c0e6f7d8158008d1c0638e9a9dfa0d8bd8d8d80292ca86e5/chrislab-0.5.0a0.tar.gz
+[2023-05-12 10:17:20] INFO root fetch - processPackages [es7s]: Start processing: deale-shared-library
+[2023-05-12 10:17:20] INFO root fetch - main [MainThread]: End processing [es7s]: success
+[2023-05-12 10:17:20] INFO root fetch - processPackages [deale-shared-library]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-05-12 10:17:20] INFO root fetch - processPackages [pyimporters-csv]: Start processing: spaceone-repository
+[2023-05-12 10:17:20] INFO root fetch - main [MainThread]: End processing [pyimporters-csv]: success
+[2023-05-12 10:17:20] INFO root fetch - processPackages [BDMLtools]: Start processing: APIxoo
+[2023-05-12 10:17:20] INFO root fetch - main [MainThread]: End processing [BDMLtools]: success
+[2023-05-12 10:17:20] INFO root fetch - processPackages [spaceone-repository]: New version: [1.9.7rc1] Old Version: [1.9.7.1]
+[2023-05-12 10:17:20] INFO root fetch - processPackages [chrislab]: executing diffoscope
+[2023-05-12 10:17:20] INFO root fetch - processPackages [chrislab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chrislab-0.4.4.tar.gz tmp/chrislab-0.5.0a0.tar.gz --markdown 20230512/c/chrislab/0.4.4-0.5.0a0/diff.md --exclude *.pyd
+[2023-05-12 10:17:20] INFO root fetch - processPackages [opta]: Downloading https://files.pythonhosted.org/packages/a5/85/f69cb3572d631f23f297224de8ca1849a820252424df6d1c1812bc385115/opta-0.6.1-py3-none-any.whl
+[2023-05-12 10:17:20] INFO root fetch - processPackages [APIxoo]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-12 10:17:20] INFO root fetch - processPackages [CosmoTech-Acceleration-Library]: Start processing: irene-pro
+[2023-05-12 10:17:20] INFO root fetch - main [MainThread]: End processing [CosmoTech-Acceleration-Library]: success
+[2023-05-12 10:17:20] INFO root fetch - processPackages [deale-shared-library]: Downloading https://files.pythonhosted.org/packages/8c/cf/293a65c6e3775e101cce93fe59bcc7086b07b66e4e36e2e05949e5e0a2bd/deale_shared_library-0.0.1.tar.gz
+[2023-05-12 10:17:20] INFO root fetch - processPackages [irene-pro]: New version: [0.0.26] Old Version: [0.0.23]
+[2023-05-12 10:17:20] INFO root fetch - processPackages [opta]: executing diffoscope
+[2023-05-12 10:17:20] INFO root fetch - processPackages [opta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opta-0.3.3.tar.gz tmp/opta-0.6.1-py3-none-any.whl.zip --markdown 20230512/o/opta/0.3.3-0.6.1/diff.md --exclude *.pyd
+[2023-05-12 10:17:20] INFO root fetch - processPackages [irene-pro]: executing diffoscope
+[2023-05-12 10:17:20] INFO root fetch - processPackages [irene-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irene_pro-0.0.23.tar.gz tmp/irene_pro-0.0.26.tar.gz --markdown 20230512/i/irene-pro/0.0.23-0.0.26/diff.md --exclude *.pyd
+[2023-05-12 10:17:20] INFO root fetch - processPackages [APIxoo]: Downloading https://files.pythonhosted.org/packages/57/5e/f4637840838e6815282303b36d770f1d165a56a673d3ffa9a621c50789b6/APIxoo-0.1.0.tar.gz
+[2023-05-12 10:17:20] INFO root fetch - processPackages [deale-shared-library]: Downloading https://files.pythonhosted.org/packages/a1/6a/c18c2da00767d1991fb67937e8478cd3a106857da56560fcbf27de6675c5/deale_shared_library-0.0.3.tar.gz
+[2023-05-12 10:17:20] INFO root fetch - processPackages [spaceone-repository]: executing diffoscope
+[2023-05-12 10:17:20] INFO root fetch - processPackages [spaceone-repository]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_repository-1.9.7.1-py3-none-any.whl.zip tmp/spaceone_repository-1.9.7rc1-py3-none-any.whl.zip --markdown 20230512/s/spaceone-repository/1.9.7.1-1.9.7rc1/diff.md --exclude *.pyd
+[2023-05-12 10:17:21] INFO root fetch - processPackages [deale-shared-library]: executing diffoscope
+[2023-05-12 10:17:21] INFO root fetch - processPackages [deale-shared-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deale_shared_library-0.0.1.tar.gz tmp/deale_shared_library-0.0.3.tar.gz --markdown 20230512/d/deale-shared-library/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2023-05-12 10:17:21] INFO root fetch - processPackages [APIxoo]: Downloading https://files.pythonhosted.org/packages/4b/1f/e18f5466f1092bd9c4717b16a643c49247378152d182772c0a457ce5a369/APIxoo-0.1.1.tar.gz
+[2023-05-12 10:17:21] INFO root fetch - main [MainThread]: End processing [griffe]: success
+[2023-05-12 10:17:21] INFO root fetch - processPackages [APIxoo]: executing diffoscope
+[2023-05-12 10:17:21] INFO root fetch - processPackages [APIxoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/APIxoo-0.1.0.tar.gz tmp/APIxoo-0.1.1.tar.gz --markdown 20230512/A/APIxoo/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-12 10:17:21] INFO root fetch - main [MainThread]: End processing [opta]: success
+[2023-05-12 10:17:21] INFO root fetch - main [MainThread]: End processing [irene-pro]: success
+[2023-05-12 10:17:22] INFO root fetch - main [MainThread]: End processing [odoo14-addon-hotel]: success
+[2023-05-12 10:17:22] INFO root fetch - main [MainThread]: End processing [chrislab]: success
+[2023-05-12 10:17:22] INFO root fetch - main [MainThread]: End processing [deale-shared-library]: success
+[2023-05-12 10:17:22] INFO root fetch - main [MainThread]: End processing [APIxoo]: success
+[2023-05-12 10:17:22] INFO root fetch - main [MainThread]: End processing [spaceone-repository]: success
+[2023-05-12 10:17:22] INFO root fetch - main [MainThread]: End processing [twitter-api-py]: success
+[2023-05-12 10:17:23] INFO root fetch - main [MainThread]: End processing [lanceotron]: success
+[2023-05-12 10:17:23] INFO root fetch - main [MainThread]: Store serial: [18075218]
