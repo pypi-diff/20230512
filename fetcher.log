@@ -8916,3 +8916,95 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-12 12:15:29] INFO root fetch - main [MainThread]: End processing [metobs-toolkit]: success
 [2023-05-12 12:16:20] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
 [2023-05-12 12:16:20] INFO root fetch - main [MainThread]: Store serial: [18076424]
+[2023-05-12 12:21:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18076424]
+[2023-05-12 12:21:29] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-12 12:21:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fastapi-openapi-parser
+[2023-05-12 12:21:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: frinx-python-sdk
+[2023-05-12 12:21:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: delta-sharing
+[2023-05-12 12:21:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dvc-objects
+[2023-05-12 12:21:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scipion-em-facilities
+[2023-05-12 12:21:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: atlas-engine-client
+[2023-05-12 12:21:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lupin-grognard
+[2023-05-12 12:21:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tomotwin-cryoet
+[2023-05-12 12:21:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PyRvcTest
+[2023-05-12 12:21:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: alibabacloud-dingtalk
+[2023-05-12 12:21:29] INFO root fetch - processPackages [atlas-engine-client]: New version: [3.1.0a3] Old Version: [3.1.0a2]
+[2023-05-12 12:21:29] INFO root fetch - processPackages [frinx-python-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 12:21:29] INFO root fetch - processPackages [lupin-grognard]: New version: [2.0.0.dev5] Old Version: [2.0.0.dev2]
+[2023-05-12 12:21:29] INFO root fetch - processPackages [scipion-em-facilities]: New version: [3.0.4] Old Version: [3.0.3]
+[2023-05-12 12:21:29] INFO root fetch - processPackages [tomotwin-cryoet]: New version: [0.4.3b1] Old Version: [0.4.2]
+[2023-05-12 12:21:29] INFO root fetch - processPackages [delta-sharing]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-05-12 12:21:29] WARNING root fetch - processPackages [PyRvcTest]: Skipping, unable to determine old version
+[2023-05-12 12:21:29] INFO root fetch - processPackages [PyRvcTest]: Start processing: typed-blocks
+[2023-05-12 12:21:29] WARNING root fetch - processPackages [fastapi-openapi-parser]: Skipping, unable to determine old version
+[2023-05-12 12:21:29] INFO root fetch - main [MainThread]: End processing [PyRvcTest] error
+[2023-05-12 12:21:29] INFO root fetch - processPackages [fastapi-openapi-parser]: Start processing: jupyterlab-celltagsclasses
+[2023-05-12 12:21:29] INFO root fetch - main [MainThread]: End processing [fastapi-openapi-parser] error
+[2023-05-12 12:21:29] INFO root fetch - processPackages [dvc-objects]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-12 12:21:29] INFO root fetch - processPackages [atlas-engine-client]: executing diffoscope
+[2023-05-12 12:21:29] INFO root fetch - processPackages [atlas-engine-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atlas_engine_client-3.1.0a2.tar.gz tmp/atlas_engine_client-3.1.0a3.tar.gz --markdown 20230512/a/atlas-engine-client/3.1.0a2-3.1.0a3/diff.md --exclude *.pyd
+[2023-05-12 12:21:29] INFO root fetch - processPackages [alibabacloud-dingtalk]: New version: [2.0.12] Old Version: [2.0.11]
+[2023-05-12 12:21:29] INFO root fetch - processPackages [typed-blocks]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-12 12:21:29] INFO root fetch - processPackages [jupyterlab-celltagsclasses]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-12 12:21:29] INFO root fetch - processPackages [scipion-em-facilities]: Downloading https://files.pythonhosted.org/packages/31/e0/ce5436793cf4f553eca11367609ab64ab13b9823e1e927b74b5379e978b4/scipion-em-facilities-3.0.3.tar.gz
+[2023-05-12 12:21:30] INFO root fetch - processPackages [tomotwin-cryoet]: Downloading https://files.pythonhosted.org/packages/de/83/168596a3ae81da1f63c62ba77fcda88752be90b2e61464d519d2ad79a7f5/tomotwin-cryoet-0.4.2.tar.gz
+[2023-05-12 12:21:30] WARNING root fetch - processPackages [tomotwin-cryoet]: Skipping package: exceeds size limit 52111294>=10485760
+[2023-05-12 12:21:30] INFO root fetch - processPackages [tomotwin-cryoet]: Start processing: atlas-engine-client
+[2023-05-12 12:21:30] INFO root fetch - main [MainThread]: End processing [tomotwin-cryoet] error
+[2023-05-12 12:21:30] INFO root fetch - processPackages [delta-sharing]: Downloading https://files.pythonhosted.org/packages/40/b3/22cb1ad4227031b6d69932fbe3661b1c14749a3fcf954d2397119dfb92b9/delta-sharing-0.6.3.tar.gz
+[2023-05-12 12:21:30] INFO root fetch - processPackages [dvc-objects]: Downloading https://files.pythonhosted.org/packages/bc/df/73361bacbd1309f1c294796ef25e1906cb21c3b1e39cc33c9b2cf45650e3/dvc-objects-0.8.0.tar.gz
+[2023-05-12 12:21:30] INFO root fetch - processPackages [lupin-grognard]: Downloading https://files.pythonhosted.org/packages/9e/20/24abab52fc671ab9fd30e663d9549020c742fea4cde6c35b210d2ff577b3/lupin-grognard-2.0.0.dev5.tar.gz
+[2023-05-12 12:21:30] INFO root fetch - processPackages [atlas-engine-client]: New version: [3.1.1a1] Old Version: [3.1.1]
+[2023-05-12 12:21:30] INFO root fetch - processPackages [typed-blocks]: Downloading https://files.pythonhosted.org/packages/ae/54/f0f92843fa14270ed94a77e503fedd257e248ec484464c5f96702eb2e2d9/typed-blocks-0.9.8.tar.gz
+[2023-05-12 12:21:30] INFO root fetch - processPackages [lupin-grognard]: executing diffoscope
+[2023-05-12 12:21:30] INFO root fetch - processPackages [frinx-python-sdk]: executing diffoscope
+[2023-05-12 12:21:30] INFO root fetch - processPackages [lupin-grognard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lupin-grognard-2.0.0.dev2.tar.gz tmp/lupin-grognard-2.0.0.dev5.tar.gz --markdown 20230512/l/lupin-grognard/2.0.0.dev2-2.0.0.dev5/diff.md --exclude *.pyd
+[2023-05-12 12:21:30] INFO root fetch - processPackages [frinx-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frinx-python-sdk-0.0.8.tar.gz tmp/frinx-python-sdk-0.0.9.tar.gz --markdown 20230512/f/frinx-python-sdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 12:21:30] INFO root fetch - processPackages [atlas-engine-client]: Downloading https://files.pythonhosted.org/packages/b1/e8/87627aae56e924bd44d5c42da730faa52274a120d6e5cf4679bb6f7af733/atlas_engine_client-3.1.1.tar.gz
+[2023-05-12 12:21:30] INFO root fetch - processPackages [alibabacloud-dingtalk]: Downloading https://files.pythonhosted.org/packages/83/da/7f0b04da59547786b0d618faf0789c6f939dc228a74c6836ada08c8036a0/alibabacloud_dingtalk-2.0.12.tar.gz
+[2023-05-12 12:21:30] INFO root fetch - processPackages [scipion-em-facilities]: Downloading https://files.pythonhosted.org/packages/58/59/772c956a015c6c49d76618b0be3e7dd64e31a78dcfb06797232f59e23789/scipion-em-facilities-3.0.4.tar.gz
+[2023-05-12 12:21:30] INFO root fetch - processPackages [jupyterlab-celltagsclasses]: Downloading https://files.pythonhosted.org/packages/b4/c8/c53bb7cf31c6109d2f40d0f46286195177e4fa8d24ee1b67c74b703be9bc/jupyterlab_celltagsclasses-0.3.0.tar.gz
+[2023-05-12 12:21:30] INFO root fetch - processPackages [delta-sharing]: Downloading https://files.pythonhosted.org/packages/01/18/33cf2840d4442c44d1d6aa7a857375bbc6ca9b0e809c8f661f773f52d47b/delta-sharing-0.6.4.tar.gz
+[2023-05-12 12:21:30] INFO root fetch - processPackages [alibabacloud-dingtalk]: executing diffoscope
+[2023-05-12 12:21:30] INFO root fetch - processPackages [alibabacloud-dingtalk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_dingtalk-2.0.11.tar.gz tmp/alibabacloud_dingtalk-2.0.12.tar.gz --markdown 20230512/a/alibabacloud-dingtalk/2.0.11-2.0.12/diff.md --exclude *.pyd
+[2023-05-12 12:21:30] INFO root fetch - processPackages [scipion-em-facilities]: executing diffoscope
+[2023-05-12 12:21:30] INFO root fetch - processPackages [scipion-em-facilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scipion-em-facilities-3.0.3.tar.gz tmp/scipion-em-facilities-3.0.4.tar.gz --markdown 20230512/s/scipion-em-facilities/3.0.3-3.0.4/diff.md --exclude *.pyd
+[2023-05-12 12:21:30] INFO root fetch - processPackages [dvc-objects]: Downloading https://files.pythonhosted.org/packages/0e/18/e00adb4b827fc8f0d52d3b67d2d82af47094f116204a62904453ea2bd952/dvc-objects-0.9.0.tar.gz
+[2023-05-12 12:21:30] INFO root fetch - processPackages [jupyterlab-celltagsclasses]: executing diffoscope
+[2023-05-12 12:21:30] INFO root fetch - processPackages [jupyterlab-celltagsclasses]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_celltagsclasses-0.2.0.tar.gz tmp/jupyterlab_celltagsclasses-0.3.0.tar.gz --markdown 20230512/j/jupyterlab-celltagsclasses/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-12 12:21:30] INFO root fetch - processPackages [delta-sharing]: executing diffoscope
+[2023-05-12 12:21:30] INFO root fetch - processPackages [delta-sharing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/delta-sharing-0.6.3.tar.gz tmp/delta-sharing-0.6.4.tar.gz --markdown 20230512/d/delta-sharing/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-05-12 12:21:30] INFO root fetch - processPackages [atlas-engine-client]: Downloading https://files.pythonhosted.org/packages/a8/25/c38e3e8bea48beaa6485e2e781c1c39703168582465c22ba14bf6c5d67ab/atlas_engine_client-3.1.1a1.tar.gz
+[2023-05-12 12:21:30] INFO root fetch - processPackages [dvc-objects]: executing diffoscope
+[2023-05-12 12:21:30] INFO root fetch - processPackages [dvc-objects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvc-objects-0.8.0.tar.gz tmp/dvc-objects-0.9.0.tar.gz --markdown 20230512/d/dvc-objects/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-12 12:21:30] INFO root fetch - processPackages [atlas-engine-client]: executing diffoscope
+[2023-05-12 12:21:30] INFO root fetch - processPackages [atlas-engine-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atlas_engine_client-3.1.1.tar.gz tmp/atlas_engine_client-3.1.1a1.tar.gz --markdown 20230512/a/atlas-engine-client/3.1.1-3.1.1a1/diff.md --exclude *.pyd
+[2023-05-12 12:21:30] INFO root fetch - processPackages [typed-blocks]: Downloading https://files.pythonhosted.org/packages/22/ee/31b515dced27bee07e91d33e78a5d0eacc7cc71f545ea156740473ea5f57/typed-blocks-0.9.9.tar.gz
+[2023-05-12 12:21:31] INFO root fetch - processPackages [typed-blocks]: executing diffoscope
+[2023-05-12 12:21:31] INFO root fetch - processPackages [typed-blocks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typed-blocks-0.9.8.tar.gz tmp/typed-blocks-0.9.9.tar.gz --markdown 20230512/t/typed-blocks/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-12 12:21:31] INFO root fetch - processPackages [lupin-grognard]: Start processing: onnx2tf
+[2023-05-12 12:21:31] INFO root fetch - main [MainThread]: End processing [lupin-grognard]: success
+[2023-05-12 12:21:31] INFO root fetch - processPackages [onnx2tf]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-12 12:21:31] INFO root fetch - processPackages [atlas-engine-client]: Start processing: single-char-counter-by-ng
+[2023-05-12 12:21:31] INFO root fetch - main [MainThread]: End processing [atlas-engine-client]: success
+[2023-05-12 12:21:31] WARNING root fetch - processPackages [single-char-counter-by-ng]: Skipping, unable to determine old version
+[2023-05-12 12:21:31] INFO root fetch - processPackages [single-char-counter-by-ng]: Start processing: pastas
+[2023-05-12 12:21:31] INFO root fetch - main [MainThread]: End processing [single-char-counter-by-ng] error
+[2023-05-12 12:21:32] INFO root fetch - main [MainThread]: End processing [frinx-python-sdk]: success
+[2023-05-12 12:21:32] INFO root fetch - processPackages [pastas]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-05-12 12:21:32] INFO root fetch - main [MainThread]: End processing [delta-sharing]: success
+[2023-05-12 12:21:32] INFO root fetch - processPackages [onnx2tf]: executing diffoscope
+[2023-05-12 12:21:32] INFO root fetch - processPackages [onnx2tf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx2tf-1.9.8.tar.gz tmp/onnx2tf-1.9.9.tar.gz --markdown 20230512/o/onnx2tf/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-12 12:21:32] INFO root fetch - processPackages [pastas]: Downloading https://files.pythonhosted.org/packages/cc/72/34f1d86c0257e6ebbb233f29a63e20925a51f729f7fab9d552419893b913/pastas-1.0.1.tar.gz
+[2023-05-12 12:21:32] INFO root fetch - main [MainThread]: End processing [dvc-objects]: success
+[2023-05-12 12:21:32] INFO root fetch - main [MainThread]: End processing [scipion-em-facilities]: success
+[2023-05-12 12:21:32] INFO root fetch - processPackages [pastas]: Downloading https://files.pythonhosted.org/packages/5a/10/633f77d3b08eabffe6732f7c9b2c0cdc459db102410a2b923175d6412fc4/pastas-1.1.0.tar.gz
+[2023-05-12 12:21:32] INFO root fetch - processPackages [pastas]: executing diffoscope
+[2023-05-12 12:21:32] INFO root fetch - processPackages [pastas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pastas-1.0.1.tar.gz tmp/pastas-1.1.0.tar.gz --markdown 20230512/p/pastas/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-05-12 12:21:32] INFO root fetch - main [MainThread]: End processing [atlas-engine-client]: success
+[2023-05-12 12:21:33] INFO root fetch - main [MainThread]: End processing [typed-blocks]: success
+[2023-05-12 12:21:33] INFO root fetch - main [MainThread]: End processing [jupyterlab-celltagsclasses]: success
+[2023-05-12 12:21:34] INFO root fetch - main [MainThread]: End processing [pastas]: success
+[2023-05-12 12:21:36] INFO root fetch - main [MainThread]: End processing [onnx2tf]: success
+[2023-05-12 12:21:39] INFO root fetch - main [MainThread]: End processing [alibabacloud-dingtalk]: success
+[2023-05-12 12:21:39] INFO root fetch - main [MainThread]: Store serial: [18076526]
