@@ -10069,3 +10069,31 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-12 13:30:12] INFO root fetch - main [MainThread]: End processing [statefun-tasks]: success
 [2023-05-12 13:30:13] INFO root fetch - main [MainThread]: End processing [garpix-company]: success
 [2023-05-12 13:30:13] INFO root fetch - main [MainThread]: Store serial: [18077271]
+[2023-05-12 13:35:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18077271]
+[2023-05-12 13:35:22] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-05-12 13:35:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sosin
+[2023-05-12 13:35:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: clickhouse-ddl
+[2023-05-12 13:35:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jaaql-middleware-python
+[2023-05-12 13:35:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: domino-py
+[2023-05-12 13:35:22] INFO root fetch - processPackages [domino-py]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-12 13:35:22] INFO root fetch - processPackages [clickhouse-ddl]: New version: [1.0.1] Old Version: [1.0]
+[2023-05-12 13:35:22] INFO root fetch - processPackages [sosin]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-05-12 13:35:22] INFO root fetch - processPackages [jaaql-middleware-python]: New version: [4.9.1] Old Version: [4.9.0]
+[2023-05-12 13:35:22] INFO root fetch - processPackages [jaaql-middleware-python]: executing diffoscope
+[2023-05-12 13:35:22] INFO root fetch - processPackages [jaaql-middleware-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaaql-middleware-python-4.9.0.tar.gz tmp/jaaql-middleware-python-4.9.1.tar.gz --markdown 20230512/j/jaaql-middleware-python/4.9.0-4.9.1/diff.md --exclude *.pyd
+[2023-05-12 13:35:22] INFO root fetch - processPackages [clickhouse-ddl]: Downloading https://files.pythonhosted.org/packages/87/5c/568103adc8ff6c1d5262511484b8a14421500a213e07b492dcbd077e4246/clickhouse_ddl-1.0.tar.gz
+[2023-05-12 13:35:22] INFO root fetch - processPackages [domino-py]: Downloading https://files.pythonhosted.org/packages/d0/f3/08626f0e5c550473c089fd5132dae49f834dffabb148a9a620ffb8d6f85b/domino-py-0.2.3.tar.gz
+[2023-05-12 13:35:22] INFO root fetch - processPackages [sosin]: Downloading https://files.pythonhosted.org/packages/36/3e/1fa81c8c02ce3828f224150094c04ab1da550d49780d6d17f7d14324812d/sosin-1.1.2.tar.gz
+[2023-05-12 13:35:23] INFO root fetch - processPackages [clickhouse-ddl]: Downloading https://files.pythonhosted.org/packages/8b/4f/de92fd3f6b08d27b01551d49d4ebfdefa7f3a250b808a57331e42eb93582/clickhouse_ddl-1.0.1-py3-none-any.whl
+[2023-05-12 13:35:23] INFO root fetch - processPackages [domino-py]: Downloading https://files.pythonhosted.org/packages/ab/44/f5205f531ba9eaedbb6b36659caa98581079f66162da50851180fcc596c5/domino-py-0.2.4.tar.gz
+[2023-05-12 13:35:23] INFO root fetch - processPackages [clickhouse-ddl]: executing diffoscope
+[2023-05-12 13:35:23] INFO root fetch - processPackages [clickhouse-ddl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickhouse_ddl-1.0.tar.gz tmp/clickhouse_ddl-1.0.1-py3-none-any.whl.zip --markdown 20230512/c/clickhouse-ddl/1.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-12 13:35:23] INFO root fetch - processPackages [sosin]: executing diffoscope
+[2023-05-12 13:35:23] INFO root fetch - processPackages [sosin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sosin-1.1.1.tar.gz tmp/sosin-1.1.2.tar.gz --markdown 20230512/s/sosin/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-05-12 13:35:23] INFO root fetch - processPackages [domino-py]: executing diffoscope
+[2023-05-12 13:35:23] INFO root fetch - processPackages [domino-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domino-py-0.2.3.tar.gz tmp/domino-py-0.2.4.tar.gz --markdown 20230512/d/domino-py/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-12 13:35:24] INFO root fetch - main [MainThread]: End processing [jaaql-middleware-python]: success
+[2023-05-12 13:35:24] INFO root fetch - main [MainThread]: End processing [sosin]: success
+[2023-05-12 13:35:24] INFO root fetch - main [MainThread]: End processing [clickhouse-ddl]: success
+[2023-05-12 13:35:24] INFO root fetch - main [MainThread]: End processing [domino-py]: success
+[2023-05-12 13:35:24] INFO root fetch - main [MainThread]: Store serial: [18077317]
