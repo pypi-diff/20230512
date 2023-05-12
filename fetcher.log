@@ -17320,3 +17320,98 @@ EOFError: EOF read where object expected
 [2023-05-12 20:10:47] INFO root fetch - main [MainThread]: End processing [ruff]: success
 [2023-05-12 20:11:08] INFO root fetch - main [MainThread]: End processing [compliance-trestle]: success
 [2023-05-12 20:11:08] INFO root fetch - main [MainThread]: Store serial: [18081920]
+[2023-05-12 20:16:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18081920]
+[2023-05-12 20:16:17] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-12 20:16:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pythoncoloringspkgV2
+[2023-05-12 20:16:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-unfold
+[2023-05-12 20:16:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hikari-core
+[2023-05-12 20:16:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pynamer
+[2023-05-12 20:16:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PyFlyt
+[2023-05-12 20:16:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: promptlayer
+[2023-05-12 20:16:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: metaphor-connectors
+[2023-05-12 20:16:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tap-pulumi-cloud
+[2023-05-12 20:16:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: picocosmo
+[2023-05-12 20:16:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: alcli
+[2023-05-12 20:16:17] WARNING root fetch - processPackages [hikari-core]: Skipping, unable to determine old version
+[2023-05-12 20:16:17] INFO root fetch - processPackages [hikari-core]: Start processing: picodaqa
+[2023-05-12 20:16:17] INFO root fetch - main [MainThread]: End processing [hikari-core] error
+[2023-05-12 20:16:18] INFO root fetch - processPackages [metaphor-connectors]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-12 20:16:18] INFO root fetch - processPackages [pythoncoloringspkgV2]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-12 20:16:18] INFO root fetch - processPackages [pynamer]: New version: [1.0.0] Old Version: [0.5.7]
+[2023-05-12 20:16:18] INFO root fetch - processPackages [tap-pulumi-cloud]: New version: [0.0.2a1] Old Version: [0.0.1a1]
+[2023-05-12 20:16:18] INFO root fetch - processPackages [picocosmo]: New version: [0.9.0rc1] Old Version: [0.9.0]
+[2023-05-12 20:16:18] INFO root fetch - processPackages [promptlayer]: New version: [0.1.81] Old Version: [0.1.80]
+[2023-05-12 20:16:18] INFO root fetch - processPackages [picodaqa]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-12 20:16:18] INFO root fetch - processPackages [PyFlyt]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-05-12 20:16:18] INFO root fetch - processPackages [alcli]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-12 20:16:18] INFO root fetch - processPackages [django-unfold]: New version: [0.6.0] Old Version: [0.5.3]
+[2023-05-12 20:16:18] INFO root fetch - processPackages [pythoncoloringspkgV2]: Downloading https://files.pythonhosted.org/packages/91/f0/264db54bca7adc35b42f2491679babd511bb89242b1e434bfb30e488fb4a/pythoncoloringspkgV2-1.0.0.tar.gz
+[2023-05-12 20:16:18] INFO root fetch - processPackages [picocosmo]: Downloading https://files.pythonhosted.org/packages/6a/1e/d063541947af16f15acdf8d1b5233170943e49a182cee9fd3fce7e1f25c7/picocosmo-0.9.0.tar.gz
+[2023-05-12 20:16:18] INFO root fetch - processPackages [promptlayer]: Downloading https://files.pythonhosted.org/packages/83/ed/251dfbcea6be64af4cc1c2682a180988a17380bbcda64ff1b9f6a6a8787f/promptlayer-0.1.80.tar.gz
+[2023-05-12 20:16:18] INFO root fetch - processPackages [tap-pulumi-cloud]: Downloading https://files.pythonhosted.org/packages/42/98/1d96f0d9f62de6d821d6d54a46287ffc37589c7f39e13f7ccaf26aa31af3/tap_pulumi_cloud-0.0.1a1.tar.gz
+[2023-05-12 20:16:18] INFO root fetch - processPackages [django-unfold]: Downloading https://files.pythonhosted.org/packages/89/53/b0821471af46ac15801c99c6507433c81945e8e5c3b637e2fe9d0351bb6d/django_unfold-0.5.3.tar.gz
+[2023-05-12 20:16:18] INFO root fetch - processPackages [PyFlyt]: Downloading https://files.pythonhosted.org/packages/02/30/a3ac9c232b8fb888bb1da05edc72bc63d0beaf6357bb41f7e9f7a538acba/PyFlyt-0.6.3.tar.gz
+[2023-05-12 20:16:18] INFO root fetch - processPackages [metaphor-connectors]: executing diffoscope
+[2023-05-12 20:16:18] INFO root fetch - processPackages [metaphor-connectors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaphor-connectors-0.9.3.tar.gz tmp/metaphor-connectors-0.9.4.tar.gz --markdown 20230512/m/metaphor-connectors/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-12 20:16:18] INFO root fetch - processPackages [pynamer]: Downloading https://files.pythonhosted.org/packages/c3/a2/5b86d292556656c44304022be5ce93d4217349cfdc9e7afdd3aaebc57dd1/pynamer-1.0.0.tar.gz
+[2023-05-12 20:16:18] INFO root fetch - processPackages [alcli]: executing diffoscope
+[2023-05-12 20:16:18] INFO root fetch - processPackages [alcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alcli-1.0.8.tar.gz tmp/alcli-1.0.9.tar.gz --markdown 20230512/a/alcli/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-12 20:16:18] INFO root fetch - processPackages [picodaqa]: Downloading https://files.pythonhosted.org/packages/f2/79/37ac950b67c88778a5e0561a13d1f09508b6cce71d51a67d66c5e7344ab4/picodaqa-1.1.1.tar.gz
+[2023-05-12 20:16:18] INFO root fetch - processPackages [promptlayer]: Downloading https://files.pythonhosted.org/packages/9b/42/d93717bb9592c265b08c929b08869450950430ed9140a5a9872f6318357b/promptlayer-0.1.81.tar.gz
+[2023-05-12 20:16:18] INFO root fetch - processPackages [pythoncoloringspkgV2]: Downloading https://files.pythonhosted.org/packages/58/94/7c3914cf8edebdaa13fb9d9c1ff6bc8aa44db7a15998389360a772c834a2/pythoncoloringspkgV2-1.1.0.tar.gz
+[2023-05-12 20:16:18] INFO root fetch - processPackages [django-unfold]: Downloading https://files.pythonhosted.org/packages/b2/27/7762c99aacfa4b84ddf15cf43c1c0c370bf54183e7e22cf67739e7665432/django_unfold-0.6.0.tar.gz
+[2023-05-12 20:16:18] INFO root fetch - processPackages [pynamer]: executing diffoscope
+[2023-05-12 20:16:18] INFO root fetch - processPackages [pynamer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynamer-0.5.7.tar.gz tmp/pynamer-1.0.0.tar.gz --markdown 20230512/p/pynamer/0.5.7-1.0.0/diff.md --exclude *.pyd
+[2023-05-12 20:16:18] INFO root fetch - processPackages [picodaqa]: executing diffoscope
+[2023-05-12 20:16:18] INFO root fetch - processPackages [picodaqa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picodaqa-1.1.0.tar.gz tmp/picodaqa-1.1.1.tar.gz --markdown 20230512/p/picodaqa/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-12 20:16:18] INFO root fetch - processPackages [promptlayer]: executing diffoscope
+[2023-05-12 20:16:18] INFO root fetch - processPackages [promptlayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptlayer-0.1.80.tar.gz tmp/promptlayer-0.1.81.tar.gz --markdown 20230512/p/promptlayer/0.1.80-0.1.81/diff.md --exclude *.pyd
+[2023-05-12 20:16:18] INFO root fetch - processPackages [tap-pulumi-cloud]: Downloading https://files.pythonhosted.org/packages/b3/17/c8453f44c9e00a97c4530c35d68d3233306c12e436b1b2522103becdf8dd/tap_pulumi_cloud-0.0.2a1.tar.gz
+[2023-05-12 20:16:18] INFO root fetch - processPackages [picocosmo]: Downloading https://files.pythonhosted.org/packages/4d/e7/78f56f11e0a164ed3967343bfbef28915b11efc04c0de6fdda642352e748/picocosmo-0.9.0rc1.tar.gz
+[2023-05-12 20:16:18] INFO root fetch - processPackages [pythoncoloringspkgV2]: executing diffoscope
+[2023-05-12 20:16:18] INFO root fetch - processPackages [pythoncoloringspkgV2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythoncoloringspkgV2-1.0.0.tar.gz tmp/pythoncoloringspkgV2-1.1.0.tar.gz --markdown 20230512/p/pythoncoloringspkgV2/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-12 20:16:18] INFO root fetch - processPackages [PyFlyt]: Downloading https://files.pythonhosted.org/packages/12/68/d9df1582d4358b349ad6e60c78dc720d4a27d9fe4dc57a40b366e9d1983d/PyFlyt-0.6.4.tar.gz
+[2023-05-12 20:16:18] INFO root fetch - processPackages [django-unfold]: executing diffoscope
+[2023-05-12 20:16:18] INFO root fetch - processPackages [django-unfold]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_unfold-0.5.3.tar.gz tmp/django_unfold-0.6.0.tar.gz --markdown 20230512/d/django-unfold/0.5.3-0.6.0/diff.md --exclude *.pyd
+[2023-05-12 20:16:18] INFO root fetch - processPackages [picocosmo]: executing diffoscope
+[2023-05-12 20:16:18] INFO root fetch - processPackages [picocosmo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picocosmo-0.9.0.tar.gz tmp/picocosmo-0.9.0rc1.tar.gz --markdown 20230512/p/picocosmo/0.9.0-0.9.0rc1/diff.md --exclude *.pyd
+[2023-05-12 20:16:18] INFO root fetch - processPackages [tap-pulumi-cloud]: executing diffoscope
+[2023-05-12 20:16:18] INFO root fetch - processPackages [tap-pulumi-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tap_pulumi_cloud-0.0.1a1.tar.gz tmp/tap_pulumi_cloud-0.0.2a1.tar.gz --markdown 20230512/t/tap-pulumi-cloud/0.0.1a1-0.0.2a1/diff.md --exclude *.pyd
+[2023-05-12 20:16:19] INFO root fetch - processPackages [PyFlyt]: executing diffoscope
+[2023-05-12 20:16:19] INFO root fetch - processPackages [PyFlyt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyFlyt-0.6.3.tar.gz tmp/PyFlyt-0.6.4.tar.gz --markdown 20230512/P/PyFlyt/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-05-12 20:16:20] INFO root fetch - processPackages [alcli]: Start processing: ntscli-client
+[2023-05-12 20:16:20] INFO root fetch - main [MainThread]: End processing [alcli]: success
+[2023-05-12 20:16:20] INFO root fetch - processPackages [ntscli-client]: New version: [2.1.9.dev3] Old Version: [2.1.9.dev2]
+[2023-05-12 20:16:20] INFO root fetch - processPackages [ntscli-client]: Downloading https://files.pythonhosted.org/packages/ca/63/545c9c0ca72159c02441dd8412a01a581a13fcd0dba5152a644107b8139d/ntscli_client-2.1.9.dev2-py3-none-any.whl
+[2023-05-12 20:16:20] INFO root fetch - processPackages [metaphor-connectors]: Start processing: terick
+[2023-05-12 20:16:20] INFO root fetch - main [MainThread]: End processing [metaphor-connectors]: success
+[2023-05-12 20:16:20] INFO root fetch - processPackages [pythoncoloringspkgV2]: Start processing: django-healthpoint
+[2023-05-12 20:16:20] INFO root fetch - main [MainThread]: End processing [pythoncoloringspkgV2]: success
+[2023-05-12 20:16:20] INFO root fetch - processPackages [picodaqa]: Start processing: python-roborock
+[2023-05-12 20:16:20] INFO root fetch - main [MainThread]: End processing [picodaqa]: success
+[2023-05-12 20:16:20] INFO root fetch - main [MainThread]: End processing [pynamer]: success
+[2023-05-12 20:16:20] INFO root fetch - processPackages [terick]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-12 20:16:20] INFO root fetch - processPackages [python-roborock]: New version: [0.9.0rc0] Old Version: [0.9.0]
+[2023-05-12 20:16:20] INFO root fetch - processPackages [django-healthpoint]: New version: [0.5.0] Old Version: [0.4.1]
+[2023-05-12 20:16:20] INFO root fetch - processPackages [python-roborock]: executing diffoscope
+[2023-05-12 20:16:20] INFO root fetch - processPackages [python-roborock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_roborock-0.9.0.tar.gz tmp/python_roborock-0.9.0rc0.tar.gz --markdown 20230512/p/python-roborock/0.9.0-0.9.0rc0/diff.md --exclude *.pyd
+[2023-05-12 20:16:20] INFO root fetch - processPackages [ntscli-client]: Downloading https://files.pythonhosted.org/packages/c5/5e/ff4247cc701b2805c6293914af71e6026850982dacbc76907b9a472618d3/ntscli_client-2.1.9.dev3-py3-none-any.whl
+[2023-05-12 20:16:20] INFO root fetch - main [MainThread]: End processing [promptlayer]: success
+[2023-05-12 20:16:20] INFO root fetch - processPackages [django-healthpoint]: Downloading https://files.pythonhosted.org/packages/aa/e7/b38106ccc40e2d3207e2adf86ecdc1414a3ab019930b02d8405d56ae24bf/django-healthpoint-0.4.1.tar.gz
+[2023-05-12 20:16:21] INFO root fetch - main [MainThread]: End processing [tap-pulumi-cloud]: success
+[2023-05-12 20:16:21] INFO root fetch - processPackages [terick]: Downloading https://files.pythonhosted.org/packages/ba/a9/da7a99503274b001462b21d8990e5fef1883841cb6c45554b82130e22e89/terick-0.2.3.tar.gz
+[2023-05-12 20:16:21] INFO root fetch - main [MainThread]: End processing [picocosmo]: success
+[2023-05-12 20:16:21] INFO root fetch - processPackages [ntscli-client]: executing diffoscope
+[2023-05-12 20:16:21] INFO root fetch - processPackages [ntscli-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ntscli_client-2.1.9.dev2-py3-none-any.whl.zip tmp/ntscli_client-2.1.9.dev3-py3-none-any.whl.zip --markdown 20230512/n/ntscli-client/2.1.9.dev2-2.1.9.dev3/diff.md --exclude *.pyd
+[2023-05-12 20:16:21] INFO root fetch - processPackages [terick]: executing diffoscope
+[2023-05-12 20:16:21] INFO root fetch - processPackages [terick]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terick-0.2.2.tar.gz tmp/terick-0.2.3.tar.gz --markdown 20230512/t/terick/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-12 20:16:21] INFO root fetch - processPackages [django-healthpoint]: Downloading https://files.pythonhosted.org/packages/1b/69/83019b80c48fcfb7868e541b47f25371a148d07d77b0e17c9e5aa110d1b7/django-healthpoint-0.5.0.tar.gz
+[2023-05-12 20:16:21] INFO root fetch - main [MainThread]: End processing [PyFlyt]: success
+[2023-05-12 20:16:21] INFO root fetch - processPackages [django-healthpoint]: executing diffoscope
+[2023-05-12 20:16:21] INFO root fetch - processPackages [django-healthpoint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-healthpoint-0.4.1.tar.gz tmp/django-healthpoint-0.5.0.tar.gz --markdown 20230512/d/django-healthpoint/0.4.1-0.5.0/diff.md --exclude *.pyd
+[2023-05-12 20:16:22] INFO root fetch - main [MainThread]: End processing [python-roborock]: success
+[2023-05-12 20:16:22] INFO root fetch - main [MainThread]: End processing [ntscli-client]: success
+[2023-05-12 20:16:22] INFO root fetch - main [MainThread]: End processing [terick]: success
+[2023-05-12 20:16:22] INFO root fetch - main [MainThread]: End processing [django-healthpoint]: success
+[2023-05-12 20:16:22] INFO root fetch - main [MainThread]: End processing [django-unfold]: success
+[2023-05-12 20:16:22] INFO root fetch - main [MainThread]: Store serial: [18081966]
