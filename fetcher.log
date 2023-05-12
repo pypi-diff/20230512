@@ -20659,3 +20659,71 @@ EOFError: EOF read where object expected
 [2023-05-12 23:12:21] INFO root fetch - main [MainThread]: End processing [pulumi-hcloud]: success
 [2023-05-12 23:12:21] INFO root fetch - main [MainThread]: End processing [chia-py-rpc]: success
 [2023-05-12 23:12:21] INFO root fetch - main [MainThread]: Store serial: [18084243]
+[2023-05-12 23:17:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18084243]
+[2023-05-12 23:17:29] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-12 23:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rad
+[2023-05-12 23:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cartson
+[2023-05-12 23:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: proteinTools
+[2023-05-12 23:17:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kcli
+[2023-05-12 23:17:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cartson
+[2023-05-12 23:17:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-dnoticias-auth
+[2023-05-12 23:17:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: chia-py-rpc
+[2023-05-12 23:17:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: returnn
+[2023-05-12 23:17:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: contique
+[2023-05-12 23:17:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rpls-py
+[2023-05-12 23:17:30] INFO root fetch - processPackages [cartson]: New version: [3.3.3] Old Version: [2.3.5b9.dev0]
+[2023-05-12 23:17:30] INFO root fetch - processPackages [rpls-py]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-12 23:17:30] INFO root fetch - processPackages [rad]: New version: [0.15.0] Old Version: [0.14.2]
+[2023-05-12 23:17:30] INFO root fetch - processPackages [chia-py-rpc]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-12 23:17:30] INFO root fetch - processPackages [proteinTools]: New version: [1.5.3] Old Version: [1.5.2]
+[2023-05-12 23:17:30] INFO root fetch - processPackages [cartson]: New version: [3.3.3] Old Version: [2.3.5b9.dev0]
+[2023-05-12 23:17:30] INFO root fetch - processPackages [django-dnoticias-auth]: New version: [1.3rc9] Old Version: [1.3rc8]
+[2023-05-12 23:17:30] INFO root fetch - processPackages [contique]: New version: [1.0.0] Old Version: [0.1.9]
+[2023-05-12 23:17:30] INFO root fetch - processPackages [returnn]: New version: [1.20230512.95100] Old Version: [1.20230512.5307]
+[2023-05-12 23:17:30] INFO root fetch - processPackages [kcli]: New version: [99.0.202305122114] Old Version: [99.0.202305121835]
+[2023-05-12 23:17:30] INFO root fetch - processPackages [cartson]: Downloading https://files.pythonhosted.org/packages/5f/1d/7a1c69359b3280ee0c70d9538599449321127def0312e4aeb75ef574dd98/cartson-2.3.5b9.dev0-py3-none-any.whl
+[2023-05-12 23:17:30] INFO root fetch - processPackages [returnn]: executing diffoscope
+[2023-05-12 23:17:30] INFO root fetch - processPackages [returnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/returnn-1.20230512.5307.tar.gz tmp/returnn-1.20230512.95100.tar.gz --markdown 20230512/r/returnn/1.20230512.5307-1.20230512.95100/diff.md --exclude *.pyd
+[2023-05-12 23:17:30] INFO root fetch - processPackages [cartson]: Downloading https://files.pythonhosted.org/packages/5f/1d/7a1c69359b3280ee0c70d9538599449321127def0312e4aeb75ef574dd98/cartson-2.3.5b9.dev0-py3-none-any.whl
+[2023-05-12 23:17:30] INFO root fetch - processPackages [rpls-py]: Downloading https://files.pythonhosted.org/packages/35/9e/f17862edd868511d2c405e0fe4c5373de01c1d2cec379571b9e37872b94d/rpls_py-0.2.0.tar.gz
+[2023-05-12 23:17:30] INFO root fetch - processPackages [rad]: Downloading https://files.pythonhosted.org/packages/5b/97/26525e783ae77c16bf27050ec8c8d0b2f5a01ed353a09571a7966bee4930/rad-0.14.2.tar.gz
+[2023-05-12 23:17:30] INFO root fetch - processPackages [chia-py-rpc]: Downloading https://files.pythonhosted.org/packages/79/73/97a133d6a9ca219ce4aabe92365740b8aae3b26ca413ec70085322f5db2d/chia_py_rpc-0.0.3.tar.gz
+[2023-05-12 23:17:30] INFO root fetch - processPackages [contique]: Downloading https://files.pythonhosted.org/packages/ba/ac/55e3ab59f366acab7d5f6b7f3b23409766d26bd8ddf35f2313242a846806/contique-1.0.0.tar.gz
+[2023-05-12 23:17:30] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/35/7a/d1bab03cb308a7eaffd27767a4e801f20473d1ba6650815b707b0fd9d28e/kcli-99.0.202305122114-py3-none-any.whl
+[2023-05-12 23:17:30] INFO root fetch - processPackages [chia-py-rpc]: executing diffoscope
+[2023-05-12 23:17:30] INFO root fetch - processPackages [chia-py-rpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chia_py_rpc-0.0.2.tar.gz tmp/chia_py_rpc-0.0.3.tar.gz --markdown 20230512/c/chia-py-rpc/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-12 23:17:30] INFO root fetch - processPackages [cartson]: executing diffoscope
+[2023-05-12 23:17:30] INFO root fetch - processPackages [cartson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cartson-2.3.5b9.dev0-py3-none-any.whl.zip tmp/cartson-3.3.3-py3-none-any.whl.zip --markdown 20230512/c/cartson/2.3.5b9.dev0-3.3.3/diff.md --exclude *.pyd
+[2023-05-12 23:17:30] INFO root fetch - processPackages [cartson]: executing diffoscope
+[2023-05-12 23:17:30] INFO root fetch - processPackages [cartson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cartson-2.3.5b9.dev0-py3-none-any.whl.zip tmp/cartson-3.3.3-py3-none-any.whl.zip --markdown 20230512/c/cartson/2.3.5b9.dev0-3.3.3/diff.md --exclude *.pyd
+[2023-05-12 23:17:30] INFO root fetch - processPackages [django-dnoticias-auth]: executing diffoscope
+[2023-05-12 23:17:30] INFO root fetch - processPackages [django-dnoticias-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_dnoticias_auth-1.3rc8.tar.gz tmp/django_dnoticias_auth-1.3rc9.tar.gz --markdown 20230512/d/django-dnoticias-auth/1.3rc8-1.3rc9/diff.md --exclude *.pyd
+[2023-05-12 23:17:30] INFO root fetch - processPackages [contique]: executing diffoscope
+[2023-05-12 23:17:30] INFO root fetch - processPackages [contique]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contique-0.1.9.tar.gz tmp/contique-1.0.0.tar.gz --markdown 20230512/c/contique/0.1.9-1.0.0/diff.md --exclude *.pyd
+[2023-05-12 23:17:30] INFO root fetch - processPackages [proteinTools]: Downloading https://files.pythonhosted.org/packages/0d/ce/7a1f4cf17511c741c50438910c7ab0094a0efeb014e0309535686533c3f7/proteinTools-1.5.3.tar.gz
+[2023-05-12 23:17:30] INFO root fetch - processPackages [rad]: Downloading https://files.pythonhosted.org/packages/0e/9c/4e64c10d677f3cac6a59fb7c2209ea5013adf998e4de2439087d37fc510f/rad-0.15.0.tar.gz
+[2023-05-12 23:17:30] INFO root fetch - processPackages [rpls-py]: Downloading https://files.pythonhosted.org/packages/27/a6/d43fb227aab926022fc36d2005dfc077ee5a810aeb725e6ea43c6f206896/rpls_py-0.3.0.tar.gz
+[2023-05-12 23:17:30] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-05-12 23:17:30] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202305121835-py3-none-any.whl.zip tmp/kcli-99.0.202305122114-py3-none-any.whl.zip --markdown 20230512/k/kcli/99.0.202305121835-99.0.202305122114/diff.md --exclude *.pyd
+[2023-05-12 23:17:30] INFO root fetch - processPackages [proteinTools]: executing diffoscope
+[2023-05-12 23:17:30] INFO root fetch - processPackages [proteinTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proteinTools-1.5.2.tar.gz tmp/proteinTools-1.5.3.tar.gz --markdown 20230512/p/proteinTools/1.5.2-1.5.3/diff.md --exclude *.pyd
+[2023-05-12 23:17:30] INFO root fetch - processPackages [rad]: executing diffoscope
+[2023-05-12 23:17:30] INFO root fetch - processPackages [rad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rad-0.14.2.tar.gz tmp/rad-0.15.0.tar.gz --markdown 20230512/r/rad/0.14.2-0.15.0/diff.md --exclude *.pyd
+[2023-05-12 23:17:30] INFO root fetch - processPackages [rpls-py]: executing diffoscope
+[2023-05-12 23:17:30] INFO root fetch - processPackages [rpls-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rpls_py-0.2.0.tar.gz tmp/rpls_py-0.3.0.tar.gz --markdown 20230512/r/rpls-py/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-12 23:17:31] INFO root fetch - processPackages [chia-py-rpc]: Start processing: spotPython
+[2023-05-12 23:17:31] INFO root fetch - main [MainThread]: End processing [chia-py-rpc]: success
+[2023-05-12 23:17:31] INFO root fetch - main [MainThread]: End processing [cartson]: success
+[2023-05-12 23:17:32] INFO root fetch - processPackages [spotPython]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 23:17:32] INFO root fetch - main [MainThread]: End processing [contique]: success
+[2023-05-12 23:17:32] INFO root fetch - main [MainThread]: End processing [django-dnoticias-auth]: success
+[2023-05-12 23:17:32] INFO root fetch - main [MainThread]: End processing [cartson]: success
+[2023-05-12 23:17:32] INFO root fetch - processPackages [spotPython]: executing diffoscope
+[2023-05-12 23:17:32] INFO root fetch - processPackages [spotPython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotPython-0.0.8.tar.gz tmp/spotPython-0.0.9.tar.gz --markdown 20230512/s/spotPython/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 23:17:32] INFO root fetch - main [MainThread]: End processing [rpls-py]: success
+[2023-05-12 23:17:32] INFO root fetch - main [MainThread]: End processing [proteinTools]: success
+[2023-05-12 23:17:34] INFO root fetch - main [MainThread]: End processing [spotPython]: success
+[2023-05-12 23:17:34] INFO root fetch - main [MainThread]: End processing [rad]: success
+[2023-05-12 23:17:36] INFO root fetch - main [MainThread]: End processing [returnn]: success
+[2023-05-12 23:17:38] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-05-12 23:17:38] INFO root fetch - main [MainThread]: Store serial: [18084274]
