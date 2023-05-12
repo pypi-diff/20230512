@@ -4549,3 +4549,68 @@
 [2023-05-12 07:08:47] INFO root fetch - main [MainThread]: End processing [ar-ex-sys-worker]: success
 [2023-05-12 07:08:47] INFO root fetch - main [MainThread]: End processing [shopcloud-microservice]: success
 [2023-05-12 07:08:47] INFO root fetch - main [MainThread]: Store serial: [18073487]
+[2023-05-12 07:13:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18073487]
+[2023-05-12 07:13:56] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-12 07:13:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tflite-model-maker-nightly
+[2023-05-12 07:13:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: czthry
+[2023-05-12 07:13:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: motion-python
+[2023-05-12 07:13:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: discordpy-v3
+[2023-05-12 07:13:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: landingai
+[2023-05-12 07:13:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spatial-summarize-within
+[2023-05-12 07:13:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pbtools
+[2023-05-12 07:13:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: spending-habits-tracker
+[2023-05-12 07:13:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: doeloe
+[2023-05-12 07:13:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kf6py
+[2023-05-12 07:13:56] ERROR root fetch - processPackages [discordpy-v3]: Unable to get metadata: No such project 'discordpy-v3'
+[2023-05-12 07:13:56] INFO root fetch - processPackages [discordpy-v3]: Start processing: yins-music
+[2023-05-12 07:13:56] INFO root fetch - main [MainThread]: End processing [discordpy-v3] error
+[2023-05-12 07:13:56] INFO root fetch - processPackages [czthry]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-05-12 07:13:56] INFO root fetch - processPackages [spatial-summarize-within]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-12 07:13:56] WARNING root fetch - processPackages [spending-habits-tracker]: Skipping, unable to determine old version
+[2023-05-12 07:13:56] INFO root fetch - processPackages [spending-habits-tracker]: Start processing: tap-impact
+[2023-05-12 07:13:56] INFO root fetch - main [MainThread]: End processing [spending-habits-tracker] error
+[2023-05-12 07:13:56] INFO root fetch - processPackages [motion-python]: New version: [0.1.40] Old Version: [0.1.39]
+[2023-05-12 07:13:56] WARNING root fetch - processPackages [kf6py]: Skipping, unable to determine old version
+[2023-05-12 07:13:56] INFO root fetch - processPackages [yins-music]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-12 07:13:56] INFO root fetch - main [MainThread]: End processing [kf6py] error
+[2023-05-12 07:13:56] INFO root fetch - processPackages [landingai]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-12 07:13:56] WARNING root fetch - processPackages [doeloe]: Skipping, unable to determine old version
+[2023-05-12 07:13:56] INFO root fetch - main [MainThread]: End processing [doeloe] error
+[2023-05-12 07:13:56] INFO root fetch - processPackages [tap-impact]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-12 07:13:56] INFO root fetch - processPackages [pbtools]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-12 07:13:56] INFO root fetch - processPackages [tflite-model-maker-nightly]: New version: [0.4.3.dev202305120508] Old Version: [0.4.3.dev202305110508]
+[2023-05-12 07:13:56] INFO root fetch - processPackages [motion-python]: Downloading https://files.pythonhosted.org/packages/5d/52/450da84569a7d60347b379b92a92d7369da999cad90dd916246c9b8f9e85/motion_python-0.1.39.tar.gz
+[2023-05-12 07:13:56] INFO root fetch - processPackages [yins-music]: Downloading https://files.pythonhosted.org/packages/b3/d7/147a72eb85e6d83fbaf92d8f3c179fb2cfb9890eb58a3f873d06ddb8e5a9/yins-music-0.0.2.tar.gz
+[2023-05-12 07:13:56] INFO root fetch - processPackages [spatial-summarize-within]: Downloading https://files.pythonhosted.org/packages/be/33/ece7eefbb4c1e1963cacc06ecc7a64177b8d78ed3c123f77d2023868c24d/spatial_summarize_within-0.2.2-py3-none-any.whl
+[2023-05-12 07:13:56] INFO root fetch - processPackages [tap-impact]: Downloading https://files.pythonhosted.org/packages/cf/b4/ea3cae0dc8c518d6ae9c708ac6fc099cff1004277714950e27fea0f14d47/tap-impact-1.0.2.tar.gz
+[2023-05-12 07:13:56] INFO root fetch - processPackages [pbtools]: Downloading https://files.pythonhosted.org/packages/87/fa/b86efac638c0eec5d58cf6854bd15bbd68cd1d9413eddcd6a3e9ec72d48c/pbtools-0.8.0.tar.gz
+[2023-05-12 07:13:56] INFO root fetch - processPackages [landingai]: Downloading https://files.pythonhosted.org/packages/69/6d/f459653356894d3e29d63e47610b6cedb8943e306781d231dc7c856100ed/landingai-0.0.3.tar.gz
+[2023-05-12 07:13:56] INFO root fetch - processPackages [landingai]: executing diffoscope
+[2023-05-12 07:13:56] INFO root fetch - processPackages [landingai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/landingai-0.0.2-py3-none-any.whl.zip tmp/landingai-0.0.3.tar.gz --markdown 20230512/l/landingai/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-12 07:13:56] INFO root fetch - processPackages [spatial-summarize-within]: executing diffoscope
+[2023-05-12 07:13:56] INFO root fetch - processPackages [spatial-summarize-within]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spatial_summarize_within-0.2.1.tar.gz tmp/spatial_summarize_within-0.2.2-py3-none-any.whl.zip --markdown 20230512/s/spatial-summarize-within/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-12 07:13:56] INFO root fetch - processPackages [motion-python]: Downloading https://files.pythonhosted.org/packages/2a/e4/45ec16941be5f23478ea5d9b447057603ea2bf7dd47ed4781358f606fee5/motion_python-0.1.40-py3-none-any.whl
+[2023-05-12 07:13:56] INFO root fetch - processPackages [tap-impact]: executing diffoscope
+[2023-05-12 07:13:56] INFO root fetch - processPackages [tap-impact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tap-impact-1.0.1.tar.gz tmp/tap-impact-1.0.2.tar.gz --markdown 20230512/t/tap-impact/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-12 07:13:56] INFO root fetch - processPackages [czthry]: executing diffoscope
+[2023-05-12 07:13:56] INFO root fetch - processPackages [czthry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/czthry-0.0.7.tar.gz tmp/czthry-0.0.9.tar.gz --markdown 20230512/c/czthry/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 07:13:56] INFO root fetch - processPackages [yins-music]: Downloading https://files.pythonhosted.org/packages/2c/43/fb757a412f10671cdbb387ed3a0ee910413cf04bc5a149b7d38f0fe87a44/yins-music-0.0.3.tar.gz
+[2023-05-12 07:13:56] INFO root fetch - processPackages [motion-python]: executing diffoscope
+[2023-05-12 07:13:56] INFO root fetch - processPackages [motion-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/motion_python-0.1.39.tar.gz tmp/motion_python-0.1.40-py3-none-any.whl.zip --markdown 20230512/m/motion-python/0.1.39-0.1.40/diff.md --exclude *.pyd
+[2023-05-12 07:13:56] INFO root fetch - processPackages [tflite-model-maker-nightly]: Downloading https://files.pythonhosted.org/packages/b2/65/2ec68faf082b62c69df9711733743b31d18f295b6bd6c02741d7b1f2ba51/tflite-model-maker-nightly-0.4.3.dev202305120508.tar.gz
+[2023-05-12 07:13:57] INFO root fetch - processPackages [pbtools]: Downloading https://files.pythonhosted.org/packages/91/98/64b13d3866ab52524e14b0e5d7c88e3838adb17163e14a009d20fb86c892/pbtools-0.9.0.tar.gz
+[2023-05-12 07:13:57] INFO root fetch - processPackages [yins-music]: executing diffoscope
+[2023-05-12 07:13:57] INFO root fetch - processPackages [yins-music]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yins-music-0.0.2.tar.gz tmp/yins-music-0.0.3.tar.gz --markdown 20230512/y/yins-music/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-12 07:13:57] INFO root fetch - processPackages [tflite-model-maker-nightly]: executing diffoscope
+[2023-05-12 07:13:57] INFO root fetch - processPackages [tflite-model-maker-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite-model-maker-nightly-0.4.3.dev202305110508.tar.gz tmp/tflite-model-maker-nightly-0.4.3.dev202305120508.tar.gz --markdown 20230512/t/tflite-model-maker-nightly/0.4.3.dev202305110508-0.4.3.dev202305120508/diff.md --exclude *.pyd
+[2023-05-12 07:13:57] INFO root fetch - processPackages [pbtools]: executing diffoscope
+[2023-05-12 07:13:57] INFO root fetch - processPackages [pbtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pbtools-0.8.0.tar.gz tmp/pbtools-0.9.0.tar.gz --markdown 20230512/p/pbtools/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-12 07:13:58] INFO root fetch - main [MainThread]: End processing [landingai]: success
+[2023-05-12 07:13:58] INFO root fetch - main [MainThread]: End processing [spatial-summarize-within]: success
+[2023-05-12 07:13:58] INFO root fetch - main [MainThread]: End processing [motion-python]: success
+[2023-05-12 07:13:58] INFO root fetch - main [MainThread]: End processing [czthry]: success
+[2023-05-12 07:13:58] INFO root fetch - main [MainThread]: End processing [tap-impact]: success
+[2023-05-12 07:13:58] INFO root fetch - main [MainThread]: End processing [yins-music]: success
+[2023-05-12 07:14:00] INFO root fetch - main [MainThread]: End processing [pbtools]: success
+[2023-05-12 07:14:00] INFO root fetch - main [MainThread]: End processing [tflite-model-maker-nightly]: success
+[2023-05-12 07:14:00] INFO root fetch - main [MainThread]: Store serial: [18073529]
