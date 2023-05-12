@@ -13604,3 +13604,128 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-12 17:04:34] INFO root fetch - main [MainThread]: End processing [injective-py]: success
 [2023-05-12 17:05:02] INFO root fetch - main [MainThread]: End processing [katdal]: success
 [2023-05-12 17:05:02] INFO root fetch - main [MainThread]: Store serial: [18079662]
+[2023-05-12 17:10:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18079662]
+[2023-05-12 17:10:12] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-12 17:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rasa
+[2023-05-12 17:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: agilicus
+[2023-05-12 17:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tensorflow-text-nightly
+[2023-05-12 17:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: getpack
+[2023-05-12 17:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: resonances
+[2023-05-12 17:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-sale-planner-calendar
+[2023-05-12 17:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: graphql-service-framework
+[2023-05-12 17:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: connpy
+[2023-05-12 17:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: simplemagic
+[2023-05-12 17:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: medsenger-api
+[2023-05-12 17:10:12] INFO root fetch - processPackages [odoo-addon-sale-planner-calendar]: New version: [15.0.1.1.2] Old Version: [15.0.1.1.1]
+[2023-05-12 17:10:12] INFO root fetch - processPackages [resonances]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-05-12 17:10:12] INFO root fetch - processPackages [simplemagic]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-12 17:10:12] INFO root fetch - processPackages [rasa]: New version: [3.5.8] Old Version: [3.5.7]
+[2023-05-12 17:10:12] INFO root fetch - processPackages [tensorflow-text-nightly]: New version: [2.14.0.dev20230511] Old Version: [2.13.0.dev20230424]
+[2023-05-12 17:10:12] INFO root fetch - processPackages [graphql-service-framework]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-12 17:10:12] INFO root fetch - processPackages [connpy]: New version: [3.2.3] Old Version: [3.2.2]
+[2023-05-12 17:10:12] INFO root fetch - processPackages [medsenger-api]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-12 17:10:12] INFO root fetch - processPackages [agilicus]: New version: [1.99.0] Old Version: [1.98.9]
+[2023-05-12 17:10:12] INFO root fetch - processPackages [getpack]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-05-12 17:10:12] INFO root fetch - processPackages [graphql-service-framework]: executing diffoscope
+[2023-05-12 17:10:12] INFO root fetch - processPackages [graphql-service-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphql_service_framework-1.1.8.tar.gz tmp/graphql_service_framework-1.1.9.tar.gz --markdown 20230512/g/graphql-service-framework/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-12 17:10:12] INFO root fetch - processPackages [tensorflow-text-nightly]: executing diffoscope
+[2023-05-12 17:10:12] INFO root fetch - processPackages [tensorflow-text-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorflow_text_nightly-2.13.0.dev20230424-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/tensorflow_text_nightly-2.14.0.dev20230511-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230512/t/tensorflow-text-nightly/2.13.0.dev20230424-2.14.0.dev20230511/diff.md --exclude *.pyd
+[2023-05-12 17:10:12] INFO root fetch - processPackages [medsenger-api]: executing diffoscope
+[2023-05-12 17:10:12] INFO root fetch - processPackages [medsenger-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medsenger_api-0.1.8.tar.gz tmp/medsenger_api-0.1.9.tar.gz --markdown 20230512/m/medsenger-api/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-12 17:10:13] INFO root fetch - processPackages [simplemagic]: Downloading https://files.pythonhosted.org/packages/7c/49/ec561b230e0cd57cd56ec071cd9036b89887b87f7f4836759cc398d44d3e/simplemagic-0.1.8.tar.gz
+[2023-05-12 17:10:13] INFO root fetch - processPackages [resonances]: Downloading https://files.pythonhosted.org/packages/da/cb/6d94e5489c1f5f5904fac7e1fb2352e6e120013b4043d4b57f016d1537ac/resonances-0.2.5.tar.gz
+[2023-05-12 17:10:13] INFO root fetch - processPackages [odoo-addon-sale-planner-calendar]: Downloading https://files.pythonhosted.org/packages/f3/fc/f6206a988b5a8dd68b27b3fe957022d8a2330f6ce4ed8f4991bea3fcf321/odoo_addon_sale_planner_calendar-15.0.1.1.2-py3-none-any.whl
+[2023-05-12 17:10:13] INFO root fetch - processPackages [odoo-addon-sale-planner-calendar]: executing diffoscope
+[2023-05-12 17:10:13] INFO root fetch - processPackages [odoo-addon-sale-planner-calendar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_planner_calendar-15.0.1.1.1-py3-none-any.whl.zip tmp/odoo_addon_sale_planner_calendar-15.0.1.1.2-py3-none-any.whl.zip --markdown 20230512/o/odoo-addon-sale-planner-calendar/15.0.1.1.1-15.0.1.1.2/diff.md --exclude *.pyd
+[2023-05-12 17:10:13] INFO root fetch - processPackages [connpy]: Downloading https://files.pythonhosted.org/packages/d4/78/f127e4df2216cb2d53de8bc05ef5cfc71ce9aaf2697b1c8da50ab06505af/connpy-3.2.3.tar.gz
+[2023-05-12 17:10:13] INFO root fetch - processPackages [rasa]: Downloading https://files.pythonhosted.org/packages/a1/cc/891c00e4e0917edc1721c5128be55579a449466a67800b2856f7a23a3a1f/rasa-3.5.8.tar.gz
+[2023-05-12 17:10:13] INFO root fetch - processPackages [getpack]: Downloading https://files.pythonhosted.org/packages/92/5d/f530b8aafdd09a5376277ea116c8f8e91b70d0a297fb9b325b1e34f0fead/getpack-0.2.7.tar.gz
+[2023-05-12 17:10:13] INFO root fetch - processPackages [agilicus]: executing diffoscope
+[2023-05-12 17:10:13] INFO root fetch - processPackages [agilicus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agilicus-1.98.9.tar.gz tmp/agilicus-1.99.0.tar.gz --markdown 20230512/a/agilicus/1.98.9-1.99.0/diff.md --exclude *.pyd
+[2023-05-12 17:10:13] INFO root fetch - processPackages [connpy]: executing diffoscope
+[2023-05-12 17:10:13] INFO root fetch - processPackages [connpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/connpy-3.2.2.tar.gz tmp/connpy-3.2.3.tar.gz --markdown 20230512/c/connpy/3.2.2-3.2.3/diff.md --exclude *.pyd
+[2023-05-12 17:10:13] INFO root fetch - processPackages [rasa]: executing diffoscope
+[2023-05-12 17:10:13] INFO root fetch - processPackages [rasa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rasa-3.5.7.tar.gz tmp/rasa-3.5.8.tar.gz --markdown 20230512/r/rasa/3.5.7-3.5.8/diff.md --exclude *.pyd
+[2023-05-12 17:10:13] INFO root fetch - processPackages [getpack]: executing diffoscope
+[2023-05-12 17:10:13] INFO root fetch - processPackages [getpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/getpack-0.2.6.tar.gz tmp/getpack-0.2.7.tar.gz --markdown 20230512/g/getpack/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-05-12 17:10:13] INFO root fetch - processPackages [resonances]: Downloading https://files.pythonhosted.org/packages/b4/52/52a923a9dda4c34a7ddaddfcb355f06b1ea5cb13390803ae3f51d13ed911/resonances-0.2.6.tar.gz
+[2023-05-12 17:10:13] INFO root fetch - processPackages [resonances]: executing diffoscope
+[2023-05-12 17:10:13] INFO root fetch - processPackages [resonances]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resonances-0.2.5.tar.gz tmp/resonances-0.2.6.tar.gz --markdown 20230512/r/resonances/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-05-12 17:10:13] INFO root fetch - processPackages [simplemagic]: Downloading https://files.pythonhosted.org/packages/eb/42/d8cb7c722c7d88224e389025fdf3297a8fbb63d821baeed0e802633a16c3/simplemagic-0.1.9.tar.gz
+[2023-05-12 17:10:13] INFO root fetch - processPackages [simplemagic]: executing diffoscope
+[2023-05-12 17:10:13] INFO root fetch - processPackages [simplemagic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplemagic-0.1.8.tar.gz tmp/simplemagic-0.1.9.tar.gz --markdown 20230512/s/simplemagic/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-12 17:10:14] INFO root fetch - processPackages [graphql-service-framework]: Start processing: django-fragments
+[2023-05-12 17:10:14] INFO root fetch - main [MainThread]: End processing [graphql-service-framework]: success
+[2023-05-12 17:10:14] INFO root fetch - processPackages [django-fragments]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-12 17:10:14] INFO root fetch - processPackages [medsenger-api]: Start processing: space-classy
+[2023-05-12 17:10:14] INFO root fetch - main [MainThread]: End processing [medsenger-api]: success
+[2023-05-12 17:10:14] INFO root fetch - processPackages [django-fragments]: Downloading https://files.pythonhosted.org/packages/da/2e/cd7047fd8b53b5f731329f34e8be6b8398095e6c87f8dfabd4dce4e36f0c/django_fragments-0.1.4.tar.gz
+[2023-05-12 17:10:14] INFO root fetch - processPackages [space-classy]: New version: [0.5] Old Version: [0.4.2]
+[2023-05-12 17:10:14] INFO root fetch - processPackages [django-fragments]: Downloading https://files.pythonhosted.org/packages/3f/70/7979c2dda693d135321b684e63c7660a6a441451eaaacf0878b7382890bd/django_fragments-0.1.5.tar.gz
+[2023-05-12 17:10:14] INFO root fetch - processPackages [django-fragments]: executing diffoscope
+[2023-05-12 17:10:14] INFO root fetch - processPackages [django-fragments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_fragments-0.1.4.tar.gz tmp/django_fragments-0.1.5.tar.gz --markdown 20230512/d/django-fragments/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-12 17:10:14] INFO root fetch - processPackages [space-classy]: Downloading https://files.pythonhosted.org/packages/d5/20/0a391895581768c856b2f4aaed34a7c83d4a76f2438eae04278583f2237c/space_classy-0.4.2.tar.gz
+[2023-05-12 17:10:14] WARNING root fetch - processPackages [space-classy]: Skipping package: exceeds size limit 11534058>=10485760
+[2023-05-12 17:10:14] INFO root fetch - main [MainThread]: End processing [space-classy] error
+[2023-05-12 17:10:15] INFO root fetch - main [MainThread]: End processing [connpy]: success
+[2023-05-12 17:10:15] INFO root fetch - main [MainThread]: End processing [getpack]: success
+[2023-05-12 17:10:15] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-planner-calendar]: success
+[2023-05-12 17:10:15] INFO root fetch - main [MainThread]: End processing [simplemagic]: success
+[2023-05-12 17:10:15] INFO root fetch - main [MainThread]: End processing [resonances]: success
+[2023-05-12 17:10:16] INFO root fetch - main [MainThread]: End processing [django-fragments]: success
+[2023-05-12 17:10:16] INFO root fetch - main [MainThread]: End processing [rasa]: success
+[2023-05-12 17:10:38] ERROR root fetch - processPackages [agilicus]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 51, in compare_details
+    describe_pyc(self.path),
+    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 65, in describe_pyc
+    return "\n".join(parse_pyc(f))
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 81, in parse_pyc
+    code = marshal.load(f)
+           ^^^^^^^^^^^^^^^
+EOFError: EOF read where object expected
+
+[2023-05-12 17:10:38] INFO root fetch - main [MainThread]: End processing [agilicus] error
+[2023-05-12 17:11:57] INFO root fetch - main [MainThread]: End processing [tensorflow-text-nightly]: success
+[2023-05-12 17:11:57] INFO root fetch - main [MainThread]: Store serial: [18079702]
