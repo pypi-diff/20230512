@@ -7416,3 +7416,118 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-12 10:39:06] INFO root fetch - main [MainThread]: End processing [chython]: success
 [2023-05-12 10:39:31] INFO root fetch - main [MainThread]: End processing [hubspot-api-client]: success
 [2023-05-12 10:39:31] INFO root fetch - main [MainThread]: Store serial: [18075470]
+[2023-05-12 10:44:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18075470]
+[2023-05-12 10:44:41] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-12 10:44:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: notionai-py
+[2023-05-12 10:44:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: infrasonar
+[2023-05-12 10:44:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qontract-reconcile
+[2023-05-12 10:44:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cli-lite
+[2023-05-12 10:44:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: twitter-api-py
+[2023-05-12 10:44:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: godot-rl
+[2023-05-12 10:44:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: smoloki
+[2023-05-12 10:44:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: autometrics
+[2023-05-12 10:44:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: scipion-em-topaz
+[2023-05-12 10:44:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: apicase
+[2023-05-12 10:44:41] INFO root fetch - processPackages [scipion-em-topaz]: New version: [3.0.2] Old Version: [3.0.1]
+[2023-05-12 10:44:41] INFO root fetch - processPackages [twitter-api-py]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-12 10:44:41] INFO root fetch - processPackages [cli-lite]: New version: [0.7.0] Old Version: [0.5.1]
+[2023-05-12 10:44:41] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-05-12 10:44:41] INFO root fetch - processPackages [notionai-py]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-12 10:44:41] INFO root fetch - processPackages [godot-rl]: New version: [0.5.0a0] Old Version: [0.5.0]
+[2023-05-12 10:44:41] INFO root fetch - processPackages [smoloki]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 10:44:41] INFO root fetch - processPackages [infrasonar]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-12 10:44:41] INFO root fetch - processPackages [apicase]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-05-12 10:44:41] INFO root fetch - processPackages [autometrics]: New version: [0.5] Old Version: [0.4]
+[2023-05-12 10:44:41] INFO root fetch - processPackages [twitter-api-py]: executing diffoscope
+[2023-05-12 10:44:41] INFO root fetch - processPackages [twitter-api-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twitter_api_py-0.4.8.tar.gz tmp/twitter_api_py-0.4.9.tar.gz --markdown 20230512/t/twitter-api-py/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-05-12 10:44:41] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-05-12 10:44:41] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230512/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-05-12 10:44:41] INFO root fetch - processPackages [scipion-em-topaz]: Downloading https://files.pythonhosted.org/packages/69/2e/8111002714f76a7c18d5900a8e9843bee615b65ec0c5b9006a7d46802415/scipion-em-topaz-3.0.1.tar.gz
+[2023-05-12 10:44:41] INFO root fetch - processPackages [godot-rl]: Downloading https://files.pythonhosted.org/packages/28/8e/c1d1c7cafc6a6d8eb4c3646391e55d3e790b532f297402ee6490996f9a96/godot_rl-0.5.0.tar.gz
+[2023-05-12 10:44:41] INFO root fetch - processPackages [apicase]: Downloading https://files.pythonhosted.org/packages/7f/81/475a282c5bf67b829ec58ad758f1910d07a512f06d396367e80637bba6a0/apicase-0.1.9.tar.gz
+[2023-05-12 10:44:41] INFO root fetch - processPackages [notionai-py]: Downloading https://files.pythonhosted.org/packages/5f/53/6cfb9ccbf7a5d0284097b62460a0d82a115a5ab6022e6cb6a76aed6ee81b/notionai-py-0.1.3.tar.gz
+[2023-05-12 10:44:41] INFO root fetch - processPackages [autometrics]: Downloading https://files.pythonhosted.org/packages/ca/0d/300a0a4478f837dd666725f32448502ee7007f644aed9934538e14201bd9/autometrics-0.4.tar.gz
+[2023-05-12 10:44:41] INFO root fetch - processPackages [cli-lite]: Downloading https://files.pythonhosted.org/packages/cd/8c/6758a19efb2a8a5304c44d9f440feda09ac21ba7d173523b706ea11b9e13/cli-lite-0.5.1.tar.gz
+[2023-05-12 10:44:41] INFO root fetch - processPackages [smoloki]: Downloading https://files.pythonhosted.org/packages/9f/a3/10631a2338c9a76d19cd32f7fc3ab8355f595abae43f927833a42aa8913b/smoloki-0.0.9.tar.gz
+[2023-05-12 10:44:41] INFO root fetch - processPackages [smoloki]: executing diffoscope
+[2023-05-12 10:44:41] INFO root fetch - processPackages [smoloki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smoloki-0.0.8.tar.gz tmp/smoloki-0.0.9.tar.gz --markdown 20230512/s/smoloki/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 10:44:41] INFO root fetch - processPackages [infrasonar]: Downloading https://files.pythonhosted.org/packages/7b/6b/fc139387718f9f774687ee7b1c5738276142ad2c902cbfd701e4ae212594/infrasonar-0.1.9.tar.gz
+[2023-05-12 10:44:41] INFO root fetch - processPackages [scipion-em-topaz]: Downloading https://files.pythonhosted.org/packages/18/5f/ef6dc12a08026eb757b6aa573da7bc14c4bdceb08b882b2352a80e88ccbb/scipion-em-topaz-3.0.2.tar.gz
+[2023-05-12 10:44:41] INFO root fetch - processPackages [apicase]: Downloading https://files.pythonhosted.org/packages/01/6b/b4d6b05e1dc4d610f3dabfe4b0a4caa51f02af47bd0b77269eee07d0784a/apicase-0.2.0.tar.gz
+[2023-05-12 10:44:41] INFO root fetch - processPackages [cli-lite]: Downloading https://files.pythonhosted.org/packages/cc/2d/d092b1bdc4b6aeeb86d0b28817f4dd359b047d7011cba6859881dbf2063e/cli-lite-0.7.0.tar.gz
+[2023-05-12 10:44:41] INFO root fetch - processPackages [infrasonar]: executing diffoscope
+[2023-05-12 10:44:41] INFO root fetch - processPackages [infrasonar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infrasonar-0.1.8.tar.gz tmp/infrasonar-0.1.9.tar.gz --markdown 20230512/i/infrasonar/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-12 10:44:41] INFO root fetch - processPackages [scipion-em-topaz]: executing diffoscope
+[2023-05-12 10:44:41] INFO root fetch - processPackages [scipion-em-topaz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scipion-em-topaz-3.0.1.tar.gz tmp/scipion-em-topaz-3.0.2.tar.gz --markdown 20230512/s/scipion-em-topaz/3.0.1-3.0.2/diff.md --exclude *.pyd
+[2023-05-12 10:44:41] INFO root fetch - processPackages [notionai-py]: Downloading https://files.pythonhosted.org/packages/a8/13/46702ad2f46fe8f57f8165578e3df6447ea73d2087867a954fc51a155f8e/notionai-py-0.1.4.tar.gz
+[2023-05-12 10:44:41] INFO root fetch - processPackages [apicase]: executing diffoscope
+[2023-05-12 10:44:41] INFO root fetch - processPackages [apicase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apicase-0.1.9.tar.gz tmp/apicase-0.2.0.tar.gz --markdown 20230512/a/apicase/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-05-12 10:44:41] INFO root fetch - processPackages [autometrics]: Downloading https://files.pythonhosted.org/packages/30/ea/7c1c190c38f36f2695ff888e41a9e49beff826dab5aa0a9a16cb00aa1ec6/autometrics-0.5.tar.gz
+[2023-05-12 10:44:41] INFO root fetch - processPackages [cli-lite]: executing diffoscope
+[2023-05-12 10:44:41] INFO root fetch - processPackages [cli-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cli-lite-0.5.1.tar.gz tmp/cli-lite-0.7.0.tar.gz --markdown 20230512/c/cli-lite/0.5.1-0.7.0/diff.md --exclude *.pyd
+[2023-05-12 10:44:41] INFO root fetch - processPackages [godot-rl]: Downloading https://files.pythonhosted.org/packages/54/9c/ce7791d1699ca60d2c5fa53afa098423a4b47a72f985b96ce1e22ed22f6b/godot_rl-0.5.0a0.tar.gz
+[2023-05-12 10:44:42] INFO root fetch - processPackages [godot-rl]: executing diffoscope
+[2023-05-12 10:44:42] INFO root fetch - processPackages [godot-rl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/godot_rl-0.5.0.tar.gz tmp/godot_rl-0.5.0a0.tar.gz --markdown 20230512/g/godot-rl/0.5.0-0.5.0a0/diff.md --exclude *.pyd
+[2023-05-12 10:44:42] INFO root fetch - processPackages [autometrics]: executing diffoscope
+[2023-05-12 10:44:42] INFO root fetch - processPackages [autometrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autometrics-0.4.tar.gz tmp/autometrics-0.5.tar.gz --markdown 20230512/a/autometrics/0.4-0.5/diff.md --exclude *.pyd
+[2023-05-12 10:44:42] INFO root fetch - processPackages [notionai-py]: executing diffoscope
+[2023-05-12 10:44:42] INFO root fetch - processPackages [notionai-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notionai-py-0.1.3.tar.gz tmp/notionai-py-0.1.4.tar.gz --markdown 20230512/n/notionai-py/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-12 10:44:43] INFO root fetch - processPackages [smoloki]: Start processing: dspawpy
+[2023-05-12 10:44:43] INFO root fetch - main [MainThread]: End processing [smoloki]: success
+[2023-05-12 10:44:43] INFO root fetch - processPackages [dspawpy]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-12 10:44:43] INFO root fetch - processPackages [dspawpy]: Downloading https://files.pythonhosted.org/packages/6b/b7/835b42d1cce6ee24ba5e0ef4a6cb0b5eb4c5b136683e60c7fcd45e49674d/dspawpy-0.9.2-py3-none-any.whl
+[2023-05-12 10:44:43] INFO root fetch - processPackages [scipion-em-topaz]: Start processing: click-extra
+[2023-05-12 10:44:43] INFO root fetch - main [MainThread]: End processing [scipion-em-topaz]: success
+[2023-05-12 10:44:43] INFO root fetch - processPackages [click-extra]: New version: [4.1.0] Old Version: [4.0.0]
+[2023-05-12 10:44:43] INFO root fetch - processPackages [dspawpy]: Downloading https://files.pythonhosted.org/packages/5a/71/afb2a1a4e2255fab876071a8f353453d17c022c18097226d23b8e2d7ea4e/dspawpy-0.9.3-py3-none-any.whl
+[2023-05-12 10:44:43] INFO root fetch - processPackages [cli-lite]: Start processing: odoo-addon-l10n-it-fatturapa-out
+[2023-05-12 10:44:43] INFO root fetch - main [MainThread]: End processing [cli-lite]: success
+[2023-05-12 10:44:43] INFO root fetch - processPackages [odoo-addon-l10n-it-fatturapa-out]: New version: [16.0.1.0.6] Old Version: [16.0.1.0.5]
+[2023-05-12 10:44:43] INFO root fetch - processPackages [infrasonar]: Start processing: tff-nightly
+[2023-05-12 10:44:43] INFO root fetch - main [MainThread]: End processing [infrasonar]: success
+[2023-05-12 10:44:43] INFO root fetch - processPackages [tff-nightly]: New version: [0.0.1.dev20230511] Old Version: [0.0.1.dev20230510]
+[2023-05-12 10:44:43] INFO root fetch - processPackages [dspawpy]: executing diffoscope
+[2023-05-12 10:44:43] INFO root fetch - processPackages [dspawpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dspawpy-0.9.2-py3-none-any.whl.zip tmp/dspawpy-0.9.3-py3-none-any.whl.zip --markdown 20230512/d/dspawpy/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-12 10:44:43] INFO root fetch - processPackages [click-extra]: Downloading https://files.pythonhosted.org/packages/71/ec/b9234aab3d9917e7756c7b0a0386143c056a04562666a2f09a18d43038fc/click_extra-4.0.0.tar.gz
+[2023-05-12 10:44:43] INFO root fetch - processPackages [apicase]: Start processing: hsuanwu
+[2023-05-12 10:44:43] INFO root fetch - main [MainThread]: End processing [apicase]: success
+[2023-05-12 10:44:43] INFO root fetch - processPackages [hsuanwu]: New version: [0.0.1b6] Old Version: [0.0.1b5]
+[2023-05-12 10:44:43] INFO root fetch - processPackages [godot-rl]: Start processing: densor12345tes
+[2023-05-12 10:44:43] INFO root fetch - main [MainThread]: End processing [godot-rl]: success
+[2023-05-12 10:44:43] INFO root fetch - processPackages [odoo-addon-l10n-it-fatturapa-out]: Downloading https://files.pythonhosted.org/packages/9c/e5/ca46a964a5ca6efd972e0591d5cb29d58990bd8dae529a4d51fe9a70c16e/odoo_addon_l10n_it_fatturapa_out-16.0.1.0.5-py3-none-any.whl
+[2023-05-12 10:44:43] WARNING root fetch - processPackages [densor12345tes]: Skipping, unable to determine old version
+[2023-05-12 10:44:43] INFO root fetch - processPackages [densor12345tes]: Start processing: ezFlashCLI
+[2023-05-12 10:44:43] INFO root fetch - main [MainThread]: End processing [densor12345tes] error
+[2023-05-12 10:44:43] INFO root fetch - processPackages [ezFlashCLI]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-12 10:44:43] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/09/fb/ada21cb1438a8140cb2b9dbe20e7adabee2c0d46178f91399a1af74c265a/tff_nightly-0.0.1.dev20230511-py2.py3-none-any.whl
+[2023-05-12 10:44:43] INFO root fetch - processPackages [click-extra]: Downloading https://files.pythonhosted.org/packages/28/01/fe28ca36d281ef1784255b0c4a504f6d58a289dd0ad252a83cf2ad31c902/click_extra-4.1.0.tar.gz
+[2023-05-12 10:44:43] INFO root fetch - processPackages [hsuanwu]: Downloading https://files.pythonhosted.org/packages/4f/e7/6e91a7ce312bc78386abc97a4fdb6a92cb4986ce9ff743a1048079de6100/hsuanwu-0.0.1b5.tar.gz
+[2023-05-12 10:44:44] INFO root fetch - processPackages [autometrics]: Start processing: pe-configurator
+[2023-05-12 10:44:44] INFO root fetch - main [MainThread]: End processing [autometrics]: success
+[2023-05-12 10:44:44] INFO root fetch - processPackages [ezFlashCLI]: Downloading https://files.pythonhosted.org/packages/99/f1/917015c9151672a17d835b7260d27aa1de9de2f03c3dfbb7fbea2d664b15/ezFlashCLI-1.0.8.tar.gz
+[2023-05-12 10:44:44] INFO root fetch - processPackages [pe-configurator]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-12 10:44:44] INFO root fetch - processPackages [click-extra]: executing diffoscope
+[2023-05-12 10:44:44] INFO root fetch - processPackages [click-extra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/click_extra-4.0.0.tar.gz tmp/click_extra-4.1.0.tar.gz --markdown 20230512/c/click-extra/4.0.0-4.1.0/diff.md --exclude *.pyd
+[2023-05-12 10:44:44] INFO root fetch - processPackages [odoo-addon-l10n-it-fatturapa-out]: Downloading https://files.pythonhosted.org/packages/1d/08/6191bdcc3a89aa57c74b2b44affbea61a7c6e673e7ba8cf6011445593809/odoo_addon_l10n_it_fatturapa_out-16.0.1.0.6-py3-none-any.whl
+[2023-05-12 10:44:44] INFO root fetch - processPackages [tff-nightly]: executing diffoscope
+[2023-05-12 10:44:44] INFO root fetch - processPackages [tff-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tff_nightly-0.0.1.dev20230510-py2.py3-none-any.whl.zip tmp/tff_nightly-0.0.1.dev20230511-py2.py3-none-any.whl.zip --markdown 20230512/t/tff-nightly/0.0.1.dev20230510-0.0.1.dev20230511/diff.md --exclude *.pyd
+[2023-05-12 10:44:44] INFO root fetch - processPackages [odoo-addon-l10n-it-fatturapa-out]: executing diffoscope
+[2023-05-12 10:44:44] INFO root fetch - processPackages [odoo-addon-l10n-it-fatturapa-out]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_it_fatturapa_out-16.0.1.0.5-py3-none-any.whl.zip tmp/odoo_addon_l10n_it_fatturapa_out-16.0.1.0.6-py3-none-any.whl.zip --markdown 20230512/o/odoo-addon-l10n-it-fatturapa-out/16.0.1.0.5-16.0.1.0.6/diff.md --exclude *.pyd
+[2023-05-12 10:44:44] WARNING root fetch - processPackages [ezFlashCLI]: Skipping package: exceeds size limit 71430443>=10485760
+[2023-05-12 10:44:44] INFO root fetch - main [MainThread]: End processing [ezFlashCLI] error
+[2023-05-12 10:44:44] INFO root fetch - processPackages [hsuanwu]: Downloading https://files.pythonhosted.org/packages/21/9e/9f33d1d6b7609ef878dd5f16633196d0ce35c1e37ef542b52292177c53e3/hsuanwu-0.0.1b6.tar.gz
+[2023-05-12 10:44:44] INFO root fetch - processPackages [pe-configurator]: Downloading https://files.pythonhosted.org/packages/1f/54/1f09df55d463a5b3784db435dc1e7e8774f0c3f1f771429df38cb25287d4/pe-configurator-0.1.5.tar.gz
+[2023-05-12 10:44:44] WARNING root fetch - processPackages [hsuanwu]: Skipping package: exceeds size limit 12465689>=10485760
+[2023-05-12 10:44:44] INFO root fetch - main [MainThread]: End processing [hsuanwu] error
+[2023-05-12 10:44:44] INFO root fetch - processPackages [pe-configurator]: Downloading https://files.pythonhosted.org/packages/c4/74/8a856ea2266149d68dac5c65e78419aab7244c5067d373c5f89c0591417f/pe-configurator-0.1.6.tar.gz
+[2023-05-12 10:44:44] INFO root fetch - processPackages [pe-configurator]: executing diffoscope
+[2023-05-12 10:44:44] INFO root fetch - processPackages [pe-configurator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pe-configurator-0.1.5.tar.gz tmp/pe-configurator-0.1.6.tar.gz --markdown 20230512/p/pe-configurator/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-12 10:44:44] INFO root fetch - main [MainThread]: End processing [dspawpy]: success
+[2023-05-12 10:44:45] INFO root fetch - main [MainThread]: End processing [click-extra]: success
+[2023-05-12 10:44:45] INFO root fetch - main [MainThread]: End processing [twitter-api-py]: success
+[2023-05-12 10:44:46] INFO root fetch - main [MainThread]: End processing [notionai-py]: success
+[2023-05-12 10:44:46] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-it-fatturapa-out]: success
+[2023-05-12 10:44:46] INFO root fetch - main [MainThread]: End processing [pe-configurator]: success
+[2023-05-12 10:44:46] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
+[2023-05-12 10:44:47] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-05-12 10:44:47] INFO root fetch - main [MainThread]: Store serial: [18075576]
