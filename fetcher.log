@@ -11456,3 +11456,111 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-12 15:17:11] INFO root fetch - main [MainThread]: End processing [open-autonomy]: success
 [2023-05-12 15:17:15] INFO root fetch - main [MainThread]: End processing [polars-lts-cpu]: success
 [2023-05-12 15:17:15] INFO root fetch - main [MainThread]: Store serial: [18078365]
+[2023-05-12 15:22:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18078365]
+[2023-05-12 15:22:25] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-12 15:22:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: html-msg
+[2023-05-12 15:22:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: segment-studio
+[2023-05-12 15:22:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jupytercards
+[2023-05-12 15:22:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: prime-faster
+[2023-05-12 15:22:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: AdsorptionBreakthroughAnalysis
+[2023-05-12 15:22:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: AICreator
+[2023-05-12 15:22:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kcli
+[2023-05-12 15:22:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: labmate
+[2023-05-12 15:22:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: drb-topic-sentinel3
+[2023-05-12 15:22:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: extr-ds
+[2023-05-12 15:22:25] INFO root fetch - processPackages [prime-faster]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 15:22:25] INFO root fetch - processPackages [jupytercards]: New version: [2.5.0] Old Version: [2.4.0a2]
+[2023-05-12 15:22:25] INFO root fetch - processPackages [segment-studio]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-12 15:22:25] INFO root fetch - processPackages [AdsorptionBreakthroughAnalysis]: New version: [0.0.3.dev0] Old Version: [0.0.3]
+[2023-05-12 15:22:25] INFO root fetch - processPackages [html-msg]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-12 15:22:25] INFO root fetch - processPackages [extr-ds]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 15:22:25] INFO root fetch - processPackages [AICreator]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-12 15:22:25] INFO root fetch - processPackages [kcli]: New version: [99.0.202305121318] Old Version: [99.0.202305112128]
+[2023-05-12 15:22:25] INFO root fetch - processPackages [AICreator]: Downloading https://files.pythonhosted.org/packages/64/76/f90f5fc5daf86d3845490c58cbe4927d1b989f25d0978be4d599b1822ef7/AICreator-0.2.3.tar.gz
+[2023-05-12 15:22:25] INFO root fetch - processPackages [labmate]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-05-12 15:22:25] INFO root fetch - processPackages [drb-topic-sentinel3]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-12 15:22:25] INFO root fetch - processPackages [jupytercards]: Downloading https://files.pythonhosted.org/packages/a2/93/85d47c40e846ec6dc3c07a4979ab7d0c40a38854a5048e6764d0e753ac00/jupytercards-2.4.0a2.tar.gz
+[2023-05-12 15:22:25] WARNING root fetch - processPackages [AICreator]: Skipping package: exceeds size limit 13315856>=10485760
+[2023-05-12 15:22:25] INFO root fetch - processPackages [AICreator]: Start processing: forevd
+[2023-05-12 15:22:25] INFO root fetch - main [MainThread]: End processing [AICreator] error
+[2023-05-12 15:22:25] INFO root fetch - processPackages [segment-studio]: Downloading https://files.pythonhosted.org/packages/a8/ec/e34f4cd4ae1fae4a76586b954ad62c4ac3be17a328a2599805a7a02a7f7d/segment_studio-0.0.1.tar.gz
+[2023-05-12 15:22:25] INFO root fetch - processPackages [AdsorptionBreakthroughAnalysis]: Downloading https://files.pythonhosted.org/packages/cc/68/004efa4e0f9d9a516e752ef224ad12393f690cee7b18ce1374e7acf46202/AdsorptionBreakthroughAnalysis-0.0.3.tar.gz
+[2023-05-12 15:22:25] INFO root fetch - processPackages [extr-ds]: executing diffoscope
+[2023-05-12 15:22:25] INFO root fetch - processPackages [extr-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extr-ds-0.0.8.tar.gz tmp/extr-ds-0.0.9.tar.gz --markdown 20230512/e/extr-ds/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 15:22:26] INFO root fetch - processPackages [prime-faster]: Downloading https://files.pythonhosted.org/packages/8f/03/0325b4efacbc9dbabff173f18bdb3c702f406fd115402561017e1623b176/prime-faster-0.0.9.tar.gz
+[2023-05-12 15:22:26] INFO root fetch - processPackages [html-msg]: Downloading https://files.pythonhosted.org/packages/3a/4d/3f35d1f7b40938f4f519ac8e93387ec4b71c051cb7d5bb5091e9a45b9297/html_msg-1.1.1.tar.gz
+[2023-05-12 15:22:26] INFO root fetch - processPackages [forevd]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-12 15:22:26] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/e2/92/caacad33587bf02d72ac6900e9fff4ae80d2df4c45186fde78e99c628538/kcli-99.0.202305112128-py3-none-any.whl
+[2023-05-12 15:22:26] INFO root fetch - processPackages [labmate]: Downloading https://files.pythonhosted.org/packages/c5/ec/ee2074a1e257794ac48929f33010a2f5132e718f5436b2f04d9dbf98982d/labmate-0.5.0.tar.gz
+[2023-05-12 15:22:26] INFO root fetch - processPackages [prime-faster]: executing diffoscope
+[2023-05-12 15:22:26] INFO root fetch - processPackages [prime-faster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prime-faster-0.0.8.tar.gz tmp/prime-faster-0.0.9.tar.gz --markdown 20230512/p/prime-faster/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 15:22:26] INFO root fetch - processPackages [drb-topic-sentinel3]: Downloading https://files.pythonhosted.org/packages/47/07/cf7b5592177c2bc38978f52920b40b0f4388d79540bfe0eec19c4d6e1aed/drb-topic-sentinel3-1.1.0.tar.gz
+[2023-05-12 15:22:26] INFO root fetch - processPackages [html-msg]: executing diffoscope
+[2023-05-12 15:22:26] INFO root fetch - processPackages [html-msg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/html_msg-1.1.0.tar.gz tmp/html_msg-1.1.1.tar.gz --markdown 20230512/h/html-msg/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-12 15:22:26] INFO root fetch - processPackages [segment-studio]: Downloading https://files.pythonhosted.org/packages/ac/b3/093ceac8d09c619e0f9290282b00abedd64b2c9661dfa8e649233edbbf32/segment_studio-0.0.2.tar.gz
+[2023-05-12 15:22:26] INFO root fetch - processPackages [segment-studio]: executing diffoscope
+[2023-05-12 15:22:26] INFO root fetch - processPackages [segment-studio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/segment_studio-0.0.1.tar.gz tmp/segment_studio-0.0.2.tar.gz --markdown 20230512/s/segment-studio/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-12 15:22:26] INFO root fetch - processPackages [jupytercards]: Downloading https://files.pythonhosted.org/packages/3d/f8/a914ae36dd332f12802d25ddc0b4d8587743587598f42f512ff7f55242ba/jupytercards-2.5.0.tar.gz
+[2023-05-12 15:22:26] INFO root fetch - processPackages [labmate]: Downloading https://files.pythonhosted.org/packages/1b/d5/0fdbb55e13f87aefd406b1b35e9f33880bc16b8ea4473121ffb10954f49f/labmate-0.6.0.tar.gz
+[2023-05-12 15:22:26] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/cd/db/fad00c1f3b4c827dbb56534ab0c541eaa600c8d1e1574479f17bcebddf5d/kcli-99.0.202305121318-py3-none-any.whl
+[2023-05-12 15:22:26] INFO root fetch - processPackages [drb-topic-sentinel3]: Downloading https://files.pythonhosted.org/packages/cc/67/cfa37030e4bedd1e466cd63195cc9ceb6fbda18f593a418355927cbe7607/drb-topic-sentinel3-1.1.1.tar.gz
+[2023-05-12 15:22:26] INFO root fetch - processPackages [forevd]: Downloading https://files.pythonhosted.org/packages/ba/b1/6b47635d2b1a9715b51164763c01ee01815fe1b85036671c32c1877d6a83/forevd-0.1.2.tar.gz
+[2023-05-12 15:22:26] INFO root fetch - processPackages [jupytercards]: executing diffoscope
+[2023-05-12 15:22:26] INFO root fetch - processPackages [jupytercards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupytercards-2.4.0a2.tar.gz tmp/jupytercards-2.5.0.tar.gz --markdown 20230512/j/jupytercards/2.4.0a2-2.5.0/diff.md --exclude *.pyd
+[2023-05-12 15:22:26] INFO root fetch - processPackages [labmate]: executing diffoscope
+[2023-05-12 15:22:26] INFO root fetch - processPackages [labmate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labmate-0.5.0.tar.gz tmp/labmate-0.6.0.tar.gz --markdown 20230512/l/labmate/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-05-12 15:22:26] INFO root fetch - processPackages [drb-topic-sentinel3]: executing diffoscope
+[2023-05-12 15:22:26] INFO root fetch - processPackages [drb-topic-sentinel3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drb-topic-sentinel3-1.1.0.tar.gz tmp/drb-topic-sentinel3-1.1.1.tar.gz --markdown 20230512/d/drb-topic-sentinel3/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-12 15:22:26] INFO root fetch - processPackages [forevd]: executing diffoscope
+[2023-05-12 15:22:26] INFO root fetch - processPackages [forevd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forevd-0.1.1.tar.gz tmp/forevd-0.1.2.tar.gz --markdown 20230512/f/forevd/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-12 15:22:26] INFO root fetch - processPackages [AdsorptionBreakthroughAnalysis]: executing diffoscope
+[2023-05-12 15:22:26] INFO root fetch - processPackages [AdsorptionBreakthroughAnalysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AdsorptionBreakthroughAnalysis-0.0.3.tar.gz tmp/AdsorptionBreakthroughAnalysis-0.0.3.dev0.tar.gz --markdown 20230512/A/AdsorptionBreakthroughAnalysis/0.0.3-0.0.3.dev0/diff.md --exclude *.pyd
+[2023-05-12 15:22:27] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-05-12 15:22:27] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202305112128-py3-none-any.whl.zip tmp/kcli-99.0.202305121318-py3-none-any.whl.zip --markdown 20230512/k/kcli/99.0.202305112128-99.0.202305121318/diff.md --exclude *.pyd
+[2023-05-12 15:22:27] INFO root fetch - processPackages [extr-ds]: Start processing: gravitypy
+[2023-05-12 15:22:27] INFO root fetch - main [MainThread]: End processing [extr-ds]: success
+[2023-05-12 15:22:27] INFO root fetch - processPackages [gravitypy]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-05-12 15:22:27] INFO root fetch - processPackages [html-msg]: Start processing: nonebot-plugin-ddcheck
+[2023-05-12 15:22:27] INFO root fetch - main [MainThread]: End processing [html-msg]: success
+[2023-05-12 15:22:27] INFO root fetch - processPackages [prime-faster]: Start processing: image2str
+[2023-05-12 15:22:27] INFO root fetch - main [MainThread]: End processing [prime-faster]: success
+[2023-05-12 15:22:27] INFO root fetch - processPackages [segment-studio]: Start processing: goodboy-mongoengine
+[2023-05-12 15:22:27] INFO root fetch - main [MainThread]: End processing [segment-studio]: success
+[2023-05-12 15:22:27] WARNING root fetch - processPackages [image2str]: Skipping, unable to determine old version
+[2023-05-12 15:22:27] INFO root fetch - processPackages [image2str]: Start processing: libcnmc
+[2023-05-12 15:22:27] INFO root fetch - main [MainThread]: End processing [image2str] error
+[2023-05-12 15:22:27] INFO root fetch - processPackages [libcnmc]: New version: [23.9.1] Old Version: [23.9.0]
+[2023-05-12 15:22:27] INFO root fetch - processPackages [nonebot-plugin-ddcheck]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-12 15:22:27] INFO root fetch - processPackages [goodboy-mongoengine]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-12 15:22:27] INFO root fetch - processPackages [gravitypy]: Downloading https://files.pythonhosted.org/packages/ae/8e/77a339a26e6e6c7f18ae90db115d38339256f95e263222776b068189b415/gravitypy-1.1.4.tar.gz
+[2023-05-12 15:22:27] INFO root fetch - processPackages [libcnmc]: executing diffoscope
+[2023-05-12 15:22:27] INFO root fetch - processPackages [libcnmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libcnmc-23.9.0.tar.gz tmp/libcnmc-23.9.1.tar.gz --markdown 20230512/l/libcnmc/23.9.0-23.9.1/diff.md --exclude *.pyd
+[2023-05-12 15:22:28] INFO root fetch - processPackages [nonebot-plugin-ddcheck]: Downloading https://files.pythonhosted.org/packages/81/0a/201b95bc0646932cd721271ef2281848982d0839739a5b214a9c6721b4f2/nonebot_plugin_ddcheck-0.2.1.tar.gz
+[2023-05-12 15:22:28] INFO root fetch - processPackages [gravitypy]: executing diffoscope
+[2023-05-12 15:22:28] INFO root fetch - processPackages [gravitypy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gravitypy-1.1.3.tar.gz tmp/gravitypy-1.1.4.tar.gz --markdown 20230512/g/gravitypy/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-05-12 15:22:28] INFO root fetch - processPackages [goodboy-mongoengine]: Downloading https://files.pythonhosted.org/packages/69/f6/b0d534813ea51544bb3f32d1ff96f16bec2ab2dfa7910660cfad8c7dff93/goodboy_mongoengine-0.2.1.tar.gz
+[2023-05-12 15:22:28] INFO root fetch - processPackages [forevd]: Start processing: nucliadb-contributor-assets
+[2023-05-12 15:22:28] INFO root fetch - main [MainThread]: End processing [forevd]: success
+[2023-05-12 15:22:28] INFO root fetch - processPackages [nucliadb-contributor-assets]: New version: [1.0.0.post770] Old Version: [1.0.0.post769]
+[2023-05-12 15:22:28] INFO root fetch - processPackages [nucliadb-contributor-assets]: executing diffoscope
+[2023-05-12 15:22:28] INFO root fetch - processPackages [nucliadb-contributor-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_contributor_assets-1.0.0.post769-py3-none-any.whl.zip tmp/nucliadb_contributor_assets-1.0.0.post770-py3-none-any.whl.zip --markdown 20230512/n/nucliadb-contributor-assets/1.0.0.post769-1.0.0.post770/diff.md --exclude *.pyd
+[2023-05-12 15:22:28] INFO root fetch - processPackages [nonebot-plugin-ddcheck]: Downloading https://files.pythonhosted.org/packages/36/7a/8c0c1b5b15796008983441a5fc168f39bb3549aafe4b80d82aee54195868/nonebot_plugin_ddcheck-0.2.2.tar.gz
+[2023-05-12 15:22:28] INFO root fetch - processPackages [goodboy-mongoengine]: Downloading https://files.pythonhosted.org/packages/14/97/b74692a2e9ba70403fa6f134862e69deb2e5a1e6b3a9be3ad4cd0837e071/goodboy_mongoengine-0.2.2.tar.gz
+[2023-05-12 15:22:28] INFO root fetch - processPackages [nonebot-plugin-ddcheck]: executing diffoscope
+[2023-05-12 15:22:28] INFO root fetch - processPackages [nonebot-plugin-ddcheck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_ddcheck-0.2.1.tar.gz tmp/nonebot_plugin_ddcheck-0.2.2.tar.gz --markdown 20230512/n/nonebot-plugin-ddcheck/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-12 15:22:28] INFO root fetch - processPackages [drb-topic-sentinel3]: Start processing: nonebot-plugin-arkgacha
+[2023-05-12 15:22:28] INFO root fetch - main [MainThread]: End processing [drb-topic-sentinel3]: success
+[2023-05-12 15:22:28] INFO root fetch - processPackages [goodboy-mongoengine]: executing diffoscope
+[2023-05-12 15:22:28] INFO root fetch - processPackages [goodboy-mongoengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goodboy_mongoengine-0.2.1.tar.gz tmp/goodboy_mongoengine-0.2.2.tar.gz --markdown 20230512/g/goodboy-mongoengine/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-12 15:22:28] WARNING root fetch - processPackages [nonebot-plugin-arkgacha]: Skipping, unable to determine old version
+[2023-05-12 15:22:28] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-arkgacha] error
+[2023-05-12 15:22:29] INFO root fetch - main [MainThread]: End processing [labmate]: success
+[2023-05-12 15:22:29] INFO root fetch - main [MainThread]: End processing [gravitypy]: success
+[2023-05-12 15:22:29] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-ddcheck]: success
+[2023-05-12 15:22:29] INFO root fetch - main [MainThread]: End processing [goodboy-mongoengine]: success
+[2023-05-12 15:22:29] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
+[2023-05-12 15:22:30] INFO root fetch - main [MainThread]: End processing [AdsorptionBreakthroughAnalysis]: success
+[2023-05-12 15:22:30] INFO root fetch - main [MainThread]: End processing [jupytercards]: success
+[2023-05-12 15:22:32] INFO root fetch - main [MainThread]: End processing [libcnmc]: success
+[2023-05-12 15:22:35] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-05-12 15:22:35] INFO root fetch - main [MainThread]: Store serial: [18078423]
