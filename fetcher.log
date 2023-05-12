@@ -13876,3 +13876,94 @@ EOFError: EOF read where object expected
 [2023-05-12 17:17:22] INFO root fetch - main [MainThread]: End processing [vot-toolkit]: success
 [2023-05-12 17:17:29] INFO root fetch - main [MainThread]: End processing [pandapower]: success
 [2023-05-12 17:17:29] INFO root fetch - main [MainThread]: Store serial: [18079777]
+[2023-05-12 17:22:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18079777]
+[2023-05-12 17:22:40] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-12 17:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alcli
+[2023-05-12 17:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oakvar
+[2023-05-12 17:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SBM-VBEM
+[2023-05-12 17:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: systems-manager
+[2023-05-12 17:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dragonfly-radiance
+[2023-05-12 17:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pseudo-labeller
+[2023-05-12 17:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: medsenger-api
+[2023-05-12 17:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ncbi-datasets-pylib
+[2023-05-12 17:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: deprl
+[2023-05-12 17:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lbt-dragonfly
+[2023-05-12 17:22:40] INFO root fetch - processPackages [systems-manager]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-12 17:22:40] WARNING root fetch - processPackages [SBM-VBEM]: Skipping, unable to determine old version
+[2023-05-12 17:22:40] INFO root fetch - processPackages [SBM-VBEM]: Start processing: retaped-tui-ERROR-404-NULL-NOT-FOUND
+[2023-05-12 17:22:40] INFO root fetch - main [MainThread]: End processing [SBM-VBEM] error
+[2023-05-12 17:22:40] INFO root fetch - processPackages [dragonfly-radiance]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-12 17:22:40] INFO root fetch - processPackages [alcli]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-12 17:22:40] INFO root fetch - processPackages [deprl]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-12 17:22:40] INFO root fetch - processPackages [pseudo-labeller]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 17:22:40] INFO root fetch - processPackages [medsenger-api]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-12 17:22:40] INFO root fetch - processPackages [oakvar]: New version: [2.9.9] Old Version: [2.9.7]
+[2023-05-12 17:22:40] INFO root fetch - processPackages [ncbi-datasets-pylib]: New version: [9.1.0] Old Version: [9.0.0]
+[2023-05-12 17:22:40] WARNING root fetch - processPackages [retaped-tui-ERROR-404-NULL-NOT-FOUND]: Skipping, unable to determine old version
+[2023-05-12 17:22:40] INFO root fetch - processPackages [retaped-tui-ERROR-404-NULL-NOT-FOUND]: Start processing: django-plausible
+[2023-05-12 17:22:40] INFO root fetch - main [MainThread]: End processing [retaped-tui-ERROR-404-NULL-NOT-FOUND] error
+[2023-05-12 17:22:40] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-05-12 17:22:40] INFO root fetch - processPackages [django-plausible]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-05-12 17:22:40] INFO root fetch - processPackages [medsenger-api]: executing diffoscope
+[2023-05-12 17:22:40] INFO root fetch - processPackages [medsenger-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medsenger_api-0.1.8.tar.gz tmp/medsenger_api-0.1.9.tar.gz --markdown 20230512/m/medsenger-api/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-12 17:22:40] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2023-05-12 17:22:40] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20230512/l/lbt-dragonfly/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-05-12 17:22:40] INFO root fetch - processPackages [pseudo-labeller]: Downloading https://files.pythonhosted.org/packages/65/26/11a0588c4432f07e598c41aa1fd24562cb5719c9e849de3df798e35a3de0/pseudo_labeller-0.0.8.tar.gz
+[2023-05-12 17:22:40] INFO root fetch - processPackages [dragonfly-radiance]: Downloading https://files.pythonhosted.org/packages/dd/6c/7d5ffb363ba985b326d3b266d8eaea74bc6cc890eb733cc9e0cc127ccc55/dragonfly-radiance-0.2.8.tar.gz
+[2023-05-12 17:22:40] INFO root fetch - processPackages [oakvar]: Downloading https://files.pythonhosted.org/packages/e4/c2/69b7c1ff79a3dd17db69dff3b9c943f9532080cb799bb30dc4db234c5df9/oakvar-2.9.7.tar.gz
+[2023-05-12 17:22:40] INFO root fetch - processPackages [deprl]: Downloading https://files.pythonhosted.org/packages/5c/ae/b0c465670144be9345da4a0b563409173faa1f502bfec9f4eb5f74abfa04/deprl-0.0.7.tar.gz
+[2023-05-12 17:22:40] INFO root fetch - processPackages [django-plausible]: Downloading https://files.pythonhosted.org/packages/59/e0/b12b13a1ab4dabd440a62903acf3f37c4b11a22e5e2614ad0faffc7d5f2d/django-plausible-0.4.0.tar.gz
+[2023-05-12 17:22:40] INFO root fetch - processPackages [deprl]: executing diffoscope
+[2023-05-12 17:22:40] INFO root fetch - processPackages [deprl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deprl-0.0.6.tar.gz tmp/deprl-0.0.7.tar.gz --markdown 20230512/d/deprl/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-12 17:22:40] INFO root fetch - processPackages [systems-manager]: Downloading https://files.pythonhosted.org/packages/0a/9f/637250b3c42b63a59c45de07eb90853ea0958cb78d0d043b573838e73584/systems_manager-0.8.0-py2.py3-none-any.whl
+[2023-05-12 17:22:40] INFO root fetch - processPackages [alcli]: executing diffoscope
+[2023-05-12 17:22:40] INFO root fetch - processPackages [alcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alcli-1.0.8.tar.gz tmp/alcli-1.0.9.tar.gz --markdown 20230512/a/alcli/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-12 17:22:40] INFO root fetch - processPackages [ncbi-datasets-pylib]: executing diffoscope
+[2023-05-12 17:22:40] INFO root fetch - processPackages [ncbi-datasets-pylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ncbi-datasets-pylib-9.0.0.tar.gz tmp/ncbi-datasets-pylib-9.1.0.tar.gz --markdown 20230512/n/ncbi-datasets-pylib/9.0.0-9.1.0/diff.md --exclude *.pyd
+[2023-05-12 17:22:41] INFO root fetch - processPackages [pseudo-labeller]: Downloading https://files.pythonhosted.org/packages/67/8c/14d85988e65aeb42d0db840e4c95045bc18fcb47dbf4ab61db81e061982a/pseudo_labeller-0.0.9.tar.gz
+[2023-05-12 17:22:41] INFO root fetch - processPackages [django-plausible]: Downloading https://files.pythonhosted.org/packages/f0/49/6369ba0ba1c4f767f064ed03ae48a7ac795d45f5a61ce1efb6aad623b872/django-plausible-0.5.0.tar.gz
+[2023-05-12 17:22:41] INFO root fetch - processPackages [dragonfly-radiance]: Downloading https://files.pythonhosted.org/packages/e9/01/706de1a3d81bb520c7a73e10a084040d9e5f37ff57b7defd9715a2c4018e/dragonfly-radiance-0.2.9.tar.gz
+[2023-05-12 17:22:41] INFO root fetch - processPackages [pseudo-labeller]: executing diffoscope
+[2023-05-12 17:22:41] INFO root fetch - processPackages [pseudo-labeller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pseudo_labeller-0.0.8.tar.gz tmp/pseudo_labeller-0.0.9.tar.gz --markdown 20230512/p/pseudo-labeller/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 17:22:41] INFO root fetch - processPackages [dragonfly-radiance]: executing diffoscope
+[2023-05-12 17:22:41] INFO root fetch - processPackages [dragonfly-radiance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-radiance-0.2.8.tar.gz tmp/dragonfly-radiance-0.2.9.tar.gz --markdown 20230512/d/dragonfly-radiance/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-12 17:22:41] INFO root fetch - processPackages [oakvar]: Downloading https://files.pythonhosted.org/packages/aa/b5/98830752d15a39d3fe7ee973d8ff37f1a3498ab33f56838ffd4d470de442/oakvar-2.9.9.tar.gz
+[2023-05-12 17:22:41] INFO root fetch - processPackages [django-plausible]: executing diffoscope
+[2023-05-12 17:22:41] INFO root fetch - processPackages [django-plausible]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-plausible-0.4.0.tar.gz tmp/django-plausible-0.5.0.tar.gz --markdown 20230512/d/django-plausible/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-05-12 17:22:41] INFO root fetch - processPackages [systems-manager]: Downloading https://files.pythonhosted.org/packages/68/28/02a27173c177a8a83a2fbf278250985f93c69856fda1ba8ab95e09bd391f/systems_manager-0.9.0-py2.py3-none-any.whl
+[2023-05-12 17:22:41] INFO root fetch - processPackages [systems-manager]: executing diffoscope
+[2023-05-12 17:22:41] INFO root fetch - processPackages [systems-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systems_manager-0.8.0-py2.py3-none-any.whl.zip tmp/systems_manager-0.9.0-py2.py3-none-any.whl.zip --markdown 20230512/s/systems-manager/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-12 17:22:41] INFO root fetch - processPackages [medsenger-api]: Start processing: VertFlow
+[2023-05-12 17:22:41] INFO root fetch - main [MainThread]: End processing [medsenger-api]: success
+[2023-05-12 17:22:41] INFO root fetch - processPackages [oakvar]: executing diffoscope
+[2023-05-12 17:22:41] INFO root fetch - processPackages [oakvar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oakvar-2.9.7.tar.gz tmp/oakvar-2.9.9.tar.gz --markdown 20230512/o/oakvar/2.9.7-2.9.9/diff.md --exclude *.pyd
+[2023-05-12 17:22:41] INFO root fetch - processPackages [VertFlow]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-05-12 17:22:42] INFO root fetch - processPackages [VertFlow]: Downloading https://files.pythonhosted.org/packages/c8/6a/249c10d0c273d78f157ae1e9563f698d938277053c362834df1a73830f89/VertFlow-0.3.0.tar.gz
+[2023-05-12 17:22:42] INFO root fetch - processPackages [lbt-dragonfly]: Start processing: lithic
+[2023-05-12 17:22:42] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2023-05-12 17:22:42] INFO root fetch - processPackages [lithic]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-12 17:22:42] INFO root fetch - processPackages [VertFlow]: Downloading https://files.pythonhosted.org/packages/a1/4c/c44bb016457543744b2bea3ad4212c3ccf3a9789569a8920291bdef177bf/VertFlow-0.4.0.tar.gz
+[2023-05-12 17:22:42] INFO root fetch - processPackages [lithic]: executing diffoscope
+[2023-05-12 17:22:42] INFO root fetch - processPackages [lithic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lithic-0.8.0.tar.gz tmp/lithic-0.9.0.tar.gz --markdown 20230512/l/lithic/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-12 17:22:42] INFO root fetch - processPackages [VertFlow]: executing diffoscope
+[2023-05-12 17:22:42] INFO root fetch - processPackages [VertFlow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VertFlow-0.3.0.tar.gz tmp/VertFlow-0.4.0.tar.gz --markdown 20230512/V/VertFlow/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-12 17:22:42] INFO root fetch - processPackages [alcli]: Start processing: clear-skies-akeyless-custom-producer
+[2023-05-12 17:22:42] INFO root fetch - main [MainThread]: End processing [alcli]: success
+[2023-05-12 17:22:42] WARNING root fetch - processPackages [clear-skies-akeyless-custom-producer]: Skipping, unable to determine old version
+[2023-05-12 17:22:42] INFO root fetch - processPackages [clear-skies-akeyless-custom-producer]: Start processing: masonite-servicing
+[2023-05-12 17:22:42] INFO root fetch - main [MainThread]: End processing [clear-skies-akeyless-custom-producer] error
+[2023-05-12 17:22:42] INFO root fetch - processPackages [masonite-servicing]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-12 17:22:42] INFO root fetch - processPackages [masonite-servicing]: Downloading https://files.pythonhosted.org/packages/d2/87/e1e9132a46bdf44c25a14ce9ce2f6e6f2552b71345eb074a1e2c65b8f3fb/masonite-servicing-0.0.8.tar.gz
+[2023-05-12 17:22:42] INFO root fetch - main [MainThread]: End processing [pseudo-labeller]: success
+[2023-05-12 17:22:42] INFO root fetch - processPackages [masonite-servicing]: executing diffoscope
+[2023-05-12 17:22:42] INFO root fetch - processPackages [masonite-servicing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/masonite-servicing-0.0.7.tar.gz tmp/masonite-servicing-0.0.8.tar.gz --markdown 20230512/m/masonite-servicing/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-12 17:22:42] INFO root fetch - main [MainThread]: End processing [django-plausible]: success
+[2023-05-12 17:22:43] INFO root fetch - main [MainThread]: End processing [dragonfly-radiance]: success
+[2023-05-12 17:22:43] INFO root fetch - main [MainThread]: End processing [systems-manager]: success
+[2023-05-12 17:22:43] INFO root fetch - main [MainThread]: End processing [deprl]: success
+[2023-05-12 17:22:44] INFO root fetch - main [MainThread]: End processing [lithic]: success
+[2023-05-12 17:22:44] INFO root fetch - main [MainThread]: End processing [masonite-servicing]: success
+[2023-05-12 17:22:44] INFO root fetch - main [MainThread]: End processing [VertFlow]: success
+[2023-05-12 17:22:45] INFO root fetch - main [MainThread]: End processing [ncbi-datasets-pylib]: success
+[2023-05-12 17:22:46] INFO root fetch - main [MainThread]: End processing [oakvar]: success
+[2023-05-12 17:22:46] INFO root fetch - main [MainThread]: Store serial: [18079830]
