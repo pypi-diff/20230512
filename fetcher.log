@@ -5397,3 +5397,84 @@
 [2023-05-12 08:49:18] INFO root fetch - main [MainThread]: End processing [dknovautils]: success
 [2023-05-12 08:49:18] INFO root fetch - main [MainThread]: End processing [checksec-py]: success
 [2023-05-12 08:49:18] INFO root fetch - main [MainThread]: Store serial: [18074160]
+[2023-05-12 08:54:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18074160]
+[2023-05-12 08:54:27] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-12 08:54:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addons-oca-purchase-workflow
+[2023-05-12 08:54:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pybart-nlp
+[2023-05-12 08:54:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: arkdata
+[2023-05-12 08:54:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gato-toolkit
+[2023-05-12 08:54:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gradiop
+[2023-05-12 08:54:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: custardpy
+[2023-05-12 08:54:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ukis-csmask
+[2023-05-12 08:54:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: MixPage
+[2023-05-12 08:54:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: robotframework-processcube
+[2023-05-12 08:54:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: confik
+[2023-05-12 08:54:27] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: New version: [16.0.20230508.0] Old Version: [16.0.20230504.0]
+[2023-05-12 08:54:27] INFO root fetch - processPackages [arkdata]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-12 08:54:27] WARNING root fetch - processPackages [gradiop]: Skipping, unable to determine old version
+[2023-05-12 08:54:27] INFO root fetch - processPackages [gato-toolkit]: New version: [0.1.0rc2] Old Version: [0.1.0rc1]
+[2023-05-12 08:54:27] INFO root fetch - processPackages [gradiop]: Start processing: flaretool
+[2023-05-12 08:54:27] INFO root fetch - main [MainThread]: End processing [gradiop] error
+[2023-05-12 08:54:27] INFO root fetch - processPackages [ukis-csmask]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-12 08:54:27] INFO root fetch - processPackages [pybart-nlp]: New version: [3.4.3] Old Version: [3.4.2]
+[2023-05-12 08:54:27] INFO root fetch - processPackages [confik]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-12 08:54:27] INFO root fetch - processPackages [custardpy]: New version: [0.4.0] Old Version: [0.3.7]
+[2023-05-12 08:54:27] INFO root fetch - processPackages [MixPage]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-12 08:54:27] INFO root fetch - processPackages [robotframework-processcube]: New version: [2.5.0] Old Version: [2.4.0a1]
+[2023-05-12 08:54:27] INFO root fetch - processPackages [flaretool]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-12 08:54:27] INFO root fetch - processPackages [arkdata]: executing diffoscope
+[2023-05-12 08:54:27] INFO root fetch - processPackages [arkdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arkdata-1.0.8.tar.gz tmp/arkdata-1.0.9.tar.gz --markdown 20230512/a/arkdata/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-12 08:54:27] INFO root fetch - processPackages [gato-toolkit]: Downloading https://files.pythonhosted.org/packages/f0/0a/09d4dda707e216f4cd177012a49c13a9910c844b170e366852d65a15859b/gato-toolkit-0.1.0rc1.tar.gz
+[2023-05-12 08:54:27] INFO root fetch - processPackages [MixPage]: Downloading https://files.pythonhosted.org/packages/27/87/11675c15c12291536a58b8411975af7a14a8e8217f1a7202abbde0023cc1/MixPage-1.0.0-py3-none-any.whl
+[2023-05-12 08:54:27] INFO root fetch - processPackages [confik]: Downloading https://files.pythonhosted.org/packages/0f/97/64e444a8da9b134126d55c5b9aea8125f20bc0441e873f6545f0b77463c5/confik-1.0.0.tar.gz
+[2023-05-12 08:54:27] INFO root fetch - processPackages [ukis-csmask]: Downloading https://files.pythonhosted.org/packages/70/23/ec2497ee06c76bc5c34e44168e4c4384ded4b9004f6481093745d98d3d66/ukis-csmask-0.1.8.tar.gz
+[2023-05-12 08:54:27] INFO root fetch - processPackages [custardpy]: Downloading https://files.pythonhosted.org/packages/68/82/793ee7a4ee98602b0e01e6da2c787dc3c499784f460a11fad9e17e66c802/custardpy-0.3.7-py3-none-any.whl
+[2023-05-12 08:54:27] INFO root fetch - processPackages [flaretool]: Downloading https://files.pythonhosted.org/packages/27/8b/3177bb9ec39f07491e6767df8dc37d215da52b23432cdf6feac60ce6c1d8/flaretool-0.1.7.tar.gz
+[2023-05-12 08:54:28] INFO root fetch - processPackages [pybart-nlp]: Downloading https://files.pythonhosted.org/packages/f9/2c/0efcaee6925860b145014cd3d1d4fa19d91ff87839aa2762b58678e09710/pybart-nlp-3.4.3.tar.gz
+[2023-05-12 08:54:28] WARNING root fetch - processPackages [ukis-csmask]: Skipping package: exceeds size limit 28858217>=10485760
+[2023-05-12 08:54:28] INFO root fetch - processPackages [ukis-csmask]: Start processing: oxalis
+[2023-05-12 08:54:28] INFO root fetch - main [MainThread]: End processing [ukis-csmask] error
+[2023-05-12 08:54:28] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: executing diffoscope
+[2023-05-12 08:54:28] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_purchase_workflow-16.0.20230504.0-py3-none-any.whl.zip tmp/odoo_addons_oca_purchase_workflow-16.0.20230508.0-py3-none-any.whl.zip --markdown 20230512/o/odoo-addons-oca-purchase-workflow/16.0.20230504.0-16.0.20230508.0/diff.md --exclude *.pyd
+[2023-05-12 08:54:28] INFO root fetch - processPackages [oxalis]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-05-12 08:54:28] INFO root fetch - processPackages [robotframework-processcube]: Downloading https://files.pythonhosted.org/packages/34/2b/d0b3092c7203d4fe1bdc46c579c65928e0e28796264fb52591af1ac27f09/robotframework-processcube-2.5.0.tar.gz
+[2023-05-12 08:54:28] INFO root fetch - processPackages [pybart-nlp]: executing diffoscope
+[2023-05-12 08:54:28] INFO root fetch - processPackages [pybart-nlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybart-nlp-3.4.2.tar.gz tmp/pybart-nlp-3.4.3.tar.gz --markdown 20230512/p/pybart-nlp/3.4.2-3.4.3/diff.md --exclude *.pyd
+[2023-05-12 08:54:28] INFO root fetch - processPackages [MixPage]: Downloading https://files.pythonhosted.org/packages/01/2f/7fa144bf86efb03acefe36951234d5599aeaf09057595cf39729d1187e61/MixPage-1.0.1-py3-none-any.whl
+[2023-05-12 08:54:28] INFO root fetch - processPackages [custardpy]: Downloading https://files.pythonhosted.org/packages/ad/34/b4ff63aba36681e94fefd3bd0fcd22c893d41fdb8e548aaf85b81264e19e/custardpy-0.4.0-py3-none-any.whl
+[2023-05-12 08:54:28] INFO root fetch - processPackages [flaretool]: Downloading https://files.pythonhosted.org/packages/35/9d/be63e204a9562980c6d30020d6b5b8809bceef5a08cbdaf63289341c5e6e/flaretool-0.1.8.tar.gz
+[2023-05-12 08:54:28] INFO root fetch - processPackages [robotframework-processcube]: executing diffoscope
+[2023-05-12 08:54:28] INFO root fetch - processPackages [robotframework-processcube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework-processcube-2.4.0a1.tar.gz tmp/robotframework-processcube-2.5.0.tar.gz --markdown 20230512/r/robotframework-processcube/2.4.0a1-2.5.0/diff.md --exclude *.pyd
+[2023-05-12 08:54:28] INFO root fetch - processPackages [gato-toolkit]: Downloading https://files.pythonhosted.org/packages/53/d2/644326b94db6f2a3f508ece6f5d88f4cf8e8e015d4bb0240eef3ddae4336/gato-toolkit-0.1.0rc2.tar.gz
+[2023-05-12 08:54:28] INFO root fetch - processPackages [MixPage]: executing diffoscope
+[2023-05-12 08:54:28] INFO root fetch - processPackages [MixPage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MixPage-1.0.0-py3-none-any.whl.zip tmp/MixPage-1.0.1-py3-none-any.whl.zip --markdown 20230512/M/MixPage/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-12 08:54:28] INFO root fetch - processPackages [custardpy]: executing diffoscope
+[2023-05-12 08:54:28] INFO root fetch - processPackages [confik]: Downloading https://files.pythonhosted.org/packages/66/1c/39de3d052d2448444a9c585dca67de76060e787b4245c2e2015c1dec4789/confik-1.0.1.tar.gz
+[2023-05-12 08:54:28] INFO root fetch - processPackages [custardpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/custardpy-0.3.7-py3-none-any.whl.zip tmp/custardpy-0.4.0-py3-none-any.whl.zip --markdown 20230512/c/custardpy/0.3.7-0.4.0/diff.md --exclude *.pyd
+[2023-05-12 08:54:28] INFO root fetch - processPackages [flaretool]: executing diffoscope
+[2023-05-12 08:54:28] INFO root fetch - processPackages [flaretool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flaretool-0.1.7.tar.gz tmp/flaretool-0.1.8.tar.gz --markdown 20230512/f/flaretool/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-12 08:54:28] INFO root fetch - processPackages [confik]: executing diffoscope
+[2023-05-12 08:54:28] INFO root fetch - processPackages [confik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/confik-1.0.0.tar.gz tmp/confik-1.0.1.tar.gz --markdown 20230512/c/confik/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-12 08:54:28] INFO root fetch - processPackages [gato-toolkit]: executing diffoscope
+[2023-05-12 08:54:28] INFO root fetch - processPackages [gato-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gato-toolkit-0.1.0rc1.tar.gz tmp/gato-toolkit-0.1.0rc2.tar.gz --markdown 20230512/g/gato-toolkit/0.1.0rc1-0.1.0rc2/diff.md --exclude *.pyd
+[2023-05-12 08:54:28] INFO root fetch - processPackages [oxalis]: Downloading https://files.pythonhosted.org/packages/34/aa/ea631aec9f70f4e265a23729c1fc4ae08c3753ad9b6574965ad643e4a834/oxalis-0.6.1-py3-none-any.whl
+[2023-05-12 08:54:28] INFO root fetch - processPackages [oxalis]: executing diffoscope
+[2023-05-12 08:54:28] INFO root fetch - processPackages [oxalis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oxalis-0.6.0.tar.gz tmp/oxalis-0.6.1-py3-none-any.whl.zip --markdown 20230512/o/oxalis/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-05-12 08:54:29] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: Start processing: cognite-extractor-manager
+[2023-05-12 08:54:29] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-purchase-workflow]: success
+[2023-05-12 08:54:29] INFO root fetch - processPackages [cognite-extractor-manager]: New version: [0.8.0] Old Version: [0.7.1]
+[2023-05-12 08:54:29] INFO root fetch - processPackages [cognite-extractor-manager]: Downloading https://files.pythonhosted.org/packages/0b/34/73920aad1aef0f5e935d4a7e26eca63fe67cffd0541683f3f99c1b771e64/cognite_extractor_manager-0.7.1.tar.gz
+[2023-05-12 08:54:29] INFO root fetch - processPackages [cognite-extractor-manager]: Downloading https://files.pythonhosted.org/packages/f6/60/18b8c2d81b4598252788840686069044928d3efcf02360b2d62f0fdeb177/cognite_extractor_manager-0.8.0-py3-none-any.whl
+[2023-05-12 08:54:29] INFO root fetch - processPackages [cognite-extractor-manager]: executing diffoscope
+[2023-05-12 08:54:29] INFO root fetch - processPackages [cognite-extractor-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_extractor_manager-0.7.1.tar.gz tmp/cognite_extractor_manager-0.8.0-py3-none-any.whl.zip --markdown 20230512/c/cognite-extractor-manager/0.7.1-0.8.0/diff.md --exclude *.pyd
+[2023-05-12 08:54:29] INFO root fetch - main [MainThread]: End processing [pybart-nlp]: success
+[2023-05-12 08:54:30] INFO root fetch - main [MainThread]: End processing [confik]: success
+[2023-05-12 08:54:30] INFO root fetch - main [MainThread]: End processing [flaretool]: success
+[2023-05-12 08:54:30] INFO root fetch - main [MainThread]: End processing [oxalis]: success
+[2023-05-12 08:54:30] INFO root fetch - main [MainThread]: End processing [arkdata]: success
+[2023-05-12 08:54:30] INFO root fetch - main [MainThread]: End processing [MixPage]: success
+[2023-05-12 08:54:30] INFO root fetch - main [MainThread]: End processing [robotframework-processcube]: success
+[2023-05-12 08:54:30] INFO root fetch - main [MainThread]: End processing [gato-toolkit]: success
+[2023-05-12 08:54:30] INFO root fetch - main [MainThread]: End processing [custardpy]: success
+[2023-05-12 08:54:31] INFO root fetch - main [MainThread]: End processing [cognite-extractor-manager]: success
+[2023-05-12 08:54:31] INFO root fetch - main [MainThread]: Store serial: [18074203]
