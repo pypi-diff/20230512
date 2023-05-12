@@ -12988,3 +12988,64 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-12 16:26:15] INFO root fetch - main [MainThread]: End processing [weaviate-client]: success
 [2023-05-12 16:26:21] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-05-12 16:26:21] INFO root fetch - main [MainThread]: Store serial: [18079280]
+[2023-05-12 16:31:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18079280]
+[2023-05-12 16:31:30] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-12 16:31:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hrin-msb
+[2023-05-12 16:31:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chat2plot
+[2023-05-12 16:31:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sporestack
+[2023-05-12 16:31:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cognite-power-ops
+[2023-05-12 16:31:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: np-queuey
+[2023-05-12 16:31:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-rq-scheduler
+[2023-05-12 16:31:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dequeai
+[2023-05-12 16:31:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mrq-custom
+[2023-05-12 16:31:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: countryguess
+[2023-05-12 16:31:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pierskarsenbarg-pulumi-ngrok
+[2023-05-12 16:31:30] INFO root fetch - processPackages [sporestack]: New version: [9.1.1] Old Version: [9.1.0]
+[2023-05-12 16:31:30] INFO root fetch - processPackages [mrq-custom]: New version: [0.9.33.1] Old Version: [0.9.33]
+[2023-05-12 16:31:30] INFO root fetch - processPackages [np-queuey]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-12 16:31:30] INFO root fetch - processPackages [dequeai]: New version: [0.778] Old Version: [0.7777]
+[2023-05-12 16:31:30] INFO root fetch - processPackages [hrin-msb]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-12 16:31:30] INFO root fetch - processPackages [chat2plot]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-12 16:31:30] INFO root fetch - processPackages [django-rq-scheduler]: New version: [2023.6.0] Old Version: [2023.5.0b5]
+[2023-05-12 16:31:30] INFO root fetch - processPackages [cognite-power-ops]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-05-12 16:31:30] INFO root fetch - processPackages [countryguess]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-05-12 16:31:30] INFO root fetch - processPackages [np-queuey]: executing diffoscope
+[2023-05-12 16:31:30] INFO root fetch - processPackages [np-queuey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np_queuey-0.2.8.tar.gz tmp/np_queuey-0.2.9.tar.gz --markdown 20230512/n/np-queuey/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-12 16:31:30] INFO root fetch - processPackages [hrin-msb]: executing diffoscope
+[2023-05-12 16:31:30] INFO root fetch - processPackages [hrin-msb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hrin_msb-0.2.8.tar.gz tmp/hrin_msb-0.2.9.tar.gz --markdown 20230512/h/hrin-msb/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-12 16:31:30] WARNING root fetch - processPackages [pierskarsenbarg-pulumi-ngrok]: Skipping, unable to determine old version
+[2023-05-12 16:31:30] INFO root fetch - main [MainThread]: End processing [pierskarsenbarg-pulumi-ngrok] error
+[2023-05-12 16:31:30] INFO root fetch - processPackages [dequeai]: Downloading https://files.pythonhosted.org/packages/c2/4e/f4ff134e03944f41aa37da9d481fc4b411c953650c87ce4523c82efffd86/dequeai-0.778.tar.gz
+[2023-05-12 16:31:30] INFO root fetch - processPackages [cognite-power-ops]: Downloading https://files.pythonhosted.org/packages/98/9c/938739c1aeac399595f3a0cb2ca43425a2ecb90e1c51e842bf409b2b99b9/cognite_power_ops-0.4.0.tar.gz
+[2023-05-12 16:31:30] INFO root fetch - processPackages [django-rq-scheduler]: Downloading https://files.pythonhosted.org/packages/d9/02/c63ee1061689153e156f59a358adbc093b192df52485eae076235dc01c6e/django_rq_scheduler-2023.5.0b5.tar.gz
+[2023-05-12 16:31:30] INFO root fetch - processPackages [sporestack]: Downloading https://files.pythonhosted.org/packages/4c/d5/daeb621e80ffaed1ff2fa39cb7379cb6a22d2c19c29d880feccec1129a37/sporestack-9.1.0.tar.gz
+[2023-05-12 16:31:30] INFO root fetch - processPackages [countryguess]: Downloading https://files.pythonhosted.org/packages/38/1d/c994b9a5c11f23818f4d8f3d5fcf6cd9a5d668f9b646f777dbee188a5d56/countryguess-0.3.0.tar.gz
+[2023-05-12 16:31:30] INFO root fetch - processPackages [mrq-custom]: Downloading https://files.pythonhosted.org/packages/a8/8e/894367295584b20c9d69abb2c868b1f6ab218e4e17d77c9825da2df5f151/mrq-custom-0.9.33.1.tar.gz
+[2023-05-12 16:31:30] INFO root fetch - processPackages [mrq-custom]: executing diffoscope
+[2023-05-12 16:31:30] INFO root fetch - processPackages [mrq-custom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrq-custom-0.9.33.tar.gz tmp/mrq-custom-0.9.33.1.tar.gz --markdown 20230512/m/mrq-custom/0.9.33-0.9.33.1/diff.md --exclude *.pyd
+[2023-05-12 16:31:30] INFO root fetch - processPackages [chat2plot]: Downloading https://files.pythonhosted.org/packages/e9/8c/40f0d0bdfee7af157eddaa1d2c747fd2e4c5267771976cbd08364b0f9d96/chat2plot-0.0.6.tar.gz
+[2023-05-12 16:31:30] INFO root fetch - processPackages [dequeai]: executing diffoscope
+[2023-05-12 16:31:30] INFO root fetch - processPackages [dequeai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dequeai-0.7777.tar.gz tmp/dequeai-0.778.tar.gz --markdown 20230512/d/dequeai/0.7777-0.778/diff.md --exclude *.pyd
+[2023-05-12 16:31:30] INFO root fetch - processPackages [cognite-power-ops]: executing diffoscope
+[2023-05-12 16:31:30] INFO root fetch - processPackages [cognite-power-ops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_power_ops-0.3.0.tar.gz tmp/cognite_power_ops-0.4.0.tar.gz --markdown 20230512/c/cognite-power-ops/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-12 16:31:30] INFO root fetch - processPackages [django-rq-scheduler]: Downloading https://files.pythonhosted.org/packages/b1/7f/fb91c5c2754711dceb8adf79d6d8e413cd90c31f08779e4a3ecd7860b749/django_rq_scheduler-2023.6.0.tar.gz
+[2023-05-12 16:31:30] INFO root fetch - processPackages [chat2plot]: executing diffoscope
+[2023-05-12 16:31:30] INFO root fetch - processPackages [chat2plot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chat2plot-0.0.5.tar.gz tmp/chat2plot-0.0.6.tar.gz --markdown 20230512/c/chat2plot/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-12 16:31:30] INFO root fetch - processPackages [countryguess]: Downloading https://files.pythonhosted.org/packages/5e/ad/1f8fa43d44486b58f3c1bf3a8949cd2f9e9e51dc986922cab82c9cf69160/countryguess-0.4.0.tar.gz
+[2023-05-12 16:31:30] INFO root fetch - processPackages [sporestack]: Downloading https://files.pythonhosted.org/packages/21/f9/9b0ff2e713a3a8b95808e6e224ebf52106bfb08321b7b4deb0554aab831b/sporestack-9.1.1.tar.gz
+[2023-05-12 16:31:30] INFO root fetch - processPackages [countryguess]: executing diffoscope
+[2023-05-12 16:31:30] INFO root fetch - processPackages [countryguess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/countryguess-0.3.0.tar.gz tmp/countryguess-0.4.0.tar.gz --markdown 20230512/c/countryguess/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-12 16:31:30] INFO root fetch - processPackages [django-rq-scheduler]: executing diffoscope
+[2023-05-12 16:31:30] INFO root fetch - processPackages [django-rq-scheduler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_rq_scheduler-2023.5.0b5.tar.gz tmp/django_rq_scheduler-2023.6.0.tar.gz --markdown 20230512/d/django-rq-scheduler/2023.5.0b5-2023.6.0/diff.md --exclude *.pyd
+[2023-05-12 16:31:30] INFO root fetch - processPackages [sporestack]: executing diffoscope
+[2023-05-12 16:31:30] INFO root fetch - processPackages [sporestack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sporestack-9.1.0.tar.gz tmp/sporestack-9.1.1.tar.gz --markdown 20230512/s/sporestack/9.1.0-9.1.1/diff.md --exclude *.pyd
+[2023-05-12 16:31:31] INFO root fetch - main [MainThread]: End processing [np-queuey]: success
+[2023-05-12 16:31:32] INFO root fetch - main [MainThread]: End processing [chat2plot]: success
+[2023-05-12 16:31:32] INFO root fetch - main [MainThread]: End processing [dequeai]: success
+[2023-05-12 16:31:32] INFO root fetch - main [MainThread]: End processing [sporestack]: success
+[2023-05-12 16:31:32] INFO root fetch - main [MainThread]: End processing [mrq-custom]: success
+[2023-05-12 16:31:32] INFO root fetch - main [MainThread]: End processing [django-rq-scheduler]: success
+[2023-05-12 16:31:32] INFO root fetch - main [MainThread]: End processing [cognite-power-ops]: success
+[2023-05-12 16:31:33] INFO root fetch - main [MainThread]: End processing [hrin-msb]: success
+[2023-05-12 16:31:35] INFO root fetch - main [MainThread]: End processing [countryguess]: success
+[2023-05-12 16:31:35] INFO root fetch - main [MainThread]: Store serial: [18079307]
