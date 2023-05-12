@@ -18503,3 +18503,51 @@ EOFError: EOF read where object expected
 [2023-05-12 21:33:15] INFO root fetch - main [MainThread]: End processing [mctk-py]: success
 [2023-05-12 21:33:15] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-invoice-merge]: success
 [2023-05-12 21:33:15] INFO root fetch - main [MainThread]: Store serial: [18083114]
+[2023-05-12 21:38:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18083114]
+[2023-05-12 21:38:25] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-12 21:38:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: enochecker-test
+[2023-05-12 21:38:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oloren
+[2023-05-12 21:38:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hyt-gpt
+[2023-05-12 21:38:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: honeybee-energy
+[2023-05-12 21:38:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aeon
+[2023-05-12 21:38:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: voir
+[2023-05-12 21:38:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: simple-chatgpt-cli
+[2023-05-12 21:38:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: delia
+[2023-05-12 21:38:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: py4D-browser
+[2023-05-12 21:38:25] INFO root fetch - processPackages [enochecker-test]: New version: [0.8.0] Old Version: [0.7.1]
+[2023-05-12 21:38:25] INFO root fetch - processPackages [oloren]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 21:38:25] WARNING root fetch - processPackages [simple-chatgpt-cli]: Skipping, unable to determine old version
+[2023-05-12 21:38:25] INFO root fetch - processPackages [hyt-gpt]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-12 21:38:25] INFO root fetch - main [MainThread]: End processing [simple-chatgpt-cli] error
+[2023-05-12 21:38:25] WARNING root fetch - processPackages [py4D-browser]: Skipping, unable to determine old version
+[2023-05-12 21:38:25] INFO root fetch - main [MainThread]: End processing [py4D-browser] error
+[2023-05-12 21:38:25] INFO root fetch - processPackages [honeybee-energy]: New version: [1.99.9] Old Version: [1.99.8]
+[2023-05-12 21:38:25] INFO root fetch - processPackages [enochecker-test]: executing diffoscope
+[2023-05-12 21:38:25] INFO root fetch - processPackages [enochecker-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enochecker_test-0.7.1.tar.gz tmp/enochecker_test-0.8.0.tar.gz --markdown 20230512/e/enochecker-test/0.7.1-0.8.0/diff.md --exclude *.pyd
+[2023-05-12 21:38:25] INFO root fetch - processPackages [hyt-gpt]: executing diffoscope
+[2023-05-12 21:38:25] INFO root fetch - processPackages [hyt-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyt-gpt-0.3.8.tar.gz tmp/hyt-gpt-0.3.9.tar.gz --markdown 20230512/h/hyt-gpt/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-12 21:38:25] INFO root fetch - processPackages [aeon]: New version: [0.2.0] Old Version: [0.1.0rc0]
+[2023-05-12 21:38:25] INFO root fetch - processPackages [delia]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-12 21:38:25] INFO root fetch - processPackages [voir]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-12 21:38:25] INFO root fetch - processPackages [oloren]: executing diffoscope
+[2023-05-12 21:38:25] INFO root fetch - processPackages [oloren]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oloren-0.0.8.tar.gz tmp/oloren-0.0.9.tar.gz --markdown 20230512/o/oloren/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 21:38:25] INFO root fetch - processPackages [honeybee-energy]: executing diffoscope
+[2023-05-12 21:38:25] INFO root fetch - processPackages [honeybee-energy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-energy-1.99.8.tar.gz tmp/honeybee-energy-1.99.9.tar.gz --markdown 20230512/h/honeybee-energy/1.99.8-1.99.9/diff.md --exclude *.pyd
+[2023-05-12 21:38:25] INFO root fetch - processPackages [voir]: Downloading https://files.pythonhosted.org/packages/87/85/a656af13c08f293112659653d76da1d70b6cd02ddadaf42b85be52723503/voir-0.2.8.tar.gz
+[2023-05-12 21:38:25] INFO root fetch - processPackages [delia]: Downloading https://files.pythonhosted.org/packages/c9/a0/204e37443f54ded5b1d2ace52e8d0a89abe033f905524f2be47944e790f2/delia-1.1.0.tar.gz
+[2023-05-12 21:38:25] INFO root fetch - processPackages [aeon]: Downloading https://files.pythonhosted.org/packages/a1/1e/2ab13f7de6a18ecc5ede423b94236a49082d1b76820409827bd1f0d8b2c5/aeon-0.1.0rc0.tar.gz
+[2023-05-12 21:38:25] WARNING root fetch - processPackages [aeon]: Skipping package: exceeds size limit 19198238>=10485760
+[2023-05-12 21:38:25] INFO root fetch - main [MainThread]: End processing [aeon] error
+[2023-05-12 21:38:25] INFO root fetch - processPackages [delia]: Downloading https://files.pythonhosted.org/packages/0c/e2/81d81ae78371d2febb1422a83c2996b174ed35d375748eae31713f98f03e/delia-1.1.1.tar.gz
+[2023-05-12 21:38:25] INFO root fetch - processPackages [voir]: Downloading https://files.pythonhosted.org/packages/0b/58/dac430dd543eda2c8b93452ca10f332b955fd3d514dccd063546f92440f4/voir-0.2.9.tar.gz
+[2023-05-12 21:38:25] INFO root fetch - processPackages [voir]: executing diffoscope
+[2023-05-12 21:38:25] INFO root fetch - processPackages [voir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voir-0.2.8.tar.gz tmp/voir-0.2.9.tar.gz --markdown 20230512/v/voir/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-12 21:38:25] INFO root fetch - processPackages [delia]: executing diffoscope
+[2023-05-12 21:38:25] INFO root fetch - processPackages [delia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/delia-1.1.0.tar.gz tmp/delia-1.1.1.tar.gz --markdown 20230512/d/delia/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-12 21:38:26] INFO root fetch - main [MainThread]: End processing [enochecker-test]: success
+[2023-05-12 21:38:26] INFO root fetch - main [MainThread]: End processing [hyt-gpt]: success
+[2023-05-12 21:38:27] INFO root fetch - main [MainThread]: End processing [voir]: success
+[2023-05-12 21:38:27] INFO root fetch - main [MainThread]: End processing [delia]: success
+[2023-05-12 21:38:27] INFO root fetch - main [MainThread]: End processing [honeybee-energy]: success
+[2023-05-12 21:38:30] INFO root fetch - main [MainThread]: End processing [oloren]: success
+[2023-05-12 21:38:30] INFO root fetch - main [MainThread]: Store serial: [18083144]
