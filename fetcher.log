@@ -4882,3 +4882,13 @@
 [2023-05-12 07:40:18] INFO root fetch - processPackages [areixio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/areixio-0.2.8.tar.gz tmp/areixio-0.2.9.tar.gz --markdown 20230512/a/areixio/0.2.8-0.2.9/diff.md --exclude *.pyd
 [2023-05-12 07:40:29] INFO root fetch - main [MainThread]: End processing [areixio]: success
 [2023-05-12 07:40:29] INFO root fetch - main [MainThread]: Store serial: [18073679]
+[2023-05-12 07:45:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18073679]
+[2023-05-12 07:45:41] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-05-12 07:45:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: DbtPy
+[2023-05-12 07:45:41] INFO root fetch - processPackages [DbtPy]: New version: [3.0.5.5] Old Version: [3.0.5.4]
+[2023-05-12 07:45:41] INFO root fetch - processPackages [DbtPy]: Downloading https://files.pythonhosted.org/packages/f8/cc/ee6b4880c4a8bf4f059e7db709aaf5e1203f5a6de610e1d9e77733531915/DbtPy-3.0.5.4.tar.gz
+[2023-05-12 07:45:42] INFO root fetch - processPackages [DbtPy]: Downloading https://files.pythonhosted.org/packages/a6/ec/22249970a3366f824248de342aa61c1fd9f5d9cdbc991766233bdd8eafbd/DbtPy-3.0.5.5.tar.gz
+[2023-05-12 07:45:42] INFO root fetch - processPackages [DbtPy]: executing diffoscope
+[2023-05-12 07:45:42] INFO root fetch - processPackages [DbtPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DbtPy-3.0.5.4.tar.gz tmp/DbtPy-3.0.5.5.tar.gz --markdown 20230512/D/DbtPy/3.0.5.4-3.0.5.5/diff.md --exclude *.pyd
+[2023-05-12 07:45:44] INFO root fetch - main [MainThread]: End processing [DbtPy]: success
+[2023-05-12 07:45:44] INFO root fetch - main [MainThread]: Store serial: [18073691]
