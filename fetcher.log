@@ -21461,3 +21461,60 @@ EOFError: EOF read where object expected
 [2023-05-12 23:45:58] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-05-12 23:45:59] INFO root fetch - main [MainThread]: End processing [vstutils]: success
 [2023-05-12 23:45:59] INFO root fetch - main [MainThread]: Store serial: [18084697]
+[2023-05-12 23:51:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18084697]
+[2023-05-12 23:51:09] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-12 23:51:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pybowl
+[2023-05-12 23:51:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gdbgui-bugfix
+[2023-05-12 23:51:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bpkio-python-sdk
+[2023-05-12 23:51:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: randfacts
+[2023-05-12 23:51:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fly-tracker
+[2023-05-12 23:51:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: srsgui
+[2023-05-12 23:51:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pybowl
+[2023-05-12 23:51:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: element-optogenetics
+[2023-05-12 23:51:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk-webapp-skeleton
+[2023-05-12 23:51:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: strangeworks-rigetti
+[2023-05-12 23:51:09] WARNING root fetch - processPackages [pybowl]: Skipping, unable to determine old version
+[2023-05-12 23:51:09] INFO root fetch - main [MainThread]: End processing [pybowl] error
+[2023-05-12 23:51:09] WARNING root fetch - processPackages [bpkio-python-sdk]: Skipping, unable to determine old version
+[2023-05-12 23:51:09] INFO root fetch - main [MainThread]: End processing [bpkio-python-sdk] error
+[2023-05-12 23:51:09] WARNING root fetch - processPackages [pybowl]: Skipping, unable to determine old version
+[2023-05-12 23:51:09] INFO root fetch - main [MainThread]: End processing [pybowl] error
+[2023-05-12 23:51:09] INFO root fetch - processPackages [cdk-webapp-skeleton]: New version: [0.3.dev9] Old Version: [0.3.dev8]
+[2023-05-12 23:51:09] INFO root fetch - processPackages [cdk-webapp-skeleton]: executing diffoscope
+[2023-05-12 23:51:09] INFO root fetch - processPackages [cdk-webapp-skeleton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_webapp_skeleton-0.3.dev8.tar.gz tmp/cdk_webapp_skeleton-0.3.dev9.tar.gz --markdown 20230512/c/cdk-webapp-skeleton/0.3.dev8-0.3.dev9/diff.md --exclude *.pyd
+[2023-05-12 23:51:09] INFO root fetch - processPackages [gdbgui-bugfix]: New version: [0.15.1.2] Old Version: [0.15.1.1]
+[2023-05-12 23:51:09] INFO root fetch - processPackages [fly-tracker]: New version: [1.0.0] Old Version: [0.0.3]
+[2023-05-12 23:51:09] INFO root fetch - processPackages [element-optogenetics]: New version: [0.1.3] Old Version: [0.1.1]
+[2023-05-12 23:51:09] INFO root fetch - processPackages [srsgui]: New version: [0.2.9] Old Version: [0.2.16]
+[2023-05-12 23:51:09] INFO root fetch - processPackages [randfacts]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-12 23:51:09] INFO root fetch - processPackages [strangeworks-rigetti]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-12 23:51:09] INFO root fetch - processPackages [srsgui]: Downloading https://files.pythonhosted.org/packages/b2/95/203acd421374bac0f3427e0e4c12997b97d4d5d85dea5356ec1de050a48c/srsgui-0.2.16.tar.gz
+[2023-05-12 23:51:09] INFO root fetch - processPackages [fly-tracker]: Downloading https://files.pythonhosted.org/packages/8d/65/3dc1e3e3d35deee81baae9b2408e144ba9a20223cd3348370388c3b6e945/fly_tracker-0.0.3.tar.gz
+[2023-05-12 23:51:09] INFO root fetch - processPackages [randfacts]: Downloading https://files.pythonhosted.org/packages/b5/0a/0fa123275a5f19085d27f73c84edf9722d1d5b4dcb225955ad49e44e0c19/randfacts-0.9.0.tar.gz
+[2023-05-12 23:51:09] INFO root fetch - processPackages [element-optogenetics]: Downloading https://files.pythonhosted.org/packages/5f/1e/d6565e2242d23b98242eaae230ae3b05324894bc4cb4e7dbca06404a342f/element-optogenetics-0.1.1.tar.gz
+[2023-05-12 23:51:09] INFO root fetch - processPackages [gdbgui-bugfix]: Downloading https://files.pythonhosted.org/packages/9d/d4/f8fdce6a348a4c137c97e3325c0e71e77a9e7f60ff5da5df1c858baaf88c/gdbgui-bugfix-0.15.1.1.tar.gz
+[2023-05-12 23:51:10] INFO root fetch - processPackages [fly-tracker]: Downloading https://files.pythonhosted.org/packages/64/44/74eb0cf5d029f387f04a15c93d34bcb9860f017821f85d1a7505fdc658d1/fly_tracker-1.0.0.tar.gz
+[2023-05-12 23:51:10] INFO root fetch - processPackages [element-optogenetics]: Downloading https://files.pythonhosted.org/packages/83/75/6141b14802804e2e5e252d1afd4386ae5a85622ddc89e8acd63c4336d210/element-optogenetics-0.1.3.tar.gz
+[2023-05-12 23:51:10] INFO root fetch - processPackages [strangeworks-rigetti]: executing diffoscope
+[2023-05-12 23:51:10] INFO root fetch - processPackages [strangeworks-rigetti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strangeworks-rigetti-0.2.8.tar.gz tmp/strangeworks-rigetti-0.2.9.tar.gz --markdown 20230512/s/strangeworks-rigetti/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-12 23:51:10] INFO root fetch - processPackages [srsgui]: Downloading https://files.pythonhosted.org/packages/0a/0c/ed671dd4da0c04db668796b0cee91cd5a72e42fe5c45cb6d9ae4e788f003/srsgui-0.2.9.tar.gz
+[2023-05-12 23:51:10] INFO root fetch - processPackages [randfacts]: Downloading https://files.pythonhosted.org/packages/0d/d5/09a6cb9ff54b90f669d3b946263f344c8184d408b07121303809760e2516/randfacts-0.9.1.tar.gz
+[2023-05-12 23:51:10] INFO root fetch - processPackages [element-optogenetics]: executing diffoscope
+[2023-05-12 23:51:10] INFO root fetch - processPackages [element-optogenetics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/element-optogenetics-0.1.1.tar.gz tmp/element-optogenetics-0.1.3.tar.gz --markdown 20230512/e/element-optogenetics/0.1.1-0.1.3/diff.md --exclude *.pyd
+[2023-05-12 23:51:10] INFO root fetch - processPackages [fly-tracker]: executing diffoscope
+[2023-05-12 23:51:10] INFO root fetch - processPackages [fly-tracker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fly_tracker-0.0.3.tar.gz tmp/fly_tracker-1.0.0.tar.gz --markdown 20230512/f/fly-tracker/0.0.3-1.0.0/diff.md --exclude *.pyd
+[2023-05-12 23:51:10] INFO root fetch - processPackages [srsgui]: executing diffoscope
+[2023-05-12 23:51:10] INFO root fetch - processPackages [srsgui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/srsgui-0.2.16.tar.gz tmp/srsgui-0.2.9.tar.gz --markdown 20230512/s/srsgui/0.2.16-0.2.9/diff.md --exclude *.pyd
+[2023-05-12 23:51:10] INFO root fetch - processPackages [randfacts]: executing diffoscope
+[2023-05-12 23:51:10] INFO root fetch - processPackages [randfacts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/randfacts-0.9.0.tar.gz tmp/randfacts-0.9.1.tar.gz --markdown 20230512/r/randfacts/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-12 23:51:10] INFO root fetch - processPackages [gdbgui-bugfix]: Downloading https://files.pythonhosted.org/packages/10/c0/dcd6f4db5ff8cacc61872789cdab60c6f6655c01438586ab40a9157ad467/gdbgui-bugfix-0.15.1.2.tar.gz
+[2023-05-12 23:51:10] INFO root fetch - main [MainThread]: End processing [cdk-webapp-skeleton]: success
+[2023-05-12 23:51:10] INFO root fetch - processPackages [gdbgui-bugfix]: executing diffoscope
+[2023-05-12 23:51:10] INFO root fetch - processPackages [gdbgui-bugfix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdbgui-bugfix-0.15.1.1.tar.gz tmp/gdbgui-bugfix-0.15.1.2.tar.gz --markdown 20230512/g/gdbgui-bugfix/0.15.1.1-0.15.1.2/diff.md --exclude *.pyd
+[2023-05-12 23:51:11] INFO root fetch - main [MainThread]: End processing [strangeworks-rigetti]: success
+[2023-05-12 23:51:11] INFO root fetch - main [MainThread]: End processing [element-optogenetics]: success
+[2023-05-12 23:51:11] INFO root fetch - main [MainThread]: End processing [fly-tracker]: success
+[2023-05-12 23:51:11] INFO root fetch - main [MainThread]: End processing [randfacts]: success
+[2023-05-12 23:51:12] INFO root fetch - main [MainThread]: End processing [srsgui]: success
+[2023-05-12 23:51:13] INFO root fetch - main [MainThread]: End processing [gdbgui-bugfix]: success
+[2023-05-12 23:51:13] INFO root fetch - main [MainThread]: Store serial: [18084735]
