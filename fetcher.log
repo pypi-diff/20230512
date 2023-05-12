@@ -2128,3 +2128,115 @@
 [2023-05-12 03:56:15] INFO root fetch - main [MainThread]: End processing [coiled]: success
 [2023-05-12 03:56:16] INFO root fetch - main [MainThread]: End processing [tccli-intl-en]: success
 [2023-05-12 03:56:16] INFO root fetch - main [MainThread]: Store serial: [18072002]
+[2023-05-12 04:01:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18072002]
+[2023-05-12 04:01:24] INFO root fetch - main [MainThread]: No changed packages found
+[2023-05-12 04:06:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18072014]
+[2023-05-12 04:06:30] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-12 04:06:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shoulder
+[2023-05-12 04:06:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: testery
+[2023-05-12 04:06:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: amqp-workers
+[2023-05-12 04:06:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tensorflow-text-nightly
+[2023-05-12 04:06:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: heaserver-buckets
+[2023-05-12 04:06:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xj-user
+[2023-05-12 04:06:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mojo-xmodules
+[2023-05-12 04:06:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: llama-cpp-python
+[2023-05-12 04:06:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tencentcloud-sdk-python-dataintegration
+[2023-05-12 04:06:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tencentcloud-sdk-python-dbbrain
+[2023-05-12 04:06:30] INFO root fetch - processPackages [shoulder]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-12 04:06:30] INFO root fetch - processPackages [testery]: New version: [1.6.7] Old Version: [1.6.6]
+[2023-05-12 04:06:30] INFO root fetch - processPackages [amqp-workers]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-12 04:06:30] INFO root fetch - processPackages [mojo-xmodules]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 04:06:30] INFO root fetch - processPackages [llama-cpp-python]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-12 04:06:30] INFO root fetch - processPackages [heaserver-buckets]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-05-12 04:06:30] INFO root fetch - processPackages [xj-user]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-05-12 04:06:30] INFO root fetch - processPackages [tencentcloud-sdk-python-dataintegration]: New version: [3.0.890] Old Version: [3.0.889]
+[2023-05-12 04:06:30] INFO root fetch - processPackages [tencentcloud-sdk-python-dbbrain]: New version: [3.0.890] Old Version: [3.0.889]
+[2023-05-12 04:06:30] INFO root fetch - processPackages [tensorflow-text-nightly]: New version: [2.14.0.dev20230511] Old Version: [2.13.0.dev20230424]
+[2023-05-12 04:06:30] INFO root fetch - processPackages [xj-user]: executing diffoscope
+[2023-05-12 04:06:30] INFO root fetch - processPackages [xj-user]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_user-1.2.98.tar.gz tmp/xj_user-1.2.99.tar.gz --markdown 20230512/x/xj-user/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-05-12 04:06:30] INFO root fetch - processPackages [shoulder]: Downloading https://files.pythonhosted.org/packages/8a/87/905bcba5bb1ca8f5b54f6cbdb60835df1353e1f9fc80fba9579b46015b53/shoulder-1.0.1.tar.gz
+[2023-05-12 04:06:30] INFO root fetch - processPackages [testery]: Downloading https://files.pythonhosted.org/packages/00/88/bc39013952eae4fabe12eb046852c0a826c1fcbc4f72c5916be57ad69d04/testery-1.6.6-py3-none-any.whl
+[2023-05-12 04:06:30] INFO root fetch - processPackages [amqp-workers]: Downloading https://files.pythonhosted.org/packages/0d/c8/bdf2a86417e469407101c72e510f3a01cc7f12cbebdcc7e9f612ae96e0a0/amqp_workers-0.1.0.tar.gz
+[2023-05-12 04:06:30] INFO root fetch - processPackages [tencentcloud-sdk-python-dataintegration]: Downloading https://files.pythonhosted.org/packages/db/1b/38c1ed6e8b525450065d4e8912ff05e2f8d776906c70908f13227c327a27/tencentcloud_sdk_python_dataintegration-3.0.890-py2.py3-none-any.whl
+[2023-05-12 04:06:30] INFO root fetch - processPackages [tencentcloud-sdk-python-dbbrain]: Downloading https://files.pythonhosted.org/packages/b1/ee/0fdf3155e6547e7db9b2b7ec0d59c9046c598be3d3391cde08f5450ca278/tencentcloud-sdk-python-dbbrain-3.0.890.tar.gz
+[2023-05-12 04:06:30] INFO root fetch - processPackages [tensorflow-text-nightly]: Downloading https://files.pythonhosted.org/packages/76/17/e1c0da9798b8273d80615e7a31439dfe08aa6f6962c4fa230d4936773c8f/tensorflow_text_nightly-2.13.0.dev20230424-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-12 04:06:30] INFO root fetch - processPackages [tencentcloud-sdk-python-dbbrain]: executing diffoscope
+[2023-05-12 04:06:30] INFO root fetch - processPackages [tencentcloud-sdk-python-dbbrain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-dbbrain-3.0.889.tar.gz tmp/tencentcloud-sdk-python-dbbrain-3.0.890.tar.gz --markdown 20230512/t/tencentcloud-sdk-python-dbbrain/3.0.889-3.0.890/diff.md --exclude *.pyd
+[2023-05-12 04:06:31] INFO root fetch - processPackages [tencentcloud-sdk-python-dataintegration]: executing diffoscope
+[2023-05-12 04:06:31] INFO root fetch - processPackages [tencentcloud-sdk-python-dataintegration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-dataintegration-3.0.889.tar.gz tmp/tencentcloud_sdk_python_dataintegration-3.0.890-py2.py3-none-any.whl.zip --markdown 20230512/t/tencentcloud-sdk-python-dataintegration/3.0.889-3.0.890/diff.md --exclude *.pyd
+[2023-05-12 04:06:31] INFO root fetch - processPackages [llama-cpp-python]: executing diffoscope
+[2023-05-12 04:06:31] INFO root fetch - processPackages [llama-cpp-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_cpp_python-0.1.8.tar.gz tmp/llama_cpp_python-0.1.9.tar.gz --markdown 20230512/l/llama-cpp-python/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-12 04:06:31] INFO root fetch - processPackages [heaserver-buckets]: executing diffoscope
+[2023-05-12 04:06:31] INFO root fetch - processPackages [heaserver-buckets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaserver-buckets-1.0.0a8.tar.gz tmp/heaserver-buckets-1.0.0a9.tar.gz --markdown 20230512/h/heaserver-buckets/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-05-12 04:06:31] INFO root fetch - processPackages [amqp-workers]: Downloading https://files.pythonhosted.org/packages/59/c4/df05269f2ea57d74873cd9ffd6654a52cb236862f7f135893aac6afa34a7/amqp_workers-0.1.1.tar.gz
+[2023-05-12 04:06:31] INFO root fetch - processPackages [mojo-xmodules]: executing diffoscope
+[2023-05-12 04:06:31] INFO root fetch - processPackages [mojo-xmodules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_xmodules-0.0.8.tar.gz tmp/mojo_xmodules-0.0.9.tar.gz --markdown 20230512/m/mojo-xmodules/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 04:06:31] INFO root fetch - processPackages [shoulder]: Downloading https://files.pythonhosted.org/packages/23/03/78e543215a6d9b1b9a39645c58847d467a20772de1d4abd0e3b0732a4620/shoulder-1.0.2.tar.gz
+[2023-05-12 04:06:31] INFO root fetch - processPackages [testery]: Downloading https://files.pythonhosted.org/packages/57/66/67a1b7af339cb76cbaacf6cf3c332164403841a0c6980e0c6465707baaa6/testery-1.6.7-py3-none-any.whl
+[2023-05-12 04:06:31] INFO root fetch - processPackages [amqp-workers]: executing diffoscope
+[2023-05-12 04:06:31] INFO root fetch - processPackages [amqp-workers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amqp_workers-0.1.0.tar.gz tmp/amqp_workers-0.1.1.tar.gz --markdown 20230512/a/amqp-workers/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-12 04:06:31] INFO root fetch - processPackages [shoulder]: executing diffoscope
+[2023-05-12 04:06:31] INFO root fetch - processPackages [shoulder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shoulder-1.0.1.tar.gz tmp/shoulder-1.0.2.tar.gz --markdown 20230512/s/shoulder/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-12 04:06:31] INFO root fetch - processPackages [tensorflow-text-nightly]: Downloading https://files.pythonhosted.org/packages/4b/21/92f2512e09c17f34ed60192dd6d7f48e2ecc58e3a741173c607c4f907704/tensorflow_text_nightly-2.14.0.dev20230511-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-12 04:06:31] INFO root fetch - processPackages [testery]: executing diffoscope
+[2023-05-12 04:06:31] INFO root fetch - processPackages [testery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testery-1.6.6-py3-none-any.whl.zip tmp/testery-1.6.7-py3-none-any.whl.zip --markdown 20230512/t/testery/1.6.6-1.6.7/diff.md --exclude *.pyd
+[2023-05-12 04:06:32] INFO root fetch - processPackages [tensorflow-text-nightly]: executing diffoscope
+[2023-05-12 04:06:32] INFO root fetch - processPackages [tensorflow-text-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorflow_text_nightly-2.13.0.dev20230424-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/tensorflow_text_nightly-2.14.0.dev20230511-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230512/t/tensorflow-text-nightly/2.13.0.dev20230424-2.14.0.dev20230511/diff.md --exclude *.pyd
+[2023-05-12 04:06:32] INFO root fetch - processPackages [xj-user]: Start processing: tencentcloud-sdk-python-dbdc
+[2023-05-12 04:06:32] INFO root fetch - main [MainThread]: End processing [xj-user]: success
+[2023-05-12 04:06:32] INFO root fetch - processPackages [tencentcloud-sdk-python-dataintegration]: Start processing: tencentcloud-sdk-python-dc
+[2023-05-12 04:06:32] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-dataintegration]: success
+[2023-05-12 04:06:32] INFO root fetch - processPackages [tencentcloud-sdk-python-dbdc]: New version: [3.0.890] Old Version: [3.0.889]
+[2023-05-12 04:06:32] INFO root fetch - processPackages [tencentcloud-sdk-python-dc]: New version: [3.0.890] Old Version: [3.0.889]
+[2023-05-12 04:06:32] INFO root fetch - processPackages [tencentcloud-sdk-python-dbdc]: Downloading https://files.pythonhosted.org/packages/99/23/55e5093b1b4a6073645e48ac13273970938a0400f3e059bc39f5d40ec6b3/tencentcloud-sdk-python-dbdc-3.0.890.tar.gz
+[2023-05-12 04:06:32] INFO root fetch - processPackages [tencentcloud-sdk-python-dc]: Downloading https://files.pythonhosted.org/packages/d1/eb/9b8cbb8c45bc774a3bf2e8b0758d7b50a099464a131242916726cc52d12b/tencentcloud-sdk-python-dc-3.0.890.tar.gz
+[2023-05-12 04:06:32] INFO root fetch - processPackages [tencentcloud-sdk-python-dc]: executing diffoscope
+[2023-05-12 04:06:32] INFO root fetch - processPackages [tencentcloud-sdk-python-dc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-dc-3.0.889.tar.gz tmp/tencentcloud-sdk-python-dc-3.0.890.tar.gz --markdown 20230512/t/tencentcloud-sdk-python-dc/3.0.889-3.0.890/diff.md --exclude *.pyd
+[2023-05-12 04:06:32] INFO root fetch - processPackages [tencentcloud-sdk-python-dbdc]: executing diffoscope
+[2023-05-12 04:06:32] INFO root fetch - processPackages [tencentcloud-sdk-python-dbdc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-dbdc-3.0.889.tar.gz tmp/tencentcloud-sdk-python-dbdc-3.0.890.tar.gz --markdown 20230512/t/tencentcloud-sdk-python-dbdc/3.0.889-3.0.890/diff.md --exclude *.pyd
+[2023-05-12 04:06:32] INFO root fetch - processPackages [llama-cpp-python]: Start processing: visual-compare
+[2023-05-12 04:06:32] INFO root fetch - main [MainThread]: End processing [llama-cpp-python]: success
+[2023-05-12 04:06:33] INFO root fetch - processPackages [visual-compare]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-12 04:06:33] INFO root fetch - processPackages [visual-compare]: Downloading https://files.pythonhosted.org/packages/2b/f0/828cfa814cf6ed40d76f8436633a165ae84e7c92a82a1f8305aca2aa5d1a/visual-compare-0.1.2.tar.gz
+[2023-05-12 04:06:33] INFO root fetch - processPackages [heaserver-buckets]: Start processing: apidevtools
+[2023-05-12 04:06:33] INFO root fetch - main [MainThread]: End processing [heaserver-buckets]: success
+[2023-05-12 04:06:33] INFO root fetch - processPackages [apidevtools]: New version: [3.2.3] Old Version: [3.2.2]
+[2023-05-12 04:06:33] INFO root fetch - processPackages [amqp-workers]: Start processing: shoulder
+[2023-05-12 04:06:33] INFO root fetch - main [MainThread]: End processing [amqp-workers]: success
+[2023-05-12 04:06:33] INFO root fetch - processPackages [shoulder]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-12 04:06:33] INFO root fetch - processPackages [mojo-xmodules]: Start processing: jaxlib
+[2023-05-12 04:06:33] INFO root fetch - main [MainThread]: End processing [mojo-xmodules]: success
+[2023-05-12 04:06:33] INFO root fetch - processPackages [visual-compare]: Downloading https://files.pythonhosted.org/packages/73/ed/79ffba25882ce2abe801f1e96e78194ab500ba13b895db9f37bfbecac4c8/visual-compare-0.1.3.tar.gz
+[2023-05-12 04:06:33] INFO root fetch - processPackages [testery]: Start processing: dbt-ai
+[2023-05-12 04:06:33] INFO root fetch - main [MainThread]: End processing [testery]: success
+[2023-05-12 04:06:33] INFO root fetch - processPackages [jaxlib]: New version: [0.4.9] Old Version: [0.4.7]
+[2023-05-12 04:06:33] INFO root fetch - processPackages [dbt-ai]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-05-12 04:06:33] INFO root fetch - processPackages [shoulder]: Start processing: zrb
+[2023-05-12 04:06:33] INFO root fetch - main [MainThread]: End processing [shoulder]: success
+[2023-05-12 04:06:33] INFO root fetch - processPackages [shoulder]: executing diffoscope
+[2023-05-12 04:06:33] INFO root fetch - processPackages [shoulder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shoulder-1.0.1.tar.gz tmp/shoulder-1.0.2.tar.gz --markdown 20230512/s/shoulder/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-12 04:06:33] INFO root fetch - processPackages [visual-compare]: executing diffoscope
+[2023-05-12 04:06:33] INFO root fetch - processPackages [visual-compare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visual-compare-0.1.2.tar.gz tmp/visual-compare-0.1.3.tar.gz --markdown 20230512/v/visual-compare/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-12 04:06:33] INFO root fetch - processPackages [zrb]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 04:06:33] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-dbbrain]: success
+[2023-05-12 04:06:33] INFO root fetch - processPackages [dbt-ai]: executing diffoscope
+[2023-05-12 04:06:33] INFO root fetch - processPackages [dbt-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-ai-0.2.6.tar.gz tmp/dbt_ai-0.2.7-py3-none-any.whl.zip --markdown 20230512/d/dbt-ai/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-05-12 04:06:33] INFO root fetch - processPackages [jaxlib]: Downloading https://files.pythonhosted.org/packages/a3/ef/479fdd0278bfa7c78c647f3430043b4e9596510f67c1763e0305ea72d64c/jaxlib-0.4.7-cp39-cp39-manylinux2014_x86_64.whl
+[2023-05-12 04:06:33] INFO root fetch - processPackages [apidevtools]: Downloading https://files.pythonhosted.org/packages/19/2a/5d7b4cb294fdaf761e4e019bedbf43d57335cb1eb1c85384408973859254/apidevtools-3.2.3.tar.gz
+[2023-05-12 04:06:33] WARNING root fetch - processPackages [jaxlib]: Skipping package: exceeds size limit 66081246>=10485760
+[2023-05-12 04:06:33] INFO root fetch - main [MainThread]: End processing [jaxlib] error
+[2023-05-12 04:06:33] INFO root fetch - processPackages [zrb]: Downloading https://files.pythonhosted.org/packages/30/24/7a33b243824d090473327938a5d9cd4148889b927653bd1df45802c27649/zrb-0.0.8.tar.gz
+[2023-05-12 04:06:33] INFO root fetch - processPackages [apidevtools]: executing diffoscope
+[2023-05-12 04:06:33] INFO root fetch - processPackages [apidevtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apidevtools-3.2.2.tar.gz tmp/apidevtools-3.2.3.tar.gz --markdown 20230512/a/apidevtools/3.2.2-3.2.3/diff.md --exclude *.pyd
+[2023-05-12 04:06:34] INFO root fetch - processPackages [zrb]: Downloading https://files.pythonhosted.org/packages/8d/80/885cb50dd492ad011338deeabb6f07312d2c3da55917c9e243dd40e7a274/zrb-0.0.9.tar.gz
+[2023-05-12 04:06:34] INFO root fetch - processPackages [zrb]: executing diffoscope
+[2023-05-12 04:06:34] INFO root fetch - processPackages [zrb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zrb-0.0.8.tar.gz tmp/zrb-0.0.9.tar.gz --markdown 20230512/z/zrb/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 04:06:34] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-dbdc]: success
+[2023-05-12 04:06:35] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-dc]: success
+[2023-05-12 04:06:35] INFO root fetch - main [MainThread]: End processing [visual-compare]: success
+[2023-05-12 04:06:35] INFO root fetch - main [MainThread]: End processing [shoulder]: success
+[2023-05-12 04:06:35] INFO root fetch - main [MainThread]: End processing [dbt-ai]: success
+[2023-05-12 04:06:35] INFO root fetch - main [MainThread]: End processing [apidevtools]: success
+[2023-05-12 04:06:36] INFO root fetch - main [MainThread]: End processing [zrb]: success
+[2023-05-12 04:08:19] INFO root fetch - main [MainThread]: End processing [tensorflow-text-nightly]: success
+[2023-05-12 04:08:19] INFO root fetch - main [MainThread]: Store serial: [18072076]
