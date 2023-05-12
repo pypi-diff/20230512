@@ -3032,3 +3032,17 @@
 [2023-05-12 04:47:09] INFO root fetch - main [MainThread]: End processing [scubas]: success
 [2023-05-12 04:47:09] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-budget-oca]: success
 [2023-05-12 04:47:09] INFO root fetch - main [MainThread]: Store serial: [18072539]
+[2023-05-12 04:52:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18072539]
+[2023-05-12 04:52:19] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-05-12 04:52:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mystring
+[2023-05-12 04:52:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rapidtide
+[2023-05-12 04:52:19] INFO root fetch - processPackages [mystring]: New version: [0.0.9] Old Version: [0.0.87]
+[2023-05-12 04:52:19] INFO root fetch - processPackages [rapidtide]: New version: [2.5.5] Old Version: [2.5.4]
+[2023-05-12 04:52:19] INFO root fetch - processPackages [mystring]: Downloading https://files.pythonhosted.org/packages/d2/9f/1a6d1e4ff72298444b50590a0495c3b91c756eaf9c8cee36fd8aef0740af/mystring-0.0.87.tar.gz
+[2023-05-12 04:52:20] INFO root fetch - processPackages [mystring]: executing diffoscope
+[2023-05-12 04:52:20] INFO root fetch - processPackages [mystring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mystring-0.0.87.tar.gz tmp/mystring-0.0.9.tar.gz --markdown 20230512/m/mystring/0.0.87-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 04:52:20] INFO root fetch - processPackages [rapidtide]: Downloading https://files.pythonhosted.org/packages/30/42/62dc9a938d98d285d59571f13f6f7ca230fb822345e2c3fc9a50aee70bf2/rapidtide-2.5.4.tar.gz
+[2023-05-12 04:52:20] WARNING root fetch - processPackages [rapidtide]: Skipping package: exceeds size limit 10765189>=10485760
+[2023-05-12 04:52:20] INFO root fetch - main [MainThread]: End processing [rapidtide] error
+[2023-05-12 04:52:21] INFO root fetch - main [MainThread]: End processing [mystring]: success
+[2023-05-12 04:52:21] INFO root fetch - main [MainThread]: Store serial: [18072563]
