@@ -9993,3 +9993,79 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-12 13:24:59] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
 [2023-05-12 13:25:00] INFO root fetch - main [MainThread]: End processing [cubed]: success
 [2023-05-12 13:25:00] INFO root fetch - main [MainThread]: Store serial: [18077216]
+[2023-05-12 13:30:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18077216]
+[2023-05-12 13:30:10] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-12 13:30:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ds-io-utilities
+[2023-05-12 13:30:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fastfft
+[2023-05-12 13:30:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jaaql-middleware-python
+[2023-05-12 13:30:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: csv-embeddings-creator
+[2023-05-12 13:30:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: numtools
+[2023-05-12 13:30:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: playgroundrl
+[2023-05-12 13:30:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hyperparameters
+[2023-05-12 13:30:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: statefun-tasks
+[2023-05-12 13:30:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: arclet-alconna
+[2023-05-12 13:30:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: torchrec-nightly
+[2023-05-12 13:30:10] INFO root fetch - processPackages [fastfft]: New version: [0.1.4] Old Version: [0.1.2]
+[2023-05-12 13:30:10] WARNING root fetch - processPackages [hyperparameters]: Skipping, unable to determine old version
+[2023-05-12 13:30:10] INFO root fetch - processPackages [hyperparameters]: Start processing: cli-lite
+[2023-05-12 13:30:10] INFO root fetch - processPackages [playgroundrl]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-12 13:30:10] INFO root fetch - main [MainThread]: End processing [hyperparameters] error
+[2023-05-12 13:30:10] INFO root fetch - processPackages [arclet-alconna]: New version: [1.7.1] Old Version: [1.7.0rc7]
+[2023-05-12 13:30:10] WARNING root fetch - processPackages [csv-embeddings-creator]: Skipping, unable to determine old version
+[2023-05-12 13:30:10] INFO root fetch - processPackages [csv-embeddings-creator]: Start processing: torchserve-nightly
+[2023-05-12 13:30:10] INFO root fetch - main [MainThread]: End processing [csv-embeddings-creator] error
+[2023-05-12 13:30:10] INFO root fetch - processPackages [ds-io-utilities]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 13:30:10] INFO root fetch - processPackages [statefun-tasks]: New version: [0.9.93] Old Version: [0.9.92]
+[2023-05-12 13:30:10] INFO root fetch - processPackages [numtools]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-05-12 13:30:10] INFO root fetch - processPackages [jaaql-middleware-python]: New version: [4.9.1] Old Version: [4.9.0]
+[2023-05-12 13:30:10] INFO root fetch - processPackages [torchrec-nightly]: New version: [2023.5.8] Old Version: [2023.5.7]
+[2023-05-12 13:30:10] INFO root fetch - processPackages [torchserve-nightly]: New version: [2023.5.9] Old Version: [2023.5.8]
+[2023-05-12 13:30:10] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/84/1f/9485a72320b2c7f49d6a9304acfbc2bd5fe71c25e0e7a3844ce81a1ed180/torchserve_nightly-2023.5.8-py3-none-any.whl
+[2023-05-12 13:30:10] INFO root fetch - processPackages [arclet-alconna]: executing diffoscope
+[2023-05-12 13:30:10] INFO root fetch - processPackages [arclet-alconna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arclet-alconna-1.7.0rc7.tar.gz tmp/arclet-alconna-1.7.1.tar.gz --markdown 20230512/a/arclet-alconna/1.7.0rc7-1.7.1/diff.md --exclude *.pyd
+[2023-05-12 13:30:10] INFO root fetch - processPackages [ds-io-utilities]: executing diffoscope
+[2023-05-12 13:30:10] INFO root fetch - processPackages [statefun-tasks]: executing diffoscope
+[2023-05-12 13:30:10] INFO root fetch - processPackages [ds-io-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ds-io-utilities-0.0.8.tar.gz tmp/ds-io-utilities-0.0.9.tar.gz --markdown 20230512/d/ds-io-utilities/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 13:30:10] INFO root fetch - processPackages [statefun-tasks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/statefun-tasks-0.9.92.tar.gz tmp/statefun-tasks-0.9.93.tar.gz --markdown 20230512/s/statefun-tasks/0.9.92-0.9.93/diff.md --exclude *.pyd
+[2023-05-12 13:30:10] INFO root fetch - processPackages [cli-lite]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-05-12 13:30:10] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 23716791>=10485760
+[2023-05-12 13:30:10] INFO root fetch - processPackages [torchserve-nightly]: Start processing: torch-model-archiver-nightly
+[2023-05-12 13:30:10] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2023-05-12 13:30:10] INFO root fetch - processPackages [fastfft]: Downloading https://files.pythonhosted.org/packages/d9/6d/105f17a30803f8b72f62e55e71c609e8c2374f5e2afcc94d824b1b56be55/fastfft-0.1.2.tar.gz
+[2023-05-12 13:30:10] INFO root fetch - processPackages [torchrec-nightly]: executing diffoscope
+[2023-05-12 13:30:10] INFO root fetch - processPackages [torchrec-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrec_nightly-2023.5.7-py39-none-any.whl.zip tmp/torchrec_nightly-2023.5.8-py39-none-any.whl.zip --markdown 20230512/t/torchrec-nightly/2023.5.7-2023.5.8/diff.md --exclude *.pyd
+[2023-05-12 13:30:10] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2023.5.9] Old Version: [2023.5.8]
+[2023-05-12 13:30:10] INFO root fetch - processPackages [numtools]: Downloading https://files.pythonhosted.org/packages/6f/9e/45a9ed99e1a17b87a5dfa54de70c7dea58aa6799f8597f279501e7beb86f/numtools-1.4.0.tar.gz
+[2023-05-12 13:30:10] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2023-05-12 13:30:10] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2023.5.8-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2023.5.9-py3-none-any.whl.zip --markdown 20230512/t/torch-model-archiver-nightly/2023.5.8-2023.5.9/diff.md --exclude *.pyd
+[2023-05-12 13:30:10] INFO root fetch - processPackages [playgroundrl]: executing diffoscope
+[2023-05-12 13:30:10] INFO root fetch - processPackages [playgroundrl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/playgroundrl-0.0.7.tar.gz tmp/playgroundrl-0.0.8.tar.gz --markdown 20230512/p/playgroundrl/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-12 13:30:10] INFO root fetch - processPackages [fastfft]: Downloading https://files.pythonhosted.org/packages/a9/15/a5eea8ebc17328162790eeca550bcedc934648693df41ea1fb2de5f173af/fastfft-0.1.4.tar.gz
+[2023-05-12 13:30:10] INFO root fetch - processPackages [jaaql-middleware-python]: executing diffoscope
+[2023-05-12 13:30:10] INFO root fetch - processPackages [jaaql-middleware-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaaql-middleware-python-4.9.0.tar.gz tmp/jaaql-middleware-python-4.9.1.tar.gz --markdown 20230512/j/jaaql-middleware-python/4.9.0-4.9.1/diff.md --exclude *.pyd
+[2023-05-12 13:30:10] INFO root fetch - processPackages [numtools]: Downloading https://files.pythonhosted.org/packages/51/5b/10a60b685b1779875e05f3905fc6f258ed1d76b62d68ed8457f967dbb41e/numtools-1.5.0.tar.gz
+[2023-05-12 13:30:10] INFO root fetch - processPackages [cli-lite]: Downloading https://files.pythonhosted.org/packages/ea/d7/b2c27d428a1ee891073e2f8198349d32f71f5740fb99f57b9aa36453fa8c/cli-lite-0.7.1.tar.gz
+[2023-05-12 13:30:10] INFO root fetch - processPackages [fastfft]: executing diffoscope
+[2023-05-12 13:30:10] INFO root fetch - processPackages [fastfft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastfft-0.1.2.tar.gz tmp/fastfft-0.1.4.tar.gz --markdown 20230512/f/fastfft/0.1.2-0.1.4/diff.md --exclude *.pyd
+[2023-05-12 13:30:10] INFO root fetch - processPackages [numtools]: executing diffoscope
+[2023-05-12 13:30:10] INFO root fetch - processPackages [numtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numtools-1.4.0.tar.gz tmp/numtools-1.5.0.tar.gz --markdown 20230512/n/numtools/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-05-12 13:30:10] INFO root fetch - processPackages [cli-lite]: executing diffoscope
+[2023-05-12 13:30:10] INFO root fetch - processPackages [cli-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cli-lite-0.7.0.tar.gz tmp/cli-lite-0.7.1.tar.gz --markdown 20230512/c/cli-lite/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-05-12 13:30:11] INFO root fetch - processPackages [ds-io-utilities]: Start processing: garpix-company
+[2023-05-12 13:30:11] INFO root fetch - main [MainThread]: End processing [ds-io-utilities]: success
+[2023-05-12 13:30:11] INFO root fetch - processPackages [garpix-company]: New version: [2.8.2] Old Version: [2.8.1]
+[2023-05-12 13:30:12] INFO root fetch - main [MainThread]: End processing [arclet-alconna]: success
+[2023-05-12 13:30:12] INFO root fetch - processPackages [garpix-company]: Downloading https://files.pythonhosted.org/packages/df/03/76758b677b6daf0e6693d09dbf9e397a1b69360af8873671e50fe19b3cf3/garpix_company-2.8.1.tar.gz
+[2023-05-12 13:30:12] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2023-05-12 13:30:12] INFO root fetch - main [MainThread]: End processing [playgroundrl]: success
+[2023-05-12 13:30:12] INFO root fetch - main [MainThread]: End processing [fastfft]: success
+[2023-05-12 13:30:12] INFO root fetch - processPackages [garpix-company]: Downloading https://files.pythonhosted.org/packages/c0/94/9076148c86586ae474437051f705c42eed991c09e0e34314e077d4f37b2e/garpix_company-2.8.2-py3-none-any.whl
+[2023-05-12 13:30:12] INFO root fetch - main [MainThread]: End processing [numtools]: success
+[2023-05-12 13:30:12] INFO root fetch - processPackages [garpix-company]: executing diffoscope
+[2023-05-12 13:30:12] INFO root fetch - processPackages [garpix-company]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garpix_company-2.8.1.tar.gz tmp/garpix_company-2.8.2-py3-none-any.whl.zip --markdown 20230512/g/garpix-company/2.8.1-2.8.2/diff.md --exclude *.pyd
+[2023-05-12 13:30:12] INFO root fetch - main [MainThread]: End processing [jaaql-middleware-python]: success
+[2023-05-12 13:30:12] INFO root fetch - main [MainThread]: End processing [cli-lite]: success
+[2023-05-12 13:30:12] INFO root fetch - main [MainThread]: End processing [torchrec-nightly]: success
+[2023-05-12 13:30:12] INFO root fetch - main [MainThread]: End processing [statefun-tasks]: success
+[2023-05-12 13:30:13] INFO root fetch - main [MainThread]: End processing [garpix-company]: success
+[2023-05-12 13:30:13] INFO root fetch - main [MainThread]: Store serial: [18077271]
