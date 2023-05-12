@@ -16772,3 +16772,77 @@ EOFError: EOF read where object expected
 [2023-05-12 19:39:10] INFO root fetch - main [MainThread]: End processing [mrq-custom]: success
 [2023-05-12 19:39:10] INFO root fetch - main [MainThread]: End processing [meerschaum]: success
 [2023-05-12 19:39:10] INFO root fetch - main [MainThread]: Store serial: [18081583]
+[2023-05-12 19:44:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18081583]
+[2023-05-12 19:44:19] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-12 19:44:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: azureml-dataprep-rslex
+[2023-05-12 19:44:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shermly
+[2023-05-12 19:44:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: snakeML
+[2023-05-12 19:44:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: compas-timber
+[2023-05-12 19:44:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-account-reconciliation-widget
+[2023-05-12 19:44:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mythic-container
+[2023-05-12 19:44:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-extensions
+[2023-05-12 19:44:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: honeybee-doe2
+[2023-05-12 19:44:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: splight-cli
+[2023-05-12 19:44:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: meerschaum
+[2023-05-12 19:44:19] INFO root fetch - processPackages [snakeML]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-12 19:44:19] INFO root fetch - processPackages [splight-cli]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-05-12 19:44:20] INFO root fetch - processPackages [meerschaum]: New version: [1.6.8] Old Version: [1.6.7]
+[2023-05-12 19:44:20] ERROR root fetch - processPackages [shermly]: Unable to get metadata: No such project 'shermly'
+[2023-05-12 19:44:20] INFO root fetch - processPackages [shermly]: Start processing: dbt-core
+[2023-05-12 19:44:20] INFO root fetch - main [MainThread]: End processing [shermly] error
+[2023-05-12 19:44:20] INFO root fetch - processPackages [odoo-addon-account-reconciliation-widget]: New version: [15.0.1.2.4] Old Version: [15.0.1.2.3.1]
+[2023-05-12 19:44:20] WARNING root fetch - processPackages [compas-timber]: Skipping, unable to determine old version
+[2023-05-12 19:44:20] INFO root fetch - processPackages [compas-timber]: Start processing: dbt-postgres
+[2023-05-12 19:44:20] WARNING root fetch - processPackages [honeybee-doe2]: Skipping, unable to determine old version
+[2023-05-12 19:44:20] INFO root fetch - main [MainThread]: End processing [compas-timber] error
+[2023-05-12 19:44:20] INFO root fetch - processPackages [honeybee-doe2]: Start processing: dbt-tests-adapter
+[2023-05-12 19:44:20] INFO root fetch - processPackages [mythic-container]: New version: [0.2.8rc2] Old Version: [0.2.8rc1]
+[2023-05-12 19:44:20] INFO root fetch - main [MainThread]: End processing [honeybee-doe2] error
+[2023-05-12 19:44:20] INFO root fetch - processPackages [cdk-extensions]: New version: [0.0.60] Old Version: [0.0.59]
+[2023-05-12 19:44:20] INFO root fetch - processPackages [splight-cli]: executing diffoscope
+[2023-05-12 19:44:20] INFO root fetch - processPackages [splight-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splight-cli-2.3.8.tar.gz tmp/splight-cli-2.3.9.tar.gz --markdown 20230512/s/splight-cli/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-05-12 19:44:20] INFO root fetch - processPackages [dbt-core]: New version: [1.5.1rc1] Old Version: [1.5.0rc2]
+[2023-05-12 19:44:20] INFO root fetch - processPackages [azureml-dataprep-rslex]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-05-12 19:44:20] INFO root fetch - processPackages [snakeML]: executing diffoscope
+[2023-05-12 19:44:20] INFO root fetch - processPackages [snakeML]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snakeML-0.0.4.tar.gz tmp/snakeML-0.0.5-py3-none-any.whl.zip --markdown 20230512/s/snakeML/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-12 19:44:20] INFO root fetch - processPackages [dbt-postgres]: New version: [1.5.1rc1] Old Version: [1.5.0rc2]
+[2023-05-12 19:44:20] INFO root fetch - processPackages [dbt-tests-adapter]: New version: [1.5.1rc1] Old Version: [1.5.0rc2]
+[2023-05-12 19:44:20] INFO root fetch - processPackages [dbt-core]: executing diffoscope
+[2023-05-12 19:44:20] INFO root fetch - processPackages [dbt-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-core-1.5.0rc2.tar.gz tmp/dbt-core-1.5.1rc1.tar.gz --markdown 20230512/d/dbt-core/1.5.0rc2-1.5.1rc1/diff.md --exclude *.pyd
+[2023-05-12 19:44:20] INFO root fetch - processPackages [odoo-addon-account-reconciliation-widget]: Downloading https://files.pythonhosted.org/packages/e6/87/af06b5a662596f9e601f797324ab2f60e2e40d8927875b12778a437609a5/odoo_addon_account_reconciliation_widget-15.0.1.2.3.1-py3-none-any.whl
+[2023-05-12 19:44:20] INFO root fetch - processPackages [azureml-dataprep-rslex]: Downloading https://files.pythonhosted.org/packages/a3/d5/7a9b0965a3954085cb0614195ffdb7507030614aff2fa0c8d65551f20d62/azureml_dataprep_rslex-2.9.0-cp39-cp39-win_amd64.whl
+[2023-05-12 19:44:20] INFO root fetch - processPackages [mythic-container]: Downloading https://files.pythonhosted.org/packages/77/d9/1f1bcd8d77f7c8e96fab41a2d7d06de763846c867c0c90da699e2997ba10/mythic_container-0.2.8rc1.tar.gz
+[2023-05-12 19:44:20] WARNING root fetch - processPackages [azureml-dataprep-rslex]: Skipping package: exceeds size limit 13348921>=10485760
+[2023-05-12 19:44:20] INFO root fetch - processPackages [azureml-dataprep-rslex]: Start processing: odoo-addon-account-payment-order
+[2023-05-12 19:44:20] INFO root fetch - main [MainThread]: End processing [azureml-dataprep-rslex] error
+[2023-05-12 19:44:20] INFO root fetch - processPackages [dbt-tests-adapter]: executing diffoscope
+[2023-05-12 19:44:20] INFO root fetch - processPackages [dbt-tests-adapter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-tests-adapter-1.5.0rc2.tar.gz tmp/dbt-tests-adapter-1.5.1rc1.tar.gz --markdown 20230512/d/dbt-tests-adapter/1.5.0rc2-1.5.1rc1/diff.md --exclude *.pyd
+[2023-05-12 19:44:20] INFO root fetch - processPackages [odoo-addon-account-payment-order]: New version: [16.0.1.1.0.1] Old Version: [16.0.1.1.0]
+[2023-05-12 19:44:20] INFO root fetch - processPackages [cdk-extensions]: Downloading https://files.pythonhosted.org/packages/31/8f/9e03ba39eaa81e13257b85dc3e1809753f086b109b072cc4737d08ec5a1e/cdk-extensions-0.0.60.tar.gz
+[2023-05-12 19:44:20] INFO root fetch - processPackages [odoo-addon-account-reconciliation-widget]: Downloading https://files.pythonhosted.org/packages/17/38/85b479ac7b12adddcf9343313929a951755f5ff81597ae54cc892fd8e54c/odoo_addon_account_reconciliation_widget-15.0.1.2.4-py3-none-any.whl
+[2023-05-12 19:44:20] INFO root fetch - processPackages [mythic-container]: Downloading https://files.pythonhosted.org/packages/77/26/fe287f1894f5d7a699aed652d644fcdc68c1394438e91b5ed408bd107f2a/mythic_container-0.2.8rc2.tar.gz
+[2023-05-12 19:44:20] INFO root fetch - processPackages [odoo-addon-account-payment-order]: Downloading https://files.pythonhosted.org/packages/ac/e0/2de9e8277c1d13785d1e8d715befd33145834229dbae5f463305fbde0afd/odoo_addon_account_payment_order-16.0.1.1.0-py3-none-any.whl
+[2023-05-12 19:44:20] INFO root fetch - processPackages [odoo-addon-account-reconciliation-widget]: executing diffoscope
+[2023-05-12 19:44:20] INFO root fetch - processPackages [odoo-addon-account-reconciliation-widget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_reconciliation_widget-15.0.1.2.3.1-py3-none-any.whl.zip tmp/odoo_addon_account_reconciliation_widget-15.0.1.2.4-py3-none-any.whl.zip --markdown 20230512/o/odoo-addon-account-reconciliation-widget/15.0.1.2.3.1-15.0.1.2.4/diff.md --exclude *.pyd
+[2023-05-12 19:44:20] INFO root fetch - processPackages [mythic-container]: executing diffoscope
+[2023-05-12 19:44:20] INFO root fetch - processPackages [mythic-container]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mythic_container-0.2.8rc1.tar.gz tmp/mythic_container-0.2.8rc2.tar.gz --markdown 20230512/m/mythic-container/0.2.8rc1-0.2.8rc2/diff.md --exclude *.pyd
+[2023-05-12 19:44:20] INFO root fetch - processPackages [cdk-extensions]: executing diffoscope
+[2023-05-12 19:44:20] INFO root fetch - processPackages [cdk-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-extensions-0.0.59.tar.gz tmp/cdk-extensions-0.0.60.tar.gz --markdown 20230512/c/cdk-extensions/0.0.59-0.0.60/diff.md --exclude *.pyd
+[2023-05-12 19:44:20] INFO root fetch - processPackages [odoo-addon-account-payment-order]: Downloading https://files.pythonhosted.org/packages/2f/b5/d01d0c0d4d1c05231ed2686544a72d8186a4a0036a2b3a3cd5778a6649ee/odoo_addon_account_payment_order-16.0.1.1.0.1-py3-none-any.whl
+[2023-05-12 19:44:21] INFO root fetch - processPackages [odoo-addon-account-payment-order]: executing diffoscope
+[2023-05-12 19:44:21] INFO root fetch - processPackages [odoo-addon-account-payment-order]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_payment_order-16.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_account_payment_order-16.0.1.1.0.1-py3-none-any.whl.zip --markdown 20230512/o/odoo-addon-account-payment-order/16.0.1.1.0-16.0.1.1.0.1/diff.md --exclude *.pyd
+[2023-05-12 19:44:21] INFO root fetch - processPackages [meerschaum]: executing diffoscope
+[2023-05-12 19:44:21] INFO root fetch - processPackages [meerschaum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meerschaum-1.6.7.tar.gz tmp/meerschaum-1.6.8.tar.gz --markdown 20230512/m/meerschaum/1.6.7-1.6.8/diff.md --exclude *.pyd
+[2023-05-12 19:44:21] INFO root fetch - processPackages [dbt-postgres]: executing diffoscope
+[2023-05-12 19:44:21] INFO root fetch - processPackages [dbt-postgres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-postgres-1.5.0rc2.tar.gz tmp/dbt-postgres-1.5.1rc1.tar.gz --markdown 20230512/d/dbt-postgres/1.5.0rc2-1.5.1rc1/diff.md --exclude *.pyd
+[2023-05-12 19:44:21] INFO root fetch - main [MainThread]: End processing [snakeML]: success
+[2023-05-12 19:44:22] INFO root fetch - main [MainThread]: End processing [dbt-tests-adapter]: success
+[2023-05-12 19:44:22] INFO root fetch - main [MainThread]: End processing [mythic-container]: success
+[2023-05-12 19:44:22] INFO root fetch - main [MainThread]: End processing [splight-cli]: success
+[2023-05-12 19:44:22] INFO root fetch - main [MainThread]: End processing [dbt-postgres]: success
+[2023-05-12 19:44:22] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-reconciliation-widget]: success
+[2023-05-12 19:44:23] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-payment-order]: success
+[2023-05-12 19:44:23] INFO root fetch - main [MainThread]: End processing [meerschaum]: success
+[2023-05-12 19:44:24] INFO root fetch - main [MainThread]: End processing [cdk-extensions]: success
+[2023-05-12 19:44:27] INFO root fetch - main [MainThread]: End processing [dbt-core]: success
+[2023-05-12 19:44:27] INFO root fetch - main [MainThread]: Store serial: [18081643]
