@@ -9255,3 +9255,81 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-12 12:37:25] INFO root fetch - main [MainThread]: End processing [json-fingerprint]: success
 [2023-05-12 12:37:25] INFO root fetch - main [MainThread]: End processing [riversand]: success
 [2023-05-12 12:37:25] INFO root fetch - main [MainThread]: Store serial: [18076700]
+[2023-05-12 12:42:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18076700]
+[2023-05-12 12:42:34] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-12 12:42:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: areixio
+[2023-05-12 12:42:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sbti-finance-tool
+[2023-05-12 12:42:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Semicolonizer
+[2023-05-12 12:42:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ciscoconfparse
+[2023-05-12 12:42:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyqrack
+[2023-05-12 12:42:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: umbridge
+[2023-05-12 12:42:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: certora-cli-alpha-shelly-fixcanonicalid
+[2023-05-12 12:42:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: csvcubed
+[2023-05-12 12:42:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: npgbq
+[2023-05-12 12:42:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jot-iris
+[2023-05-12 12:42:35] INFO root fetch - processPackages [ciscoconfparse]: New version: [1.7.9] Old Version: [1.7.8]
+[2023-05-12 12:42:35] INFO root fetch - processPackages [pyqrack]: New version: [1.9.0] Old Version: [1.8.4]
+[2023-05-12 12:42:35] INFO root fetch - processPackages [pyqrack]: Downloading https://files.pythonhosted.org/packages/bd/7a/6fafe2b2b22a8ec4755849b26283c1dc5cb9d37f1c7ca457e5d85352948e/pyqrack-1.8.4.tar.gz
+[2023-05-12 12:42:35] INFO root fetch - processPackages [Semicolonizer]: New version: [1.2] Old Version: [1.0]
+[2023-05-12 12:42:35] INFO root fetch - processPackages [umbridge]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-05-12 12:42:35] WARNING root fetch - processPackages [certora-cli-alpha-shelly-fixcanonicalid]: Skipping, unable to determine old version
+[2023-05-12 12:42:35] INFO root fetch - processPackages [areixio]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-12 12:42:35] INFO root fetch - processPackages [certora-cli-alpha-shelly-fixcanonicalid]: Start processing: scalecodec
+[2023-05-12 12:42:35] INFO root fetch - processPackages [sbti-finance-tool]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-05-12 12:42:35] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-shelly-fixcanonicalid] error
+[2023-05-12 12:42:35] INFO root fetch - processPackages [npgbq]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-05-12 12:42:35] INFO root fetch - processPackages [jot-iris]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-05-12 12:42:35] INFO root fetch - processPackages [csvcubed]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-05-12 12:42:35] WARNING root fetch - processPackages [pyqrack]: Skipping package: exceeds size limit 25361179>=10485760
+[2023-05-12 12:42:35] INFO root fetch - processPackages [pyqrack]: Start processing: quickmpc
+[2023-05-12 12:42:35] INFO root fetch - main [MainThread]: End processing [pyqrack] error
+[2023-05-12 12:42:35] INFO root fetch - processPackages [ciscoconfparse]: Downloading https://files.pythonhosted.org/packages/8e/0e/20bbc7d191e96c00871595d47f7540516681e86c2d30c7fb99b5ec37add4/ciscoconfparse-1.7.8.tar.gz
+[2023-05-12 12:42:35] INFO root fetch - processPackages [scalecodec]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-05-12 12:42:35] INFO root fetch - processPackages [quickmpc]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-05-12 12:42:35] INFO root fetch - processPackages [Semicolonizer]: Downloading https://files.pythonhosted.org/packages/15/ec/0a8b40649d19eced3a452a9c998484343c57f6ccdbda64fd47c518cdacd2/Semicolonizer-1.0.tar.gz
+[2023-05-12 12:42:35] INFO root fetch - processPackages [umbridge]: Downloading https://files.pythonhosted.org/packages/f3/11/4fe5f81313220c8b3f33a7b8099a0ba7ee1d51dbc5a4994b459167ee8642/umbridge-1.2.1.tar.gz
+[2023-05-12 12:42:35] INFO root fetch - processPackages [jot-iris]: Downloading https://files.pythonhosted.org/packages/91/cd/248c64172efbfd5056a10fc9f1ba7d6bcc66860dfa55f4d8ad17deedbc04/jot_iris-1.9.0-py3-none-any.whl
+[2023-05-12 12:42:35] INFO root fetch - processPackages [npgbq]: Downloading https://files.pythonhosted.org/packages/bc/46/b24630de85f485a571588b036e6a4f3b2ee994e7da7d331f1890a2c09e91/npgbq-2.1.8.tar.gz
+[2023-05-12 12:42:35] INFO root fetch - processPackages [csvcubed]: Downloading https://files.pythonhosted.org/packages/c5/34/8f0c4f0d9846323dcc0704d249502a74f5afa169674fbeb79096a32ec0d8/csvcubed-0.4.1-py3-none-any.whl
+[2023-05-12 12:42:35] INFO root fetch - processPackages [quickmpc]: Downloading https://files.pythonhosted.org/packages/ee/54/3c32a5666548d28aa319e4ddb24061db85202c505a1c4be89af3afcd1b84/quickmpc-0.3.7.tar.gz
+[2023-05-12 12:42:35] INFO root fetch - processPackages [scalecodec]: Downloading https://files.pythonhosted.org/packages/54/d1/56d8d721918eaf2d929b761911ba79535b512db4ed4f882ea574506e2698/scalecodec-1.2.3.tar.gz
+[2023-05-12 12:42:35] INFO root fetch - processPackages [sbti-finance-tool]: Downloading https://files.pythonhosted.org/packages/6d/61/72970b8fc3a038a6769524a4a9fd9c9045f116ea00cb11aea23bc4e4828c/sbti_finance_tool-1.0.8.tar.gz
+[2023-05-12 12:42:35] INFO root fetch - processPackages [ciscoconfparse]: Downloading https://files.pythonhosted.org/packages/53/bb/93dc282cd4b441fb4a6185c14a301c58487d17bbbfbd8e25ded77439fac1/ciscoconfparse-1.7.9.tar.gz
+[2023-05-12 12:42:35] INFO root fetch - processPackages [Semicolonizer]: Downloading https://files.pythonhosted.org/packages/f9/b2/7c9a765f7dcfceb1cd1297a7d6c5ba0e7ad3600f8eeddae9e870056521db/Semicolonizer-1.2.tar.gz
+[2023-05-12 12:42:35] INFO root fetch - processPackages [areixio]: executing diffoscope
+[2023-05-12 12:42:35] INFO root fetch - processPackages [areixio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/areixio-0.2.8.tar.gz tmp/areixio-0.2.9.tar.gz --markdown 20230512/a/areixio/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-12 12:42:35] INFO root fetch - processPackages [npgbq]: Downloading https://files.pythonhosted.org/packages/f5/bd/62b479770cc4e08977d4172a5c293321ed064faab5c3473f3cc44d9962f3/npgbq-2.1.9.tar.gz
+[2023-05-12 12:42:35] INFO root fetch - processPackages [umbridge]: Downloading https://files.pythonhosted.org/packages/b2/12/37de4b3f71be73b49128abbaa600af9439bf183484ebe72ca751983c90d1/umbridge-1.2.2.tar.gz
+[2023-05-12 12:42:35] INFO root fetch - processPackages [csvcubed]: Downloading https://files.pythonhosted.org/packages/09/b8/8c6d75ab4457f70e86c9cb23fc7fa90ce99ef7316076612901485b1dc7f1/csvcubed-0.4.2-py3-none-any.whl
+[2023-05-12 12:42:35] INFO root fetch - processPackages [Semicolonizer]: executing diffoscope
+[2023-05-12 12:42:35] INFO root fetch - processPackages [Semicolonizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Semicolonizer-1.0.tar.gz tmp/Semicolonizer-1.2.tar.gz --markdown 20230512/S/Semicolonizer/1.0-1.2/diff.md --exclude *.pyd
+[2023-05-12 12:42:35] INFO root fetch - processPackages [quickmpc]: Downloading https://files.pythonhosted.org/packages/9b/91/06c153e81364d25b4f381d3ca1696eb6498e85ad984a4830302d4f907ff9/quickmpc-0.3.8.tar.gz
+[2023-05-12 12:42:35] INFO root fetch - processPackages [scalecodec]: Downloading https://files.pythonhosted.org/packages/ee/84/33ff58a5e4098590781acc76c2e84ebca009fb1d7131791bb4f925cfb80c/scalecodec-1.2.4.tar.gz
+[2023-05-12 12:42:35] INFO root fetch - processPackages [umbridge]: executing diffoscope
+[2023-05-12 12:42:35] INFO root fetch - processPackages [umbridge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/umbridge-1.2.1.tar.gz tmp/umbridge-1.2.2.tar.gz --markdown 20230512/u/umbridge/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-05-12 12:42:35] INFO root fetch - processPackages [npgbq]: executing diffoscope
+[2023-05-12 12:42:35] INFO root fetch - processPackages [npgbq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/npgbq-2.1.8.tar.gz tmp/npgbq-2.1.9.tar.gz --markdown 20230512/n/npgbq/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-05-12 12:42:35] INFO root fetch - processPackages [csvcubed]: executing diffoscope
+[2023-05-12 12:42:35] INFO root fetch - processPackages [csvcubed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csvcubed-0.4.1-py3-none-any.whl.zip tmp/csvcubed-0.4.2-py3-none-any.whl.zip --markdown 20230512/c/csvcubed/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-05-12 12:42:35] INFO root fetch - processPackages [ciscoconfparse]: executing diffoscope
+[2023-05-12 12:42:35] INFO root fetch - processPackages [ciscoconfparse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ciscoconfparse-1.7.8.tar.gz tmp/ciscoconfparse-1.7.9.tar.gz --markdown 20230512/c/ciscoconfparse/1.7.8-1.7.9/diff.md --exclude *.pyd
+[2023-05-12 12:42:35] INFO root fetch - processPackages [sbti-finance-tool]: executing diffoscope
+[2023-05-12 12:42:35] INFO root fetch - processPackages [sbti-finance-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbti_finance_tool-1.0.7-py3-none-any.whl.zip tmp/sbti_finance_tool-1.0.8.tar.gz --markdown 20230512/s/sbti-finance-tool/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-05-12 12:42:35] INFO root fetch - processPackages [quickmpc]: executing diffoscope
+[2023-05-12 12:42:35] INFO root fetch - processPackages [quickmpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickmpc-0.3.7.tar.gz tmp/quickmpc-0.3.8.tar.gz --markdown 20230512/q/quickmpc/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-05-12 12:42:36] INFO root fetch - processPackages [scalecodec]: executing diffoscope
+[2023-05-12 12:42:36] INFO root fetch - processPackages [scalecodec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scalecodec-1.2.3.tar.gz tmp/scalecodec-1.2.4.tar.gz --markdown 20230512/s/scalecodec/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-05-12 12:42:36] INFO root fetch - processPackages [jot-iris]: Downloading https://files.pythonhosted.org/packages/11/af/0b9c85187963e50b9e8f029b3f88fae8d8977c66323eae3161e10f2169ba/jot_iris-1.9.1-py3-none-any.whl
+[2023-05-12 12:42:37] INFO root fetch - main [MainThread]: End processing [Semicolonizer]: success
+[2023-05-12 12:42:37] INFO root fetch - main [MainThread]: End processing [npgbq]: success
+[2023-05-12 12:42:37] INFO root fetch - main [MainThread]: End processing [umbridge]: success
+[2023-05-12 12:42:37] INFO root fetch - main [MainThread]: End processing [ciscoconfparse]: success
+[2023-05-12 12:42:37] INFO root fetch - main [MainThread]: End processing [quickmpc]: success
+[2023-05-12 12:42:37] INFO root fetch - main [MainThread]: End processing [scalecodec]: success
+[2023-05-12 12:42:38] INFO root fetch - main [MainThread]: End processing [sbti-finance-tool]: success
+[2023-05-12 12:42:38] INFO root fetch - main [MainThread]: End processing [csvcubed]: success
+[2023-05-12 12:42:38] INFO root fetch - processPackages [jot-iris]: executing diffoscope
+[2023-05-12 12:42:38] INFO root fetch - processPackages [jot-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jot_iris-1.9.0-py3-none-any.whl.zip tmp/jot_iris-1.9.1-py3-none-any.whl.zip --markdown 20230512/j/jot-iris/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-05-12 12:42:40] INFO root fetch - main [MainThread]: End processing [jot-iris]: success
+[2023-05-12 12:42:46] INFO root fetch - main [MainThread]: End processing [areixio]: success
+[2023-05-12 12:42:46] INFO root fetch - main [MainThread]: Store serial: [18076754]
