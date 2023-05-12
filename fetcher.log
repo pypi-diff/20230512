@@ -10297,3 +10297,63 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-12 13:51:04] INFO root fetch - main [MainThread]: End processing [meshed]: success
 [2023-05-12 13:51:05] INFO root fetch - main [MainThread]: End processing [pythie-serving]: success
 [2023-05-12 13:51:05] INFO root fetch - main [MainThread]: Store serial: [18077484]
+[2023-05-12 13:56:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18077484]
+[2023-05-12 13:56:14] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-12 13:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CollabConnector
+[2023-05-12 13:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyHaier
+[2023-05-12 13:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dbt-ai
+[2023-05-12 13:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rmmbr
+[2023-05-12 13:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: synchronicity
+[2023-05-12 13:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: csv-embeddings-creator
+[2023-05-12 13:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: FunPayAPI
+[2023-05-12 13:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: venv-modulefile
+[2023-05-12 13:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ncls
+[2023-05-12 13:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: wikirate4py
+[2023-05-12 13:56:15] INFO root fetch - processPackages [synchronicity]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-05-12 13:56:15] INFO root fetch - processPackages [PyHaier]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-12 13:56:15] INFO root fetch - processPackages [dbt-ai]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-05-12 13:56:15] INFO root fetch - processPackages [csv-embeddings-creator]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-12 13:56:15] INFO root fetch - processPackages [FunPayAPI]: New version: [1.0.5] Old Version: [1.0.3]
+[2023-05-12 13:56:15] INFO root fetch - processPackages [wikirate4py]: New version: [1.1.8] Old Version: [1.1.6]
+[2023-05-12 13:56:15] INFO root fetch - processPackages [PyHaier]: executing diffoscope
+[2023-05-12 13:56:15] INFO root fetch - processPackages [PyHaier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyHaier-0.1.6.tar.gz tmp/PyHaier-0.1.7.tar.gz --markdown 20230512/P/PyHaier/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-12 13:56:15] INFO root fetch - processPackages [CollabConnector]: New version: [0.1.1683892264] Old Version: [0.1.1682611733]
+[2023-05-12 13:56:15] INFO root fetch - processPackages [venv-modulefile]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 13:56:15] INFO root fetch - processPackages [ncls]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 13:56:15] INFO root fetch - processPackages [rmmbr]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-12 13:56:15] INFO root fetch - processPackages [csv-embeddings-creator]: executing diffoscope
+[2023-05-12 13:56:15] INFO root fetch - processPackages [csv-embeddings-creator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csv_embeddings_creator-1.0.2-py3-none-any.whl.zip tmp/csv_embeddings_creator-1.0.3-py3-none-any.whl.zip --markdown 20230512/c/csv-embeddings-creator/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-12 13:56:15] INFO root fetch - processPackages [synchronicity]: executing diffoscope
+[2023-05-12 13:56:15] INFO root fetch - processPackages [synchronicity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synchronicity-0.5.0-py3-none-any.whl.zip tmp/synchronicity-0.5.1-py3-none-any.whl.zip --markdown 20230512/s/synchronicity/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-05-12 13:56:15] INFO root fetch - processPackages [dbt-ai]: executing diffoscope
+[2023-05-12 13:56:15] INFO root fetch - processPackages [dbt-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-ai-0.2.6.tar.gz tmp/dbt_ai-0.2.7-py3-none-any.whl.zip --markdown 20230512/d/dbt-ai/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-05-12 13:56:15] INFO root fetch - processPackages [FunPayAPI]: executing diffoscope
+[2023-05-12 13:56:15] INFO root fetch - processPackages [FunPayAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FunPayAPI-1.0.3.tar.gz tmp/FunPayAPI-1.0.5.tar.gz --markdown 20230512/F/FunPayAPI/1.0.3-1.0.5/diff.md --exclude *.pyd
+[2023-05-12 13:56:15] INFO root fetch - processPackages [wikirate4py]: Downloading https://files.pythonhosted.org/packages/91/ee/189fbbe01703818aee2da708f47f5f1f5265ba09d424b4c5ca0573667758/wikirate4py-1.1.6.tar.gz
+[2023-05-12 13:56:15] INFO root fetch - processPackages [CollabConnector]: Downloading https://files.pythonhosted.org/packages/b5/bc/c322eabcb5dbff1640ca89efab17ceee9384afef185aacc6483c11c32bfd/CollabConnector-0.1.1682611733.tar.gz
+[2023-05-12 13:56:15] INFO root fetch - processPackages [ncls]: Downloading https://files.pythonhosted.org/packages/7b/d0/51393c90de3d4b5b0245e721c927f7ca04ad23b94a093ad888e4fb72a663/ncls-0.0.8.tar.gz
+[2023-05-12 13:56:15] INFO root fetch - processPackages [rmmbr]: Downloading https://files.pythonhosted.org/packages/3a/39/64137c66ca15650b1e061916bad5fda3e0cf7b1bfef5e4ccc464d840489a/rmmbr-0.0.5.tar.gz
+[2023-05-12 13:56:15] INFO root fetch - processPackages [venv-modulefile]: executing diffoscope
+[2023-05-12 13:56:15] INFO root fetch - processPackages [venv-modulefile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/venv-modulefile-0.0.8.tar.gz tmp/venv-modulefile-0.0.9.tar.gz --markdown 20230512/v/venv-modulefile/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 13:56:15] INFO root fetch - processPackages [wikirate4py]: Downloading https://files.pythonhosted.org/packages/a8/9d/62a87b9db8b65e52a9c5c9c9ac722a6981d5fd488b22edd9c38e0180473d/wikirate4py-1.1.8.tar.gz
+[2023-05-12 13:56:15] INFO root fetch - processPackages [rmmbr]: executing diffoscope
+[2023-05-12 13:56:15] INFO root fetch - processPackages [rmmbr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rmmbr-0.0.4.tar.gz tmp/rmmbr-0.0.5.tar.gz --markdown 20230512/r/rmmbr/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-12 13:56:15] INFO root fetch - processPackages [wikirate4py]: executing diffoscope
+[2023-05-12 13:56:15] INFO root fetch - processPackages [wikirate4py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wikirate4py-1.1.6.tar.gz tmp/wikirate4py-1.1.8.tar.gz --markdown 20230512/w/wikirate4py/1.1.6-1.1.8/diff.md --exclude *.pyd
+[2023-05-12 13:56:15] INFO root fetch - processPackages [ncls]: Downloading https://files.pythonhosted.org/packages/19/7e/4f28b4e7e251f0aa70d87352cbb233facb0b27c52e730635c644ac63539e/ncls-0.0.9.tar.gz
+[2023-05-12 13:56:16] INFO root fetch - processPackages [ncls]: executing diffoscope
+[2023-05-12 13:56:16] INFO root fetch - processPackages [ncls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ncls-0.0.8.tar.gz tmp/ncls-0.0.9.tar.gz --markdown 20230512/n/ncls/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 13:56:16] INFO root fetch - processPackages [CollabConnector]: Downloading https://files.pythonhosted.org/packages/a9/1f/390ce8ce1531cbf386fb65c172db19921573477948e839f87d47e6d8e126/CollabConnector-0.1.1683892264.tar.gz
+[2023-05-12 13:56:16] INFO root fetch - main [MainThread]: End processing [csv-embeddings-creator]: success
+[2023-05-12 13:56:16] INFO root fetch - processPackages [CollabConnector]: executing diffoscope
+[2023-05-12 13:56:16] INFO root fetch - processPackages [CollabConnector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CollabConnector-0.1.1682611733.tar.gz tmp/CollabConnector-0.1.1683892264.tar.gz --markdown 20230512/C/CollabConnector/0.1.1682611733-0.1.1683892264/diff.md --exclude *.pyd
+[2023-05-12 13:56:16] INFO root fetch - main [MainThread]: End processing [dbt-ai]: success
+[2023-05-12 13:56:16] INFO root fetch - main [MainThread]: End processing [PyHaier]: success
+[2023-05-12 13:56:16] INFO root fetch - main [MainThread]: End processing [synchronicity]: success
+[2023-05-12 13:56:17] INFO root fetch - main [MainThread]: End processing [rmmbr]: success
+[2023-05-12 13:56:17] INFO root fetch - main [MainThread]: End processing [FunPayAPI]: success
+[2023-05-12 13:56:17] INFO root fetch - main [MainThread]: End processing [venv-modulefile]: success
+[2023-05-12 13:56:17] INFO root fetch - main [MainThread]: End processing [wikirate4py]: success
+[2023-05-12 13:56:17] INFO root fetch - main [MainThread]: End processing [ncls]: success
+[2023-05-12 13:56:48] INFO root fetch - main [MainThread]: End processing [CollabConnector]: success
+[2023-05-12 13:56:48] INFO root fetch - main [MainThread]: Store serial: [18077514]
