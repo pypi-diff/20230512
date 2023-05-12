@@ -1774,3 +1774,124 @@
 [2023-05-12 02:53:50] INFO root fetch - main [MainThread]: End processing [plugnplai]: success
 [2023-05-12 02:53:50] INFO root fetch - main [MainThread]: End processing [mattlib]: success
 [2023-05-12 02:53:50] INFO root fetch - main [MainThread]: Store serial: [18071609]
+[2023-05-12 02:58:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18071609]
+[2023-05-12 02:58:59] INFO root fetch - main [MainThread]: No changed packages found
+[2023-05-12 03:04:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18071609]
+[2023-05-12 03:09:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18071609]
+[2023-05-12 03:09:13] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-12 03:09:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: validmind
+[2023-05-12 03:09:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aemcmc-nightly
+[2023-05-12 03:09:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ink-extensions
+[2023-05-12 03:09:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eelbrain
+[2023-05-12 03:09:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-lambda-layer-curl
+[2023-05-12 03:09:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: capitalpayments
+[2023-05-12 03:09:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: structure-py
+[2023-05-12 03:09:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tencentcloud-sdk-python-bmeip
+[2023-05-12 03:09:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pydflow
+[2023-05-12 03:09:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdk8s-image
+[2023-05-12 03:09:13] INFO root fetch - processPackages [capitalpayments]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-05-12 03:09:13] INFO root fetch - processPackages [validmind]: New version: [1.8.0] Old Version: [1.7.0]
+[2023-05-12 03:09:13] INFO root fetch - processPackages [ink-extensions]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-05-12 03:09:13] INFO root fetch - processPackages [structure-py]: New version: [0.8.4] Old Version: [0.8.3]
+[2023-05-12 03:09:13] INFO root fetch - processPackages [eelbrain]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-12 03:09:13] INFO root fetch - processPackages [pydflow]: New version: [1.6.99] Old Version: [1.6.98]
+[2023-05-12 03:09:13] INFO root fetch - processPackages [cdk8s-image]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-05-12 03:09:13] INFO root fetch - processPackages [tencentcloud-sdk-python-bmeip]: New version: [3.0.890] Old Version: [3.0.889]
+[2023-05-12 03:09:13] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-12 03:09:13] INFO root fetch - processPackages [aemcmc-nightly]: New version: [0.0.8.dev20230512] Old Version: [0.0.8.dev20230511]
+[2023-05-12 03:09:13] INFO root fetch - processPackages [capitalpayments]: Downloading https://files.pythonhosted.org/packages/a3/92/5660e47d4bd324282ccc7935ec0548511bdc631ace739400eed84250f686/capitalpayments-0.0.7.tar.gz
+[2023-05-12 03:09:13] INFO root fetch - processPackages [eelbrain]: Downloading https://files.pythonhosted.org/packages/55/65/12c49ce124a960c72e73427d8a698dd75a8dd2ccbcf0a532f36a65c993e0/eelbrain-0.9.1.tar.gz
+[2023-05-12 03:09:13] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/c6/42/d4b1986a307020d3007742d6f25422e7aebd391ade1cb451d28a4865e7d2/pydflow-1.6.98.tar.gz
+[2023-05-12 03:09:13] INFO root fetch - processPackages [validmind]: Downloading https://files.pythonhosted.org/packages/08/68/9076048b48d65cd8f6dec6d48e907cfd0284718ae44f089a1b12df76bfb0/validmind-1.8.0-py3-none-any.whl
+[2023-05-12 03:09:13] INFO root fetch - processPackages [structure-py]: Downloading https://files.pythonhosted.org/packages/ab/54/301df64e96dfc4a5c71842f38f38cbb5c9b1f036bedfb8ce5c29f3c78523/structure_py-0.8.4-py3-none-any.whl
+[2023-05-12 03:09:13] INFO root fetch - processPackages [ink-extensions]: Downloading https://files.pythonhosted.org/packages/b4/b5/83aa63500e784f5f002b48bf46a1280de340c1332ebb4255ac47a3fb78ee/ink_extensions-1.3.1-py3-none-any.whl
+[2023-05-12 03:09:13] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/be/05/d90a6190c71e87b92cdbfa93665fffda6499b59c78d36f626faa246ec5d1/aemcmc-nightly-0.0.8.dev20230512.tar.gz
+[2023-05-12 03:09:13] INFO root fetch - processPackages [tencentcloud-sdk-python-bmeip]: Downloading https://files.pythonhosted.org/packages/16/74/db78d3e267de95fd25017a5a98f6798679aba4b746f5704bea6ea7f9137e/tencentcloud_sdk_python_bmeip-3.0.890-py2.py3-none-any.whl
+[2023-05-12 03:09:13] INFO root fetch - processPackages [cdk8s-image]: executing diffoscope
+[2023-05-12 03:09:13] INFO root fetch - processPackages [cdk8s-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-image-0.2.98.tar.gz tmp/cdk8s-image-0.2.99.tar.gz --markdown 20230512/c/cdk8s-image/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-05-12 03:09:13] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-05-12 03:09:13] INFO root fetch - processPackages [capitalpayments]: Downloading https://files.pythonhosted.org/packages/d2/90/258861afd586f0f8f243342e8f2c74396972b147e5a44945fd551aedef4f/capitalpayments-0.0.9.tar.gz
+[2023-05-12 03:09:13] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230512/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-12 03:09:13] INFO root fetch - processPackages [structure-py]: executing diffoscope
+[2023-05-12 03:09:13] INFO root fetch - processPackages [structure-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/structure_py-0.8.3.tar.gz tmp/structure_py-0.8.4-py3-none-any.whl.zip --markdown 20230512/s/structure-py/0.8.3-0.8.4/diff.md --exclude *.pyd
+[2023-05-12 03:09:13] INFO root fetch - processPackages [ink-extensions]: executing diffoscope
+[2023-05-12 03:09:13] INFO root fetch - processPackages [ink-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ink_extensions-1.3.0.tar.gz tmp/ink_extensions-1.3.1-py3-none-any.whl.zip --markdown 20230512/i/ink-extensions/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-05-12 03:09:13] INFO root fetch - processPackages [capitalpayments]: executing diffoscope
+[2023-05-12 03:09:13] INFO root fetch - processPackages [capitalpayments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capitalpayments-0.0.7.tar.gz tmp/capitalpayments-0.0.9.tar.gz --markdown 20230512/c/capitalpayments/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 03:09:13] INFO root fetch - processPackages [aemcmc-nightly]: executing diffoscope
+[2023-05-12 03:09:13] INFO root fetch - processPackages [aemcmc-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aemcmc-nightly-0.0.8.dev20230511.tar.gz tmp/aemcmc-nightly-0.0.8.dev20230512.tar.gz --markdown 20230512/a/aemcmc-nightly/0.0.8.dev20230511-0.0.8.dev20230512/diff.md --exclude *.pyd
+[2023-05-12 03:09:13] INFO root fetch - processPackages [tencentcloud-sdk-python-bmeip]: executing diffoscope
+[2023-05-12 03:09:13] INFO root fetch - processPackages [tencentcloud-sdk-python-bmeip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-bmeip-3.0.889.tar.gz tmp/tencentcloud_sdk_python_bmeip-3.0.890-py2.py3-none-any.whl.zip --markdown 20230512/t/tencentcloud-sdk-python-bmeip/3.0.889-3.0.890/diff.md --exclude *.pyd
+[2023-05-12 03:09:14] INFO root fetch - processPackages [validmind]: executing diffoscope
+[2023-05-12 03:09:14] INFO root fetch - processPackages [validmind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/validmind-1.7.0.tar.gz tmp/validmind-1.8.0-py3-none-any.whl.zip --markdown 20230512/v/validmind/1.7.0-1.8.0/diff.md --exclude *.pyd
+[2023-05-12 03:09:14] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/86/ec/1d1f51e2ef9a626c2621695ed39210c378d699e371457fcd1efe70b1c890/pydflow-1.6.99.tar.gz
+[2023-05-12 03:09:14] INFO root fetch - processPackages [pydflow]: executing diffoscope
+[2023-05-12 03:09:14] INFO root fetch - processPackages [pydflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydflow-1.6.98.tar.gz tmp/pydflow-1.6.99.tar.gz --markdown 20230512/p/pydflow/1.6.98-1.6.99/diff.md --exclude *.pyd
+[2023-05-12 03:09:14] INFO root fetch - processPackages [eelbrain]: Downloading https://files.pythonhosted.org/packages/6d/d3/01980a2901902f09514f26ccbaf7bb6810ba90dbead89fc1b03125ce66f2/eelbrain-0.9.2.tar.gz
+[2023-05-12 03:09:14] INFO root fetch - processPackages [eelbrain]: executing diffoscope
+[2023-05-12 03:09:14] INFO root fetch - processPackages [eelbrain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eelbrain-0.9.1.tar.gz tmp/eelbrain-0.9.2.tar.gz --markdown 20230512/e/eelbrain/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-12 03:09:15] INFO root fetch - processPackages [cdk8s-image]: Start processing: atsphinx-og-article
+[2023-05-12 03:09:15] INFO root fetch - main [MainThread]: End processing [cdk8s-image]: success
+[2023-05-12 03:09:15] INFO root fetch - processPackages [atsphinx-og-article]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-05-12 03:09:15] INFO root fetch - processPackages [atsphinx-og-article]: Downloading https://files.pythonhosted.org/packages/db/02/460e0f4a7166746fbd54f255c08ab06dcaf6e8ec42080993f6fbf132f456/atsphinx-og-article-0.2.0.tar.gz
+[2023-05-12 03:09:15] INFO root fetch - processPackages [ink-extensions]: Start processing: ykenan-file
+[2023-05-12 03:09:15] INFO root fetch - main [MainThread]: End processing [ink-extensions]: success
+[2023-05-12 03:09:15] INFO root fetch - processPackages [ykenan-file]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-12 03:09:15] INFO root fetch - processPackages [tencentcloud-sdk-python-bmeip]: Start processing: tastytrade-sdk
+[2023-05-12 03:09:15] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-bmeip]: success
+[2023-05-12 03:09:15] INFO root fetch - processPackages [capitalpayments]: Start processing: tencentcloud-sdk-python-casb
+[2023-05-12 03:09:15] INFO root fetch - main [MainThread]: End processing [capitalpayments]: success
+[2023-05-12 03:09:15] INFO root fetch - processPackages [atsphinx-og-article]: executing diffoscope
+[2023-05-12 03:09:15] INFO root fetch - processPackages [atsphinx-og-article]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atsphinx-og-article-0.1.1.tar.gz tmp/atsphinx-og-article-0.2.0.tar.gz --markdown 20230512/a/atsphinx-og-article/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-05-12 03:09:15] INFO root fetch - processPackages [tastytrade-sdk]: New version: [0.0.dev1] Old Version: [0.0.4a0.dev79]
+[2023-05-12 03:09:15] INFO root fetch - processPackages [tencentcloud-sdk-python-casb]: New version: [3.0.890] Old Version: [3.0.889]
+[2023-05-12 03:09:15] INFO root fetch - processPackages [tastytrade-sdk]: executing diffoscope
+[2023-05-12 03:09:15] INFO root fetch - processPackages [tastytrade-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tastytrade_sdk-0.0.4a0.dev79.tar.gz tmp/tastytrade-sdk-0.0.dev1.tar.gz --markdown 20230512/t/tastytrade-sdk/0.0.4a0.dev79-0.0.dev1/diff.md --exclude *.pyd
+[2023-05-12 03:09:15] INFO root fetch - processPackages [ykenan-file]: Downloading https://files.pythonhosted.org/packages/1d/57/7b32998aa8ed1fb22087b75ff30a39531895153c2cda21aa6eccc4c3e007/ykenan_file-0.1.9.tar.gz
+[2023-05-12 03:09:16] INFO root fetch - processPackages [ykenan-file]: executing diffoscope
+[2023-05-12 03:09:16] INFO root fetch - processPackages [ykenan-file]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ykenan_file-0.1.8.tar.gz tmp/ykenan_file-0.1.9.tar.gz --markdown 20230512/y/ykenan-file/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-12 03:09:16] INFO root fetch - processPackages [tencentcloud-sdk-python-casb]: Downloading https://files.pythonhosted.org/packages/ef/88/e130b025549c700f56acf82d8142c9ebd9844d25a4e35fcee0d6b9f344dd/tencentcloud-sdk-python-casb-3.0.890.tar.gz
+[2023-05-12 03:09:16] INFO root fetch - processPackages [structure-py]: Start processing: tencentcloud-sdk-python-cat
+[2023-05-12 03:09:16] INFO root fetch - main [MainThread]: End processing [structure-py]: success
+[2023-05-12 03:09:16] INFO root fetch - processPackages [tencentcloud-sdk-python-cat]: New version: [3.0.890] Old Version: [3.0.889]
+[2023-05-12 03:09:16] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Start processing: edynamics
+[2023-05-12 03:09:16] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-05-12 03:09:16] INFO root fetch - processPackages [edynamics]: New version: [0.3.9] Old Version: [0.3.10]
+[2023-05-12 03:09:16] INFO root fetch - processPackages [tencentcloud-sdk-python-casb]: executing diffoscope
+[2023-05-12 03:09:16] INFO root fetch - processPackages [tencentcloud-sdk-python-casb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-casb-3.0.889.tar.gz tmp/tencentcloud-sdk-python-casb-3.0.890.tar.gz --markdown 20230512/t/tencentcloud-sdk-python-casb/3.0.889-3.0.890/diff.md --exclude *.pyd
+[2023-05-12 03:09:16] INFO root fetch - processPackages [edynamics]: Downloading https://files.pythonhosted.org/packages/61/d3/89b3c627e6896662727267f0fb02a40526087cf0468e37fca3178be32ce9/edynamics-0.3.10-py3-none-any.whl
+[2023-05-12 03:09:16] INFO root fetch - processPackages [tencentcloud-sdk-python-cat]: Downloading https://files.pythonhosted.org/packages/b5/c2/d49f51878963c40d3acbc2f723627b1753231cccc73f91235dc9633bc5dd/tencentcloud-sdk-python-cat-3.0.890.tar.gz
+[2023-05-12 03:09:16] INFO root fetch - processPackages [aemcmc-nightly]: Start processing: tencentcloud-sdk-python-cbs
+[2023-05-12 03:09:16] INFO root fetch - main [MainThread]: End processing [aemcmc-nightly]: success
+[2023-05-12 03:09:16] INFO root fetch - processPackages [tencentcloud-sdk-python-cbs]: New version: [3.0.890] Old Version: [3.0.889]
+[2023-05-12 03:09:16] INFO root fetch - processPackages [tencentcloud-sdk-python-cat]: executing diffoscope
+[2023-05-12 03:09:16] INFO root fetch - processPackages [tencentcloud-sdk-python-cat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-cat-3.0.889.tar.gz tmp/tencentcloud-sdk-python-cat-3.0.890.tar.gz --markdown 20230512/t/tencentcloud-sdk-python-cat/3.0.889-3.0.890/diff.md --exclude *.pyd
+[2023-05-12 03:09:16] INFO root fetch - processPackages [tencentcloud-sdk-python-cbs]: Downloading https://files.pythonhosted.org/packages/19/62/b9f909a64cac4cb5736790cc65d4852299c0016d8c9961b3d82ce2c78f1b/tencentcloud-sdk-python-cbs-3.0.890.tar.gz
+[2023-05-12 03:09:16] INFO root fetch - processPackages [edynamics]: Downloading https://files.pythonhosted.org/packages/b2/d2/a3bf819aa4210ad3ea2000d3e24660a853437dc01ca85d13ae191ee7715d/edynamics-0.3.9.tar.gz
+[2023-05-12 03:09:16] INFO root fetch - processPackages [tencentcloud-sdk-python-cbs]: executing diffoscope
+[2023-05-12 03:09:16] INFO root fetch - processPackages [tencentcloud-sdk-python-cbs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-cbs-3.0.889.tar.gz tmp/tencentcloud-sdk-python-cbs-3.0.890.tar.gz --markdown 20230512/t/tencentcloud-sdk-python-cbs/3.0.889-3.0.890/diff.md --exclude *.pyd
+[2023-05-12 03:09:16] INFO root fetch - processPackages [edynamics]: executing diffoscope
+[2023-05-12 03:09:16] INFO root fetch - processPackages [edynamics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edynamics-0.3.10-py3-none-any.whl.zip tmp/edynamics-0.3.9.tar.gz --markdown 20230512/e/edynamics/0.3.10-0.3.9/diff.md --exclude *.pyd
+[2023-05-12 03:09:17] INFO root fetch - processPackages [atsphinx-og-article]: Start processing: certora-cli-alpha-benkushigian-gambit-refactor
+[2023-05-12 03:09:17] INFO root fetch - main [MainThread]: End processing [atsphinx-og-article]: success
+[2023-05-12 03:09:17] INFO root fetch - processPackages [certora-cli-alpha-benkushigian-gambit-refactor]: New version: [20230512.1.6.236299] Old Version: [20230511.20.27.652285]
+[2023-05-12 03:09:17] INFO root fetch - processPackages [tastytrade-sdk]: Start processing: boto-session-manager
+[2023-05-12 03:09:17] INFO root fetch - main [MainThread]: End processing [tastytrade-sdk]: success
+[2023-05-12 03:09:17] INFO root fetch - processPackages [certora-cli-alpha-benkushigian-gambit-refactor]: Downloading https://files.pythonhosted.org/packages/53/8d/c5150840e2fe00eb674f48d4e93283f0e14d02c33caebdfb7bb8c15e5ad8/certora-cli-alpha-benkushigian-gambit-refactor-20230511.20.27.652285.tar.gz
+[2023-05-12 03:09:17] WARNING root fetch - processPackages [certora-cli-alpha-benkushigian-gambit-refactor]: Skipping package: exceeds size limit 39443212>=10485760
+[2023-05-12 03:09:17] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-benkushigian-gambit-refactor] error
+[2023-05-12 03:09:17] INFO root fetch - processPackages [boto-session-manager]: New version: [1.5.1] Old Version: [1.4.3]
+[2023-05-12 03:09:17] INFO root fetch - main [MainThread]: End processing [ykenan-file]: success
+[2023-05-12 03:09:17] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-casb]: success
+[2023-05-12 03:09:17] INFO root fetch - processPackages [boto-session-manager]: Downloading https://files.pythonhosted.org/packages/f6/0b/54fc6a1390c3b1b640c30e4439e87aeba96c41ae52624f78c93be604bd8d/boto_session_manager-1.4.3.tar.gz
+[2023-05-12 03:09:17] INFO root fetch - main [MainThread]: End processing [pydflow]: success
+[2023-05-12 03:09:18] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-cat]: success
+[2023-05-12 03:09:18] INFO root fetch - processPackages [boto-session-manager]: Downloading https://files.pythonhosted.org/packages/e4/e3/db00d4f11e18383803035d6fe3d9c3850f99ffbae9c19413d30385f8852b/boto_session_manager-1.5.1.tar.gz
+[2023-05-12 03:09:18] INFO root fetch - main [MainThread]: End processing [edynamics]: success
+[2023-05-12 03:09:18] INFO root fetch - processPackages [boto-session-manager]: executing diffoscope
+[2023-05-12 03:09:18] INFO root fetch - processPackages [boto-session-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boto_session_manager-1.4.3.tar.gz tmp/boto_session_manager-1.5.1.tar.gz --markdown 20230512/b/boto-session-manager/1.4.3-1.5.1/diff.md --exclude *.pyd
+[2023-05-12 03:09:18] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-cbs]: success
+[2023-05-12 03:09:18] INFO root fetch - main [MainThread]: End processing [validmind]: success
+[2023-05-12 03:09:19] INFO root fetch - main [MainThread]: End processing [boto-session-manager]: success
+[2023-05-12 03:09:19] INFO root fetch - main [MainThread]: End processing [eelbrain]: success
+[2023-05-12 03:09:19] INFO root fetch - main [MainThread]: Store serial: [18071723]
