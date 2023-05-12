@@ -4220,3 +4220,38 @@
 [2023-05-12 06:21:46] INFO root fetch - main [MainThread]: End processing [spatial-summarize-within]: success
 [2023-05-12 06:21:46] INFO root fetch - main [MainThread]: End processing [dt-authentication-ente]: success
 [2023-05-12 06:21:46] INFO root fetch - main [MainThread]: Store serial: [18073227]
+[2023-05-12 06:26:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18073227]
+[2023-05-12 06:26:55] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-12 06:26:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addons-oca-event
+[2023-05-12 06:26:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: logpyle
+[2023-05-12 06:26:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: intecomm-rando
+[2023-05-12 06:26:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Dev-Helper-CLI
+[2023-05-12 06:26:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ripandtear
+[2023-05-12 06:26:55] INFO root fetch - processPackages [ripandtear]: New version: [0.9.9] Old Version: [0.9.7]
+[2023-05-12 06:26:55] INFO root fetch - processPackages [intecomm-rando]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-12 06:26:55] INFO root fetch - processPackages [odoo14-addons-oca-event]: New version: [14.0.20230511.0] Old Version: [14.0.20221007.0]
+[2023-05-12 06:26:55] INFO root fetch - processPackages [Dev-Helper-CLI]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-12 06:26:55] INFO root fetch - processPackages [logpyle]: New version: [2023.2.2] Old Version: [2023.2.1]
+[2023-05-12 06:26:55] INFO root fetch - processPackages [intecomm-rando]: Downloading https://files.pythonhosted.org/packages/a1/07/7b0b3f04b2a1ab313632e55faa886eb4f5160042d623002218358eb5da69/intecomm-rando-0.1.7.tar.gz
+[2023-05-12 06:26:55] INFO root fetch - processPackages [odoo14-addons-oca-event]: Downloading https://files.pythonhosted.org/packages/cc/84/01bf18a2b37893a9a71e804bae1803746c91aaa5dc7fc22e5e9c1f7ee3c8/odoo14_addons_oca_event-14.0.20221007.0-py3-none-any.whl
+[2023-05-12 06:26:55] INFO root fetch - processPackages [logpyle]: Downloading https://files.pythonhosted.org/packages/da/3e/8a5bd3d0d5202dc3a5f15fc9c2c70a5d607754f3e199a720e823fe925dfb/logpyle-2023.2.1.tar.gz
+[2023-05-12 06:26:55] INFO root fetch - processPackages [Dev-Helper-CLI]: Downloading https://files.pythonhosted.org/packages/2b/41/621eb5daded056bff961afbf56b3d8ef556453689b9d49821d292e5beb1e/Dev-Helper-CLI-0.0.4.tar.gz
+[2023-05-12 06:26:55] INFO root fetch - processPackages [Dev-Helper-CLI]: executing diffoscope
+[2023-05-12 06:26:55] INFO root fetch - processPackages [Dev-Helper-CLI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Dev-Helper-CLI-0.0.3.tar.gz tmp/Dev-Helper-CLI-0.0.4.tar.gz --markdown 20230512/D/Dev-Helper-CLI/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-12 06:26:55] INFO root fetch - processPackages [intecomm-rando]: Downloading https://files.pythonhosted.org/packages/c1/8c/e75803f118b1ef4665d68abda316a5d10344a6877ba8f82cfc9b888022de/intecomm-rando-0.1.8.tar.gz
+[2023-05-12 06:26:55] INFO root fetch - processPackages [intecomm-rando]: executing diffoscope
+[2023-05-12 06:26:55] INFO root fetch - processPackages [intecomm-rando]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intecomm-rando-0.1.7.tar.gz tmp/intecomm-rando-0.1.8.tar.gz --markdown 20230512/i/intecomm-rando/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-12 06:26:56] INFO root fetch - processPackages [ripandtear]: executing diffoscope
+[2023-05-12 06:26:56] INFO root fetch - processPackages [ripandtear]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ripandtear-0.9.7.tar.gz tmp/ripandtear-0.9.9.tar.gz --markdown 20230512/r/ripandtear/0.9.7-0.9.9/diff.md --exclude *.pyd
+[2023-05-12 06:26:56] INFO root fetch - processPackages [odoo14-addons-oca-event]: Downloading https://files.pythonhosted.org/packages/ee/81/d43990b8d83d5d3d9a4568997840835bd379e3dad84df23c1503a8710014/odoo14_addons_oca_event-14.0.20230511.0-py3-none-any.whl
+[2023-05-12 06:26:56] INFO root fetch - processPackages [logpyle]: Downloading https://files.pythonhosted.org/packages/b8/87/cc4cec5c375bbaf867c785c61e75067a0dcb631d2f7705379d2ac3e01c0d/logpyle-2023.2.2.tar.gz
+[2023-05-12 06:26:56] INFO root fetch - processPackages [logpyle]: executing diffoscope
+[2023-05-12 06:26:56] INFO root fetch - processPackages [logpyle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logpyle-2023.2.1.tar.gz tmp/logpyle-2023.2.2.tar.gz --markdown 20230512/l/logpyle/2023.2.1-2023.2.2/diff.md --exclude *.pyd
+[2023-05-12 06:26:56] INFO root fetch - processPackages [odoo14-addons-oca-event]: executing diffoscope
+[2023-05-12 06:26:56] INFO root fetch - processPackages [odoo14-addons-oca-event]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_event-14.0.20221007.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_event-14.0.20230511.0-py3-none-any.whl.zip --markdown 20230512/o/odoo14-addons-oca-event/14.0.20221007.0-14.0.20230511.0/diff.md --exclude *.pyd
+[2023-05-12 06:26:56] INFO root fetch - main [MainThread]: End processing [Dev-Helper-CLI]: success
+[2023-05-12 06:26:57] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-event]: success
+[2023-05-12 06:26:57] INFO root fetch - main [MainThread]: End processing [logpyle]: success
+[2023-05-12 06:26:57] INFO root fetch - main [MainThread]: End processing [ripandtear]: success
+[2023-05-12 06:26:57] INFO root fetch - main [MainThread]: End processing [intecomm-rando]: success
+[2023-05-12 06:26:57] INFO root fetch - main [MainThread]: Store serial: [18073243]
