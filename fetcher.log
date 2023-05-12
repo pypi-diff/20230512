@@ -4892,3 +4892,43 @@
 [2023-05-12 07:45:42] INFO root fetch - processPackages [DbtPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DbtPy-3.0.5.4.tar.gz tmp/DbtPy-3.0.5.5.tar.gz --markdown 20230512/D/DbtPy/3.0.5.4-3.0.5.5/diff.md --exclude *.pyd
 [2023-05-12 07:45:44] INFO root fetch - main [MainThread]: End processing [DbtPy]: success
 [2023-05-12 07:45:44] INFO root fetch - main [MainThread]: Store serial: [18073691]
+[2023-05-12 07:50:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18073691]
+[2023-05-12 07:50:53] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-12 07:50:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aio-scrapy
+[2023-05-12 07:50:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mrq-custom
+[2023-05-12 07:50:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: date-operations
+[2023-05-12 07:50:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: prospector
+[2023-05-12 07:50:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: justa
+[2023-05-12 07:50:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: azure-synapse-artifacts
+[2023-05-12 07:50:53] INFO root fetch - processPackages [prospector]: New version: [1.9.0] Old Version: [1.8.4]
+[2023-05-12 07:50:53] INFO root fetch - processPackages [mrq-custom]: New version: [0.9.33] Old Version: [0.9.32]
+[2023-05-12 07:50:53] INFO root fetch - processPackages [aio-scrapy]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-12 07:50:53] INFO root fetch - processPackages [justa]: New version: [0.0.1.dev2] Old Version: [0.0.1.dev1]
+[2023-05-12 07:50:53] WARNING root fetch - processPackages [date-operations]: Skipping, unable to determine old version
+[2023-05-12 07:50:53] INFO root fetch - processPackages [azure-synapse-artifacts]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-12 07:50:53] INFO root fetch - main [MainThread]: End processing [date-operations] error
+[2023-05-12 07:50:53] INFO root fetch - processPackages [justa]: Downloading https://files.pythonhosted.org/packages/a6/29/e84cab58ace891659f43d2fc6d64b6813c18858102c44b71d497290f997b/justa-0.0.1.dev1.tar.gz
+[2023-05-12 07:50:53] INFO root fetch - processPackages [aio-scrapy]: Downloading https://files.pythonhosted.org/packages/52/bf/09f168e2362df52af67ed6289b6e8989355762bed8a86185929906352dd3/aio-scrapy-1.2.8.tar.gz
+[2023-05-12 07:50:53] INFO root fetch - processPackages [azure-synapse-artifacts]: Downloading https://files.pythonhosted.org/packages/c2/e3/f56c3e76d9a0e2323871db73f31c7b9e2941f267a01bf18611bf9502ae5d/azure-synapse-artifacts-0.8.0.zip
+[2023-05-12 07:50:53] INFO root fetch - processPackages [prospector]: Downloading https://files.pythonhosted.org/packages/34/3c/24b0d8148c8f640726c94f40bc6fd424c7dc65b5a2cceac871a4e0cbe98b/prospector-1.8.4.tar.gz
+[2023-05-12 07:50:53] INFO root fetch - processPackages [mrq-custom]: Downloading https://files.pythonhosted.org/packages/c2/98/59b7945aee1877d9ef75286a38ff96a5585aea1cf393b252de5d8decf74e/mrq-custom-0.9.33.tar.gz
+[2023-05-12 07:50:53] INFO root fetch - processPackages [justa]: Downloading https://files.pythonhosted.org/packages/35/6e/5f062cc6aac4a49ea0eeef6b2fd66c3eaeb9b81a5ada454d2839c8bc6c21/justa-0.0.1.dev2-py3-none-any.whl
+[2023-05-12 07:50:53] INFO root fetch - processPackages [aio-scrapy]: Downloading https://files.pythonhosted.org/packages/7c/81/de9911cc702a731ca15d9f410bbf6742e01072bfd3638618a2f7b070ea29/aio-scrapy-1.2.9.tar.gz
+[2023-05-12 07:50:53] INFO root fetch - processPackages [prospector]: Downloading https://files.pythonhosted.org/packages/0f/a0/d6f8097e226f2fbd21bb7683ca378fb8153a16d377e5e8b10d0c9ad6e2ba/prospector-1.9.0.tar.gz
+[2023-05-12 07:50:53] INFO root fetch - processPackages [mrq-custom]: executing diffoscope
+[2023-05-12 07:50:53] INFO root fetch - processPackages [mrq-custom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrq-custom-0.9.32.tar.gz tmp/mrq-custom-0.9.33.tar.gz --markdown 20230512/m/mrq-custom/0.9.32-0.9.33/diff.md --exclude *.pyd
+[2023-05-12 07:50:54] INFO root fetch - processPackages [justa]: executing diffoscope
+[2023-05-12 07:50:54] INFO root fetch - processPackages [justa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/justa-0.0.1.dev1.tar.gz tmp/justa-0.0.1.dev2-py3-none-any.whl.zip --markdown 20230512/j/justa/0.0.1.dev1-0.0.1.dev2/diff.md --exclude *.pyd
+[2023-05-12 07:50:54] INFO root fetch - processPackages [azure-synapse-artifacts]: Downloading https://files.pythonhosted.org/packages/51/9e/35be326a45d47e91df64e296fe462ffaa4710aa845855ba0afcb9982ee39/azure-synapse-artifacts-0.9.0.zip
+[2023-05-12 07:50:54] INFO root fetch - processPackages [prospector]: executing diffoscope
+[2023-05-12 07:50:54] INFO root fetch - processPackages [prospector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prospector-1.8.4.tar.gz tmp/prospector-1.9.0.tar.gz --markdown 20230512/p/prospector/1.8.4-1.9.0/diff.md --exclude *.pyd
+[2023-05-12 07:50:54] INFO root fetch - processPackages [aio-scrapy]: executing diffoscope
+[2023-05-12 07:50:54] INFO root fetch - processPackages [aio-scrapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aio-scrapy-1.2.8.tar.gz tmp/aio-scrapy-1.2.9.tar.gz --markdown 20230512/a/aio-scrapy/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-12 07:50:54] INFO root fetch - processPackages [azure-synapse-artifacts]: executing diffoscope
+[2023-05-12 07:50:54] INFO root fetch - processPackages [azure-synapse-artifacts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-synapse-artifacts-0.8.0.zip tmp/azure-synapse-artifacts-0.9.0.zip --markdown 20230512/a/azure-synapse-artifacts/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-12 07:50:55] INFO root fetch - main [MainThread]: End processing [justa]: success
+[2023-05-12 07:50:55] INFO root fetch - main [MainThread]: End processing [prospector]: success
+[2023-05-12 07:50:55] INFO root fetch - main [MainThread]: End processing [aio-scrapy]: success
+[2023-05-12 07:50:59] INFO root fetch - main [MainThread]: End processing [azure-synapse-artifacts]: success
+[2023-05-12 07:51:28] INFO root fetch - main [MainThread]: End processing [mrq-custom]: success
+[2023-05-12 07:51:28] INFO root fetch - main [MainThread]: Store serial: [18073737]
