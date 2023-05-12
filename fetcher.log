@@ -4504,3 +4504,32 @@
 [2023-05-12 06:58:22] INFO root fetch - main [MainThread]: End processing [edc]: success
 [2023-05-12 06:58:23] INFO root fetch - main [MainThread]: End processing [moku]: success
 [2023-05-12 06:58:23] INFO root fetch - main [MainThread]: Store serial: [18073424]
+[2023-05-12 07:03:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18073424]
+[2023-05-12 07:03:31] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-12 07:03:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: intecomm-edc
+[2023-05-12 07:03:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-upbit-api
+[2023-05-12 07:03:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gscan
+[2023-05-12 07:03:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: peaqevcore
+[2023-05-12 07:03:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fastdup
+[2023-05-12 07:03:31] INFO root fetch - processPackages [python-upbit-api]: New version: [1.0.1] Old Version: [1.0.0a2]
+[2023-05-12 07:03:31] INFO root fetch - processPackages [intecomm-edc]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-12 07:03:31] INFO root fetch - processPackages [gscan]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-12 07:03:31] INFO root fetch - processPackages [peaqevcore]: New version: [9.2.3] Old Version: [9.2.2]
+[2023-05-12 07:03:31] INFO root fetch - processPackages [fastdup]: New version: [0.929] Old Version: [0.928]
+[2023-05-12 07:03:31] INFO root fetch - processPackages [gscan]: Downloading https://files.pythonhosted.org/packages/bc/e9/3ef4301c7a84c10823233d42fa2cb95d3aea0e3ed385987d1964d859d078/gscan-0.2.1.tar.gz
+[2023-05-12 07:03:31] WARNING root fetch - processPackages [gscan]: Skipping package: exceeds size limit 32025814>=10485760
+[2023-05-12 07:03:31] INFO root fetch - main [MainThread]: End processing [gscan] error
+[2023-05-12 07:03:31] INFO root fetch - processPackages [python-upbit-api]: Downloading https://files.pythonhosted.org/packages/53/64/d6360247cb97bbef24b30a28e9dfe5ed5b0985b8a01d7e5a48d5735afab2/python-upbit-api-1.0.1.tar.gz
+[2023-05-12 07:03:31] INFO root fetch - processPackages [fastdup]: Downloading https://files.pythonhosted.org/packages/81/f5/4b1f0bf030a4ab6fa9128f8abc0f51b023ba83eec4e9de4772a1074c3401/fastdup-0.928-cp39-cp39-manylinux_2_31_x86_64.whl
+[2023-05-12 07:03:31] WARNING root fetch - processPackages [fastdup]: Skipping package: exceeds size limit 75111861>=10485760
+[2023-05-12 07:03:31] INFO root fetch - main [MainThread]: End processing [fastdup] error
+[2023-05-12 07:03:32] INFO root fetch - processPackages [python-upbit-api]: executing diffoscope
+[2023-05-12 07:03:32] INFO root fetch - processPackages [python-upbit-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-upbit-api-1.0.0a2.tar.gz tmp/python-upbit-api-1.0.1.tar.gz --markdown 20230512/p/python-upbit-api/1.0.0a2-1.0.1/diff.md --exclude *.pyd
+[2023-05-12 07:03:32] INFO root fetch - processPackages [intecomm-edc]: executing diffoscope
+[2023-05-12 07:03:32] INFO root fetch - processPackages [intecomm-edc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intecomm-edc-0.1.8.tar.gz tmp/intecomm-edc-0.1.9.tar.gz --markdown 20230512/i/intecomm-edc/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-12 07:03:32] INFO root fetch - processPackages [peaqevcore]: executing diffoscope
+[2023-05-12 07:03:32] INFO root fetch - processPackages [peaqevcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peaqevcore-9.2.2.tar.gz tmp/peaqevcore-9.2.3.tar.gz --markdown 20230512/p/peaqevcore/9.2.2-9.2.3/diff.md --exclude *.pyd
+[2023-05-12 07:03:33] INFO root fetch - main [MainThread]: End processing [python-upbit-api]: success
+[2023-05-12 07:03:33] INFO root fetch - main [MainThread]: End processing [peaqevcore]: success
+[2023-05-12 07:03:36] INFO root fetch - main [MainThread]: End processing [intecomm-edc]: success
+[2023-05-12 07:03:36] INFO root fetch - main [MainThread]: Store serial: [18073458]
