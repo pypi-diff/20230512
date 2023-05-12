@@ -19334,3 +19334,151 @@ EOFError: EOF read where object expected
 [2023-05-12 22:05:07] INFO root fetch - main [MainThread]: End processing [fds.sdk.StandardDatafeed]: success
 [2023-05-12 22:05:10] INFO root fetch - main [MainThread]: End processing [fds.sdk.QuotesAPIforDigitalPortals]: success
 [2023-05-12 22:05:10] INFO root fetch - main [MainThread]: Store serial: [18083498]
+[2023-05-12 22:10:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18083498]
+[2023-05-12 22:10:21] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-05-12 22:10:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fds.sdk.StandardDatafeed
+[2023-05-12 22:10:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fds.sdk.StocksAPIforDigitalPortals
+[2023-05-12 22:10:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fds.sdk.Symbology
+[2023-05-12 22:10:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fds.sdk.Symbology
+[2023-05-12 22:10:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fds.sdk.Symbology
+[2023-05-12 22:10:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fds.sdk.UniversalScreening
+[2023-05-12 22:10:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pipcolouraddonsV1
+[2023-05-12 22:10:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fds.sdk.Vault
+[2023-05-12 22:10:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fds.sdk.Vault
+[2023-05-12 22:10:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyemaps
+[2023-05-12 22:10:21] INFO root fetch - processPackages [fds.sdk.Symbology]: New version: [2.2.3] Old Version: [2.2.2]
+[2023-05-12 22:10:21] INFO root fetch - processPackages [fds.sdk.Symbology]: New version: [2.2.3] Old Version: [2.2.2]
+[2023-05-12 22:10:21] INFO root fetch - processPackages [fds.sdk.StandardDatafeed]: New version: [0.21.4] Old Version: [0.21.3]
+[2023-05-12 22:10:21] INFO root fetch - processPackages [fds.sdk.Vault]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-12 22:10:21] INFO root fetch - processPackages [fds.sdk.Vault]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-12 22:10:21] INFO root fetch - processPackages [fds.sdk.Symbology]: New version: [2.2.3] Old Version: [2.2.2]
+[2023-05-12 22:10:21] INFO root fetch - processPackages [fds.sdk.StocksAPIforDigitalPortals]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-12 22:10:21] INFO root fetch - processPackages [pipcolouraddonsV1]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-12 22:10:21] INFO root fetch - processPackages [fds.sdk.UniversalScreening]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-12 22:10:21] INFO root fetch - processPackages [pyemaps]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-12 22:10:21] INFO root fetch - processPackages [fds.sdk.StandardDatafeed]: executing diffoscope
+[2023-05-12 22:10:21] INFO root fetch - processPackages [fds.sdk.StandardDatafeed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fds.sdk.StandardDatafeed-0.21.3-py3-none-any.whl.zip tmp/fds.sdk.StandardDatafeed-0.21.4-py3-none-any.whl.zip --markdown 20230512/f/fds.sdk.StandardDatafeed/0.21.3-0.21.4/diff.md --exclude *.pyd
+[2023-05-12 22:10:21] INFO root fetch - processPackages [pipcolouraddonsV1]: Downloading https://files.pythonhosted.org/packages/49/58/f6d70d9d0a7ff78e8c447062be1268c2dd403175095194df33d1f257ca46/pipcolouraddonsV1-1.0.0.tar.gz
+[2023-05-12 22:10:22] INFO root fetch - processPackages [fds.sdk.Symbology]: Downloading https://files.pythonhosted.org/packages/e0/66/1875858f1e68cf3af95851506832056562d1dee75c3a1867047fb77a1709/fds.sdk.Symbology-2.2.3-py3-none-any.whl
+[2023-05-12 22:10:22] INFO root fetch - processPackages [fds.sdk.Symbology]: Downloading https://files.pythonhosted.org/packages/e0/66/1875858f1e68cf3af95851506832056562d1dee75c3a1867047fb77a1709/fds.sdk.Symbology-2.2.3-py3-none-any.whl
+[2023-05-12 22:10:22] INFO root fetch - processPackages [fds.sdk.Symbology]: Downloading https://files.pythonhosted.org/packages/e0/66/1875858f1e68cf3af95851506832056562d1dee75c3a1867047fb77a1709/fds.sdk.Symbology-2.2.3-py3-none-any.whl
+[2023-05-12 22:10:22] INFO root fetch - processPackages [pyemaps]: Downloading https://files.pythonhosted.org/packages/2d/b1/ae9e2ca9f9fb910cb84b021c77fe4105cac0eccb6fbd50df41820e9d1dba/pyemaps-1.0.5.tar.gz
+[2023-05-12 22:10:22] INFO root fetch - processPackages [fds.sdk.Vault]: executing diffoscope
+[2023-05-12 22:10:22] INFO root fetch - processPackages [fds.sdk.Vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fds.sdk.Vault-0.9.0-py3-none-any.whl.zip tmp/fds.sdk.Vault-0.9.1-py3-none-any.whl.zip --markdown 20230512/f/fds.sdk.Vault/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-12 22:10:22] INFO root fetch - processPackages [fds.sdk.Vault]: executing diffoscope
+[2023-05-12 22:10:22] INFO root fetch - processPackages [fds.sdk.Vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fds.sdk.Vault-0.9.0-py3-none-any.whl.zip tmp/fds.sdk.Vault-0.9.1-py3-none-any.whl.zip --markdown 20230512/f/fds.sdk.Vault/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-12 22:10:22] INFO root fetch - processPackages [fds.sdk.UniversalScreening]: Downloading https://files.pythonhosted.org/packages/5f/a8/6060f4f2203c5adf4b11da6704bfafd3a52b0b1039104f2a9d8682c6e7e2/fds.sdk.UniversalScreening-1.0.3-py3-none-any.whl
+[2023-05-12 22:10:22] INFO root fetch - processPackages [fds.sdk.StocksAPIforDigitalPortals]: executing diffoscope
+[2023-05-12 22:10:22] INFO root fetch - processPackages [fds.sdk.StocksAPIforDigitalPortals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fds.sdk.StocksAPIforDigitalPortals-0.9.3-py3-none-any.whl.zip tmp/fds.sdk.StocksAPIforDigitalPortals-0.9.4-py3-none-any.whl.zip --markdown 20230512/f/fds.sdk.StocksAPIforDigitalPortals/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-12 22:10:22] INFO root fetch - processPackages [pipcolouraddonsV1]: Downloading https://files.pythonhosted.org/packages/96/ed/596899f2bc92aee22cf7240b26fc3e187194a2637e093a91a188e5f1c714/pipcolouraddonsV1-1.1.0.tar.gz
+[2023-05-12 22:10:22] INFO root fetch - processPackages [fds.sdk.Symbology]: executing diffoscope
+[2023-05-12 22:10:22] INFO root fetch - processPackages [fds.sdk.Symbology]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fds.sdk.Symbology-2.2.2-py3-none-any.whl.zip tmp/fds.sdk.Symbology-2.2.3-py3-none-any.whl.zip --markdown 20230512/f/fds.sdk.Symbology/2.2.2-2.2.3/diff.md --exclude *.pyd
+[2023-05-12 22:10:22] INFO root fetch - processPackages [fds.sdk.Symbology]: executing diffoscope
+[2023-05-12 22:10:22] INFO root fetch - processPackages [fds.sdk.Symbology]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fds.sdk.Symbology-2.2.2-py3-none-any.whl.zip tmp/fds.sdk.Symbology-2.2.3-py3-none-any.whl.zip --markdown 20230512/f/fds.sdk.Symbology/2.2.2-2.2.3/diff.md --exclude *.pyd
+[2023-05-12 22:10:22] INFO root fetch - processPackages [fds.sdk.Symbology]: executing diffoscope
+[2023-05-12 22:10:22] INFO root fetch - processPackages [fds.sdk.Symbology]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fds.sdk.Symbology-2.2.2-py3-none-any.whl.zip tmp/fds.sdk.Symbology-2.2.3-py3-none-any.whl.zip --markdown 20230512/f/fds.sdk.Symbology/2.2.2-2.2.3/diff.md --exclude *.pyd
+[2023-05-12 22:10:22] INFO root fetch - processPackages [pyemaps]: executing diffoscope
+[2023-05-12 22:10:22] INFO root fetch - processPackages [pyemaps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyemaps-1.0.4.tar.gz tmp/pyemaps-1.0.5.tar.gz --markdown 20230512/p/pyemaps/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-12 22:10:22] INFO root fetch - processPackages [pipcolouraddonsV1]: executing diffoscope
+[2023-05-12 22:10:22] INFO root fetch - processPackages [fds.sdk.UniversalScreening]: executing diffoscope
+[2023-05-12 22:10:22] INFO root fetch - processPackages [pipcolouraddonsV1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipcolouraddonsV1-1.0.0.tar.gz tmp/pipcolouraddonsV1-1.1.0.tar.gz --markdown 20230512/p/pipcolouraddonsV1/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-12 22:10:22] INFO root fetch - processPackages [fds.sdk.UniversalScreening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fds.sdk.UniversalScreening-1.0.2-py3-none-any.whl.zip tmp/fds.sdk.UniversalScreening-1.0.3-py3-none-any.whl.zip --markdown 20230512/f/fds.sdk.UniversalScreening/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-12 22:10:23] INFO root fetch - processPackages [fds.sdk.StandardDatafeed]: Start processing: hummuspy
+[2023-05-12 22:10:23] INFO root fetch - main [MainThread]: End processing [fds.sdk.StandardDatafeed]: success
+[2023-05-12 22:10:23] INFO root fetch - processPackages [hummuspy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 22:10:23] INFO root fetch - processPackages [hummuspy]: Downloading https://files.pythonhosted.org/packages/6d/57/482759401474404ddc4fb988e458704c3095fcbb65a042242874ee732cc6/hummuspy-0.0.9.tar.gz
+[2023-05-12 22:10:23] INFO root fetch - processPackages [hummuspy]: executing diffoscope
+[2023-05-12 22:10:23] INFO root fetch - processPackages [hummuspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hummuspy-0.0.8.tar.gz tmp/hummuspy-0.0.9.tar.gz --markdown 20230512/h/hummuspy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 22:10:23] INFO root fetch - processPackages [fds.sdk.Vault]: Start processing: sporestack
+[2023-05-12 22:10:23] INFO root fetch - main [MainThread]: End processing [fds.sdk.Vault]: success
+[2023-05-12 22:10:23] INFO root fetch - processPackages [sporestack]: New version: [9.1.1] Old Version: [9.1.0]
+[2023-05-12 22:10:24] INFO root fetch - processPackages [fds.sdk.Vault]: Start processing: fastapi-poe
+[2023-05-12 22:10:24] INFO root fetch - main [MainThread]: End processing [fds.sdk.Vault]: success
+[2023-05-12 22:10:24] INFO root fetch - processPackages [sporestack]: executing diffoscope
+[2023-05-12 22:10:24] INFO root fetch - processPackages [sporestack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sporestack-9.1.0.tar.gz tmp/sporestack-9.1.1.tar.gz --markdown 20230512/s/sporestack/9.1.0-9.1.1/diff.md --exclude *.pyd
+[2023-05-12 22:10:24] INFO root fetch - processPackages [fastapi-poe]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-05-12 22:10:24] INFO root fetch - processPackages [fastapi-poe]: executing diffoscope
+[2023-05-12 22:10:24] INFO root fetch - processPackages [fastapi-poe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_poe-0.0.7.tar.gz tmp/fastapi_poe-0.0.9.tar.gz --markdown 20230512/f/fastapi-poe/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 22:10:24] INFO root fetch - processPackages [pipcolouraddonsV1]: Start processing: pipcolouraddonsV1
+[2023-05-12 22:10:24] INFO root fetch - main [MainThread]: End processing [pipcolouraddonsV1]: success
+[2023-05-12 22:10:24] INFO root fetch - processPackages [pipcolouraddonsV1]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-12 22:10:24] INFO root fetch - processPackages [fds.sdk.Symbology]: Start processing: aiohttp-poe
+[2023-05-12 22:10:24] INFO root fetch - main [MainThread]: End processing [fds.sdk.Symbology]: success
+[2023-05-12 22:10:24] INFO root fetch - processPackages [pipcolouraddonsV1]: executing diffoscope
+[2023-05-12 22:10:24] INFO root fetch - processPackages [pipcolouraddonsV1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipcolouraddonsV1-1.0.0.tar.gz tmp/pipcolouraddonsV1-1.1.0.tar.gz --markdown 20230512/p/pipcolouraddonsV1/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-12 22:10:24] INFO root fetch - processPackages [aiohttp-poe]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-05-12 22:10:24] INFO root fetch - processPackages [aiohttp-poe]: executing diffoscope
+[2023-05-12 22:10:24] INFO root fetch - processPackages [aiohttp-poe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiohttp_poe-0.0.7.tar.gz tmp/aiohttp_poe-0.0.9.tar.gz --markdown 20230512/a/aiohttp-poe/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 22:10:24] INFO root fetch - processPackages [fds.sdk.Symbology]: Start processing: aiida-shell
+[2023-05-12 22:10:24] INFO root fetch - main [MainThread]: End processing [fds.sdk.Symbology]: success
+[2023-05-12 22:10:24] INFO root fetch - processPackages [aiida-shell]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-05-12 22:10:24] INFO root fetch - processPackages [fds.sdk.Symbology]: Start processing: bettersleepy
+[2023-05-12 22:10:24] INFO root fetch - main [MainThread]: End processing [fds.sdk.Symbology]: success
+[2023-05-12 22:10:24] WARNING root fetch - processPackages [bettersleepy]: Skipping, unable to determine old version
+[2023-05-12 22:10:24] INFO root fetch - processPackages [bettersleepy]: Start processing: yetl-framework
+[2023-05-12 22:10:24] INFO root fetch - main [MainThread]: End processing [bettersleepy] error
+[2023-05-12 22:10:24] INFO root fetch - processPackages [yetl-framework]: New version: [1.3.2.dev1] Old Version: [1.3.2]
+[2023-05-12 22:10:24] INFO root fetch - processPackages [aiida-shell]: Downloading https://files.pythonhosted.org/packages/fe/02/af5da8d4ba7fb0e7046d08ab69884fcd6e0d99c414434a6e91d6541600a5/aiida-shell-0.5.1.tar.gz
+[2023-05-12 22:10:24] INFO root fetch - processPackages [yetl-framework]: Downloading https://files.pythonhosted.org/packages/c7/e5/b2cbb22e89c750f88faa4dfb07625cd8345add285300c079b7ca484073b3/yetl-framework-1.3.2.tar.gz
+[2023-05-12 22:10:25] INFO root fetch - processPackages [fds.sdk.UniversalScreening]: Start processing: hypernetx
+[2023-05-12 22:10:25] INFO root fetch - main [MainThread]: End processing [fds.sdk.UniversalScreening]: success
+[2023-05-12 22:10:25] INFO root fetch - processPackages [hypernetx]: New version: [2.0.0] Old Version: [1.2.5]
+[2023-05-12 22:10:25] INFO root fetch - processPackages [pyemaps]: Start processing: always-updates
+[2023-05-12 22:10:25] INFO root fetch - main [MainThread]: End processing [pyemaps]: success
+[2023-05-12 22:10:25] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-05-12 22:10:25] INFO root fetch - processPackages [aiida-shell]: Downloading https://files.pythonhosted.org/packages/ac/62/c300521d58b2f512be712a6600b77097bfb7cfa868b9c5210635057c0fba/aiida-shell-0.5.2.tar.gz
+[2023-05-12 22:10:25] INFO root fetch - processPackages [hypernetx]: Downloading https://files.pythonhosted.org/packages/f6/fb/c9c840962c63654535824bda4f84312765de5fe96cfbd462b8424d3bff34/hypernetx-1.2.5.tar.gz
+[2023-05-12 22:10:25] INFO root fetch - processPackages [aiida-shell]: executing diffoscope
+[2023-05-12 22:10:25] INFO root fetch - processPackages [aiida-shell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiida-shell-0.5.1.tar.gz tmp/aiida-shell-0.5.2.tar.gz --markdown 20230512/a/aiida-shell/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-05-12 22:10:25] INFO root fetch - processPackages [yetl-framework]: executing diffoscope
+[2023-05-12 22:10:25] INFO root fetch - processPackages [yetl-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yetl-framework-1.3.2.tar.gz tmp/yetl-framework-1.3.2.dev1.tar.gz --markdown 20230512/y/yetl-framework/1.3.2-1.3.2.dev1/diff.md --exclude *.pyd
+[2023-05-12 22:10:25] INFO root fetch - processPackages [hypernetx]: Downloading https://files.pythonhosted.org/packages/fc/95/d309580bf4ff6a6c2e0bf8245dce5f0095a1221722b6393b84c73d134cbb/hypernetx-2.0.0.tar.gz
+[2023-05-12 22:10:25] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-05-12 22:10:25] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230512/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-05-12 22:10:25] INFO root fetch - processPackages [hypernetx]: executing diffoscope
+[2023-05-12 22:10:25] INFO root fetch - processPackages [hypernetx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypernetx-1.2.5.tar.gz tmp/hypernetx-2.0.0.tar.gz --markdown 20230512/h/hypernetx/1.2.5-2.0.0/diff.md --exclude *.pyd
+[2023-05-12 22:10:25] INFO root fetch - processPackages [hummuspy]: Start processing: podcast-downloader
+[2023-05-12 22:10:25] INFO root fetch - main [MainThread]: End processing [hummuspy]: success
+[2023-05-12 22:10:25] INFO root fetch - processPackages [podcast-downloader]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-05-12 22:10:25] INFO root fetch - processPackages [podcast-downloader]: Downloading https://files.pythonhosted.org/packages/08/31/22436cb71f2d6b5a4014526db1522fd86defee760f9725615afd3dcae4cd/podcast_downloader-0.5.0.tar.gz
+[2023-05-12 22:10:26] INFO root fetch - processPackages [podcast-downloader]: Downloading https://files.pythonhosted.org/packages/23/b1/ee3f77312f0c695024d9ae57d70fd018c3ed200a9ce874cd33c2f860843b/podcast_downloader-0.5.1.tar.gz
+[2023-05-12 22:10:26] INFO root fetch - processPackages [sporestack]: Start processing: fern-belvo
+[2023-05-12 22:10:26] INFO root fetch - main [MainThread]: End processing [sporestack]: success
+[2023-05-12 22:10:26] INFO root fetch - processPackages [fern-belvo]: New version: [0.0.23] Old Version: [0.0.22]
+[2023-05-12 22:10:26] INFO root fetch - processPackages [podcast-downloader]: executing diffoscope
+[2023-05-12 22:10:26] INFO root fetch - processPackages [podcast-downloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/podcast_downloader-0.5.0.tar.gz tmp/podcast_downloader-0.5.1.tar.gz --markdown 20230512/p/podcast-downloader/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-05-12 22:10:26] INFO root fetch - processPackages [fern-belvo]: Downloading https://files.pythonhosted.org/packages/38/79/22b95128e855840881f82d8cecad525be74f431fa12e731d430af19e334c/fern_belvo-0.0.22.tar.gz
+[2023-05-12 22:10:26] INFO root fetch - processPackages [pipcolouraddonsV1]: Start processing: sicli-cli
+[2023-05-12 22:10:26] INFO root fetch - main [MainThread]: End processing [pipcolouraddonsV1]: success
+[2023-05-12 22:10:26] INFO root fetch - processPackages [sicli-cli]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-12 22:10:26] INFO root fetch - processPackages [fastapi-poe]: Start processing: tmmc-lnpy
+[2023-05-12 22:10:26] INFO root fetch - main [MainThread]: End processing [fastapi-poe]: success
+[2023-05-12 22:10:26] INFO root fetch - processPackages [tmmc-lnpy]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-05-12 22:10:26] INFO root fetch - processPackages [aiohttp-poe]: Start processing: fidder
+[2023-05-12 22:10:26] INFO root fetch - main [MainThread]: End processing [aiohttp-poe]: success
+[2023-05-12 22:10:26] INFO root fetch - processPackages [fern-belvo]: Downloading https://files.pythonhosted.org/packages/f0/c9/c43b628017d472705ac11b139d6bbca4c13190975f76f7c81ec09a92c027/fern_belvo-0.0.23.tar.gz
+[2023-05-12 22:10:26] INFO root fetch - processPackages [fidder]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-12 22:10:26] INFO root fetch - processPackages [tmmc-lnpy]: Downloading https://files.pythonhosted.org/packages/98/e6/b010b63d480c368f1194500fa418f0578ea35ebf3850d725d1254b9ae83c/tmmc-lnpy-0.3.1.tar.gz
+[2023-05-12 22:10:27] INFO root fetch - processPackages [fern-belvo]: executing diffoscope
+[2023-05-12 22:10:27] INFO root fetch - processPackages [fern-belvo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fern_belvo-0.0.22.tar.gz tmp/fern_belvo-0.0.23.tar.gz --markdown 20230512/f/fern-belvo/0.0.22-0.0.23/diff.md --exclude *.pyd
+[2023-05-12 22:10:27] INFO root fetch - processPackages [fidder]: Downloading https://files.pythonhosted.org/packages/aa/c0/f9a4d0a000f01a4f88cdbc1fef5fb968e52a4f3a79739b89d4c9b275bb51/fidder-0.0.6.tar.gz
+[2023-05-12 22:10:27] INFO root fetch - processPackages [sicli-cli]: Downloading https://files.pythonhosted.org/packages/b4/d9/76322403fb7366d4c13a4471bf78d77bb2a6915dd3da09405d682264c5d2/sicli_cli-0.3.0-py3-none-any.whl
+[2023-05-12 22:10:27] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-05-12 22:10:27] INFO root fetch - processPackages [sicli-cli]: executing diffoscope
+[2023-05-12 22:10:27] INFO root fetch - processPackages [sicli-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sicli-cli-0.2.0.tar.gz tmp/sicli_cli-0.3.0-py3-none-any.whl.zip --markdown 20230512/s/sicli-cli/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-12 22:10:27] INFO root fetch - processPackages [tmmc-lnpy]: Downloading https://files.pythonhosted.org/packages/7e/3a/e65d2d0026f92e3c2254075a2db256d8cef092d767439839c3d4e68cbb22/tmmc-lnpy-0.4.0.tar.gz
+[2023-05-12 22:10:27] INFO root fetch - processPackages [fidder]: Downloading https://files.pythonhosted.org/packages/24/8e/e77a074ad128dd2a8af07e2cbb5a53d1a5c76e60374fbe0a7355b61142dc/fidder-0.0.7.tar.gz
+[2023-05-12 22:10:27] INFO root fetch - main [MainThread]: End processing [yetl-framework]: success
+[2023-05-12 22:10:27] INFO root fetch - processPackages [tmmc-lnpy]: executing diffoscope
+[2023-05-12 22:10:27] INFO root fetch - processPackages [tmmc-lnpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmmc-lnpy-0.3.1.tar.gz tmp/tmmc-lnpy-0.4.0.tar.gz --markdown 20230512/t/tmmc-lnpy/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-05-12 22:10:27] INFO root fetch - main [MainThread]: End processing [hypernetx]: success
+[2023-05-12 22:10:27] INFO root fetch - processPackages [fidder]: executing diffoscope
+[2023-05-12 22:10:27] INFO root fetch - processPackages [fidder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fidder-0.0.6.tar.gz tmp/fidder-0.0.7.tar.gz --markdown 20230512/f/fidder/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-12 22:10:28] INFO root fetch - main [MainThread]: End processing [podcast-downloader]: success
+[2023-05-12 22:10:28] INFO root fetch - main [MainThread]: End processing [aiida-shell]: success
+[2023-05-12 22:10:28] INFO root fetch - main [MainThread]: End processing [fds.sdk.StocksAPIforDigitalPortals]: success
+[2023-05-12 22:10:28] INFO root fetch - main [MainThread]: End processing [sicli-cli]: success
+[2023-05-12 22:10:29] INFO root fetch - main [MainThread]: End processing [tmmc-lnpy]: success
+[2023-05-12 22:10:29] INFO root fetch - main [MainThread]: End processing [fidder]: success
+[2023-05-12 22:10:31] INFO root fetch - main [MainThread]: End processing [fern-belvo]: success
+[2023-05-12 22:10:31] INFO root fetch - main [MainThread]: Store serial: [18083574]
