@@ -17415,3 +17415,41 @@ EOFError: EOF read where object expected
 [2023-05-12 20:16:22] INFO root fetch - main [MainThread]: End processing [django-healthpoint]: success
 [2023-05-12 20:16:22] INFO root fetch - main [MainThread]: End processing [django-unfold]: success
 [2023-05-12 20:16:22] INFO root fetch - main [MainThread]: Store serial: [18081966]
+[2023-05-12 20:21:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18081966]
+[2023-05-12 20:21:33] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-12 20:21:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: TPEBot
+[2023-05-12 20:21:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: honeybee-doe2
+[2023-05-12 20:21:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyqrack
+[2023-05-12 20:21:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: finny-scraper
+[2023-05-12 20:21:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: volttron-postgresql-historian
+[2023-05-12 20:21:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: eulith-web3
+[2023-05-12 20:21:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pystools
+[2023-05-12 20:21:33] WARNING root fetch - processPackages [honeybee-doe2]: Skipping, unable to determine old version
+[2023-05-12 20:21:33] INFO root fetch - main [MainThread]: End processing [honeybee-doe2] error
+[2023-05-12 20:21:33] INFO root fetch - processPackages [eulith-web3]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 20:21:33] INFO root fetch - processPackages [volttron-postgresql-historian]: New version: [0.1.1a1] Old Version: [0.1.1a0]
+[2023-05-12 20:21:33] INFO root fetch - processPackages [pyqrack]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-05-12 20:21:33] WARNING root fetch - processPackages [TPEBot]: Skipping, unable to determine old version
+[2023-05-12 20:21:33] INFO root fetch - main [MainThread]: End processing [TPEBot] error
+[2023-05-12 20:21:33] INFO root fetch - processPackages [finny-scraper]: New version: [0.9] Old Version: [0.7.1]
+[2023-05-12 20:21:33] INFO root fetch - processPackages [pystools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 20:21:33] INFO root fetch - processPackages [eulith-web3]: executing diffoscope
+[2023-05-12 20:21:33] INFO root fetch - processPackages [eulith-web3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eulith_web3-0.0.8.tar.gz tmp/eulith_web3-0.0.9.tar.gz --markdown 20230512/e/eulith-web3/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 20:21:33] INFO root fetch - processPackages [volttron-postgresql-historian]: executing diffoscope
+[2023-05-12 20:21:33] INFO root fetch - processPackages [volttron-postgresql-historian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volttron_postgresql_historian-0.1.1a0.tar.gz tmp/volttron_postgresql_historian-0.1.1a1.tar.gz --markdown 20230512/v/volttron-postgresql-historian/0.1.1a0-0.1.1a1/diff.md --exclude *.pyd
+[2023-05-12 20:21:33] INFO root fetch - processPackages [pyqrack]: Downloading https://files.pythonhosted.org/packages/a5/20/1d3e9c7856a84f5ac286ccfeae409edebc9eec48e5be9d87bc6092e7ea6f/pyqrack-1.9.0.tar.gz
+[2023-05-12 20:21:33] INFO root fetch - processPackages [finny-scraper]: Downloading https://files.pythonhosted.org/packages/8c/a7/0f606ea90bbe69cfb63cf1ef54c17b023fecb85c5eca5336db63c2f774a1/finny_scraper-0.7.1.tar.gz
+[2023-05-12 20:21:33] INFO root fetch - processPackages [pyqrack]: Downloading https://files.pythonhosted.org/packages/b3/40/bc56fa3b6b3cc7be1d0dd82d78bfd9d2922ab1f57cdb4ab3f30d1df8e9f2/pyqrack-1.9.1.tar.gz
+[2023-05-12 20:21:33] INFO root fetch - processPackages [pystools]: executing diffoscope
+[2023-05-12 20:21:33] INFO root fetch - processPackages [pystools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystools-0.0.8.tar.gz tmp/pystools-0.0.9.tar.gz --markdown 20230512/p/pystools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 20:21:33] INFO root fetch - processPackages [pyqrack]: executing diffoscope
+[2023-05-12 20:21:33] INFO root fetch - processPackages [pyqrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqrack-1.9.0.tar.gz tmp/pyqrack-1.9.1.tar.gz --markdown 20230512/p/pyqrack/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-05-12 20:21:34] INFO root fetch - processPackages [finny-scraper]: Downloading https://files.pythonhosted.org/packages/2f/70/664f7a7fb3eea7f9a661093eba36918a6add2b5d484fa1d9ef420628e353/finny_scraper-0.9.tar.gz
+[2023-05-12 20:21:34] INFO root fetch - processPackages [finny-scraper]: executing diffoscope
+[2023-05-12 20:21:34] INFO root fetch - processPackages [finny-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finny_scraper-0.7.1.tar.gz tmp/finny_scraper-0.9.tar.gz --markdown 20230512/f/finny-scraper/0.7.1-0.9/diff.md --exclude *.pyd
+[2023-05-12 20:21:34] INFO root fetch - main [MainThread]: End processing [eulith-web3]: success
+[2023-05-12 20:21:35] INFO root fetch - main [MainThread]: End processing [volttron-postgresql-historian]: success
+[2023-05-12 20:21:35] INFO root fetch - main [MainThread]: End processing [pystools]: success
+[2023-05-12 20:21:35] INFO root fetch - main [MainThread]: End processing [finny-scraper]: success
+[2023-05-12 20:21:35] INFO root fetch - main [MainThread]: End processing [pyqrack]: success
+[2023-05-12 20:21:35] INFO root fetch - main [MainThread]: Store serial: [18081994]
