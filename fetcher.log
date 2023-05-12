@@ -15102,3 +15102,44 @@ EOFError: EOF read where object expected
 [2023-05-12 18:11:57] INFO root fetch - main [MainThread]: End processing [ai-flow-nightly]: success
 [2023-05-12 18:11:57] INFO root fetch - main [MainThread]: End processing [flowtask]: success
 [2023-05-12 18:11:57] INFO root fetch - main [MainThread]: Store serial: [18080558]
+[2023-05-12 18:17:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18080558]
+[2023-05-12 18:17:07] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-12 18:17:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: medsenger-api
+[2023-05-12 18:17:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: consolo
+[2023-05-12 18:17:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: terka
+[2023-05-12 18:17:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PatryksAutoAI
+[2023-05-12 18:17:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fdtdz
+[2023-05-12 18:17:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: add-input-values
+[2023-05-12 18:17:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ensuro
+[2023-05-12 18:17:07] INFO root fetch - processPackages [consolo]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-05-12 18:17:07] WARNING root fetch - processPackages [fdtdz]: Skipping, unable to determine old version
+[2023-05-12 18:17:07] INFO root fetch - main [MainThread]: End processing [fdtdz] error
+[2023-05-12 18:17:07] INFO root fetch - processPackages [medsenger-api]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-12 18:17:07] WARNING root fetch - processPackages [add-input-values]: Skipping, unable to determine old version
+[2023-05-12 18:17:07] INFO root fetch - main [MainThread]: End processing [add-input-values] error
+[2023-05-12 18:17:07] INFO root fetch - processPackages [terka]: New version: [1.8.3.1] Old Version: [1.8.3]
+[2023-05-12 18:17:07] INFO root fetch - processPackages [ensuro]: New version: [2.2.0] Old Version: [2.1.0b1]
+[2023-05-12 18:17:07] INFO root fetch - processPackages [PatryksAutoAI]: New version: [0.3.0] Old Version: [0.2.8]
+[2023-05-12 18:17:08] INFO root fetch - processPackages [consolo]: Downloading https://files.pythonhosted.org/packages/c9/e2/2a7e8577879295a060e0102738ac7c208f4eb2c8f8e150ac439aa76181c2/consolo-0.2.5.tar.gz
+[2023-05-12 18:17:08] INFO root fetch - processPackages [terka]: Downloading https://files.pythonhosted.org/packages/48/6e/7ae24099eb05cd293e868108d138848bad4889db6401db1dbe404a050563/terka-1.8.3.1.tar.gz
+[2023-05-12 18:17:08] INFO root fetch - processPackages [ensuro]: Downloading https://files.pythonhosted.org/packages/3c/a2/3afd2e5c5fbdf36d82a154f821669f0de02032e28ea062389563798b77d2/ensuro-2.1.0b1.tar.gz
+[2023-05-12 18:17:08] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/79/e0/04bb1156d74c0398e74e8c02a87b2532691ecac3556fa5b6ef907bde7d48/PatryksAutoAI-0.2.8.tar.gz
+[2023-05-12 18:17:08] INFO root fetch - processPackages [terka]: executing diffoscope
+[2023-05-12 18:17:08] INFO root fetch - processPackages [terka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terka-1.8.3.tar.gz tmp/terka-1.8.3.1.tar.gz --markdown 20230512/t/terka/1.8.3-1.8.3.1/diff.md --exclude *.pyd
+[2023-05-12 18:17:08] INFO root fetch - processPackages [medsenger-api]: executing diffoscope
+[2023-05-12 18:17:08] INFO root fetch - processPackages [medsenger-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medsenger_api-0.1.8.tar.gz tmp/medsenger_api-0.1.9.tar.gz --markdown 20230512/m/medsenger-api/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-12 18:17:08] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/94/0f/3d74c1785dcad87e969662ecfbb00ba3b81c46bda9264609f74979762bd9/PatryksAutoAI-0.3.0.tar.gz
+[2023-05-12 18:17:08] INFO root fetch - processPackages [consolo]: Downloading https://files.pythonhosted.org/packages/19/f6/df219401af6352cf5ea7dc0cd1b78e59e6dc6241606cfe1ac45bb3a7b38b/consolo-0.2.6.tar.gz
+[2023-05-12 18:17:08] INFO root fetch - processPackages [PatryksAutoAI]: executing diffoscope
+[2023-05-12 18:17:08] INFO root fetch - processPackages [PatryksAutoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PatryksAutoAI-0.2.8.tar.gz tmp/PatryksAutoAI-0.3.0.tar.gz --markdown 20230512/P/PatryksAutoAI/0.2.8-0.3.0/diff.md --exclude *.pyd
+[2023-05-12 18:17:08] INFO root fetch - processPackages [consolo]: executing diffoscope
+[2023-05-12 18:17:08] INFO root fetch - processPackages [consolo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/consolo-0.2.5.tar.gz tmp/consolo-0.2.6.tar.gz --markdown 20230512/c/consolo/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-05-12 18:17:08] INFO root fetch - processPackages [ensuro]: Downloading https://files.pythonhosted.org/packages/3c/6d/5f7ed968870328cfde55af0782444e27fa51b7ef74d6a919f1f641357742/ensuro-2.2.0.tar.gz
+[2023-05-12 18:17:08] INFO root fetch - processPackages [ensuro]: executing diffoscope
+[2023-05-12 18:17:08] INFO root fetch - processPackages [ensuro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ensuro-2.1.0b1.tar.gz tmp/ensuro-2.2.0.tar.gz --markdown 20230512/e/ensuro/2.1.0b1-2.2.0/diff.md --exclude *.pyd
+[2023-05-12 18:17:09] INFO root fetch - main [MainThread]: End processing [medsenger-api]: success
+[2023-05-12 18:17:09] INFO root fetch - main [MainThread]: End processing [terka]: success
+[2023-05-12 18:17:09] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
+[2023-05-12 18:17:09] INFO root fetch - main [MainThread]: End processing [consolo]: success
+[2023-05-12 18:17:10] INFO root fetch - main [MainThread]: End processing [ensuro]: success
+[2023-05-12 18:17:10] INFO root fetch - main [MainThread]: Store serial: [18080580]
