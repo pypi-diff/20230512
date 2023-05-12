@@ -5557,3 +5557,228 @@
 [2023-05-12 09:10:07] INFO root fetch - main [MainThread]: End processing [bibtexautocomplete]: success
 [2023-05-12 09:10:07] INFO root fetch - main [MainThread]: End processing [odp-sdk-python-ingest]: success
 [2023-05-12 09:10:07] INFO root fetch - main [MainThread]: Store serial: [18074328]
+[2023-05-12 09:15:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18074328]
+[2023-05-12 09:15:16] INFO root fetch - main [MainThread]: Found 26 changed packages
+[2023-05-12 09:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: supervisely
+[2023-05-12 09:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ykenan-fragments
+[2023-05-12 09:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spectrum-card
+[2023-05-12 09:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: h2o-wave
+[2023-05-12 09:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Decryption
+[2023-05-12 09:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: quanttools
+[2023-05-12 09:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: confik
+[2023-05-12 09:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: WordsToPdfs
+[2023-05-12 09:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: clophfit
+[2023-05-12 09:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: edman-cli
+[2023-05-12 09:15:16] INFO root fetch - processPackages [spectrum-card]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-12 09:15:16] INFO root fetch - processPackages [confik]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-12 09:15:16] WARNING root fetch - processPackages [quanttools]: Skipping, unable to determine old version
+[2023-05-12 09:15:16] INFO root fetch - processPackages [quanttools]: Start processing: KaggleToDatabricks
+[2023-05-12 09:15:16] INFO root fetch - main [MainThread]: End processing [quanttools] error
+[2023-05-12 09:15:16] WARNING root fetch - processPackages [Decryption]: Skipping, unable to determine old version
+[2023-05-12 09:15:16] INFO root fetch - processPackages [Decryption]: Start processing: cashfree-lrs-client
+[2023-05-12 09:15:16] INFO root fetch - main [MainThread]: End processing [Decryption] error
+[2023-05-12 09:15:16] INFO root fetch - processPackages [WordsToPdfs]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-12 09:15:16] INFO root fetch - processPackages [edman-cli]: New version: [2023.5.12] Old Version: [2023.3.15]
+[2023-05-12 09:15:16] INFO root fetch - processPackages [ykenan-fragments]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-12 09:15:16] INFO root fetch - processPackages [KaggleToDatabricks]: New version: [0.9] Old Version: [0.8]
+[2023-05-12 09:15:16] INFO root fetch - processPackages [clophfit]: New version: [0.6.0] Old Version: [0.5.4]
+[2023-05-12 09:15:16] INFO root fetch - processPackages [h2o-wave]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-12 09:15:16] INFO root fetch - processPackages [cashfree-lrs-client]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-12 09:15:16] INFO root fetch - processPackages [supervisely]: New version: [6.9.2] Old Version: [6.9.1]
+[2023-05-12 09:15:16] INFO root fetch - processPackages [KaggleToDatabricks]: executing diffoscope
+[2023-05-12 09:15:16] INFO root fetch - processPackages [KaggleToDatabricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KaggleToDatabricks-0.8.tar.gz tmp/KaggleToDatabricks-0.9.tar.gz --markdown 20230512/K/KaggleToDatabricks/0.8-0.9/diff.md --exclude *.pyd
+[2023-05-12 09:15:16] INFO root fetch - processPackages [supervisely]: executing diffoscope
+[2023-05-12 09:15:16] INFO root fetch - processPackages [supervisely]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supervisely-6.9.1.tar.gz tmp/supervisely-6.9.2.tar.gz --markdown 20230512/s/supervisely/6.9.1-6.9.2/diff.md --exclude *.pyd
+[2023-05-12 09:15:16] INFO root fetch - processPackages [spectrum-card]: Downloading https://files.pythonhosted.org/packages/a7/67/6c3ff0f0a7e174934017e19e7a08217f92e9a0f02e4e141654a5a769136b/spectrum_card-1.0.0.tar.gz
+[2023-05-12 09:15:16] INFO root fetch - processPackages [ykenan-fragments]: Downloading https://files.pythonhosted.org/packages/a1/b7/4add01bf40e1cd301c130a149eefeb3b00857c9b59eaa8e51e03853f9a6f/ykenan_fragments-1.2.9.tar.gz
+[2023-05-12 09:15:16] INFO root fetch - processPackages [edman-cli]: Downloading https://files.pythonhosted.org/packages/ae/f7/67ec5465a02a64c7bc9e2e852df62067ccf7336ba3fab375355fab10221e/edman_cli-2023.3.15.tar.gz
+[2023-05-12 09:15:16] INFO root fetch - processPackages [confik]: Downloading https://files.pythonhosted.org/packages/92/06/d620356a3cf19fb7bda07fbc45417b4c35264ebc574c58a83162e103f9d5/confik-1.0.2.tar.gz
+[2023-05-12 09:15:16] INFO root fetch - processPackages [clophfit]: Downloading https://files.pythonhosted.org/packages/9f/96/976a33b35246723c2e7a7ebecf017b436a660bb58ea16a5058f44077d8cd/clophfit-0.6.0.tar.gz
+[2023-05-12 09:15:16] INFO root fetch - processPackages [WordsToPdfs]: Downloading https://files.pythonhosted.org/packages/36/a6/ee411f04b03138f5ef9d1673b2385de2ef3d41439304a068482820086778/WordsToPdfs-0.3.0.tar.gz
+[2023-05-12 09:15:16] INFO root fetch - processPackages [h2o-wave]: Downloading https://files.pythonhosted.org/packages/21/e4/247471a4f0f9d3daa6445a1dcb18a0c3ca7da040f0ab0081b13ec09297d6/h2o_wave-0.9.0-py3-none-any.whl
+[2023-05-12 09:15:16] INFO root fetch - processPackages [ykenan-fragments]: executing diffoscope
+[2023-05-12 09:15:16] INFO root fetch - processPackages [ykenan-fragments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ykenan_fragments-1.2.8.tar.gz tmp/ykenan_fragments-1.2.9.tar.gz --markdown 20230512/y/ykenan-fragments/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-12 09:15:16] INFO root fetch - processPackages [confik]: executing diffoscope
+[2023-05-12 09:15:16] INFO root fetch - processPackages [confik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/confik-1.0.1.tar.gz tmp/confik-1.0.2.tar.gz --markdown 20230512/c/confik/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-12 09:15:16] INFO root fetch - processPackages [clophfit]: executing diffoscope
+[2023-05-12 09:15:16] INFO root fetch - processPackages [clophfit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clophfit-0.5.4.tar.gz tmp/clophfit-0.6.0.tar.gz --markdown 20230512/c/clophfit/0.5.4-0.6.0/diff.md --exclude *.pyd
+[2023-05-12 09:15:16] INFO root fetch - processPackages [edman-cli]: Downloading https://files.pythonhosted.org/packages/1e/61/47c64fe2f4f61c0a29d2e8ec850f35ca03d34419a4de2fa477c2facbd42e/edman_cli-2023.5.12.tar.gz
+[2023-05-12 09:15:16] INFO root fetch - processPackages [WordsToPdfs]: Downloading https://files.pythonhosted.org/packages/19/09/ccc5d6a26ecc0e7eff6cb3e07dc3c1204d32e36410fb2d7ff7a1ee5587e5/WordsToPdfs-0.3.1.tar.gz
+[2023-05-12 09:15:16] INFO root fetch - processPackages [cashfree-lrs-client]: Downloading https://files.pythonhosted.org/packages/e7/24/01a92af2e69e7b24fa6944b9a15b81cac2d412148653323c632f4495348f/cashfree_lrs_client-1.0.9.tar.gz
+[2023-05-12 09:15:16] INFO root fetch - processPackages [WordsToPdfs]: executing diffoscope
+[2023-05-12 09:15:16] INFO root fetch - processPackages [WordsToPdfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WordsToPdfs-0.3.0.tar.gz tmp/WordsToPdfs-0.3.1.tar.gz --markdown 20230512/W/WordsToPdfs/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-12 09:15:16] INFO root fetch - processPackages [spectrum-card]: Downloading https://files.pythonhosted.org/packages/71/59/65d3995087150fe82b0882691947260f4479ada5a844658d39360e6d9224/spectrum_card-1.0.1.tar.gz
+[2023-05-12 09:15:16] INFO root fetch - processPackages [cashfree-lrs-client]: executing diffoscope
+[2023-05-12 09:15:16] INFO root fetch - processPackages [cashfree-lrs-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cashfree_lrs_client-1.0.8.tar.gz tmp/cashfree_lrs_client-1.0.9.tar.gz --markdown 20230512/c/cashfree-lrs-client/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-12 09:15:17] INFO root fetch - processPackages [edman-cli]: executing diffoscope
+[2023-05-12 09:15:17] INFO root fetch - processPackages [edman-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edman_cli-2023.3.15.tar.gz tmp/edman_cli-2023.5.12.tar.gz --markdown 20230512/e/edman-cli/2023.3.15-2023.5.12/diff.md --exclude *.pyd
+[2023-05-12 09:15:17] INFO root fetch - processPackages [h2o-wave]: Downloading https://files.pythonhosted.org/packages/9d/56/ccd5ddaf73a43d645fd4ea6287bf3581a8efd9c4c6aeaed05ca1273c74f4/h2o_wave-0.9.1-py3-none-any.whl
+[2023-05-12 09:15:17] INFO root fetch - processPackages [spectrum-card]: executing diffoscope
+[2023-05-12 09:15:17] INFO root fetch - processPackages [spectrum-card]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spectrum_card-1.0.0.tar.gz tmp/spectrum_card-1.0.1.tar.gz --markdown 20230512/s/spectrum-card/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-12 09:15:17] INFO root fetch - processPackages [h2o-wave]: executing diffoscope
+[2023-05-12 09:15:17] INFO root fetch - processPackages [h2o-wave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h2o_wave-0.9.0-py3-none-any.whl.zip tmp/h2o_wave-0.9.1-py3-none-any.whl.zip --markdown 20230512/h/h2o-wave/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-12 09:15:17] INFO root fetch - processPackages [KaggleToDatabricks]: Start processing: troposphere-awscommunity-applicationautoscaling-scheduledaction
+[2023-05-12 09:15:17] INFO root fetch - main [MainThread]: End processing [KaggleToDatabricks]: success
+[2023-05-12 09:15:17] INFO root fetch - processPackages [troposphere-awscommunity-applicationautoscaling-scheduledaction]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-05-12 09:15:18] INFO root fetch - processPackages [troposphere-awscommunity-applicationautoscaling-scheduledaction]: Downloading https://files.pythonhosted.org/packages/cb/08/a6e897a19055cf6c14e957f7110211c8dbb621d2f0dcfca64616fff83df4/troposphere_awscommunity_applicationautoscaling_scheduledaction-0.0.1.tar.gz
+[2023-05-12 09:15:18] INFO root fetch - processPackages [ykenan-fragments]: Start processing: icetcore
+[2023-05-12 09:15:18] INFO root fetch - main [MainThread]: End processing [ykenan-fragments]: success
+[2023-05-12 09:15:18] INFO root fetch - processPackages [confik]: Start processing: django-cloudspotlicense
+[2023-05-12 09:15:18] INFO root fetch - main [MainThread]: End processing [confik]: success
+[2023-05-12 09:15:18] INFO root fetch - processPackages [icetcore]: New version: [6.2.9] Old Version: [6.2.8]
+[2023-05-12 09:15:18] INFO root fetch - processPackages [django-cloudspotlicense]: New version: [5.4.0] Old Version: [5.3.0]
+[2023-05-12 09:15:18] ERROR root fetch - processPackages [troposphere-awscommunity-applicationautoscaling-scheduledaction]: Unable to fetch info: No such project/version 'troposphere-awscommunity-applicationautoscaling-scheduledaction' 0.1.0
+[2023-05-12 09:15:18] INFO root fetch - processPackages [troposphere-awscommunity-applicationautoscaling-scheduledaction]: Start processing: troposphere-awscommunity-applicationautoscaling-scheduledaction
+[2023-05-12 09:15:18] INFO root fetch - main [MainThread]: End processing [troposphere-awscommunity-applicationautoscaling-scheduledaction] error
+[2023-05-12 09:15:18] WARNING root fetch - processPackages [troposphere-awscommunity-applicationautoscaling-scheduledaction]: Skipping, unable to determine old version
+[2023-05-12 09:15:18] INFO root fetch - processPackages [icetcore]: Downloading https://files.pythonhosted.org/packages/f8/ec/f0b36a16e347cf6c52f5bd9080e2ceceb1ccbff1f5375cc02793f8a11f4c/icetcore-6.2.8-py3-none-any.whl
+[2023-05-12 09:15:18] INFO root fetch - processPackages [troposphere-awscommunity-applicationautoscaling-scheduledaction]: Start processing: pyecodevices
+[2023-05-12 09:15:18] INFO root fetch - main [MainThread]: End processing [troposphere-awscommunity-applicationautoscaling-scheduledaction] error
+[2023-05-12 09:15:18] INFO root fetch - processPackages [django-cloudspotlicense]: Downloading https://files.pythonhosted.org/packages/5d/33/8c76d1e4d9ae1c68a87ae32500134d929bb29e5c780f2da460d801d0b43c/django-cloudspotlicense-5.3.0.tar.gz
+[2023-05-12 09:15:18] INFO root fetch - processPackages [pyecodevices]: New version: [1.6.1] Old Version: [1.6.0]
+[2023-05-12 09:15:18] INFO root fetch - processPackages [edman-cli]: Start processing: google-sheet-downloader
+[2023-05-12 09:15:18] INFO root fetch - main [MainThread]: End processing [edman-cli]: success
+[2023-05-12 09:15:18] INFO root fetch - processPackages [icetcore]: Downloading https://files.pythonhosted.org/packages/d5/c1/b1e46c16d3b48d44f3a47abbcbfb5f271ccf897fec2a9a769d9698ea6533/icetcore-6.2.9.tar.gz
+[2023-05-12 09:15:18] INFO root fetch - processPackages [django-cloudspotlicense]: Downloading https://files.pythonhosted.org/packages/20/d0/a147303ac6e7e2ebe16fcfedd821366b9ccfde1d199a0befcbca6e08dba6/django-cloudspotlicense-5.4.0.tar.gz
+[2023-05-12 09:15:18] WARNING root fetch - processPackages [google-sheet-downloader]: Skipping, unable to determine old version
+[2023-05-12 09:15:18] INFO root fetch - processPackages [google-sheet-downloader]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-05-12 09:15:18] INFO root fetch - main [MainThread]: End processing [google-sheet-downloader] error
+[2023-05-12 09:15:18] INFO root fetch - processPackages [pyecodevices]: Downloading https://files.pythonhosted.org/packages/ff/b8/be174cc602b81aab42236867771c0a192539e9f459bac35f75a1b8ae8d0d/pyecodevices-1.6.0.tar.gz
+[2023-05-12 09:15:18] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-05-12 09:15:18] INFO root fetch - processPackages [django-cloudspotlicense]: executing diffoscope
+[2023-05-12 09:15:18] INFO root fetch - processPackages [django-cloudspotlicense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-cloudspotlicense-5.3.0.tar.gz tmp/django-cloudspotlicense-5.4.0.tar.gz --markdown 20230512/d/django-cloudspotlicense/5.3.0-5.4.0/diff.md --exclude *.pyd
+[2023-05-12 09:15:18] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-05-12 09:15:18] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230512/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-05-12 09:15:18] INFO root fetch - processPackages [spectrum-card]: Start processing: mynacode
+[2023-05-12 09:15:18] INFO root fetch - main [MainThread]: End processing [spectrum-card]: success
+[2023-05-12 09:15:18] INFO root fetch - processPackages [icetcore]: executing diffoscope
+[2023-05-12 09:15:18] INFO root fetch - processPackages [icetcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icetcore-6.2.8-py3-none-any.whl.zip tmp/icetcore-6.2.9.tar.gz --markdown 20230512/i/icetcore/6.2.8-6.2.9/diff.md --exclude *.pyd
+[2023-05-12 09:15:18] INFO root fetch - processPackages [h2o-wave]: Start processing: titan-iris
+[2023-05-12 09:15:18] INFO root fetch - main [MainThread]: End processing [h2o-wave]: success
+[2023-05-12 09:15:19] INFO root fetch - processPackages [titan-iris]: New version: [0.3.9a2] Old Version: [0.3.9a1]
+[2023-05-12 09:15:19] INFO root fetch - processPackages [pyecodevices]: Downloading https://files.pythonhosted.org/packages/01/5a/5e7859c357ed607f1537e1ceebacc455f396305c9775055b2429b4f77fb5/pyecodevices-1.6.1.tar.gz
+[2023-05-12 09:15:19] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-05-12 09:15:19] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-05-12 09:15:19] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.3.9a1.tar.gz tmp/titan-iris-0.3.9a2.tar.gz --markdown 20230512/t/titan-iris/0.3.9a1-0.3.9a2/diff.md --exclude *.pyd
+[2023-05-12 09:15:19] INFO root fetch - processPackages [pyecodevices]: executing diffoscope
+[2023-05-12 09:15:19] INFO root fetch - processPackages [pyecodevices]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyecodevices-1.6.0.tar.gz tmp/pyecodevices-1.6.1.tar.gz --markdown 20230512/p/pyecodevices/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2023-05-12 09:15:19] INFO root fetch - processPackages [WordsToPdfs]: Start processing: h2o-wave-university
+[2023-05-12 09:15:19] INFO root fetch - main [MainThread]: End processing [WordsToPdfs]: success
+[2023-05-12 09:15:19] INFO root fetch - processPackages [h2o-wave-university]: New version: [0.25.3] Old Version: [0.25.2]
+[2023-05-12 09:15:19] INFO root fetch - processPackages [cashfree-lrs-client]: Start processing: matplotlibs
+[2023-05-12 09:15:19] INFO root fetch - main [MainThread]: End processing [cashfree-lrs-client]: success
+[2023-05-12 09:15:19] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-05-12 09:15:19] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230512/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-05-12 09:15:19] INFO root fetch - processPackages [matplotlibs]: New version: [8.8.8.8] Old Version: [8.8.8.1]
+[2023-05-12 09:15:19] INFO root fetch - processPackages [supervisely]: Start processing: checksec-py
+[2023-05-12 09:15:19] INFO root fetch - main [MainThread]: End processing [supervisely]: success
+[2023-05-12 09:15:19] INFO root fetch - processPackages [h2o-wave-university]: Downloading https://files.pythonhosted.org/packages/0f/36/0a508ace41e58271f54f57a86544a2db7ae50f98163b74d174df13d1a1f4/h2o_wave_university-0.25.2-py3-none-any.whl
+[2023-05-12 09:15:19] WARNING root fetch - processPackages [h2o-wave-university]: Skipping package: exceeds size limit 12935854>=10485760
+[2023-05-12 09:15:19] INFO root fetch - processPackages [h2o-wave-university]: Start processing: h2o-lightwave
+[2023-05-12 09:15:19] INFO root fetch - main [MainThread]: End processing [h2o-wave-university] error
+[2023-05-12 09:15:19] INFO root fetch - processPackages [matplotlibs]: Downloading https://files.pythonhosted.org/packages/8f/ce/5e201fbd797754a6ddfb11d89cd7a196fbc1e11961659cc0a26e97c6e188/matplotlibs-8.8.8.1.tar.gz
+[2023-05-12 09:15:19] INFO root fetch - processPackages [checksec-py]: New version: [0.7.1] Old Version: [0.7]
+[2023-05-12 09:15:19] INFO root fetch - processPackages [h2o-lightwave]: New version: [0.25.3] Old Version: [0.25.2]
+[2023-05-12 09:15:20] INFO root fetch - processPackages [checksec-py]: Downloading https://files.pythonhosted.org/packages/f2/35/8c95eafcd828c4f5b728f117bb701cc882b393b8666568e43d211ccbeb05/checksec_py-0.7.tar.gz
+[2023-05-12 09:15:20] INFO root fetch - processPackages [matplotlibs]: Downloading https://files.pythonhosted.org/packages/ef/05/93623d0c515b4e70e68f5f19263411482701dba868a15c9aa0de575ba8d0/matplotlibs-8.8.8.8-py3-none-any.whl
+[2023-05-12 09:15:20] INFO root fetch - processPackages [h2o-lightwave]: Downloading https://files.pythonhosted.org/packages/bd/47/f19386931669e2015f022bbbd2f6b5ed3caf19bf58dae02d4b8684c1837c/h2o_lightwave-0.25.2-py3-none-any.whl
+[2023-05-12 09:15:20] INFO root fetch - processPackages [matplotlibs]: executing diffoscope
+[2023-05-12 09:15:20] INFO root fetch - processPackages [matplotlibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matplotlibs-8.8.8.1.tar.gz tmp/matplotlibs-8.8.8.8-py3-none-any.whl.zip --markdown 20230512/m/matplotlibs/8.8.8.1-8.8.8.8/diff.md --exclude *.pyd
+[2023-05-12 09:15:20] INFO root fetch - processPackages [django-cloudspotlicense]: Start processing: copernicus-marine-client
+[2023-05-12 09:15:20] INFO root fetch - main [MainThread]: End processing [django-cloudspotlicense]: success
+[2023-05-12 09:15:20] INFO root fetch - processPackages [copernicus-marine-client]: New version: [0.6.0] Old Version: [0.5.1]
+[2023-05-12 09:15:20] INFO root fetch - processPackages [copernicus-marine-client]: executing diffoscope
+[2023-05-12 09:15:20] INFO root fetch - processPackages [copernicus-marine-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/copernicus_marine_client-0.5.1.tar.gz tmp/copernicus_marine_client-0.6.0.tar.gz --markdown 20230512/c/copernicus-marine-client/0.5.1-0.6.0/diff.md --exclude *.pyd
+[2023-05-12 09:15:20] INFO root fetch - processPackages [checksec-py]: Downloading https://files.pythonhosted.org/packages/7a/32/f905c88fb8d280ad6165454be45f92c9363419ef2370c9d26eea71dfd738/checksec_py-0.7.1.tar.gz
+[2023-05-12 09:15:20] INFO root fetch - processPackages [h2o-lightwave]: Downloading https://files.pythonhosted.org/packages/5d/b9/7a2748ebc1254196e47a66b1d85a379373870f867871b34198937391b969/h2o_lightwave-0.25.3-py3-none-any.whl
+[2023-05-12 09:15:20] ERROR root fetch - processPackages [icetcore]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['zipinfo {}']' returned non-zero exit status 9.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 252, in compare_details
+    differences.extend(zipinfo_differences(self, other))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 127, in zipinfo_differences
+    zipinfo = Difference.from_operation(Zipinfo, file.path, other.path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid start byte
+
+[2023-05-12 09:15:20] INFO root fetch - main [MainThread]: End processing [icetcore] error
+[2023-05-12 09:15:20] INFO root fetch - processPackages [checksec-py]: executing diffoscope
+[2023-05-12 09:15:20] INFO root fetch - processPackages [checksec-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checksec_py-0.7.tar.gz tmp/checksec_py-0.7.1.tar.gz --markdown 20230512/c/checksec-py/0.7-0.7.1/diff.md --exclude *.pyd
+[2023-05-12 09:15:20] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-05-12 09:15:20] INFO root fetch - processPackages [h2o-lightwave]: executing diffoscope
+[2023-05-12 09:15:20] INFO root fetch - processPackages [h2o-lightwave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h2o_lightwave-0.25.2-py3-none-any.whl.zip tmp/h2o_lightwave-0.25.3-py3-none-any.whl.zip --markdown 20230512/h/h2o-lightwave/0.25.2-0.25.3/diff.md --exclude *.pyd
+[2023-05-12 09:15:21] INFO root fetch - main [MainThread]: End processing [pyecodevices]: success
+[2023-05-12 09:15:21] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-05-12 09:15:21] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-05-12 09:15:21] INFO root fetch - main [MainThread]: End processing [matplotlibs]: success
+[2023-05-12 09:15:22] INFO root fetch - main [MainThread]: End processing [checksec-py]: success
+[2023-05-12 09:15:22] INFO root fetch - main [MainThread]: End processing [h2o-lightwave]: success
+[2023-05-12 09:15:22] INFO root fetch - main [MainThread]: End processing [copernicus-marine-client]: success
+[2023-05-12 09:15:23] INFO root fetch - main [MainThread]: End processing [clophfit]: success
+[2023-05-12 09:15:23] INFO root fetch - main [MainThread]: Store serial: [18074415]
