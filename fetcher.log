@@ -9110,3 +9110,77 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-12 12:26:53] INFO root fetch - main [MainThread]: End processing [event-vision-library]: success
 [2023-05-12 12:26:56] INFO root fetch - main [MainThread]: End processing [ucam-identitylib]: success
 [2023-05-12 12:26:56] INFO root fetch - main [MainThread]: Store serial: [18076601]
+[2023-05-12 12:32:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18076601]
+[2023-05-12 12:32:05] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-12 12:32:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: puffy
+[2023-05-12 12:32:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lbsnstructure
+[2023-05-12 12:32:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pimoroni-encoderwheel
+[2023-05-12 12:32:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ar-site-maker
+[2023-05-12 12:32:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: isystem.connect
+[2023-05-12 12:32:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: h5parm
+[2023-05-12 12:32:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: single-char-counter-by-ng
+[2023-05-12 12:32:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qontract-reconcile
+[2023-05-12 12:32:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lbt-honeybee
+[2023-05-12 12:32:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Python-SPM
+[2023-05-12 12:32:05] WARNING root fetch - processPackages [single-char-counter-by-ng]: Skipping, unable to determine old version
+[2023-05-12 12:32:05] INFO root fetch - processPackages [single-char-counter-by-ng]: Start processing: odp-sdk-python-ingest
+[2023-05-12 12:32:05] INFO root fetch - main [MainThread]: End processing [single-char-counter-by-ng] error
+[2023-05-12 12:32:05] INFO root fetch - processPackages [h5parm]: New version: [1.0.0] Old Version: [0.0.9]
+[2023-05-12 12:32:05] WARNING root fetch - processPackages [ar-site-maker]: Skipping, unable to determine old version
+[2023-05-12 12:32:05] INFO root fetch - processPackages [ar-site-maker]: Start processing: fast-bf
+[2023-05-12 12:32:05] INFO root fetch - processPackages [odp-sdk-python-ingest]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-05-12 12:32:05] INFO root fetch - main [MainThread]: End processing [ar-site-maker] error
+[2023-05-12 12:32:05] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-05-12 12:32:05] INFO root fetch - processPackages [lbt-honeybee]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-05-12 12:32:05] INFO root fetch - processPackages [fast-bf]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-12 12:32:05] WARNING root fetch - processPackages [pimoroni-encoderwheel]: Skipping, unable to determine old version
+[2023-05-12 12:32:05] INFO root fetch - processPackages [pimoroni-encoderwheel]: Start processing: Semicolonizer
+[2023-05-12 12:32:05] INFO root fetch - processPackages [puffy]: New version: [0.3.4] Old Version: [0.3.0]
+[2023-05-12 12:32:05] INFO root fetch - main [MainThread]: End processing [pimoroni-encoderwheel] error
+[2023-05-12 12:32:05] INFO root fetch - processPackages [lbsnstructure]: New version: [1.1.0] Old Version: [1.0.3]
+[2023-05-12 12:32:05] WARNING root fetch - processPackages [Python-SPM]: Skipping, unable to determine old version
+[2023-05-12 12:32:05] INFO root fetch - processPackages [Python-SPM]: Start processing: blackboxopt
+[2023-05-12 12:32:05] INFO root fetch - main [MainThread]: End processing [Python-SPM] error
+[2023-05-12 12:32:05] WARNING root fetch - processPackages [Semicolonizer]: Skipping, unable to determine old version
+[2023-05-12 12:32:05] INFO root fetch - processPackages [Semicolonizer]: Start processing: flask-management
+[2023-05-12 12:32:05] INFO root fetch - main [MainThread]: End processing [Semicolonizer] error
+[2023-05-12 12:32:05] INFO root fetch - processPackages [h5parm]: executing diffoscope
+[2023-05-12 12:32:05] INFO root fetch - processPackages [h5parm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h5parm-0.0.9.tar.gz tmp/h5parm-1.0.0.tar.gz --markdown 20230512/h/h5parm/0.0.9-1.0.0/diff.md --exclude *.pyd
+[2023-05-12 12:32:05] INFO root fetch - processPackages [isystem.connect]: New version: [9.21.99.0] Old Version: [9.21.98.0]
+[2023-05-12 12:32:05] INFO root fetch - processPackages [fast-bf]: executing diffoscope
+[2023-05-12 12:32:05] INFO root fetch - processPackages [fast-bf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast-bf-1.0.0.tar.gz tmp/fast-bf-1.0.1.tar.gz --markdown 20230512/f/fast-bf/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-12 12:32:05] INFO root fetch - processPackages [odp-sdk-python-ingest]: executing diffoscope
+[2023-05-12 12:32:05] INFO root fetch - processPackages [odp-sdk-python-ingest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odp_sdk_python_ingest-0.3.1.tar.gz tmp/odp_sdk_python_ingest-0.4.0.tar.gz --markdown 20230512/o/odp-sdk-python-ingest/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-05-12 12:32:05] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-05-12 12:32:05] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230512/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-05-12 12:32:05] WARNING root fetch - processPackages [flask-management]: Skipping, unable to determine old version
+[2023-05-12 12:32:05] INFO root fetch - main [MainThread]: End processing [flask-management] error
+[2023-05-12 12:32:05] INFO root fetch - processPackages [blackboxopt]: New version: [4.9.1] Old Version: [4.9.0]
+[2023-05-12 12:32:05] INFO root fetch - processPackages [lbsnstructure]: Downloading https://files.pythonhosted.org/packages/36/8c/8743a0ccfb513b62a89acf077e32f07f6cc4d6fd661f273c579c6d2636cc/lbsnstructure-1.0.3.tar.gz
+[2023-05-12 12:32:05] INFO root fetch - processPackages [puffy]: Downloading https://files.pythonhosted.org/packages/57/f0/d5354881f25843ed2bafb501c46a32af399c00fa9f36de76d506ebfe2c81/puffy-0.3.0.tar.gz
+[2023-05-12 12:32:05] INFO root fetch - processPackages [isystem.connect]: Downloading https://files.pythonhosted.org/packages/5d/9f/30b1143a09e60e7a4ac2753bf53d1a1dd6b6de276c7b3b3141d9acc535c7/isystem.connect-9.21.98.0-cp39-none-win_amd64.whl
+[2023-05-12 12:32:05] INFO root fetch - processPackages [blackboxopt]: Downloading https://files.pythonhosted.org/packages/05/d3/dcdd6db90f01688a0d2e1aaa801a905a114698eabb38fb0fc9d64cb4ae6f/blackboxopt-4.9.0.tar.gz
+[2023-05-12 12:32:05] INFO root fetch - processPackages [lbt-honeybee]: executing diffoscope
+[2023-05-12 12:32:05] INFO root fetch - processPackages [lbt-honeybee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-honeybee-0.7.98.tar.gz tmp/lbt-honeybee-0.7.99.tar.gz --markdown 20230512/l/lbt-honeybee/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-05-12 12:32:05] INFO root fetch - processPackages [lbsnstructure]: Downloading https://files.pythonhosted.org/packages/19/ec/4bde839f09bc261803084ad00e980bc23b8f5e084eab6610b87193a5653d/lbsnstructure-1.1.0.tar.gz
+[2023-05-12 12:32:05] INFO root fetch - processPackages [puffy]: Downloading https://files.pythonhosted.org/packages/e3/ea/9f0f3313fd714b5bbcdb725983b5714a8b5b0b38313bcee926bc277a6a27/puffy-0.3.4.tar.gz
+[2023-05-12 12:32:05] INFO root fetch - processPackages [lbsnstructure]: executing diffoscope
+[2023-05-12 12:32:05] INFO root fetch - processPackages [lbsnstructure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbsnstructure-1.0.3.tar.gz tmp/lbsnstructure-1.1.0.tar.gz --markdown 20230512/l/lbsnstructure/1.0.3-1.1.0/diff.md --exclude *.pyd
+[2023-05-12 12:32:05] INFO root fetch - processPackages [blackboxopt]: Downloading https://files.pythonhosted.org/packages/49/10/8778a9fdf199408eac6823ba263f2add1d3b75175f56b5a76ea1922b4872/blackboxopt-4.9.1.tar.gz
+[2023-05-12 12:32:06] INFO root fetch - processPackages [puffy]: executing diffoscope
+[2023-05-12 12:32:06] INFO root fetch - processPackages [puffy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/puffy-0.3.0.tar.gz tmp/puffy-0.3.4.tar.gz --markdown 20230512/p/puffy/0.3.0-0.3.4/diff.md --exclude *.pyd
+[2023-05-12 12:32:06] INFO root fetch - processPackages [blackboxopt]: executing diffoscope
+[2023-05-12 12:32:06] INFO root fetch - processPackages [blackboxopt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blackboxopt-4.9.0.tar.gz tmp/blackboxopt-4.9.1.tar.gz --markdown 20230512/b/blackboxopt/4.9.0-4.9.1/diff.md --exclude *.pyd
+[2023-05-12 12:32:06] INFO root fetch - main [MainThread]: End processing [fast-bf]: success
+[2023-05-12 12:32:07] INFO root fetch - main [MainThread]: End processing [lbt-honeybee]: success
+[2023-05-12 12:32:07] INFO root fetch - main [MainThread]: End processing [lbsnstructure]: success
+[2023-05-12 12:32:07] INFO root fetch - main [MainThread]: End processing [h5parm]: success
+[2023-05-12 12:32:07] INFO root fetch - processPackages [isystem.connect]: Downloading https://files.pythonhosted.org/packages/27/b1/d981879b837518117ae5b16714ad63be1c2b0214805deb0eac63c5cd22f9/isystem.connect-9.21.99.0-cp39-none-win_amd64.whl
+[2023-05-12 12:32:07] INFO root fetch - main [MainThread]: End processing [blackboxopt]: success
+[2023-05-12 12:32:07] INFO root fetch - main [MainThread]: End processing [puffy]: success
+[2023-05-12 12:32:07] INFO root fetch - main [MainThread]: End processing [odp-sdk-python-ingest]: success
+[2023-05-12 12:32:08] INFO root fetch - processPackages [isystem.connect]: executing diffoscope
+[2023-05-12 12:32:08] INFO root fetch - processPackages [isystem.connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/isystem.connect-9.21.98.0-cp39-none-win_amd64.whl.zip tmp/isystem.connect-9.21.99.0-cp39-none-win_amd64.whl.zip --markdown 20230512/i/isystem.connect/9.21.98.0-9.21.99.0/diff.md --exclude *.pyd
+[2023-05-12 12:32:10] INFO root fetch - main [MainThread]: End processing [isystem.connect]: success
+[2023-05-12 12:32:12] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-05-12 12:32:12] INFO root fetch - main [MainThread]: Store serial: [18076657]
