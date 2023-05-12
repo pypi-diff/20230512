@@ -7057,3 +7057,108 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-12 10:22:35] INFO root fetch - main [MainThread]: End processing [base-system]: success
 [2023-05-12 10:22:36] INFO root fetch - main [MainThread]: End processing [snews-pt]: success
 [2023-05-12 10:22:36] INFO root fetch - main [MainThread]: Store serial: [18075267]
+[2023-05-12 10:27:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18075267]
+[2023-05-12 10:27:45] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-12 10:27:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chrislab
+[2023-05-12 10:27:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: capellambse
+[2023-05-12 10:27:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: antchain-defincashier
+[2023-05-12 10:27:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: twitter-api-py
+[2023-05-12 10:27:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: asimov-gwdata
+[2023-05-12 10:27:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nanoprep-ffm
+[2023-05-12 10:27:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Products.MeetingLalouviere
+[2023-05-12 10:27:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lusid-notifications-sdk-preview
+[2023-05-12 10:27:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pixelbin
+[2023-05-12 10:27:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lasttestwal1khdsahdhshahf
+[2023-05-12 10:27:45] INFO root fetch - processPackages [antchain-defincashier]: New version: [1.1.0] Old Version: [1.0.5]
+[2023-05-12 10:27:45] INFO root fetch - processPackages [chrislab]: New version: [0.5.0a1] Old Version: [0.4.4]
+[2023-05-12 10:27:45] INFO root fetch - processPackages [nanoprep-ffm]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 10:27:45] INFO root fetch - processPackages [pixelbin]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-05-12 10:27:45] INFO root fetch - processPackages [asimov-gwdata]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-12 10:27:45] WARNING root fetch - processPackages [lasttestwal1khdsahdhshahf]: Skipping, unable to determine old version
+[2023-05-12 10:27:45] INFO root fetch - processPackages [twitter-api-py]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-12 10:27:45] INFO root fetch - processPackages [lasttestwal1khdsahdhshahf]: Start processing: nucliadb-contributor-assets
+[2023-05-12 10:27:45] INFO root fetch - main [MainThread]: End processing [lasttestwal1khdsahdhshahf] error
+[2023-05-12 10:27:45] INFO root fetch - processPackages [Products.MeetingLalouviere]: New version: [4.2.2] Old Version: [4.2.1]
+[2023-05-12 10:27:45] INFO root fetch - processPackages [capellambse]: New version: [0.5.9.dev5] Old Version: [0.5.9]
+[2023-05-12 10:27:45] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: New version: [0.1.668] Old Version: [0.1.664]
+[2023-05-12 10:27:45] INFO root fetch - processPackages [nucliadb-contributor-assets]: New version: [1.0.0.post767] Old Version: [1.0.0.post760]
+[2023-05-12 10:27:45] INFO root fetch - processPackages [twitter-api-py]: executing diffoscope
+[2023-05-12 10:27:45] INFO root fetch - processPackages [twitter-api-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twitter_api_py-0.4.8.tar.gz tmp/twitter_api_py-0.4.9.tar.gz --markdown 20230512/t/twitter-api-py/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-05-12 10:27:45] INFO root fetch - processPackages [nanoprep-ffm]: executing diffoscope
+[2023-05-12 10:27:45] INFO root fetch - processPackages [nanoprep-ffm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanoprep-ffm-0.0.8.tar.gz tmp/nanoprep-ffm-0.0.9.tar.gz --markdown 20230512/n/nanoprep-ffm/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 10:27:45] INFO root fetch - processPackages [antchain-defincashier]: Downloading https://files.pythonhosted.org/packages/2f/a5/629d40ca85c31c3b13b193d8a6cf6f434d9fe6301e45d2422b0d44453a64/antchain_defincashier-1.0.5.tar.gz
+[2023-05-12 10:27:45] INFO root fetch - processPackages [asimov-gwdata]: Downloading https://files.pythonhosted.org/packages/01/18/58c72c951c4fd36eb7ae46f51fa41697b0144154e0f21d6ca8a534b65bd1/asimov-gwdata-0.1.3.tar.gz
+[2023-05-12 10:27:45] INFO root fetch - processPackages [pixelbin]: Downloading https://files.pythonhosted.org/packages/c7/92/cde1345171cb61cfdd7328c0eea498582863245c2e773eac178423146733/pixelbin-2.1.0.tar.gz
+[2023-05-12 10:27:45] INFO root fetch - processPackages [chrislab]: Downloading https://files.pythonhosted.org/packages/c9/82/302f8a1b1ebf1a5e7ab48de0fa300c44b29dd4ca7505d0feb6b6ae636335/chrislab-0.5.0a1.tar.gz
+[2023-05-12 10:27:45] INFO root fetch - processPackages [Products.MeetingLalouviere]: Downloading https://files.pythonhosted.org/packages/b9/66/f554067c1fdcee87c81c70898a14ef0ae4e462e9d82e1d65598b2d0a2002/Products.MeetingLalouviere-4.2.1.tar.gz
+[2023-05-12 10:27:45] INFO root fetch - processPackages [chrislab]: executing diffoscope
+[2023-05-12 10:27:45] INFO root fetch - processPackages [chrislab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chrislab-0.4.4.tar.gz tmp/chrislab-0.5.0a1.tar.gz --markdown 20230512/c/chrislab/0.4.4-0.5.0a1/diff.md --exclude *.pyd
+[2023-05-12 10:27:46] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Downloading https://files.pythonhosted.org/packages/ae/43/b6b758d719ad0b3da0ec57a01bfac6f4f1f3a5e39e6875561f53ed03e4d4/lusid-notifications-sdk-preview-0.1.668.tar.gz
+[2023-05-12 10:27:46] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/43/40/05682c4cd447e5095e2c569253c56bbbe572fc4f2675fe6a3fa804d0dfad/nucliadb_contributor_assets-1.0.0.post767-py3-none-any.whl
+[2023-05-12 10:27:46] INFO root fetch - processPackages [pixelbin]: Downloading https://files.pythonhosted.org/packages/18/01/13aab2ea4d9d873b4811379f18660e9c328b7c9a64043a0645b5281bb67e/pixelbin-2.1.1.tar.gz
+[2023-05-12 10:27:46] INFO root fetch - processPackages [asimov-gwdata]: Downloading https://files.pythonhosted.org/packages/0f/df/5b0cdf2d588c746e58984ec47584774695b0cfe8b3884ad75c994204713b/asimov-gwdata-0.1.4.tar.gz
+[2023-05-12 10:27:46] INFO root fetch - processPackages [capellambse]: executing diffoscope
+[2023-05-12 10:27:46] INFO root fetch - processPackages [capellambse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capellambse-0.5.9.tar.gz tmp/capellambse-0.5.9.dev5.tar.gz --markdown 20230512/c/capellambse/0.5.9-0.5.9.dev5/diff.md --exclude *.pyd
+[2023-05-12 10:27:46] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: executing diffoscope
+[2023-05-12 10:27:46] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-notifications-sdk-preview-0.1.664.tar.gz tmp/lusid-notifications-sdk-preview-0.1.668.tar.gz --markdown 20230512/l/lusid-notifications-sdk-preview/0.1.664-0.1.668/diff.md --exclude *.pyd
+[2023-05-12 10:27:46] INFO root fetch - processPackages [antchain-defincashier]: Downloading https://files.pythonhosted.org/packages/6e/c2/b754ab15fcb5374997b7c73982b319fbdf46cf56b2cdb33ca291b2dc980d/antchain_defincashier-1.1.0.tar.gz
+[2023-05-12 10:27:46] INFO root fetch - processPackages [Products.MeetingLalouviere]: Downloading https://files.pythonhosted.org/packages/9d/20/f9773340dadaa4ec3c9222a89380a9b34bf4dfbba113634f6f8d519ebdc6/Products.MeetingLalouviere-4.2.2.tar.gz
+[2023-05-12 10:27:46] INFO root fetch - processPackages [pixelbin]: executing diffoscope
+[2023-05-12 10:27:46] INFO root fetch - processPackages [pixelbin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pixelbin-2.1.0.tar.gz tmp/pixelbin-2.1.1.tar.gz --markdown 20230512/p/pixelbin/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-05-12 10:27:46] INFO root fetch - processPackages [asimov-gwdata]: executing diffoscope
+[2023-05-12 10:27:46] INFO root fetch - processPackages [asimov-gwdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asimov-gwdata-0.1.3.tar.gz tmp/asimov-gwdata-0.1.4.tar.gz --markdown 20230512/a/asimov-gwdata/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-12 10:27:46] INFO root fetch - processPackages [antchain-defincashier]: executing diffoscope
+[2023-05-12 10:27:46] INFO root fetch - processPackages [antchain-defincashier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_defincashier-1.0.5.tar.gz tmp/antchain_defincashier-1.1.0.tar.gz --markdown 20230512/a/antchain-defincashier/1.0.5-1.1.0/diff.md --exclude *.pyd
+[2023-05-12 10:27:46] INFO root fetch - processPackages [Products.MeetingLalouviere]: executing diffoscope
+[2023-05-12 10:27:46] INFO root fetch - processPackages [Products.MeetingLalouviere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Products.MeetingLalouviere-4.2.1.tar.gz tmp/Products.MeetingLalouviere-4.2.2.tar.gz --markdown 20230512/P/Products.MeetingLalouviere/4.2.1-4.2.2/diff.md --exclude *.pyd
+[2023-05-12 10:27:46] INFO root fetch - processPackages [nucliadb-contributor-assets]: executing diffoscope
+[2023-05-12 10:27:46] INFO root fetch - processPackages [nucliadb-contributor-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_contributor_assets-1.0.0.post760-py3-none-any.whl.zip tmp/nucliadb_contributor_assets-1.0.0.post767-py3-none-any.whl.zip --markdown 20230512/n/nucliadb-contributor-assets/1.0.0.post760-1.0.0.post767/diff.md --exclude *.pyd
+[2023-05-12 10:27:47] INFO root fetch - processPackages [nanoprep-ffm]: Start processing: fast-bf
+[2023-05-12 10:27:47] INFO root fetch - main [MainThread]: End processing [nanoprep-ffm]: success
+[2023-05-12 10:27:47] WARNING root fetch - processPackages [fast-bf]: Skipping, unable to determine old version
+[2023-05-12 10:27:47] INFO root fetch - processPackages [fast-bf]: Start processing: objc-types-decoder
+[2023-05-12 10:27:47] INFO root fetch - main [MainThread]: End processing [fast-bf] error
+[2023-05-12 10:27:47] INFO root fetch - processPackages [objc-types-decoder]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-12 10:27:47] INFO root fetch - processPackages [antchain-defincashier]: Start processing: django-e2ee-framework
+[2023-05-12 10:27:47] INFO root fetch - main [MainThread]: End processing [antchain-defincashier]: success
+[2023-05-12 10:27:47] WARNING root fetch - processPackages [django-e2ee-framework]: Skipping, unable to determine old version
+[2023-05-12 10:27:47] INFO root fetch - processPackages [django-e2ee-framework]: Start processing: AutoFun
+[2023-05-12 10:27:47] INFO root fetch - main [MainThread]: End processing [django-e2ee-framework] error
+[2023-05-12 10:27:47] INFO root fetch - processPackages [AutoFun]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-05-12 10:27:47] INFO root fetch - processPackages [asimov-gwdata]: Start processing: pm-food-lib
+[2023-05-12 10:27:47] INFO root fetch - main [MainThread]: End processing [asimov-gwdata]: success
+[2023-05-12 10:27:47] INFO root fetch - processPackages [pm-food-lib]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-05-12 10:27:48] INFO root fetch - processPackages [objc-types-decoder]: Downloading https://files.pythonhosted.org/packages/aa/dd/b289823fefd51943b4f6f6da2b7a08a5ce289c398ba0407d0308020e4730/objc_types_decoder-0.0.4.tar.gz
+[2023-05-12 10:27:48] INFO root fetch - processPackages [AutoFun]: Downloading https://files.pythonhosted.org/packages/4e/36/9fcc2aa0a7cb348aba512865a4dc2688a78216e0f76e9550e19ccafc1622/AutoFun-0.3.3.tar.gz
+[2023-05-12 10:27:48] INFO root fetch - processPackages [pm-food-lib]: Downloading https://files.pythonhosted.org/packages/6d/91/d710344649e58867657e993745bf82a123205ed55a2e875cba52f53f9dcd/pm_food_lib-0.2.4.tar.gz
+[2023-05-12 10:27:48] INFO root fetch - processPackages [chrislab]: Start processing: azure-mgmt-machinelearningservices
+[2023-05-12 10:27:48] INFO root fetch - main [MainThread]: End processing [chrislab]: success
+[2023-05-12 10:27:48] INFO root fetch - processPackages [AutoFun]: executing diffoscope
+[2023-05-12 10:27:48] INFO root fetch - processPackages [AutoFun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AutoFun-0.3.2.tar.gz tmp/AutoFun-0.3.3.tar.gz --markdown 20230512/A/AutoFun/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-05-12 10:27:48] INFO root fetch - processPackages [azure-mgmt-machinelearningservices]: New version: [2.0.0b2] Old Version: [2.0.0b1]
+[2023-05-12 10:27:48] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Start processing: mmcb-avt
+[2023-05-12 10:27:48] INFO root fetch - main [MainThread]: End processing [lusid-notifications-sdk-preview]: success
+[2023-05-12 10:27:48] INFO root fetch - processPackages [objc-types-decoder]: Downloading https://files.pythonhosted.org/packages/5c/d1/5eee97966da549b0fd48504ddedc8fb26a647e7d5bedde43769a512e58c2/objc_types_decoder-0.0.5.tar.gz
+[2023-05-12 10:27:48] INFO root fetch - processPackages [mmcb-avt]: New version: [0.0.85] Old Version: [0.0.84]
+[2023-05-12 10:27:48] INFO root fetch - processPackages [pm-food-lib]: Downloading https://files.pythonhosted.org/packages/de/f3/248a0862bd76288ca6eb0d094174517c828d9bcc0ecee6cc1ae9b5a82e4d/pm_food_lib-0.2.5.tar.gz
+[2023-05-12 10:27:48] INFO root fetch - processPackages [pm-food-lib]: executing diffoscope
+[2023-05-12 10:27:48] INFO root fetch - processPackages [pm-food-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pm_food_lib-0.2.4.tar.gz tmp/pm_food_lib-0.2.5.tar.gz --markdown 20230512/p/pm-food-lib/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-05-12 10:27:48] INFO root fetch - processPackages [mmcb-avt]: executing diffoscope
+[2023-05-12 10:27:48] INFO root fetch - processPackages [mmcb-avt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mmcb-avt-0.0.84.tar.gz tmp/mmcb-avt-0.0.85.tar.gz --markdown 20230512/m/mmcb-avt/0.0.84-0.0.85/diff.md --exclude *.pyd
+[2023-05-12 10:27:48] INFO root fetch - processPackages [azure-mgmt-machinelearningservices]: Downloading https://files.pythonhosted.org/packages/73/bc/cb2e7422995bac3b5996438532955e8936268c437534b57b769b324bfa8b/azure-mgmt-machinelearningservices-2.0.0b1.zip
+[2023-05-12 10:27:48] INFO root fetch - processPackages [objc-types-decoder]: executing diffoscope
+[2023-05-12 10:27:48] INFO root fetch - processPackages [objc-types-decoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/objc_types_decoder-0.0.4.tar.gz tmp/objc_types_decoder-0.0.5.tar.gz --markdown 20230512/o/objc-types-decoder/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-12 10:27:48] INFO root fetch - main [MainThread]: End processing [pixelbin]: success
+[2023-05-12 10:27:48] INFO root fetch - processPackages [azure-mgmt-machinelearningservices]: Downloading https://files.pythonhosted.org/packages/14/69/066eb3ed660ce969bebe2c1bd72e2bb04362fac6faa8a291d832b5acf10e/azure-mgmt-machinelearningservices-2.0.0b2.zip
+[2023-05-12 10:27:49] INFO root fetch - processPackages [azure-mgmt-machinelearningservices]: executing diffoscope
+[2023-05-12 10:27:49] INFO root fetch - processPackages [azure-mgmt-machinelearningservices]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-mgmt-machinelearningservices-2.0.0b1.zip tmp/azure-mgmt-machinelearningservices-2.0.0b2.zip --markdown 20230512/a/azure-mgmt-machinelearningservices/2.0.0b1-2.0.0b2/diff.md --exclude *.pyd
+[2023-05-12 10:27:49] INFO root fetch - main [MainThread]: End processing [AutoFun]: success
+[2023-05-12 10:27:49] INFO root fetch - main [MainThread]: End processing [pm-food-lib]: success
+[2023-05-12 10:27:50] INFO root fetch - main [MainThread]: End processing [mmcb-avt]: success
+[2023-05-12 10:27:50] INFO root fetch - main [MainThread]: End processing [objc-types-decoder]: success
+[2023-05-12 10:27:50] INFO root fetch - main [MainThread]: End processing [twitter-api-py]: success
+[2023-05-12 10:27:50] INFO root fetch - main [MainThread]: End processing [Products.MeetingLalouviere]: success
+[2023-05-12 10:27:53] INFO root fetch - main [MainThread]: End processing [azure-mgmt-machinelearningservices]: success
+[2023-05-12 10:27:54] INFO root fetch - main [MainThread]: End processing [capellambse]: success
+[2023-05-12 10:28:01] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
+[2023-05-12 10:28:01] INFO root fetch - main [MainThread]: Store serial: [18075320]
