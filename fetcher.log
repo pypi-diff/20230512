@@ -2865,3 +2865,137 @@
 [2023-05-12 04:36:22] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-iot]: success
 [2023-05-12 04:36:34] INFO root fetch - main [MainThread]: End processing [py4web]: success
 [2023-05-12 04:36:34] INFO root fetch - main [MainThread]: Store serial: [18072448]
+[2023-05-12 04:41:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18072448]
+[2023-05-12 04:41:43] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-05-12 04:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: picachooser
+[2023-05-12 04:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aws-prototyping-sdk.cloudscape-react-ts-website
+[2023-05-12 04:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gitbetter
+[2023-05-12 04:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tencentcloud-sdk-python-iotexplorer
+[2023-05-12 04:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aws-prototyping-sdk.identity
+[2023-05-12 04:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tencentcloud-sdk-python-iottid
+[2023-05-12 04:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aws-prototyping-sdk.nx-monorepo
+[2023-05-12 04:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tencentcloud-sdk-python-iotvideo
+[2023-05-12 04:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aws-prototyping-sdk.open-api-gateway
+[2023-05-12 04:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tencentcloud-sdk-python-iotvideoindustry
+[2023-05-12 04:41:43] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-12 04:41:43] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-12 04:41:43] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-12 04:41:43] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-12 04:41:43] INFO root fetch - processPackages [tencentcloud-sdk-python-iottid]: New version: [3.0.889] Old Version: [3.0.888]
+[2023-05-12 04:41:43] INFO root fetch - processPackages [tencentcloud-sdk-python-iotexplorer]: New version: [3.0.889] Old Version: [3.0.888]
+[2023-05-12 04:41:43] INFO root fetch - processPackages [tencentcloud-sdk-python-iotvideoindustry]: New version: [3.0.889] Old Version: [3.0.888]
+[2023-05-12 04:41:43] INFO root fetch - processPackages [tencentcloud-sdk-python-iotvideo]: New version: [3.0.889] Old Version: [3.0.888]
+[2023-05-12 04:41:44] INFO root fetch - processPackages [picachooser]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-05-12 04:41:44] INFO root fetch - processPackages [gitbetter]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-05-12 04:41:44] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: executing diffoscope
+[2023-05-12 04:41:44] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.open_api_gateway-0.9.3.tar.gz tmp/aws_prototyping_sdk.open_api_gateway-0.9.4.tar.gz --markdown 20230512/a/aws-prototyping-sdk.open-api-gateway/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-12 04:41:44] INFO root fetch - processPackages [tencentcloud-sdk-python-iottid]: executing diffoscope
+[2023-05-12 04:41:44] INFO root fetch - processPackages [tencentcloud-sdk-python-iottid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-iottid-3.0.888.tar.gz tmp/tencentcloud-sdk-python-iottid-3.0.889.tar.gz --markdown 20230512/t/tencentcloud-sdk-python-iottid/3.0.888-3.0.889/diff.md --exclude *.pyd
+[2023-05-12 04:41:44] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: executing diffoscope
+[2023-05-12 04:41:44] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: executing diffoscope
+[2023-05-12 04:41:44] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.identity-0.9.3.tar.gz tmp/aws_prototyping_sdk.identity-0.9.4.tar.gz --markdown 20230512/a/aws-prototyping-sdk.identity/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-12 04:41:44] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.3.tar.gz tmp/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.4.tar.gz --markdown 20230512/a/aws-prototyping-sdk.cloudscape-react-ts-website/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-12 04:41:44] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: executing diffoscope
+[2023-05-12 04:41:44] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.nx_monorepo-0.9.3.tar.gz tmp/aws_prototyping_sdk.nx_monorepo-0.9.4.tar.gz --markdown 20230512/a/aws-prototyping-sdk.nx-monorepo/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-12 04:41:44] INFO root fetch - processPackages [tencentcloud-sdk-python-iotvideoindustry]: executing diffoscope
+[2023-05-12 04:41:44] INFO root fetch - processPackages [tencentcloud-sdk-python-iotvideoindustry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-iotvideoindustry-3.0.888.tar.gz tmp/tencentcloud-sdk-python-iotvideoindustry-3.0.889.tar.gz --markdown 20230512/t/tencentcloud-sdk-python-iotvideoindustry/3.0.888-3.0.889/diff.md --exclude *.pyd
+[2023-05-12 04:41:44] INFO root fetch - processPackages [tencentcloud-sdk-python-iotexplorer]: executing diffoscope
+[2023-05-12 04:41:44] INFO root fetch - processPackages [tencentcloud-sdk-python-iotexplorer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-iotexplorer-3.0.888.tar.gz tmp/tencentcloud-sdk-python-iotexplorer-3.0.889.tar.gz --markdown 20230512/t/tencentcloud-sdk-python-iotexplorer/3.0.888-3.0.889/diff.md --exclude *.pyd
+[2023-05-12 04:41:44] INFO root fetch - processPackages [tencentcloud-sdk-python-iotvideo]: executing diffoscope
+[2023-05-12 04:41:44] INFO root fetch - processPackages [tencentcloud-sdk-python-iotvideo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-iotvideo-3.0.888.tar.gz tmp/tencentcloud-sdk-python-iotvideo-3.0.889.tar.gz --markdown 20230512/t/tencentcloud-sdk-python-iotvideo/3.0.888-3.0.889/diff.md --exclude *.pyd
+[2023-05-12 04:41:44] INFO root fetch - processPackages [gitbetter]: Downloading https://files.pythonhosted.org/packages/89/56/98ce654e09b631a84c44d46e022eab6f05707d4455160adbdb64518cf6e3/gitbetter-0.4.0.tar.gz
+[2023-05-12 04:41:44] INFO root fetch - processPackages [picachooser]: Downloading https://files.pythonhosted.org/packages/dd/9d/96dec9363b2c3f868a66a9fc3d373ae7bb6c37840582e94052c5b8e7e002/picachooser-1.4.1.tar.gz
+[2023-05-12 04:41:44] INFO root fetch - processPackages [picachooser]: Downloading https://files.pythonhosted.org/packages/36/f3/841c145e68fa2a854df1a551302ae9eb163a07a6eafab7b931940379ca37/picachooser-1.4.2.tar.gz
+[2023-05-12 04:41:44] INFO root fetch - processPackages [gitbetter]: Downloading https://files.pythonhosted.org/packages/b6/21/323b44a2c6f5391824a024704b98d693646e3dec0f533c8c52909b960e8f/gitbetter-0.5.0.tar.gz
+[2023-05-12 04:41:44] INFO root fetch - processPackages [picachooser]: executing diffoscope
+[2023-05-12 04:41:44] INFO root fetch - processPackages [picachooser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picachooser-1.4.1.tar.gz tmp/picachooser-1.4.2.tar.gz --markdown 20230512/p/picachooser/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-05-12 04:41:44] INFO root fetch - processPackages [gitbetter]: executing diffoscope
+[2023-05-12 04:41:44] INFO root fetch - processPackages [gitbetter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitbetter-0.4.0.tar.gz tmp/gitbetter-0.5.0.tar.gz --markdown 20230512/g/gitbetter/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-05-12 04:41:45] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: Start processing: aws-prototyping-sdk.pdk-nag
+[2023-05-12 04:41:45] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.identity]: success
+[2023-05-12 04:41:45] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-12 04:41:45] INFO root fetch - processPackages [tencentcloud-sdk-python-iottid]: Start processing: aocref
+[2023-05-12 04:41:45] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-iottid]: success
+[2023-05-12 04:41:46] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: Start processing: tencentcloud-sdk-python-irp
+[2023-05-12 04:41:46] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.open-api-gateway]: success
+[2023-05-12 04:41:46] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: executing diffoscope
+[2023-05-12 04:41:46] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.pdk_nag-0.9.3.tar.gz tmp/aws_prototyping_sdk.pdk_nag-0.9.4.tar.gz --markdown 20230512/a/aws-prototyping-sdk.pdk-nag/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-12 04:41:46] INFO root fetch - processPackages [tencentcloud-sdk-python-irp]: New version: [3.0.889] Old Version: [3.0.888]
+[2023-05-12 04:41:46] INFO root fetch - processPackages [tencentcloud-sdk-python-iotvideoindustry]: Start processing: aws-prototyping-sdk.pipeline
+[2023-05-12 04:41:46] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-iotvideoindustry]: success
+[2023-05-12 04:41:46] INFO root fetch - processPackages [aocref]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-05-12 04:41:46] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-12 04:41:46] INFO root fetch - processPackages [tencentcloud-sdk-python-irp]: executing diffoscope
+[2023-05-12 04:41:46] INFO root fetch - processPackages [tencentcloud-sdk-python-irp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-irp-3.0.888.tar.gz tmp/tencentcloud-sdk-python-irp-3.0.889.tar.gz --markdown 20230512/t/tencentcloud-sdk-python-irp/3.0.888-3.0.889/diff.md --exclude *.pyd
+[2023-05-12 04:41:46] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: executing diffoscope
+[2023-05-12 04:41:46] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.pipeline-0.9.3.tar.gz tmp/aws_prototyping_sdk.pipeline-0.9.4.tar.gz --markdown 20230512/a/aws-prototyping-sdk.pipeline/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-12 04:41:46] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: Start processing: tencentcloud-sdk-python-ivld
+[2023-05-12 04:41:46] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.nx-monorepo]: success
+[2023-05-12 04:41:46] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: Start processing: yw-etl-tap-sqlalchemy
+[2023-05-12 04:41:46] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.cloudscape-react-ts-website]: success
+[2023-05-12 04:41:46] INFO root fetch - processPackages [yw-etl-tap-sqlalchemy]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-12 04:41:46] INFO root fetch - processPackages [aocref]: executing diffoscope
+[2023-05-12 04:41:46] INFO root fetch - processPackages [aocref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aocref-2.0.8.tar.gz tmp/aocref-2.0.9.tar.gz --markdown 20230512/a/aocref/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-05-12 04:41:46] INFO root fetch - processPackages [tencentcloud-sdk-python-ivld]: New version: [3.0.889] Old Version: [3.0.888]
+[2023-05-12 04:41:46] INFO root fetch - processPackages [tencentcloud-sdk-python-iotvideo]: Start processing: tencentcloud-sdk-python-keewidb
+[2023-05-12 04:41:46] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-iotvideo]: success
+[2023-05-12 04:41:46] INFO root fetch - processPackages [tencentcloud-sdk-python-keewidb]: New version: [3.0.889] Old Version: [3.0.888]
+[2023-05-12 04:41:46] INFO root fetch - processPackages [yw-etl-tap-sqlalchemy]: executing diffoscope
+[2023-05-12 04:41:46] INFO root fetch - processPackages [yw-etl-tap-sqlalchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yw_etl_tap_sqlalchemy-0.1.0-py3-none-any.whl.zip tmp/yw_etl_tap_sqlalchemy-0.1.1.tar.gz --markdown 20230512/y/yw-etl-tap-sqlalchemy/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-12 04:41:46] INFO root fetch - processPackages [tencentcloud-sdk-python-ivld]: executing diffoscope
+[2023-05-12 04:41:46] INFO root fetch - processPackages [tencentcloud-sdk-python-ivld]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-ivld-3.0.888.tar.gz tmp/tencentcloud-sdk-python-ivld-3.0.889.tar.gz --markdown 20230512/t/tencentcloud-sdk-python-ivld/3.0.888-3.0.889/diff.md --exclude *.pyd
+[2023-05-12 04:41:46] INFO root fetch - processPackages [tencentcloud-sdk-python-keewidb]: executing diffoscope
+[2023-05-12 04:41:46] INFO root fetch - processPackages [tencentcloud-sdk-python-keewidb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-keewidb-3.0.888.tar.gz tmp/tencentcloud-sdk-python-keewidb-3.0.889.tar.gz --markdown 20230512/t/tencentcloud-sdk-python-keewidb/3.0.888-3.0.889/diff.md --exclude *.pyd
+[2023-05-12 04:41:46] INFO root fetch - processPackages [picachooser]: Start processing: aws-prototyping-sdk.static-website
+[2023-05-12 04:41:46] INFO root fetch - main [MainThread]: End processing [picachooser]: success
+[2023-05-12 04:41:46] INFO root fetch - processPackages [tencentcloud-sdk-python-iotexplorer]: Start processing: widget-code-input
+[2023-05-12 04:41:46] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-iotexplorer]: success
+[2023-05-12 04:41:46] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-12 04:41:46] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: executing diffoscope
+[2023-05-12 04:41:46] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.static_website-0.9.3.tar.gz tmp/aws_prototyping_sdk.static_website-0.9.4.tar.gz --markdown 20230512/a/aws-prototyping-sdk.static-website/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-12 04:41:47] INFO root fetch - processPackages [widget-code-input]: New version: [3.6.0] Old Version: [3.5.5]
+[2023-05-12 04:41:47] INFO root fetch - processPackages [widget-code-input]: Downloading https://files.pythonhosted.org/packages/1e/72/aea4d9f65d3c62c337d2298b39cf8c2fd945d24b6e7a2a77858959e868a1/widget_code_input-3.5.5.tar.gz
+[2023-05-12 04:41:47] INFO root fetch - processPackages [gitbetter]: Start processing: tencentcloud-sdk-python-kms
+[2023-05-12 04:41:47] INFO root fetch - main [MainThread]: End processing [gitbetter]: success
+[2023-05-12 04:41:47] INFO root fetch - processPackages [tencentcloud-sdk-python-kms]: New version: [3.0.889] Old Version: [3.0.888]
+[2023-05-12 04:41:47] INFO root fetch - processPackages [widget-code-input]: Downloading https://files.pythonhosted.org/packages/f1/04/203514cacad60d0618e1e5219c8f45e0b3a627ae1e495836c20e9a7cc5f6/widget_code_input-3.6.0.tar.gz
+[2023-05-12 04:41:47] INFO root fetch - processPackages [tencentcloud-sdk-python-kms]: executing diffoscope
+[2023-05-12 04:41:47] INFO root fetch - processPackages [tencentcloud-sdk-python-kms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-kms-3.0.888.tar.gz tmp/tencentcloud-sdk-python-kms-3.0.889.tar.gz --markdown 20230512/t/tencentcloud-sdk-python-kms/3.0.888-3.0.889/diff.md --exclude *.pyd
+[2023-05-12 04:41:47] INFO root fetch - processPackages [widget-code-input]: executing diffoscope
+[2023-05-12 04:41:47] INFO root fetch - processPackages [widget-code-input]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/widget_code_input-3.5.5.tar.gz tmp/widget_code_input-3.6.0.tar.gz --markdown 20230512/w/widget-code-input/3.5.5-3.6.0/diff.md --exclude *.pyd
+[2023-05-12 04:41:48] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: Start processing: hertz-packet
+[2023-05-12 04:41:48] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.pipeline]: success
+[2023-05-12 04:41:48] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: Start processing: aws-prototyping-sdk.type-safe-api
+[2023-05-12 04:41:48] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.pdk-nag]: success
+[2023-05-12 04:41:48] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: New version: [0.18.6] Old Version: [0.18.5]
+[2023-05-12 04:41:48] WARNING root fetch - processPackages [hertz-packet]: Skipping, unable to determine old version
+[2023-05-12 04:41:48] INFO root fetch - processPackages [hertz-packet]: Start processing: tencentcloud-sdk-python-lcic
+[2023-05-12 04:41:48] INFO root fetch - main [MainThread]: End processing [hertz-packet] error
+[2023-05-12 04:41:48] INFO root fetch - processPackages [tencentcloud-sdk-python-lcic]: New version: [3.0.889] Old Version: [3.0.888]
+[2023-05-12 04:41:48] INFO root fetch - processPackages [tencentcloud-sdk-python-lcic]: executing diffoscope
+[2023-05-12 04:41:48] INFO root fetch - processPackages [tencentcloud-sdk-python-lcic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-lcic-3.0.888.tar.gz tmp/tencentcloud-sdk-python-lcic-3.0.889.tar.gz --markdown 20230512/t/tencentcloud-sdk-python-lcic/3.0.888-3.0.889/diff.md --exclude *.pyd
+[2023-05-12 04:41:48] INFO root fetch - processPackages [yw-etl-tap-sqlalchemy]: Start processing: mgz
+[2023-05-12 04:41:48] INFO root fetch - main [MainThread]: End processing [yw-etl-tap-sqlalchemy]: success
+[2023-05-12 04:41:48] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: executing diffoscope
+[2023-05-12 04:41:48] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.type_safe_api-0.18.5.tar.gz tmp/aws_prototyping_sdk.type_safe_api-0.18.6.tar.gz --markdown 20230512/a/aws-prototyping-sdk.type-safe-api/0.18.5-0.18.6/diff.md --exclude *.pyd
+[2023-05-12 04:41:48] INFO root fetch - processPackages [mgz]: New version: [1.8.9] Old Version: [1.8.8]
+[2023-05-12 04:41:48] INFO root fetch - processPackages [tencentcloud-sdk-python-keewidb]: Start processing: amdgpu-stats
+[2023-05-12 04:41:48] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-keewidb]: success
+[2023-05-12 04:41:48] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-irp]: success
+[2023-05-12 04:41:49] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.static-website]: success
+[2023-05-12 04:41:49] INFO root fetch - processPackages [amdgpu-stats]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-12 04:41:49] INFO root fetch - processPackages [mgz]: executing diffoscope
+[2023-05-12 04:41:49] INFO root fetch - processPackages [mgz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mgz-1.8.8.tar.gz tmp/mgz-1.8.9.tar.gz --markdown 20230512/m/mgz/1.8.8-1.8.9/diff.md --exclude *.pyd
+[2023-05-12 04:41:49] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-kms]: success
+[2023-05-12 04:41:49] INFO root fetch - processPackages [amdgpu-stats]: Downloading https://files.pythonhosted.org/packages/53/e6/b122ed912f1ef3d0228aaed34ffabced48ad4ee45c5ed02b9275d10c6e40/amdgpu_stats-0.1.8.tar.gz
+[2023-05-12 04:41:49] INFO root fetch - main [MainThread]: End processing [aocref]: success
+[2023-05-12 04:41:49] INFO root fetch - processPackages [amdgpu-stats]: Downloading https://files.pythonhosted.org/packages/9f/f4/e27175fd77494c3165056152232c389c88abedd5192b50b1426e5c1f004b/amdgpu_stats-0.1.9.tar.gz
+[2023-05-12 04:41:49] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-ivld]: success
+[2023-05-12 04:41:49] INFO root fetch - processPackages [amdgpu-stats]: executing diffoscope
+[2023-05-12 04:41:49] INFO root fetch - processPackages [amdgpu-stats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amdgpu_stats-0.1.8.tar.gz tmp/amdgpu_stats-0.1.9.tar.gz --markdown 20230512/a/amdgpu-stats/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-12 04:41:50] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-lcic]: success
+[2023-05-12 04:41:50] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.type-safe-api]: success
+[2023-05-12 04:41:50] INFO root fetch - main [MainThread]: End processing [amdgpu-stats]: success
+[2023-05-12 04:41:52] INFO root fetch - main [MainThread]: End processing [mgz]: success
+[2023-05-12 04:41:58] INFO root fetch - main [MainThread]: End processing [widget-code-input]: success
+[2023-05-12 04:41:58] INFO root fetch - main [MainThread]: Store serial: [18072524]
