@@ -20163,3 +20163,66 @@ EOFError: EOF read where object expected
 [2023-05-12 22:50:31] INFO root fetch - main [MainThread]: End processing [dragonfly-grasshopper]: success
 [2023-05-12 22:51:14] INFO root fetch - main [MainThread]: End processing [z3-solver]: success
 [2023-05-12 22:51:14] INFO root fetch - main [MainThread]: Store serial: [18083988]
+[2023-05-12 22:56:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18083988]
+[2023-05-12 22:56:24] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-12 22:56:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: syscryptpackageV1
+[2023-05-12 22:56:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: simple-chatgpt-cli
+[2023-05-12 22:56:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: birdnetlib
+[2023-05-12 22:56:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ascend-io-sdk
+[2023-05-12 22:56:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: syscryptpackageV1
+[2023-05-12 22:56:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chia-py-rpc
+[2023-05-12 22:56:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lmppl
+[2023-05-12 22:56:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gandai
+[2023-05-12 22:56:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: simple-chatgpt-cli
+[2023-05-12 22:56:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: teaspoon
+[2023-05-12 22:56:24] INFO root fetch - processPackages [syscryptpackageV1]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-12 22:56:24] INFO root fetch - processPackages [simple-chatgpt-cli]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-12 22:56:24] INFO root fetch - processPackages [syscryptpackageV1]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-12 22:56:24] INFO root fetch - processPackages [simple-chatgpt-cli]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-12 22:56:24] WARNING root fetch - processPackages [chia-py-rpc]: Skipping, unable to determine old version
+[2023-05-12 22:56:24] INFO root fetch - processPackages [gandai]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-05-12 22:56:24] INFO root fetch - processPackages [birdnetlib]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-05-12 22:56:24] INFO root fetch - processPackages [lmppl]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-05-12 22:56:24] INFO root fetch - main [MainThread]: End processing [chia-py-rpc] error
+[2023-05-12 22:56:24] INFO root fetch - processPackages [teaspoon]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-05-12 22:56:24] INFO root fetch - processPackages [ascend-io-sdk]: New version: [0.3.0rc1] Old Version: [0.2.9]
+[2023-05-12 22:56:24] INFO root fetch - processPackages [teaspoon]: executing diffoscope
+[2023-05-12 22:56:24] INFO root fetch - processPackages [teaspoon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teaspoon-1.3.8.tar.gz tmp/teaspoon-1.3.9.tar.gz --markdown 20230512/t/teaspoon/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-05-12 22:56:24] INFO root fetch - processPackages [simple-chatgpt-cli]: Downloading https://files.pythonhosted.org/packages/d5/8a/4119eb3cb84ae4e5ba4f19a7d27651601dbae5ab69a2751c8dab5922576c/simple_chatgpt_cli-0.1.2.tar.gz
+[2023-05-12 22:56:24] INFO root fetch - processPackages [syscryptpackageV1]: Downloading https://files.pythonhosted.org/packages/31/52/7da6f292de811d3075058a222807db180beedf53bc73c7f4f5b63a0097ed/syscryptpackageV1-1.0.0.tar.gz
+[2023-05-12 22:56:24] INFO root fetch - processPackages [syscryptpackageV1]: Downloading https://files.pythonhosted.org/packages/31/52/7da6f292de811d3075058a222807db180beedf53bc73c7f4f5b63a0097ed/syscryptpackageV1-1.0.0.tar.gz
+[2023-05-12 22:56:24] INFO root fetch - processPackages [simple-chatgpt-cli]: Downloading https://files.pythonhosted.org/packages/d5/8a/4119eb3cb84ae4e5ba4f19a7d27651601dbae5ab69a2751c8dab5922576c/simple_chatgpt_cli-0.1.2.tar.gz
+[2023-05-12 22:56:24] INFO root fetch - processPackages [birdnetlib]: Downloading https://files.pythonhosted.org/packages/33/95/b45c32c37cf35ab44f73e46c84ee7935be41ac691ec1391adb744d278fac/birdnetlib-0.5.0.tar.gz
+[2023-05-12 22:56:24] INFO root fetch - processPackages [ascend-io-sdk]: Downloading https://files.pythonhosted.org/packages/80/72/a8e00e6ebbfcf616d292b8f329da4a856fd15de22686b076ad76719debca/ascend-io-sdk-0.2.9.tar.gz
+[2023-05-12 22:56:24] WARNING root fetch - processPackages [birdnetlib]: Skipping package: exceeds size limit 91505623>=10485760
+[2023-05-12 22:56:24] INFO root fetch - main [MainThread]: End processing [birdnetlib] error
+[2023-05-12 22:56:24] INFO root fetch - processPackages [gandai]: Downloading https://files.pythonhosted.org/packages/e8/57/3427e6d8ab34933e6d615b851c2bb2c8ff56ad51207b7ab3eee13a7391f8/gandai-1.1.4.tar.gz
+[2023-05-12 22:56:24] INFO root fetch - processPackages [lmppl]: Downloading https://files.pythonhosted.org/packages/c3/63/2794e5a9f925375ca0b8dbb15504c0f070e093fe29638fd376a941636723/lmppl-0.2.7.tar.gz
+[2023-05-12 22:56:25] INFO root fetch - processPackages [lmppl]: executing diffoscope
+[2023-05-12 22:56:25] INFO root fetch - processPackages [lmppl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lmppl-0.2.6.tar.gz tmp/lmppl-0.2.7.tar.gz --markdown 20230512/l/lmppl/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-05-12 22:56:25] INFO root fetch - processPackages [syscryptpackageV1]: Downloading https://files.pythonhosted.org/packages/f4/a0/103a75ce16580930fe790f9f705067aa6af9cb5f354ad53e79f30478b4a3/syscryptpackageV1-1.1.0.tar.gz
+[2023-05-12 22:56:25] INFO root fetch - processPackages [syscryptpackageV1]: Downloading https://files.pythonhosted.org/packages/f4/a0/103a75ce16580930fe790f9f705067aa6af9cb5f354ad53e79f30478b4a3/syscryptpackageV1-1.1.0.tar.gz
+[2023-05-12 22:56:25] INFO root fetch - processPackages [simple-chatgpt-cli]: Downloading https://files.pythonhosted.org/packages/f5/fb/36f117c199c68ce96b34c06e3ebfaf3005031c71891be7c21f79430643ae/simple_chatgpt_cli-0.1.3.tar.gz
+[2023-05-12 22:56:25] INFO root fetch - processPackages [simple-chatgpt-cli]: Downloading https://files.pythonhosted.org/packages/f5/fb/36f117c199c68ce96b34c06e3ebfaf3005031c71891be7c21f79430643ae/simple_chatgpt_cli-0.1.3.tar.gz
+[2023-05-12 22:56:25] INFO root fetch - processPackages [gandai]: executing diffoscope
+[2023-05-12 22:56:25] INFO root fetch - processPackages [gandai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gandai-1.1.3.tar.gz tmp/gandai-1.1.4.tar.gz --markdown 20230512/g/gandai/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-05-12 22:56:25] INFO root fetch - processPackages [syscryptpackageV1]: executing diffoscope
+[2023-05-12 22:56:25] INFO root fetch - processPackages [syscryptpackageV1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syscryptpackageV1-1.0.0.tar.gz tmp/syscryptpackageV1-1.1.0.tar.gz --markdown 20230512/s/syscryptpackageV1/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-12 22:56:25] INFO root fetch - processPackages [syscryptpackageV1]: executing diffoscope
+[2023-05-12 22:56:25] INFO root fetch - processPackages [syscryptpackageV1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syscryptpackageV1-1.0.0.tar.gz tmp/syscryptpackageV1-1.1.0.tar.gz --markdown 20230512/s/syscryptpackageV1/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-12 22:56:25] INFO root fetch - processPackages [ascend-io-sdk]: Downloading https://files.pythonhosted.org/packages/47/1b/2f55598c7007145617d482261064cd2d3a84ed36ba4dd5d9bc1996a33e50/ascend-io-sdk-0.3.0rc1.tar.gz
+[2023-05-12 22:56:25] INFO root fetch - processPackages [simple-chatgpt-cli]: executing diffoscope
+[2023-05-12 22:56:25] INFO root fetch - processPackages [simple-chatgpt-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_chatgpt_cli-0.1.2.tar.gz tmp/simple_chatgpt_cli-0.1.3.tar.gz --markdown 20230512/s/simple-chatgpt-cli/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-12 22:56:25] INFO root fetch - processPackages [simple-chatgpt-cli]: executing diffoscope
+[2023-05-12 22:56:25] INFO root fetch - processPackages [simple-chatgpt-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_chatgpt_cli-0.1.2.tar.gz tmp/simple_chatgpt_cli-0.1.3.tar.gz --markdown 20230512/s/simple-chatgpt-cli/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-12 22:56:25] INFO root fetch - processPackages [ascend-io-sdk]: executing diffoscope
+[2023-05-12 22:56:25] INFO root fetch - processPackages [ascend-io-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ascend-io-sdk-0.2.9.tar.gz tmp/ascend-io-sdk-0.3.0rc1.tar.gz --markdown 20230512/a/ascend-io-sdk/0.2.9-0.3.0rc1/diff.md --exclude *.pyd
+[2023-05-12 22:56:26] INFO root fetch - main [MainThread]: End processing [lmppl]: success
+[2023-05-12 22:56:26] INFO root fetch - main [MainThread]: End processing [gandai]: success
+[2023-05-12 22:56:26] INFO root fetch - main [MainThread]: End processing [simple-chatgpt-cli]: success
+[2023-05-12 22:56:26] INFO root fetch - main [MainThread]: End processing [syscryptpackageV1]: success
+[2023-05-12 22:56:26] INFO root fetch - main [MainThread]: End processing [syscryptpackageV1]: success
+[2023-05-12 22:56:27] INFO root fetch - main [MainThread]: End processing [simple-chatgpt-cli]: success
+[2023-05-12 22:56:27] INFO root fetch - main [MainThread]: End processing [teaspoon]: success
+[2023-05-12 22:56:29] INFO root fetch - main [MainThread]: End processing [ascend-io-sdk]: success
+[2023-05-12 22:56:29] INFO root fetch - main [MainThread]: Store serial: [18084021]
