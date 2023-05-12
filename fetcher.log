@@ -9472,3 +9472,99 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-12 12:53:15] INFO root fetch - main [MainThread]: End processing [thefittest]: success
 [2023-05-12 12:53:18] INFO root fetch - main [MainThread]: End processing [flexmeasures]: success
 [2023-05-12 12:53:18] INFO root fetch - main [MainThread]: Store serial: [18076900]
+[2023-05-12 12:58:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18076900]
+[2023-05-12 12:58:27] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-12 12:58:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ds-io-utilities
+[2023-05-12 12:58:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: noisy-outlier
+[2023-05-12 12:58:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: smartis-sdk
+[2023-05-12 12:58:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: panfeed
+[2023-05-12 12:58:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wadi
+[2023-05-12 12:58:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyspark-utilities
+[2023-05-12 12:58:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: docarray
+[2023-05-12 12:58:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: single-char-counter-by-ng
+[2023-05-12 12:58:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: exceptnotifier
+[2023-05-12 12:58:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: furiosa-models
+[2023-05-12 12:58:27] INFO root fetch - processPackages [ds-io-utilities]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 12:58:27] INFO root fetch - processPackages [panfeed]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-05-12 12:58:27] INFO root fetch - processPackages [smartis-sdk]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-12 12:58:27] INFO root fetch - processPackages [single-char-counter-by-ng]: New version: [1.1.10] Old Version: [1.1.0]
+[2023-05-12 12:58:27] INFO root fetch - processPackages [furiosa-models]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-05-12 12:58:27] INFO root fetch - processPackages [noisy-outlier]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-12 12:58:27] INFO root fetch - processPackages [pyspark-utilities]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 12:58:27] INFO root fetch - processPackages [wadi]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-12 12:58:27] INFO root fetch - processPackages [exceptnotifier]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-05-12 12:58:27] INFO root fetch - processPackages [docarray]: New version: [0.9.9.dev5] Old Version: [0.9.9.dev4]
+[2023-05-12 12:58:27] INFO root fetch - processPackages [docarray]: executing diffoscope
+[2023-05-12 12:58:27] INFO root fetch - processPackages [docarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docarray-0.9.9.dev4.tar.gz tmp/docarray-0.9.9.dev5.tar.gz --markdown 20230512/d/docarray/0.9.9.dev4-0.9.9.dev5/diff.md --exclude *.pyd
+[2023-05-12 12:58:27] INFO root fetch - processPackages [ds-io-utilities]: Downloading https://files.pythonhosted.org/packages/3a/75/dd37a746194396d0be56192e1ca38a0d1bde3033dc6b6e4200d8c15d8ed7/ds-io-utilities-0.0.8.tar.gz
+[2023-05-12 12:58:27] INFO root fetch - processPackages [noisy-outlier]: Downloading https://files.pythonhosted.org/packages/b6/a1/1bc15bbee51a562a375a904648e7a032fbbda553238d079fd8f1c78a38d9/noisy_outlier-0.1.6.tar.gz
+[2023-05-12 12:58:27] INFO root fetch - processPackages [furiosa-models]: Downloading https://files.pythonhosted.org/packages/4f/a9/ddb13eb9b19ebef634d0e2b0f16d34cbe8c59f8e9611e46e03f508b65e34/furiosa-models-0.8.2.tar.gz
+[2023-05-12 12:58:27] INFO root fetch - processPackages [smartis-sdk]: Downloading https://files.pythonhosted.org/packages/4b/a0/779060d4aba26046a634e508e9cd06af727d90e469b902611273dbf6e26f/smartis_sdk-0.3.0.tar.gz
+[2023-05-12 12:58:27] INFO root fetch - processPackages [pyspark-utilities]: Downloading https://files.pythonhosted.org/packages/b2/31/5480ce2c7c58f70b9df76eaecada8abc92cf0e762c20e2113277004947c1/pyspark-utilities-0.0.8.tar.gz
+[2023-05-12 12:58:28] INFO root fetch - processPackages [exceptnotifier]: Downloading https://files.pythonhosted.org/packages/71/ec/32174f3b6f241fb02da767b3ea1ec724a5ed96a254ea107171d402732404/exceptnotifier-0.2.6.tar.gz
+[2023-05-12 12:58:28] INFO root fetch - processPackages [smartis-sdk]: executing diffoscope
+[2023-05-12 12:58:28] INFO root fetch - processPackages [smartis-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartis_sdk-0.2.0.tar.gz tmp/smartis_sdk-0.3.0.tar.gz --markdown 20230512/s/smartis-sdk/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-12 12:58:28] INFO root fetch - processPackages [panfeed]: Downloading https://files.pythonhosted.org/packages/05/33/ad7236db4b1d61bce2519a3604718eeef031dce129690a0191d10bc6b6a5/panfeed-1.4.0.tar.gz
+[2023-05-12 12:58:28] INFO root fetch - processPackages [exceptnotifier]: executing diffoscope
+[2023-05-12 12:58:28] INFO root fetch - processPackages [exceptnotifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exceptnotifier-0.2.5.tar.gz tmp/exceptnotifier-0.2.6.tar.gz --markdown 20230512/e/exceptnotifier/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-05-12 12:58:28] WARNING root fetch - processPackages [furiosa-models]: Skipping package: exceeds size limit 20107873>=10485760
+[2023-05-12 12:58:28] INFO root fetch - processPackages [furiosa-models]: Start processing: dbt-airflow
+[2023-05-12 12:58:28] INFO root fetch - main [MainThread]: End processing [furiosa-models] error
+[2023-05-12 12:58:28] INFO root fetch - processPackages [noisy-outlier]: executing diffoscope
+[2023-05-12 12:58:28] INFO root fetch - processPackages [noisy-outlier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/noisy_outlier-0.1.5.tar.gz tmp/noisy_outlier-0.1.6.tar.gz --markdown 20230512/n/noisy-outlier/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-12 12:58:28] INFO root fetch - processPackages [wadi]: Downloading https://files.pythonhosted.org/packages/95/66/cb1282d5f8554683fb0cac6b57b120d1ae34813578dd852e97e018128102/wadi-0.1.4.tar.gz
+[2023-05-12 12:58:28] INFO root fetch - processPackages [dbt-airflow]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-12 12:58:28] INFO root fetch - processPackages [single-char-counter-by-ng]: Downloading https://files.pythonhosted.org/packages/56/8f/88cc592cb04ae950e5c74313bc94341b1f2542cdc8e3f8931eb93de5a4ea/single_char_counter_by_ng-1.1.0.tar.gz
+[2023-05-12 12:58:28] INFO root fetch - processPackages [ds-io-utilities]: Downloading https://files.pythonhosted.org/packages/30/69/971db429ea8ff84732fa9de8859dc88e51ddc662b6a3a70ceeb847819a80/ds-io-utilities-0.0.9.tar.gz
+[2023-05-12 12:58:28] INFO root fetch - processPackages [wadi]: executing diffoscope
+[2023-05-12 12:58:28] INFO root fetch - processPackages [wadi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wadi-0.1.3.tar.gz tmp/wadi-0.1.4.tar.gz --markdown 20230512/w/wadi/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-12 12:58:28] INFO root fetch - processPackages [panfeed]: executing diffoscope
+[2023-05-12 12:58:28] INFO root fetch - processPackages [panfeed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panfeed-1.3.0.tar.gz tmp/panfeed-1.4.0.tar.gz --markdown 20230512/p/panfeed/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-05-12 12:58:28] INFO root fetch - processPackages [dbt-airflow]: Downloading https://files.pythonhosted.org/packages/9e/d5/6b2ddfe95114acb33cb48622b26748f5e616283457d7dd92fe2354d6baaa/dbt_airflow-0.3.1.tar.gz
+[2023-05-12 12:58:28] INFO root fetch - processPackages [ds-io-utilities]: executing diffoscope
+[2023-05-12 12:58:28] INFO root fetch - processPackages [ds-io-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ds-io-utilities-0.0.8.tar.gz tmp/ds-io-utilities-0.0.9.tar.gz --markdown 20230512/d/ds-io-utilities/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 12:58:28] INFO root fetch - processPackages [pyspark-utilities]: Downloading https://files.pythonhosted.org/packages/8e/c1/acb1051fb92494787ea33a6a938621bcef8bdbde3bc87d9fd2c88e5dc41a/pyspark-utilities-0.0.9.tar.gz
+[2023-05-12 12:58:28] INFO root fetch - processPackages [single-char-counter-by-ng]: Downloading https://files.pythonhosted.org/packages/14/d4/240fe7e06a7e2d6d8f176133074519ce858596ed67f05b0ca40f56b31a45/single_char_counter_by_ng-1.1.10.tar.gz
+[2023-05-12 12:58:28] INFO root fetch - processPackages [single-char-counter-by-ng]: executing diffoscope
+[2023-05-12 12:58:28] INFO root fetch - processPackages [single-char-counter-by-ng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/single_char_counter_by_ng-1.1.0.tar.gz tmp/single_char_counter_by_ng-1.1.10.tar.gz --markdown 20230512/s/single-char-counter-by-ng/1.1.0-1.1.10/diff.md --exclude *.pyd
+[2023-05-12 12:58:28] INFO root fetch - processPackages [pyspark-utilities]: executing diffoscope
+[2023-05-12 12:58:28] INFO root fetch - processPackages [pyspark-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyspark-utilities-0.0.8.tar.gz tmp/pyspark-utilities-0.0.9.tar.gz --markdown 20230512/p/pyspark-utilities/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 12:58:28] INFO root fetch - processPackages [dbt-airflow]: Downloading https://files.pythonhosted.org/packages/fb/a7/edc351cfecb8576953b3fb0640f07dd0a92ab1784e33ac2d14b8467a29ce/dbt_airflow-0.3.2.tar.gz
+[2023-05-12 12:58:28] INFO root fetch - processPackages [dbt-airflow]: executing diffoscope
+[2023-05-12 12:58:28] INFO root fetch - processPackages [dbt-airflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_airflow-0.3.1.tar.gz tmp/dbt_airflow-0.3.2.tar.gz --markdown 20230512/d/dbt-airflow/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-12 12:58:29] INFO root fetch - processPackages [noisy-outlier]: Start processing: pyxem
+[2023-05-12 12:58:29] INFO root fetch - main [MainThread]: End processing [noisy-outlier]: success
+[2023-05-12 12:58:29] INFO root fetch - processPackages [pyxem]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-12 12:58:29] INFO root fetch - processPackages [smartis-sdk]: Start processing: wagtail-modeltranslation
+[2023-05-12 12:58:29] INFO root fetch - main [MainThread]: End processing [smartis-sdk]: success
+[2023-05-12 12:58:29] INFO root fetch - processPackages [wagtail-modeltranslation]: New version: [0.9.0] Old Version: [0.8a1]
+[2023-05-12 12:58:29] INFO root fetch - processPackages [pyxem]: Downloading https://files.pythonhosted.org/packages/b0/4d/c8b442756f370aa6ca68cbc78463976a82fd10d768382f9dcb8337f6efd4/pyxem-0.9.1.tar.gz
+[2023-05-12 12:58:29] INFO root fetch - processPackages [wagtail-modeltranslation]: Downloading https://files.pythonhosted.org/packages/09/d3/d46534f2031b5ebe94fc421e9a77ee39901e3e79653c818b4c0e4ecc9b54/wagtail-modeltranslation-0.8a1.tar.gz
+[2023-05-12 12:58:30] INFO root fetch - processPackages [ds-io-utilities]: Start processing: aiosow
+[2023-05-12 12:58:30] INFO root fetch - main [MainThread]: End processing [ds-io-utilities]: success
+[2023-05-12 12:58:30] INFO root fetch - processPackages [aiosow]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-12 12:58:30] INFO root fetch - processPackages [pyspark-utilities]: Start processing: dagshub
+[2023-05-12 12:58:30] INFO root fetch - main [MainThread]: End processing [pyspark-utilities]: success
+[2023-05-12 12:58:30] INFO root fetch - processPackages [dagshub]: New version: [0.2.9.post1] Old Version: [0.2.9]
+[2023-05-12 12:58:30] INFO root fetch - main [MainThread]: End processing [wadi]: success
+[2023-05-12 12:58:30] INFO root fetch - main [MainThread]: End processing [panfeed]: success
+[2023-05-12 12:58:30] INFO root fetch - processPackages [pyxem]: Downloading https://files.pythonhosted.org/packages/fd/bb/47c9c1eabc4385914cce4751192000e70e1dd865f7d00b853351b62d7629/pyxem-0.9.2.tar.gz
+[2023-05-12 12:58:30] INFO root fetch - processPackages [wagtail-modeltranslation]: Downloading https://files.pythonhosted.org/packages/cf/f7/2cf6c6d77f50f9dd3985e8615a1f59c659387567a9a8b77fa9acbc073a19/wagtail-modeltranslation-0.9.0.tar.gz
+[2023-05-12 12:58:30] INFO root fetch - processPackages [dagshub]: executing diffoscope
+[2023-05-12 12:58:30] INFO root fetch - processPackages [dagshub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagshub-0.2.9.tar.gz tmp/dagshub-0.2.9.post1-py3-none-any.whl.zip --markdown 20230512/d/dagshub/0.2.9-0.2.9.post1/diff.md --exclude *.pyd
+[2023-05-12 12:58:30] INFO root fetch - main [MainThread]: End processing [docarray]: success
+[2023-05-12 12:58:30] INFO root fetch - processPackages [pyxem]: executing diffoscope
+[2023-05-12 12:58:30] INFO root fetch - processPackages [pyxem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxem-0.9.1.tar.gz tmp/pyxem-0.9.2.tar.gz --markdown 20230512/p/pyxem/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-12 12:58:30] INFO root fetch - processPackages [aiosow]: Downloading https://files.pythonhosted.org/packages/eb/1c/b3ec2932bb0510c96958af7ca14807334df0103c57af53f267796d682f5b/aiosow-0.1.5.tar.gz
+[2023-05-12 12:58:30] INFO root fetch - processPackages [wagtail-modeltranslation]: executing diffoscope
+[2023-05-12 12:58:30] INFO root fetch - processPackages [wagtail-modeltranslation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail-modeltranslation-0.8a1.tar.gz tmp/wagtail-modeltranslation-0.9.0.tar.gz --markdown 20230512/w/wagtail-modeltranslation/0.8a1-0.9.0/diff.md --exclude *.pyd
+[2023-05-12 12:58:30] INFO root fetch - main [MainThread]: End processing [single-char-counter-by-ng]: success
+[2023-05-12 12:58:30] INFO root fetch - main [MainThread]: End processing [dbt-airflow]: success
+[2023-05-12 12:58:30] INFO root fetch - processPackages [aiosow]: executing diffoscope
+[2023-05-12 12:58:30] INFO root fetch - processPackages [aiosow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiosow-0.1.4.tar.gz tmp/aiosow-0.1.5.tar.gz --markdown 20230512/a/aiosow/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-12 12:58:30] INFO root fetch - main [MainThread]: End processing [exceptnotifier]: success
+[2023-05-12 12:58:31] INFO root fetch - main [MainThread]: End processing [dagshub]: success
+[2023-05-12 12:58:31] INFO root fetch - main [MainThread]: End processing [aiosow]: success
+[2023-05-12 12:58:31] INFO root fetch - main [MainThread]: End processing [wagtail-modeltranslation]: success
+[2023-05-12 12:58:31] INFO root fetch - main [MainThread]: End processing [pyxem]: success
+[2023-05-12 12:58:31] INFO root fetch - main [MainThread]: Store serial: [18076958]
