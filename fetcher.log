@@ -16005,3 +16005,139 @@ EOFError: EOF read where object expected
 [2023-05-12 18:51:40] INFO root fetch - main [MainThread]: End processing [dstack]: success
 [2023-05-12 18:51:40] INFO root fetch - main [MainThread]: End processing [timm]: success
 [2023-05-12 18:51:40] INFO root fetch - main [MainThread]: Store serial: [18081080]
+[2023-05-12 18:56:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18081080]
+[2023-05-12 18:56:50] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-05-12 18:56:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PatryksAutoAI
+[2023-05-12 18:56:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autotraders
+[2023-05-12 18:56:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: naturalspeech2-pytorch
+[2023-05-12 18:56:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tdw
+[2023-05-12 18:56:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: neon-homeassistant-skill
+[2023-05-12 18:56:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: volttron-lib-modbus-driver
+[2023-05-12 18:56:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aiogram3-form
+[2023-05-12 18:56:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: neon-utils
+[2023-05-12 18:56:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: wanda
+[2023-05-12 18:56:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: simply-nwb
+[2023-05-12 18:56:50] INFO root fetch - processPackages [aiogram3-form]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-05-12 18:56:50] WARNING root fetch - processPackages [autotraders]: Skipping, unable to determine old version
+[2023-05-12 18:56:50] INFO root fetch - processPackages [autotraders]: Start processing: heaserver
+[2023-05-12 18:56:50] INFO root fetch - main [MainThread]: End processing [autotraders] error
+[2023-05-12 18:56:50] INFO root fetch - processPackages [PatryksAutoAI]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-05-12 18:56:50] INFO root fetch - processPackages [neon-homeassistant-skill]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 18:56:50] INFO root fetch - processPackages [simply-nwb]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-12 18:56:50] INFO root fetch - processPackages [volttron-lib-modbus-driver]: New version: [0.2.1rc0] Old Version: [0.1.1a1]
+[2023-05-12 18:56:50] INFO root fetch - processPackages [tdw]: New version: [1.9.9.3] Old Version: [1.9.9.2]
+[2023-05-12 18:56:50] INFO root fetch - processPackages [wanda]: New version: [0.61.3] Old Version: [0.61.2]
+[2023-05-12 18:56:50] INFO root fetch - processPackages [naturalspeech2-pytorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 18:56:50] INFO root fetch - processPackages [heaserver]: New version: [1.0.0a99] Old Version: [1.0.0a98]
+[2023-05-12 18:56:50] INFO root fetch - processPackages [neon-utils]: New version: [1.5.0a3] Old Version: [1.5.0a2]
+[2023-05-12 18:56:50] INFO root fetch - processPackages [neon-homeassistant-skill]: executing diffoscope
+[2023-05-12 18:56:50] INFO root fetch - processPackages [neon-homeassistant-skill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_homeassistant_skill-0.0.8.tar.gz tmp/neon_homeassistant_skill-0.0.9.tar.gz --markdown 20230512/n/neon-homeassistant-skill/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 18:56:50] INFO root fetch - processPackages [naturalspeech2-pytorch]: executing diffoscope
+[2023-05-12 18:56:50] INFO root fetch - processPackages [naturalspeech2-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naturalspeech2-pytorch-0.0.8.tar.gz tmp/naturalspeech2-pytorch-0.0.9.tar.gz --markdown 20230512/n/naturalspeech2-pytorch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 18:56:50] INFO root fetch - processPackages [heaserver]: executing diffoscope
+[2023-05-12 18:56:50] INFO root fetch - processPackages [heaserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaserver-1.0.0a98.tar.gz tmp/heaserver-1.0.0a99.tar.gz --markdown 20230512/h/heaserver/1.0.0a98-1.0.0a99/diff.md --exclude *.pyd
+[2023-05-12 18:56:50] INFO root fetch - processPackages [simply-nwb]: Downloading https://files.pythonhosted.org/packages/f8/db/274f825194e13006bfe1dc2dab5d43c546a100485f752f38524886d2ccf7/simply_nwb-0.0.2.tar.gz
+[2023-05-12 18:56:50] INFO root fetch - processPackages [tdw]: Downloading https://files.pythonhosted.org/packages/c4/72/7e9dcffb20652a0fc7a75acb9c45c9c15e02911caff77569e88bda949a27/tdw-1.9.9.2.tar.gz
+[2023-05-12 18:56:50] INFO root fetch - processPackages [wanda]: Downloading https://files.pythonhosted.org/packages/76/6d/b1122cd84caf83920d9cedb69563355833e56befef2747e0f5179fb8eaf1/wanda-0.61.2.tar.gz
+[2023-05-12 18:56:50] INFO root fetch - processPackages [volttron-lib-modbus-driver]: Downloading https://files.pythonhosted.org/packages/2d/23/fffede7966ddc9c8c8d016adcbe23d8e1f793bbad0edc4b2a54ef95af112/volttron_lib_modbus_driver-0.1.1a1.tar.gz
+[2023-05-12 18:56:50] INFO root fetch - processPackages [neon-utils]: Downloading https://files.pythonhosted.org/packages/23/7f/d163e071afeeb28658065443433c573ebe2e7ac578ecd9f2315ae452288e/neon_utils-1.5.0a3-py3-none-any.whl
+[2023-05-12 18:56:50] INFO root fetch - processPackages [aiogram3-form]: Downloading https://files.pythonhosted.org/packages/37/2b/0c79caf0e07d938d854d2a8a931c65c193fbbc8f86d0fe6b93294ff4c8fa/aiogram3_form-0.3.3.tar.gz
+[2023-05-12 18:56:50] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/24/73/e7e08b1ff9abe60c8a08aa100a41972c0eada9f443f9f3db07a81f0cdbec/PatryksAutoAI-0.3.5.tar.gz
+[2023-05-12 18:56:50] INFO root fetch - processPackages [aiogram3-form]: executing diffoscope
+[2023-05-12 18:56:50] INFO root fetch - processPackages [aiogram3-form]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiogram3_form-0.3.2.tar.gz tmp/aiogram3_form-0.3.3.tar.gz --markdown 20230512/a/aiogram3-form/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-05-12 18:56:50] INFO root fetch - processPackages [neon-utils]: executing diffoscope
+[2023-05-12 18:56:50] INFO root fetch - processPackages [neon-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_utils-1.5.0a2-py3-none-any.whl.zip tmp/neon_utils-1.5.0a3-py3-none-any.whl.zip --markdown 20230512/n/neon-utils/1.5.0a2-1.5.0a3/diff.md --exclude *.pyd
+[2023-05-12 18:56:50] INFO root fetch - processPackages [PatryksAutoAI]: executing diffoscope
+[2023-05-12 18:56:50] INFO root fetch - processPackages [PatryksAutoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PatryksAutoAI-0.3.4.tar.gz tmp/PatryksAutoAI-0.3.5.tar.gz --markdown 20230512/P/PatryksAutoAI/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-05-12 18:56:50] INFO root fetch - processPackages [wanda]: Downloading https://files.pythonhosted.org/packages/10/71/7e854087c6704463d850b2f827ae873e70654a3786430df00385c238dc74/wanda-0.61.3.tar.gz
+[2023-05-12 18:56:50] INFO root fetch - processPackages [simply-nwb]: Downloading https://files.pythonhosted.org/packages/c0/bc/98b426db40fe16d4e634ae69ca8b36e50e604856a4663af11f59c1d1e9e2/simply_nwb-0.0.3.tar.gz
+[2023-05-12 18:56:50] INFO root fetch - processPackages [volttron-lib-modbus-driver]: Downloading https://files.pythonhosted.org/packages/37/7c/7e804892457048c5b524eae5dc139255a1d09322e9afee05470196f3297b/volttron_lib_modbus_driver-0.2.1rc0.tar.gz
+[2023-05-12 18:56:50] WARNING root fetch - processPackages [tdw]: Skipping package: exceeds size limit 28395540>=10485760
+[2023-05-12 18:56:50] INFO root fetch - processPackages [tdw]: Start processing: simply-nwb
+[2023-05-12 18:56:50] INFO root fetch - main [MainThread]: End processing [tdw] error
+[2023-05-12 18:56:50] INFO root fetch - processPackages [wanda]: executing diffoscope
+[2023-05-12 18:56:50] INFO root fetch - processPackages [wanda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wanda-0.61.2.tar.gz tmp/wanda-0.61.3.tar.gz --markdown 20230512/w/wanda/0.61.2-0.61.3/diff.md --exclude *.pyd
+[2023-05-12 18:56:50] INFO root fetch - processPackages [simply-nwb]: executing diffoscope
+[2023-05-12 18:56:50] INFO root fetch - processPackages [simply-nwb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simply_nwb-0.0.2.tar.gz tmp/simply_nwb-0.0.3.tar.gz --markdown 20230512/s/simply-nwb/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-12 18:56:50] INFO root fetch - processPackages [volttron-lib-modbus-driver]: executing diffoscope
+[2023-05-12 18:56:50] INFO root fetch - processPackages [volttron-lib-modbus-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volttron_lib_modbus_driver-0.1.1a1.tar.gz tmp/volttron_lib_modbus_driver-0.2.1rc0.tar.gz --markdown 20230512/v/volttron-lib-modbus-driver/0.1.1a1-0.2.1rc0/diff.md --exclude *.pyd
+[2023-05-12 18:56:50] INFO root fetch - processPackages [simply-nwb]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-12 18:56:50] INFO root fetch - processPackages [simply-nwb]: executing diffoscope
+[2023-05-12 18:56:50] INFO root fetch - processPackages [simply-nwb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simply_nwb-0.0.2.tar.gz tmp/simply_nwb-0.0.3.tar.gz --markdown 20230512/s/simply-nwb/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-12 18:56:51] INFO root fetch - processPackages [neon-homeassistant-skill]: Start processing: simply-nwb
+[2023-05-12 18:56:51] INFO root fetch - main [MainThread]: End processing [neon-homeassistant-skill]: success
+[2023-05-12 18:56:51] INFO root fetch - processPackages [simply-nwb]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-12 18:56:51] INFO root fetch - processPackages [naturalspeech2-pytorch]: Start processing: seleniumbase
+[2023-05-12 18:56:51] INFO root fetch - main [MainThread]: End processing [naturalspeech2-pytorch]: success
+[2023-05-12 18:56:51] INFO root fetch - processPackages [seleniumbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-05-12 18:56:51] INFO root fetch - processPackages [simply-nwb]: executing diffoscope
+[2023-05-12 18:56:51] INFO root fetch - processPackages [simply-nwb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simply_nwb-0.0.2.tar.gz tmp/simply_nwb-0.0.3.tar.gz --markdown 20230512/s/simply-nwb/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-12 18:56:52] INFO root fetch - processPackages [aiogram3-form]: Start processing: odoo12-addon-spec-driven-model
+[2023-05-12 18:56:52] INFO root fetch - main [MainThread]: End processing [aiogram3-form]: success
+[2023-05-12 18:56:52] INFO root fetch - processPackages [odoo12-addon-spec-driven-model]: New version: [12.0.5.0.0] Old Version: [12.0.4.2.0]
+[2023-05-12 18:56:52] INFO root fetch - processPackages [odoo12-addon-spec-driven-model]: Downloading https://files.pythonhosted.org/packages/48/2c/df0863f09e5b5621c852f9c2f4fb20809915a255ee643c8512a98fd9d51a/odoo12_addon_spec_driven_model-12.0.4.2.0-py3-none-any.whl
+[2023-05-12 18:56:52] INFO root fetch - processPackages [seleniumbase]: executing diffoscope
+[2023-05-12 18:56:52] INFO root fetch - processPackages [seleniumbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seleniumbase-4.9.8.tar.gz tmp/seleniumbase-4.9.9.tar.gz --markdown 20230512/s/seleniumbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-05-12 18:56:52] INFO root fetch - processPackages [volttron-lib-modbus-driver]: Start processing: odoo12-addon-l10n-br-nfe
+[2023-05-12 18:56:52] INFO root fetch - main [MainThread]: End processing [volttron-lib-modbus-driver]: success
+[2023-05-12 18:56:52] INFO root fetch - processPackages [odoo12-addon-l10n-br-nfe]: New version: [12.0.9.0.1] Old Version: [12.0.9.0.0]
+[2023-05-12 18:56:52] INFO root fetch - processPackages [simply-nwb]: Start processing: volttron-lib-modbustk-driver
+[2023-05-12 18:56:52] INFO root fetch - main [MainThread]: End processing [simply-nwb]: success
+[2023-05-12 18:56:52] INFO root fetch - processPackages [volttron-lib-modbustk-driver]: New version: [0.1.2rc0] Old Version: [0.1.1a1]
+[2023-05-12 18:56:52] INFO root fetch - processPackages [odoo12-addon-spec-driven-model]: Downloading https://files.pythonhosted.org/packages/f4/c5/a0655f552ab7cd533e29826c1f91c2c0f4b38ed79e3a246fbc69fd746be5/odoo12_addon_spec_driven_model-12.0.5.0.0-py3-none-any.whl
+[2023-05-12 18:56:52] INFO root fetch - processPackages [odoo12-addon-spec-driven-model]: executing diffoscope
+[2023-05-12 18:56:52] INFO root fetch - processPackages [odoo12-addon-spec-driven-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_spec_driven_model-12.0.4.2.0-py3-none-any.whl.zip tmp/odoo12_addon_spec_driven_model-12.0.5.0.0-py3-none-any.whl.zip --markdown 20230512/o/odoo12-addon-spec-driven-model/12.0.4.2.0-12.0.5.0.0/diff.md --exclude *.pyd
+[2023-05-12 18:56:52] INFO root fetch - processPackages [odoo12-addon-l10n-br-nfe]: Downloading https://files.pythonhosted.org/packages/a7/7f/5a52abbdb465f5d32e16ecb1f87742e7ba5f178356950bdf6edd416434c5/odoo12_addon_l10n_br_nfe-12.0.9.0.0-py3-none-any.whl
+[2023-05-12 18:56:52] INFO root fetch - processPackages [volttron-lib-modbustk-driver]: Downloading https://files.pythonhosted.org/packages/d4/6f/aa8e182769e4750137dde8eecde4daf8d990b50d9a1ee073ba92abd4bd07/volttron_lib_modbustk_driver-0.1.1a1.tar.gz
+[2023-05-12 18:56:53] INFO root fetch - processPackages [heaserver]: Start processing: odoo12-addon-l10n-br-nfe-spec
+[2023-05-12 18:56:53] INFO root fetch - main [MainThread]: End processing [heaserver]: success
+[2023-05-12 18:56:53] INFO root fetch - processPackages [neon-utils]: Start processing: discovery-transition-ds
+[2023-05-12 18:56:53] INFO root fetch - main [MainThread]: End processing [neon-utils]: success
+[2023-05-12 18:56:53] INFO root fetch - processPackages [odoo12-addon-l10n-br-nfe-spec]: New version: [12.0.4.0.0] Old Version: [12.0.3.1.1]
+[2023-05-12 18:56:53] INFO root fetch - processPackages [PatryksAutoAI]: Start processing: aacommpy
+[2023-05-12 18:56:53] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
+[2023-05-12 18:56:53] INFO root fetch - processPackages [simply-nwb]: Start processing: sbase
+[2023-05-12 18:56:53] INFO root fetch - main [MainThread]: End processing [simply-nwb]: success
+[2023-05-12 18:56:53] INFO root fetch - processPackages [aacommpy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-12 18:56:53] INFO root fetch - processPackages [wanda]: Start processing: neurotune
+[2023-05-12 18:56:53] INFO root fetch - main [MainThread]: End processing [wanda]: success
+[2023-05-12 18:56:53] INFO root fetch - processPackages [discovery-transition-ds]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-05-12 18:56:53] INFO root fetch - processPackages [odoo12-addon-l10n-br-nfe]: Downloading https://files.pythonhosted.org/packages/fb/d7/68bde8a4d51da9e8c5c2a8e3eff3d60b63c57aad008ebf231fbdb20fb3f7/odoo12_addon_l10n_br_nfe-12.0.9.0.1-py3-none-any.whl
+[2023-05-12 18:56:53] INFO root fetch - processPackages [aacommpy]: executing diffoscope
+[2023-05-12 18:56:53] INFO root fetch - processPackages [aacommpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aacommpy-0.1.8.tar.gz tmp/aacommpy-0.1.9.tar.gz --markdown 20230512/a/aacommpy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-12 18:56:53] INFO root fetch - processPackages [volttron-lib-modbustk-driver]: Downloading https://files.pythonhosted.org/packages/ff/6a/c108c7766a5dd2a68007b710d0922ee58a5a40278dfc454fd793edf239bf/volttron_lib_modbustk_driver-0.1.2rc0.tar.gz
+[2023-05-12 18:56:53] INFO root fetch - processPackages [sbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-05-12 18:56:53] INFO root fetch - processPackages [odoo12-addon-l10n-br-nfe-spec]: Downloading https://files.pythonhosted.org/packages/95/b6/2ae534cbac502ff41c0a7943d9929bfaef1a0a051e74e413463644a4da77/odoo12_addon_l10n_br_nfe_spec-12.0.3.1.1-py3-none-any.whl
+[2023-05-12 18:56:53] WARNING root fetch - processPackages [neurotune]: Skipping, unable to determine old version
+[2023-05-12 18:56:53] INFO root fetch - processPackages [neurotune]: Start processing: selenium-base
+[2023-05-12 18:56:53] INFO root fetch - main [MainThread]: End processing [neurotune] error
+[2023-05-12 18:56:53] INFO root fetch - processPackages [discovery-transition-ds]: executing diffoscope
+[2023-05-12 18:56:53] INFO root fetch - processPackages [discovery-transition-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discovery-transition-ds-4.9.8.tar.gz tmp/discovery-transition-ds-4.9.9.tar.gz --markdown 20230512/d/discovery-transition-ds/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-05-12 18:56:53] INFO root fetch - processPackages [odoo12-addon-l10n-br-nfe]: executing diffoscope
+[2023-05-12 18:56:53] INFO root fetch - processPackages [odoo12-addon-l10n-br-nfe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_l10n_br_nfe-12.0.9.0.0-py3-none-any.whl.zip tmp/odoo12_addon_l10n_br_nfe-12.0.9.0.1-py3-none-any.whl.zip --markdown 20230512/o/odoo12-addon-l10n-br-nfe/12.0.9.0.0-12.0.9.0.1/diff.md --exclude *.pyd
+[2023-05-12 18:56:53] INFO root fetch - processPackages [volttron-lib-modbustk-driver]: executing diffoscope
+[2023-05-12 18:56:53] INFO root fetch - processPackages [volttron-lib-modbustk-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volttron_lib_modbustk_driver-0.1.1a1.tar.gz tmp/volttron_lib_modbustk_driver-0.1.2rc0.tar.gz --markdown 20230512/v/volttron-lib-modbustk-driver/0.1.1a1-0.1.2rc0/diff.md --exclude *.pyd
+[2023-05-12 18:56:53] INFO root fetch - processPackages [simply-nwb]: Start processing: pytest-sbase
+[2023-05-12 18:56:53] INFO root fetch - main [MainThread]: End processing [simply-nwb]: success
+[2023-05-12 18:56:53] INFO root fetch - processPackages [odoo12-addon-l10n-br-nfe-spec]: Downloading https://files.pythonhosted.org/packages/27/83/469fb341d48490f0010756d28fa346bdb515dc2122acec65d1d34ad2465c/odoo12_addon_l10n_br_nfe_spec-12.0.4.0.0-py3-none-any.whl
+[2023-05-12 18:56:53] INFO root fetch - processPackages [sbase]: executing diffoscope
+[2023-05-12 18:56:53] INFO root fetch - processPackages [sbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbase-4.9.8.tar.gz tmp/sbase-4.9.9.tar.gz --markdown 20230512/s/sbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-05-12 18:56:53] INFO root fetch - processPackages [odoo12-addon-l10n-br-nfe-spec]: executing diffoscope
+[2023-05-12 18:56:53] INFO root fetch - processPackages [odoo12-addon-l10n-br-nfe-spec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_l10n_br_nfe_spec-12.0.3.1.1-py3-none-any.whl.zip tmp/odoo12_addon_l10n_br_nfe_spec-12.0.4.0.0-py3-none-any.whl.zip --markdown 20230512/o/odoo12-addon-l10n-br-nfe-spec/12.0.3.1.1-12.0.4.0.0/diff.md --exclude *.pyd
+[2023-05-12 18:56:53] INFO root fetch - processPackages [pytest-sbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-05-12 18:56:53] INFO root fetch - processPackages [selenium-base]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-05-12 18:56:54] INFO root fetch - processPackages [pytest-sbase]: executing diffoscope
+[2023-05-12 18:56:54] INFO root fetch - processPackages [pytest-sbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-sbase-4.9.8.tar.gz tmp/pytest-sbase-4.9.9.tar.gz --markdown 20230512/p/pytest-sbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-05-12 18:56:54] INFO root fetch - processPackages [selenium-base]: executing diffoscope
+[2023-05-12 18:56:54] INFO root fetch - processPackages [selenium-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium-base-4.9.8.tar.gz tmp/selenium-base-4.9.9.tar.gz --markdown 20230512/s/selenium-base/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-05-12 18:56:54] INFO root fetch - main [MainThread]: End processing [aacommpy]: success
+[2023-05-12 18:56:54] INFO root fetch - main [MainThread]: End processing [odoo12-addon-spec-driven-model]: success
+[2023-05-12 18:56:55] INFO root fetch - main [MainThread]: End processing [volttron-lib-modbustk-driver]: success
+[2023-05-12 18:56:55] INFO root fetch - main [MainThread]: End processing [odoo12-addon-l10n-br-nfe]: success
+[2023-05-12 18:56:55] INFO root fetch - main [MainThread]: End processing [odoo12-addon-l10n-br-nfe-spec]: success
+[2023-05-12 18:56:55] INFO root fetch - main [MainThread]: End processing [sbase]: success
+[2023-05-12 18:56:55] INFO root fetch - main [MainThread]: End processing [selenium-base]: success
+[2023-05-12 18:56:55] INFO root fetch - main [MainThread]: End processing [pytest-sbase]: success
+[2023-05-12 18:56:57] INFO root fetch - main [MainThread]: End processing [seleniumbase]: success
+[2023-05-12 18:56:59] INFO root fetch - main [MainThread]: End processing [discovery-transition-ds]: success
+[2023-05-12 18:56:59] INFO root fetch - main [MainThread]: Store serial: [18081151]
