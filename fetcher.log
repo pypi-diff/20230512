@@ -9568,3 +9568,62 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-12 12:58:31] INFO root fetch - main [MainThread]: End processing [wagtail-modeltranslation]: success
 [2023-05-12 12:58:31] INFO root fetch - main [MainThread]: End processing [pyxem]: success
 [2023-05-12 12:58:31] INFO root fetch - main [MainThread]: Store serial: [18076958]
+[2023-05-12 13:03:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18076958]
+[2023-05-12 13:03:41] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-12 13:03:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: watchtower-browser-testing
+[2023-05-12 13:03:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: substrate-interface
+[2023-05-12 13:03:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mecord-cli
+[2023-05-12 13:03:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pydio
+[2023-05-12 13:03:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PH-units
+[2023-05-12 13:03:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fedml
+[2023-05-12 13:03:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyGuardPoint
+[2023-05-12 13:03:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-dbsemaphore
+[2023-05-12 13:03:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fastapi-gateway-auto-generate
+[2023-05-12 13:03:41] INFO root fetch - processPackages [mecord-cli]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-12 13:03:42] INFO root fetch - processPackages [substrate-interface]: New version: [1.7.1] Old Version: [1.7.0]
+[2023-05-12 13:03:42] INFO root fetch - processPackages [PH-units]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-12 13:03:42] INFO root fetch - processPackages [pydio]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-05-12 13:03:42] INFO root fetch - processPackages [watchtower-browser-testing]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-05-12 13:03:42] WARNING root fetch - processPackages [fastapi-gateway-auto-generate]: Skipping, unable to determine old version
+[2023-05-12 13:03:42] INFO root fetch - processPackages [django-dbsemaphore]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-05-12 13:03:42] INFO root fetch - processPackages [mecord-cli]: executing diffoscope
+[2023-05-12 13:03:42] INFO root fetch - main [MainThread]: End processing [fastapi-gateway-auto-generate] error
+[2023-05-12 13:03:42] INFO root fetch - processPackages [fedml]: New version: [0.8.4a9] Old Version: [0.8.4a8]
+[2023-05-12 13:03:42] INFO root fetch - processPackages [mecord-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mecord-cli-0.1.8.tar.gz tmp/mecord-cli-0.1.9.tar.gz --markdown 20230512/m/mecord-cli/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-12 13:03:42] INFO root fetch - processPackages [pyGuardPoint]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-12 13:03:42] INFO root fetch - processPackages [PH-units]: Downloading https://files.pythonhosted.org/packages/5b/38/ccc37486910ad8ae30eb245ce6fa858e13d17b698bb6a37d98e8ddd47dad/PH-units-1.1.0.tar.gz
+[2023-05-12 13:03:42] INFO root fetch - processPackages [pydio]: Downloading https://files.pythonhosted.org/packages/a0/4b/f04ca0234a1dcb548027d762c8c7c848aeaf5cca38c909c05a1c4d382e48/pydio-0.4.0.tar.gz
+[2023-05-12 13:03:42] INFO root fetch - processPackages [watchtower-browser-testing]: Downloading https://files.pythonhosted.org/packages/33/12/42ff27d57d451a93a92a8c7fa9061e368f75ff0c6ae090308f29e9564f6c/watchtower_browser_testing-0.4.5.tar.gz
+[2023-05-12 13:03:42] INFO root fetch - processPackages [django-dbsemaphore]: Downloading https://files.pythonhosted.org/packages/17/2d/c5af2876bb9ecaad9cb993a0bf6faa83fb2612b6fe011bf39611fe56bcac/django-dbsemaphore-0.0.1.tar.gz
+[2023-05-12 13:03:42] INFO root fetch - processPackages [fedml]: Downloading https://files.pythonhosted.org/packages/2d/89/5e240b8c4bde2ab2881929287116b110fb3b2f843b4e4943c85367ef9518/fedml-0.8.4a8.tar.gz
+[2023-05-12 13:03:42] INFO root fetch - processPackages [pyGuardPoint]: Downloading https://files.pythonhosted.org/packages/69/0d/65da1f2c0039baf70c2524adf307a05dcae80216efbbf49c09f7f516f847/pyGuardPoint-0.9.0.tar.gz
+[2023-05-12 13:03:42] INFO root fetch - processPackages [substrate-interface]: Downloading https://files.pythonhosted.org/packages/9c/09/7106ed89b36d9f441388bcd600718faaac811f8e5d3e2f061f89edc8dc97/substrate-interface-1.7.1.tar.gz
+[2023-05-12 13:03:42] INFO root fetch - processPackages [pydio]: Downloading https://files.pythonhosted.org/packages/24/44/d0eb2f9d54d32eea446f80c471dbabfc6fb9e6b45c590ee2bbbe4abf4a54/pydio-0.4.1.tar.gz
+[2023-05-12 13:03:42] INFO root fetch - processPackages [pyGuardPoint]: Downloading https://files.pythonhosted.org/packages/f1/1d/27c22147ed2ca808dfb7977594abda9c597e50240f48ee500e009a8d49ad/pyGuardPoint-0.9.1.tar.gz
+[2023-05-12 13:03:42] INFO root fetch - processPackages [substrate-interface]: executing diffoscope
+[2023-05-12 13:03:42] INFO root fetch - processPackages [substrate-interface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/substrate-interface-1.7.0.tar.gz tmp/substrate-interface-1.7.1.tar.gz --markdown 20230512/s/substrate-interface/1.7.0-1.7.1/diff.md --exclude *.pyd
+[2023-05-12 13:03:42] INFO root fetch - processPackages [watchtower-browser-testing]: Downloading https://files.pythonhosted.org/packages/44/4b/daa8b68bad3aaa344f964273ca60c380c7628f8b9c5ca459773a64f36659/watchtower_browser_testing-0.4.6.tar.gz
+[2023-05-12 13:03:42] INFO root fetch - processPackages [PH-units]: Downloading https://files.pythonhosted.org/packages/60/6e/75198e5df81504ae8f6a531069c989db024f340f7b96c0705e1ad642c0d8/PH-units-1.1.1.tar.gz
+[2023-05-12 13:03:42] INFO root fetch - processPackages [fedml]: Downloading https://files.pythonhosted.org/packages/33/9b/be9e98195d0e435792d20db883ee2ae3f9b661f8bc6a8d98bb9c8a460195/fedml-0.8.4a9.tar.gz
+[2023-05-12 13:03:42] INFO root fetch - processPackages [pydio]: executing diffoscope
+[2023-05-12 13:03:42] INFO root fetch - processPackages [pydio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydio-0.4.0.tar.gz tmp/pydio-0.4.1.tar.gz --markdown 20230512/p/pydio/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-12 13:03:42] INFO root fetch - processPackages [django-dbsemaphore]: Downloading https://files.pythonhosted.org/packages/d1/78/cf0b5bc8777d988fa40c723401ea3e97a307bc5bacc2b7f0d93949b77d87/django-dbsemaphore-0.1.0.tar.gz
+[2023-05-12 13:03:42] INFO root fetch - processPackages [pyGuardPoint]: executing diffoscope
+[2023-05-12 13:03:42] INFO root fetch - processPackages [pyGuardPoint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyGuardPoint-0.9.0.tar.gz tmp/pyGuardPoint-0.9.1.tar.gz --markdown 20230512/p/pyGuardPoint/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-12 13:03:42] INFO root fetch - processPackages [fedml]: executing diffoscope
+[2023-05-12 13:03:42] INFO root fetch - processPackages [fedml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fedml-0.8.4a8.tar.gz tmp/fedml-0.8.4a9.tar.gz --markdown 20230512/f/fedml/0.8.4a8-0.8.4a9/diff.md --exclude *.pyd
+[2023-05-12 13:03:42] INFO root fetch - processPackages [watchtower-browser-testing]: executing diffoscope
+[2023-05-12 13:03:42] INFO root fetch - processPackages [watchtower-browser-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchtower_browser_testing-0.4.5.tar.gz tmp/watchtower_browser_testing-0.4.6.tar.gz --markdown 20230512/w/watchtower-browser-testing/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-05-12 13:03:42] INFO root fetch - processPackages [PH-units]: executing diffoscope
+[2023-05-12 13:03:42] INFO root fetch - processPackages [PH-units]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PH-units-1.1.0.tar.gz tmp/PH-units-1.1.1.tar.gz --markdown 20230512/P/PH-units/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-12 13:03:42] INFO root fetch - processPackages [django-dbsemaphore]: executing diffoscope
+[2023-05-12 13:03:42] INFO root fetch - processPackages [django-dbsemaphore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-dbsemaphore-0.0.1.tar.gz tmp/django-dbsemaphore-0.1.0.tar.gz --markdown 20230512/d/django-dbsemaphore/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-05-12 13:03:43] INFO root fetch - main [MainThread]: End processing [mecord-cli]: success
+[2023-05-12 13:03:44] INFO root fetch - main [MainThread]: End processing [substrate-interface]: success
+[2023-05-12 13:03:44] INFO root fetch - main [MainThread]: End processing [pyGuardPoint]: success
+[2023-05-12 13:03:44] INFO root fetch - main [MainThread]: End processing [watchtower-browser-testing]: success
+[2023-05-12 13:03:44] INFO root fetch - main [MainThread]: End processing [pydio]: success
+[2023-05-12 13:03:44] INFO root fetch - main [MainThread]: End processing [PH-units]: success
+[2023-05-12 13:03:44] INFO root fetch - main [MainThread]: End processing [django-dbsemaphore]: success
+[2023-05-12 13:03:51] INFO root fetch - main [MainThread]: End processing [fedml]: success
+[2023-05-12 13:03:51] INFO root fetch - main [MainThread]: Store serial: [18076989]
