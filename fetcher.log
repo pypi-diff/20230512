@@ -17890,3 +17890,122 @@ EOFError: EOF read where object expected
 [2023-05-12 20:52:49] ERROR root fetch - processPackages [grpcio]: Timeout during execution of pkgdiff
 [2023-05-12 20:52:49] INFO root fetch - main [MainThread]: End processing [grpcio] error
 [2023-05-12 20:52:49] INFO root fetch - main [MainThread]: Store serial: [18082414]
+[2023-05-12 20:57:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18082414]
+[2023-05-12 20:57:58] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-12 20:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: grpcio-admin
+[2023-05-12 20:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: grpcio-channelz
+[2023-05-12 20:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: grpcio-csds
+[2023-05-12 20:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: grpcio-health-checking
+[2023-05-12 20:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: grpcio-reflection
+[2023-05-12 20:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: grpcio-status
+[2023-05-12 20:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: grpcio-testing
+[2023-05-12 20:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: grpcio-tools
+[2023-05-12 20:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fudgeo
+[2023-05-12 20:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: knic-jupyter
+[2023-05-12 20:57:58] INFO root fetch - processPackages [grpcio-status]: New version: [1.55.0rc1] Old Version: [1.54.0rc1]
+[2023-05-12 20:57:58] INFO root fetch - processPackages [grpcio-channelz]: New version: [1.55.0rc1] Old Version: [1.54.0rc1]
+[2023-05-12 20:57:58] INFO root fetch - processPackages [grpcio-csds]: New version: [1.55.0rc1] Old Version: [1.54.0rc1]
+[2023-05-12 20:57:58] INFO root fetch - processPackages [grpcio-testing]: New version: [1.55.0rc1] Old Version: [1.54.0rc1]
+[2023-05-12 20:57:58] INFO root fetch - processPackages [grpcio-admin]: New version: [1.55.0rc1] Old Version: [1.54.0rc1]
+[2023-05-12 20:57:58] INFO root fetch - processPackages [grpcio-reflection]: New version: [1.9.1] Old Version: [1.9.0rc3]
+[2023-05-12 20:57:58] INFO root fetch - processPackages [fudgeo]: New version: [0.5.0] Old Version: [0.4.2]
+[2023-05-12 20:57:58] INFO root fetch - processPackages [grpcio-health-checking]: New version: [1.9.1] Old Version: [1.9.0rc3]
+[2023-05-12 20:57:58] INFO root fetch - processPackages [knic-jupyter]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-12 20:57:59] INFO root fetch - processPackages [grpcio-channelz]: Downloading https://files.pythonhosted.org/packages/ce/f6/6d00e66b39593b696e010076c778d3b6a3d307d313d9517d7a479f4525a7/grpcio-channelz-1.54.0rc1.tar.gz
+[2023-05-12 20:57:59] INFO root fetch - processPackages [grpcio-tools]: New version: [1.9.1] Old Version: [1.9.0rc3]
+[2023-05-12 20:57:59] INFO root fetch - processPackages [grpcio-csds]: Downloading https://files.pythonhosted.org/packages/84/d4/40f55b809f3b1a977a263022db8e81aac06448dc55a97cf88c5f1ce39b04/grpcio-csds-1.54.0rc1.tar.gz
+[2023-05-12 20:57:59] INFO root fetch - processPackages [grpcio-admin]: Downloading https://files.pythonhosted.org/packages/8f/25/3aad76f0bdd4122b88e38f3d4dd148390f99f095a480a46a8991062b474b/grpcio-admin-1.54.0rc1.tar.gz
+[2023-05-12 20:57:59] INFO root fetch - processPackages [grpcio-status]: Downloading https://files.pythonhosted.org/packages/61/01/5aeaf7dc6c6deb17eb5be4ad0555a2f65157e2fcb37dbf6e3145348e58cc/grpcio-status-1.54.0rc1.tar.gz
+[2023-05-12 20:57:59] INFO root fetch - processPackages [grpcio-testing]: Downloading https://files.pythonhosted.org/packages/bc/15/7cf7407c0f07816eb55994e677680edbff3d180c3403ac0b1c69ec05b738/grpcio-testing-1.54.0rc1.tar.gz
+[2023-05-12 20:57:59] INFO root fetch - processPackages [grpcio-reflection]: Downloading https://files.pythonhosted.org/packages/6a/26/01ed8dea550986f42f74221fa8d8d31756be28d6e5c473372af8567632c8/grpcio-reflection-1.9.0rc3.tar.gz
+[2023-05-12 20:57:59] INFO root fetch - processPackages [grpcio-health-checking]: Downloading https://files.pythonhosted.org/packages/ea/52/37ac14cc90867f55f80ce8b7d903f219c75e05c741b5d82cff4440e3e159/grpcio-health-checking-1.9.0rc3.tar.gz
+[2023-05-12 20:57:59] INFO root fetch - processPackages [grpcio-tools]: Downloading https://files.pythonhosted.org/packages/c5/04/1e6e73100e408d346552703ab15b45318d7fae3a7e45b0c4c810795dbcda/grpcio-tools-1.9.0rc3.tar.gz
+[2023-05-12 20:57:59] INFO root fetch - processPackages [knic-jupyter]: Downloading https://files.pythonhosted.org/packages/16/2f/0ef4519b6274669f1fc043acfe78cecc7b92c4132498f8ddedcf54454926/knic_jupyter-0.1.6.tar.gz
+[2023-05-12 20:57:59] INFO root fetch - processPackages [grpcio-csds]: Downloading https://files.pythonhosted.org/packages/cb/53/b43cc1087ae1a8f5697b35a401f41a7095040d1d124573a9139023aba699/grpcio-csds-1.55.0rc1.tar.gz
+[2023-05-12 20:57:59] INFO root fetch - processPackages [fudgeo]: Downloading https://files.pythonhosted.org/packages/43/b5/6c7103add6dcc19605a5d7bb53cfb3308bc6a64013be35bf79329ac9a57c/fudgeo-0.5.0-py3-none-any.whl
+[2023-05-12 20:57:59] INFO root fetch - processPackages [grpcio-testing]: Downloading https://files.pythonhosted.org/packages/90/d9/7c9ebe0855232f981fedd3acc3eeae5c554311bad2ad98cafe715bfb6753/grpcio-testing-1.55.0rc1.tar.gz
+[2023-05-12 20:57:59] INFO root fetch - processPackages [grpcio-channelz]: Downloading https://files.pythonhosted.org/packages/12/fc/c5aabe7a042ff72683cecaeab51b3ac55b8f905e17aeaf4d28306dff725d/grpcio-channelz-1.55.0rc1.tar.gz
+[2023-05-12 20:57:59] INFO root fetch - processPackages [grpcio-reflection]: Downloading https://files.pythonhosted.org/packages/dd/91/214c989e853ebd8e15e8d701e445fcf8047d0734f79ea5335674dd528292/grpcio-reflection-1.9.1.tar.gz
+[2023-05-12 20:57:59] INFO root fetch - processPackages [knic-jupyter]: executing diffoscope
+[2023-05-12 20:57:59] INFO root fetch - processPackages [knic-jupyter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/knic_jupyter-0.1.5.tar.gz tmp/knic_jupyter-0.1.6.tar.gz --markdown 20230512/k/knic-jupyter/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-12 20:57:59] INFO root fetch - processPackages [grpcio-health-checking]: Downloading https://files.pythonhosted.org/packages/64/b7/1a150f6c068a235ac47628bf0cdaa0bf74044a58548b9cbd624532e6d478/grpcio-health-checking-1.9.1.tar.gz
+[2023-05-12 20:57:59] INFO root fetch - processPackages [grpcio-csds]: executing diffoscope
+[2023-05-12 20:57:59] INFO root fetch - processPackages [grpcio-csds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grpcio-csds-1.54.0rc1.tar.gz tmp/grpcio-csds-1.55.0rc1.tar.gz --markdown 20230512/g/grpcio-csds/1.54.0rc1-1.55.0rc1/diff.md --exclude *.pyd
+[2023-05-12 20:57:59] INFO root fetch - processPackages [grpcio-status]: Downloading https://files.pythonhosted.org/packages/ab/cf/af71ea1d05cb49d63e035dad21ab17120cd0baf86de6dae6fd00e9114eac/grpcio-status-1.55.0rc1.tar.gz
+[2023-05-12 20:57:59] INFO root fetch - processPackages [fudgeo]: executing diffoscope
+[2023-05-12 20:57:59] INFO root fetch - processPackages [fudgeo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fudgeo-0.4.2-py3-none-any.whl.zip tmp/fudgeo-0.5.0-py3-none-any.whl.zip --markdown 20230512/f/fudgeo/0.4.2-0.5.0/diff.md --exclude *.pyd
+[2023-05-12 20:57:59] INFO root fetch - processPackages [grpcio-testing]: executing diffoscope
+[2023-05-12 20:57:59] INFO root fetch - processPackages [grpcio-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grpcio-testing-1.54.0rc1.tar.gz tmp/grpcio-testing-1.55.0rc1.tar.gz --markdown 20230512/g/grpcio-testing/1.54.0rc1-1.55.0rc1/diff.md --exclude *.pyd
+[2023-05-12 20:57:59] INFO root fetch - processPackages [grpcio-channelz]: executing diffoscope
+[2023-05-12 20:57:59] INFO root fetch - processPackages [grpcio-channelz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grpcio-channelz-1.54.0rc1.tar.gz tmp/grpcio-channelz-1.55.0rc1.tar.gz --markdown 20230512/g/grpcio-channelz/1.54.0rc1-1.55.0rc1/diff.md --exclude *.pyd
+[2023-05-12 20:57:59] INFO root fetch - processPackages [grpcio-admin]: Downloading https://files.pythonhosted.org/packages/71/e8/161eb5b3492f31c6601922ebb5ddf50e23cd333e9455b91dc02d00920799/grpcio-admin-1.55.0rc1.tar.gz
+[2023-05-12 20:57:59] INFO root fetch - processPackages [grpcio-reflection]: executing diffoscope
+[2023-05-12 20:57:59] INFO root fetch - processPackages [grpcio-reflection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grpcio-reflection-1.9.0rc3.tar.gz tmp/grpcio-reflection-1.9.1.tar.gz --markdown 20230512/g/grpcio-reflection/1.9.0rc3-1.9.1/diff.md --exclude *.pyd
+[2023-05-12 20:57:59] INFO root fetch - processPackages [grpcio-health-checking]: executing diffoscope
+[2023-05-12 20:57:59] INFO root fetch - processPackages [grpcio-health-checking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grpcio-health-checking-1.9.0rc3.tar.gz tmp/grpcio-health-checking-1.9.1.tar.gz --markdown 20230512/g/grpcio-health-checking/1.9.0rc3-1.9.1/diff.md --exclude *.pyd
+[2023-05-12 20:57:59] INFO root fetch - processPackages [grpcio-status]: executing diffoscope
+[2023-05-12 20:57:59] INFO root fetch - processPackages [grpcio-status]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grpcio-status-1.54.0rc1.tar.gz tmp/grpcio-status-1.55.0rc1.tar.gz --markdown 20230512/g/grpcio-status/1.54.0rc1-1.55.0rc1/diff.md --exclude *.pyd
+[2023-05-12 20:57:59] INFO root fetch - processPackages [grpcio-admin]: executing diffoscope
+[2023-05-12 20:57:59] INFO root fetch - processPackages [grpcio-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grpcio-admin-1.54.0rc1.tar.gz tmp/grpcio-admin-1.55.0rc1.tar.gz --markdown 20230512/g/grpcio-admin/1.54.0rc1-1.55.0rc1/diff.md --exclude *.pyd
+[2023-05-12 20:57:59] INFO root fetch - processPackages [grpcio-tools]: Downloading https://files.pythonhosted.org/packages/26/3d/061e0162aeb88dba757e56bc8a9bdacfce70ad6e43b8181a48b29acd827c/grpcio-tools-1.9.1.tar.gz
+[2023-05-12 20:58:00] INFO root fetch - processPackages [grpcio-tools]: executing diffoscope
+[2023-05-12 20:58:00] INFO root fetch - processPackages [grpcio-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grpcio-tools-1.9.0rc3.tar.gz tmp/grpcio-tools-1.9.1.tar.gz --markdown 20230512/g/grpcio-tools/1.9.0rc3-1.9.1/diff.md --exclude *.pyd
+[2023-05-12 20:58:01] INFO root fetch - processPackages [fudgeo]: Start processing: scikit-llm
+[2023-05-12 20:58:01] INFO root fetch - main [MainThread]: End processing [fudgeo]: success
+[2023-05-12 20:58:01] INFO root fetch - processPackages [grpcio-csds]: Start processing: lmcloud
+[2023-05-12 20:58:01] INFO root fetch - main [MainThread]: End processing [grpcio-csds]: success
+[2023-05-12 20:58:01] INFO root fetch - processPackages [lmcloud]: New version: [0.3.0] Old Version: [0.2.3]
+[2023-05-12 20:58:01] WARNING root fetch - processPackages [scikit-llm]: Skipping, unable to determine old version
+[2023-05-12 20:58:01] INFO root fetch - processPackages [scikit-llm]: Start processing: xia-compiler-openapi
+[2023-05-12 20:58:01] INFO root fetch - main [MainThread]: End processing [scikit-llm] error
+[2023-05-12 20:58:01] INFO root fetch - processPackages [lmcloud]: executing diffoscope
+[2023-05-12 20:58:01] INFO root fetch - processPackages [lmcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lmcloud-0.2.3.tar.gz tmp/lmcloud-0.3.0.tar.gz --markdown 20230512/l/lmcloud/0.2.3-0.3.0/diff.md --exclude *.pyd
+[2023-05-12 20:58:01] INFO root fetch - processPackages [xia-compiler-openapi]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-12 20:58:01] INFO root fetch - processPackages [grpcio-channelz]: Start processing: btecli
+[2023-05-12 20:58:01] INFO root fetch - main [MainThread]: End processing [grpcio-channelz]: success
+[2023-05-12 20:58:01] INFO root fetch - processPackages [btecli]: New version: [1.6.5] Old Version: [1.6.4]
+[2023-05-12 20:58:01] INFO root fetch - processPackages [grpcio-testing]: Start processing: v4xyz
+[2023-05-12 20:58:01] INFO root fetch - main [MainThread]: End processing [grpcio-testing]: success
+[2023-05-12 20:58:01] INFO root fetch - processPackages [btecli]: executing diffoscope
+[2023-05-12 20:58:01] INFO root fetch - processPackages [btecli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/btecli-1.6.4.tar.gz tmp/btecli-1.6.5.tar.gz --markdown 20230512/b/btecli/1.6.4-1.6.5/diff.md --exclude *.pyd
+[2023-05-12 20:58:01] WARNING root fetch - processPackages [v4xyz]: Skipping, unable to determine old version
+[2023-05-12 20:58:01] INFO root fetch - processPackages [v4xyz]: Start processing: gpt-requests
+[2023-05-12 20:58:01] INFO root fetch - main [MainThread]: End processing [v4xyz] error
+[2023-05-12 20:58:01] WARNING root fetch - processPackages [gpt-requests]: Skipping, unable to determine old version
+[2023-05-12 20:58:01] INFO root fetch - processPackages [gpt-requests]: Start processing: pyutplugins
+[2023-05-12 20:58:01] INFO root fetch - main [MainThread]: End processing [gpt-requests] error
+[2023-05-12 20:58:01] INFO root fetch - processPackages [grpcio-health-checking]: Start processing: zebedee
+[2023-05-12 20:58:01] INFO root fetch - main [MainThread]: End processing [grpcio-health-checking]: success
+[2023-05-12 20:58:01] INFO root fetch - processPackages [xia-compiler-openapi]: executing diffoscope
+[2023-05-12 20:58:01] INFO root fetch - processPackages [xia-compiler-openapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_compiler_openapi-0.1.8-cp39-none-win_amd64.whl.zip tmp/xia_compiler_openapi-0.1.9-cp39-none-win_amd64.whl.zip --markdown 20230512/x/xia-compiler-openapi/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-12 20:58:01] INFO root fetch - processPackages [grpcio-reflection]: Start processing: volttron-lib-dnp3-driver
+[2023-05-12 20:58:01] INFO root fetch - main [MainThread]: End processing [grpcio-reflection]: success
+[2023-05-12 20:58:02] INFO root fetch - processPackages [pyutplugins]: New version: [0.8.80] Old Version: [0.8.70]
+[2023-05-12 20:58:02] INFO root fetch - processPackages [volttron-lib-dnp3-driver]: New version: [0.1.1a6] Old Version: [0.1.1a5]
+[2023-05-12 20:58:02] INFO root fetch - processPackages [zebedee]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-12 20:58:02] INFO root fetch - processPackages [grpcio-admin]: Start processing: xgb2sql
+[2023-05-12 20:58:02] INFO root fetch - main [MainThread]: End processing [grpcio-admin]: success
+[2023-05-12 20:58:02] INFO root fetch - processPackages [volttron-lib-dnp3-driver]: executing diffoscope
+[2023-05-12 20:58:02] INFO root fetch - processPackages [volttron-lib-dnp3-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volttron_lib_dnp3_driver-0.1.1a5.tar.gz tmp/volttron_lib_dnp3_driver-0.1.1a6.tar.gz --markdown 20230512/v/volttron-lib-dnp3-driver/0.1.1a5-0.1.1a6/diff.md --exclude *.pyd
+[2023-05-12 20:58:02] INFO root fetch - processPackages [xgb2sql]: New version: [0.113] Old Version: [0.112]
+[2023-05-12 20:58:02] INFO root fetch - processPackages [zebedee]: Downloading https://files.pythonhosted.org/packages/04/be/41a6e1005595efa10843c2c3525057b0dd0022dee323cf8a0e1ac2574d78/zebedee-0.0.3.tar.gz
+[2023-05-12 20:58:02] INFO root fetch - main [MainThread]: End processing [grpcio-status]: success
+[2023-05-12 20:58:02] INFO root fetch - processPackages [pyutplugins]: Downloading https://files.pythonhosted.org/packages/a1/5b/020af9ca7569d22fe53b8b93de4c66d9506bc0b7dfcd8c69ef13e4dde846/pyutplugins-0.8.80.tar.gz
+[2023-05-12 20:58:02] INFO root fetch - main [MainThread]: End processing [knic-jupyter]: success
+[2023-05-12 20:58:02] INFO root fetch - processPackages [zebedee]: Downloading https://files.pythonhosted.org/packages/0a/b0/f7dc01638c824e83c2522a786773d176bcaa989eb7946bea67af3f632e78/zebedee-0.0.4.tar.gz
+[2023-05-12 20:58:02] INFO root fetch - processPackages [pyutplugins]: executing diffoscope
+[2023-05-12 20:58:02] INFO root fetch - processPackages [pyutplugins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyutplugins-0.8.70.tar.gz tmp/pyutplugins-0.8.80.tar.gz --markdown 20230512/p/pyutplugins/0.8.70-0.8.80/diff.md --exclude *.pyd
+[2023-05-12 20:58:02] INFO root fetch - processPackages [zebedee]: executing diffoscope
+[2023-05-12 20:58:02] INFO root fetch - processPackages [xgb2sql]: Downloading https://files.pythonhosted.org/packages/81/e9/10e6e87a6e8b474373927c083b0bdd4f1dab9cce34fb1829438b6865bdee/xgb2sql-0.113.tar.gz
+[2023-05-12 20:58:02] INFO root fetch - processPackages [zebedee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zebedee-0.0.3.tar.gz tmp/zebedee-0.0.4.tar.gz --markdown 20230512/z/zebedee/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-12 20:58:02] INFO root fetch - processPackages [xgb2sql]: executing diffoscope
+[2023-05-12 20:58:02] INFO root fetch - processPackages [xgb2sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xgb2sql-0.112.tar.gz tmp/xgb2sql-0.113.tar.gz --markdown 20230512/x/xgb2sql/0.112-0.113/diff.md --exclude *.pyd
+[2023-05-12 20:58:03] INFO root fetch - main [MainThread]: End processing [lmcloud]: success
+[2023-05-12 20:58:03] INFO root fetch - main [MainThread]: End processing [xia-compiler-openapi]: success
+[2023-05-12 20:58:03] INFO root fetch - main [MainThread]: End processing [volttron-lib-dnp3-driver]: success
+[2023-05-12 20:58:03] INFO root fetch - main [MainThread]: End processing [btecli]: success
+[2023-05-12 20:58:03] INFO root fetch - main [MainThread]: End processing [zebedee]: success
+[2023-05-12 20:58:03] INFO root fetch - main [MainThread]: End processing [xgb2sql]: success
+[2023-05-12 20:58:04] INFO root fetch - main [MainThread]: End processing [pyutplugins]: success
+[2023-05-12 20:58:13] INFO root fetch - main [MainThread]: End processing [grpcio-tools]: success
+[2023-05-12 20:58:13] INFO root fetch - main [MainThread]: Store serial: [18082557]
