@@ -10941,3 +10941,82 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-12 14:50:03] INFO root fetch - main [MainThread]: End processing [rasa]: success
 [2023-05-12 14:50:04] INFO root fetch - main [MainThread]: End processing [resolwe]: success
 [2023-05-12 14:50:04] INFO root fetch - main [MainThread]: Store serial: [18077996]
+[2023-05-12 14:55:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18077996]
+[2023-05-12 14:55:14] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-12 14:55:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: etils
+[2023-05-12 14:55:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tycho-api
+[2023-05-12 14:55:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: os-bedtime
+[2023-05-12 14:55:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sarus-data-spec-public
+[2023-05-12 14:55:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cloudnetpy
+[2023-05-12 14:55:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: img2str
+[2023-05-12 14:55:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: extr
+[2023-05-12 14:55:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: AICreator
+[2023-05-12 14:55:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: extr-ds
+[2023-05-12 14:55:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: constructs
+[2023-05-12 14:55:14] INFO root fetch - processPackages [cloudnetpy]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-05-12 14:55:14] INFO root fetch - processPackages [extr]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 14:55:14] INFO root fetch - processPackages [sarus-data-spec-public]: New version: [3.2.1.dev4] Old Version: [3.2.1.dev3]
+[2023-05-12 14:55:14] INFO root fetch - processPackages [extr-ds]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 14:55:14] INFO root fetch - processPackages [tycho-api]: New version: [1.9a1.dev3] Old Version: [1.9a1.dev2]
+[2023-05-12 14:55:14] INFO root fetch - processPackages [constructs]: New version: [3.4.99] Old Version: [3.4.98]
+[2023-05-12 14:55:14] INFO root fetch - processPackages [cloudnetpy]: Downloading https://files.pythonhosted.org/packages/9c/f5/740f77e4140aebd398cec0e90a35ab89249c74a2128282651e3e52d69176/cloudnetpy-1.9.3.tar.gz
+[2023-05-12 14:55:14] INFO root fetch - processPackages [AICreator]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-12 14:55:14] ERROR root fetch - processPackages [img2str]: Unable to get metadata: No such project 'img2str'
+[2023-05-12 14:55:14] INFO root fetch - processPackages [img2str]: Start processing: pythonsdk
+[2023-05-12 14:55:14] INFO root fetch - main [MainThread]: End processing [img2str] error
+[2023-05-12 14:55:14] WARNING root fetch - processPackages [cloudnetpy]: Skipping package: exceeds size limit 16683885>=10485760
+[2023-05-12 14:55:14] INFO root fetch - processPackages [cloudnetpy]: Start processing: vedro-cloud
+[2023-05-12 14:55:14] INFO root fetch - main [MainThread]: End processing [cloudnetpy] error
+[2023-05-12 14:55:14] WARNING root fetch - processPackages [os-bedtime]: Skipping, unable to determine old version
+[2023-05-12 14:55:14] INFO root fetch - processPackages [os-bedtime]: Start processing: JBPhD
+[2023-05-12 14:55:14] INFO root fetch - main [MainThread]: End processing [os-bedtime] error
+[2023-05-12 14:55:14] INFO root fetch - processPackages [extr]: executing diffoscope
+[2023-05-12 14:55:14] INFO root fetch - processPackages [extr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extr-0.0.8.tar.gz tmp/extr-0.0.9.tar.gz --markdown 20230512/e/extr/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 14:55:14] INFO root fetch - processPackages [tycho-api]: executing diffoscope
+[2023-05-12 14:55:14] INFO root fetch - processPackages [tycho-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tycho-api-1.9a1.dev2.tar.gz tmp/tycho-api-1.9a1.dev3.tar.gz --markdown 20230512/t/tycho-api/1.9a1.dev2-1.9a1.dev3/diff.md --exclude *.pyd
+[2023-05-12 14:55:14] INFO root fetch - processPackages [etils]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-05-12 14:55:14] INFO root fetch - processPackages [extr-ds]: executing diffoscope
+[2023-05-12 14:55:14] INFO root fetch - processPackages [extr-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extr-ds-0.0.8.tar.gz tmp/extr-ds-0.0.9.tar.gz --markdown 20230512/e/extr-ds/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 14:55:14] INFO root fetch - processPackages [JBPhD]: New version: [2.0.8] Old Version: [2.0.7]
+[2023-05-12 14:55:14] INFO root fetch - processPackages [pythonsdk]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-05-12 14:55:14] INFO root fetch - processPackages [constructs]: executing diffoscope
+[2023-05-12 14:55:14] INFO root fetch - processPackages [constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/constructs-3.4.98.tar.gz tmp/constructs-3.4.99.tar.gz --markdown 20230512/c/constructs/3.4.98-3.4.99/diff.md --exclude *.pyd
+[2023-05-12 14:55:14] INFO root fetch - processPackages [AICreator]: Downloading https://files.pythonhosted.org/packages/ca/b3/2befc89af2a8fbeb33807d78817fce85f7ddbb3c57dd2e855e5cb5a107f6/AICreator-0.1.6.tar.gz
+[2023-05-12 14:55:14] INFO root fetch - processPackages [vedro-cloud]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-12 14:55:14] INFO root fetch - processPackages [etils]: Downloading https://files.pythonhosted.org/packages/fd/c5/af049dcc223a63e8134cac42279d4d176a42fdd47c29b6631ad0c398685a/etils-1.2.0.tar.gz
+[2023-05-12 14:55:14] INFO root fetch - processPackages [sarus-data-spec-public]: Downloading https://files.pythonhosted.org/packages/94/7d/909436f51d27c72935e8ca9bdfc7ec5dd1cb4b5e0ffe249f8e2496f1ffad/sarus_data_spec_public-3.2.1.dev4.tar.gz
+[2023-05-12 14:55:14] INFO root fetch - processPackages [sarus-data-spec-public]: executing diffoscope
+[2023-05-12 14:55:14] INFO root fetch - processPackages [sarus-data-spec-public]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sarus_data_spec_public-3.2.1.dev3.tar.gz tmp/sarus_data_spec_public-3.2.1.dev4.tar.gz --markdown 20230512/s/sarus-data-spec-public/3.2.1.dev3-3.2.1.dev4/diff.md --exclude *.pyd
+[2023-05-12 14:55:14] INFO root fetch - processPackages [AICreator]: Downloading https://files.pythonhosted.org/packages/8a/87/3b4f12be8bdf58e8f6f66e5f8f365a17db113ec9af51e6483f8eab957234/AICreator-0.1.7.tar.gz
+[2023-05-12 14:55:14] INFO root fetch - processPackages [JBPhD]: Downloading https://files.pythonhosted.org/packages/05/a0/ec941aa13b1c16a5efe7897a9b641cf7019e1aa259a9c018f089e7bf268f/JBPhD-2.0.8-py3-none-any.whl
+[2023-05-12 14:55:14] INFO root fetch - processPackages [etils]: Downloading https://files.pythonhosted.org/packages/e7/e5/fdbaca6a543f459a28b6713cdda7bccfb340b2c048c0982f654f1e1f5173/etils-1.3.0.tar.gz
+[2023-05-12 14:55:14] INFO root fetch - processPackages [pythonsdk]: Downloading https://files.pythonhosted.org/packages/c6/58/e13184b20dd9d193adf4c3b6e6d598236c8f0e8a5a5d4138bb259584eb35/pythonsdk-0.8.0.tar.gz
+[2023-05-12 14:55:14] INFO root fetch - processPackages [AICreator]: executing diffoscope
+[2023-05-12 14:55:14] INFO root fetch - processPackages [AICreator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AICreator-0.1.6.tar.gz tmp/AICreator-0.1.7.tar.gz --markdown 20230512/A/AICreator/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-12 14:55:14] INFO root fetch - processPackages [etils]: executing diffoscope
+[2023-05-12 14:55:14] INFO root fetch - processPackages [etils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etils-1.2.0.tar.gz tmp/etils-1.3.0.tar.gz --markdown 20230512/e/etils/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-05-12 14:55:14] INFO root fetch - processPackages [pythonsdk]: executing diffoscope
+[2023-05-12 14:55:14] INFO root fetch - processPackages [pythonsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythonsdk-0.7.0.tar.gz tmp/pythonsdk-0.8.0.tar.gz --markdown 20230512/p/pythonsdk/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-05-12 14:55:14] INFO root fetch - processPackages [vedro-cloud]: Downloading https://files.pythonhosted.org/packages/03/2f/5d9445801773a7b26d183894fa48392b07c38c9555154f3ce674463e1cd6/vedro-cloud-0.3.0.tar.gz
+[2023-05-12 14:55:15] INFO root fetch - processPackages [JBPhD]: executing diffoscope
+[2023-05-12 14:55:15] INFO root fetch - processPackages [JBPhD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JBPhD-2.0.7-py3-none-any.whl.zip tmp/JBPhD-2.0.8-py3-none-any.whl.zip --markdown 20230512/J/JBPhD/2.0.7-2.0.8/diff.md --exclude *.pyd
+[2023-05-12 14:55:15] INFO root fetch - processPackages [vedro-cloud]: Downloading https://files.pythonhosted.org/packages/24/9d/46c1244cb15483a88f29d9688030cd1cd156b05ba52e36eb1245ebd0feb0/vedro-cloud-0.3.1.tar.gz
+[2023-05-12 14:55:15] INFO root fetch - processPackages [vedro-cloud]: executing diffoscope
+[2023-05-12 14:55:15] INFO root fetch - processPackages [vedro-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vedro-cloud-0.3.0.tar.gz tmp/vedro-cloud-0.3.1.tar.gz --markdown 20230512/v/vedro-cloud/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-12 14:55:15] INFO root fetch - processPackages [extr]: Start processing: manticore
+[2023-05-12 14:55:15] INFO root fetch - main [MainThread]: End processing [extr]: success
+[2023-05-12 14:55:15] INFO root fetch - processPackages [manticore]: New version: [0.3.8.dev230511] Old Version: [0.3.8.dev230510]
+[2023-05-12 14:55:15] INFO root fetch - main [MainThread]: End processing [extr-ds]: success
+[2023-05-12 14:55:16] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/51/a2/6d46950aced50a692beb9d76f96df0938c6194b4d00a4a6929b959a4b4d5/manticore-0.3.8.dev230511.tar.gz
+[2023-05-12 14:55:16] INFO root fetch - processPackages [manticore]: executing diffoscope
+[2023-05-12 14:55:16] INFO root fetch - processPackages [manticore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manticore-0.3.8.dev230510.tar.gz tmp/manticore-0.3.8.dev230511.tar.gz --markdown 20230512/m/manticore/0.3.8.dev230510-0.3.8.dev230511/diff.md --exclude *.pyd
+[2023-05-12 14:55:16] INFO root fetch - main [MainThread]: End processing [tycho-api]: success
+[2023-05-12 14:55:16] INFO root fetch - main [MainThread]: End processing [AICreator]: success
+[2023-05-12 14:55:16] INFO root fetch - main [MainThread]: End processing [constructs]: success
+[2023-05-12 14:55:16] INFO root fetch - main [MainThread]: End processing [vedro-cloud]: success
+[2023-05-12 14:55:16] INFO root fetch - main [MainThread]: End processing [etils]: success
+[2023-05-12 14:55:17] INFO root fetch - main [MainThread]: End processing [sarus-data-spec-public]: success
+[2023-05-12 14:55:17] INFO root fetch - main [MainThread]: End processing [pythonsdk]: success
+[2023-05-12 14:55:17] INFO root fetch - main [MainThread]: End processing [JBPhD]: success
+[2023-05-12 14:55:18] INFO root fetch - main [MainThread]: End processing [manticore]: success
+[2023-05-12 14:55:18] INFO root fetch - main [MainThread]: Store serial: [18078057]
