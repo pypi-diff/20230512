@@ -1921,3 +1921,77 @@
 [2023-05-12 03:14:30] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-cdb]: success
 [2023-05-12 03:14:31] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-cdn]: success
 [2023-05-12 03:14:31] INFO root fetch - main [MainThread]: Store serial: [18071746]
+[2023-05-12 03:19:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18071746]
+[2023-05-12 03:19:40] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-12 03:19:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: reytool
+[2023-05-12 03:19:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tastytrade-sdk
+[2023-05-12 03:19:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pepperize.cdk-organizations
+[2023-05-12 03:19:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tencentcloud-sdk-python-cds
+[2023-05-12 03:19:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vspk
+[2023-05-12 03:19:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-lambda-subminute
+[2023-05-12 03:19:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ykenan-fragments
+[2023-05-12 03:19:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tencentcloud-sdk-python-cfs
+[2023-05-12 03:19:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: docchain
+[2023-05-12 03:19:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: zerocs
+[2023-05-12 03:19:40] INFO root fetch - processPackages [vspk]: New version: [6.0.9] Old Version: [6.0.8]
+[2023-05-12 03:19:40] INFO root fetch - processPackages [zerocs]: New version: [1.2] Old Version: [1.1]
+[2023-05-12 03:19:40] INFO root fetch - processPackages [cdk-lambda-subminute]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-12 03:19:40] INFO root fetch - processPackages [tencentcloud-sdk-python-cds]: New version: [3.0.890] Old Version: [3.0.888]
+[2023-05-12 03:19:40] INFO root fetch - processPackages [tastytrade-sdk]: New version: [0.0.dev1] Old Version: [0.0.4a0.dev79]
+[2023-05-12 03:19:40] INFO root fetch - processPackages [docchain]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-12 03:19:40] INFO root fetch - processPackages [ykenan-fragments]: New version: [1.2.7] Old Version: [1.2.6]
+[2023-05-12 03:19:40] INFO root fetch - processPackages [reytool]: New version: [0.99] Old Version: [0.98]
+[2023-05-12 03:19:40] INFO root fetch - processPackages [tencentcloud-sdk-python-cfs]: New version: [3.0.890] Old Version: [3.0.889]
+[2023-05-12 03:19:40] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-05-12 03:19:40] INFO root fetch - processPackages [reytool]: executing diffoscope
+[2023-05-12 03:19:40] INFO root fetch - processPackages [reytool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reytool-0.98-py3-none-any.whl.zip tmp/reytool-0.99-py3-none-any.whl.zip --markdown 20230512/r/reytool/0.98-0.99/diff.md --exclude *.pyd
+[2023-05-12 03:19:40] INFO root fetch - processPackages [cdk-lambda-subminute]: executing diffoscope
+[2023-05-12 03:19:40] INFO root fetch - processPackages [cdk-lambda-subminute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_lambda_subminute-2.0.98.tar.gz tmp/cdk_lambda_subminute-2.0.99.tar.gz --markdown 20230512/c/cdk-lambda-subminute/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-12 03:19:40] INFO root fetch - processPackages [tastytrade-sdk]: executing diffoscope
+[2023-05-12 03:19:40] INFO root fetch - processPackages [tastytrade-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tastytrade_sdk-0.0.4a0.dev79.tar.gz tmp/tastytrade-sdk-0.0.dev1.tar.gz --markdown 20230512/t/tastytrade-sdk/0.0.4a0.dev79-0.0.dev1/diff.md --exclude *.pyd
+[2023-05-12 03:19:40] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-05-12 03:19:40] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230512/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-05-12 03:19:40] INFO root fetch - processPackages [vspk]: Downloading https://files.pythonhosted.org/packages/7b/26/5148d051dfc5339b60b87aedf2275599ecd2cadabb2033122e6399a9b0ff/vspk-6.0.8.tar.gz
+[2023-05-12 03:19:41] INFO root fetch - processPackages [zerocs]: Downloading https://files.pythonhosted.org/packages/d6/6d/d238d51945cfbde48987d7494cffe829113b52456dde1819857b5fd1cc52/zerocs-1.1.tar.gz
+[2023-05-12 03:19:41] INFO root fetch - processPackages [ykenan-fragments]: Downloading https://files.pythonhosted.org/packages/2c/5c/a44018b23db816c7f0d21ebdae98173f6ccb0be5c513e4c808d87b81dca5/ykenan_fragments-1.2.6.tar.gz
+[2023-05-12 03:19:41] INFO root fetch - processPackages [tencentcloud-sdk-python-cfs]: Downloading https://files.pythonhosted.org/packages/e7/a9/cc3015195ab2e895db3158332d1842bc2783eca14143da40daa82fb778cf/tencentcloud-sdk-python-cfs-3.0.890.tar.gz
+[2023-05-12 03:19:41] INFO root fetch - processPackages [docchain]: Downloading https://files.pythonhosted.org/packages/2b/3e/27069d8804076effd6621eb04764bc5c2767e5b590af7b5d3dd1e77b0e70/docchain-0.0.4.tar.gz
+[2023-05-12 03:19:41] INFO root fetch - processPackages [tencentcloud-sdk-python-cds]: Downloading https://files.pythonhosted.org/packages/44/98/294339bce90fed0c3841245893a1639391c7926c7a38e32b07d66f14f6d9/tencentcloud_sdk_python_cds-3.0.890-py2.py3-none-any.whl
+[2023-05-12 03:19:41] INFO root fetch - processPackages [tencentcloud-sdk-python-cfs]: executing diffoscope
+[2023-05-12 03:19:41] INFO root fetch - processPackages [tencentcloud-sdk-python-cfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-cfs-3.0.889.tar.gz tmp/tencentcloud-sdk-python-cfs-3.0.890.tar.gz --markdown 20230512/t/tencentcloud-sdk-python-cfs/3.0.889-3.0.890/diff.md --exclude *.pyd
+[2023-05-12 03:19:41] INFO root fetch - processPackages [tencentcloud-sdk-python-cds]: executing diffoscope
+[2023-05-12 03:19:41] INFO root fetch - processPackages [tencentcloud-sdk-python-cds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-cds-3.0.888.tar.gz tmp/tencentcloud_sdk_python_cds-3.0.890-py2.py3-none-any.whl.zip --markdown 20230512/t/tencentcloud-sdk-python-cds/3.0.888-3.0.890/diff.md --exclude *.pyd
+[2023-05-12 03:19:41] INFO root fetch - processPackages [ykenan-fragments]: Downloading https://files.pythonhosted.org/packages/68/3b/db8f42d0b5f1af0b8d796fa4ce6b7b792166a2adbf7b1b16bf98a3af78e7/ykenan_fragments-1.2.7.tar.gz
+[2023-05-12 03:19:41] INFO root fetch - processPackages [docchain]: Downloading https://files.pythonhosted.org/packages/28/83/d05159696b8b881066060cdd9705e3c8a2faae9d5774e162687114874ad5/docchain-0.0.5.tar.gz
+[2023-05-12 03:19:41] INFO root fetch - processPackages [zerocs]: Downloading https://files.pythonhosted.org/packages/9e/30/3862b3521baadd5e1311ccf4d2c8ee9a5c117bf8c54490eb54595df1f4b3/zerocs-1.2.tar.gz
+[2023-05-12 03:19:41] INFO root fetch - processPackages [docchain]: executing diffoscope
+[2023-05-12 03:19:41] INFO root fetch - processPackages [docchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docchain-0.0.4.tar.gz tmp/docchain-0.0.5.tar.gz --markdown 20230512/d/docchain/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-12 03:19:41] INFO root fetch - processPackages [ykenan-fragments]: executing diffoscope
+[2023-05-12 03:19:41] INFO root fetch - processPackages [ykenan-fragments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ykenan_fragments-1.2.6.tar.gz tmp/ykenan_fragments-1.2.7.tar.gz --markdown 20230512/y/ykenan-fragments/1.2.6-1.2.7/diff.md --exclude *.pyd
+[2023-05-12 03:19:41] INFO root fetch - processPackages [vspk]: Downloading https://files.pythonhosted.org/packages/e0/af/de64244bcf2bc177234a76acf7b2b46ac6b9e4bb80e3621cd7946308fcab/vspk-6.0.9.tar.gz
+[2023-05-12 03:19:41] INFO root fetch - processPackages [zerocs]: executing diffoscope
+[2023-05-12 03:19:41] INFO root fetch - processPackages [zerocs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zerocs-1.1.tar.gz tmp/zerocs-1.2.tar.gz --markdown 20230512/z/zerocs/1.1-1.2/diff.md --exclude *.pyd
+[2023-05-12 03:19:41] INFO root fetch - processPackages [vspk]: executing diffoscope
+[2023-05-12 03:19:41] INFO root fetch - processPackages [vspk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vspk-6.0.8.tar.gz tmp/vspk-6.0.9.tar.gz --markdown 20230512/v/vspk/6.0.8-6.0.9/diff.md --exclude *.pyd
+[2023-05-12 03:19:42] INFO root fetch - processPackages [reytool]: Start processing: eyes-soatra
+[2023-05-12 03:19:42] INFO root fetch - main [MainThread]: End processing [reytool]: success
+[2023-05-12 03:19:42] INFO root fetch - processPackages [eyes-soatra]: New version: [0.0.21] Old Version: [0.0.20]
+[2023-05-12 03:19:42] INFO root fetch - processPackages [cdk-lambda-subminute]: Start processing: botocore-a-la-carte-es
+[2023-05-12 03:19:42] INFO root fetch - main [MainThread]: End processing [cdk-lambda-subminute]: success
+[2023-05-12 03:19:42] INFO root fetch - processPackages [botocore-a-la-carte-es]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-05-12 03:19:42] INFO root fetch - processPackages [eyes-soatra]: Downloading https://files.pythonhosted.org/packages/e9/ff/7d396403ccb44563031dea8cb8714480546d86f8fb83363ff53909d9c6c8/eyes_soatra-0.0.21.tar.gz
+[2023-05-12 03:19:42] INFO root fetch - main [MainThread]: End processing [tastytrade-sdk]: success
+[2023-05-12 03:19:42] INFO root fetch - processPackages [eyes-soatra]: executing diffoscope
+[2023-05-12 03:19:42] INFO root fetch - processPackages [eyes-soatra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eyes_soatra-0.0.20.tar.gz tmp/eyes_soatra-0.0.21.tar.gz --markdown 20230512/e/eyes-soatra/0.0.20-0.0.21/diff.md --exclude *.pyd
+[2023-05-12 03:19:42] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-cds]: success
+[2023-05-12 03:19:42] INFO root fetch - processPackages [botocore-a-la-carte-es]: executing diffoscope
+[2023-05-12 03:19:42] INFO root fetch - processPackages [botocore-a-la-carte-es]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-es-1.29.98.tar.gz tmp/botocore-a-la-carte-es-1.29.99.tar.gz --markdown 20230512/b/botocore-a-la-carte-es/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-05-12 03:19:43] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-cfs]: success
+[2023-05-12 03:19:43] INFO root fetch - main [MainThread]: End processing [docchain]: success
+[2023-05-12 03:19:43] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-05-12 03:19:43] INFO root fetch - main [MainThread]: End processing [ykenan-fragments]: success
+[2023-05-12 03:19:43] INFO root fetch - main [MainThread]: End processing [zerocs]: success
+[2023-05-12 03:19:44] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-es]: success
+[2023-05-12 03:19:44] INFO root fetch - main [MainThread]: End processing [eyes-soatra]: success
+[2023-05-12 03:19:56] INFO root fetch - main [MainThread]: End processing [vspk]: success
+[2023-05-12 03:19:56] INFO root fetch - main [MainThread]: Store serial: [18071794]
