@@ -16310,3 +16310,83 @@ EOFError: EOF read where object expected
 [2023-05-12 19:07:27] INFO root fetch - main [MainThread]: End processing [np-pipeline-qc]: success
 [2023-05-12 19:07:31] INFO root fetch - main [MainThread]: End processing [gpt4all]: success
 [2023-05-12 19:07:31] INFO root fetch - main [MainThread]: Store serial: [18081252]
+[2023-05-12 19:12:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18081252]
+[2023-05-12 19:12:40] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-12 19:12:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fhnw-nlp-utils
+[2023-05-12 19:12:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: volttron-postgresql-historian
+[2023-05-12 19:12:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dataquality
+[2023-05-12 19:12:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: neurotune
+[2023-05-12 19:12:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: autotraders
+[2023-05-12 19:12:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PatryksAutoAI
+[2023-05-12 19:12:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qcew
+[2023-05-12 19:12:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: robotframework-processcube
+[2023-05-12 19:12:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: emmet-core
+[2023-05-12 19:12:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: deeplake
+[2023-05-12 19:12:40] INFO root fetch - processPackages [fhnw-nlp-utils]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-05-12 19:12:40] WARNING root fetch - processPackages [qcew]: Skipping, unable to determine old version
+[2023-05-12 19:12:40] INFO root fetch - processPackages [qcew]: Start processing: dequeai
+[2023-05-12 19:12:40] INFO root fetch - main [MainThread]: End processing [qcew] error
+[2023-05-12 19:12:40] INFO root fetch - processPackages [autotraders]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-05-12 19:12:40] INFO root fetch - processPackages [volttron-postgresql-historian]: New version: [0.1.1a1] Old Version: [0.1.1a0]
+[2023-05-12 19:12:40] INFO root fetch - processPackages [PatryksAutoAI]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-05-12 19:12:40] INFO root fetch - processPackages [deeplake]: New version: [3.4.2] Old Version: [3.4.1]
+[2023-05-12 19:12:40] INFO root fetch - processPackages [emmet-core]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-12 19:12:40] INFO root fetch - processPackages [robotframework-processcube]: New version: [2.5.1a1] Old Version: [2.5.1]
+[2023-05-12 19:12:40] INFO root fetch - processPackages [dequeai]: New version: [0.7799] Old Version: [0.7788]
+[2023-05-12 19:12:40] INFO root fetch - processPackages [dataquality]: New version: [0.9.1a3] Old Version: [0.9.1a2]
+[2023-05-12 19:12:40] INFO root fetch - processPackages [neurotune]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-05-12 19:12:40] INFO root fetch - processPackages [fhnw-nlp-utils]: executing diffoscope
+[2023-05-12 19:12:40] INFO root fetch - processPackages [fhnw-nlp-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fhnw_nlp_utils-0.6.8-py3-none-any.whl.zip tmp/fhnw_nlp_utils-0.6.9-py3-none-any.whl.zip --markdown 20230512/f/fhnw-nlp-utils/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-05-12 19:12:40] INFO root fetch - processPackages [emmet-core]: executing diffoscope
+[2023-05-12 19:12:40] INFO root fetch - processPackages [emmet-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emmet-core-0.9.2.tar.gz tmp/emmet-core-0.9.3.tar.gz --markdown 20230512/e/emmet-core/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-12 19:12:40] INFO root fetch - processPackages [robotframework-processcube]: Downloading https://files.pythonhosted.org/packages/54/83/34e4491974fdf28edfa35f0704214f4a23194e8ff19d14bcdbc2edf1faba/robotframework-processcube-2.5.1.tar.gz
+[2023-05-12 19:12:40] INFO root fetch - processPackages [autotraders]: Downloading https://files.pythonhosted.org/packages/ee/38/dbdee6e165c606c61d01528428846d60b267f206ecc28c3d3d2a4bbd0e5e/autotraders-0.0.1.tar.gz
+[2023-05-12 19:12:40] INFO root fetch - processPackages [dequeai]: Downloading https://files.pythonhosted.org/packages/6f/9c/3af42b4bbaf04bcdafe2e2248c234ab85e2af9769c72148c37031d811a9f/dequeai-0.7799.tar.gz
+[2023-05-12 19:12:40] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/14/d9/41b1e2442d05e507b64858d3447473787d5ef90b8a74b22ea6b4713f0836/PatryksAutoAI-0.3.6.tar.gz
+[2023-05-12 19:12:40] INFO root fetch - processPackages [neurotune]: Downloading https://files.pythonhosted.org/packages/b9/39/bde0e00e544de67017060bd8ac66017cd526c281ef440ace732dcd0f4a87/neurotune-0.2.5.tar.gz
+[2023-05-12 19:12:40] INFO root fetch - processPackages [volttron-postgresql-historian]: Downloading https://files.pythonhosted.org/packages/ed/66/f305c2cfc64e8cca9bb19f2cc4a91b40915de092990a9253f463c8ff2e88/volttron_postgresql_historian-0.1.1a0.tar.gz
+[2023-05-12 19:12:41] INFO root fetch - processPackages [deeplake]: Downloading https://files.pythonhosted.org/packages/cc/8f/e111d01afa0684e1add84d53779c0ea856e07ae6b52b1d359d2881b91847/deeplake-3.4.2.tar.gz
+[2023-05-12 19:12:41] INFO root fetch - processPackages [autotraders]: Downloading https://files.pythonhosted.org/packages/9f/89/2c0620909724f28e8345dfacf19d672a904f711e128546fc0dd7d1e3becb/autotraders-0.1.0.tar.gz
+[2023-05-12 19:12:41] INFO root fetch - processPackages [robotframework-processcube]: executing diffoscope
+[2023-05-12 19:12:41] INFO root fetch - processPackages [robotframework-processcube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework-processcube-2.5.1.tar.gz tmp/robotframework-processcube-2.5.1a1.tar.gz --markdown 20230512/r/robotframework-processcube/2.5.1-2.5.1a1/diff.md --exclude *.pyd
+[2023-05-12 19:12:41] INFO root fetch - processPackages [dequeai]: executing diffoscope
+[2023-05-12 19:12:41] INFO root fetch - processPackages [dequeai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dequeai-0.7788.tar.gz tmp/dequeai-0.7799.tar.gz --markdown 20230512/d/dequeai/0.7788-0.7799/diff.md --exclude *.pyd
+[2023-05-12 19:12:41] INFO root fetch - processPackages [dataquality]: executing diffoscope
+[2023-05-12 19:12:41] INFO root fetch - processPackages [dataquality]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataquality-0.9.1a2.tar.gz tmp/dataquality-0.9.1a3.tar.gz --markdown 20230512/d/dataquality/0.9.1a2-0.9.1a3/diff.md --exclude *.pyd
+[2023-05-12 19:12:41] INFO root fetch - processPackages [PatryksAutoAI]: executing diffoscope
+[2023-05-12 19:12:41] INFO root fetch - processPackages [PatryksAutoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PatryksAutoAI-0.3.5.tar.gz tmp/PatryksAutoAI-0.3.6.tar.gz --markdown 20230512/P/PatryksAutoAI/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-05-12 19:12:41] INFO root fetch - processPackages [neurotune]: Downloading https://files.pythonhosted.org/packages/f3/75/bb604a90ee144375d9ce6a3d322513084433e479765930fc3be81ecf2242/neurotune-0.2.6.tar.gz
+[2023-05-12 19:12:41] INFO root fetch - processPackages [volttron-postgresql-historian]: Downloading https://files.pythonhosted.org/packages/16/22/58154f2d58ef694047b117160d69d25263964c0190c71b6b6dc2e7f3e4ad/volttron_postgresql_historian-0.1.1a1.tar.gz
+[2023-05-12 19:12:41] INFO root fetch - processPackages [autotraders]: executing diffoscope
+[2023-05-12 19:12:41] INFO root fetch - processPackages [autotraders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autotraders-0.0.1.tar.gz tmp/autotraders-0.1.0.tar.gz --markdown 20230512/a/autotraders/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-05-12 19:12:41] INFO root fetch - processPackages [deeplake]: executing diffoscope
+[2023-05-12 19:12:41] INFO root fetch - processPackages [deeplake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deeplake-3.4.1.tar.gz tmp/deeplake-3.4.2.tar.gz --markdown 20230512/d/deeplake/3.4.1-3.4.2/diff.md --exclude *.pyd
+[2023-05-12 19:12:41] ERROR root fetch - processPackages [dequeai]: Diffoscope failed: Error: error creating container storage: the container name "busy_ganguly" is already in use by "4ff28e15f89251ed9e24288cf93c2096e37a37164af646e1800c87f1b4364f66". You have to remove that container to be able to reuse that name.: that name is already in use
+
+[2023-05-12 19:12:41] INFO root fetch - processPackages [dequeai]: Start processing: h2o-nitro-bokeh
+[2023-05-12 19:12:41] INFO root fetch - main [MainThread]: End processing [dequeai] error
+[2023-05-12 19:12:41] INFO root fetch - processPackages [volttron-postgresql-historian]: executing diffoscope
+[2023-05-12 19:12:41] INFO root fetch - processPackages [volttron-postgresql-historian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volttron_postgresql_historian-0.1.1a0.tar.gz tmp/volttron_postgresql_historian-0.1.1a1.tar.gz --markdown 20230512/v/volttron-postgresql-historian/0.1.1a0-0.1.1a1/diff.md --exclude *.pyd
+[2023-05-12 19:12:41] INFO root fetch - processPackages [h2o-nitro-bokeh]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-12 19:12:41] INFO root fetch - processPackages [neurotune]: executing diffoscope
+[2023-05-12 19:12:41] INFO root fetch - processPackages [neurotune]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neurotune-0.2.5.tar.gz tmp/neurotune-0.2.6.tar.gz --markdown 20230512/n/neurotune/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-05-12 19:12:41] INFO root fetch - processPackages [h2o-nitro-bokeh]: Downloading https://files.pythonhosted.org/packages/21/d8/a981f9ee8f796b375175bed18fc50f662dd4f326c90343d6ef931c8dab14/h2o_nitro_bokeh-0.2.1-py3-none-any.whl
+[2023-05-12 19:12:41] INFO root fetch - processPackages [h2o-nitro-bokeh]: Downloading https://files.pythonhosted.org/packages/64/ba/f006cfcaaa1ab4ec65fe1c3dc8b5535402dd17f37c0193daeff4bd16947b/h2o_nitro_bokeh-0.2.2-py3-none-any.whl
+[2023-05-12 19:12:42] INFO root fetch - processPackages [h2o-nitro-bokeh]: executing diffoscope
+[2023-05-12 19:12:42] INFO root fetch - processPackages [h2o-nitro-bokeh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h2o_nitro_bokeh-0.2.1-py3-none-any.whl.zip tmp/h2o_nitro_bokeh-0.2.2-py3-none-any.whl.zip --markdown 20230512/h/h2o-nitro-bokeh/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-12 19:12:42] INFO root fetch - processPackages [fhnw-nlp-utils]: Start processing: emmet-builders
+[2023-05-12 19:12:42] INFO root fetch - main [MainThread]: End processing [fhnw-nlp-utils]: success
+[2023-05-12 19:12:42] INFO root fetch - processPackages [emmet-builders]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-12 19:12:42] INFO root fetch - processPackages [emmet-builders]: executing diffoscope
+[2023-05-12 19:12:42] INFO root fetch - processPackages [emmet-builders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emmet-builders-0.9.2.tar.gz tmp/emmet-builders-0.9.3.tar.gz --markdown 20230512/e/emmet-builders/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-12 19:12:42] INFO root fetch - main [MainThread]: End processing [robotframework-processcube]: success
+[2023-05-12 19:12:42] INFO root fetch - main [MainThread]: End processing [autotraders]: success
+[2023-05-12 19:12:43] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
+[2023-05-12 19:12:43] INFO root fetch - main [MainThread]: End processing [neurotune]: success
+[2023-05-12 19:12:43] INFO root fetch - main [MainThread]: End processing [volttron-postgresql-historian]: success
+[2023-05-12 19:12:43] INFO root fetch - main [MainThread]: End processing [h2o-nitro-bokeh]: success
+[2023-05-12 19:12:43] INFO root fetch - main [MainThread]: End processing [emmet-core]: success
+[2023-05-12 19:12:43] INFO root fetch - main [MainThread]: End processing [emmet-builders]: success
+[2023-05-12 19:12:44] INFO root fetch - main [MainThread]: End processing [deeplake]: success
+[2023-05-12 19:12:45] INFO root fetch - main [MainThread]: End processing [dataquality]: success
+[2023-05-12 19:12:45] INFO root fetch - main [MainThread]: Store serial: [18081337]
