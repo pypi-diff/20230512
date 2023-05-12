@@ -19876,3 +19876,139 @@ EOFError: EOF read where object expected
 [2023-05-12 22:36:58] INFO root fetch - main [MainThread]: End processing [virtool-core]: success
 [2023-05-12 22:37:01] INFO root fetch - main [MainThread]: End processing [fern-belvo]: success
 [2023-05-12 22:37:01] INFO root fetch - main [MainThread]: Store serial: [18083842]
+[2023-05-12 22:42:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18083842]
+[2023-05-12 22:42:10] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-05-12 22:42:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dnastack-client-library
+[2023-05-12 22:42:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dbt-snowflake
+[2023-05-12 22:42:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spacetraders
+[2023-05-12 22:42:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: choclo
+[2023-05-12 22:42:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bt-test-interfaces
+[2023-05-12 22:42:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dbt-bigquery
+[2023-05-12 22:42:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PatryksAutoAI
+[2023-05-12 22:42:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bthesis-transformer
+[2023-05-12 22:42:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk-extensions
+[2023-05-12 22:42:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: btweb
+[2023-05-12 22:42:10] INFO root fetch - processPackages [dnastack-client-library]: New version: [3.0.84a1651270839] Old Version: [3.0.81a1650987643]
+[2023-05-12 22:42:10] INFO root fetch - processPackages [PatryksAutoAI]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-05-12 22:42:10] WARNING root fetch - processPackages [bthesis-transformer]: Skipping, unable to determine old version
+[2023-05-12 22:42:10] INFO root fetch - processPackages [bthesis-transformer]: Start processing: volttron-postgresql-historian
+[2023-05-12 22:42:10] INFO root fetch - main [MainThread]: End processing [bthesis-transformer] error
+[2023-05-12 22:42:10] INFO root fetch - processPackages [spacetraders]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-12 22:42:10] INFO root fetch - processPackages [bt-test-interfaces]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-12 22:42:10] INFO root fetch - processPackages [dbt-bigquery]: New version: [1.6.0b1] Old Version: [1.5.0rc1]
+[2023-05-12 22:42:10] INFO root fetch - processPackages [choclo]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-05-12 22:42:10] INFO root fetch - processPackages [cdk-extensions]: New version: [0.0.61] Old Version: [0.0.60]
+[2023-05-12 22:42:10] INFO root fetch - processPackages [dbt-snowflake]: New version: [1.6.0b1] Old Version: [1.5.0rc1]
+[2023-05-12 22:42:10] INFO root fetch - processPackages [btweb]: New version: [0.1.0] Old Version: [0.0.6]
+[2023-05-12 22:42:10] INFO root fetch - processPackages [volttron-postgresql-historian]: New version: [0.1.1a3] Old Version: [0.1.1a2]
+[2023-05-12 22:42:11] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/36/76/b8a2c45886695dfce011d024644b851a4e6cecf2a57cead90bc9a1d5e635/PatryksAutoAI-0.4.1.tar.gz
+[2023-05-12 22:42:11] INFO root fetch - processPackages [bt-test-interfaces]: Downloading https://files.pythonhosted.org/packages/0d/ea/b419d4b69047d49872ce1c073235f982788cfe0ab21c33b7798bb0a7c043/bt-test-interfaces-0.0.1.tar.gz
+[2023-05-12 22:42:11] INFO root fetch - processPackages [dbt-snowflake]: Downloading https://files.pythonhosted.org/packages/fd/86/87f537e4c972279a8e0495e350d88191f5e64884f2b3ca2cfe3e17f0d87a/dbt-snowflake-1.5.0rc1.tar.gz
+[2023-05-12 22:42:11] INFO root fetch - processPackages [choclo]: Downloading https://files.pythonhosted.org/packages/c9/e4/dbacd1ab154a24eca0b402c194c0d1dbe4fe88d015f1db9f1a779f9bf8b0/choclo-0.0.1.tar.gz
+[2023-05-12 22:42:11] INFO root fetch - processPackages [dbt-bigquery]: Downloading https://files.pythonhosted.org/packages/a9/81/9c0ab4065b1dd17edbf00abc6c528b93da6fbe3a9b9d789bc2af72400e14/dbt-bigquery-1.5.0rc1.tar.gz
+[2023-05-12 22:42:11] WARNING root fetch - processPackages [bt-test-interfaces]: Skipping package: exceeds size limit 25466818>=10485760
+[2023-05-12 22:42:11] INFO root fetch - processPackages [bt-test-interfaces]: Start processing: fmo-cli
+[2023-05-12 22:42:11] INFO root fetch - main [MainThread]: End processing [bt-test-interfaces] error
+[2023-05-12 22:42:11] INFO root fetch - processPackages [cdk-extensions]: Downloading https://files.pythonhosted.org/packages/2f/f4/fa959b5032f0fc5cad24a97b8a5cfb1bc9d339ede0dabd2fd646782d0dcc/cdk-extensions-0.0.61.tar.gz
+[2023-05-12 22:42:11] INFO root fetch - processPackages [volttron-postgresql-historian]: Downloading https://files.pythonhosted.org/packages/5e/de/e12e45696f81c608c0884831662691b0213c25cc755b653233b219cf18fb/volttron_postgresql_historian-0.1.1a2.tar.gz
+[2023-05-12 22:42:11] INFO root fetch - processPackages [btweb]: Downloading https://files.pythonhosted.org/packages/ed/4c/3b8befead8a6691a7506f06ac5aef5f18d512ee4814b84e12cc2ddc7e9a7/btweb-0.0.6.tar.gz
+[2023-05-12 22:42:11] INFO root fetch - processPackages [fmo-cli]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-12 22:42:11] INFO root fetch - processPackages [PatryksAutoAI]: executing diffoscope
+[2023-05-12 22:42:11] INFO root fetch - processPackages [PatryksAutoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PatryksAutoAI-0.4.0.tar.gz tmp/PatryksAutoAI-0.4.1.tar.gz --markdown 20230512/P/PatryksAutoAI/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-12 22:42:11] INFO root fetch - processPackages [spacetraders]: Downloading https://files.pythonhosted.org/packages/31/66/399153a29136719b6a28e0453750fdc3fc8609fb346cbb5c25ed4d8a1895/spacetraders-0.2.3.tar.gz
+[2023-05-12 22:42:11] INFO root fetch - processPackages [fmo-cli]: Downloading https://files.pythonhosted.org/packages/a6/52/d75b8d478bf10a8750b9c3831b52203dc1de209b302269c7b51a7e2a271b/fmo-cli-1.0.0.tar.gz
+[2023-05-12 22:42:11] INFO root fetch - processPackages [choclo]: Downloading https://files.pythonhosted.org/packages/9f/2b/965c5176143ecb2ab47aa4beea648b8c592d7e07f388ed93ff6a489a744b/choclo-0.1.0.tar.gz
+[2023-05-12 22:42:11] INFO root fetch - processPackages [dnastack-client-library]: executing diffoscope
+[2023-05-12 22:42:11] INFO root fetch - processPackages [dnastack-client-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dnastack_client_library-3.0.81a1650987643-py3-none-any.whl.zip tmp/dnastack_client_library-3.0.84a1651270839-py3-none-any.whl.zip --markdown 20230512/d/dnastack-client-library/3.0.81a1650987643-3.0.84a1651270839/diff.md --exclude *.pyd
+[2023-05-12 22:42:11] INFO root fetch - processPackages [dbt-snowflake]: Downloading https://files.pythonhosted.org/packages/27/f1/908d63c37736859540fa501f31a6822bc43644b0373f6c7aa263bb59bc90/dbt-snowflake-1.6.0b1.tar.gz
+[2023-05-12 22:42:11] INFO root fetch - processPackages [spacetraders]: executing diffoscope
+[2023-05-12 22:42:11] INFO root fetch - processPackages [spacetraders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spacetraders-0.2.2.tar.gz tmp/spacetraders-0.2.3.tar.gz --markdown 20230512/s/spacetraders/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-12 22:42:11] INFO root fetch - processPackages [dbt-bigquery]: Downloading https://files.pythonhosted.org/packages/2f/41/c3844d23fb41d2f78a52d7e14698ba2f3a06b89ad86101b34e5ab97664d3/dbt-bigquery-1.6.0b1.tar.gz
+[2023-05-12 22:42:11] INFO root fetch - processPackages [cdk-extensions]: executing diffoscope
+[2023-05-12 22:42:11] INFO root fetch - processPackages [cdk-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-extensions-0.0.60.tar.gz tmp/cdk-extensions-0.0.61.tar.gz --markdown 20230512/c/cdk-extensions/0.0.60-0.0.61/diff.md --exclude *.pyd
+[2023-05-12 22:42:11] INFO root fetch - processPackages [btweb]: Downloading https://files.pythonhosted.org/packages/d8/ce/d267c12b11d5abaa28b21081b51d2bbdeacee79cbe49c62fae907bde54cd/btweb-0.1.0.tar.gz
+[2023-05-12 22:42:11] INFO root fetch - processPackages [volttron-postgresql-historian]: Downloading https://files.pythonhosted.org/packages/fb/21/4509414bfc7c55c84aa1fe30507309f21f9571c04e6922f8ad49c43f839b/volttron_postgresql_historian-0.1.1a3.tar.gz
+[2023-05-12 22:42:11] INFO root fetch - processPackages [choclo]: executing diffoscope
+[2023-05-12 22:42:11] INFO root fetch - processPackages [choclo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/choclo-0.0.1.tar.gz tmp/choclo-0.1.0.tar.gz --markdown 20230512/c/choclo/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-05-12 22:42:11] INFO root fetch - processPackages [fmo-cli]: Downloading https://files.pythonhosted.org/packages/ec/37/34d886b5e6b4d64726538cb22a028b6b7b5ddb8c713ba7b2a38cb1f0d127/fmo-cli-1.0.1.tar.gz
+[2023-05-12 22:42:11] INFO root fetch - processPackages [dbt-snowflake]: executing diffoscope
+[2023-05-12 22:42:11] INFO root fetch - processPackages [dbt-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-snowflake-1.5.0rc1.tar.gz tmp/dbt-snowflake-1.6.0b1.tar.gz --markdown 20230512/d/dbt-snowflake/1.5.0rc1-1.6.0b1/diff.md --exclude *.pyd
+[2023-05-12 22:42:11] INFO root fetch - processPackages [dbt-bigquery]: executing diffoscope
+[2023-05-12 22:42:11] INFO root fetch - processPackages [dbt-bigquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-bigquery-1.5.0rc1.tar.gz tmp/dbt-bigquery-1.6.0b1.tar.gz --markdown 20230512/d/dbt-bigquery/1.5.0rc1-1.6.0b1/diff.md --exclude *.pyd
+[2023-05-12 22:42:11] INFO root fetch - processPackages [btweb]: executing diffoscope
+[2023-05-12 22:42:11] INFO root fetch - processPackages [btweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/btweb-0.0.6.tar.gz tmp/btweb-0.1.0.tar.gz --markdown 20230512/b/btweb/0.0.6-0.1.0/diff.md --exclude *.pyd
+[2023-05-12 22:42:11] INFO root fetch - processPackages [volttron-postgresql-historian]: executing diffoscope
+[2023-05-12 22:42:11] INFO root fetch - processPackages [volttron-postgresql-historian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volttron_postgresql_historian-0.1.1a2.tar.gz tmp/volttron_postgresql_historian-0.1.1a3.tar.gz --markdown 20230512/v/volttron-postgresql-historian/0.1.1a2-0.1.1a3/diff.md --exclude *.pyd
+[2023-05-12 22:42:11] INFO root fetch - processPackages [fmo-cli]: executing diffoscope
+[2023-05-12 22:42:11] INFO root fetch - processPackages [fmo-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fmo-cli-1.0.0.tar.gz tmp/fmo-cli-1.0.1.tar.gz --markdown 20230512/f/fmo-cli/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-12 22:42:12] INFO root fetch - processPackages [PatryksAutoAI]: Start processing: sage-conf
+[2023-05-12 22:42:12] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
+[2023-05-12 22:42:12] INFO root fetch - processPackages [sage-conf]: New version: [9.8rc0] Old Version: [9.8b7]
+[2023-05-12 22:42:13] INFO root fetch - processPackages [sage-conf]: executing diffoscope
+[2023-05-12 22:42:13] INFO root fetch - processPackages [sage-conf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sage-conf-9.8b7.tar.gz tmp/sage-conf-9.8rc0.tar.gz --markdown 20230512/s/sage-conf/9.8b7-9.8rc0/diff.md --exclude *.pyd
+[2023-05-12 22:42:13] INFO root fetch - processPackages [dnastack-client-library]: Start processing: sage-docbuild
+[2023-05-12 22:42:13] INFO root fetch - main [MainThread]: End processing [dnastack-client-library]: success
+[2023-05-12 22:42:13] INFO root fetch - processPackages [btweb]: Start processing: sage-setup
+[2023-05-12 22:42:13] INFO root fetch - main [MainThread]: End processing [btweb]: success
+[2023-05-12 22:42:13] INFO root fetch - processPackages [sage-docbuild]: New version: [9.8rc0] Old Version: [9.8b7]
+[2023-05-12 22:42:13] INFO root fetch - processPackages [dbt-snowflake]: Start processing: sage-sws2rst
+[2023-05-12 22:42:13] INFO root fetch - main [MainThread]: End processing [dbt-snowflake]: success
+[2023-05-12 22:42:13] INFO root fetch - processPackages [sage-setup]: New version: [9.8rc0] Old Version: [9.8b7]
+[2023-05-12 22:42:13] INFO root fetch - processPackages [sage-sws2rst]: New version: [9.8rc0] Old Version: [9.8b7]
+[2023-05-12 22:42:13] INFO root fetch - processPackages [volttron-postgresql-historian]: Start processing: sagemath-categories
+[2023-05-12 22:42:13] INFO root fetch - main [MainThread]: End processing [volttron-postgresql-historian]: success
+[2023-05-12 22:42:13] INFO root fetch - processPackages [sagemath-categories]: New version: [9.8rc0] Old Version: [9.8b7]
+[2023-05-12 22:42:14] INFO root fetch - processPackages [dbt-bigquery]: Start processing: sagemath-environment
+[2023-05-12 22:42:14] INFO root fetch - main [MainThread]: End processing [dbt-bigquery]: success
+[2023-05-12 22:42:14] INFO root fetch - processPackages [sagemath-environment]: New version: [9.8rc0] Old Version: [9.8b7]
+[2023-05-12 22:42:14] INFO root fetch - processPackages [fmo-cli]: Start processing: sagemath-objects
+[2023-05-12 22:42:14] INFO root fetch - main [MainThread]: End processing [fmo-cli]: success
+[2023-05-12 22:42:14] INFO root fetch - processPackages [sagemath-objects]: New version: [9.8rc0] Old Version: [9.8b7]
+[2023-05-12 22:42:14] INFO root fetch - processPackages [sage-docbuild]: executing diffoscope
+[2023-05-12 22:42:14] INFO root fetch - processPackages [sage-docbuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sage-docbuild-9.8b7.tar.gz tmp/sage-docbuild-9.8rc0.tar.gz --markdown 20230512/s/sage-docbuild/9.8b7-9.8rc0/diff.md --exclude *.pyd
+[2023-05-12 22:42:14] INFO root fetch - processPackages [sage-sws2rst]: executing diffoscope
+[2023-05-12 22:42:14] INFO root fetch - processPackages [sage-sws2rst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sage-sws2rst-9.8b7.tar.gz tmp/sage-sws2rst-9.8rc0.tar.gz --markdown 20230512/s/sage-sws2rst/9.8b7-9.8rc0/diff.md --exclude *.pyd
+[2023-05-12 22:42:14] INFO root fetch - processPackages [sagemath-categories]: executing diffoscope
+[2023-05-12 22:42:14] INFO root fetch - processPackages [sagemath-categories]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sagemath-categories-9.8b7.tar.gz tmp/sagemath-categories-9.8rc0.tar.gz --markdown 20230512/s/sagemath-categories/9.8b7-9.8rc0/diff.md --exclude *.pyd
+[2023-05-12 22:42:14] INFO root fetch - processPackages [sage-setup]: executing diffoscope
+[2023-05-12 22:42:14] INFO root fetch - processPackages [sage-setup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sage-setup-9.8b7.tar.gz tmp/sage-setup-9.8rc0.tar.gz --markdown 20230512/s/sage-setup/9.8b7-9.8rc0/diff.md --exclude *.pyd
+[2023-05-12 22:42:14] INFO root fetch - processPackages [sagemath-environment]: executing diffoscope
+[2023-05-12 22:42:14] INFO root fetch - processPackages [sagemath-environment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sagemath-environment-9.8b7.tar.gz tmp/sagemath-environment-9.8rc0.tar.gz --markdown 20230512/s/sagemath-environment/9.8b7-9.8rc0/diff.md --exclude *.pyd
+[2023-05-12 22:42:14] INFO root fetch - processPackages [sagemath-objects]: executing diffoscope
+[2023-05-12 22:42:14] INFO root fetch - processPackages [sagemath-objects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sagemath-objects-9.8b7.tar.gz tmp/sagemath-objects-9.8rc0.tar.gz --markdown 20230512/s/sagemath-objects/9.8b7-9.8rc0/diff.md --exclude *.pyd
+[2023-05-12 22:42:15] INFO root fetch - processPackages [choclo]: Start processing: sagemath-repl
+[2023-05-12 22:42:15] INFO root fetch - main [MainThread]: End processing [choclo]: success
+[2023-05-12 22:42:15] INFO root fetch - processPackages [sagemath-repl]: New version: [9.8rc0] Old Version: [9.8b7]
+[2023-05-12 22:42:15] INFO root fetch - processPackages [spacetraders]: Start processing: sagemath-standard
+[2023-05-12 22:42:15] INFO root fetch - main [MainThread]: End processing [spacetraders]: success
+[2023-05-12 22:42:15] INFO root fetch - processPackages [sagemath-standard]: New version: [9.8rc0] Old Version: [9.8b7]
+[2023-05-12 22:42:15] INFO root fetch - processPackages [sage-sws2rst]: Start processing: cartson
+[2023-05-12 22:42:15] INFO root fetch - main [MainThread]: End processing [sage-sws2rst]: success
+[2023-05-12 22:42:15] INFO root fetch - processPackages [cartson]: New version: [3.3.3] Old Version: [1.1.3b4.dev0]
+[2023-05-12 22:42:15] INFO root fetch - processPackages [sagemath-standard]: Downloading https://files.pythonhosted.org/packages/ca/44/3341aa128d2058989dc35be67a94f004ad9873fc2cece58881abf81f3091/sagemath-standard-9.8b7.tar.gz
+[2023-05-12 22:42:15] INFO root fetch - processPackages [cartson]: Downloading https://files.pythonhosted.org/packages/bf/44/5452a012cfe53460aa781fed3b4d8c4f04fbaa4ea99a3b1b92422d1f362c/cartson-1.1.3b4.dev0-py3-none-any.whl
+[2023-05-12 22:42:15] INFO root fetch - processPackages [sagemath-repl]: executing diffoscope
+[2023-05-12 22:42:15] INFO root fetch - processPackages [sagemath-repl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sagemath-repl-9.8b7.tar.gz tmp/sagemath-repl-9.8rc0.tar.gz --markdown 20230512/s/sagemath-repl/9.8b7-9.8rc0/diff.md --exclude *.pyd
+[2023-05-12 22:42:15] WARNING root fetch - processPackages [sagemath-standard]: Skipping package: exceeds size limit 18194906>=10485760
+[2023-05-12 22:42:15] INFO root fetch - processPackages [sagemath-standard]: Start processing: django-flyio
+[2023-05-12 22:42:15] INFO root fetch - main [MainThread]: End processing [sagemath-standard] error
+[2023-05-12 22:42:15] INFO root fetch - processPackages [django-flyio]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-12 22:42:15] INFO root fetch - main [MainThread]: End processing [sage-setup]: success
+[2023-05-12 22:42:15] INFO root fetch - processPackages [django-flyio]: Downloading https://files.pythonhosted.org/packages/dc/f6/a9e618171273c149df54a41029d481c81b62119ad75239adfeaebb064c55/django_flyio-0.1.0.tar.gz
+[2023-05-12 22:42:15] INFO root fetch - processPackages [cartson]: Downloading https://files.pythonhosted.org/packages/99/db/dfea4a17d531108e9f0d5e26e5f3bdc49499295eefec2ca1576388129410/cartson-3.3.3-py3-none-any.whl
+[2023-05-12 22:42:16] INFO root fetch - processPackages [cartson]: executing diffoscope
+[2023-05-12 22:42:16] INFO root fetch - processPackages [cartson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cartson-1.1.3b4.dev0-py3-none-any.whl.zip tmp/cartson-3.3.3-py3-none-any.whl.zip --markdown 20230512/c/cartson/1.1.3b4.dev0-3.3.3/diff.md --exclude *.pyd
+[2023-05-12 22:42:16] INFO root fetch - processPackages [django-flyio]: Downloading https://files.pythonhosted.org/packages/59/f2/823795ed51348ac29d37403e129af08eb25a005455ef46aefd92b1067fe8/django_flyio-0.1.1.tar.gz
+[2023-05-12 22:42:16] INFO root fetch - main [MainThread]: End processing [sage-docbuild]: success
+[2023-05-12 22:42:16] INFO root fetch - main [MainThread]: End processing [cdk-extensions]: success
+[2023-05-12 22:42:16] INFO root fetch - processPackages [django-flyio]: executing diffoscope
+[2023-05-12 22:42:16] INFO root fetch - processPackages [django-flyio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_flyio-0.1.0.tar.gz tmp/django_flyio-0.1.1.tar.gz --markdown 20230512/d/django-flyio/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-12 22:42:16] INFO root fetch - main [MainThread]: End processing [sagemath-environment]: success
+[2023-05-12 22:42:17] INFO root fetch - main [MainThread]: End processing [sagemath-objects]: success
+[2023-05-12 22:42:17] INFO root fetch - main [MainThread]: End processing [cartson]: success
+[2023-05-12 22:42:17] INFO root fetch - main [MainThread]: End processing [django-flyio]: success
+[2023-05-12 22:42:17] INFO root fetch - main [MainThread]: End processing [sagemath-repl]: success
+[2023-05-12 22:42:19] INFO root fetch - main [MainThread]: End processing [sagemath-categories]: success
+[2023-05-12 22:45:13] ERROR root fetch - processPackages [sage-conf]: Timeout during execution of pkgdiff
+[2023-05-12 22:45:13] INFO root fetch - main [MainThread]: End processing [sage-conf] error
+[2023-05-12 22:45:13] INFO root fetch - main [MainThread]: Store serial: [18083910]
