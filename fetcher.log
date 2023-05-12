@@ -1895,3 +1895,29 @@
 [2023-05-12 03:09:19] INFO root fetch - main [MainThread]: End processing [boto-session-manager]: success
 [2023-05-12 03:09:19] INFO root fetch - main [MainThread]: End processing [eelbrain]: success
 [2023-05-12 03:09:19] INFO root fetch - main [MainThread]: Store serial: [18071723]
+[2023-05-12 03:14:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18071723]
+[2023-05-12 03:14:28] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-05-12 03:14:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tencentcloud-sdk-python-cdb
+[2023-05-12 03:14:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tastytrade-sdk
+[2023-05-12 03:14:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tencentcloud-sdk-python-cdc
+[2023-05-12 03:14:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tencentcloud-sdk-python-cdn
+[2023-05-12 03:14:29] INFO root fetch - processPackages [tastytrade-sdk]: New version: [0.0.dev1] Old Version: [0.0.4a0.dev79]
+[2023-05-12 03:14:29] INFO root fetch - processPackages [tencentcloud-sdk-python-cdc]: New version: [3.0.890] Old Version: [3.0.889]
+[2023-05-12 03:14:29] INFO root fetch - processPackages [tencentcloud-sdk-python-cdb]: New version: [3.0.890] Old Version: [3.0.889]
+[2023-05-12 03:14:29] INFO root fetch - processPackages [tencentcloud-sdk-python-cdn]: New version: [3.0.890] Old Version: [3.0.889]
+[2023-05-12 03:14:29] INFO root fetch - processPackages [tastytrade-sdk]: executing diffoscope
+[2023-05-12 03:14:29] INFO root fetch - processPackages [tastytrade-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tastytrade_sdk-0.0.4a0.dev79.tar.gz tmp/tastytrade-sdk-0.0.dev1.tar.gz --markdown 20230512/t/tastytrade-sdk/0.0.4a0.dev79-0.0.dev1/diff.md --exclude *.pyd
+[2023-05-12 03:14:29] INFO root fetch - processPackages [tencentcloud-sdk-python-cdc]: Downloading https://files.pythonhosted.org/packages/77/91/683c4d69fe26e35686ff7bbac9349e76195c24cf9ee7824391bc64bd7649/tencentcloud-sdk-python-cdc-3.0.890.tar.gz
+[2023-05-12 03:14:29] INFO root fetch - processPackages [tencentcloud-sdk-python-cdb]: Downloading https://files.pythonhosted.org/packages/b4/87/9c4fa7ea4aec0c0a987074090e967f866f7d84388f4b8ac856911d9654fa/tencentcloud-sdk-python-cdb-3.0.890.tar.gz
+[2023-05-12 03:14:29] INFO root fetch - processPackages [tencentcloud-sdk-python-cdn]: Downloading https://files.pythonhosted.org/packages/c0/f2/91af8e46f1e4fc5e4058355b2aa12d80db00f0fe6ce92d2cded2660f1b74/tencentcloud_sdk_python_cdn-3.0.890-py2.py3-none-any.whl
+[2023-05-12 03:14:29] INFO root fetch - processPackages [tencentcloud-sdk-python-cdc]: executing diffoscope
+[2023-05-12 03:14:29] INFO root fetch - processPackages [tencentcloud-sdk-python-cdc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-cdc-3.0.889.tar.gz tmp/tencentcloud-sdk-python-cdc-3.0.890.tar.gz --markdown 20230512/t/tencentcloud-sdk-python-cdc/3.0.889-3.0.890/diff.md --exclude *.pyd
+[2023-05-12 03:14:29] INFO root fetch - processPackages [tencentcloud-sdk-python-cdn]: executing diffoscope
+[2023-05-12 03:14:29] INFO root fetch - processPackages [tencentcloud-sdk-python-cdb]: executing diffoscope
+[2023-05-12 03:14:29] INFO root fetch - processPackages [tencentcloud-sdk-python-cdn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-cdn-3.0.889.tar.gz tmp/tencentcloud_sdk_python_cdn-3.0.890-py2.py3-none-any.whl.zip --markdown 20230512/t/tencentcloud-sdk-python-cdn/3.0.889-3.0.890/diff.md --exclude *.pyd
+[2023-05-12 03:14:29] INFO root fetch - processPackages [tencentcloud-sdk-python-cdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-cdb-3.0.889.tar.gz tmp/tencentcloud-sdk-python-cdb-3.0.890.tar.gz --markdown 20230512/t/tencentcloud-sdk-python-cdb/3.0.889-3.0.890/diff.md --exclude *.pyd
+[2023-05-12 03:14:30] INFO root fetch - main [MainThread]: End processing [tastytrade-sdk]: success
+[2023-05-12 03:14:30] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-cdc]: success
+[2023-05-12 03:14:30] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-cdb]: success
+[2023-05-12 03:14:31] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-cdn]: success
+[2023-05-12 03:14:31] INFO root fetch - main [MainThread]: Store serial: [18071746]
