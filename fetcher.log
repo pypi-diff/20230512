@@ -1748,3 +1748,15 @@
 [2023-05-12 02:38:23] INFO root fetch - main [MainThread]: End processing [ontobio]: success
 [2023-05-12 02:38:24] INFO root fetch - main [MainThread]: End processing [ml-swissknife]: success
 [2023-05-12 02:38:24] INFO root fetch - main [MainThread]: Store serial: [18071548]
+[2023-05-12 02:43:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18071548]
+[2023-05-12 02:43:33] INFO root fetch - main [MainThread]: No changed packages found
+[2023-05-12 02:48:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18071548]
+[2023-05-12 02:48:38] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-05-12 02:48:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shoulder
+[2023-05-12 02:48:39] INFO root fetch - processPackages [shoulder]: New version: [1.0.0] Old Version: [0.0.4]
+[2023-05-12 02:48:39] INFO root fetch - processPackages [shoulder]: Downloading https://files.pythonhosted.org/packages/f7/4d/4ba105319ab97c288efe1d64bfb5444a4b8c9ab7c6f8d28b41d1f09f8f54/shoulder-0.0.4.tar.gz
+[2023-05-12 02:48:39] INFO root fetch - processPackages [shoulder]: Downloading https://files.pythonhosted.org/packages/de/9a/192e6d577243c632b44a5bdb6a1f43858c99b9b2522297d4b2087b38558f/shoulder-1.0.0-py3-none-any.whl
+[2023-05-12 02:48:39] INFO root fetch - processPackages [shoulder]: executing diffoscope
+[2023-05-12 02:48:39] INFO root fetch - processPackages [shoulder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shoulder-0.0.4.tar.gz tmp/shoulder-1.0.0-py3-none-any.whl.zip --markdown 20230512/s/shoulder/0.0.4-1.0.0/diff.md --exclude *.pyd
+[2023-05-12 02:48:40] INFO root fetch - main [MainThread]: End processing [shoulder]: success
+[2023-05-12 02:48:40] INFO root fetch - main [MainThread]: Store serial: [18071593]
