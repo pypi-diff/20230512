@@ -6978,3 +6978,82 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-12 10:17:22] INFO root fetch - main [MainThread]: End processing [twitter-api-py]: success
 [2023-05-12 10:17:23] INFO root fetch - main [MainThread]: End processing [lanceotron]: success
 [2023-05-12 10:17:23] INFO root fetch - main [MainThread]: Store serial: [18075218]
+[2023-05-12 10:22:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18075218]
+[2023-05-12 10:22:32] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-12 10:22:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dialoger
+[2023-05-12 10:22:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lasttestwal1k
+[2023-05-12 10:22:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: boneIO
+[2023-05-12 10:22:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: open-gpt-torch
+[2023-05-12 10:22:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gpyt
+[2023-05-12 10:22:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aliyun-nls
+[2023-05-12 10:22:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: idcode
+[2023-05-12 10:22:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: base-system
+[2023-05-12 10:22:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: FlyHash
+[2023-05-12 10:22:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo14-addon-endpoint
+[2023-05-12 10:22:32] INFO root fetch - processPackages [dialoger]: New version: [1.0.0] Old Version: [0.0.1]
+[2023-05-12 10:22:32] WARNING root fetch - processPackages [lasttestwal1k]: Skipping, unable to determine old version
+[2023-05-12 10:22:32] INFO root fetch - processPackages [lasttestwal1k]: Start processing: mmcb-avt
+[2023-05-12 10:22:32] INFO root fetch - main [MainThread]: End processing [lasttestwal1k] error
+[2023-05-12 10:22:32] INFO root fetch - processPackages [base-system]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-05-12 10:22:32] INFO root fetch - processPackages [idcode]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-12 10:22:32] INFO root fetch - processPackages [gpyt]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-12 10:22:32] INFO root fetch - processPackages [FlyHash]: New version: [1.1.1] Old Version: [0.3.0]
+[2023-05-12 10:22:32] WARNING root fetch - processPackages [aliyun-nls]: Skipping, unable to determine old version
+[2023-05-12 10:22:32] INFO root fetch - processPackages [odoo14-addon-endpoint]: New version: [14.0.2.0.1.dev3] Old Version: [14.0.2.0.1.dev2]
+[2023-05-12 10:22:32] INFO root fetch - processPackages [open-gpt-torch]: New version: [0.0.1rc8] Old Version: [0.0.1rc7]
+[2023-05-12 10:22:32] INFO root fetch - processPackages [aliyun-nls]: Start processing: hb-test-generator
+[2023-05-12 10:22:32] INFO root fetch - main [MainThread]: End processing [aliyun-nls] error
+[2023-05-12 10:22:32] INFO root fetch - processPackages [mmcb-avt]: New version: [0.0.85] Old Version: [0.0.84]
+[2023-05-12 10:22:32] INFO root fetch - processPackages [boneIO]: New version: [0.6.1.dev2] Old Version: [0.6.0.dev5]
+[2023-05-12 10:22:32] INFO root fetch - processPackages [hb-test-generator]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-12 10:22:32] INFO root fetch - processPackages [dialoger]: Downloading https://files.pythonhosted.org/packages/29/37/0f5fcfb27d89f607ffd920923c8520153ccef6086beed52fbbc2efb0df09/dialoger-0.0.1.tar.gz
+[2023-05-12 10:22:32] INFO root fetch - processPackages [open-gpt-torch]: executing diffoscope
+[2023-05-12 10:22:32] INFO root fetch - processPackages [open-gpt-torch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_gpt_torch-0.0.1rc7.tar.gz tmp/open_gpt_torch-0.0.1rc8.tar.gz --markdown 20230512/o/open-gpt-torch/0.0.1rc7-0.0.1rc8/diff.md --exclude *.pyd
+[2023-05-12 10:22:32] INFO root fetch - processPackages [base-system]: Downloading https://files.pythonhosted.org/packages/f1/f2/2010da2370b4201c0b21551f4b25689dbfb6e8d2adde9be6a98237edf2fc/base_system-0.2.4.tar.gz
+[2023-05-12 10:22:32] INFO root fetch - processPackages [FlyHash]: Downloading https://files.pythonhosted.org/packages/72/d4/5b80050f64e126822f70ee0b9c2979216d7b83cdf57a2e2c274f9435671d/FlyHash-1.1.1.tar.gz
+[2023-05-12 10:22:32] INFO root fetch - processPackages [gpyt]: Downloading https://files.pythonhosted.org/packages/7f/d3/b17aac5e24d33b266c17f2b984cbf3b796885c37c9c4d83f5686d0710a85/gpyt-0.2.8.tar.gz
+[2023-05-12 10:22:32] INFO root fetch - processPackages [mmcb-avt]: Downloading https://files.pythonhosted.org/packages/5b/dc/9e1dbe71102bdf52c924d1b8bc8bb68e5000f82e6e0f68deb4007feeb9f8/mmcb-avt-0.0.85.tar.gz
+[2023-05-12 10:22:32] INFO root fetch - processPackages [odoo14-addon-endpoint]: Downloading https://files.pythonhosted.org/packages/5d/46/eaf18553ca95926a9ab9941dc2afde09ffa13037d1ae262f29b5505efab6/odoo14_addon_endpoint-14.0.2.0.1.dev3-py3-none-any.whl
+[2023-05-12 10:22:32] INFO root fetch - processPackages [hb-test-generator]: Downloading https://files.pythonhosted.org/packages/07/83/be88ea3373aa4b422a7fd06be6d6ec431e11c4b1c4ffffc2298e5b012e7b/hb-test-generator-0.1.8.tar.gz
+[2023-05-12 10:22:32] INFO root fetch - processPackages [mmcb-avt]: executing diffoscope
+[2023-05-12 10:22:32] INFO root fetch - processPackages [mmcb-avt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mmcb-avt-0.0.84.tar.gz tmp/mmcb-avt-0.0.85.tar.gz --markdown 20230512/m/mmcb-avt/0.0.84-0.0.85/diff.md --exclude *.pyd
+[2023-05-12 10:22:32] INFO root fetch - processPackages [idcode]: Downloading https://files.pythonhosted.org/packages/f0/c1/3a60369beb32b3a0bb184be4ed1d75a39bb6bb7f3908e2fa728daedb2c8f/idcode-0.1.4.tar.gz
+[2023-05-12 10:22:32] INFO root fetch - processPackages [boneIO]: Downloading https://files.pythonhosted.org/packages/4e/fe/272d11a52cbadff1faa175da208d03afb6f78bf91caff2e551328523838d/boneIO-0.6.1.dev2.tar.gz
+[2023-05-12 10:22:32] INFO root fetch - processPackages [dialoger]: Downloading https://files.pythonhosted.org/packages/eb/40/d8b44ded6cc97c8db04acdf743a8f52d24e06af4ae8610e0eac0b25454da/dialoger-1.0.0.tar.gz
+[2023-05-12 10:22:32] INFO root fetch - processPackages [odoo14-addon-endpoint]: executing diffoscope
+[2023-05-12 10:22:32] INFO root fetch - processPackages [odoo14-addon-endpoint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_endpoint-14.0.2.0.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_endpoint-14.0.2.0.1.dev3-py3-none-any.whl.zip --markdown 20230512/o/odoo14-addon-endpoint/14.0.2.0.1.dev2-14.0.2.0.1.dev3/diff.md --exclude *.pyd
+[2023-05-12 10:22:32] INFO root fetch - processPackages [FlyHash]: executing diffoscope
+[2023-05-12 10:22:32] INFO root fetch - processPackages [FlyHash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FlyHash-0.3.0.tar.gz tmp/FlyHash-1.1.1.tar.gz --markdown 20230512/F/FlyHash/0.3.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-12 10:22:32] INFO root fetch - processPackages [idcode]: executing diffoscope
+[2023-05-12 10:22:32] INFO root fetch - processPackages [idcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idcode-0.1.3.tar.gz tmp/idcode-0.1.4.tar.gz --markdown 20230512/i/idcode/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-12 10:22:33] INFO root fetch - processPackages [base-system]: Downloading https://files.pythonhosted.org/packages/76/e4/0ca4a9608317bb862dfd04090442d93884a1b3746a7f830e3a9d5a66c41a/base_system-0.2.5.tar.gz
+[2023-05-12 10:22:33] INFO root fetch - processPackages [gpyt]: Downloading https://files.pythonhosted.org/packages/a9/66/b60384915b7d030e84c5815bb2d3e307e2d6014f31c06cb7c3195f75d1fd/gpyt-0.2.9.tar.gz
+[2023-05-12 10:22:33] INFO root fetch - processPackages [hb-test-generator]: Downloading https://files.pythonhosted.org/packages/20/7a/44ccbcc9af09f55c848a045c0089fd277bf6adbf85eccddb9c4bb900d744/hb-test-generator-0.1.9.tar.gz
+[2023-05-12 10:22:33] INFO root fetch - processPackages [dialoger]: executing diffoscope
+[2023-05-12 10:22:33] INFO root fetch - processPackages [base-system]: executing diffoscope
+[2023-05-12 10:22:33] INFO root fetch - processPackages [base-system]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/base_system-0.2.4.tar.gz tmp/base_system-0.2.5.tar.gz --markdown 20230512/b/base-system/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-05-12 10:22:33] INFO root fetch - processPackages [dialoger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dialoger-0.0.1.tar.gz tmp/dialoger-1.0.0.tar.gz --markdown 20230512/d/dialoger/0.0.1-1.0.0/diff.md --exclude *.pyd
+[2023-05-12 10:22:33] INFO root fetch - processPackages [gpyt]: executing diffoscope
+[2023-05-12 10:22:33] INFO root fetch - processPackages [gpyt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpyt-0.2.8.tar.gz tmp/gpyt-0.2.9.tar.gz --markdown 20230512/g/gpyt/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-12 10:22:33] INFO root fetch - processPackages [hb-test-generator]: executing diffoscope
+[2023-05-12 10:22:33] INFO root fetch - processPackages [hb-test-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hb-test-generator-0.1.8.tar.gz tmp/hb-test-generator-0.1.9.tar.gz --markdown 20230512/h/hb-test-generator/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-12 10:22:33] INFO root fetch - processPackages [boneIO]: executing diffoscope
+[2023-05-12 10:22:33] INFO root fetch - processPackages [boneIO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boneIO-0.6.0.dev5.tar.gz tmp/boneIO-0.6.1.dev2.tar.gz --markdown 20230512/b/boneIO/0.6.0.dev5-0.6.1.dev2/diff.md --exclude *.pyd
+[2023-05-12 10:22:34] INFO root fetch - processPackages [idcode]: Start processing: snews-pt
+[2023-05-12 10:22:34] INFO root fetch - main [MainThread]: End processing [idcode]: success
+[2023-05-12 10:22:34] INFO root fetch - processPackages [snews-pt]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-05-12 10:22:34] INFO root fetch - main [MainThread]: End processing [odoo14-addon-endpoint]: success
+[2023-05-12 10:22:34] INFO root fetch - processPackages [snews-pt]: Downloading https://files.pythonhosted.org/packages/f6/11/ec34642f7e9173d2057fabca8838b025c2b196b5bf2820b4143fc0f4dd26/snews_pt-1.3.2.tar.gz
+[2023-05-12 10:22:34] INFO root fetch - main [MainThread]: End processing [FlyHash]: success
+[2023-05-12 10:22:34] INFO root fetch - main [MainThread]: End processing [open-gpt-torch]: success
+[2023-05-12 10:22:34] INFO root fetch - main [MainThread]: End processing [gpyt]: success
+[2023-05-12 10:22:34] INFO root fetch - main [MainThread]: End processing [dialoger]: success
+[2023-05-12 10:22:34] INFO root fetch - main [MainThread]: End processing [hb-test-generator]: success
+[2023-05-12 10:22:35] INFO root fetch - processPackages [snews-pt]: Downloading https://files.pythonhosted.org/packages/6c/b2/19d97416018b6dcf76bb684d9347cbbda9017c06cc128b57de85e95eb1f9/snews_pt-1.3.3.tar.gz
+[2023-05-12 10:22:35] INFO root fetch - main [MainThread]: End processing [boneIO]: success
+[2023-05-12 10:22:35] INFO root fetch - processPackages [snews-pt]: executing diffoscope
+[2023-05-12 10:22:35] INFO root fetch - processPackages [snews-pt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snews_pt-1.3.2.tar.gz tmp/snews_pt-1.3.3.tar.gz --markdown 20230512/s/snews-pt/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-05-12 10:22:35] INFO root fetch - main [MainThread]: End processing [mmcb-avt]: success
+[2023-05-12 10:22:35] INFO root fetch - main [MainThread]: End processing [base-system]: success
+[2023-05-12 10:22:36] INFO root fetch - main [MainThread]: End processing [snews-pt]: success
+[2023-05-12 10:22:36] INFO root fetch - main [MainThread]: Store serial: [18075267]
