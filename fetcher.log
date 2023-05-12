@@ -1283,3 +1283,51 @@
 [2023-05-12 01:55:52] INFO root fetch - main [MainThread]: End processing [aind-data-schema]: success
 [2023-05-12 01:55:52] INFO root fetch - main [MainThread]: End processing [sliderule]: success
 [2023-05-12 01:55:52] INFO root fetch - main [MainThread]: Store serial: [18071225]
+[2023-05-12 02:00:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18071225]
+[2023-05-12 02:01:01] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-12 02:01:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: capitalpayments
+[2023-05-12 02:01:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: neon-utils
+[2023-05-12 02:01:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dagorama
+[2023-05-12 02:01:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flet-core
+[2023-05-12 02:01:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flet
+[2023-05-12 02:01:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: adaptive-scheduler
+[2023-05-12 02:01:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flet-pyodide
+[2023-05-12 02:01:01] INFO root fetch - processPackages [capitalpayments]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-12 02:01:01] INFO root fetch - processPackages [flet]: New version: [0.8.0.dev1402] Old Version: [0.7.0.dev1399]
+[2023-05-12 02:01:01] INFO root fetch - processPackages [flet-pyodide]: New version: [0.8.0.dev1402] Old Version: [0.7.0.dev1399]
+[2023-05-12 02:01:01] INFO root fetch - processPackages [dagorama]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-12 02:01:01] INFO root fetch - processPackages [neon-utils]: New version: [1.5.0a2] Old Version: [1.5.0a1]
+[2023-05-12 02:01:01] INFO root fetch - processPackages [flet-core]: New version: [0.8.0.dev1402] Old Version: [0.7.0.dev1399]
+[2023-05-12 02:01:01] INFO root fetch - processPackages [adaptive-scheduler]: New version: [2.0.0] Old Version: [1.8.0]
+[2023-05-12 02:01:01] INFO root fetch - processPackages [flet-pyodide]: Downloading https://files.pythonhosted.org/packages/b6/8a/456ca19885eba453b42eb41cc263d4117e93f3bf487dadc660b4a3824186/flet_pyodide-0.8.0.dev1402.tar.gz
+[2023-05-12 02:01:01] INFO root fetch - processPackages [capitalpayments]: Downloading https://files.pythonhosted.org/packages/cc/fd/d6d9688a41ca0bb0c2bbbc982b9abba463969037780dff66628887082bd4/capitalpayments-0.0.5.tar.gz
+[2023-05-12 02:01:01] INFO root fetch - processPackages [dagorama]: Downloading https://files.pythonhosted.org/packages/8e/a6/33c46bce3e1afc65c6c24de7a4c5904f8fb1e41c17c502f0358f4d4d6c74/dagorama-0.1.8.tar.gz
+[2023-05-12 02:01:01] INFO root fetch - processPackages [neon-utils]: Downloading https://files.pythonhosted.org/packages/c1/b2/c1da2f9724d2a57e4eb98d57a7f8493da7b68e77589f2ac9e9af83f9f8ac/neon_utils-1.5.0a1-py3-none-any.whl
+[2023-05-12 02:01:01] INFO root fetch - processPackages [adaptive-scheduler]: Downloading https://files.pythonhosted.org/packages/de/92/7243f7dcdf83a83be840af10f379b7742164ae08d12d1c826fb2875d2c7e/adaptive_scheduler-1.8.0.tar.gz
+[2023-05-12 02:01:01] INFO root fetch - processPackages [capitalpayments]: executing diffoscope
+[2023-05-12 02:01:01] INFO root fetch - processPackages [capitalpayments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capitalpayments-0.0.4.tar.gz tmp/capitalpayments-0.0.5.tar.gz --markdown 20230512/c/capitalpayments/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-12 02:01:01] INFO root fetch - processPackages [flet]: Downloading https://files.pythonhosted.org/packages/90/75/9b53b082da588f14bc91a8249fed5a984b072f747e50c519a5e9607ee31c/flet-0.8.0.dev1402.tar.gz
+[2023-05-12 02:01:01] INFO root fetch - processPackages [flet-core]: Downloading https://files.pythonhosted.org/packages/9c/7d/0cd609d631c8c955da6e8eff94eb473c05a238337786766766ce3f1c3275/flet_core-0.8.0.dev1402.tar.gz
+[2023-05-12 02:01:01] INFO root fetch - processPackages [flet-pyodide]: executing diffoscope
+[2023-05-12 02:01:01] INFO root fetch - processPackages [flet-pyodide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_pyodide-0.7.0.dev1399.tar.gz tmp/flet_pyodide-0.8.0.dev1402.tar.gz --markdown 20230512/f/flet-pyodide/0.7.0.dev1399-0.8.0.dev1402/diff.md --exclude *.pyd
+[2023-05-12 02:01:01] INFO root fetch - processPackages [neon-utils]: Downloading https://files.pythonhosted.org/packages/e3/16/e112285d25c4c70303054e78bdc5c76cd9e23fe3ffc477c6d4c492f56eaf/neon_utils-1.5.0a2-py3-none-any.whl
+[2023-05-12 02:01:01] INFO root fetch - processPackages [adaptive-scheduler]: Downloading https://files.pythonhosted.org/packages/00/31/562a82bb9df50f3b1bb13685c490ede8888a91e89e3a55375d30a2bfede4/adaptive_scheduler-2.0.0.tar.gz
+[2023-05-12 02:01:01] INFO root fetch - processPackages [flet-core]: executing diffoscope
+[2023-05-12 02:01:01] INFO root fetch - processPackages [flet-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_core-0.7.0.dev1399.tar.gz tmp/flet_core-0.8.0.dev1402.tar.gz --markdown 20230512/f/flet-core/0.7.0.dev1399-0.8.0.dev1402/diff.md --exclude *.pyd
+[2023-05-12 02:01:01] INFO root fetch - processPackages [neon-utils]: executing diffoscope
+[2023-05-12 02:01:01] INFO root fetch - processPackages [neon-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_utils-1.5.0a1-py3-none-any.whl.zip tmp/neon_utils-1.5.0a2-py3-none-any.whl.zip --markdown 20230512/n/neon-utils/1.5.0a1-1.5.0a2/diff.md --exclude *.pyd
+[2023-05-12 02:01:01] INFO root fetch - processPackages [dagorama]: Downloading https://files.pythonhosted.org/packages/0a/11/9e999b0af2562039538476b8a72c5beb1ea0a38024c2297d5fe30d58be9e/dagorama-0.1.9.tar.gz
+[2023-05-12 02:01:02] INFO root fetch - processPackages [dagorama]: executing diffoscope
+[2023-05-12 02:01:02] INFO root fetch - processPackages [dagorama]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagorama-0.1.8.tar.gz tmp/dagorama-0.1.9.tar.gz --markdown 20230512/d/dagorama/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-12 02:01:02] INFO root fetch - processPackages [adaptive-scheduler]: executing diffoscope
+[2023-05-12 02:01:02] INFO root fetch - processPackages [adaptive-scheduler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adaptive_scheduler-1.8.0.tar.gz tmp/adaptive_scheduler-2.0.0.tar.gz --markdown 20230512/a/adaptive-scheduler/1.8.0-2.0.0/diff.md --exclude *.pyd
+[2023-05-12 02:01:02] INFO root fetch - processPackages [flet]: executing diffoscope
+[2023-05-12 02:01:02] INFO root fetch - processPackages [flet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet-0.7.0.dev1399.tar.gz tmp/flet-0.8.0.dev1402.tar.gz --markdown 20230512/f/flet/0.7.0.dev1399-0.8.0.dev1402/diff.md --exclude *.pyd
+[2023-05-12 02:01:02] INFO root fetch - main [MainThread]: End processing [capitalpayments]: success
+[2023-05-12 02:01:03] INFO root fetch - main [MainThread]: End processing [flet-pyodide]: success
+[2023-05-12 02:01:03] INFO root fetch - main [MainThread]: End processing [dagorama]: success
+[2023-05-12 02:01:03] INFO root fetch - main [MainThread]: End processing [adaptive-scheduler]: success
+[2023-05-12 02:01:03] INFO root fetch - main [MainThread]: End processing [neon-utils]: success
+[2023-05-12 02:01:04] INFO root fetch - main [MainThread]: End processing [flet-core]: success
+[2023-05-12 02:01:04] INFO root fetch - main [MainThread]: End processing [flet]: success
+[2023-05-12 02:01:04] INFO root fetch - main [MainThread]: Store serial: [18071255]
