@@ -8561,3 +8561,99 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-12 11:48:38] INFO root fetch - main [MainThread]: End processing [DrissionPage]: success
 [2023-05-12 11:48:46] INFO root fetch - main [MainThread]: End processing [ccxt]: success
 [2023-05-12 11:48:46] INFO root fetch - main [MainThread]: Store serial: [18076174]
+[2023-05-12 11:53:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18076174]
+[2023-05-12 11:53:57] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-12 11:53:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: single-char-counter-by-ng
+[2023-05-12 11:53:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mly-pipeline
+[2023-05-12 11:53:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: syncany
+[2023-05-12 11:53:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: h5parm
+[2023-05-12 11:53:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: garpix-page
+[2023-05-12 11:53:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: certbot-dns-shellrent
+[2023-05-12 11:53:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: syncanysql
+[2023-05-12 11:53:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ho-protocols
+[2023-05-12 11:53:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mmcb-avt
+[2023-05-12 11:53:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: be-brief
+[2023-05-12 11:53:57] WARNING root fetch - processPackages [certbot-dns-shellrent]: Skipping, unable to determine old version
+[2023-05-12 11:53:57] INFO root fetch - processPackages [certbot-dns-shellrent]: Start processing: cognite-transformations-cli
+[2023-05-12 11:53:57] INFO root fetch - main [MainThread]: End processing [certbot-dns-shellrent] error
+[2023-05-12 11:53:57] WARNING root fetch - processPackages [be-brief]: Skipping, unable to determine old version
+[2023-05-12 11:53:57] INFO root fetch - processPackages [be-brief]: Start processing: collective.dms.basecontent
+[2023-05-12 11:53:57] INFO root fetch - main [MainThread]: End processing [be-brief] error
+[2023-05-12 11:53:57] WARNING root fetch - processPackages [single-char-counter-by-ng]: Skipping, unable to determine old version
+[2023-05-12 11:53:57] INFO root fetch - processPackages [single-char-counter-by-ng]: Start processing: gato-toolkit
+[2023-05-12 11:53:57] INFO root fetch - main [MainThread]: End processing [single-char-counter-by-ng] error
+[2023-05-12 11:53:57] WARNING root fetch - processPackages [mly-pipeline]: Skipping, unable to determine old version
+[2023-05-12 11:53:57] INFO root fetch - processPackages [mly-pipeline]: Start processing: JupyterQuiz
+[2023-05-12 11:53:57] INFO root fetch - main [MainThread]: End processing [mly-pipeline] error
+[2023-05-12 11:53:57] INFO root fetch - processPackages [h5parm]: New version: [1.0.0] Old Version: [0.0.9]
+[2023-05-12 11:53:57] INFO root fetch - processPackages [syncany]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-12 11:53:57] INFO root fetch - processPackages [ho-protocols]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-05-12 11:53:57] INFO root fetch - processPackages [syncanysql]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-12 11:53:57] INFO root fetch - processPackages [mmcb-avt]: New version: [0.0.87] Old Version: [0.0.86]
+[2023-05-12 11:53:57] INFO root fetch - processPackages [garpix-page]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-05-12 11:53:57] INFO root fetch - processPackages [gato-toolkit]: New version: [0.1.0rc3] Old Version: [0.1.0rc2]
+[2023-05-12 11:53:57] INFO root fetch - processPackages [collective.dms.basecontent]: New version: [1.9] Old Version: [1.8]
+[2023-05-12 11:53:57] INFO root fetch - processPackages [cognite-transformations-cli]: New version: [2.3.6] Old Version: [2.3.5]
+[2023-05-12 11:53:57] INFO root fetch - processPackages [JupyterQuiz]: New version: [2.6.0] Old Version: [2.5.2]
+[2023-05-12 11:53:57] INFO root fetch - processPackages [syncany]: Downloading https://files.pythonhosted.org/packages/85/1d/e34ca990cfd2aa917c8e8cb81c7b87f2e9271ed379fbf4fa3e525b4fc3bf/syncany-0.2.8.tar.gz
+[2023-05-12 11:53:57] INFO root fetch - processPackages [gato-toolkit]: executing diffoscope
+[2023-05-12 11:53:57] INFO root fetch - processPackages [gato-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gato-toolkit-0.1.0rc2.tar.gz tmp/gato-toolkit-0.1.0rc3.tar.gz --markdown 20230512/g/gato-toolkit/0.1.0rc2-0.1.0rc3/diff.md --exclude *.pyd
+[2023-05-12 11:53:57] INFO root fetch - processPackages [syncanysql]: Downloading https://files.pythonhosted.org/packages/5c/49/c504805677ac1ba23450b4efeaf5b4b3d93e5c7a78895fc139d5e6e1f3be/syncanysql-0.1.2.tar.gz
+[2023-05-12 11:53:57] INFO root fetch - processPackages [mmcb-avt]: Downloading https://files.pythonhosted.org/packages/6d/8d/7b08ee6418d13273caa4aefccf4253ce47a0a3a30e095ebcb50d31662225/mmcb-avt-0.0.87.tar.gz
+[2023-05-12 11:53:57] INFO root fetch - processPackages [ho-protocols]: Downloading https://files.pythonhosted.org/packages/f5/9b/f766432b29c5e75c8d2daffb4ee38d15923197b3e0cbc7a365f52ba55fb5/ho-protocols-0.2.4.tar.gz
+[2023-05-12 11:53:57] INFO root fetch - processPackages [h5parm]: Downloading https://files.pythonhosted.org/packages/56/2d/c66987668eae33194927bd621e91c7aa544b472fe6db3befef4899d4b93d/h5parm-0.0.9.tar.gz
+[2023-05-12 11:53:58] INFO root fetch - processPackages [collective.dms.basecontent]: Downloading https://files.pythonhosted.org/packages/24/0a/4ed5de1fe986559bd58dfb1e408e3094dae741a8a064238f610d77240ebd/collective.dms.basecontent-1.8.tar.gz
+[2023-05-12 11:53:58] INFO root fetch - processPackages [mmcb-avt]: executing diffoscope
+[2023-05-12 11:53:58] INFO root fetch - processPackages [mmcb-avt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mmcb-avt-0.0.86.tar.gz tmp/mmcb-avt-0.0.87.tar.gz --markdown 20230512/m/mmcb-avt/0.0.86-0.0.87/diff.md --exclude *.pyd
+[2023-05-12 11:53:58] INFO root fetch - processPackages [cognite-transformations-cli]: Downloading https://files.pythonhosted.org/packages/ff/c9/e89e2a611a6113b8694b002a113b39b2afda61f135621559e7d6021e5919/cognite_transformations_cli-2.3.6.tar.gz
+[2023-05-12 11:53:58] INFO root fetch - processPackages [syncany]: Downloading https://files.pythonhosted.org/packages/31/32/4f5212802d20baa5cd1c5d2fa432e7816bb9c2634e457d142c6a45cc455c/syncany-0.2.9.tar.gz
+[2023-05-12 11:53:58] INFO root fetch - processPackages [garpix-page]: executing diffoscope
+[2023-05-12 11:53:58] INFO root fetch - processPackages [garpix-page]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garpix_page-2.8.0.tar.gz tmp/garpix_page-2.9.0.tar.gz --markdown 20230512/g/garpix-page/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-05-12 11:53:58] INFO root fetch - processPackages [JupyterQuiz]: Downloading https://files.pythonhosted.org/packages/76/fe/cd759eaf066142f34edabc83c9b0c3a2b4ca9dfeb8a4af8d15e537be8ddc/JupyterQuiz-2.6.0.tar.gz
+[2023-05-12 11:53:58] INFO root fetch - processPackages [h5parm]: Downloading https://files.pythonhosted.org/packages/a9/aa/fafc91f5b08864c7772d1e03d593bd94f7ebe1c0a944e634559dd85b72d4/h5parm-1.0.0.tar.gz
+[2023-05-12 11:53:58] INFO root fetch - processPackages [cognite-transformations-cli]: executing diffoscope
+[2023-05-12 11:53:58] INFO root fetch - processPackages [cognite-transformations-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_transformations_cli-2.3.5.tar.gz tmp/cognite_transformations_cli-2.3.6.tar.gz --markdown 20230512/c/cognite-transformations-cli/2.3.5-2.3.6/diff.md --exclude *.pyd
+[2023-05-12 11:53:58] INFO root fetch - processPackages [syncanysql]: Downloading https://files.pythonhosted.org/packages/a6/75/3ca6fab1506f95245c6d29f8f37bfa42a348fcb2caf2243fdb7e9d8bb760/syncanysql-0.1.3.tar.gz
+[2023-05-12 11:53:58] INFO root fetch - processPackages [syncany]: executing diffoscope
+[2023-05-12 11:53:58] INFO root fetch - processPackages [syncany]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syncany-0.2.8.tar.gz tmp/syncany-0.2.9.tar.gz --markdown 20230512/s/syncany/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-12 11:53:58] INFO root fetch - processPackages [ho-protocols]: Downloading https://files.pythonhosted.org/packages/54/80/c162cd07ced596e124beb935de75167b34e774f965664a6050b2f1e0f00f/ho-protocols-0.2.5.tar.gz
+[2023-05-12 11:53:58] INFO root fetch - processPackages [collective.dms.basecontent]: Downloading https://files.pythonhosted.org/packages/9d/03/72548c447c46d2c5c7906bd91b379cd8c71d6b68da34d70149c3ea036128/collective.dms.basecontent-1.9.tar.gz
+[2023-05-12 11:53:58] INFO root fetch - processPackages [JupyterQuiz]: executing diffoscope
+[2023-05-12 11:53:58] INFO root fetch - processPackages [JupyterQuiz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JupyterQuiz-2.5.2.tar.gz tmp/JupyterQuiz-2.6.0.tar.gz --markdown 20230512/J/JupyterQuiz/2.5.2-2.6.0/diff.md --exclude *.pyd
+[2023-05-12 11:53:58] INFO root fetch - processPackages [h5parm]: executing diffoscope
+[2023-05-12 11:53:58] INFO root fetch - processPackages [h5parm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h5parm-0.0.9.tar.gz tmp/h5parm-1.0.0.tar.gz --markdown 20230512/h/h5parm/0.0.9-1.0.0/diff.md --exclude *.pyd
+[2023-05-12 11:53:58] INFO root fetch - processPackages [syncanysql]: executing diffoscope
+[2023-05-12 11:53:58] INFO root fetch - processPackages [syncanysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syncanysql-0.1.2.tar.gz tmp/syncanysql-0.1.3.tar.gz --markdown 20230512/s/syncanysql/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-12 11:53:58] INFO root fetch - processPackages [ho-protocols]: executing diffoscope
+[2023-05-12 11:53:58] INFO root fetch - processPackages [ho-protocols]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ho-protocols-0.2.4.tar.gz tmp/ho-protocols-0.2.5.tar.gz --markdown 20230512/h/ho-protocols/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-05-12 11:53:58] INFO root fetch - processPackages [collective.dms.basecontent]: executing diffoscope
+[2023-05-12 11:53:58] INFO root fetch - processPackages [collective.dms.basecontent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collective.dms.basecontent-1.8.tar.gz tmp/collective.dms.basecontent-1.9.tar.gz --markdown 20230512/c/collective.dms.basecontent/1.8-1.9/diff.md --exclude *.pyd
+[2023-05-12 11:53:59] INFO root fetch - processPackages [gato-toolkit]: Start processing: alphabetize
+[2023-05-12 11:53:59] INFO root fetch - main [MainThread]: End processing [gato-toolkit]: success
+[2023-05-12 11:53:59] INFO root fetch - processPackages [alphabetize]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 11:53:59] INFO root fetch - processPackages [alphabetize]: executing diffoscope
+[2023-05-12 11:53:59] INFO root fetch - processPackages [alphabetize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphabetize-0.0.8.tar.gz tmp/alphabetize-0.0.9.tar.gz --markdown 20230512/a/alphabetize/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 11:54:00] INFO root fetch - processPackages [ho-protocols]: Start processing: shellinspector
+[2023-05-12 11:54:00] INFO root fetch - main [MainThread]: End processing [ho-protocols]: success
+[2023-05-12 11:54:00] INFO root fetch - processPackages [syncanysql]: Start processing: pipenv-check
+[2023-05-12 11:54:00] INFO root fetch - main [MainThread]: End processing [syncanysql]: success
+[2023-05-12 11:54:00] INFO root fetch - processPackages [pipenv-check]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-12 11:54:00] INFO root fetch - processPackages [shellinspector]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-12 11:54:00] INFO root fetch - main [MainThread]: End processing [cognite-transformations-cli]: success
+[2023-05-12 11:54:00] INFO root fetch - main [MainThread]: End processing [collective.dms.basecontent]: success
+[2023-05-12 11:54:00] INFO root fetch - processPackages [shellinspector]: Downloading https://files.pythonhosted.org/packages/53/00/1bbb49c2148fcb0f5037309333986a23ea0c2e401e1e7e6e15e956d778d8/shellinspector-0.8.0.tar.gz
+[2023-05-12 11:54:00] INFO root fetch - processPackages [pipenv-check]: Downloading https://files.pythonhosted.org/packages/cf/7f/fbfa2e4b30f9c6cbb08662adee808257121d31de5faf8e04e8ce1b95299c/pipenv-check-0.0.7.tar.gz
+[2023-05-12 11:54:00] INFO root fetch - main [MainThread]: End processing [garpix-page]: success
+[2023-05-12 11:54:00] INFO root fetch - processPackages [pipenv-check]: executing diffoscope
+[2023-05-12 11:54:00] INFO root fetch - processPackages [pipenv-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipenv-check-0.0.6.tar.gz tmp/pipenv-check-0.0.7.tar.gz --markdown 20230512/p/pipenv-check/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-12 11:54:00] INFO root fetch - main [MainThread]: End processing [alphabetize]: success
+[2023-05-12 11:54:00] INFO root fetch - processPackages [shellinspector]: Downloading https://files.pythonhosted.org/packages/da/e5/ed8f9d4c49a5104f3d3b25c72ba0f6095800ce95df759520a850482bb062/shellinspector-0.9.0.tar.gz
+[2023-05-12 11:54:00] INFO root fetch - processPackages [shellinspector]: executing diffoscope
+[2023-05-12 11:54:00] INFO root fetch - processPackages [shellinspector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shellinspector-0.8.0.tar.gz tmp/shellinspector-0.9.0.tar.gz --markdown 20230512/s/shellinspector/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-12 11:54:00] INFO root fetch - main [MainThread]: End processing [mmcb-avt]: success
+[2023-05-12 11:54:01] INFO root fetch - main [MainThread]: End processing [h5parm]: success
+[2023-05-12 11:54:01] INFO root fetch - main [MainThread]: End processing [pipenv-check]: success
+[2023-05-12 11:54:02] INFO root fetch - main [MainThread]: End processing [shellinspector]: success
+[2023-05-12 11:54:02] INFO root fetch - main [MainThread]: End processing [syncany]: success
+[2023-05-12 11:54:02] INFO root fetch - main [MainThread]: End processing [JupyterQuiz]: success
+[2023-05-12 11:54:02] INFO root fetch - main [MainThread]: Store serial: [18076227]
