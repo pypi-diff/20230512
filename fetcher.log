@@ -4479,3 +4479,28 @@
 [2023-05-12 06:53:08] INFO root fetch - processPackages [tencentcloud-sdk-python-vod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-vod-3.0.889.tar.gz tmp/tencentcloud_sdk_python_vod-3.0.890-py2.py3-none-any.whl.zip --markdown 20230512/t/tencentcloud-sdk-python-vod/3.0.889-3.0.890/diff.md --exclude *.pyd
 [2023-05-12 06:53:10] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-vod]: success
 [2023-05-12 06:53:10] INFO root fetch - main [MainThread]: Store serial: [18073385]
+[2023-05-12 06:58:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18073385]
+[2023-05-12 06:58:20] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-05-12 06:58:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tnsgrt
+[2023-05-12 06:58:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: moku
+[2023-05-12 06:58:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: generic-path
+[2023-05-12 06:58:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: edc
+[2023-05-12 06:58:21] INFO root fetch - processPackages [generic-path]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-05-12 06:58:21] INFO root fetch - processPackages [moku]: New version: [3.0.0] Old Version: [2.6.2]
+[2023-05-12 06:58:21] WARNING root fetch - processPackages [tnsgrt]: Skipping, unable to determine old version
+[2023-05-12 06:58:21] INFO root fetch - main [MainThread]: End processing [tnsgrt] error
+[2023-05-12 06:58:21] INFO root fetch - processPackages [edc]: New version: [0.4.91] Old Version: [0.4.90]
+[2023-05-12 06:58:21] INFO root fetch - processPackages [generic-path]: Downloading https://files.pythonhosted.org/packages/a4/3e/2fda4d528a0570986408eb351b820b4d777927cbdfc0d90a655d3bf36740/generic_path-0.4.4-py3-none-any.whl
+[2023-05-12 06:58:21] INFO root fetch - processPackages [moku]: Downloading https://files.pythonhosted.org/packages/fb/98/e4a673e84b9416dacd03e5ab43d6857f09b926680442b894c75347858bb2/moku-2.6.2.tar.gz
+[2023-05-12 06:58:21] INFO root fetch - processPackages [generic-path]: executing diffoscope
+[2023-05-12 06:58:21] INFO root fetch - processPackages [generic-path]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/generic-path-0.4.3.tar.gz tmp/generic_path-0.4.4-py3-none-any.whl.zip --markdown 20230512/g/generic-path/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-05-12 06:58:21] INFO root fetch - processPackages [edc]: Downloading https://files.pythonhosted.org/packages/c2/21/acae832908f54c104430862889974cbcaa53808daf4c30a25cc576160487/edc-0.4.91.tar.gz
+[2023-05-12 06:58:21] INFO root fetch - processPackages [moku]: Downloading https://files.pythonhosted.org/packages/03/46/be5d2e1dfb9cda7e464fc746b7906730cfe54fee81ae6633a204efbc3a80/moku-3.0.0.tar.gz
+[2023-05-12 06:58:21] INFO root fetch - processPackages [edc]: executing diffoscope
+[2023-05-12 06:58:21] INFO root fetch - processPackages [edc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-0.4.90.tar.gz tmp/edc-0.4.91.tar.gz --markdown 20230512/e/edc/0.4.90-0.4.91/diff.md --exclude *.pyd
+[2023-05-12 06:58:21] INFO root fetch - processPackages [moku]: executing diffoscope
+[2023-05-12 06:58:21] INFO root fetch - processPackages [moku]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moku-2.6.2.tar.gz tmp/moku-3.0.0.tar.gz --markdown 20230512/m/moku/2.6.2-3.0.0/diff.md --exclude *.pyd
+[2023-05-12 06:58:22] INFO root fetch - main [MainThread]: End processing [generic-path]: success
+[2023-05-12 06:58:22] INFO root fetch - main [MainThread]: End processing [edc]: success
+[2023-05-12 06:58:23] INFO root fetch - main [MainThread]: End processing [moku]: success
+[2023-05-12 06:58:23] INFO root fetch - main [MainThread]: Store serial: [18073424]
