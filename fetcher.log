@@ -8159,3 +8159,61 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-12 11:22:30] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
 [2023-05-12 11:22:32] INFO root fetch - main [MainThread]: End processing [dash-extensions]: success
 [2023-05-12 11:22:32] INFO root fetch - main [MainThread]: Store serial: [18075920]
+[2023-05-12 11:27:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18075920]
+[2023-05-12 11:27:41] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-12 11:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gmltools
+[2023-05-12 11:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kuto
+[2023-05-12 11:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: my-precious-sdk
+[2023-05-12 11:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cloudspot-license-api
+[2023-05-12 11:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: micropython-stm32-stubs
+[2023-05-12 11:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gradiop
+[2023-05-12 11:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sugar-shell
+[2023-05-12 11:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-cloudspotlicense
+[2023-05-12 11:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: micropython-stm32-pybv11-stubs
+[2023-05-12 11:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: acids-msprior
+[2023-05-12 11:27:41] INFO root fetch - processPackages [kuto]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-12 11:27:41] INFO root fetch - processPackages [gradiop]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-12 11:27:41] INFO root fetch - processPackages [sugar-shell]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-05-12 11:27:41] INFO root fetch - processPackages [gradiop]: executing diffoscope
+[2023-05-12 11:27:41] INFO root fetch - processPackages [gradiop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gradiop-0.0.4.tar.gz tmp/gradiop-0.0.5.tar.gz --markdown 20230512/g/gradiop/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-12 11:27:41] WARNING root fetch - processPackages [my-precious-sdk]: Skipping, unable to determine old version
+[2023-05-12 11:27:41] INFO root fetch - main [MainThread]: End processing [my-precious-sdk] error
+[2023-05-12 11:27:41] INFO root fetch - processPackages [cloudspot-license-api]: New version: [1.4.0] Old Version: [1.3.1]
+[2023-05-12 11:27:41] INFO root fetch - processPackages [sugar-shell]: executing diffoscope
+[2023-05-12 11:27:41] INFO root fetch - processPackages [gmltools]: New version: [0.0.62] Old Version: [0.0.61]
+[2023-05-12 11:27:41] INFO root fetch - processPackages [sugar-shell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sugar_shell-0.2.4.tar.gz tmp/sugar_shell-0.2.5.tar.gz --markdown 20230512/s/sugar-shell/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-05-12 11:27:41] INFO root fetch - processPackages [django-cloudspotlicense]: New version: [5.4.1] Old Version: [5.4.0]
+[2023-05-12 11:27:41] INFO root fetch - processPackages [acids-msprior]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-12 11:27:41] WARNING root fetch - processPackages [micropython-stm32-pybv11-stubs]: Skipping, unable to determine old version
+[2023-05-12 11:27:41] INFO root fetch - main [MainThread]: End processing [micropython-stm32-pybv11-stubs] error
+[2023-05-12 11:27:41] INFO root fetch - processPackages [micropython-stm32-stubs]: New version: [1.20.0.post1] Old Version: [1.19.1.post9]
+[2023-05-12 11:27:41] INFO root fetch - processPackages [gmltools]: Downloading https://files.pythonhosted.org/packages/37/0b/bc3b966c3c033a61dcb09cfcc5cc90c4a237bb0c124caacc5afdfddd00bd/gmltools-0.0.61.tar.gz
+[2023-05-12 11:27:41] INFO root fetch - processPackages [cloudspot-license-api]: Downloading https://files.pythonhosted.org/packages/5f/ba/56aa9876e5257d62be51b581f675a3c32ba8abc006a699087afacbb87ca1/cloudspot-license-api-1.3.1.tar.gz
+[2023-05-12 11:27:41] INFO root fetch - processPackages [micropython-stm32-stubs]: Downloading https://files.pythonhosted.org/packages/92/d4/0ddd0eeedbac5b76121a1bd0cb99bbbee9edcf6569e26b2ae40cc6bb8ac8/micropython_stm32_stubs-1.19.1.post9.tar.gz
+[2023-05-12 11:27:41] INFO root fetch - processPackages [kuto]: Downloading https://files.pythonhosted.org/packages/32/2d/36a7adc8f0a826a28bf2de64180bb8f7b1a73846e5712acc6927388adf46/kuto-0.0.8-py3-none-any.whl
+[2023-05-12 11:27:41] INFO root fetch - processPackages [acids-msprior]: Downloading https://files.pythonhosted.org/packages/81/54/18c07869e290870fc3c7de27f5948be5b3fb84b056686042941760f7575e/acids-msprior-1.0.3.tar.gz
+[2023-05-12 11:27:41] INFO root fetch - processPackages [django-cloudspotlicense]: Downloading https://files.pythonhosted.org/packages/84/a9/bb8d77d2f677c3aab7418b85d791513c0535e6b5fc0cac4a540c4ba646ff/django-cloudspotlicense-5.4.1.tar.gz
+[2023-05-12 11:27:41] INFO root fetch - processPackages [micropython-stm32-stubs]: Downloading https://files.pythonhosted.org/packages/c7/36/cdbe35344044efc129b1b7471baef0184616c6c2e8966831479352762bc3/micropython_stm32_stubs-1.20.0.post1.tar.gz
+[2023-05-12 11:27:41] INFO root fetch - processPackages [django-cloudspotlicense]: executing diffoscope
+[2023-05-12 11:27:41] INFO root fetch - processPackages [django-cloudspotlicense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-cloudspotlicense-5.4.0.tar.gz tmp/django-cloudspotlicense-5.4.1.tar.gz --markdown 20230512/d/django-cloudspotlicense/5.4.0-5.4.1/diff.md --exclude *.pyd
+[2023-05-12 11:27:41] INFO root fetch - processPackages [kuto]: executing diffoscope
+[2023-05-12 11:27:41] INFO root fetch - processPackages [kuto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuto-0.0.7-py3-none-any.whl.zip tmp/kuto-0.0.8-py3-none-any.whl.zip --markdown 20230512/k/kuto/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-12 11:27:42] INFO root fetch - processPackages [acids-msprior]: executing diffoscope
+[2023-05-12 11:27:42] INFO root fetch - processPackages [acids-msprior]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acids-msprior-1.0.2.tar.gz tmp/acids-msprior-1.0.3.tar.gz --markdown 20230512/a/acids-msprior/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-12 11:27:42] INFO root fetch - processPackages [cloudspot-license-api]: Downloading https://files.pythonhosted.org/packages/e2/ff/4bfdff158817124377eed4492c60450a877a07452b6eda1a711e8e057ced/cloudspot-license-api-1.4.0.tar.gz
+[2023-05-12 11:27:42] INFO root fetch - processPackages [micropython-stm32-stubs]: executing diffoscope
+[2023-05-12 11:27:42] INFO root fetch - processPackages [micropython-stm32-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micropython_stm32_stubs-1.19.1.post9.tar.gz tmp/micropython_stm32_stubs-1.20.0.post1.tar.gz --markdown 20230512/m/micropython-stm32-stubs/1.19.1.post9-1.20.0.post1/diff.md --exclude *.pyd
+[2023-05-12 11:27:42] INFO root fetch - processPackages [cloudspot-license-api]: executing diffoscope
+[2023-05-12 11:27:42] INFO root fetch - processPackages [cloudspot-license-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudspot-license-api-1.3.1.tar.gz tmp/cloudspot-license-api-1.4.0.tar.gz --markdown 20230512/c/cloudspot-license-api/1.3.1-1.4.0/diff.md --exclude *.pyd
+[2023-05-12 11:27:42] INFO root fetch - processPackages [gmltools]: Downloading https://files.pythonhosted.org/packages/11/14/3c401d6fd1ecde17ce6fc3bcf52d890084952f103a7e37b41e751f3f9a4a/gmltools-0.0.62.tar.gz
+[2023-05-12 11:27:42] INFO root fetch - processPackages [gmltools]: executing diffoscope
+[2023-05-12 11:27:42] INFO root fetch - processPackages [gmltools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gmltools-0.0.61.tar.gz tmp/gmltools-0.0.62.tar.gz --markdown 20230512/g/gmltools/0.0.61-0.0.62/diff.md --exclude *.pyd
+[2023-05-12 11:27:42] INFO root fetch - main [MainThread]: End processing [sugar-shell]: success
+[2023-05-12 11:27:43] INFO root fetch - main [MainThread]: End processing [django-cloudspotlicense]: success
+[2023-05-12 11:27:43] INFO root fetch - main [MainThread]: End processing [gradiop]: success
+[2023-05-12 11:27:43] INFO root fetch - main [MainThread]: End processing [acids-msprior]: success
+[2023-05-12 11:27:43] INFO root fetch - main [MainThread]: End processing [cloudspot-license-api]: success
+[2023-05-12 11:27:43] INFO root fetch - main [MainThread]: End processing [kuto]: success
+[2023-05-12 11:27:43] INFO root fetch - main [MainThread]: End processing [gmltools]: success
+[2023-05-12 11:27:45] INFO root fetch - main [MainThread]: End processing [micropython-stm32-stubs]: success
+[2023-05-12 11:27:45] INFO root fetch - main [MainThread]: Store serial: [18075955]
