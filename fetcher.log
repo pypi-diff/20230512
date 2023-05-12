@@ -12611,3 +12611,110 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-12 16:03:56] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
 [2023-05-12 16:05:09] INFO root fetch - main [MainThread]: End processing [yfiles-jupyter-graphs]: success
 [2023-05-12 16:05:09] INFO root fetch - main [MainThread]: Store serial: [18079050]
+[2023-05-12 16:10:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18079050]
+[2023-05-12 16:10:20] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-12 16:10:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-connector-importer
+[2023-05-12 16:10:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pretix-mpesa-mz
+[2023-05-12 16:10:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-admob-ssv
+[2023-05-12 16:10:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gxformat2
+[2023-05-12 16:10:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fastkafka
+[2023-05-12 16:10:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: peachpayments-partner-pydantic
+[2023-05-12 16:10:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: moneyonchain-prices-source
+[2023-05-12 16:10:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pysfa
+[2023-05-12 16:10:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: certbot-dns-netcup
+[2023-05-12 16:10:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: clear-skies
+[2023-05-12 16:10:20] INFO root fetch - processPackages [certbot-dns-netcup]: New version: [1.2.0] Old Version: [1.1.4]
+[2023-05-12 16:10:20] INFO root fetch - processPackages [fastkafka]: New version: [0.6.0rc0] Old Version: [0.5.0rc0]
+[2023-05-12 16:10:20] INFO root fetch - processPackages [moneyonchain-prices-source]: New version: [0.6.3b0] Old Version: [0.6.3]
+[2023-05-12 16:10:20] INFO root fetch - processPackages [pysfa]: New version: [0.6] Old Version: [0.5]
+[2023-05-12 16:10:20] INFO root fetch - processPackages [fastkafka]: executing diffoscope
+[2023-05-12 16:10:20] INFO root fetch - processPackages [fastkafka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastkafka-0.5.0rc0.tar.gz tmp/fastkafka-0.6.0rc0.tar.gz --markdown 20230512/f/fastkafka/0.5.0rc0-0.6.0rc0/diff.md --exclude *.pyd
+[2023-05-12 16:10:20] INFO root fetch - processPackages [odoo14-addon-connector-importer]: New version: [14.0.2.1.0] Old Version: [14.0.2.0.1]
+[2023-05-12 16:10:20] INFO root fetch - processPackages [gxformat2]: New version: [0.9.0] Old Version: [0.8.4]
+[2023-05-12 16:10:20] INFO root fetch - processPackages [django-admob-ssv]: New version: [2.0.0] Old Version: [1.0.4]
+[2023-05-12 16:10:20] INFO root fetch - processPackages [peachpayments-partner-pydantic]: New version: [1.1.0] Old Version: [0.2.9]
+[2023-05-12 16:10:20] INFO root fetch - processPackages [pysfa]: executing diffoscope
+[2023-05-12 16:10:20] INFO root fetch - processPackages [pysfa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysfa-0.5.tar.gz tmp/pysfa-0.6.tar.gz --markdown 20230512/p/pysfa/0.5-0.6/diff.md --exclude *.pyd
+[2023-05-12 16:10:20] INFO root fetch - processPackages [moneyonchain-prices-source]: executing diffoscope
+[2023-05-12 16:10:20] INFO root fetch - processPackages [pretix-mpesa-mz]: New version: [1.2.1] Old Version: [1.1.0]
+[2023-05-12 16:10:20] INFO root fetch - processPackages [moneyonchain-prices-source]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moneyonchain_prices_source-0.6.3.tar.gz tmp/moneyonchain_prices_source-0.6.3b0.tar.gz --markdown 20230512/m/moneyonchain-prices-source/0.6.3-0.6.3b0/diff.md --exclude *.pyd
+[2023-05-12 16:10:20] INFO root fetch - processPackages [clear-skies]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-12 16:10:20] INFO root fetch - processPackages [certbot-dns-netcup]: Downloading https://files.pythonhosted.org/packages/ce/c7/adf3b73959933b8165312ca11000ac682e292be068a9f78a46b7a07fd35b/certbot-dns-netcup-1.1.4.tar.gz
+[2023-05-12 16:10:20] INFO root fetch - processPackages [gxformat2]: Downloading https://files.pythonhosted.org/packages/eb/6a/a63416d7d19d59f8764a4d1051c864c773009662f5e8a7136039eff37bf3/gxformat2-0.8.4.tar.gz
+[2023-05-12 16:10:20] INFO root fetch - processPackages [odoo14-addon-connector-importer]: Downloading https://files.pythonhosted.org/packages/9d/e0/2b65e2ee5c77f8973704528d6a4645a85947a39b9719df3d4ec44e623c6d/odoo14_addon_connector_importer-14.0.2.0.1-py3-none-any.whl
+[2023-05-12 16:10:20] INFO root fetch - processPackages [peachpayments-partner-pydantic]: Downloading https://files.pythonhosted.org/packages/44/86/10dcb3cffcd65ee78f335b7aa83a2b6bc2144202818f878ca1502824be70/peachpayments_partner_pydantic-0.2.9.tar.gz
+[2023-05-12 16:10:20] INFO root fetch - processPackages [django-admob-ssv]: Downloading https://files.pythonhosted.org/packages/28/a9/367a2a591ccdf6de49c11a04574d8b157528394ad286321950664b50df49/django-admob-ssv-1.0.4.tar.gz
+[2023-05-12 16:10:20] INFO root fetch - processPackages [certbot-dns-netcup]: Downloading https://files.pythonhosted.org/packages/06/0b/748f04f82e0adc57fc219f784eddeee181dfa05601a64c7e10e4ef840407/certbot-dns-netcup-1.2.0.tar.gz
+[2023-05-12 16:10:20] INFO root fetch - processPackages [pretix-mpesa-mz]: Downloading https://files.pythonhosted.org/packages/c2/fa/0aaf10273a5b1f86b0fefa003cf967b88b4ad4497ccba4927475044c236c/pretix-mpesa-mz-1.2.1.tar.gz
+[2023-05-12 16:10:20] INFO root fetch - processPackages [certbot-dns-netcup]: executing diffoscope
+[2023-05-12 16:10:20] INFO root fetch - processPackages [certbot-dns-netcup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/certbot-dns-netcup-1.1.4.tar.gz tmp/certbot-dns-netcup-1.2.0.tar.gz --markdown 20230512/c/certbot-dns-netcup/1.1.4-1.2.0/diff.md --exclude *.pyd
+[2023-05-12 16:10:20] INFO root fetch - processPackages [odoo14-addon-connector-importer]: Downloading https://files.pythonhosted.org/packages/b7/86/0a8594d9745fb0f9dedea386a3c8d9fdd6fc1adbe7605b05f88052ac7a02/odoo14_addon_connector_importer-14.0.2.1.0-py3-none-any.whl
+[2023-05-12 16:10:20] INFO root fetch - processPackages [clear-skies]: executing diffoscope
+[2023-05-12 16:10:20] INFO root fetch - processPackages [clear-skies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clear-skies-1.8.0.tar.gz tmp/clear-skies-1.9.0.tar.gz --markdown 20230512/c/clear-skies/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-12 16:10:20] INFO root fetch - processPackages [peachpayments-partner-pydantic]: Downloading https://files.pythonhosted.org/packages/ff/0d/797dbadd003957e93f7761566911a441742f2435ad061358ccd89dadc7d1/peachpayments_partner_pydantic-1.1.0.tar.gz
+[2023-05-12 16:10:20] INFO root fetch - processPackages [pretix-mpesa-mz]: executing diffoscope
+[2023-05-12 16:10:20] INFO root fetch - processPackages [pretix-mpesa-mz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretix-mpesa-mz-1.1.0.tar.gz tmp/pretix-mpesa-mz-1.2.1.tar.gz --markdown 20230512/p/pretix-mpesa-mz/1.1.0-1.2.1/diff.md --exclude *.pyd
+[2023-05-12 16:10:20] INFO root fetch - processPackages [odoo14-addon-connector-importer]: executing diffoscope
+[2023-05-12 16:10:20] INFO root fetch - processPackages [odoo14-addon-connector-importer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_connector_importer-14.0.2.0.1-py3-none-any.whl.zip tmp/odoo14_addon_connector_importer-14.0.2.1.0-py3-none-any.whl.zip --markdown 20230512/o/odoo14-addon-connector-importer/14.0.2.0.1-14.0.2.1.0/diff.md --exclude *.pyd
+[2023-05-12 16:10:20] INFO root fetch - processPackages [gxformat2]: Downloading https://files.pythonhosted.org/packages/78/ca/e24c10289486aa56937e9794e65adde4b3a0fd01b0c13fbd1f59184a3e44/gxformat2-0.9.0.tar.gz
+[2023-05-12 16:10:20] INFO root fetch - processPackages [django-admob-ssv]: Downloading https://files.pythonhosted.org/packages/62/fa/b3cc21cff7de078e1e809a02b8ff0353cec9cb21877f36b7ab076b851c3c/django_admob_ssv-2.0.0.tar.gz
+[2023-05-12 16:10:20] INFO root fetch - processPackages [peachpayments-partner-pydantic]: executing diffoscope
+[2023-05-12 16:10:20] INFO root fetch - processPackages [peachpayments-partner-pydantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peachpayments_partner_pydantic-0.2.9.tar.gz tmp/peachpayments_partner_pydantic-1.1.0.tar.gz --markdown 20230512/p/peachpayments-partner-pydantic/0.2.9-1.1.0/diff.md --exclude *.pyd
+[2023-05-12 16:10:21] INFO root fetch - processPackages [gxformat2]: executing diffoscope
+[2023-05-12 16:10:21] INFO root fetch - processPackages [gxformat2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gxformat2-0.8.4.tar.gz tmp/gxformat2-0.9.0.tar.gz --markdown 20230512/g/gxformat2/0.8.4-0.9.0/diff.md --exclude *.pyd
+[2023-05-12 16:10:21] INFO root fetch - processPackages [django-admob-ssv]: executing diffoscope
+[2023-05-12 16:10:21] INFO root fetch - processPackages [django-admob-ssv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-admob-ssv-1.0.4.tar.gz tmp/django_admob_ssv-2.0.0.tar.gz --markdown 20230512/d/django-admob-ssv/1.0.4-2.0.0/diff.md --exclude *.pyd
+[2023-05-12 16:10:21] INFO root fetch - processPackages [pysfa]: Start processing: superannotate
+[2023-05-12 16:10:21] INFO root fetch - main [MainThread]: End processing [pysfa]: success
+[2023-05-12 16:10:22] INFO root fetch - processPackages [superannotate]: New version: [4.4.9b1] Old Version: [4.4.9.dev5]
+[2023-05-12 16:10:22] INFO root fetch - processPackages [moneyonchain-prices-source]: Start processing: resotoappbundler
+[2023-05-12 16:10:22] INFO root fetch - main [MainThread]: End processing [moneyonchain-prices-source]: success
+[2023-05-12 16:10:22] INFO root fetch - processPackages [certbot-dns-netcup]: Start processing: splight-cli
+[2023-05-12 16:10:22] INFO root fetch - main [MainThread]: End processing [certbot-dns-netcup]: success
+[2023-05-12 16:10:22] WARNING root fetch - processPackages [resotoappbundler]: Skipping, unable to determine old version
+[2023-05-12 16:10:22] INFO root fetch - processPackages [resotoappbundler]: Start processing: vdk-server
+[2023-05-12 16:10:22] INFO root fetch - main [MainThread]: End processing [resotoappbundler] error
+[2023-05-12 16:10:22] INFO root fetch - processPackages [superannotate]: Downloading https://files.pythonhosted.org/packages/91/97/d6fe3e744af4694539cbd9044fb74358f6c8aad95d66825e2bbf83490b35/superannotate-4.4.9.dev5.tar.gz
+[2023-05-12 16:10:22] INFO root fetch - processPackages [splight-cli]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-05-12 16:10:22] INFO root fetch - processPackages [vdk-server]: New version: [0.1.865727599] Old Version: [0.1.824443273]
+[2023-05-12 16:10:22] INFO root fetch - processPackages [pretix-mpesa-mz]: Start processing: remote-storage
+[2023-05-12 16:10:22] INFO root fetch - main [MainThread]: End processing [pretix-mpesa-mz]: success
+[2023-05-12 16:10:22] INFO root fetch - processPackages [vdk-server]: Downloading https://files.pythonhosted.org/packages/8d/bd/6e10aeb5112f58ef5c0b2959626b5fef716b26706f291ada3bfd7b853afe/vdk-server-0.1.824443273.tar.gz
+[2023-05-12 16:10:22] WARNING root fetch - processPackages [remote-storage]: Skipping, unable to determine old version
+[2023-05-12 16:10:22] INFO root fetch - processPackages [remote-storage]: Start processing: covsirphy
+[2023-05-12 16:10:22] INFO root fetch - main [MainThread]: End processing [remote-storage] error
+[2023-05-12 16:10:22] INFO root fetch - processPackages [peachpayments-partner-pydantic]: Start processing: SBM-VBEM
+[2023-05-12 16:10:22] INFO root fetch - main [MainThread]: End processing [peachpayments-partner-pydantic]: success
+[2023-05-12 16:10:22] INFO root fetch - processPackages [covsirphy]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-05-12 16:10:22] INFO root fetch - processPackages [superannotate]: Downloading https://files.pythonhosted.org/packages/eb/25/4836840831402b0bfc03d72cb2055a0f87d406e0fc3ded759cd47db072d8/superannotate-4.4.9b1.tar.gz
+[2023-05-12 16:10:22] INFO root fetch - processPackages [gxformat2]: Start processing: mecord-cli
+[2023-05-12 16:10:22] INFO root fetch - main [MainThread]: End processing [gxformat2]: success
+[2023-05-12 16:10:22] WARNING root fetch - processPackages [SBM-VBEM]: Skipping, unable to determine old version
+[2023-05-12 16:10:22] INFO root fetch - processPackages [SBM-VBEM]: Start processing: spectrally-constrained-lvms
+[2023-05-12 16:10:22] INFO root fetch - main [MainThread]: End processing [SBM-VBEM] error
+[2023-05-12 16:10:22] INFO root fetch - main [MainThread]: End processing [django-admob-ssv]: success
+[2023-05-12 16:10:22] INFO root fetch - processPackages [mecord-cli]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-12 16:10:22] WARNING root fetch - processPackages [spectrally-constrained-lvms]: Skipping, unable to determine old version
+[2023-05-12 16:10:22] INFO root fetch - main [MainThread]: End processing [spectrally-constrained-lvms] error
+[2023-05-12 16:10:22] INFO root fetch - processPackages [splight-cli]: executing diffoscope
+[2023-05-12 16:10:22] INFO root fetch - processPackages [splight-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splight-cli-2.3.8.tar.gz tmp/splight-cli-2.3.9.tar.gz --markdown 20230512/s/splight-cli/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-05-12 16:10:22] INFO root fetch - processPackages [vdk-server]: Downloading https://files.pythonhosted.org/packages/63/cf/2c9ce36c629a9a227e25783355940277ad44101e05fe14d6445f053ed93b/vdk-server-0.1.865727599.tar.gz
+[2023-05-12 16:10:22] INFO root fetch - processPackages [covsirphy]: Downloading https://files.pythonhosted.org/packages/f5/0f/07e4c24a5c57aec95810f803abfed026086e84276e2774379f8412547b35/covsirphy-2.9.0.tar.gz
+[2023-05-12 16:10:22] INFO root fetch - processPackages [mecord-cli]: executing diffoscope
+[2023-05-12 16:10:22] INFO root fetch - processPackages [mecord-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mecord-cli-0.1.8.tar.gz tmp/mecord-cli-0.1.9.tar.gz --markdown 20230512/m/mecord-cli/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-12 16:10:22] INFO root fetch - processPackages [superannotate]: executing diffoscope
+[2023-05-12 16:10:22] INFO root fetch - processPackages [superannotate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superannotate-4.4.9.dev5.tar.gz tmp/superannotate-4.4.9b1.tar.gz --markdown 20230512/s/superannotate/4.4.9.dev5-4.4.9b1/diff.md --exclude *.pyd
+[2023-05-12 16:10:22] INFO root fetch - main [MainThread]: End processing [odoo14-addon-connector-importer]: success
+[2023-05-12 16:10:22] INFO root fetch - processPackages [vdk-server]: executing diffoscope
+[2023-05-12 16:10:22] INFO root fetch - processPackages [vdk-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdk-server-0.1.824443273.tar.gz tmp/vdk-server-0.1.865727599.tar.gz --markdown 20230512/v/vdk-server/0.1.824443273-0.1.865727599/diff.md --exclude *.pyd
+[2023-05-12 16:10:22] INFO root fetch - processPackages [covsirphy]: Downloading https://files.pythonhosted.org/packages/e7/6c/2147360b8afbdf8a306eb19e1a0cd649c203fd56afd8a4f8e670471789bf/covsirphy-2.9.1.tar.gz
+[2023-05-12 16:10:23] INFO root fetch - processPackages [covsirphy]: executing diffoscope
+[2023-05-12 16:10:23] INFO root fetch - processPackages [covsirphy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/covsirphy-2.9.0.tar.gz tmp/covsirphy-2.9.1.tar.gz --markdown 20230512/c/covsirphy/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-05-12 16:10:24] INFO root fetch - main [MainThread]: End processing [splight-cli]: success
+[2023-05-12 16:10:24] INFO root fetch - main [MainThread]: End processing [mecord-cli]: success
+[2023-05-12 16:10:24] INFO root fetch - main [MainThread]: End processing [fastkafka]: success
+[2023-05-12 16:10:24] INFO root fetch - main [MainThread]: End processing [covsirphy]: success
+[2023-05-12 16:10:24] INFO root fetch - main [MainThread]: End processing [vdk-server]: success
+[2023-05-12 16:10:24] INFO root fetch - main [MainThread]: End processing [clear-skies]: success
+[2023-05-12 16:10:24] INFO root fetch - main [MainThread]: End processing [superannotate]: success
+[2023-05-12 16:10:24] INFO root fetch - main [MainThread]: Store serial: [18079121]
