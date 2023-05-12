@@ -6568,3 +6568,142 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-12 09:49:58] INFO root fetch - main [MainThread]: End processing [DDesignerAPI]: success
 [2023-05-12 09:49:58] INFO root fetch - main [MainThread]: End processing [PyraUtils]: success
 [2023-05-12 09:49:58] INFO root fetch - main [MainThread]: Store serial: [18074900]
+[2023-05-12 09:55:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18074900]
+[2023-05-12 09:55:07] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-05-12 09:55:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vdaq-soap
+[2023-05-12 09:55:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: FlyHash
+[2023-05-12 09:55:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sbti-finance-tool
+[2023-05-12 09:55:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyshuttlis
+[2023-05-12 09:55:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cc-py-commons
+[2023-05-12 09:55:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: neuromeka-clients
+[2023-05-12 09:55:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lamineml
+[2023-05-12 09:55:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pozalabs-compose
+[2023-05-12 09:55:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tf-nightly-cpu
+[2023-05-12 09:55:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mlrun
+[2023-05-12 09:55:07] INFO root fetch - processPackages [vdaq-soap]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-12 09:55:07] INFO root fetch - processPackages [FlyHash]: New version: [1.1.0] Old Version: [0.3.0]
+[2023-05-12 09:55:07] INFO root fetch - processPackages [neuromeka-clients]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-12 09:55:07] INFO root fetch - processPackages [lamineml]: New version: [0.0.47] Old Version: [0.0.45]
+[2023-05-12 09:55:07] INFO root fetch - processPackages [sbti-finance-tool]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-05-12 09:55:07] INFO root fetch - processPackages [pyshuttlis]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-12 09:55:07] INFO root fetch - processPackages [pozalabs-compose]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-12 09:55:07] INFO root fetch - processPackages [mlrun]: New version: [1.4.0rc4] Old Version: [1.4.0rc3]
+[2023-05-12 09:55:07] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.14.0.dev20230511] Old Version: [2.14.0.dev20230510]
+[2023-05-12 09:55:07] INFO root fetch - processPackages [cc-py-commons]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-12 09:55:07] INFO root fetch - processPackages [neuromeka-clients]: executing diffoscope
+[2023-05-12 09:55:07] INFO root fetch - processPackages [neuromeka-clients]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuromeka-clients-0.1.4.tar.gz tmp/neuromeka-clients-0.1.5.tar.gz --markdown 20230512/n/neuromeka-clients/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-12 09:55:07] INFO root fetch - processPackages [vdaq-soap]: Downloading https://files.pythonhosted.org/packages/21/73/2313741524dc39b7e157df4106e10c02c50ced61cf43d20ba287ab79943f/vdaq_soap-1.0.1.tar.gz
+[2023-05-12 09:55:07] INFO root fetch - processPackages [pozalabs-compose]: Downloading https://files.pythonhosted.org/packages/06/b4/e38f9c7412983e6cae601fa8a4496d9dd3c15fe0e6bb19019457de2bf908/pozalabs-compose-0.9.0.tar.gz
+[2023-05-12 09:55:07] INFO root fetch - processPackages [lamineml]: Downloading https://files.pythonhosted.org/packages/24/62/1f81fbc3a1231a4ceea62d41a66f4558a7b0c9f9dec26d14c26f918074ed/lamineml-0.0.47.tar.gz
+[2023-05-12 09:55:07] INFO root fetch - processPackages [sbti-finance-tool]: Downloading https://files.pythonhosted.org/packages/30/3f/906252a5ec77c6dac2af9cf562fabdff4341154e56276921886989fc8690/sbti_finance_tool-1.0.6.tar.gz
+[2023-05-12 09:55:08] INFO root fetch - processPackages [lamineml]: executing diffoscope
+[2023-05-12 09:55:08] INFO root fetch - processPackages [lamineml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamineml-0.0.45.tar.gz tmp/lamineml-0.0.47.tar.gz --markdown 20230512/l/lamineml/0.0.45-0.0.47/diff.md --exclude *.pyd
+[2023-05-12 09:55:08] INFO root fetch - processPackages [FlyHash]: Downloading https://files.pythonhosted.org/packages/9c/f2/15d40d82bc9e6151310e3a9e63be61bbf149d233adec6cb28b2497bec9e9/FlyHash-1.1.0-py3-none-any.whl
+[2023-05-12 09:55:08] INFO root fetch - processPackages [vdaq-soap]: Downloading https://files.pythonhosted.org/packages/12/5d/7d824370dca35c820f542f8eb009138c21271714802ac4726edc0e629dce/vdaq_soap-1.0.2.tar.gz
+[2023-05-12 09:55:08] INFO root fetch - processPackages [pyshuttlis]: executing diffoscope
+[2023-05-12 09:55:08] INFO root fetch - processPackages [pyshuttlis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyshuttlis-0.1.8.tar.gz tmp/pyshuttlis-0.1.9.tar.gz --markdown 20230512/p/pyshuttlis/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-12 09:55:08] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2023-05-12 09:55:08] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.14.0.dev20230510-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.14.0.dev20230511-cp39-cp39-win_amd64.whl.zip --markdown 20230512/t/tf-nightly-cpu/2.14.0.dev20230510-2.14.0.dev20230511/diff.md --exclude *.pyd
+[2023-05-12 09:55:08] INFO root fetch - processPackages [cc-py-commons]: executing diffoscope
+[2023-05-12 09:55:08] INFO root fetch - processPackages [cc-py-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cc_py_commons-0.3.8.tar.gz tmp/cc_py_commons-0.3.9.tar.gz --markdown 20230512/c/cc-py-commons/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-12 09:55:08] INFO root fetch - processPackages [mlrun]: executing diffoscope
+[2023-05-12 09:55:08] INFO root fetch - processPackages [mlrun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlrun-1.4.0rc3-py3-none-any.whl.zip tmp/mlrun-1.4.0rc4-py3-none-any.whl.zip --markdown 20230512/m/mlrun/1.4.0rc3-1.4.0rc4/diff.md --exclude *.pyd
+[2023-05-12 09:55:08] INFO root fetch - processPackages [FlyHash]: executing diffoscope
+[2023-05-12 09:55:08] INFO root fetch - processPackages [FlyHash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FlyHash-0.3.0.tar.gz tmp/FlyHash-1.1.0-py3-none-any.whl.zip --markdown 20230512/F/FlyHash/0.3.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-12 09:55:08] INFO root fetch - processPackages [sbti-finance-tool]: Downloading https://files.pythonhosted.org/packages/2e/1a/32070b2fa811cc3d053312477b95311c18a62fec01532689a8368053a9aa/sbti_finance_tool-1.0.7-py3-none-any.whl
+[2023-05-12 09:55:08] INFO root fetch - processPackages [vdaq-soap]: executing diffoscope
+[2023-05-12 09:55:08] INFO root fetch - processPackages [vdaq-soap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdaq_soap-1.0.1.tar.gz tmp/vdaq_soap-1.0.2.tar.gz --markdown 20230512/v/vdaq-soap/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-12 09:55:08] INFO root fetch - processPackages [pozalabs-compose]: Downloading https://files.pythonhosted.org/packages/c4/33/dc52b783559ddc423af41ab2502f9d7749e2c4231db5f0f022fea65653c7/pozalabs-compose-0.9.1.tar.gz
+[2023-05-12 09:55:08] INFO root fetch - processPackages [pozalabs-compose]: executing diffoscope
+[2023-05-12 09:55:08] INFO root fetch - processPackages [pozalabs-compose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pozalabs-compose-0.9.0.tar.gz tmp/pozalabs-compose-0.9.1.tar.gz --markdown 20230512/p/pozalabs-compose/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-12 09:55:08] INFO root fetch - processPackages [sbti-finance-tool]: executing diffoscope
+[2023-05-12 09:55:08] INFO root fetch - processPackages [sbti-finance-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbti_finance_tool-1.0.6.tar.gz tmp/sbti_finance_tool-1.0.7-py3-none-any.whl.zip --markdown 20230512/s/sbti-finance-tool/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-05-12 09:55:09] INFO root fetch - processPackages [lamineml]: Start processing: matfree
+[2023-05-12 09:55:09] INFO root fetch - main [MainThread]: End processing [lamineml]: success
+[2023-05-12 09:55:09] INFO root fetch - processPackages [matfree]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-12 09:55:09] INFO root fetch - processPackages [tf-nightly-cpu]: Start processing: speed-cli
+[2023-05-12 09:55:09] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2023-05-12 09:55:09] WARNING root fetch - processPackages [speed-cli]: Skipping, unable to determine old version
+[2023-05-12 09:55:09] INFO root fetch - processPackages [speed-cli]: Start processing: hubspot-api-client
+[2023-05-12 09:55:09] INFO root fetch - main [MainThread]: End processing [speed-cli] error
+[2023-05-12 09:55:09] INFO root fetch - processPackages [pyshuttlis]: Start processing: python-cli-handler
+[2023-05-12 09:55:09] INFO root fetch - main [MainThread]: End processing [pyshuttlis]: success
+[2023-05-12 09:55:09] INFO root fetch - processPackages [hubspot-api-client]: New version: [8.0.0b3] Old Version: [8.0.0b2]
+[2023-05-12 09:55:09] INFO root fetch - processPackages [matfree]: Downloading https://files.pythonhosted.org/packages/fd/32/af1d87c32f21fb633a4db87ff3acfc56d2478695bd1066048b7957347f89/matfree-0.0.7.tar.gz
+[2023-05-12 09:55:09] INFO root fetch - processPackages [python-cli-handler]: New version: [1.0.0] Old Version: [0.1.1]
+[2023-05-12 09:55:09] INFO root fetch - processPackages [sbti-finance-tool]: Start processing: wcommon
+[2023-05-12 09:55:09] INFO root fetch - main [MainThread]: End processing [sbti-finance-tool]: success
+[2023-05-12 09:55:09] INFO root fetch - processPackages [matfree]: executing diffoscope
+[2023-05-12 09:55:09] INFO root fetch - processPackages [matfree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matfree-0.0.6.tar.gz tmp/matfree-0.0.7.tar.gz --markdown 20230512/m/matfree/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-12 09:55:09] INFO root fetch - processPackages [hubspot-api-client]: Downloading https://files.pythonhosted.org/packages/f4/d5/2501895901bb8309d562f5cd14744b07d317a3ddff2b6625a005ead20466/hubspot-api-client-8.0.0b2.tar.gz
+[2023-05-12 09:55:09] INFO root fetch - processPackages [wcommon]: New version: [1.5.6] Old Version: [1.5.5]
+[2023-05-12 09:55:09] INFO root fetch - processPackages [pozalabs-compose]: Start processing: odoo-addon-stock-barcodes
+[2023-05-12 09:55:09] INFO root fetch - main [MainThread]: End processing [pozalabs-compose]: success
+[2023-05-12 09:55:09] INFO root fetch - processPackages [python-cli-handler]: Downloading https://files.pythonhosted.org/packages/9d/20/e853c8a557cedb5e7dfd4ff85f1a33a341b40a7b098413ee703295a04f41/python-cli-handler-0.1.1.tar.gz
+[2023-05-12 09:55:10] INFO root fetch - processPackages [FlyHash]: Start processing: tycho-api
+[2023-05-12 09:55:10] INFO root fetch - main [MainThread]: End processing [FlyHash]: success
+[2023-05-12 09:55:10] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: New version: [15.0.1.2.2.5] Old Version: [15.0.1.2.2.4]
+[2023-05-12 09:55:10] INFO root fetch - processPackages [wcommon]: Downloading https://files.pythonhosted.org/packages/c2/72/144e11b023fa040b691a7e1af78daef2c0156b182b6aa800992e84c17c49/wcommon-1.5.5.tar.gz
+[2023-05-12 09:55:10] INFO root fetch - processPackages [vdaq-soap]: Start processing: luminesce-sdk-preview
+[2023-05-12 09:55:10] INFO root fetch - main [MainThread]: End processing [vdaq-soap]: success
+[2023-05-12 09:55:10] INFO root fetch - processPackages [tycho-api]: New version: [1.9a1.dev3] Old Version: [1.9a1.dev2]
+[2023-05-12 09:55:10] INFO root fetch - processPackages [luminesce-sdk-preview]: New version: [1.9.92] Old Version: [1.9.88]
+[2023-05-12 09:55:10] INFO root fetch - processPackages [python-cli-handler]: Downloading https://files.pythonhosted.org/packages/9d/83/c3cd91336bfca5ab47d7970f2dea854276964339935d43e2e292d29b5d05/python-cli-handler-1.0.0.tar.gz
+[2023-05-12 09:55:10] INFO root fetch - processPackages [luminesce-sdk-preview]: executing diffoscope
+[2023-05-12 09:55:10] INFO root fetch - processPackages [luminesce-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce-sdk-preview-1.9.88.tar.gz tmp/luminesce-sdk-preview-1.9.92.tar.gz --markdown 20230512/l/luminesce-sdk-preview/1.9.88-1.9.92/diff.md --exclude *.pyd
+[2023-05-12 09:55:10] INFO root fetch - processPackages [cc-py-commons]: Start processing: DDesignerAPI
+[2023-05-12 09:55:10] INFO root fetch - main [MainThread]: End processing [cc-py-commons]: success
+[2023-05-12 09:55:10] INFO root fetch - processPackages [hubspot-api-client]: Downloading https://files.pythonhosted.org/packages/49/3b/d45d7b78256b3b3585ca333e6a914ba83ff818994654fc58b8490fff8c16/hubspot-api-client-8.0.0b3.tar.gz
+[2023-05-12 09:55:10] INFO root fetch - processPackages [DDesignerAPI]: New version: [0.0.2.3] Old Version: [0.0.2.2]
+[2023-05-12 09:55:10] INFO root fetch - processPackages [tycho-api]: Downloading https://files.pythonhosted.org/packages/30/18/2d4be3e6d94ee0981e5af1e4d024016403e7e220fee37b52a4e750e6d405/tycho-api-1.9a1.dev2.tar.gz
+[2023-05-12 09:55:10] INFO root fetch - processPackages [wcommon]: Downloading https://files.pythonhosted.org/packages/a8/76/ce425e26ad899d8e04e422b1b6bdc094ff0af28383fb6e367d2fc95a04b6/wcommon-1.5.6.tar.gz
+[2023-05-12 09:55:10] INFO root fetch - processPackages [python-cli-handler]: executing diffoscope
+[2023-05-12 09:55:10] INFO root fetch - processPackages [python-cli-handler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-cli-handler-0.1.1.tar.gz tmp/python-cli-handler-1.0.0.tar.gz --markdown 20230512/p/python-cli-handler/0.1.1-1.0.0/diff.md --exclude *.pyd
+[2023-05-12 09:55:10] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: Downloading https://files.pythonhosted.org/packages/30/7e/587685e4695ebc751f72aafa1854644013d7a24c59de4040ae28488c7f86/odoo_addon_stock_barcodes-15.0.1.2.2.5-py3-none-any.whl
+[2023-05-12 09:55:10] INFO root fetch - processPackages [DDesignerAPI]: executing diffoscope
+[2023-05-12 09:55:10] INFO root fetch - processPackages [DDesignerAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DDesignerAPI-0.0.2.2-py3-none-any.whl.zip tmp/DDesignerAPI-0.0.2.3-py3-none-any.whl.zip --markdown 20230512/D/DDesignerAPI/0.0.2.2-0.0.2.3/diff.md --exclude *.pyd
+[2023-05-12 09:55:10] INFO root fetch - processPackages [wcommon]: executing diffoscope
+[2023-05-12 09:55:10] INFO root fetch - processPackages [wcommon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wcommon-1.5.5.tar.gz tmp/wcommon-1.5.6.tar.gz --markdown 20230512/w/wcommon/1.5.5-1.5.6/diff.md --exclude *.pyd
+[2023-05-12 09:55:10] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: executing diffoscope
+[2023-05-12 09:55:10] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_barcodes-15.0.1.2.2.4-py3-none-any.whl.zip tmp/odoo_addon_stock_barcodes-15.0.1.2.2.5-py3-none-any.whl.zip --markdown 20230512/o/odoo-addon-stock-barcodes/15.0.1.2.2.4-15.0.1.2.2.5/diff.md --exclude *.pyd
+[2023-05-12 09:55:10] INFO root fetch - processPackages [tycho-api]: Downloading https://files.pythonhosted.org/packages/74/a4/b3c529c3b0436d698f0c26faa278d0fbb02bae0d515e4d6d827a53424e23/tycho-api-1.9a1.dev3.tar.gz
+[2023-05-12 09:55:10] INFO root fetch - processPackages [tycho-api]: executing diffoscope
+[2023-05-12 09:55:10] INFO root fetch - processPackages [tycho-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tycho-api-1.9a1.dev2.tar.gz tmp/tycho-api-1.9a1.dev3.tar.gz --markdown 20230512/t/tycho-api/1.9a1.dev2-1.9a1.dev3/diff.md --exclude *.pyd
+[2023-05-12 09:55:10] INFO root fetch - processPackages [neuromeka-clients]: Start processing: th2-grpc-lw-data-provider
+[2023-05-12 09:55:10] INFO root fetch - main [MainThread]: End processing [neuromeka-clients]: success
+[2023-05-12 09:55:10] INFO root fetch - processPackages [hubspot-api-client]: executing diffoscope
+[2023-05-12 09:55:10] INFO root fetch - processPackages [hubspot-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hubspot-api-client-8.0.0b2.tar.gz tmp/hubspot-api-client-8.0.0b3.tar.gz --markdown 20230512/h/hubspot-api-client/8.0.0b2-8.0.0b3/diff.md --exclude *.pyd
+[2023-05-12 09:55:11] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: New version: [2.1.0.dev3871883101] Old Version: [2.0.0.dev4956498744]
+[2023-05-12 09:55:11] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/27/e0/8ac2d435c0385366bf8575767a4091e83ca784751129d669ad27bb15b819/th2_grpc_lw_data_provider-2.0.0.dev4956498744.tar.gz
+[2023-05-12 09:55:11] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/b8/71/939eea7287068082732ec066dc1b9af347f7ee06c935058691236acf7459/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz
+[2023-05-12 09:55:11] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: executing diffoscope
+[2023-05-12 09:55:11] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_lw_data_provider-2.0.0.dev4956498744.tar.gz tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz --markdown 20230512/t/th2-grpc-lw-data-provider/2.0.0.dev4956498744-2.1.0.dev3871883101/diff.md --exclude *.pyd
+[2023-05-12 09:55:11] INFO root fetch - processPackages [python-cli-handler]: Start processing: rpaframework-assistant
+[2023-05-12 09:55:11] INFO root fetch - main [MainThread]: End processing [python-cli-handler]: success
+[2023-05-12 09:55:11] INFO root fetch - processPackages [rpaframework-assistant]: New version: [2.2.2] Old Version: [2.2.1]
+[2023-05-12 09:55:12] INFO root fetch - processPackages [wcommon]: Start processing: kf6py
+[2023-05-12 09:55:12] INFO root fetch - main [MainThread]: End processing [wcommon]: success
+[2023-05-12 09:55:12] INFO root fetch - processPackages [kf6py]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-12 09:55:12] INFO root fetch - processPackages [kf6py]: executing diffoscope
+[2023-05-12 09:55:12] INFO root fetch - processPackages [kf6py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kf6py-0.1.0.tar.gz tmp/kf6py-0.2.0.tar.gz --markdown 20230512/k/kf6py/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-12 09:55:12] INFO root fetch - processPackages [rpaframework-assistant]: Downloading https://files.pythonhosted.org/packages/f1/40/90ed4396ae71040a284f63ab834a5884733b3fc5aa41431e8b793c256bd3/rpaframework_assistant-2.2.1.tar.gz
+[2023-05-12 09:55:12] INFO root fetch - processPackages [DDesignerAPI]: Start processing: synchronicity
+[2023-05-12 09:55:12] INFO root fetch - main [MainThread]: End processing [DDesignerAPI]: success
+[2023-05-12 09:55:12] INFO root fetch - main [MainThread]: End processing [matfree]: success
+[2023-05-12 09:55:12] INFO root fetch - processPackages [synchronicity]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-05-12 09:55:12] INFO root fetch - main [MainThread]: End processing [tycho-api]: success
+[2023-05-12 09:55:12] INFO root fetch - processPackages [rpaframework-assistant]: Downloading https://files.pythonhosted.org/packages/84/1a/920ef55653ff920dabadbafae5b25c0902fcfea188c2171813bf82381804/rpaframework_assistant-2.2.2.tar.gz
+[2023-05-12 09:55:12] INFO root fetch - processPackages [rpaframework-assistant]: executing diffoscope
+[2023-05-12 09:55:12] INFO root fetch - processPackages [rpaframework-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rpaframework_assistant-2.2.1.tar.gz tmp/rpaframework_assistant-2.2.2.tar.gz --markdown 20230512/r/rpaframework-assistant/2.2.1-2.2.2/diff.md --exclude *.pyd
+[2023-05-12 09:55:12] INFO root fetch - processPackages [synchronicity]: Downloading https://files.pythonhosted.org/packages/01/82/8407bd38390895f511962614e02426819f79f53af2f095dc225eb2699c8e/synchronicity-0.5.1-py3-none-any.whl
+[2023-05-12 09:55:12] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-barcodes]: success
+[2023-05-12 09:55:12] INFO root fetch - processPackages [synchronicity]: executing diffoscope
+[2023-05-12 09:55:12] INFO root fetch - processPackages [synchronicity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synchronicity-0.5.0-py3-none-any.whl.zip tmp/synchronicity-0.5.1-py3-none-any.whl.zip --markdown 20230512/s/synchronicity/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-05-12 09:55:13] INFO root fetch - main [MainThread]: End processing [th2-grpc-lw-data-provider]: success
+[2023-05-12 09:55:13] INFO root fetch - main [MainThread]: End processing [kf6py]: success
+[2023-05-12 09:55:13] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
+[2023-05-12 09:55:13] INFO root fetch - main [MainThread]: End processing [rpaframework-assistant]: success
+[2023-05-12 09:55:14] INFO root fetch - main [MainThread]: End processing [synchronicity]: success
+[2023-05-12 09:55:14] INFO root fetch - main [MainThread]: End processing [mlrun]: success
+[2023-05-12 09:56:30] INFO root fetch - main [MainThread]: End processing [hubspot-api-client]: success
+[2023-05-12 09:56:30] INFO root fetch - main [MainThread]: Store serial: [18075003]
