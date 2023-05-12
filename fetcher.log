@@ -15244,3 +15244,65 @@ EOFError: EOF read where object expected
 [2023-05-12 18:22:25] INFO root fetch - main [MainThread]: End processing [rendseq]: success
 [2023-05-12 18:22:28] INFO root fetch - main [MainThread]: End processing [mainnet]: success
 [2023-05-12 18:22:28] INFO root fetch - main [MainThread]: Store serial: [18080637]
+[2023-05-12 18:27:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18080637]
+[2023-05-12 18:27:37] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-12 18:27:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PatryksAutoAI
+[2023-05-12 18:27:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fastfft
+[2023-05-12 18:27:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ALMASim
+[2023-05-12 18:27:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tator
+[2023-05-12 18:27:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aacommpy
+[2023-05-12 18:27:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hotspotty-payment-email
+[2023-05-12 18:27:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kmaps
+[2023-05-12 18:27:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PatryksAutoAI
+[2023-05-12 18:27:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: weesocket
+[2023-05-12 18:27:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: certora-cli-alpha-eric-stack
+[2023-05-12 18:27:37] INFO root fetch - processPackages [fastfft]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-12 18:27:37] INFO root fetch - processPackages [PatryksAutoAI]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-12 18:27:37] WARNING root fetch - processPackages [ALMASim]: Skipping, unable to determine old version
+[2023-05-12 18:27:37] INFO root fetch - processPackages [ALMASim]: Start processing: np-pipeline-qc
+[2023-05-12 18:27:37] INFO root fetch - main [MainThread]: End processing [ALMASim] error
+[2023-05-12 18:27:37] INFO root fetch - processPackages [hotspotty-payment-email]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-12 18:27:37] INFO root fetch - processPackages [aacommpy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-12 18:27:37] INFO root fetch - processPackages [np-pipeline-qc]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-12 18:27:37] WARNING root fetch - processPackages [certora-cli-alpha-eric-stack]: Skipping, unable to determine old version
+[2023-05-12 18:27:37] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-eric-stack] error
+[2023-05-12 18:27:37] INFO root fetch - processPackages [tator]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-12 18:27:37] INFO root fetch - processPackages [PatryksAutoAI]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-12 18:27:37] INFO root fetch - processPackages [kmaps]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 18:27:37] INFO root fetch - processPackages [weesocket]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-05-12 18:27:37] INFO root fetch - processPackages [aacommpy]: executing diffoscope
+[2023-05-12 18:27:37] INFO root fetch - processPackages [aacommpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aacommpy-0.1.8.tar.gz tmp/aacommpy-0.1.9.tar.gz --markdown 20230512/a/aacommpy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-12 18:27:37] INFO root fetch - processPackages [np-pipeline-qc]: executing diffoscope
+[2023-05-12 18:27:37] INFO root fetch - processPackages [np-pipeline-qc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np-pipeline-qc-0.0.6.tar.gz tmp/np-pipeline-qc-0.0.7.tar.gz --markdown 20230512/n/np-pipeline-qc/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-12 18:27:37] INFO root fetch - processPackages [hotspotty-payment-email]: executing diffoscope
+[2023-05-12 18:27:37] INFO root fetch - processPackages [hotspotty-payment-email]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotspotty_payment_email-0.2.8.tar.gz tmp/hotspotty_payment_email-0.2.9.tar.gz --markdown 20230512/h/hotspotty-payment-email/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-12 18:27:37] INFO root fetch - processPackages [fastfft]: Downloading https://files.pythonhosted.org/packages/e1/6f/3e0c076aa1e849c38a4815b8c5da0a06526bd2a06ce9645a5d7b3c416509/fastfft-0.1.8.tar.gz
+[2023-05-12 18:27:37] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/a5/36/340cdb47904b60dc0911eda3649eee9b7a995394e8206199666bc3feadcf/PatryksAutoAI-0.3.2.tar.gz
+[2023-05-12 18:27:37] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/a5/36/340cdb47904b60dc0911eda3649eee9b7a995394e8206199666bc3feadcf/PatryksAutoAI-0.3.2.tar.gz
+[2023-05-12 18:27:37] INFO root fetch - processPackages [tator]: Downloading https://files.pythonhosted.org/packages/23/2b/64dd96d711327aaf4aa0c9e23023d6a8d44c36afd1d968460e5f18270638/tator-1.0.0.tar.gz
+[2023-05-12 18:27:37] INFO root fetch - processPackages [kmaps]: Downloading https://files.pythonhosted.org/packages/11/bd/e23800a9c7d55c34e08f621e6a6c42e68fa9139dac3f7b67eb62b3424904/kmaps-0.0.8.tar.gz
+[2023-05-12 18:27:37] INFO root fetch - processPackages [PatryksAutoAI]: executing diffoscope
+[2023-05-12 18:27:37] INFO root fetch - processPackages [PatryksAutoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PatryksAutoAI-0.3.1.tar.gz tmp/PatryksAutoAI-0.3.2.tar.gz --markdown 20230512/P/PatryksAutoAI/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-12 18:27:37] INFO root fetch - processPackages [fastfft]: executing diffoscope
+[2023-05-12 18:27:37] INFO root fetch - processPackages [fastfft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastfft-0.1.7.tar.gz tmp/fastfft-0.1.8.tar.gz --markdown 20230512/f/fastfft/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-12 18:27:37] INFO root fetch - processPackages [PatryksAutoAI]: executing diffoscope
+[2023-05-12 18:27:37] INFO root fetch - processPackages [PatryksAutoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PatryksAutoAI-0.3.1.tar.gz tmp/PatryksAutoAI-0.3.2.tar.gz --markdown 20230512/P/PatryksAutoAI/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-12 18:27:37] INFO root fetch - processPackages [weesocket]: Downloading https://files.pythonhosted.org/packages/38/a5/ee732730ee0b8d522cbd48ba824305617dbb85d053b31ebfa5174593c0a0/weesocket-2.0.1.tar.gz
+[2023-05-12 18:27:37] INFO root fetch - processPackages [kmaps]: Downloading https://files.pythonhosted.org/packages/03/e1/2f79b6c1aec2a3f1ccba333f25f12a222e200e17657c14f5edcf354b71f4/kmaps-0.0.9.tar.gz
+[2023-05-12 18:27:37] INFO root fetch - processPackages [weesocket]: executing diffoscope
+[2023-05-12 18:27:37] INFO root fetch - processPackages [weesocket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weesocket-2.0.0.tar.gz tmp/weesocket-2.0.1.tar.gz --markdown 20230512/w/weesocket/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-05-12 18:27:38] INFO root fetch - processPackages [tator]: Downloading https://files.pythonhosted.org/packages/e3/76/301e39c3a7a42bebbb145f2cfccd19a02e53c3b0eaae781b01ac4f27f057/tator-1.0.1.tar.gz
+[2023-05-12 18:27:38] INFO root fetch - processPackages [kmaps]: executing diffoscope
+[2023-05-12 18:27:38] INFO root fetch - processPackages [kmaps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kmaps-0.0.8.tar.gz tmp/kmaps-0.0.9.tar.gz --markdown 20230512/k/kmaps/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 18:27:38] INFO root fetch - processPackages [tator]: executing diffoscope
+[2023-05-12 18:27:38] INFO root fetch - processPackages [tator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tator-1.0.0.tar.gz tmp/tator-1.0.1.tar.gz --markdown 20230512/t/tator/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-12 18:27:38] INFO root fetch - main [MainThread]: End processing [hotspotty-payment-email]: success
+[2023-05-12 18:27:38] INFO root fetch - main [MainThread]: End processing [aacommpy]: success
+[2023-05-12 18:27:39] INFO root fetch - main [MainThread]: End processing [fastfft]: success
+[2023-05-12 18:27:39] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
+[2023-05-12 18:27:39] INFO root fetch - main [MainThread]: End processing [np-pipeline-qc]: success
+[2023-05-12 18:27:39] INFO root fetch - main [MainThread]: End processing [kmaps]: success
+[2023-05-12 18:27:39] INFO root fetch - main [MainThread]: End processing [weesocket]: success
+[2023-05-12 18:27:39] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
+[2023-05-12 18:27:41] INFO root fetch - main [MainThread]: End processing [tator]: success
+[2023-05-12 18:27:41] INFO root fetch - main [MainThread]: Store serial: [18080671]
