@@ -4360,3 +4360,34 @@
 [2023-05-12 06:37:25] INFO root fetch - main [MainThread]: End processing [render-engine]: success
 [2023-05-12 06:37:27] INFO root fetch - main [MainThread]: End processing [furiosa-native-postprocess]: success
 [2023-05-12 06:37:27] INFO root fetch - main [MainThread]: Store serial: [18073315]
+[2023-05-12 06:42:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18073315]
+[2023-05-12 06:42:38] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-12 06:42:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: magic-class
+[2023-05-12 06:42:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: raindancers-network.raindancers-cdk
+[2023-05-12 06:42:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hatchling
+[2023-05-12 06:42:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tencentcloud-sdk-python-tsw
+[2023-05-12 06:42:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: evalplus
+[2023-05-12 06:42:39] INFO root fetch - processPackages [magic-class]: New version: [0.7.0rc1] Old Version: [0.7.0rc0]
+[2023-05-12 06:42:39] INFO root fetch - processPackages [evalplus]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-12 06:42:39] INFO root fetch - processPackages [raindancers-network.raindancers-cdk]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-12 06:42:39] INFO root fetch - processPackages [hatchling]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-05-12 06:42:39] INFO root fetch - processPackages [tencentcloud-sdk-python-tsw]: New version: [3.0.890] Old Version: [3.0.889]
+[2023-05-12 06:42:39] INFO root fetch - processPackages [hatchling]: executing diffoscope
+[2023-05-12 06:42:39] INFO root fetch - processPackages [hatchling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hatchling-1.8.1.tar.gz tmp/hatchling-1.9.0.tar.gz --markdown 20230512/h/hatchling/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-05-12 06:42:39] INFO root fetch - processPackages [raindancers-network.raindancers-cdk]: executing diffoscope
+[2023-05-12 06:42:39] INFO root fetch - processPackages [raindancers-network.raindancers-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raindancers-network.raindancers-cdk-1.9.8.tar.gz tmp/raindancers-network.raindancers-cdk-1.9.9.tar.gz --markdown 20230512/r/raindancers-network.raindancers-cdk/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-12 06:42:39] INFO root fetch - processPackages [magic-class]: Downloading https://files.pythonhosted.org/packages/bb/2c/d2f07d95fe85c272eee8b7a612bfe7798cb1be47a76c5cc77ec10723e7c1/magic_class-0.7.0rc1-py3-none-any.whl
+[2023-05-12 06:42:39] INFO root fetch - processPackages [evalplus]: Downloading https://files.pythonhosted.org/packages/e6/d3/f828609d63f8af89b62b1d00d42bc2b76cfb3ecdaad8855162c863b98e3c/evalplus-0.1.4-py3-none-any.whl
+[2023-05-12 06:42:39] INFO root fetch - processPackages [tencentcloud-sdk-python-tsw]: Downloading https://files.pythonhosted.org/packages/1c/81/c451f77687a548f0a5e3bb1879b2e402c268e2073bfe334880bf6c3b57d5/tencentcloud_sdk_python_tsw-3.0.890-py2.py3-none-any.whl
+[2023-05-12 06:42:39] INFO root fetch - processPackages [magic-class]: executing diffoscope
+[2023-05-12 06:42:39] INFO root fetch - processPackages [magic-class]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magic_class-0.7.0rc0.tar.gz tmp/magic_class-0.7.0rc1-py3-none-any.whl.zip --markdown 20230512/m/magic-class/0.7.0rc0-0.7.0rc1/diff.md --exclude *.pyd
+[2023-05-12 06:42:39] INFO root fetch - processPackages [tencentcloud-sdk-python-tsw]: executing diffoscope
+[2023-05-12 06:42:39] INFO root fetch - processPackages [evalplus]: executing diffoscope
+[2023-05-12 06:42:39] INFO root fetch - processPackages [tencentcloud-sdk-python-tsw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tsw-3.0.889.tar.gz tmp/tencentcloud_sdk_python_tsw-3.0.890-py2.py3-none-any.whl.zip --markdown 20230512/t/tencentcloud-sdk-python-tsw/3.0.889-3.0.890/diff.md --exclude *.pyd
+[2023-05-12 06:42:39] INFO root fetch - processPackages [evalplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evalplus-0.1.3.tar.gz tmp/evalplus-0.1.4-py3-none-any.whl.zip --markdown 20230512/e/evalplus/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-12 06:42:40] INFO root fetch - main [MainThread]: End processing [hatchling]: success
+[2023-05-12 06:42:40] INFO root fetch - main [MainThread]: End processing [magic-class]: success
+[2023-05-12 06:42:40] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tsw]: success
+[2023-05-12 06:42:40] INFO root fetch - main [MainThread]: End processing [evalplus]: success
+[2023-05-12 06:42:41] INFO root fetch - main [MainThread]: End processing [raindancers-network.raindancers-cdk]: success
+[2023-05-12 06:42:41] INFO root fetch - main [MainThread]: Store serial: [18073335]
