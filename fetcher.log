@@ -8000,3 +8000,162 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-12 11:17:11] INFO root fetch - main [MainThread]: End processing [physiofit]: success
 [2023-05-12 11:17:12] INFO root fetch - main [MainThread]: End processing [adapta]: success
 [2023-05-12 11:17:12] INFO root fetch - main [MainThread]: Store serial: [18075839]
+[2023-05-12 11:22:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18075839]
+[2023-05-12 11:22:21] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-05-12 11:22:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rebasin
+[2023-05-12 11:22:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: t2iapi
+[2023-05-12 11:22:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bkapi-plugins-py
+[2023-05-12 11:22:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sloth-framework
+[2023-05-12 11:22:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bycon
+[2023-05-12 11:22:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sugar-shell
+[2023-05-12 11:22:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: touch-sdk
+[2023-05-12 11:22:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mecsimcalc
+[2023-05-12 11:22:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pybatfish
+[2023-05-12 11:22:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: spanishconjugator
+[2023-05-12 11:22:21] INFO root fetch - processPackages [bkapi-plugins-py]: New version: [0.5121714] Old Version: [0.512]
+[2023-05-12 11:22:21] INFO root fetch - processPackages [rebasin]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 11:22:21] INFO root fetch - processPackages [sloth-framework]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-12 11:22:21] INFO root fetch - processPackages [mecsimcalc]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-12 11:22:21] INFO root fetch - processPackages [touch-sdk]: New version: [0.6.7] Old Version: [0.6.6]
+[2023-05-12 11:22:21] INFO root fetch - processPackages [t2iapi]: New version: [3.0.0.dev135] Old Version: [3.0.0.dev131]
+[2023-05-12 11:22:21] INFO root fetch - processPackages [bycon]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-12 11:22:21] INFO root fetch - processPackages [sugar-shell]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-05-12 11:22:21] INFO root fetch - processPackages [pybatfish]: New version: [2023.5.12.784] Old Version: [2022.9.7.77]
+[2023-05-12 11:22:21] INFO root fetch - processPackages [bycon]: executing diffoscope
+[2023-05-12 11:22:21] INFO root fetch - processPackages [bycon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bycon-1.0.8.tar.gz tmp/bycon-1.0.9.tar.gz --markdown 20230512/b/bycon/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-12 11:22:21] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-05-12 11:22:21] INFO root fetch - processPackages [bkapi-plugins-py]: Downloading https://files.pythonhosted.org/packages/ef/a3/ccf835da7cfdb777f492412886bab1796c9bd7712b47cbf30badf9a21ee8/bkapi-plugins-py-0.512.tar.gz
+[2023-05-12 11:22:21] INFO root fetch - processPackages [sugar-shell]: Downloading https://files.pythonhosted.org/packages/dd/9c/dee5fd19f8d0746b21075a0e5573c6aba9c4854250ef8f1efaa509e85af6/sugar_shell-0.2.4.tar.gz
+[2023-05-12 11:22:21] INFO root fetch - processPackages [sloth-framework]: Downloading https://files.pythonhosted.org/packages/b5/5a/afa0f1ff4201c0fb95dfc871d747b0b92f87c95f35ac46f6ed51108d8790/sloth-framework-0.1.3.tar.gz
+[2023-05-12 11:22:21] INFO root fetch - processPackages [touch-sdk]: Downloading https://files.pythonhosted.org/packages/52/4e/5fb125c5662efa95f0dcbf7af9171ac4ff4e722437aae467b1eac40c0a8b/touch_sdk-0.6.6.tar.gz
+[2023-05-12 11:22:21] INFO root fetch - processPackages [pybatfish]: Downloading https://files.pythonhosted.org/packages/e4/f8/d4dfbf633e454840650b908ae9776e065fe4107c6d288e7afd8a4e0f7355/pybatfish-2022.9.7.77-py2.py3-none-any.whl
+[2023-05-12 11:22:21] INFO root fetch - processPackages [t2iapi]: Downloading https://files.pythonhosted.org/packages/f4/05/42d8f0114bae045534becb292c134cb52eb5628eabb7a6049f2aabb99ae7/t2iapi-3.0.0.dev131.tar.gz
+[2023-05-12 11:22:21] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-05-12 11:22:21] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230512/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-05-12 11:22:22] INFO root fetch - processPackages [mecsimcalc]: Downloading https://files.pythonhosted.org/packages/1e/25/b83b94dbca5c0fe859db5707e9441c09925e4e3e76d3ec2587c7618bb7f7/mecsimcalc-0.0.4.tar.gz
+[2023-05-12 11:22:22] INFO root fetch - processPackages [mecsimcalc]: executing diffoscope
+[2023-05-12 11:22:22] INFO root fetch - processPackages [mecsimcalc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mecsimcalc-0.0.3.tar.gz tmp/mecsimcalc-0.0.4.tar.gz --markdown 20230512/m/mecsimcalc/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-12 11:22:22] INFO root fetch - processPackages [rebasin]: executing diffoscope
+[2023-05-12 11:22:22] INFO root fetch - processPackages [rebasin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rebasin-0.0.8.tar.gz tmp/rebasin-0.0.9.tar.gz --markdown 20230512/r/rebasin/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 11:22:22] INFO root fetch - processPackages [touch-sdk]: Downloading https://files.pythonhosted.org/packages/59/a1/0441156a6eff59fe42964a1c867e3dc1e43840abc36a614d1652cfc5ea03/touch_sdk-0.6.7.tar.gz
+[2023-05-12 11:22:22] INFO root fetch - processPackages [sugar-shell]: Downloading https://files.pythonhosted.org/packages/14/0b/3f8c5d5235b7a5137d69762e6b2a3df493b159fbc23bafc734b5cc3fc5b5/sugar_shell-0.2.5.tar.gz
+[2023-05-12 11:22:22] INFO root fetch - processPackages [pybatfish]: Downloading https://files.pythonhosted.org/packages/88/17/a5198925b6c862f6743b9e06cb0d46de8c910177a3cf8df1782e8c62fdae/pybatfish-2023.5.12.784-py3-none-any.whl
+[2023-05-12 11:22:22] INFO root fetch - processPackages [t2iapi]: Downloading https://files.pythonhosted.org/packages/43/4c/d335ec842e2514005e5d6268bb531f7af20d0656b1bd3599918e2df57991/t2iapi-3.0.0.dev135.tar.gz
+[2023-05-12 11:22:22] INFO root fetch - processPackages [touch-sdk]: executing diffoscope
+[2023-05-12 11:22:22] INFO root fetch - processPackages [touch-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/touch_sdk-0.6.6.tar.gz tmp/touch_sdk-0.6.7.tar.gz --markdown 20230512/t/touch-sdk/0.6.6-0.6.7/diff.md --exclude *.pyd
+[2023-05-12 11:22:22] INFO root fetch - processPackages [sugar-shell]: executing diffoscope
+[2023-05-12 11:22:22] INFO root fetch - processPackages [sugar-shell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sugar_shell-0.2.4.tar.gz tmp/sugar_shell-0.2.5.tar.gz --markdown 20230512/s/sugar-shell/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-05-12 11:22:22] INFO root fetch - processPackages [pybatfish]: executing diffoscope
+[2023-05-12 11:22:22] INFO root fetch - processPackages [pybatfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybatfish-2022.9.7.77-py2.py3-none-any.whl.zip tmp/pybatfish-2023.5.12.784-py3-none-any.whl.zip --markdown 20230512/p/pybatfish/2022.9.7.77-2023.5.12.784/diff.md --exclude *.pyd
+[2023-05-12 11:22:22] INFO root fetch - processPackages [t2iapi]: executing diffoscope
+[2023-05-12 11:22:22] INFO root fetch - processPackages [t2iapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/t2iapi-3.0.0.dev131.tar.gz tmp/t2iapi-3.0.0.dev135.tar.gz --markdown 20230512/t/t2iapi/3.0.0.dev131-3.0.0.dev135/diff.md --exclude *.pyd
+[2023-05-12 11:22:22] INFO root fetch - processPackages [sloth-framework]: Downloading https://files.pythonhosted.org/packages/ff/2d/d10fcdbdd095296e7f40e2049c14c3120d49e15ad88c5691568e08710828/sloth-framework-0.1.4.tar.gz
+[2023-05-12 11:22:22] INFO root fetch - processPackages [sloth-framework]: executing diffoscope
+[2023-05-12 11:22:22] INFO root fetch - processPackages [sloth-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sloth-framework-0.1.3.tar.gz tmp/sloth-framework-0.1.4.tar.gz --markdown 20230512/s/sloth-framework/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-12 11:22:22] INFO root fetch - processPackages [bkapi-plugins-py]: Downloading https://files.pythonhosted.org/packages/ec/e4/44e28bb0b89c5ed0cc96f18925552a7c0a3f844651b72ae7b237a575bbe6/bkapi-plugins-py-0.5121714.tar.gz
+[2023-05-12 11:22:22] INFO root fetch - processPackages [bkapi-plugins-py]: executing diffoscope
+[2023-05-12 11:22:22] INFO root fetch - processPackages [bkapi-plugins-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bkapi-plugins-py-0.512.tar.gz tmp/bkapi-plugins-py-0.5121714.tar.gz --markdown 20230512/b/bkapi-plugins-py/0.512-0.5121714/diff.md --exclude *.pyd
+[2023-05-12 11:22:23] INFO root fetch - processPackages [spanishconjugator]: Start processing: nucliadb
+[2023-05-12 11:22:23] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-05-12 11:22:23] INFO root fetch - processPackages [nucliadb]: New version: [2.9.0.post263] Old Version: [2.9.0.post262]
+[2023-05-12 11:22:23] INFO root fetch - processPackages [mecsimcalc]: Start processing: pydra-fsl
+[2023-05-12 11:22:23] INFO root fetch - main [MainThread]: End processing [mecsimcalc]: success
+[2023-05-12 11:22:23] INFO root fetch - processPackages [pydra-fsl]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 11:22:23] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/db/fd/78904c904ac45473515a22d5735374e99557747586c12708b0b8d5f86923/nucliadb-2.9.0.post263-py3-none-any.whl
+[2023-05-12 11:22:23] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2023-05-12 11:22:23] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-2.9.0.post262-py3-none-any.whl.zip tmp/nucliadb-2.9.0.post263-py3-none-any.whl.zip --markdown 20230512/n/nucliadb/2.9.0.post262-2.9.0.post263/diff.md --exclude *.pyd
+[2023-05-12 11:22:23] INFO root fetch - processPackages [rebasin]: Start processing: nucliadb-client
+[2023-05-12 11:22:23] INFO root fetch - main [MainThread]: End processing [rebasin]: success
+[2023-05-12 11:22:23] INFO root fetch - processPackages [nucliadb-client]: New version: [2.9.0.post263] Old Version: [2.9.0.post262]
+[2023-05-12 11:22:24] INFO root fetch - processPackages [pydra-fsl]: executing diffoscope
+[2023-05-12 11:22:24] INFO root fetch - processPackages [pydra-fsl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydra_fsl-0.0.8.tar.gz tmp/pydra_fsl-0.0.9.tar.gz --markdown 20230512/p/pydra-fsl/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 11:22:24] INFO root fetch - processPackages [sugar-shell]: Start processing: tbp-nightly
+[2023-05-12 11:22:24] INFO root fetch - main [MainThread]: End processing [sugar-shell]: success
+[2023-05-12 11:22:24] INFO root fetch - processPackages [nucliadb-client]: Downloading https://files.pythonhosted.org/packages/c8/b5/0abf42a0f5305d2184d81e4c3456b717aee1db8069c5d9bd685c92355dab/nucliadb_client-2.9.0.post262-py3-none-any.whl
+[2023-05-12 11:22:24] INFO root fetch - processPackages [touch-sdk]: Start processing: nucliadb-dataset
+[2023-05-12 11:22:24] INFO root fetch - main [MainThread]: End processing [touch-sdk]: success
+[2023-05-12 11:22:24] INFO root fetch - processPackages [tbp-nightly]: New version: [2.9.0a20221130] Old Version: [2.9.0a20221129]
+[2023-05-12 11:22:24] INFO root fetch - processPackages [nucliadb-dataset]: New version: [2.9.0.post263] Old Version: [2.9.0.post262]
+[2023-05-12 11:22:24] INFO root fetch - processPackages [tbp-nightly]: executing diffoscope
+[2023-05-12 11:22:24] INFO root fetch - processPackages [tbp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tbp-nightly-2.9.0a20221129.tar.gz tmp/tbp-nightly-2.9.0a20221130.tar.gz --markdown 20230512/t/tbp-nightly/2.9.0a20221129-2.9.0a20221130/diff.md --exclude *.pyd
+[2023-05-12 11:22:24] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/3e/6b/1782b2bfea470890b06fc2054bc5fe8591f5a31bbc8758adde5e62094675/nucliadb_dataset-2.9.0.post262-py3-none-any.whl
+[2023-05-12 11:22:24] INFO root fetch - processPackages [pybatfish]: Start processing: spanishconjugator
+[2023-05-12 11:22:24] INFO root fetch - main [MainThread]: End processing [pybatfish]: success
+[2023-05-12 11:22:24] INFO root fetch - processPackages [nucliadb-client]: Downloading https://files.pythonhosted.org/packages/43/82/ccf67c8bd8fb8677ca9b63c0bd4417420a8a5ba6a66075ba51f265924805/nucliadb_client-2.9.0.post263-py3-none-any.whl
+[2023-05-12 11:22:24] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-05-12 11:22:24] INFO root fetch - processPackages [nucliadb-client]: executing diffoscope
+[2023-05-12 11:22:24] INFO root fetch - processPackages [nucliadb-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_client-2.9.0.post262-py3-none-any.whl.zip tmp/nucliadb_client-2.9.0.post263-py3-none-any.whl.zip --markdown 20230512/n/nucliadb-client/2.9.0.post262-2.9.0.post263/diff.md --exclude *.pyd
+[2023-05-12 11:22:24] INFO root fetch - processPackages [bkapi-plugins-py]: Start processing: nucliadb-models
+[2023-05-12 11:22:24] INFO root fetch - main [MainThread]: End processing [bkapi-plugins-py]: success
+[2023-05-12 11:22:24] INFO root fetch - processPackages [nucliadb-models]: New version: [2.9.0.post263] Old Version: [2.9.0.post262]
+[2023-05-12 11:22:24] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-05-12 11:22:24] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230512/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-05-12 11:22:24] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/09/ba/e8a74268cee6e6d363385e770efcadc53d6169c70725c61608dced27b7ac/nucliadb_dataset-2.9.0.post263-py3-none-any.whl
+[2023-05-12 11:22:24] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2023-05-12 11:22:24] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-2.9.0.post262-py3-none-any.whl.zip tmp/nucliadb_dataset-2.9.0.post263-py3-none-any.whl.zip --markdown 20230512/n/nucliadb-dataset/2.9.0.post262-2.9.0.post263/diff.md --exclude *.pyd
+[2023-05-12 11:22:24] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/93/67/91833189029878c8704b67ad1adc76d85eb7904c12f6d5c9d6dea4aa0058/nucliadb_models-2.9.0.post262-py3-none-any.whl
+[2023-05-12 11:22:25] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/4d/04/438aa628223985027f0a8379c8a3102d251468beeeac50f0cfda4a7710a3/nucliadb_models-2.9.0.post263-py3-none-any.whl
+[2023-05-12 11:22:25] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2023-05-12 11:22:25] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-2.9.0.post262-py3-none-any.whl.zip tmp/nucliadb_models-2.9.0.post263-py3-none-any.whl.zip --markdown 20230512/n/nucliadb-models/2.9.0.post262-2.9.0.post263/diff.md --exclude *.pyd
+[2023-05-12 11:22:25] INFO root fetch - processPackages [t2iapi]: Start processing: nucliadb-protos
+[2023-05-12 11:22:25] INFO root fetch - main [MainThread]: End processing [t2iapi]: success
+[2023-05-12 11:22:25] INFO root fetch - processPackages [nucliadb-protos]: New version: [2.9.0.post263] Old Version: [2.9.0.post262]
+[2023-05-12 11:22:25] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/c5/05/e1b505f21eedf9a9a36e3ef8944e04856eec9ace31bcbdc0627d054bec94/nucliadb_protos-2.9.0.post262-py3-none-any.whl
+[2023-05-12 11:22:25] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/42/95/a0a919afec137c3c1b35a665b076c6782a892e0bf24a21231ff8c2bd647f/nucliadb_protos-2.9.0.post263-py3-none-any.whl
+[2023-05-12 11:22:25] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2023-05-12 11:22:25] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-2.9.0.post262-py3-none-any.whl.zip tmp/nucliadb_protos-2.9.0.post263-py3-none-any.whl.zip --markdown 20230512/n/nucliadb-protos/2.9.0.post262-2.9.0.post263/diff.md --exclude *.pyd
+[2023-05-12 11:22:26] INFO root fetch - processPackages [nucliadb-client]: Start processing: nucliadb-sdk
+[2023-05-12 11:22:26] INFO root fetch - main [MainThread]: End processing [nucliadb-client]: success
+[2023-05-12 11:22:26] INFO root fetch - processPackages [nucliadb-sdk]: New version: [2.9.0.post263] Old Version: [2.9.0.post262]
+[2023-05-12 11:22:26] INFO root fetch - processPackages [pydra-fsl]: Start processing: base-system
+[2023-05-12 11:22:26] INFO root fetch - main [MainThread]: End processing [pydra-fsl]: success
+[2023-05-12 11:22:26] INFO root fetch - processPackages [base-system]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-05-12 11:22:26] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/85/ea/f46a55c94906f53bdd978aa6a6fafccfb340b0890d5e8879bf9902a891a4/nucliadb_sdk-2.9.0.post262-py3-none-any.whl
+[2023-05-12 11:22:26] INFO root fetch - processPackages [spanishconjugator]: Start processing: nucliadb-utils
+[2023-05-12 11:22:26] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-05-12 11:22:26] INFO root fetch - processPackages [nucliadb-utils]: New version: [2.9.0.post263] Old Version: [2.9.0.post262]
+[2023-05-12 11:22:26] INFO root fetch - processPackages [nucliadb-dataset]: Start processing: AutoFun
+[2023-05-12 11:22:26] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2023-05-12 11:22:26] INFO root fetch - processPackages [AutoFun]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-05-12 11:22:26] INFO root fetch - processPackages [base-system]: Downloading https://files.pythonhosted.org/packages/13/e1/cc3517a64efe4f26aeca7e1f8c4680e7191640fc094138454501ad5ca9b8/base_system-0.2.6.tar.gz
+[2023-05-12 11:22:26] INFO root fetch - processPackages [base-system]: executing diffoscope
+[2023-05-12 11:22:26] INFO root fetch - processPackages [base-system]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/base_system-0.2.5.tar.gz tmp/base_system-0.2.6.tar.gz --markdown 20230512/b/base-system/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-05-12 11:22:26] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/e4/6f/9a6313c44e683d20e2ae06b918cf1ac1031d05229033f3c0e612c6174ebb/nucliadb_sdk-2.9.0.post263-py3-none-any.whl
+[2023-05-12 11:22:26] INFO root fetch - processPackages [nucliadb-models]: Start processing: dash-extensions
+[2023-05-12 11:22:26] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2023-05-12 11:22:26] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/ef/17/02dafc5caa0f34695d7f699bde86a1add61265a56ea0a47ae6b64291f476/nucliadb_utils-2.9.0.post262-py3-none-any.whl
+[2023-05-12 11:22:26] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2023-05-12 11:22:26] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-2.9.0.post262-py3-none-any.whl.zip tmp/nucliadb_sdk-2.9.0.post263-py3-none-any.whl.zip --markdown 20230512/n/nucliadb-sdk/2.9.0.post262-2.9.0.post263/diff.md --exclude *.pyd
+[2023-05-12 11:22:26] INFO root fetch - processPackages [dash-extensions]: New version: [1.0.0rc3] Old Version: [1.0.0rc2]
+[2023-05-12 11:22:26] INFO root fetch - processPackages [AutoFun]: Downloading https://files.pythonhosted.org/packages/71/0d/7e19d5f78bcf0526e4c7f90ce24cef11d517d8873bd269d423050c938ad4/AutoFun-0.3.4.tar.gz
+[2023-05-12 11:22:26] INFO root fetch - processPackages [AutoFun]: executing diffoscope
+[2023-05-12 11:22:26] INFO root fetch - processPackages [AutoFun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AutoFun-0.3.3.tar.gz tmp/AutoFun-0.3.4.tar.gz --markdown 20230512/A/AutoFun/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-05-12 11:22:26] INFO root fetch - processPackages [dash-extensions]: Downloading https://files.pythonhosted.org/packages/51/ac/704e55efd24a8f3638ae49aab33ae4885bac1a913183b6785f4b8ed2c061/dash_extensions-1.0.0rc3.tar.gz
+[2023-05-12 11:22:26] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/8f/f8/5494b3bb2c80ee3e6a23d6c93d52b2e516a656df2dd3a8d1f6e5eb2f0b21/nucliadb_utils-2.9.0.post263-py3-none-any.whl
+[2023-05-12 11:22:26] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2023-05-12 11:22:26] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-2.9.0.post262-py3-none-any.whl.zip tmp/nucliadb_utils-2.9.0.post263-py3-none-any.whl.zip --markdown 20230512/n/nucliadb-utils/2.9.0.post262-2.9.0.post263/diff.md --exclude *.pyd
+[2023-05-12 11:22:26] INFO root fetch - processPackages [sloth-framework]: Start processing: tf-nightly-cpu-aws
+[2023-05-12 11:22:26] INFO root fetch - main [MainThread]: End processing [sloth-framework]: success
+[2023-05-12 11:22:26] INFO root fetch - processPackages [tf-nightly-cpu-aws]: New version: [2.14.0.dev20230511] Old Version: [2.14.0.dev20230510]
+[2023-05-12 11:22:27] INFO root fetch - processPackages [tf-nightly-cpu-aws]: Downloading https://files.pythonhosted.org/packages/ee/e9/a1f6d680d09cd169aba40e11c86353733a7e01fda2917c7a3b30b4f6b2c4/tf_nightly_cpu_aws-2.14.0.dev20230510-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2023-05-12 11:22:27] INFO root fetch - processPackages [dash-extensions]: executing diffoscope
+[2023-05-12 11:22:27] INFO root fetch - processPackages [dash-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dash_extensions-1.0.0rc2.tar.gz tmp/dash_extensions-1.0.0rc3.tar.gz --markdown 20230512/d/dash-extensions/1.0.0rc2-1.0.0rc3/diff.md --exclude *.pyd
+[2023-05-12 11:22:27] WARNING root fetch - processPackages [tf-nightly-cpu-aws]: Skipping package: exceeds size limit 251309556>=10485760
+[2023-05-12 11:22:27] INFO root fetch - processPackages [tf-nightly-cpu-aws]: Start processing: django-cors-headers
+[2023-05-12 11:22:27] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu-aws] error
+[2023-05-12 11:22:27] INFO root fetch - processPackages [django-cors-headers]: New version: [4.0.0] Old Version: [3.9.0]
+[2023-05-12 11:22:27] INFO root fetch - processPackages [django-cors-headers]: Downloading https://files.pythonhosted.org/packages/df/fb/ac8886c2dbe9fb4974a0afb2ed29d54aaf8e55d34f55afb1c6e0f5a09c1e/django-cors-headers-3.9.0.tar.gz
+[2023-05-12 11:22:27] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2023-05-12 11:22:27] INFO root fetch - processPackages [django-cors-headers]: Downloading https://files.pythonhosted.org/packages/83/d5/4f98ffda4b32f8da5ceb27908f45bd479ae03842db1083a2139034d3c62f/django_cors_headers-4.0.0.tar.gz
+[2023-05-12 11:22:27] INFO root fetch - processPackages [django-cors-headers]: executing diffoscope
+[2023-05-12 11:22:27] INFO root fetch - processPackages [django-cors-headers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-cors-headers-3.9.0.tar.gz tmp/django_cors_headers-4.0.0.tar.gz --markdown 20230512/d/django-cors-headers/3.9.0-4.0.0/diff.md --exclude *.pyd
+[2023-05-12 11:22:28] INFO root fetch - main [MainThread]: End processing [base-system]: success
+[2023-05-12 11:22:28] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2023-05-12 11:22:28] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2023-05-12 11:22:28] INFO root fetch - main [MainThread]: End processing [AutoFun]: success
+[2023-05-12 11:22:28] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2023-05-12 11:22:29] INFO root fetch - main [MainThread]: End processing [django-cors-headers]: success
+[2023-05-12 11:22:29] INFO root fetch - main [MainThread]: End processing [bycon]: success
+[2023-05-12 11:22:30] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
+[2023-05-12 11:22:32] INFO root fetch - main [MainThread]: End processing [dash-extensions]: success
+[2023-05-12 11:22:32] INFO root fetch - main [MainThread]: Store serial: [18075920]
