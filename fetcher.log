@@ -3812,3 +3812,74 @@
 [2023-05-12 05:55:32] INFO root fetch - main [MainThread]: End processing [antchain-riskplus]: success
 [2023-05-12 05:55:32] INFO root fetch - main [MainThread]: End processing [mmkit-features]: success
 [2023-05-12 05:55:32] INFO root fetch - main [MainThread]: Store serial: [18073032]
+[2023-05-12 06:00:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18073032]
+[2023-05-12 06:00:41] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-12 06:00:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fastaws
+[2023-05-12 06:00:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dataquality
+[2023-05-12 06:00:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyspaceaware
+[2023-05-12 06:00:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tencentcloud-sdk-python-tcb
+[2023-05-12 06:00:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fastaws
+[2023-05-12 06:00:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hostphot
+[2023-05-12 06:00:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tencentcloud-sdk-python-tcbr
+[2023-05-12 06:00:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: terrainman
+[2023-05-12 06:00:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tencentcloud-sdk-python-tcex
+[2023-05-12 06:00:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: PySciMath
+[2023-05-12 06:00:41] INFO root fetch - processPackages [fastaws]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 06:00:41] INFO root fetch - processPackages [hostphot]: New version: [2.7.1] Old Version: [2.7.0]
+[2023-05-12 06:00:41] INFO root fetch - processPackages [PySciMath]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-05-12 06:00:41] INFO root fetch - processPackages [tencentcloud-sdk-python-tcb]: New version: [3.0.890] Old Version: [3.0.889]
+[2023-05-12 06:00:41] INFO root fetch - processPackages [fastaws]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 06:00:41] INFO root fetch - processPackages [dataquality]: New version: [0.9.1a3] Old Version: [0.9.1a2]
+[2023-05-12 06:00:41] INFO root fetch - processPackages [terrainman]: New version: [0.0.9] Old Version: [0.0.23]
+[2023-05-12 06:00:41] INFO root fetch - processPackages [tencentcloud-sdk-python-tcbr]: New version: [3.0.890] Old Version: [3.0.889]
+[2023-05-12 06:00:41] INFO root fetch - processPackages [tencentcloud-sdk-python-tcex]: New version: [3.0.890] Old Version: [3.0.889]
+[2023-05-12 06:00:41] INFO root fetch - processPackages [pyspaceaware]: New version: [0.2.36] Old Version: [0.2.34]
+[2023-05-12 06:00:41] INFO root fetch - processPackages [dataquality]: executing diffoscope
+[2023-05-12 06:00:41] INFO root fetch - processPackages [dataquality]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataquality-0.9.1a2.tar.gz tmp/dataquality-0.9.1a3.tar.gz --markdown 20230512/d/dataquality/0.9.1a2-0.9.1a3/diff.md --exclude *.pyd
+[2023-05-12 06:00:41] INFO root fetch - processPackages [fastaws]: Downloading https://files.pythonhosted.org/packages/be/a2/3809b4e5305bcafe3aa1b7147b1190a51a6d4562627873b4dd46ec8dddb6/fastaws-0.0.8.tar.gz
+[2023-05-12 06:00:41] INFO root fetch - processPackages [fastaws]: Downloading https://files.pythonhosted.org/packages/be/a2/3809b4e5305bcafe3aa1b7147b1190a51a6d4562627873b4dd46ec8dddb6/fastaws-0.0.8.tar.gz
+[2023-05-12 06:00:41] INFO root fetch - processPackages [hostphot]: Downloading https://files.pythonhosted.org/packages/96/69/212046dcb92957a612e9e4378b76307f8334bd965213d5046cf162320004/hostphot-2.7.0.tar.gz
+[2023-05-12 06:00:41] INFO root fetch - processPackages [terrainman]: Downloading https://files.pythonhosted.org/packages/49/bf/fe8d0f050ac84798a67e4b6205287f7c8076c22f38d2cc237f0b2f7a9cf4/terrainman-0.0.23-py3-none-any.whl
+[2023-05-12 06:00:42] INFO root fetch - processPackages [PySciMath]: Downloading https://files.pythonhosted.org/packages/bb/c4/9afeff87229833718b61557b5f9157ae188ccf6c81eddd716e457ab2e5f9/PySciMath-1.4.2.tar.gz
+[2023-05-12 06:00:42] INFO root fetch - processPackages [pyspaceaware]: Downloading https://files.pythonhosted.org/packages/b7/e3/f487957fe7831742db90ca28275bebc6104c8258b00690dc2ead5bf5e543/pyspaceaware-0.2.34.tar.gz
+[2023-05-12 06:00:42] INFO root fetch - processPackages [tencentcloud-sdk-python-tcb]: Downloading https://files.pythonhosted.org/packages/18/f6/97f8fd9b322d068fea0b2cc4970756f799f05aedea1701cc58007bafb257/tencentcloud_sdk_python_tcb-3.0.890-py2.py3-none-any.whl
+[2023-05-12 06:00:42] INFO root fetch - processPackages [PySciMath]: executing diffoscope
+[2023-05-12 06:00:42] INFO root fetch - processPackages [PySciMath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySciMath-1.4.1.tar.gz tmp/PySciMath-1.4.2.tar.gz --markdown 20230512/P/PySciMath/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-05-12 06:00:42] WARNING root fetch - processPackages [pyspaceaware]: Skipping package: exceeds size limit 10974683>=10485760
+[2023-05-12 06:00:42] INFO root fetch - processPackages [pyspaceaware]: Start processing: whacc
+[2023-05-12 06:00:42] INFO root fetch - main [MainThread]: End processing [pyspaceaware] error
+[2023-05-12 06:00:42] INFO root fetch - processPackages [tencentcloud-sdk-python-tcex]: Downloading https://files.pythonhosted.org/packages/1a/7f/fc57e270f62aa86e55ccddcd0158599758ae10ee668981f5f502161214d9/tencentcloud-sdk-python-tcex-3.0.890.tar.gz
+[2023-05-12 06:00:42] INFO root fetch - processPackages [tencentcloud-sdk-python-tcbr]: Downloading https://files.pythonhosted.org/packages/5f/07/d8acc638ad8982076fbc2724de6c0d7e226724cdb48590fc2981bd35b1bd/tencentcloud-sdk-python-tcbr-3.0.890.tar.gz
+[2023-05-12 06:00:42] INFO root fetch - processPackages [fastaws]: Downloading https://files.pythonhosted.org/packages/5e/3e/79643f9f3678283fe6ece8058852d87ed98892851311095923877cfe9fc8/fastaws-0.0.9.tar.gz
+[2023-05-12 06:00:42] INFO root fetch - processPackages [fastaws]: Downloading https://files.pythonhosted.org/packages/5e/3e/79643f9f3678283fe6ece8058852d87ed98892851311095923877cfe9fc8/fastaws-0.0.9.tar.gz
+[2023-05-12 06:00:42] INFO root fetch - processPackages [tencentcloud-sdk-python-tcb]: executing diffoscope
+[2023-05-12 06:00:42] INFO root fetch - processPackages [tencentcloud-sdk-python-tcb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tcb-3.0.889.tar.gz tmp/tencentcloud_sdk_python_tcb-3.0.890-py2.py3-none-any.whl.zip --markdown 20230512/t/tencentcloud-sdk-python-tcb/3.0.889-3.0.890/diff.md --exclude *.pyd
+[2023-05-12 06:00:42] INFO root fetch - processPackages [terrainman]: executing diffoscope
+[2023-05-12 06:00:42] INFO root fetch - processPackages [terrainman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terrainman-0.0.23-py3-none-any.whl.zip tmp/terrainman-0.0.9.tar.gz --markdown 20230512/t/terrainman/0.0.23-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 06:00:42] INFO root fetch - processPackages [hostphot]: Downloading https://files.pythonhosted.org/packages/25/1c/03faf6f9091359cc0d8de5b75fe4734b6791cda1cb7759600cab9593f1a3/hostphot-2.7.1.tar.gz
+[2023-05-12 06:00:42] INFO root fetch - processPackages [tencentcloud-sdk-python-tcex]: executing diffoscope
+[2023-05-12 06:00:42] INFO root fetch - processPackages [tencentcloud-sdk-python-tcex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tcex-3.0.889.tar.gz tmp/tencentcloud-sdk-python-tcex-3.0.890.tar.gz --markdown 20230512/t/tencentcloud-sdk-python-tcex/3.0.889-3.0.890/diff.md --exclude *.pyd
+[2023-05-12 06:00:42] INFO root fetch - processPackages [fastaws]: executing diffoscope
+[2023-05-12 06:00:42] INFO root fetch - processPackages [fastaws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastaws-0.0.8.tar.gz tmp/fastaws-0.0.9.tar.gz --markdown 20230512/f/fastaws/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 06:00:42] INFO root fetch - processPackages [fastaws]: executing diffoscope
+[2023-05-12 06:00:42] INFO root fetch - processPackages [fastaws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastaws-0.0.8.tar.gz tmp/fastaws-0.0.9.tar.gz --markdown 20230512/f/fastaws/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 06:00:42] INFO root fetch - processPackages [whacc]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-05-12 06:00:42] INFO root fetch - processPackages [tencentcloud-sdk-python-tcbr]: executing diffoscope
+[2023-05-12 06:00:42] INFO root fetch - processPackages [tencentcloud-sdk-python-tcbr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tcbr-3.0.889.tar.gz tmp/tencentcloud-sdk-python-tcbr-3.0.890.tar.gz --markdown 20230512/t/tencentcloud-sdk-python-tcbr/3.0.889-3.0.890/diff.md --exclude *.pyd
+[2023-05-12 06:00:42] INFO root fetch - processPackages [whacc]: Downloading https://files.pythonhosted.org/packages/e6/be/07288ad23d4a691d86af2a033624820038b355c92167ef7f9b8f6d6981d2/whacc-1.3.8.tar.gz
+[2023-05-12 06:00:42] INFO root fetch - processPackages [hostphot]: executing diffoscope
+[2023-05-12 06:00:42] INFO root fetch - processPackages [hostphot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hostphot-2.7.0.tar.gz tmp/hostphot-2.7.1.tar.gz --markdown 20230512/h/hostphot/2.7.0-2.7.1/diff.md --exclude *.pyd
+[2023-05-12 06:00:43] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tcb]: success
+[2023-05-12 06:00:43] INFO root fetch - main [MainThread]: End processing [terrainman]: success
+[2023-05-12 06:00:43] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tcex]: success
+[2023-05-12 06:00:43] INFO root fetch - main [MainThread]: End processing [PySciMath]: success
+[2023-05-12 06:00:44] INFO root fetch - main [MainThread]: End processing [fastaws]: success
+[2023-05-12 06:00:44] INFO root fetch - main [MainThread]: End processing [fastaws]: success
+[2023-05-12 06:00:44] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tcbr]: success
+[2023-05-12 06:00:44] INFO root fetch - processPackages [whacc]: Downloading https://files.pythonhosted.org/packages/27/58/ac00877d3556e557a3070bba0e69cef2444d31dfa72416099d08dbdad781/whacc-1.3.9.tar.gz
+[2023-05-12 06:00:45] INFO root fetch - processPackages [whacc]: executing diffoscope
+[2023-05-12 06:00:45] INFO root fetch - processPackages [whacc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whacc-1.3.8.tar.gz tmp/whacc-1.3.9.tar.gz --markdown 20230512/w/whacc/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-05-12 06:00:46] INFO root fetch - main [MainThread]: End processing [dataquality]: success
+[2023-05-12 06:00:46] INFO root fetch - main [MainThread]: End processing [hostphot]: success
+[2023-05-12 06:00:50] INFO root fetch - main [MainThread]: End processing [whacc]: success
+[2023-05-12 06:00:50] INFO root fetch - main [MainThread]: Store serial: [18073063]
