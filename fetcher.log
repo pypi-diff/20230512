@@ -11343,3 +11343,116 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-12 15:11:44] INFO root fetch - main [MainThread]: End processing [polars-u64-idx]: success
 [2023-05-12 15:11:47] INFO root fetch - main [MainThread]: End processing [polars-lts-cpu]: success
 [2023-05-12 15:11:47] INFO root fetch - main [MainThread]: Store serial: [18078306]
+[2023-05-12 15:16:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18078306]
+[2023-05-12 15:16:56] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-12 15:16:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: polars-lts-cpu
+[2023-05-12 15:16:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: goodboy
+[2023-05-12 15:16:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: AICreator
+[2023-05-12 15:16:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sustainalytics
+[2023-05-12 15:16:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nbdev-scipy
+[2023-05-12 15:16:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jdiff
+[2023-05-12 15:16:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-dbsemaphore
+[2023-05-12 15:16:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nbdev-sphinx
+[2023-05-12 15:16:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tcr2vec
+[2023-05-12 15:16:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jupytercards
+[2023-05-12 15:16:56] INFO root fetch - processPackages [django-dbsemaphore]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-05-12 15:16:56] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-12 15:16:56] INFO root fetch - processPackages [jupytercards]: New version: [2.4.0a1] Old Version: [2.3.5]
+[2023-05-12 15:16:56] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-12 15:16:56] INFO root fetch - processPackages [polars-lts-cpu]: New version: [0.17.9] Old Version: [0.17.8]
+[2023-05-12 15:16:56] INFO root fetch - processPackages [sustainalytics]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-05-12 15:16:56] INFO root fetch - processPackages [AICreator]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-12 15:16:56] INFO root fetch - processPackages [goodboy]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-12 15:16:56] INFO root fetch - processPackages [jdiff]: New version: [0.0.4] Old Version: [0.0.2]
+[2023-05-12 15:16:56] INFO root fetch - processPackages [tcr2vec]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-12 15:16:56] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-05-12 15:16:56] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230512/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-12 15:16:56] INFO root fetch - processPackages [django-dbsemaphore]: executing diffoscope
+[2023-05-12 15:16:56] INFO root fetch - processPackages [django-dbsemaphore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-dbsemaphore-0.0.1.tar.gz tmp/django-dbsemaphore-0.1.0.tar.gz --markdown 20230512/d/django-dbsemaphore/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-05-12 15:16:56] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-05-12 15:16:56] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230512/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-12 15:16:57] INFO root fetch - processPackages [jupytercards]: Downloading https://files.pythonhosted.org/packages/48/47/da3d0381f82f3ab61c9c4c8271029d0e40187bef27db15cc76c9ee4c490c/jupytercards-2.4.0a1.tar.gz
+[2023-05-12 15:16:57] INFO root fetch - processPackages [AICreator]: Downloading https://files.pythonhosted.org/packages/91/12/a35d2ba85983e46dea1a04100fb8ff8ecd4be11111974a6de54fe5c0dd0f/AICreator-0.2.2.tar.gz
+[2023-05-12 15:16:57] INFO root fetch - processPackages [tcr2vec]: Downloading https://files.pythonhosted.org/packages/94/fc/f28b88d8abf813c7b3928c45504014d238868d2a798a2ce4350a9c1b89cd/tcr2vec-1.0.0.tar.gz
+[2023-05-12 15:16:57] INFO root fetch - processPackages [sustainalytics]: Downloading https://files.pythonhosted.org/packages/34/24/8845590d79c711b37491295f2ba1898feea32ebd7a3bd754104c0a7368a2/sustainalytics-0.2.2.tar.gz
+[2023-05-12 15:16:57] INFO root fetch - processPackages [goodboy]: Downloading https://files.pythonhosted.org/packages/ad/9a/4f774c20a185e52f06cf044673dbe7a7224353118c0bd720689d2fa55c4f/goodboy-0.2.3.tar.gz
+[2023-05-12 15:16:57] INFO root fetch - processPackages [jdiff]: Downloading https://files.pythonhosted.org/packages/fd/a0/b34617bbc9d4735d8d03b1770cbe207de7fe117d5dd8d41e666392a94e45/jdiff-0.0.2.tar.gz
+[2023-05-12 15:16:57] INFO root fetch - processPackages [jupytercards]: executing diffoscope
+[2023-05-12 15:16:57] INFO root fetch - processPackages [jupytercards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupytercards-2.3.5.tar.gz tmp/jupytercards-2.4.0a1.tar.gz --markdown 20230512/j/jupytercards/2.3.5-2.4.0a1/diff.md --exclude *.pyd
+[2023-05-12 15:16:57] INFO root fetch - processPackages [polars-lts-cpu]: executing diffoscope
+[2023-05-12 15:16:57] INFO root fetch - processPackages [polars-lts-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polars_lts_cpu-0.17.8.tar.gz tmp/polars_lts_cpu-0.17.9.tar.gz --markdown 20230512/p/polars-lts-cpu/0.17.8-0.17.9/diff.md --exclude *.pyd
+[2023-05-12 15:16:57] INFO root fetch - processPackages [AICreator]: Downloading https://files.pythonhosted.org/packages/64/76/f90f5fc5daf86d3845490c58cbe4927d1b989f25d0978be4d599b1822ef7/AICreator-0.2.3.tar.gz
+[2023-05-12 15:16:57] INFO root fetch - processPackages [sustainalytics]: Downloading https://files.pythonhosted.org/packages/ab/33/99c1161da0ea5f6ccfeb114f04d09cb0fa7f6a89d577a3962295a6748e9c/sustainalytics-0.3.0.tar.gz
+[2023-05-12 15:16:57] INFO root fetch - processPackages [tcr2vec]: Downloading https://files.pythonhosted.org/packages/86/97/9200648c36c5b0e099b9248c8d28957b62c55837b29a50e7556f0d995cc5/tcr2vec-1.0.1.tar.gz
+[2023-05-12 15:16:57] INFO root fetch - processPackages [goodboy]: Downloading https://files.pythonhosted.org/packages/6c/2f/4c64b835b1d10e13669dda3350925ec9e2ab6e4ce46d56174d4993f862f8/goodboy-0.2.4.tar.gz
+[2023-05-12 15:16:57] INFO root fetch - processPackages [jdiff]: Downloading https://files.pythonhosted.org/packages/63/1c/d894504445f42c3798c5a9d6a0af8a86c6d488124090544bdfc82164cb2a/jdiff-0.0.4.tar.gz
+[2023-05-12 15:16:57] WARNING root fetch - processPackages [AICreator]: Skipping package: exceeds size limit 13315856>=10485760
+[2023-05-12 15:16:57] INFO root fetch - processPackages [AICreator]: Start processing: open-autonomy
+[2023-05-12 15:16:57] INFO root fetch - main [MainThread]: End processing [AICreator] error
+[2023-05-12 15:16:57] INFO root fetch - processPackages [sustainalytics]: executing diffoscope
+[2023-05-12 15:16:57] INFO root fetch - processPackages [sustainalytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sustainalytics-0.2.2.tar.gz tmp/sustainalytics-0.3.0.tar.gz --markdown 20230512/s/sustainalytics/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-05-12 15:16:57] INFO root fetch - processPackages [goodboy]: executing diffoscope
+[2023-05-12 15:16:57] INFO root fetch - processPackages [goodboy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goodboy-0.2.3.tar.gz tmp/goodboy-0.2.4.tar.gz --markdown 20230512/g/goodboy/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-12 15:16:57] INFO root fetch - processPackages [jdiff]: executing diffoscope
+[2023-05-12 15:16:57] INFO root fetch - processPackages [jdiff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jdiff-0.0.2.tar.gz tmp/jdiff-0.0.4.tar.gz --markdown 20230512/j/jdiff/0.0.2-0.0.4/diff.md --exclude *.pyd
+[2023-05-12 15:16:57] INFO root fetch - processPackages [open-autonomy]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-12 15:16:57] INFO root fetch - processPackages [open-autonomy]: Downloading https://files.pythonhosted.org/packages/26/db/68ff36c112427aa8da36a891a4d5aabb3a68713130bb62425cb8bbdb402e/open-autonomy-0.9.0.tar.gz
+[2023-05-12 15:16:57] INFO root fetch - processPackages [tcr2vec]: executing diffoscope
+[2023-05-12 15:16:57] INFO root fetch - processPackages [tcr2vec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tcr2vec-1.0.0.tar.gz tmp/tcr2vec-1.0.1.tar.gz --markdown 20230512/t/tcr2vec/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-12 15:16:58] INFO root fetch - processPackages [nbdev-sphinx]: Start processing: open-aea-test-autonomy
+[2023-05-12 15:16:58] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-05-12 15:16:58] INFO root fetch - processPackages [open-autonomy]: Downloading https://files.pythonhosted.org/packages/d2/14/e7bb8dec5be3ae2caf12a3a77abe5eb849912ee6ab113bbb753fb27c75bf/open-autonomy-0.9.1.tar.gz
+[2023-05-12 15:16:58] INFO root fetch - processPackages [open-aea-test-autonomy]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-12 15:16:58] INFO root fetch - processPackages [open-autonomy]: executing diffoscope
+[2023-05-12 15:16:58] INFO root fetch - processPackages [open-autonomy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open-autonomy-0.9.0.tar.gz tmp/open-autonomy-0.9.1.tar.gz --markdown 20230512/o/open-autonomy/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-12 15:16:58] INFO root fetch - processPackages [open-aea-test-autonomy]: Downloading https://files.pythonhosted.org/packages/a0/6e/9c4d67ce36ee527c11b4a9025747f46b827bb71545592e7f3c4e627c3088/open-aea-test-autonomy-0.9.0.tar.gz
+[2023-05-12 15:16:58] INFO root fetch - processPackages [django-dbsemaphore]: Start processing: nbdev-django
+[2023-05-12 15:16:58] INFO root fetch - main [MainThread]: End processing [django-dbsemaphore]: success
+[2023-05-12 15:16:58] INFO root fetch - processPackages [jupytercards]: Start processing: edx-event-bus-redis
+[2023-05-12 15:16:58] INFO root fetch - main [MainThread]: End processing [jupytercards]: success
+[2023-05-12 15:16:58] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-12 15:16:58] INFO root fetch - processPackages [edx-event-bus-redis]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-12 15:16:58] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-05-12 15:16:58] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230512/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-12 15:16:58] INFO root fetch - processPackages [open-aea-test-autonomy]: Downloading https://files.pythonhosted.org/packages/16/ed/042bfa918bbe47dbe3fb43f396481d4f74ef1a90ac067516913c9fc8c2b7/open-aea-test-autonomy-0.9.1.tar.gz
+[2023-05-12 15:16:58] INFO root fetch - processPackages [sustainalytics]: Start processing: cluster-experiments
+[2023-05-12 15:16:58] INFO root fetch - main [MainThread]: End processing [sustainalytics]: success
+[2023-05-12 15:16:58] INFO root fetch - processPackages [edx-event-bus-redis]: Downloading https://files.pythonhosted.org/packages/82/e5/2bf3581d7a6bab3f0e677a7544abe47b735f9d1f9f737ca9428bb6bbc29d/edx_event_bus_redis-0.1.0.tar.gz
+[2023-05-12 15:16:59] INFO root fetch - processPackages [open-aea-test-autonomy]: executing diffoscope
+[2023-05-12 15:16:59] INFO root fetch - processPackages [open-aea-test-autonomy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open-aea-test-autonomy-0.9.0.tar.gz tmp/open-aea-test-autonomy-0.9.1.tar.gz --markdown 20230512/o/open-aea-test-autonomy/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-12 15:16:59] INFO root fetch - processPackages [cluster-experiments]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-05-12 15:16:59] INFO root fetch - processPackages [goodboy]: Start processing: modular-rl
+[2023-05-12 15:16:59] INFO root fetch - main [MainThread]: End processing [goodboy]: success
+[2023-05-12 15:16:59] INFO root fetch - processPackages [jdiff]: Start processing: nbdev-apl
+[2023-05-12 15:16:59] INFO root fetch - main [MainThread]: End processing [jdiff]: success
+[2023-05-12 15:16:59] INFO root fetch - processPackages [edx-event-bus-redis]: Downloading https://files.pythonhosted.org/packages/71/43/b448e8c11b7bcfa7e1e152c54a021a3310be455d3c2d8ea8201fce823d2e/edx_event_bus_redis-0.1.1.tar.gz
+[2023-05-12 15:16:59] INFO root fetch - processPackages [modular-rl]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-12 15:16:59] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.766] Old Version: [0.0.765]
+[2023-05-12 15:16:59] INFO root fetch - processPackages [edx-event-bus-redis]: executing diffoscope
+[2023-05-12 15:16:59] INFO root fetch - processPackages [edx-event-bus-redis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edx_event_bus_redis-0.1.0.tar.gz tmp/edx_event_bus_redis-0.1.1.tar.gz --markdown 20230512/e/edx-event-bus-redis/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-12 15:16:59] INFO root fetch - processPackages [cluster-experiments]: Downloading https://files.pythonhosted.org/packages/1b/ae/331e86a9ee89692e75bd553e0b2872b94edd12c27c425117ea84edf6a4cf/cluster_experiments-0.8.2.tar.gz
+[2023-05-12 15:16:59] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/ae/21/6fe56d3717e3e70814a89f379de0107f109ddf922c5059d41da0498ce66e/nbdev-apl-0.0.766.tar.gz
+[2023-05-12 15:16:59] INFO root fetch - processPackages [modular-rl]: Downloading https://files.pythonhosted.org/packages/4b/16/9bcc008fd572a020e409ad789dfb438576e7e097ab7f24c7e6d2d648efc4/modular_rl-0.2.2.tar.gz
+[2023-05-12 15:16:59] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-05-12 15:16:59] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.765.tar.gz tmp/nbdev-apl-0.0.766.tar.gz --markdown 20230512/n/nbdev-apl/0.0.765-0.0.766/diff.md --exclude *.pyd
+[2023-05-12 15:16:59] INFO root fetch - processPackages [nbdev-scipy]: Start processing: segment-studio
+[2023-05-12 15:16:59] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-05-12 15:16:59] INFO root fetch - processPackages [cluster-experiments]: executing diffoscope
+[2023-05-12 15:16:59] INFO root fetch - processPackages [cluster-experiments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cluster_experiments-0.8.1.tar.gz tmp/cluster_experiments-0.8.2.tar.gz --markdown 20230512/c/cluster-experiments/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-05-12 15:16:59] WARNING root fetch - processPackages [segment-studio]: Skipping, unable to determine old version
+[2023-05-12 15:16:59] INFO root fetch - processPackages [segment-studio]: Start processing: image2str
+[2023-05-12 15:16:59] INFO root fetch - main [MainThread]: End processing [segment-studio] error
+[2023-05-12 15:16:59] WARNING root fetch - processPackages [image2str]: Skipping, unable to determine old version
+[2023-05-12 15:16:59] INFO root fetch - main [MainThread]: End processing [image2str] error
+[2023-05-12 15:16:59] INFO root fetch - processPackages [modular-rl]: executing diffoscope
+[2023-05-12 15:16:59] INFO root fetch - processPackages [modular-rl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modular_rl-0.2.1.tar.gz tmp/modular_rl-0.2.2.tar.gz --markdown 20230512/m/modular-rl/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-12 15:17:00] INFO root fetch - main [MainThread]: End processing [open-aea-test-autonomy]: success
+[2023-05-12 15:17:00] INFO root fetch - main [MainThread]: End processing [edx-event-bus-redis]: success
+[2023-05-12 15:17:00] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-05-12 15:17:01] INFO root fetch - main [MainThread]: End processing [modular-rl]: success
+[2023-05-12 15:17:01] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-05-12 15:17:01] INFO root fetch - main [MainThread]: End processing [cluster-experiments]: success
+[2023-05-12 15:17:01] INFO root fetch - main [MainThread]: End processing [tcr2vec]: success
+[2023-05-12 15:17:11] INFO root fetch - main [MainThread]: End processing [open-autonomy]: success
+[2023-05-12 15:17:15] INFO root fetch - main [MainThread]: End processing [polars-lts-cpu]: success
+[2023-05-12 15:17:15] INFO root fetch - main [MainThread]: Store serial: [18078365]
