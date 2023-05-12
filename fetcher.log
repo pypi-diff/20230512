@@ -9008,3 +9008,105 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-12 12:21:36] INFO root fetch - main [MainThread]: End processing [onnx2tf]: success
 [2023-05-12 12:21:39] INFO root fetch - main [MainThread]: End processing [alibabacloud-dingtalk]: success
 [2023-05-12 12:21:39] INFO root fetch - main [MainThread]: Store serial: [18076526]
+[2023-05-12 12:26:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18076526]
+[2023-05-12 12:26:48] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-12 12:26:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zytlib
+[2023-05-12 12:26:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: exceptnotifier
+[2023-05-12 12:26:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: honeybee-radiance-postprocess
+[2023-05-12 12:26:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ucam-identitylib
+[2023-05-12 12:26:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dl2050utils
+[2023-05-12 12:26:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: EnjoyAnimation
+[2023-05-12 12:26:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: finbourne-access-sdk
+[2023-05-12 12:26:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: navalmartin-mir-vision-utils
+[2023-05-12 12:26:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tomato-cooker
+[2023-05-12 12:26:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fastapi-gateway-ultra
+[2023-05-12 12:26:48] INFO root fetch - processPackages [EnjoyAnimation]: New version: [0.0.4b0] Old Version: [0.0.3]
+[2023-05-12 12:26:48] INFO root fetch - processPackages [dl2050utils]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-05-12 12:26:48] INFO root fetch - processPackages [navalmartin-mir-vision-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 12:26:48] INFO root fetch - processPackages [honeybee-radiance-postprocess]: New version: [0.4.99] Old Version: [0.4.98]
+[2023-05-12 12:26:48] INFO root fetch - processPackages [zytlib]: New version: [0.3.342] Old Version: [0.3.341]
+[2023-05-12 12:26:48] INFO root fetch - processPackages [tomato-cooker]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-05-12 12:26:48] INFO root fetch - processPackages [dl2050utils]: executing diffoscope
+[2023-05-12 12:26:48] INFO root fetch - processPackages [dl2050utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dl2050utils-1.0.98.tar.gz tmp/dl2050utils-1.0.99.tar.gz --markdown 20230512/d/dl2050utils/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-05-12 12:26:48] WARNING root fetch - processPackages [fastapi-gateway-ultra]: Skipping, unable to determine old version
+[2023-05-12 12:26:48] INFO root fetch - processPackages [fastapi-gateway-ultra]: Start processing: titan-iris
+[2023-05-12 12:26:48] INFO root fetch - main [MainThread]: End processing [fastapi-gateway-ultra] error
+[2023-05-12 12:26:48] INFO root fetch - processPackages [navalmartin-mir-vision-utils]: executing diffoscope
+[2023-05-12 12:26:48] INFO root fetch - processPackages [navalmartin-mir-vision-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/navalmartin_mir_vision_utils-0.0.8.tar.gz tmp/navalmartin_mir_vision_utils-0.0.9.tar.gz --markdown 20230512/n/navalmartin-mir-vision-utils/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 12:26:48] INFO root fetch - processPackages [ucam-identitylib]: New version: [1.6.0] Old Version: [1.5.0]
+[2023-05-12 12:26:48] INFO root fetch - processPackages [exceptnotifier]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-05-12 12:26:48] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [0.0.815] Old Version: [0.0.616]
+[2023-05-12 12:26:48] INFO root fetch - processPackages [titan-iris]: New version: [0.3.9a2] Old Version: [0.3.9a1]
+[2023-05-12 12:26:49] INFO root fetch - processPackages [honeybee-radiance-postprocess]: executing diffoscope
+[2023-05-12 12:26:49] INFO root fetch - processPackages [honeybee-radiance-postprocess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-radiance-postprocess-0.4.98.tar.gz tmp/honeybee-radiance-postprocess-0.4.99.tar.gz --markdown 20230512/h/honeybee-radiance-postprocess/0.4.98-0.4.99/diff.md --exclude *.pyd
+[2023-05-12 12:26:49] INFO root fetch - processPackages [EnjoyAnimation]: Downloading https://files.pythonhosted.org/packages/a4/e4/3c96e7376935c4f05d67bb8847d42190878555b9ee3228929cdab15d29ff/EnjoyAnimation-0.0.3.tar.gz
+[2023-05-12 12:26:49] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-05-12 12:26:49] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.3.9a1.tar.gz tmp/titan-iris-0.3.9a2.tar.gz --markdown 20230512/t/titan-iris/0.3.9a1-0.3.9a2/diff.md --exclude *.pyd
+[2023-05-12 12:26:49] INFO root fetch - processPackages [tomato-cooker]: Downloading https://files.pythonhosted.org/packages/50/94/01d973328c248bcad6fd3e0b7dff6ad58e17c0073aeb6a4f215678366abd/tomato-cooker-0.0.1.tar.gz
+[2023-05-12 12:26:49] INFO root fetch - processPackages [ucam-identitylib]: Downloading https://files.pythonhosted.org/packages/d9/99/b5a0aa74d2a75487f3f74ebc907e2a7e037175399cdefe6bb788e1a7e0e6/ucam-identitylib-1.5.0.tar.gz
+[2023-05-12 12:26:49] INFO root fetch - processPackages [exceptnotifier]: Downloading https://files.pythonhosted.org/packages/bb/21/2bd1baa3879f8140bfc82a53b0a61f98cf8c63810656ada92b79354e3eb1/exceptnotifier-0.2.4.tar.gz
+[2023-05-12 12:26:49] INFO root fetch - processPackages [zytlib]: Downloading https://files.pythonhosted.org/packages/0c/d2/c7853b71e0455c3046c189f3bf0aef75525443ede0317ec919906e17718c/zytlib-0.3.342-py3-none-any.whl
+[2023-05-12 12:26:49] INFO root fetch - processPackages [EnjoyAnimation]: Downloading https://files.pythonhosted.org/packages/2e/2c/6331ab24f958fb2055d33814b9d7275668f2856b1c44b8b2135740beb6d2/EnjoyAnimation-0.0.4b0.tar.gz
+[2023-05-12 12:26:49] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2023-05-12 12:26:49] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-access-sdk-0.0.616.tar.gz tmp/finbourne-access-sdk-0.0.815.tar.gz --markdown 20230512/f/finbourne-access-sdk/0.0.616-0.0.815/diff.md --exclude *.pyd
+[2023-05-12 12:26:49] INFO root fetch - processPackages [tomato-cooker]: Downloading https://files.pythonhosted.org/packages/7c/98/6c533671d64814a789bbbcc95e3a04240d79b76d4d2b8346a31a7e6d6f36/tomato-cooker-0.1.0.tar.gz
+[2023-05-12 12:26:49] INFO root fetch - processPackages [ucam-identitylib]: Downloading https://files.pythonhosted.org/packages/f3/2a/507b6d0fbff48a6aff9a4355e2ba0f0b7025b90336c64f452d38cdd145f7/ucam-identitylib-1.6.0.tar.gz
+[2023-05-12 12:26:49] INFO root fetch - processPackages [exceptnotifier]: Downloading https://files.pythonhosted.org/packages/f5/b1/ce8be2ab928c1d1a3d1ac3b12dc71cbec6539574882c0a7e1191132598c3/exceptnotifier-0.2.5.tar.gz
+[2023-05-12 12:26:49] INFO root fetch - processPackages [zytlib]: executing diffoscope
+[2023-05-12 12:26:49] INFO root fetch - processPackages [zytlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zytlib-0.3.341-py3-none-any.whl.zip tmp/zytlib-0.3.342-py3-none-any.whl.zip --markdown 20230512/z/zytlib/0.3.341-0.3.342/diff.md --exclude *.pyd
+[2023-05-12 12:26:49] INFO root fetch - processPackages [tomato-cooker]: executing diffoscope
+[2023-05-12 12:26:49] INFO root fetch - processPackages [tomato-cooker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tomato-cooker-0.0.1.tar.gz tmp/tomato-cooker-0.1.0.tar.gz --markdown 20230512/t/tomato-cooker/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-05-12 12:26:49] INFO root fetch - processPackages [EnjoyAnimation]: executing diffoscope
+[2023-05-12 12:26:49] INFO root fetch - processPackages [EnjoyAnimation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EnjoyAnimation-0.0.3.tar.gz tmp/EnjoyAnimation-0.0.4b0.tar.gz --markdown 20230512/E/EnjoyAnimation/0.0.3-0.0.4b0/diff.md --exclude *.pyd
+[2023-05-12 12:26:49] INFO root fetch - processPackages [exceptnotifier]: executing diffoscope
+[2023-05-12 12:26:49] INFO root fetch - processPackages [exceptnotifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exceptnotifier-0.2.4.tar.gz tmp/exceptnotifier-0.2.5.tar.gz --markdown 20230512/e/exceptnotifier/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-05-12 12:26:49] INFO root fetch - processPackages [ucam-identitylib]: executing diffoscope
+[2023-05-12 12:26:49] INFO root fetch - processPackages [ucam-identitylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ucam-identitylib-1.5.0.tar.gz tmp/ucam-identitylib-1.6.0.tar.gz --markdown 20230512/u/ucam-identitylib/1.5.0-1.6.0/diff.md --exclude *.pyd
+[2023-05-12 12:26:50] INFO root fetch - processPackages [dl2050utils]: Start processing: JupyterQuiz
+[2023-05-12 12:26:50] INFO root fetch - main [MainThread]: End processing [dl2050utils]: success
+[2023-05-12 12:26:50] INFO root fetch - processPackages [JupyterQuiz]: New version: [2.6.0] Old Version: [2.5.2]
+[2023-05-12 12:26:50] INFO root fetch - processPackages [JupyterQuiz]: executing diffoscope
+[2023-05-12 12:26:50] INFO root fetch - processPackages [JupyterQuiz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JupyterQuiz-2.5.2.tar.gz tmp/JupyterQuiz-2.6.0.tar.gz --markdown 20230512/J/JupyterQuiz/2.5.2-2.6.0/diff.md --exclude *.pyd
+[2023-05-12 12:26:50] INFO root fetch - processPackages [titan-iris]: Start processing: jupyterlab-courselevels
+[2023-05-12 12:26:50] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-05-12 12:26:50] WARNING root fetch - processPackages [jupyterlab-courselevels]: Skipping, unable to determine old version
+[2023-05-12 12:26:50] INFO root fetch - processPackages [jupyterlab-courselevels]: Start processing: uniem
+[2023-05-12 12:26:50] INFO root fetch - main [MainThread]: End processing [jupyterlab-courselevels] error
+[2023-05-12 12:26:50] WARNING root fetch - processPackages [uniem]: Skipping, unable to determine old version
+[2023-05-12 12:26:50] INFO root fetch - processPackages [uniem]: Start processing: robotframework-processcube
+[2023-05-12 12:26:50] INFO root fetch - main [MainThread]: End processing [uniem] error
+[2023-05-12 12:26:50] INFO root fetch - processPackages [honeybee-radiance-postprocess]: Start processing: single-char-counter-by-ng
+[2023-05-12 12:26:50] INFO root fetch - main [MainThread]: End processing [honeybee-radiance-postprocess]: success
+[2023-05-12 12:26:50] WARNING root fetch - processPackages [single-char-counter-by-ng]: Skipping, unable to determine old version
+[2023-05-12 12:26:50] INFO root fetch - processPackages [single-char-counter-by-ng]: Start processing: syncdsgen
+[2023-05-12 12:26:50] INFO root fetch - main [MainThread]: End processing [single-char-counter-by-ng] error
+[2023-05-12 12:26:51] INFO root fetch - processPackages [robotframework-processcube]: New version: [2.5.1a1] Old Version: [2.5.0a1]
+[2023-05-12 12:26:51] INFO root fetch - processPackages [EnjoyAnimation]: Start processing: event-vision-library
+[2023-05-12 12:26:51] INFO root fetch - processPackages [syncdsgen]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 12:26:51] INFO root fetch - main [MainThread]: End processing [EnjoyAnimation]: success
+[2023-05-12 12:26:51] INFO root fetch - processPackages [syncdsgen]: executing diffoscope
+[2023-05-12 12:26:51] INFO root fetch - processPackages [syncdsgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syncdsgen-0.0.8.tar.gz tmp/syncdsgen-0.0.9.tar.gz --markdown 20230512/s/syncdsgen/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 12:26:51] INFO root fetch - processPackages [event-vision-library]: New version: [0.0.1] Old Version: [0.0.0b0]
+[2023-05-12 12:26:51] INFO root fetch - processPackages [robotframework-processcube]: Downloading https://files.pythonhosted.org/packages/d7/ca/d4bff76e6eb058b13dd7bf0649edd2d1708bee3068e402e33c0c27d6a1c8/robotframework-processcube-2.5.1a1.tar.gz
+[2023-05-12 12:26:51] INFO root fetch - processPackages [event-vision-library]: Downloading https://files.pythonhosted.org/packages/a3/1d/46a04a92d8d25be5632a75bd397280e18d4884533901c3359a38afefc3ac/event_vision_library-0.0.0b0.tar.gz
+[2023-05-12 12:26:51] INFO root fetch - processPackages [robotframework-processcube]: executing diffoscope
+[2023-05-12 12:26:51] INFO root fetch - processPackages [robotframework-processcube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework-processcube-2.5.0a1.tar.gz tmp/robotframework-processcube-2.5.1a1.tar.gz --markdown 20230512/r/robotframework-processcube/2.5.0a1-2.5.1a1/diff.md --exclude *.pyd
+[2023-05-12 12:26:51] INFO root fetch - processPackages [tomato-cooker]: Start processing: fastapi-request-id
+[2023-05-12 12:26:51] INFO root fetch - main [MainThread]: End processing [tomato-cooker]: success
+[2023-05-12 12:26:51] INFO root fetch - processPackages [fastapi-request-id]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-05-12 12:26:51] INFO root fetch - processPackages [event-vision-library]: Downloading https://files.pythonhosted.org/packages/a5/cd/fe601c074e995b443e6ca0c1560b641b611f3d175e472ded0b67bad389ab/event_vision_library-0.0.1.tar.gz
+[2023-05-12 12:26:51] INFO root fetch - processPackages [fastapi-request-id]: executing diffoscope
+[2023-05-12 12:26:51] INFO root fetch - processPackages [fastapi-request-id]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_request_id-1.0.2-py3-none-any.whl.zip tmp/fastapi_request_id-1.1.0-py3-none-any.whl.zip --markdown 20230512/f/fastapi-request-id/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2023-05-12 12:26:51] INFO root fetch - processPackages [event-vision-library]: executing diffoscope
+[2023-05-12 12:26:51] INFO root fetch - processPackages [event-vision-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/event_vision_library-0.0.0b0.tar.gz tmp/event_vision_library-0.0.1.tar.gz --markdown 20230512/e/event-vision-library/0.0.0b0-0.0.1/diff.md --exclude *.pyd
+[2023-05-12 12:26:51] INFO root fetch - main [MainThread]: End processing [navalmartin-mir-vision-utils]: success
+[2023-05-12 12:26:51] INFO root fetch - main [MainThread]: End processing [zytlib]: success
+[2023-05-12 12:26:52] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2023-05-12 12:26:52] INFO root fetch - main [MainThread]: End processing [JupyterQuiz]: success
+[2023-05-12 12:26:52] INFO root fetch - main [MainThread]: End processing [syncdsgen]: success
+[2023-05-12 12:26:52] INFO root fetch - main [MainThread]: End processing [robotframework-processcube]: success
+[2023-05-12 12:26:52] INFO root fetch - main [MainThread]: End processing [fastapi-request-id]: success
+[2023-05-12 12:26:53] INFO root fetch - main [MainThread]: End processing [exceptnotifier]: success
+[2023-05-12 12:26:53] INFO root fetch - main [MainThread]: End processing [event-vision-library]: success
+[2023-05-12 12:26:56] INFO root fetch - main [MainThread]: End processing [ucam-identitylib]: success
+[2023-05-12 12:26:56] INFO root fetch - main [MainThread]: Store serial: [18076601]
