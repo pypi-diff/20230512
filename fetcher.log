@@ -9750,3 +9750,65 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-12 13:14:14] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
 [2023-05-12 13:14:15] INFO root fetch - main [MainThread]: End processing [mwrpy]: success
 [2023-05-12 13:14:15] INFO root fetch - main [MainThread]: Store serial: [18077077]
+[2023-05-12 13:19:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18077077]
+[2023-05-12 13:19:24] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-12 13:19:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lesscode-tool
+[2023-05-12 13:19:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PHX
+[2023-05-12 13:19:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: thefittest
+[2023-05-12 13:19:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eventiq
+[2023-05-12 13:19:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyjpt
+[2023-05-12 13:19:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: frinx-python-sdk
+[2023-05-12 13:19:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: digitalguide-reader
+[2023-05-12 13:19:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: torchopt
+[2023-05-12 13:19:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sdkit
+[2023-05-12 13:19:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nucliadb-contributor-assets
+[2023-05-12 13:19:24] INFO root fetch - processPackages [PHX]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-05-12 13:19:24] INFO root fetch - processPackages [lesscode-tool]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 13:19:24] INFO root fetch - processPackages [thefittest]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-12 13:19:24] INFO root fetch - processPackages [frinx-python-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 13:19:24] INFO root fetch - processPackages [nucliadb-contributor-assets]: New version: [1.0.0.post767] Old Version: [1.0.0.post760]
+[2023-05-12 13:19:25] INFO root fetch - processPackages [lesscode-tool]: executing diffoscope
+[2023-05-12 13:19:25] INFO root fetch - processPackages [lesscode-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lesscode_tool-0.0.8.tar.gz tmp/lesscode_tool-0.0.9.tar.gz --markdown 20230512/l/lesscode-tool/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 13:19:25] INFO root fetch - processPackages [nucliadb-contributor-assets]: executing diffoscope
+[2023-05-12 13:19:25] INFO root fetch - processPackages [nucliadb-contributor-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_contributor_assets-1.0.0.post760-py3-none-any.whl.zip tmp/nucliadb_contributor_assets-1.0.0.post767-py3-none-any.whl.zip --markdown 20230512/n/nucliadb-contributor-assets/1.0.0.post760-1.0.0.post767/diff.md --exclude *.pyd
+[2023-05-12 13:19:25] INFO root fetch - processPackages [pyjpt]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-12 13:19:25] INFO root fetch - processPackages [eventiq]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-12 13:19:25] INFO root fetch - processPackages [torchopt]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-05-12 13:19:25] INFO root fetch - processPackages [digitalguide-reader]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 13:19:25] INFO root fetch - processPackages [frinx-python-sdk]: executing diffoscope
+[2023-05-12 13:19:25] INFO root fetch - processPackages [frinx-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frinx-python-sdk-0.0.8.tar.gz tmp/frinx-python-sdk-0.0.9.tar.gz --markdown 20230512/f/frinx-python-sdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 13:19:25] INFO root fetch - processPackages [sdkit]: New version: [1.0.92] Old Version: [1.0.91]
+[2023-05-12 13:19:25] INFO root fetch - processPackages [thefittest]: executing diffoscope
+[2023-05-12 13:19:25] INFO root fetch - processPackages [thefittest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thefittest-0.1.8.tar.gz tmp/thefittest-0.1.9.tar.gz --markdown 20230512/t/thefittest/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-12 13:19:25] INFO root fetch - processPackages [PHX]: Downloading https://files.pythonhosted.org/packages/ad/48/a9b966f484d5fbfbde35e2c15c1211cc18359a09978bfbaafcd30f095d50/PHX-1.8.1.tar.gz
+[2023-05-12 13:19:25] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/64/9a/6176e877cfb291b7793a5caf244876ad23f93029f200f2af7f685c774254/sdkit-1.0.91.tar.gz
+[2023-05-12 13:19:25] INFO root fetch - processPackages [digitalguide-reader]: Downloading https://files.pythonhosted.org/packages/cc/5a/0f9a1bf13e406f8b0b0f84bdee6aaaf746d291551003b201aecb528a3e7b/digitalguide_reader-0.0.8.tar.gz
+[2023-05-12 13:19:25] INFO root fetch - processPackages [torchopt]: Downloading https://files.pythonhosted.org/packages/76/b8/1986984b061743c1c8b32769e4312a1e930db708389cff40164c416188c8/torchopt-0.7.0.tar.gz
+[2023-05-12 13:19:25] INFO root fetch - processPackages [eventiq]: Downloading https://files.pythonhosted.org/packages/d4/3b/7240b8b6caac99b71ba063ee272171c2ad6f6b80ba45ee8598b662c981bd/eventiq-0.1.6.tar.gz
+[2023-05-12 13:19:25] INFO root fetch - processPackages [PHX]: Downloading https://files.pythonhosted.org/packages/d5/cf/427f0ced8ef3cc98e22c877b4eb980575483e2cf3ac2387f5e901120b744/PHX-1.9.0.tar.gz
+[2023-05-12 13:19:25] INFO root fetch - processPackages [pyjpt]: executing diffoscope
+[2023-05-12 13:19:25] INFO root fetch - processPackages [pyjpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyjpt-0.1.8-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/pyjpt-0.1.9-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230512/p/pyjpt/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-12 13:19:25] INFO root fetch - processPackages [eventiq]: executing diffoscope
+[2023-05-12 13:19:25] INFO root fetch - processPackages [eventiq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eventiq-0.1.5.tar.gz tmp/eventiq-0.1.6.tar.gz --markdown 20230512/e/eventiq/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-12 13:19:25] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/6f/a9/f8758eafe5ca388e033393d8a9fbb159e43df62f4d698a1f6ca0e2674fca/sdkit-1.0.92.tar.gz
+[2023-05-12 13:19:25] INFO root fetch - processPackages [PHX]: executing diffoscope
+[2023-05-12 13:19:25] INFO root fetch - processPackages [PHX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PHX-1.8.1.tar.gz tmp/PHX-1.9.0.tar.gz --markdown 20230512/P/PHX/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-05-12 13:19:25] INFO root fetch - processPackages [digitalguide-reader]: Downloading https://files.pythonhosted.org/packages/72/ef/82a1a1f3752e2a5201841fc0cba3c60b693839bff8bf7268643f8fb5388b/digitalguide_reader-0.0.9.tar.gz
+[2023-05-12 13:19:25] INFO root fetch - processPackages [torchopt]: Downloading https://files.pythonhosted.org/packages/39/b8/e32e6ce7bd71324de2ae58bde4583d0aa3e4de58e7df852f0c4df1479511/torchopt-0.7.1.tar.gz
+[2023-05-12 13:19:25] INFO root fetch - processPackages [digitalguide-reader]: executing diffoscope
+[2023-05-12 13:19:25] INFO root fetch - processPackages [digitalguide-reader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalguide_reader-0.0.8.tar.gz tmp/digitalguide_reader-0.0.9.tar.gz --markdown 20230512/d/digitalguide-reader/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 13:19:25] INFO root fetch - processPackages [sdkit]: executing diffoscope
+[2023-05-12 13:19:25] INFO root fetch - processPackages [sdkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdkit-1.0.91.tar.gz tmp/sdkit-1.0.92.tar.gz --markdown 20230512/s/sdkit/1.0.91-1.0.92/diff.md --exclude *.pyd
+[2023-05-12 13:19:25] INFO root fetch - processPackages [torchopt]: executing diffoscope
+[2023-05-12 13:19:25] INFO root fetch - processPackages [torchopt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchopt-0.7.0.tar.gz tmp/torchopt-0.7.1.tar.gz --markdown 20230512/t/torchopt/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-05-12 13:19:26] INFO root fetch - main [MainThread]: End processing [lesscode-tool]: success
+[2023-05-12 13:19:27] INFO root fetch - main [MainThread]: End processing [digitalguide-reader]: success
+[2023-05-12 13:19:27] INFO root fetch - main [MainThread]: End processing [eventiq]: success
+[2023-05-12 13:19:27] INFO root fetch - main [MainThread]: End processing [frinx-python-sdk]: success
+[2023-05-12 13:19:27] INFO root fetch - main [MainThread]: End processing [PHX]: success
+[2023-05-12 13:19:28] INFO root fetch - main [MainThread]: End processing [torchopt]: success
+[2023-05-12 13:19:29] INFO root fetch - main [MainThread]: End processing [sdkit]: success
+[2023-05-12 13:19:29] INFO root fetch - main [MainThread]: End processing [thefittest]: success
+[2023-05-12 13:19:37] INFO root fetch - main [MainThread]: End processing [pyjpt]: success
+[2023-05-12 13:19:39] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
+[2023-05-12 13:19:39] INFO root fetch - main [MainThread]: Store serial: [18077116]
