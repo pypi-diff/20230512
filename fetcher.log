@@ -17028,3 +17028,106 @@ EOFError: EOF read where object expected
 [2023-05-12 19:54:56] INFO root fetch - main [MainThread]: End processing [service-buddy-too]: success
 [2023-05-12 19:54:56] INFO root fetch - main [MainThread]: End processing [edc-screening]: success
 [2023-05-12 19:54:56] INFO root fetch - main [MainThread]: Store serial: [18081751]
+[2023-05-12 20:00:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18081751]
+[2023-05-12 20:00:05] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-12 20:00:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-account-payment-order
+[2023-05-12 20:00:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: metakb
+[2023-05-12 20:00:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: appdynamics-lambda-tracer
+[2023-05-12 20:00:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: edc
+[2023-05-12 20:00:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: duckduckgo-search
+[2023-05-12 20:00:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dcicutils
+[2023-05-12 20:00:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pysecret
+[2023-05-12 20:00:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ruff-lsp
+[2023-05-12 20:00:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: phylomatcher
+[2023-05-12 20:00:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aws-console-url
+[2023-05-12 20:00:05] INFO root fetch - processPackages [metakb]: New version: [1.2.0.dev0] Old Version: [1.1.0a9]
+[2023-05-12 20:00:05] INFO root fetch - processPackages [appdynamics-lambda-tracer]: New version: [23.5.453] Old Version: [22.4.436]
+[2023-05-12 20:00:05] INFO root fetch - processPackages [odoo-addon-account-payment-order]: New version: [16.0.1.1.1] Old Version: [16.0.1.1.0.1]
+[2023-05-12 20:00:05] INFO root fetch - processPackages [edc]: New version: [0.4.92] Old Version: [0.4.91]
+[2023-05-12 20:00:05] INFO root fetch - processPackages [aws-console-url]: New version: [0.7.5] Old Version: [0.7.4]
+[2023-05-12 20:00:05] INFO root fetch - processPackages [ruff-lsp]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 20:00:05] INFO root fetch - processPackages [pysecret]: New version: [2.2.3] Old Version: [2.2.2]
+[2023-05-12 20:00:05] WARNING root fetch - processPackages [phylomatcher]: Skipping, unable to determine old version
+[2023-05-12 20:00:05] INFO root fetch - processPackages [phylomatcher]: Start processing: intecomm-edc
+[2023-05-12 20:00:05] INFO root fetch - main [MainThread]: End processing [phylomatcher] error
+[2023-05-12 20:00:05] INFO root fetch - processPackages [dcicutils]: New version: [7.4.1] Old Version: [7.4.0]
+[2023-05-12 20:00:05] INFO root fetch - processPackages [duckduckgo-search]: New version: [2.9.5] Old Version: [2.9.4]
+[2023-05-12 20:00:05] INFO root fetch - processPackages [intecomm-edc]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-12 20:00:05] INFO root fetch - processPackages [intecomm-edc]: executing diffoscope
+[2023-05-12 20:00:05] INFO root fetch - processPackages [intecomm-edc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intecomm-edc-0.1.8.tar.gz tmp/intecomm-edc-0.1.9.tar.gz --markdown 20230512/i/intecomm-edc/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-12 20:00:05] INFO root fetch - processPackages [metakb]: Downloading https://files.pythonhosted.org/packages/a8/41/128d62fa87b98b77757c69b7f47480862543d2e97a62a479e4653e802757/metakb-1.1.0a9.tar.gz
+[2023-05-12 20:00:05] INFO root fetch - processPackages [odoo-addon-account-payment-order]: Downloading https://files.pythonhosted.org/packages/cc/3b/944328874710e971d28ea6af1fded06803c0a8d35d228dd382b524c4f26b/odoo_addon_account_payment_order-16.0.1.1.1-py3-none-any.whl
+[2023-05-12 20:00:05] INFO root fetch - processPackages [appdynamics-lambda-tracer]: Downloading https://files.pythonhosted.org/packages/58/36/ddcba06070da52aa529256be4cc79982b03131f8b664557ef2925a245944/appdynamics_lambda_tracer-22.4.436-py3-none-any.whl
+[2023-05-12 20:00:05] INFO root fetch - processPackages [edc]: Downloading https://files.pythonhosted.org/packages/06/6d/1d0e9b0a02eb677308c890f15e6b7b140613328c1a2519bffa198094fed6/edc-0.4.92.tar.gz
+[2023-05-12 20:00:05] INFO root fetch - processPackages [duckduckgo-search]: Downloading https://files.pythonhosted.org/packages/35/f3/8928c5b0def690a093c44639e19d6e5772880694229c52d8f346af52a0a2/duckduckgo_search-2.9.5.tar.gz
+[2023-05-12 20:00:05] INFO root fetch - processPackages [ruff-lsp]: Downloading https://files.pythonhosted.org/packages/48/64/90652b282a0d554a2483ebfdd37a317091e73d1b5caa0303f9a61bd27f78/ruff-lsp-0.0.8.tar.gz
+[2023-05-12 20:00:05] INFO root fetch - processPackages [pysecret]: Downloading https://files.pythonhosted.org/packages/bc/af/1b11714a6e3048a9905735c41a6c482e9c529a9ba9d153d914abef6e8d6e/pysecret-2.2.2.tar.gz
+[2023-05-12 20:00:05] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/30/10/e4637122a704dd09de430e8998436a1891aee2bc3700f3ef4e03a30e615f/dcicutils-7.4.0.tar.gz
+[2023-05-12 20:00:05] INFO root fetch - processPackages [edc]: executing diffoscope
+[2023-05-12 20:00:05] INFO root fetch - processPackages [edc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-0.4.91.tar.gz tmp/edc-0.4.92.tar.gz --markdown 20230512/e/edc/0.4.91-0.4.92/diff.md --exclude *.pyd
+[2023-05-12 20:00:05] INFO root fetch - processPackages [odoo-addon-account-payment-order]: executing diffoscope
+[2023-05-12 20:00:05] INFO root fetch - processPackages [odoo-addon-account-payment-order]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_payment_order-16.0.1.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_account_payment_order-16.0.1.1.1-py3-none-any.whl.zip --markdown 20230512/o/odoo-addon-account-payment-order/16.0.1.1.0.1-16.0.1.1.1/diff.md --exclude *.pyd
+[2023-05-12 20:00:05] INFO root fetch - processPackages [duckduckgo-search]: executing diffoscope
+[2023-05-12 20:00:05] INFO root fetch - processPackages [duckduckgo-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duckduckgo_search-2.9.4.tar.gz tmp/duckduckgo_search-2.9.5.tar.gz --markdown 20230512/d/duckduckgo-search/2.9.4-2.9.5/diff.md --exclude *.pyd
+[2023-05-12 20:00:05] INFO root fetch - processPackages [aws-console-url]: Downloading https://files.pythonhosted.org/packages/44/05/e5e1e4614b6227b4247877f0374e1a0c0e32a57ecc40a96899ff73292472/aws_console_url-0.7.5.tar.gz
+[2023-05-12 20:00:05] INFO root fetch - processPackages [metakb]: Downloading https://files.pythonhosted.org/packages/ff/88/152df133cc8de69d31cd1587badd9ef6f92629a8acdc2b4d1702fa0fe9fc/metakb-1.2.0.dev0.tar.gz
+[2023-05-12 20:00:06] INFO root fetch - processPackages [appdynamics-lambda-tracer]: Downloading https://files.pythonhosted.org/packages/bc/69/ed0ffc3e1b480ad70fcbf0d75de2e4517093642a21f768d9edbfde1f491d/appdynamics_lambda_tracer-23.5.453-py3-none-any.whl
+[2023-05-12 20:00:06] INFO root fetch - processPackages [aws-console-url]: executing diffoscope
+[2023-05-12 20:00:06] INFO root fetch - processPackages [aws-console-url]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_console_url-0.7.4.tar.gz tmp/aws_console_url-0.7.5.tar.gz --markdown 20230512/a/aws-console-url/0.7.4-0.7.5/diff.md --exclude *.pyd
+[2023-05-12 20:00:06] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/9d/28/5fa3199db0cd5020b6818a7c09835ef302c0b90668d1ba0934e9bf4d2733/dcicutils-7.4.1.tar.gz
+[2023-05-12 20:00:06] INFO root fetch - processPackages [metakb]: executing diffoscope
+[2023-05-12 20:00:06] INFO root fetch - processPackages [metakb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metakb-1.1.0a9.tar.gz tmp/metakb-1.2.0.dev0.tar.gz --markdown 20230512/m/metakb/1.1.0a9-1.2.0.dev0/diff.md --exclude *.pyd
+[2023-05-12 20:00:06] INFO root fetch - processPackages [ruff-lsp]: Downloading https://files.pythonhosted.org/packages/33/19/dc8533de6945cbfa428f42fe750158bfebd5cc496e0ae9834c44180dc185/ruff-lsp-0.0.9.tar.gz
+[2023-05-12 20:00:06] INFO root fetch - processPackages [pysecret]: Downloading https://files.pythonhosted.org/packages/02/8e/a0bf0e96f312ab865de14f339a0c17b309c9179a087be8e4a3d52c9aa46d/pysecret-2.2.3.tar.gz
+[2023-05-12 20:00:06] INFO root fetch - processPackages [appdynamics-lambda-tracer]: executing diffoscope
+[2023-05-12 20:00:06] INFO root fetch - processPackages [appdynamics-lambda-tracer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appdynamics_lambda_tracer-22.4.436-py3-none-any.whl.zip tmp/appdynamics_lambda_tracer-23.5.453-py3-none-any.whl.zip --markdown 20230512/a/appdynamics-lambda-tracer/22.4.436-23.5.453/diff.md --exclude *.pyd
+[2023-05-12 20:00:06] INFO root fetch - processPackages [dcicutils]: executing diffoscope
+[2023-05-12 20:00:06] INFO root fetch - processPackages [dcicutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcicutils-7.4.0.tar.gz tmp/dcicutils-7.4.1.tar.gz --markdown 20230512/d/dcicutils/7.4.0-7.4.1/diff.md --exclude *.pyd
+[2023-05-12 20:00:06] INFO root fetch - processPackages [ruff-lsp]: executing diffoscope
+[2023-05-12 20:00:06] INFO root fetch - processPackages [ruff-lsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ruff-lsp-0.0.8.tar.gz tmp/ruff-lsp-0.0.9.tar.gz --markdown 20230512/r/ruff-lsp/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 20:00:06] INFO root fetch - processPackages [pysecret]: executing diffoscope
+[2023-05-12 20:00:06] INFO root fetch - processPackages [pysecret]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysecret-2.2.2.tar.gz tmp/pysecret-2.2.3.tar.gz --markdown 20230512/p/pysecret/2.2.2-2.2.3/diff.md --exclude *.pyd
+[2023-05-12 20:00:07] INFO root fetch - processPackages [edc]: Start processing: systems-manager
+[2023-05-12 20:00:07] INFO root fetch - main [MainThread]: End processing [edc]: success
+[2023-05-12 20:00:07] INFO root fetch - processPackages [systems-manager]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-12 20:00:07] INFO root fetch - processPackages [systems-manager]: executing diffoscope
+[2023-05-12 20:00:07] INFO root fetch - processPackages [systems-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systems_manager-0.8.0-py2.py3-none-any.whl.zip tmp/systems_manager-0.9.0-py2.py3-none-any.whl.zip --markdown 20230512/s/systems-manager/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-12 20:00:08] INFO root fetch - processPackages [odoo-addon-account-payment-order]: Start processing: es7s
+[2023-05-12 20:00:08] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-payment-order]: success
+[2023-05-12 20:00:08] INFO root fetch - processPackages [es7s]: New version: [3.6.0.dev0] Old Version: [3.5.0.dev0]
+[2023-05-12 20:00:08] INFO root fetch - processPackages [aws-console-url]: Start processing: retaped-tui
+[2023-05-12 20:00:08] INFO root fetch - main [MainThread]: End processing [aws-console-url]: success
+[2023-05-12 20:00:08] INFO root fetch - processPackages [es7s]: executing diffoscope
+[2023-05-12 20:00:08] INFO root fetch - processPackages [es7s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/es7s-3.5.0.dev0.tar.gz tmp/es7s-3.6.0.dev0.tar.gz --markdown 20230512/e/es7s/3.5.0.dev0-3.6.0.dev0/diff.md --exclude *.pyd
+[2023-05-12 20:00:08] INFO root fetch - processPackages [retaped-tui]: New version: [1.0rc6] Old Version: [1.0rc5]
+[2023-05-12 20:00:08] INFO root fetch - processPackages [ruff-lsp]: Start processing: lazyops
+[2023-05-12 20:00:08] INFO root fetch - main [MainThread]: End processing [ruff-lsp]: success
+[2023-05-12 20:00:08] INFO root fetch - processPackages [lazyops]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-12 20:00:08] INFO root fetch - processPackages [duckduckgo-search]: Start processing: acryl-datahub-airflow-plugin
+[2023-05-12 20:00:08] INFO root fetch - main [MainThread]: End processing [duckduckgo-search]: success
+[2023-05-12 20:00:08] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2023-05-12 20:00:08] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: executing diffoscope
+[2023-05-12 20:00:08] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz --markdown 20230512/a/acryl-datahub-airflow-plugin/0.9.6rc0-0.9.6rc1/diff.md --exclude *.pyd
+[2023-05-12 20:00:08] INFO root fetch - processPackages [retaped-tui]: Downloading https://files.pythonhosted.org/packages/36/41/f6764665c5c6bcf84c1d64f075fbe4f77bb47cb14c229e38c26de5599dd8/retaped_tui-1.0rc6.tar.gz
+[2023-05-12 20:00:08] INFO root fetch - processPackages [appdynamics-lambda-tracer]: Start processing: acryl-datahub
+[2023-05-12 20:00:08] INFO root fetch - main [MainThread]: End processing [appdynamics-lambda-tracer]: success
+[2023-05-12 20:00:08] INFO root fetch - processPackages [lazyops]: Downloading https://files.pythonhosted.org/packages/a0/4a/f564165d8211d77f7a615d6dccdcb765c37572c99dceb05cb241e2a82bfd/lazyops-0.2.8.tar.gz
+[2023-05-12 20:00:08] INFO root fetch - main [MainThread]: End processing [metakb]: success
+[2023-05-12 20:00:08] INFO root fetch - processPackages [acryl-datahub]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2023-05-12 20:00:08] INFO root fetch - main [MainThread]: End processing [pysecret]: success
+[2023-05-12 20:00:08] INFO root fetch - processPackages [acryl-datahub]: executing diffoscope
+[2023-05-12 20:00:08] INFO root fetch - processPackages [acryl-datahub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-0.9.6rc0.tar.gz tmp/acryl-datahub-0.9.6rc1.tar.gz --markdown 20230512/a/acryl-datahub/0.9.6rc0-0.9.6rc1/diff.md --exclude *.pyd
+[2023-05-12 20:00:08] INFO root fetch - processPackages [retaped-tui]: executing diffoscope
+[2023-05-12 20:00:08] INFO root fetch - processPackages [retaped-tui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/retaped_tui-1.0rc5.tar.gz tmp/retaped_tui-1.0rc6.tar.gz --markdown 20230512/r/retaped-tui/1.0rc5-1.0rc6/diff.md --exclude *.pyd
+[2023-05-12 20:00:08] INFO root fetch - processPackages [lazyops]: Downloading https://files.pythonhosted.org/packages/5c/4b/a0da4a3f0d07056d36ddb331660d472e167596d93e76e6c1c193f20bb4bf/lazyops-0.2.9.tar.gz
+[2023-05-12 20:00:09] INFO root fetch - processPackages [lazyops]: executing diffoscope
+[2023-05-12 20:00:09] INFO root fetch - processPackages [lazyops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyops-0.2.8.tar.gz tmp/lazyops-0.2.9.tar.gz --markdown 20230512/l/lazyops/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-12 20:00:09] INFO root fetch - main [MainThread]: End processing [systems-manager]: success
+[2023-05-12 20:00:09] INFO root fetch - main [MainThread]: End processing [acryl-datahub-airflow-plugin]: success
+[2023-05-12 20:00:10] INFO root fetch - main [MainThread]: End processing [retaped-tui]: success
+[2023-05-12 20:00:10] INFO root fetch - main [MainThread]: End processing [es7s]: success
+[2023-05-12 20:00:10] INFO root fetch - main [MainThread]: End processing [dcicutils]: success
+[2023-05-12 20:00:11] INFO root fetch - main [MainThread]: End processing [intecomm-edc]: success
+[2023-05-12 20:00:11] INFO root fetch - main [MainThread]: End processing [lazyops]: success
+[2023-05-12 20:00:14] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
+[2023-05-12 20:00:14] INFO root fetch - main [MainThread]: Store serial: [18081797]
