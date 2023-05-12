@@ -16846,3 +16846,91 @@ EOFError: EOF read where object expected
 [2023-05-12 19:44:24] INFO root fetch - main [MainThread]: End processing [cdk-extensions]: success
 [2023-05-12 19:44:27] INFO root fetch - main [MainThread]: End processing [dbt-core]: success
 [2023-05-12 19:44:27] INFO root fetch - main [MainThread]: Store serial: [18081643]
+[2023-05-12 19:49:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18081643]
+[2023-05-12 19:49:37] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-12 19:49:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: googleapiutils2
+[2023-05-12 19:49:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dghs-imgutils
+[2023-05-12 19:49:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: snakeML
+[2023-05-12 19:49:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: preadator
+[2023-05-12 19:49:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lightning-cloud
+[2023-05-12 19:49:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: streaming-indicators
+[2023-05-12 19:49:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ovos-classifiers
+[2023-05-12 19:49:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: modelbit
+[2023-05-12 19:49:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: audiconnectpy
+[2023-05-12 19:49:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gen-pop-linkml2sheets
+[2023-05-12 19:49:37] INFO root fetch - processPackages [streaming-indicators]: New version: [0.0.1b0] Old Version: [0.0.1]
+[2023-05-12 19:49:37] INFO root fetch - processPackages [snakeML]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-12 19:49:37] INFO root fetch - processPackages [ovos-classifiers]: New version: [0.0.0a9] Old Version: [0.0.0a8]
+[2023-05-12 19:49:37] INFO root fetch - processPackages [googleapiutils2]: New version: [0.5.8] Old Version: [0.5.7]
+[2023-05-12 19:49:37] INFO root fetch - processPackages [gen-pop-linkml2sheets]: New version: [0.1.6] Old Version: [0.1.4]
+[2023-05-12 19:49:37] INFO root fetch - processPackages [preadator]: New version: [0.3.0.dev0] Old Version: [0.2.0]
+[2023-05-12 19:49:37] INFO root fetch - processPackages [dghs-imgutils]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-12 19:49:37] INFO root fetch - processPackages [lightning-cloud]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-05-12 19:49:37] INFO root fetch - processPackages [ovos-classifiers]: executing diffoscope
+[2023-05-12 19:49:37] INFO root fetch - processPackages [ovos-classifiers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_classifiers-0.0.0a8-py3-none-any.whl.zip tmp/ovos_classifiers-0.0.0a9-py3-none-any.whl.zip --markdown 20230512/o/ovos-classifiers/0.0.0a8-0.0.0a9/diff.md --exclude *.pyd
+[2023-05-12 19:49:37] INFO root fetch - processPackages [preadator]: executing diffoscope
+[2023-05-12 19:49:37] INFO root fetch - processPackages [preadator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/preadator-0.2.0.tar.gz tmp/preadator-0.3.0.dev0.tar.gz --markdown 20230512/p/preadator/0.2.0-0.3.0.dev0/diff.md --exclude *.pyd
+[2023-05-12 19:49:37] INFO root fetch - processPackages [audiconnectpy]: New version: [1.3.5] Old Version: [1.3.4]
+[2023-05-12 19:49:37] INFO root fetch - processPackages [gen-pop-linkml2sheets]: executing diffoscope
+[2023-05-12 19:49:37] INFO root fetch - processPackages [gen-pop-linkml2sheets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gen_pop_linkml2sheets-0.1.4.tar.gz tmp/gen_pop_linkml2sheets-0.1.6.tar.gz --markdown 20230512/g/gen-pop-linkml2sheets/0.1.4-0.1.6/diff.md --exclude *.pyd
+[2023-05-12 19:49:37] INFO root fetch - processPackages [snakeML]: Downloading https://files.pythonhosted.org/packages/c8/0a/dc971ae9eefef2269147cc2254131755459a8f03cbcceff06c226e970879/snakeML-0.0.6-py3-none-any.whl
+[2023-05-12 19:49:37] INFO root fetch - processPackages [dghs-imgutils]: Downloading https://files.pythonhosted.org/packages/82/46/ddb706dceeffe99714e2e0bf6ef29bba6e2033acc347f20404b119bcd996/dghs-imgutils-0.0.2.tar.gz
+[2023-05-12 19:49:37] INFO root fetch - processPackages [modelbit]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-05-12 19:49:37] INFO root fetch - processPackages [audiconnectpy]: Downloading https://files.pythonhosted.org/packages/dc/b5/6f90d5a19ac68ddb89d4cc627a8c3961315b330ad803782479ad88c19fa6/audiconnectpy-1.3.4.tar.gz
+[2023-05-12 19:49:37] INFO root fetch - processPackages [lightning-cloud]: Downloading https://files.pythonhosted.org/packages/cc/b2/6cf07379228de7dd2a95d71aa5ffeb852881582c3e3afab5a34c0608edb2/lightning_cloud-0.5.8.tar.gz
+[2023-05-12 19:49:37] INFO root fetch - processPackages [googleapiutils2]: Downloading https://files.pythonhosted.org/packages/e6/af/dbc20083e44c826b4d8e92aa1e1240aa11b4702b35ab4213855d81c03f1a/googleapiutils2-0.5.8.tar.gz
+[2023-05-12 19:49:37] INFO root fetch - processPackages [snakeML]: executing diffoscope
+[2023-05-12 19:49:37] INFO root fetch - processPackages [snakeML]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snakeML-0.0.5-py3-none-any.whl.zip tmp/snakeML-0.0.6-py3-none-any.whl.zip --markdown 20230512/s/snakeML/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-12 19:49:37] INFO root fetch - processPackages [streaming-indicators]: Downloading https://files.pythonhosted.org/packages/29/62/75f8c55f2b4a21ef912c090bd41d8c107f3e462cb923fa34c823c7c637c5/streaming_indicators-0.0.1b0.tar.gz
+[2023-05-12 19:49:37] INFO root fetch - processPackages [googleapiutils2]: executing diffoscope
+[2023-05-12 19:49:37] INFO root fetch - processPackages [googleapiutils2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/googleapiutils2-0.5.7.tar.gz tmp/googleapiutils2-0.5.8.tar.gz --markdown 20230512/g/googleapiutils2/0.5.7-0.5.8/diff.md --exclude *.pyd
+[2023-05-12 19:49:37] INFO root fetch - processPackages [streaming-indicators]: executing diffoscope
+[2023-05-12 19:49:37] INFO root fetch - processPackages [streaming-indicators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streaming_indicators-0.0.1.tar.gz tmp/streaming_indicators-0.0.1b0.tar.gz --markdown 20230512/s/streaming-indicators/0.0.1-0.0.1b0/diff.md --exclude *.pyd
+[2023-05-12 19:49:37] INFO root fetch - processPackages [audiconnectpy]: Downloading https://files.pythonhosted.org/packages/3f/98/d61beb8d161ca67aceec7e1bf3da519d63a27ecc89bfa6c993b03113d04d/audiconnectpy-1.3.5.tar.gz
+[2023-05-12 19:49:37] INFO root fetch - processPackages [dghs-imgutils]: Downloading https://files.pythonhosted.org/packages/2c/f3/2b040160efa4d9a5ce3cd309e6042be4b55e657515c6354df9ee8cf6f323/dghs-imgutils-0.0.3.tar.gz
+[2023-05-12 19:49:37] INFO root fetch - processPackages [audiconnectpy]: executing diffoscope
+[2023-05-12 19:49:37] INFO root fetch - processPackages [audiconnectpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audiconnectpy-1.3.4.tar.gz tmp/audiconnectpy-1.3.5.tar.gz --markdown 20230512/a/audiconnectpy/1.3.4-1.3.5/diff.md --exclude *.pyd
+[2023-05-12 19:49:37] INFO root fetch - processPackages [dghs-imgutils]: executing diffoscope
+[2023-05-12 19:49:37] INFO root fetch - processPackages [dghs-imgutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dghs-imgutils-0.0.2.tar.gz tmp/dghs-imgutils-0.0.3.tar.gz --markdown 20230512/d/dghs-imgutils/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-12 19:49:37] INFO root fetch - processPackages [lightning-cloud]: Downloading https://files.pythonhosted.org/packages/94/51/94fe26b6f4d8fb15a8f81782e5eff9a59c23e6ed1d39892a4bf696d4001f/lightning_cloud-0.5.9.tar.gz
+[2023-05-12 19:49:37] INFO root fetch - processPackages [modelbit]: executing diffoscope
+[2023-05-12 19:49:37] INFO root fetch - processPackages [modelbit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelbit-0.9.6.tar.gz tmp/modelbit-0.9.7.tar.gz --markdown 20230512/m/modelbit/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-05-12 19:49:38] INFO root fetch - processPackages [lightning-cloud]: executing diffoscope
+[2023-05-12 19:49:38] INFO root fetch - processPackages [lightning-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightning_cloud-0.5.8.tar.gz tmp/lightning_cloud-0.5.9.tar.gz --markdown 20230512/l/lightning-cloud/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-05-12 19:49:38] INFO root fetch - processPackages [preadator]: Start processing: retaped-tui
+[2023-05-12 19:49:38] INFO root fetch - main [MainThread]: End processing [preadator]: success
+[2023-05-12 19:49:38] INFO root fetch - processPackages [retaped-tui]: New version: [1.0rc5] Old Version: [1.0rc3]
+[2023-05-12 19:49:38] INFO root fetch - processPackages [gen-pop-linkml2sheets]: Start processing: unstructured
+[2023-05-12 19:49:38] INFO root fetch - main [MainThread]: End processing [gen-pop-linkml2sheets]: success
+[2023-05-12 19:49:38] INFO root fetch - processPackages [unstructured]: New version: [0.6.6] Old Version: [0.6.5]
+[2023-05-12 19:49:39] INFO root fetch - processPackages [ovos-classifiers]: Start processing: pydivsufsort
+[2023-05-12 19:49:39] INFO root fetch - main [MainThread]: End processing [ovos-classifiers]: success
+[2023-05-12 19:49:39] INFO root fetch - processPackages [snakeML]: Start processing: cliconfig
+[2023-05-12 19:49:39] INFO root fetch - main [MainThread]: End processing [snakeML]: success
+[2023-05-12 19:49:39] INFO root fetch - processPackages [retaped-tui]: Downloading https://files.pythonhosted.org/packages/3e/ff/d9aac142cc4ac9ec84f6a1da0cad9f70596926344665eb59db5dc8a47803/retaped_tui-1.0rc5.tar.gz
+[2023-05-12 19:49:39] INFO root fetch - processPackages [cliconfig]: New version: [0.4.7] Old Version: [0.4.6]
+[2023-05-12 19:49:39] INFO root fetch - processPackages [retaped-tui]: executing diffoscope
+[2023-05-12 19:49:39] INFO root fetch - processPackages [retaped-tui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/retaped_tui-1.0rc3.tar.gz tmp/retaped_tui-1.0rc5.tar.gz --markdown 20230512/r/retaped-tui/1.0rc3-1.0rc5/diff.md --exclude *.pyd
+[2023-05-12 19:49:39] INFO root fetch - main [MainThread]: End processing [googleapiutils2]: success
+[2023-05-12 19:49:39] INFO root fetch - processPackages [pydivsufsort]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-12 19:49:39] INFO root fetch - processPackages [unstructured]: Downloading https://files.pythonhosted.org/packages/50/52/1bd419a5f9da53df57c1ec05b5710f704f851a0ea49120fab096b43faf6e/unstructured-0.6.6.tar.gz
+[2023-05-12 19:49:39] INFO root fetch - main [MainThread]: End processing [streaming-indicators]: success
+[2023-05-12 19:49:39] INFO root fetch - processPackages [cliconfig]: Downloading https://files.pythonhosted.org/packages/99/2e/d436e1a1296c3c5f09e354dd55c6b25850e701eec1341446c1187abd6065/cliconfig-0.4.6.tar.gz
+[2023-05-12 19:49:39] INFO root fetch - processPackages [pydivsufsort]: Downloading https://files.pythonhosted.org/packages/e4/90/b48a1cc00a2de0d216bc4ae81baa0a7580b624e11a1d6ccf3d77c12301a6/pydivsufsort-0.0.6.tar.gz
+[2023-05-12 19:49:39] INFO root fetch - processPackages [unstructured]: executing diffoscope
+[2023-05-12 19:49:39] INFO root fetch - processPackages [unstructured]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unstructured-0.6.5.tar.gz tmp/unstructured-0.6.6.tar.gz --markdown 20230512/u/unstructured/0.6.5-0.6.6/diff.md --exclude *.pyd
+[2023-05-12 19:49:39] INFO root fetch - processPackages [cliconfig]: Downloading https://files.pythonhosted.org/packages/5e/73/440d3f45c3696db780bf5769edb76b658104946a214ddea0d85621adb78d/cliconfig-0.4.7.tar.gz
+[2023-05-12 19:49:39] INFO root fetch - processPackages [cliconfig]: executing diffoscope
+[2023-05-12 19:49:39] INFO root fetch - processPackages [cliconfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cliconfig-0.4.6.tar.gz tmp/cliconfig-0.4.7.tar.gz --markdown 20230512/c/cliconfig/0.4.6-0.4.7/diff.md --exclude *.pyd
+[2023-05-12 19:49:39] INFO root fetch - processPackages [pydivsufsort]: Downloading https://files.pythonhosted.org/packages/48/bc/6889ce1281b31a3ae6011046b5e548dbe6f1622acfb80937ea78fc7dadc9/pydivsufsort-0.0.7-cp39-cp39-macosx_10_9_x86_64.whl
+[2023-05-12 19:49:39] INFO root fetch - main [MainThread]: End processing [audiconnectpy]: success
+[2023-05-12 19:49:40] INFO root fetch - main [MainThread]: End processing [dghs-imgutils]: success
+[2023-05-12 19:49:40] INFO root fetch - main [MainThread]: End processing [retaped-tui]: success
+[2023-05-12 19:49:40] INFO root fetch - main [MainThread]: End processing [modelbit]: success
+[2023-05-12 19:49:40] INFO root fetch - processPackages [pydivsufsort]: executing diffoscope
+[2023-05-12 19:49:40] INFO root fetch - processPackages [pydivsufsort]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydivsufsort-0.0.6.tar.gz tmp/pydivsufsort-0.0.7-cp39-cp39-macosx_10_9_x86_64.whl.zip --markdown 20230512/p/pydivsufsort/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-12 19:49:41] INFO root fetch - main [MainThread]: End processing [cliconfig]: success
+[2023-05-12 19:49:41] INFO root fetch - main [MainThread]: End processing [unstructured]: success
+[2023-05-12 19:49:41] INFO root fetch - main [MainThread]: End processing [pydivsufsort]: success
+[2023-05-12 19:49:43] INFO root fetch - main [MainThread]: End processing [lightning-cloud]: success
+[2023-05-12 19:49:43] INFO root fetch - main [MainThread]: Store serial: [18081688]
