@@ -19708,3 +19708,114 @@ EOFError: EOF read where object expected
 [2023-05-12 22:26:27] INFO root fetch - main [MainThread]: End processing [dict-toolbox]: success
 [2023-05-12 22:26:27] INFO root fetch - main [MainThread]: End processing [dash-connectivity-viewer]: success
 [2023-05-12 22:26:27] INFO root fetch - main [MainThread]: Store serial: [18083744]
+[2023-05-12 22:31:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18083744]
+[2023-05-12 22:31:37] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-12 22:31:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: localstack-core
+[2023-05-12 22:31:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: maestral-qt
+[2023-05-12 22:31:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: maestral-qt
+[2023-05-12 22:31:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: returnn
+[2023-05-12 22:31:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cartson
+[2023-05-12 22:31:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: arithmetica-py
+[2023-05-12 22:31:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: llamabot
+[2023-05-12 22:31:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hotspotty-payment-email
+[2023-05-12 22:31:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: atuin-graph
+[2023-05-12 22:31:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ja2mqtt
+[2023-05-12 22:31:37] INFO root fetch - processPackages [maestral-qt]: New version: [1.7.2.dev0] Old Version: [1.7.2]
+[2023-05-12 22:31:37] INFO root fetch - processPackages [hotspotty-payment-email]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-12 22:31:37] INFO root fetch - processPackages [maestral-qt]: New version: [1.7.2.dev0] Old Version: [1.7.2]
+[2023-05-12 22:31:37] WARNING root fetch - processPackages [cartson]: Skipping, unable to determine old version
+[2023-05-12 22:31:37] INFO root fetch - processPackages [cartson]: Start processing: cocoder
+[2023-05-12 22:31:37] INFO root fetch - main [MainThread]: End processing [cartson] error
+[2023-05-12 22:31:37] INFO root fetch - processPackages [arithmetica-py]: New version: [1.0.203] Old Version: [1.0.202]
+[2023-05-12 22:31:37] INFO root fetch - processPackages [localstack-core]: New version: [2.0.3.dev20230512202632] Old Version: [2.0.3.dev20230512142430]
+[2023-05-12 22:31:37] INFO root fetch - processPackages [returnn]: New version: [1.20230512.95100] Old Version: [1.20230512.5307]
+[2023-05-12 22:31:37] INFO root fetch - processPackages [hotspotty-payment-email]: executing diffoscope
+[2023-05-12 22:31:37] INFO root fetch - processPackages [hotspotty-payment-email]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotspotty_payment_email-0.2.8.tar.gz tmp/hotspotty_payment_email-0.2.9.tar.gz --markdown 20230512/h/hotspotty-payment-email/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-12 22:31:37] INFO root fetch - processPackages [llamabot]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 22:31:37] INFO root fetch - processPackages [atuin-graph]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-12 22:31:37] INFO root fetch - processPackages [returnn]: executing diffoscope
+[2023-05-12 22:31:37] INFO root fetch - processPackages [returnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/returnn-1.20230512.5307.tar.gz tmp/returnn-1.20230512.95100.tar.gz --markdown 20230512/r/returnn/1.20230512.5307-1.20230512.95100/diff.md --exclude *.pyd
+[2023-05-12 22:31:37] WARNING root fetch - processPackages [cocoder]: Skipping, unable to determine old version
+[2023-05-12 22:31:37] INFO root fetch - processPackages [cocoder]: Start processing: columbo
+[2023-05-12 22:31:37] INFO root fetch - main [MainThread]: End processing [cocoder] error
+[2023-05-12 22:31:37] INFO root fetch - processPackages [ja2mqtt]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-12 22:31:37] INFO root fetch - processPackages [maestral-qt]: Downloading https://files.pythonhosted.org/packages/9a/62/a1a6ae0ca64362a93cce5b62559eb29b52ab933feb379e02f3ee2e7d2253/maestral-qt-1.7.2.tar.gz
+[2023-05-12 22:31:37] INFO root fetch - processPackages [maestral-qt]: Downloading https://files.pythonhosted.org/packages/9a/62/a1a6ae0ca64362a93cce5b62559eb29b52ab933feb379e02f3ee2e7d2253/maestral-qt-1.7.2.tar.gz
+[2023-05-12 22:31:37] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/48/61/52545959b910a7b1216b60cabcc4a72ea7c49cdb7bd9b3eb0e932ad9ae29/localstack-core-2.0.3.dev20230512142430.tar.gz
+[2023-05-12 22:31:37] INFO root fetch - processPackages [columbo]: New version: [0.9.0] Old Version: [0.13.0.post1]
+[2023-05-12 22:31:37] INFO root fetch - processPackages [atuin-graph]: Downloading https://files.pythonhosted.org/packages/42/40/3c1dc306bb8d357ce8816a793262644cbf1dbea1b82288b30a9ae5fb7293/atuin_graph-1.0.1.tar.gz
+[2023-05-12 22:31:37] INFO root fetch - processPackages [arithmetica-py]: Downloading https://files.pythonhosted.org/packages/31/7a/e2e193f8b1ebda247dda607a4b7c3c4d07fdccda2b70a2280dba21450657/arithmetica-py-1.0.203.tar.gz
+[2023-05-12 22:31:37] INFO root fetch - processPackages [columbo]: Downloading https://files.pythonhosted.org/packages/85/f6/a82a7eadfa515d2e0b1126ed359bbc0af14b18910667ecbb9288e87d7802/columbo-0.13.0.post1.tar.gz
+[2023-05-12 22:31:37] WARNING root fetch - processPackages [atuin-graph]: Skipping package: exceeds size limit 44924929>=10485760
+[2023-05-12 22:31:37] INFO root fetch - processPackages [atuin-graph]: Start processing: gsheet-player
+[2023-05-12 22:31:37] INFO root fetch - main [MainThread]: End processing [atuin-graph] error
+[2023-05-12 22:31:37] INFO root fetch - processPackages [arithmetica-py]: executing diffoscope
+[2023-05-12 22:31:37] INFO root fetch - processPackages [arithmetica-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arithmetica-py-1.0.202.tar.gz tmp/arithmetica-py-1.0.203.tar.gz --markdown 20230512/a/arithmetica-py/1.0.202-1.0.203/diff.md --exclude *.pyd
+[2023-05-12 22:31:37] INFO root fetch - processPackages [llamabot]: executing diffoscope
+[2023-05-12 22:31:37] INFO root fetch - processPackages [llamabot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llamabot-0.0.8.tar.gz tmp/llamabot-0.0.9.tar.gz --markdown 20230512/l/llamabot/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 22:31:37] INFO root fetch - processPackages [ja2mqtt]: Downloading https://files.pythonhosted.org/packages/55/d1/f966256a3270ca09d6bf7a55c1ef27e19b2a8469c7781d50b4f9b3bbab43/ja2mqtt-1.0.6.tar.gz
+[2023-05-12 22:31:37] WARNING root fetch - processPackages [gsheet-player]: Skipping, unable to determine old version
+[2023-05-12 22:31:37] INFO root fetch - processPackages [gsheet-player]: Start processing: omg-dosimetry
+[2023-05-12 22:31:37] INFO root fetch - main [MainThread]: End processing [gsheet-player] error
+[2023-05-12 22:31:37] INFO root fetch - processPackages [maestral-qt]: Downloading https://files.pythonhosted.org/packages/7c/74/08101ed8851523da7b2b3b1d4f84a287c658a3a6b9de21f006aab03f2106/maestral-qt-1.7.2.dev0.tar.gz
+[2023-05-12 22:31:37] INFO root fetch - processPackages [maestral-qt]: Downloading https://files.pythonhosted.org/packages/7c/74/08101ed8851523da7b2b3b1d4f84a287c658a3a6b9de21f006aab03f2106/maestral-qt-1.7.2.dev0.tar.gz
+[2023-05-12 22:31:37] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/b8/30/1e8887186d50880bd9998af7970ae23c8d770a78338971ba82bbcf5717af/localstack-core-2.0.3.dev20230512202632.tar.gz
+[2023-05-12 22:31:37] INFO root fetch - processPackages [omg-dosimetry]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-05-12 22:31:37] INFO root fetch - processPackages [ja2mqtt]: executing diffoscope
+[2023-05-12 22:31:37] INFO root fetch - processPackages [ja2mqtt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ja2mqtt-1.0.5.tar.gz tmp/ja2mqtt-1.0.6.tar.gz --markdown 20230512/j/ja2mqtt/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-12 22:31:37] INFO root fetch - processPackages [columbo]: Downloading https://files.pythonhosted.org/packages/22/80/c8bfed57fc7ef630830de2a9b6a0cf10c0cbe180fef8f56128415f35c3f7/columbo-0.9.0.tar.gz
+[2023-05-12 22:31:37] INFO root fetch - processPackages [columbo]: executing diffoscope
+[2023-05-12 22:31:37] INFO root fetch - processPackages [columbo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/columbo-0.13.0.post1.tar.gz tmp/columbo-0.9.0.tar.gz --markdown 20230512/c/columbo/0.13.0.post1-0.9.0/diff.md --exclude *.pyd
+[2023-05-12 22:31:37] INFO root fetch - processPackages [omg-dosimetry]: Downloading https://files.pythonhosted.org/packages/b7/e0/7ac9cf252f15679e00b3f357ab55f244a398ffd0185f41081d648b4c6d41/omg_dosimetry-1.3.0.tar.gz
+[2023-05-12 22:31:37] INFO root fetch - processPackages [maestral-qt]: executing diffoscope
+[2023-05-12 22:31:37] INFO root fetch - processPackages [maestral-qt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maestral-qt-1.7.2.tar.gz tmp/maestral-qt-1.7.2.dev0.tar.gz --markdown 20230512/m/maestral-qt/1.7.2-1.7.2.dev0/diff.md --exclude *.pyd
+[2023-05-12 22:31:37] INFO root fetch - processPackages [maestral-qt]: executing diffoscope
+[2023-05-12 22:31:37] INFO root fetch - processPackages [maestral-qt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maestral-qt-1.7.2.tar.gz tmp/maestral-qt-1.7.2.dev0.tar.gz --markdown 20230512/m/maestral-qt/1.7.2-1.7.2.dev0/diff.md --exclude *.pyd
+[2023-05-12 22:31:38] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-05-12 22:31:38] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.0.3.dev20230512142430.tar.gz tmp/localstack-core-2.0.3.dev20230512202632.tar.gz --markdown 20230512/l/localstack-core/2.0.3.dev20230512142430-2.0.3.dev20230512202632/diff.md --exclude *.pyd
+[2023-05-12 22:31:38] INFO root fetch - processPackages [omg-dosimetry]: Downloading https://files.pythonhosted.org/packages/52/2e/d9e5ae786b3a50c19b49345840103cb6f243227b7970f41164e0a20e725b/omg_dosimetry-1.4.0.tar.gz
+[2023-05-12 22:31:38] INFO root fetch - processPackages [omg-dosimetry]: executing diffoscope
+[2023-05-12 22:31:38] INFO root fetch - processPackages [omg-dosimetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omg_dosimetry-1.3.0.tar.gz tmp/omg_dosimetry-1.4.0.tar.gz --markdown 20230512/o/omg-dosimetry/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-05-12 22:31:38] INFO root fetch - processPackages [hotspotty-payment-email]: Start processing: maestral
+[2023-05-12 22:31:38] INFO root fetch - main [MainThread]: End processing [hotspotty-payment-email]: success
+[2023-05-12 22:31:38] INFO root fetch - processPackages [maestral]: New version: [1.7.3.dev0] Old Version: [1.7.2.dev2]
+[2023-05-12 22:31:38] INFO root fetch - processPackages [maestral]: Downloading https://files.pythonhosted.org/packages/6b/78/648bbfa96423accbfa8764d61583f4eaeed02379196942f1530cd8c52d14/maestral-1.7.2.dev2.tar.gz
+[2023-05-12 22:31:39] INFO root fetch - processPackages [maestral]: Downloading https://files.pythonhosted.org/packages/01/a4/f11e2202260e29cef9e50ba9f3997ab6add3cf68c711312bc714c664be3b/maestral-1.7.3.dev0.tar.gz
+[2023-05-12 22:31:39] INFO root fetch - processPackages [llamabot]: Start processing: pyrsig
+[2023-05-12 22:31:39] INFO root fetch - main [MainThread]: End processing [llamabot]: success
+[2023-05-12 22:31:39] INFO root fetch - processPackages [maestral]: executing diffoscope
+[2023-05-12 22:31:39] INFO root fetch - processPackages [maestral]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maestral-1.7.2.dev2.tar.gz tmp/maestral-1.7.3.dev0.tar.gz --markdown 20230512/m/maestral/1.7.2.dev2-1.7.3.dev0/diff.md --exclude *.pyd
+[2023-05-12 22:31:39] INFO root fetch - processPackages [pyrsig]: New version: [0.3.1] Old Version: [0.2.1]
+[2023-05-12 22:31:39] INFO root fetch - processPackages [pyrsig]: Downloading https://files.pythonhosted.org/packages/54/7d/e08c6cfae481cd7fa34abf64053ddb79b0588a4fcec488f716f5da3ca94d/pyrsig-0.2.1.tar.gz
+[2023-05-12 22:31:39] INFO root fetch - processPackages [ja2mqtt]: Start processing: shoulder
+[2023-05-12 22:31:39] INFO root fetch - main [MainThread]: End processing [ja2mqtt]: success
+[2023-05-12 22:31:39] INFO root fetch - processPackages [shoulder]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-12 22:31:39] INFO root fetch - processPackages [columbo]: Start processing: maestral-qt
+[2023-05-12 22:31:39] INFO root fetch - main [MainThread]: End processing [columbo]: success
+[2023-05-12 22:31:39] INFO root fetch - processPackages [maestral-qt]: New version: [1.7.3.dev0] Old Version: [1.7.2.dev0]
+[2023-05-12 22:31:39] INFO root fetch - processPackages [shoulder]: executing diffoscope
+[2023-05-12 22:31:39] INFO root fetch - processPackages [shoulder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shoulder-1.0.3.tar.gz tmp/shoulder-1.0.4.tar.gz --markdown 20230512/s/shoulder/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-12 22:31:39] INFO root fetch - processPackages [pyrsig]: Downloading https://files.pythonhosted.org/packages/85/dd/061d8f86fa793abe3e0ed6e15221e3459a7a1b3ca6f45615e1878b93cc03/pyrsig-0.3.1.tar.gz
+[2023-05-12 22:31:39] INFO root fetch - processPackages [maestral-qt]: Downloading https://files.pythonhosted.org/packages/03/56/eb043086e733bb368127b538c215d4465fe59bf126a0f331219d26b37942/maestral-qt-1.7.3.dev0.tar.gz
+[2023-05-12 22:31:40] INFO root fetch - processPackages [pyrsig]: executing diffoscope
+[2023-05-12 22:31:40] INFO root fetch - processPackages [pyrsig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrsig-0.2.1.tar.gz tmp/pyrsig-0.3.1.tar.gz --markdown 20230512/p/pyrsig/0.2.1-0.3.1/diff.md --exclude *.pyd
+[2023-05-12 22:31:40] INFO root fetch - processPackages [maestral-qt]: Start processing: maestral-cocoa
+[2023-05-12 22:31:40] INFO root fetch - main [MainThread]: End processing [maestral-qt]: success
+[2023-05-12 22:31:40] INFO root fetch - main [MainThread]: End processing [maestral-qt]: success
+[2023-05-12 22:31:40] INFO root fetch - processPackages [maestral-qt]: executing diffoscope
+[2023-05-12 22:31:40] INFO root fetch - processPackages [maestral-qt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maestral-qt-1.7.2.dev0.tar.gz tmp/maestral-qt-1.7.3.dev0.tar.gz --markdown 20230512/m/maestral-qt/1.7.2.dev0-1.7.3.dev0/diff.md --exclude *.pyd
+[2023-05-12 22:31:40] INFO root fetch - main [MainThread]: End processing [omg-dosimetry]: success
+[2023-05-12 22:31:40] INFO root fetch - processPackages [maestral-cocoa]: New version: [1.7.3.dev0] Old Version: [1.7.2.dev2]
+[2023-05-12 22:31:40] INFO root fetch - processPackages [maestral-cocoa]: Downloading https://files.pythonhosted.org/packages/e5/3f/19d843097c6fdbb1a381a604493aa437bbe640cd57f03f839d09eafe2c2b/maestral-cocoa-1.7.2.dev2.tar.gz
+[2023-05-12 22:31:40] INFO root fetch - main [MainThread]: End processing [arithmetica-py]: success
+[2023-05-12 22:31:40] INFO root fetch - processPackages [maestral-cocoa]: Downloading https://files.pythonhosted.org/packages/74/06/002a72e3085a067b77431fca84b248bc5712a64f7a0790e42afa139e319e/maestral-cocoa-1.7.3.dev0.tar.gz
+[2023-05-12 22:31:41] INFO root fetch - processPackages [maestral-cocoa]: executing diffoscope
+[2023-05-12 22:31:41] INFO root fetch - processPackages [maestral-cocoa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maestral-cocoa-1.7.2.dev2.tar.gz tmp/maestral-cocoa-1.7.3.dev0.tar.gz --markdown 20230512/m/maestral-cocoa/1.7.2.dev2-1.7.3.dev0/diff.md --exclude *.pyd
+[2023-05-12 22:31:41] INFO root fetch - main [MainThread]: End processing [pyrsig]: success
+[2023-05-12 22:31:41] INFO root fetch - main [MainThread]: End processing [shoulder]: success
+[2023-05-12 22:31:41] INFO root fetch - main [MainThread]: End processing [maestral-qt]: success
+[2023-05-12 22:31:42] INFO root fetch - main [MainThread]: End processing [returnn]: success
+[2023-05-12 22:31:42] INFO root fetch - main [MainThread]: End processing [maestral-cocoa]: success
+[2023-05-12 22:31:42] INFO root fetch - main [MainThread]: End processing [maestral]: success
+[2023-05-12 22:31:46] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-05-12 22:31:46] INFO root fetch - main [MainThread]: Store serial: [18083809]
