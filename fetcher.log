@@ -16511,3 +16511,87 @@ EOFError: EOF read where object expected
 [2023-05-12 19:18:03] INFO root fetch - main [MainThread]: End processing [Simba-UW-tf-dev]: success
 [2023-05-12 19:18:08] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-05-12 19:18:08] INFO root fetch - main [MainThread]: Store serial: [18081397]
+[2023-05-12 19:23:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18081397]
+[2023-05-12 19:23:19] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-12 19:23:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gpt-review
+[2023-05-12 19:23:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: certora-cli-alpha-alex-configscope
+[2023-05-12 19:23:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fdtdz
+[2023-05-12 19:23:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autotraders
+[2023-05-12 19:23:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: python-roborock
+[2023-05-12 19:23:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: acryl-datahub
+[2023-05-12 19:23:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: acryl-datahub-airflow-plugin
+[2023-05-12 19:23:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qcew
+[2023-05-12 19:23:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: spanishconjugator
+[2023-05-12 19:23:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: spanishconjugator
+[2023-05-12 19:23:19] INFO root fetch - processPackages [certora-cli-alpha-alex-configscope]: New version: [20230512.9.39.924761] Old Version: [20230512.17.18.22359]
+[2023-05-12 19:23:19] INFO root fetch - processPackages [gpt-review]: New version: [0.9.0rc678.post1] Old Version: [0.9.0rc675.post1]
+[2023-05-12 19:23:19] WARNING root fetch - processPackages [qcew]: Skipping, unable to determine old version
+[2023-05-12 19:23:19] INFO root fetch - processPackages [fdtdz]: New version: [1.0.1] Old Version: [0.0.0]
+[2023-05-12 19:23:19] INFO root fetch - processPackages [qcew]: Start processing: tfx-addons
+[2023-05-12 19:23:19] INFO root fetch - main [MainThread]: End processing [qcew] error
+[2023-05-12 19:23:19] INFO root fetch - processPackages [autotraders]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-12 19:23:19] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2023-05-12 19:23:19] INFO root fetch - processPackages [python-roborock]: New version: [0.9.0rc0] Old Version: [0.9.0]
+[2023-05-12 19:23:19] INFO root fetch - processPackages [acryl-datahub]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2023-05-12 19:23:19] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-05-12 19:23:19] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: executing diffoscope
+[2023-05-12 19:23:19] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz --markdown 20230512/a/acryl-datahub-airflow-plugin/0.9.6rc0-0.9.6rc1/diff.md --exclude *.pyd
+[2023-05-12 19:23:19] INFO root fetch - processPackages [tfx-addons]: New version: [0.6.0rc1] Old Version: [0.6.0]
+[2023-05-12 19:23:19] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-05-12 19:23:19] INFO root fetch - processPackages [python-roborock]: executing diffoscope
+[2023-05-12 19:23:19] INFO root fetch - processPackages [python-roborock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_roborock-0.9.0.tar.gz tmp/python_roborock-0.9.0rc0.tar.gz --markdown 20230512/p/python-roborock/0.9.0-0.9.0rc0/diff.md --exclude *.pyd
+[2023-05-12 19:23:19] INFO root fetch - processPackages [certora-cli-alpha-alex-configscope]: Downloading https://files.pythonhosted.org/packages/0d/1f/661fc3884b7e631bfca9fd2d71da559d215e99d48ea0bb99830f8f2f6c79/certora-cli-alpha-alex-configscope-20230512.17.18.22359.tar.gz
+[2023-05-12 19:23:20] INFO root fetch - processPackages [acryl-datahub]: executing diffoscope
+[2023-05-12 19:23:20] INFO root fetch - processPackages [acryl-datahub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-0.9.6rc0.tar.gz tmp/acryl-datahub-0.9.6rc1.tar.gz --markdown 20230512/a/acryl-datahub/0.9.6rc0-0.9.6rc1/diff.md --exclude *.pyd
+[2023-05-12 19:23:20] INFO root fetch - processPackages [fdtdz]: Downloading https://files.pythonhosted.org/packages/3d/95/b3b0a25a14782c3a1641b00bee83b288bbcd6f43c94de804202a5f7c1cf8/fdtdz-0.0.0.tar.gz
+[2023-05-12 19:23:20] INFO root fetch - processPackages [autotraders]: Downloading https://files.pythonhosted.org/packages/c7/f6/3e7721b3045949f89b5ab727a8936d17541f6f24f91d213fe27847553afd/autotraders-0.1.1.tar.gz
+[2023-05-12 19:23:20] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-05-12 19:23:20] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230512/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-05-12 19:23:20] WARNING root fetch - processPackages [certora-cli-alpha-alex-configscope]: Skipping package: exceeds size limit 39441370>=10485760
+[2023-05-12 19:23:20] INFO root fetch - processPackages [certora-cli-alpha-alex-configscope]: Start processing: pulumi-kubernetes
+[2023-05-12 19:23:20] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-alex-configscope] error
+[2023-05-12 19:23:20] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-05-12 19:23:20] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230512/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-05-12 19:23:20] INFO root fetch - processPackages [tfx-addons]: Downloading https://files.pythonhosted.org/packages/f9/50/4f97df25a4409919bd95b3ab0bfd8f399a22a8c3d4884cb3f909dd841106/tfx-addons-0.6.0.tar.gz
+[2023-05-12 19:23:20] INFO root fetch - processPackages [pulumi-kubernetes]: New version: [3.9.0] Old Version: [3.8.3]
+[2023-05-12 19:23:20] INFO root fetch - processPackages [gpt-review]: Downloading https://files.pythonhosted.org/packages/b3/81/395b593cf3e016f488f74dc65fa87459e2073f12db7d131e3682020979aa/gpt-review-0.9.0rc678.post1.tar.gz
+[2023-05-12 19:23:20] INFO root fetch - processPackages [autotraders]: executing diffoscope
+[2023-05-12 19:23:20] INFO root fetch - processPackages [autotraders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autotraders-0.1.0.tar.gz tmp/autotraders-0.1.1.tar.gz --markdown 20230512/a/autotraders/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-12 19:23:20] INFO root fetch - processPackages [fdtdz]: Downloading https://files.pythonhosted.org/packages/d7/22/14cc84d46a992cf5f9a0c075981d2a066971aa2d8aec62ff25fd80e6ed0f/fdtdz-1.0.1.tar.gz
+[2023-05-12 19:23:20] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-05-12 19:23:20] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-review-0.9.0rc675.post1.tar.gz tmp/gpt-review-0.9.0rc678.post1.tar.gz --markdown 20230512/g/gpt-review/0.9.0rc675.post1-0.9.0rc678.post1/diff.md --exclude *.pyd
+[2023-05-12 19:23:20] INFO root fetch - processPackages [pulumi-kubernetes]: executing diffoscope
+[2023-05-12 19:23:20] INFO root fetch - processPackages [pulumi-kubernetes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes-3.8.3.tar.gz tmp/pulumi_kubernetes-3.9.0.tar.gz --markdown 20230512/p/pulumi-kubernetes/3.8.3-3.9.0/diff.md --exclude *.pyd
+[2023-05-12 19:23:20] INFO root fetch - processPackages [tfx-addons]: Downloading https://files.pythonhosted.org/packages/9f/92/397f9c89e4dd58cb04d855453a351d718593a1f50fb0dee1f79cc3eeb688/tfx-addons-0.6.0rc1.tar.gz
+[2023-05-12 19:23:20] INFO root fetch - processPackages [tfx-addons]: executing diffoscope
+[2023-05-12 19:23:20] INFO root fetch - processPackages [tfx-addons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfx-addons-0.6.0.tar.gz tmp/tfx-addons-0.6.0rc1.tar.gz --markdown 20230512/t/tfx-addons/0.6.0-0.6.0rc1/diff.md --exclude *.pyd
+[2023-05-12 19:23:21] INFO root fetch - processPackages [fdtdz]: executing diffoscope
+[2023-05-12 19:23:21] INFO root fetch - processPackages [fdtdz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fdtdz-0.0.0.tar.gz tmp/fdtdz-1.0.1.tar.gz --markdown 20230512/f/fdtdz/0.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-12 19:23:21] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Start processing: systems-manager
+[2023-05-12 19:23:21] INFO root fetch - main [MainThread]: End processing [acryl-datahub-airflow-plugin]: success
+[2023-05-12 19:23:21] INFO root fetch - processPackages [systems-manager]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-12 19:23:21] INFO root fetch - processPackages [systems-manager]: executing diffoscope
+[2023-05-12 19:23:21] INFO root fetch - processPackages [systems-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systems_manager-0.8.0-py2.py3-none-any.whl.zip tmp/systems_manager-0.9.0-py2.py3-none-any.whl.zip --markdown 20230512/s/systems-manager/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-12 19:23:21] INFO root fetch - processPackages [python-roborock]: Start processing: summa-testing-framework-summasolutions
+[2023-05-12 19:23:21] INFO root fetch - main [MainThread]: End processing [python-roborock]: success
+[2023-05-12 19:23:21] INFO root fetch - processPackages [summa-testing-framework-summasolutions]: New version: [0.1.dev4] Old Version: [0.1.dev3]
+[2023-05-12 19:23:22] INFO root fetch - processPackages [spanishconjugator]: Start processing: discovery-transition-ds
+[2023-05-12 19:23:22] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-05-12 19:23:22] INFO root fetch - processPackages [discovery-transition-ds]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-05-12 19:23:22] INFO root fetch - processPackages [summa-testing-framework-summasolutions]: Downloading https://files.pythonhosted.org/packages/b5/87/461004bbef01784e3095f731559aac16e663d76e4f70d6d77e5ad12e3928/summa-testing-framework-summasolutions-0.1.dev3.tar.gz
+[2023-05-12 19:23:22] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-05-12 19:23:22] INFO root fetch - main [MainThread]: End processing [autotraders]: success
+[2023-05-12 19:23:22] INFO root fetch - processPackages [discovery-transition-ds]: executing diffoscope
+[2023-05-12 19:23:22] INFO root fetch - processPackages [discovery-transition-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discovery-transition-ds-4.9.8.tar.gz tmp/discovery-transition-ds-4.9.9.tar.gz --markdown 20230512/d/discovery-transition-ds/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-05-12 19:23:22] INFO root fetch - processPackages [summa-testing-framework-summasolutions]: Downloading https://files.pythonhosted.org/packages/1b/b3/cc10865119b63dd35632e0146c1f248a6b0fbba29b65d53d54cf29f5f9bb/summa-testing-framework-summasolutions-0.1.dev4.tar.gz
+[2023-05-12 19:23:22] INFO root fetch - processPackages [summa-testing-framework-summasolutions]: executing diffoscope
+[2023-05-12 19:23:22] INFO root fetch - processPackages [summa-testing-framework-summasolutions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/summa-testing-framework-summasolutions-0.1.dev3.tar.gz tmp/summa-testing-framework-summasolutions-0.1.dev4.tar.gz --markdown 20230512/s/summa-testing-framework-summasolutions/0.1.dev3-0.1.dev4/diff.md --exclude *.pyd
+[2023-05-12 19:23:22] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-05-12 19:23:22] INFO root fetch - main [MainThread]: End processing [tfx-addons]: success
+[2023-05-12 19:23:23] INFO root fetch - main [MainThread]: End processing [systems-manager]: success
+[2023-05-12 19:23:23] INFO root fetch - main [MainThread]: End processing [summa-testing-framework-summasolutions]: success
+[2023-05-12 19:23:25] INFO root fetch - main [MainThread]: End processing [discovery-transition-ds]: success
+[2023-05-12 19:23:26] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
+[2023-05-12 19:23:27] INFO root fetch - main [MainThread]: End processing [fdtdz]: success
+[2023-05-12 19:23:27] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes]: success
+[2023-05-12 19:23:27] INFO root fetch - main [MainThread]: Store serial: [18081439]
