@@ -9184,3 +9184,74 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-12 12:32:10] INFO root fetch - main [MainThread]: End processing [isystem.connect]: success
 [2023-05-12 12:32:12] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2023-05-12 12:32:12] INFO root fetch - main [MainThread]: Store serial: [18076657]
+[2023-05-12 12:37:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18076657]
+[2023-05-12 12:37:21] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-12 12:37:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mocket
+[2023-05-12 12:37:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: phc-ingestion
+[2023-05-12 12:37:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wombatoo
+[2023-05-12 12:37:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lbt-dragonfly
+[2023-05-12 12:37:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: certora-cli-alpha-dominik-unsat-cores-to-mus-solver
+[2023-05-12 12:37:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: example-sulthan4
+[2023-05-12 12:37:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: riversand
+[2023-05-12 12:37:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: json-fingerprint
+[2023-05-12 12:37:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: questdb-connect
+[2023-05-12 12:37:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: secmarker
+[2023-05-12 12:37:22] INFO root fetch - processPackages [wombatoo]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-12 12:37:22] INFO root fetch - processPackages [phc-ingestion]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-12 12:37:22] INFO root fetch - processPackages [wombatoo]: executing diffoscope
+[2023-05-12 12:37:22] INFO root fetch - processPackages [wombatoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wombatoo-0.0.6.tar.gz tmp/wombatoo-0.0.7.tar.gz --markdown 20230512/w/wombatoo/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-12 12:37:22] INFO root fetch - processPackages [riversand]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-05-12 12:37:22] INFO root fetch - processPackages [mocket]: New version: [3.9.44] Old Version: [3.9.42]
+[2023-05-12 12:37:22] INFO root fetch - processPackages [questdb-connect]: New version: [0.0.42] Old Version: [0.0.41]
+[2023-05-12 12:37:22] WARNING root fetch - processPackages [certora-cli-alpha-dominik-unsat-cores-to-mus-solver]: Skipping, unable to determine old version
+[2023-05-12 12:37:22] INFO root fetch - processPackages [certora-cli-alpha-dominik-unsat-cores-to-mus-solver]: Start processing: fast-bf
+[2023-05-12 12:37:22] WARNING root fetch - processPackages [secmarker]: Skipping, unable to determine old version
+[2023-05-12 12:37:22] INFO root fetch - processPackages [example-sulthan4]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-12 12:37:22] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-dominik-unsat-cores-to-mus-solver] error
+[2023-05-12 12:37:22] INFO root fetch - processPackages [secmarker]: Start processing: speed-cli
+[2023-05-12 12:37:22] INFO root fetch - main [MainThread]: End processing [secmarker] error
+[2023-05-12 12:37:22] INFO root fetch - processPackages [json-fingerprint]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-12 12:37:22] INFO root fetch - processPackages [fast-bf]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-05-12 12:37:22] INFO root fetch - processPackages [speed-cli]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-12 12:37:22] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-05-12 12:37:22] INFO root fetch - processPackages [example-sulthan4]: Downloading https://files.pythonhosted.org/packages/9f/fb/2894273ffec23b86c6b181e6d22b7132589b8b97faccee639d8a84d9e669/example-sulthan4-0.0.3.tar.gz
+[2023-05-12 12:37:22] INFO root fetch - processPackages [mocket]: Downloading https://files.pythonhosted.org/packages/6a/92/beb21fbbcf5558bd5bbb9390523aa3e289bdc7c914f4888b6517604866b0/mocket-3.9.42.tar.gz
+[2023-05-12 12:37:22] INFO root fetch - processPackages [phc-ingestion]: Downloading https://files.pythonhosted.org/packages/7c/50/dddee5ed9f37b0a223816dbcded72773737dfa9dda1c606fdb575b27a1f8/phc-ingestion-0.3.8.tar.gz
+[2023-05-12 12:37:22] INFO root fetch - processPackages [riversand]: Downloading https://files.pythonhosted.org/packages/6c/fa/457443ec79a65562c983a7f244246695e87e3e9adf518f3b008cffde1525/riversand-1.2.0.tar.gz
+[2023-05-12 12:37:22] INFO root fetch - processPackages [json-fingerprint]: Downloading https://files.pythonhosted.org/packages/98/f6/e6e00592d9bc51d85bb1ebfd549d939ddf06e466efd97987883783291108/json-fingerprint-0.9.1.tar.gz
+[2023-05-12 12:37:22] INFO root fetch - processPackages [fast-bf]: Downloading https://files.pythonhosted.org/packages/66/d3/6e6e675a76d2de7aeb3aa5ea00eda6b926dd43b560aee97b839fdd811261/fast-bf-1.1.0.tar.gz
+[2023-05-12 12:37:22] WARNING root fetch - processPackages [phc-ingestion]: Skipping package: exceeds size limit 55817200>=10485760
+[2023-05-12 12:37:22] INFO root fetch - main [MainThread]: End processing [phc-ingestion] error
+[2023-05-12 12:37:22] INFO root fetch - processPackages [speed-cli]: Downloading https://files.pythonhosted.org/packages/68/29/ca4a9ae9b34cc64149547a26f18653d5c835a65d5776dd768d15be8b8529/speed_cli-0.1.0-py3-none-any.whl
+[2023-05-12 12:37:22] INFO root fetch - processPackages [fast-bf]: executing diffoscope
+[2023-05-12 12:37:22] INFO root fetch - processPackages [fast-bf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast-bf-1.0.1.tar.gz tmp/fast-bf-1.1.0.tar.gz --markdown 20230512/f/fast-bf/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-05-12 12:37:22] INFO root fetch - processPackages [questdb-connect]: Downloading https://files.pythonhosted.org/packages/72/35/d7a5d02b7c0334c429294a276882c2f90c551249fc52eb1c47a05baf4732/questdb-connect-0.0.42.tar.gz
+[2023-05-12 12:37:22] INFO root fetch - processPackages [questdb-connect]: executing diffoscope
+[2023-05-12 12:37:22] INFO root fetch - processPackages [questdb-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/questdb-connect-0.0.41.tar.gz tmp/questdb-connect-0.0.42.tar.gz --markdown 20230512/q/questdb-connect/0.0.41-0.0.42/diff.md --exclude *.pyd
+[2023-05-12 12:37:22] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2023-05-12 12:37:22] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20230512/l/lbt-dragonfly/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-05-12 12:37:22] INFO root fetch - processPackages [example-sulthan4]: Downloading https://files.pythonhosted.org/packages/c2/b6/62f11f531b156ad39669fff103aec7dd9894bbb54f0b53e5d31fe65189be/example-sulthan4-0.0.4.tar.gz
+[2023-05-12 12:37:22] INFO root fetch - processPackages [riversand]: Downloading https://files.pythonhosted.org/packages/c8/4a/11ec967d692b950f12a74686c5b520a8e92d9783bda7cd032a040884e4cc/riversand-1.2.1.tar.gz
+[2023-05-12 12:37:22] INFO root fetch - processPackages [speed-cli]: Downloading https://files.pythonhosted.org/packages/fe/65/d984ea405b8dd342809f2e0dacf835b0b1be4801e5d1f1659e3f41ecb88d/speed_cli-0.1.1.tar.gz
+[2023-05-12 12:37:22] INFO root fetch - processPackages [mocket]: Downloading https://files.pythonhosted.org/packages/7c/48/9298bfb1f8104b0e9fccf5cd79aa09c7b4e3ec9514ee5306b1052c826c53/mocket-3.9.44.tar.gz
+[2023-05-12 12:37:22] INFO root fetch - processPackages [json-fingerprint]: Downloading https://files.pythonhosted.org/packages/b2/9d/3037daf1c2a25f3767591a4b4e3df9f4cffd3dba555410b74d99e555549a/json-fingerprint-0.9.2.tar.gz
+[2023-05-12 12:37:22] INFO root fetch - processPackages [example-sulthan4]: executing diffoscope
+[2023-05-12 12:37:22] INFO root fetch - processPackages [example-sulthan4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/example-sulthan4-0.0.3.tar.gz tmp/example-sulthan4-0.0.4.tar.gz --markdown 20230512/e/example-sulthan4/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-12 12:37:22] INFO root fetch - processPackages [riversand]: executing diffoscope
+[2023-05-12 12:37:22] INFO root fetch - processPackages [riversand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/riversand-1.2.0.tar.gz tmp/riversand-1.2.1.tar.gz --markdown 20230512/r/riversand/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-05-12 12:37:22] INFO root fetch - processPackages [speed-cli]: executing diffoscope
+[2023-05-12 12:37:22] INFO root fetch - processPackages [speed-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/speed_cli-0.1.0-py3-none-any.whl.zip tmp/speed_cli-0.1.1.tar.gz --markdown 20230512/s/speed-cli/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-12 12:37:22] INFO root fetch - processPackages [mocket]: executing diffoscope
+[2023-05-12 12:37:22] INFO root fetch - processPackages [mocket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mocket-3.9.42.tar.gz tmp/mocket-3.9.44.tar.gz --markdown 20230512/m/mocket/3.9.42-3.9.44/diff.md --exclude *.pyd
+[2023-05-12 12:37:22] INFO root fetch - processPackages [json-fingerprint]: executing diffoscope
+[2023-05-12 12:37:22] INFO root fetch - processPackages [json-fingerprint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json-fingerprint-0.9.1.tar.gz tmp/json-fingerprint-0.9.2.tar.gz --markdown 20230512/j/json-fingerprint/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-12 12:37:23] INFO root fetch - main [MainThread]: End processing [wombatoo]: success
+[2023-05-12 12:37:23] INFO root fetch - main [MainThread]: End processing [fast-bf]: success
+[2023-05-12 12:37:24] INFO root fetch - main [MainThread]: End processing [questdb-connect]: success
+[2023-05-12 12:37:24] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2023-05-12 12:37:24] INFO root fetch - main [MainThread]: End processing [speed-cli]: success
+[2023-05-12 12:37:24] INFO root fetch - main [MainThread]: End processing [example-sulthan4]: success
+[2023-05-12 12:37:24] INFO root fetch - main [MainThread]: End processing [mocket]: success
+[2023-05-12 12:37:25] INFO root fetch - main [MainThread]: End processing [json-fingerprint]: success
+[2023-05-12 12:37:25] INFO root fetch - main [MainThread]: End processing [riversand]: success
+[2023-05-12 12:37:25] INFO root fetch - main [MainThread]: Store serial: [18076700]
