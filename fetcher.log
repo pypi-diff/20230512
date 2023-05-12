@@ -16141,3 +16141,61 @@ EOFError: EOF read where object expected
 [2023-05-12 18:56:57] INFO root fetch - main [MainThread]: End processing [seleniumbase]: success
 [2023-05-12 18:56:59] INFO root fetch - main [MainThread]: End processing [discovery-transition-ds]: success
 [2023-05-12 18:56:59] INFO root fetch - main [MainThread]: Store serial: [18081151]
+[2023-05-12 19:02:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18081151]
+[2023-05-12 19:02:09] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-12 19:02:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytest-sbase
+[2023-05-12 19:02:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pymovie
+[2023-05-12 19:02:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytest-seleniumbase
+[2023-05-12 19:02:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: quickops
+[2023-05-12 19:02:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qcew
+[2023-05-12 19:02:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: inmanta-dev-dependencies
+[2023-05-12 19:02:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aleksis-app-csvimport
+[2023-05-12 19:02:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: graph-datasets
+[2023-05-12 19:02:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ws.ddns
+[2023-05-12 19:02:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: volttron-sqlite-historian
+[2023-05-12 19:02:09] WARNING root fetch - processPackages [quickops]: Skipping, unable to determine old version
+[2023-05-12 19:02:09] INFO root fetch - processPackages [pymovie]: New version: [3.7.5] Old Version: [3.7.3]
+[2023-05-12 19:02:09] WARNING root fetch - processPackages [qcew]: Skipping, unable to determine old version
+[2023-05-12 19:02:09] INFO root fetch - processPackages [graph-datasets]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-12 19:02:09] INFO root fetch - main [MainThread]: End processing [quickops] error
+[2023-05-12 19:02:09] INFO root fetch - main [MainThread]: End processing [qcew] error
+[2023-05-12 19:02:09] INFO root fetch - processPackages [volttron-sqlite-historian]: New version: [0.2.0rc0] Old Version: [0.1.1a9]
+[2023-05-12 19:02:09] INFO root fetch - processPackages [aleksis-app-csvimport]: New version: [3.0b0] Old Version: [3.0]
+[2023-05-12 19:02:09] INFO root fetch - processPackages [inmanta-dev-dependencies]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-05-12 19:02:09] INFO root fetch - processPackages [ws.ddns]: New version: [1.4.0] Old Version: [1.3.1]
+[2023-05-12 19:02:09] INFO root fetch - processPackages [pytest-seleniumbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-05-12 19:02:09] INFO root fetch - processPackages [pytest-sbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-05-12 19:02:09] INFO root fetch - processPackages [aleksis-app-csvimport]: Downloading https://files.pythonhosted.org/packages/03/d8/abe407de35a6b992f3a982423d306c750ebb69b9bf08c345423b0907fea2/aleksis_app_csvimport-3.0.tar.gz
+[2023-05-12 19:02:09] INFO root fetch - processPackages [pymovie]: Downloading https://files.pythonhosted.org/packages/18/c0/3aaa243fcf6c85c85cacf88354117eb48da3fb251d1dc13730fd78ed5ea2/pymovie-3.7.3.tar.gz
+[2023-05-12 19:02:09] INFO root fetch - processPackages [graph-datasets]: Downloading https://files.pythonhosted.org/packages/71/81/639af86b78a30292b5dabc07cfacdf31540a690d43cac1993ce29be9fd40/graph_datasets-0.1.2.tar.gz
+[2023-05-12 19:02:09] INFO root fetch - processPackages [ws.ddns]: Downloading https://files.pythonhosted.org/packages/52/4d/01a30a63afceed270adba62ad7483595695ff43390147be3dce3cb9d93c7/ws.ddns-1.3.1.tar.gz
+[2023-05-12 19:02:09] INFO root fetch - processPackages [inmanta-dev-dependencies]: Downloading https://files.pythonhosted.org/packages/a7/46/214378646a99a91221dc71abb67439f6a0c0215cd3c41aaada2a93fe0511/inmanta-dev-dependencies-2.8.0.tar.gz
+[2023-05-12 19:02:09] INFO root fetch - processPackages [volttron-sqlite-historian]: executing diffoscope
+[2023-05-12 19:02:09] INFO root fetch - processPackages [volttron-sqlite-historian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volttron_sqlite_historian-0.1.1a9.tar.gz tmp/volttron_sqlite_historian-0.2.0rc0.tar.gz --markdown 20230512/v/volttron-sqlite-historian/0.1.1a9-0.2.0rc0/diff.md --exclude *.pyd
+[2023-05-12 19:02:09] INFO root fetch - processPackages [graph-datasets]: executing diffoscope
+[2023-05-12 19:02:09] INFO root fetch - processPackages [graph-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graph_datasets-0.1.1.tar.gz tmp/graph_datasets-0.1.2.tar.gz --markdown 20230512/g/graph-datasets/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-12 19:02:09] INFO root fetch - processPackages [pytest-seleniumbase]: executing diffoscope
+[2023-05-12 19:02:09] INFO root fetch - processPackages [pytest-seleniumbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-seleniumbase-4.9.8.tar.gz tmp/pytest-seleniumbase-4.9.9.tar.gz --markdown 20230512/p/pytest-seleniumbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-05-12 19:02:09] INFO root fetch - processPackages [pytest-sbase]: executing diffoscope
+[2023-05-12 19:02:09] INFO root fetch - processPackages [pytest-sbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-sbase-4.9.8.tar.gz tmp/pytest-sbase-4.9.9.tar.gz --markdown 20230512/p/pytest-sbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-05-12 19:02:09] INFO root fetch - processPackages [aleksis-app-csvimport]: Downloading https://files.pythonhosted.org/packages/ad/48/aecf01fb5f6d6c83430f826dc393adc992333f18ea31d0516b7d52383e86/aleksis_app_csvimport-3.0b0.tar.gz
+[2023-05-12 19:02:09] INFO root fetch - processPackages [pymovie]: Downloading https://files.pythonhosted.org/packages/bd/64/b97f506a5fa332bf04994965aa7e75076348ac65b7694ab160b6e1bacd4b/pymovie-3.7.5.tar.gz
+[2023-05-12 19:02:09] INFO root fetch - processPackages [inmanta-dev-dependencies]: Downloading https://files.pythonhosted.org/packages/6e/d6/4b81b4f539003cb2b65af1a32f5a66e6362d70ee9e7920c96cd4a868671f/inmanta-dev-dependencies-2.9.0.tar.gz
+[2023-05-12 19:02:09] INFO root fetch - processPackages [ws.ddns]: Downloading https://files.pythonhosted.org/packages/b2/c5/c9df9d43af6f4a6e3bc6c978cab1763ddc0a2f5d90a6b73cb1ef9fe2f107/ws.ddns-1.4.0.tar.gz
+[2023-05-12 19:02:09] INFO root fetch - processPackages [inmanta-dev-dependencies]: executing diffoscope
+[2023-05-12 19:02:09] INFO root fetch - processPackages [inmanta-dev-dependencies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inmanta-dev-dependencies-2.8.0.tar.gz tmp/inmanta-dev-dependencies-2.9.0.tar.gz --markdown 20230512/i/inmanta-dev-dependencies/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-05-12 19:02:09] INFO root fetch - processPackages [pymovie]: executing diffoscope
+[2023-05-12 19:02:09] INFO root fetch - processPackages [pymovie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymovie-3.7.3.tar.gz tmp/pymovie-3.7.5.tar.gz --markdown 20230512/p/pymovie/3.7.3-3.7.5/diff.md --exclude *.pyd
+[2023-05-12 19:02:09] INFO root fetch - processPackages [aleksis-app-csvimport]: executing diffoscope
+[2023-05-12 19:02:09] INFO root fetch - processPackages [aleksis-app-csvimport]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aleksis_app_csvimport-3.0.tar.gz tmp/aleksis_app_csvimport-3.0b0.tar.gz --markdown 20230512/a/aleksis-app-csvimport/3.0-3.0b0/diff.md --exclude *.pyd
+[2023-05-12 19:02:09] INFO root fetch - processPackages [ws.ddns]: executing diffoscope
+[2023-05-12 19:02:09] INFO root fetch - processPackages [ws.ddns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ws.ddns-1.3.1.tar.gz tmp/ws.ddns-1.4.0.tar.gz --markdown 20230512/w/ws.ddns/1.3.1-1.4.0/diff.md --exclude *.pyd
+[2023-05-12 19:02:10] INFO root fetch - main [MainThread]: End processing [volttron-sqlite-historian]: success
+[2023-05-12 19:02:11] INFO root fetch - main [MainThread]: End processing [pytest-sbase]: success
+[2023-05-12 19:02:11] INFO root fetch - main [MainThread]: End processing [pytest-seleniumbase]: success
+[2023-05-12 19:02:11] INFO root fetch - main [MainThread]: End processing [graph-datasets]: success
+[2023-05-12 19:02:11] INFO root fetch - main [MainThread]: End processing [inmanta-dev-dependencies]: success
+[2023-05-12 19:02:11] INFO root fetch - main [MainThread]: End processing [ws.ddns]: success
+[2023-05-12 19:02:11] INFO root fetch - main [MainThread]: End processing [pymovie]: success
+[2023-05-12 19:02:12] INFO root fetch - main [MainThread]: End processing [aleksis-app-csvimport]: success
+[2023-05-12 19:02:12] INFO root fetch - main [MainThread]: Store serial: [18081179]
