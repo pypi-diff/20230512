@@ -5046,3 +5046,85 @@
 [2023-05-12 08:12:16] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
 [2023-05-12 08:12:16] INFO root fetch - main [MainThread]: End processing [ocf-datapipes]: success
 [2023-05-12 08:12:16] INFO root fetch - main [MainThread]: Store serial: [18073888]
+[2023-05-12 08:17:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18073888]
+[2023-05-12 08:17:25] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-12 08:17:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dingtalk-stream
+[2023-05-12 08:17:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kodexa
+[2023-05-12 08:17:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flaretool
+[2023-05-12 08:17:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Pytorch-nlp-Chatbot
+[2023-05-12 08:17:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: deep-training
+[2023-05-12 08:17:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: torch-hrp
+[2023-05-12 08:17:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: LD2410
+[2023-05-12 08:17:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aplusml
+[2023-05-12 08:17:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: metasys
+[2023-05-12 08:17:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: edx-ecommerce-worker
+[2023-05-12 08:17:25] WARNING root fetch - processPackages [dingtalk-stream]: Skipping, unable to determine old version
+[2023-05-12 08:17:25] WARNING root fetch - processPackages [Pytorch-nlp-Chatbot]: Skipping, unable to determine old version
+[2023-05-12 08:17:25] INFO root fetch - processPackages [dingtalk-stream]: Start processing: ambient-toolbox
+[2023-05-12 08:17:25] INFO root fetch - main [MainThread]: End processing [dingtalk-stream] error
+[2023-05-12 08:17:25] INFO root fetch - processPackages [Pytorch-nlp-Chatbot]: Start processing: PepNest
+[2023-05-12 08:17:25] INFO root fetch - processPackages [deep-training]: New version: [0.1.5rc2] Old Version: [0.1.5rc1]
+[2023-05-12 08:17:25] INFO root fetch - main [MainThread]: End processing [Pytorch-nlp-Chatbot] error
+[2023-05-12 08:17:25] WARNING root fetch - processPackages [flaretool]: Skipping, unable to determine old version
+[2023-05-12 08:17:25] INFO root fetch - processPackages [LD2410]: New version: [1.1.1] Old Version: [1.1]
+[2023-05-12 08:17:25] INFO root fetch - processPackages [flaretool]: Start processing: dbt-airflow-factory
+[2023-05-12 08:17:25] WARNING root fetch - processPackages [metasys]: Skipping, unable to determine old version
+[2023-05-12 08:17:25] INFO root fetch - main [MainThread]: End processing [flaretool] error
+[2023-05-12 08:17:25] INFO root fetch - processPackages [metasys]: Start processing: eswrap
+[2023-05-12 08:17:25] INFO root fetch - main [MainThread]: End processing [metasys] error
+[2023-05-12 08:17:25] WARNING root fetch - processPackages [torch-hrp]: Skipping, unable to determine old version
+[2023-05-12 08:17:25] INFO root fetch - processPackages [torch-hrp]: Start processing: LD2410
+[2023-05-12 08:17:25] INFO root fetch - main [MainThread]: End processing [torch-hrp] error
+[2023-05-12 08:17:25] INFO root fetch - processPackages [ambient-toolbox]: New version: [8.3.3] Old Version: [8.3.2]
+[2023-05-12 08:17:25] INFO root fetch - processPackages [dbt-airflow-factory]: New version: [0.31.1] Old Version: [0.31.0]
+[2023-05-12 08:17:25] WARNING root fetch - processPackages [aplusml]: Skipping, unable to determine old version
+[2023-05-12 08:17:25] INFO root fetch - processPackages [aplusml]: Start processing: bool-to-int8-ray
+[2023-05-12 08:17:25] INFO root fetch - main [MainThread]: End processing [aplusml] error
+[2023-05-12 08:17:25] INFO root fetch - processPackages [edx-ecommerce-worker]: New version: [3.3.3] Old Version: [3.3.2]
+[2023-05-12 08:17:25] INFO root fetch - processPackages [LD2410]: New version: [1.1.1] Old Version: [1.1]
+[2023-05-12 08:17:25] WARNING root fetch - processPackages [PepNest]: Skipping, unable to determine old version
+[2023-05-12 08:17:25] INFO root fetch - main [MainThread]: End processing [PepNest] error
+[2023-05-12 08:17:25] INFO root fetch - processPackages [eswrap]: New version: [0.4.1] Old Version: [0.4]
+[2023-05-12 08:17:25] INFO root fetch - processPackages [kodexa]: New version: [6.1.4] Old Version: [6.1.3]
+[2023-05-12 08:17:25] WARNING root fetch - processPackages [bool-to-int8-ray]: Skipping, unable to determine old version
+[2023-05-12 08:17:25] INFO root fetch - main [MainThread]: End processing [bool-to-int8-ray] error
+[2023-05-12 08:17:25] INFO root fetch - processPackages [ambient-toolbox]: Downloading https://files.pythonhosted.org/packages/68/11/b208b62e2005c5d0fc882654e2f605af6cc90e6252995e01d0257f052ca5/ambient-toolbox-8.3.2.tar.gz
+[2023-05-12 08:17:25] INFO root fetch - processPackages [LD2410]: Downloading https://files.pythonhosted.org/packages/22/a4/0fc18f1ca565fc3e052ea305f6783d20c787c8d428dcf5ff91d61f6499f7/ld2410-1.1.tar.gz
+[2023-05-12 08:17:25] INFO root fetch - processPackages [LD2410]: Downloading https://files.pythonhosted.org/packages/22/a4/0fc18f1ca565fc3e052ea305f6783d20c787c8d428dcf5ff91d61f6499f7/ld2410-1.1.tar.gz
+[2023-05-12 08:17:25] INFO root fetch - processPackages [deep-training]: Downloading https://files.pythonhosted.org/packages/71/34/f89cb4302d6a9d2986a3840641a12d4b99e0fb84a656d12bacbe509980cc/deep_training-0.1.5rc1-py3-none-any.whl
+[2023-05-12 08:17:25] INFO root fetch - processPackages [dbt-airflow-factory]: Downloading https://files.pythonhosted.org/packages/90/93/cb4b555b456da12baf81836bcba5983468dd6fce1fed4197031ff337ef29/dbt-airflow-factory-0.31.0.tar.gz
+[2023-05-12 08:17:25] INFO root fetch - processPackages [eswrap]: Downloading https://files.pythonhosted.org/packages/f1/34/1c32b7a66d3599de7575a041d3799262ec0c2b9605fe775b2758c3abe143/eswrap-0.4.1.tar.gz
+[2023-05-12 08:17:25] INFO root fetch - processPackages [edx-ecommerce-worker]: Downloading https://files.pythonhosted.org/packages/47/43/d5ec7262ed5cceb8b8fa684a03c4ae40f8da78becbccce09e70d5b7fa24c/edx-ecommerce-worker-3.3.2.tar.gz
+[2023-05-12 08:17:25] INFO root fetch - processPackages [kodexa]: Downloading https://files.pythonhosted.org/packages/de/2c/da5f6d836178a8ae77bb0e18d6a44f94e6fb7e425740b797677596cc3276/kodexa-6.1.3.tar.gz
+[2023-05-12 08:17:25] INFO root fetch - processPackages [eswrap]: executing diffoscope
+[2023-05-12 08:17:25] INFO root fetch - processPackages [eswrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eswrap-0.4.tar.gz tmp/eswrap-0.4.1.tar.gz --markdown 20230512/e/eswrap/0.4-0.4.1/diff.md --exclude *.pyd
+[2023-05-12 08:17:25] INFO root fetch - processPackages [LD2410]: Downloading https://files.pythonhosted.org/packages/90/c7/4aae9fb346c52b465df52a04e1c1ed60c7cadc9503e4b4186c11f2809594/ld2410-1.1.1.tar.gz
+[2023-05-12 08:17:25] INFO root fetch - processPackages [LD2410]: Downloading https://files.pythonhosted.org/packages/90/c7/4aae9fb346c52b465df52a04e1c1ed60c7cadc9503e4b4186c11f2809594/ld2410-1.1.1.tar.gz
+[2023-05-12 08:17:25] INFO root fetch - processPackages [ambient-toolbox]: Downloading https://files.pythonhosted.org/packages/fb/1a/c29fb0d18cfbaa930416ad7e0c48490883b752f9f717fe1af20a42976e2e/ambient-toolbox-8.3.3.tar.gz
+[2023-05-12 08:17:25] INFO root fetch - processPackages [deep-training]: Downloading https://files.pythonhosted.org/packages/53/5a/a44d33e0fe904c9137555e1029b14ebfe0c79c949a0866e23577b317638f/deep_training-0.1.5rc2-py3-none-any.whl
+[2023-05-12 08:17:26] INFO root fetch - processPackages [dbt-airflow-factory]: Downloading https://files.pythonhosted.org/packages/1a/fe/dbc3b7bff014db788c31a855f03c38d47c1c87c3d7dd6c485f3700c325bf/dbt-airflow-factory-0.31.1.tar.gz
+[2023-05-12 08:17:26] INFO root fetch - processPackages [LD2410]: executing diffoscope
+[2023-05-12 08:17:26] INFO root fetch - processPackages [LD2410]: executing diffoscope
+[2023-05-12 08:17:26] INFO root fetch - processPackages [LD2410]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ld2410-1.1.tar.gz tmp/ld2410-1.1.1.tar.gz --markdown 20230512/L/LD2410/1.1-1.1.1/diff.md --exclude *.pyd
+[2023-05-12 08:17:26] INFO root fetch - processPackages [LD2410]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ld2410-1.1.tar.gz tmp/ld2410-1.1.1.tar.gz --markdown 20230512/L/LD2410/1.1-1.1.1/diff.md --exclude *.pyd
+[2023-05-12 08:17:26] INFO root fetch - processPackages [ambient-toolbox]: executing diffoscope
+[2023-05-12 08:17:26] INFO root fetch - processPackages [ambient-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ambient-toolbox-8.3.2.tar.gz tmp/ambient-toolbox-8.3.3.tar.gz --markdown 20230512/a/ambient-toolbox/8.3.2-8.3.3/diff.md --exclude *.pyd
+[2023-05-12 08:17:26] INFO root fetch - processPackages [kodexa]: Downloading https://files.pythonhosted.org/packages/12/bc/2e66a281dbd2913d4286c0c8ff4525f725eecc2605ad18903b5536fa7e7b/kodexa-6.1.4.tar.gz
+[2023-05-12 08:17:26] INFO root fetch - processPackages [edx-ecommerce-worker]: Downloading https://files.pythonhosted.org/packages/cd/5a/3360765750c3dbe7672c2df765ad90b12a06a6ee6d4576970662d3f49833/edx-ecommerce-worker-3.3.3.tar.gz
+[2023-05-12 08:17:26] INFO root fetch - processPackages [dbt-airflow-factory]: executing diffoscope
+[2023-05-12 08:17:26] INFO root fetch - processPackages [dbt-airflow-factory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-airflow-factory-0.31.0.tar.gz tmp/dbt-airflow-factory-0.31.1.tar.gz --markdown 20230512/d/dbt-airflow-factory/0.31.0-0.31.1/diff.md --exclude *.pyd
+[2023-05-12 08:17:26] INFO root fetch - processPackages [kodexa]: executing diffoscope
+[2023-05-12 08:17:26] INFO root fetch - processPackages [kodexa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexa-6.1.3.tar.gz tmp/kodexa-6.1.4.tar.gz --markdown 20230512/k/kodexa/6.1.3-6.1.4/diff.md --exclude *.pyd
+[2023-05-12 08:17:26] INFO root fetch - processPackages [edx-ecommerce-worker]: executing diffoscope
+[2023-05-12 08:17:26] INFO root fetch - processPackages [edx-ecommerce-worker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edx-ecommerce-worker-3.3.2.tar.gz tmp/edx-ecommerce-worker-3.3.3.tar.gz --markdown 20230512/e/edx-ecommerce-worker/3.3.2-3.3.3/diff.md --exclude *.pyd
+[2023-05-12 08:17:26] INFO root fetch - processPackages [deep-training]: executing diffoscope
+[2023-05-12 08:17:26] INFO root fetch - processPackages [deep-training]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deep_training-0.1.5rc1-py3-none-any.whl.zip tmp/deep_training-0.1.5rc2-py3-none-any.whl.zip --markdown 20230512/d/deep-training/0.1.5rc1-0.1.5rc2/diff.md --exclude *.pyd
+[2023-05-12 08:17:27] INFO root fetch - main [MainThread]: End processing [LD2410]: success
+[2023-05-12 08:17:27] INFO root fetch - main [MainThread]: End processing [eswrap]: success
+[2023-05-12 08:17:27] INFO root fetch - main [MainThread]: End processing [LD2410]: success
+[2023-05-12 08:17:27] INFO root fetch - main [MainThread]: End processing [kodexa]: success
+[2023-05-12 08:17:27] INFO root fetch - main [MainThread]: End processing [dbt-airflow-factory]: success
+[2023-05-12 08:17:28] INFO root fetch - main [MainThread]: End processing [edx-ecommerce-worker]: success
+[2023-05-12 08:17:28] INFO root fetch - main [MainThread]: End processing [ambient-toolbox]: success
+[2023-05-12 08:17:29] INFO root fetch - main [MainThread]: End processing [deep-training]: success
+[2023-05-12 08:17:29] INFO root fetch - main [MainThread]: Store serial: [18073963]
