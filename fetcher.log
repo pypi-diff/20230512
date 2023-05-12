@@ -14264,3 +14264,78 @@ EOFError: EOF read where object expected
 [2023-05-12 17:38:51] INFO root fetch - main [MainThread]: End processing [tabdoc]: success
 [2023-05-12 17:38:54] INFO root fetch - main [MainThread]: End processing [oloren]: success
 [2023-05-12 17:38:54] INFO root fetch - main [MainThread]: Store serial: [18080158]
+[2023-05-12 17:43:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18080158]
+[2023-05-12 17:44:03] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-12 17:44:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: screeny
+[2023-05-12 17:44:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hotspotty-payment-email
+[2023-05-12 17:44:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: apidevtools
+[2023-05-12 17:44:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mainnet
+[2023-05-12 17:44:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nester-struct
+[2023-05-12 17:44:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: napari-stpt
+[2023-05-12 17:44:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: umap-project
+[2023-05-12 17:44:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hotspotty-payment-email
+[2023-05-12 17:44:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aesim.simba
+[2023-05-12 17:44:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: apidevtools
+[2023-05-12 17:44:03] INFO root fetch - processPackages [screeny]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-05-12 17:44:03] INFO root fetch - processPackages [hotspotty-payment-email]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-12 17:44:03] INFO root fetch - processPackages [apidevtools]: New version: [3.2.4] Old Version: [3.2.3]
+[2023-05-12 17:44:03] INFO root fetch - processPackages [mainnet]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-12 17:44:03] INFO root fetch - processPackages [hotspotty-payment-email]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-12 17:44:03] INFO root fetch - processPackages [apidevtools]: New version: [3.2.4] Old Version: [3.2.3]
+[2023-05-12 17:44:03] INFO root fetch - processPackages [nester-struct]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-12 17:44:03] INFO root fetch - processPackages [umap-project]: New version: [1.2.5] Old Version: [1.2.4]
+[2023-05-12 17:44:03] INFO root fetch - processPackages [napari-stpt]: New version: [0.1.0.2] Old Version: [0.1.0.1]
+[2023-05-12 17:44:03] INFO root fetch - processPackages [aesim.simba]: New version: [23.5.5] Old Version: [2023.5.4a1]
+[2023-05-12 17:44:03] INFO root fetch - processPackages [hotspotty-payment-email]: Downloading https://files.pythonhosted.org/packages/51/02/16b3c4710cda9ce097297cf13e8534aabeb224bfbded051d3878aa6545ee/hotspotty_payment_email-0.1.0.tar.gz
+[2023-05-12 17:44:03] INFO root fetch - processPackages [hotspotty-payment-email]: Downloading https://files.pythonhosted.org/packages/51/02/16b3c4710cda9ce097297cf13e8534aabeb224bfbded051d3878aa6545ee/hotspotty_payment_email-0.1.0.tar.gz
+[2023-05-12 17:44:03] INFO root fetch - processPackages [apidevtools]: Downloading https://files.pythonhosted.org/packages/4d/09/327588954a201cce0cdffa520bb99d0bd5f7bd66aae6c4e63079eaed8d08/apidevtools-3.2.4.tar.gz
+[2023-05-12 17:44:04] INFO root fetch - processPackages [apidevtools]: Downloading https://files.pythonhosted.org/packages/4d/09/327588954a201cce0cdffa520bb99d0bd5f7bd66aae6c4e63079eaed8d08/apidevtools-3.2.4.tar.gz
+[2023-05-12 17:44:04] INFO root fetch - processPackages [apidevtools]: executing diffoscope
+[2023-05-12 17:44:04] INFO root fetch - processPackages [apidevtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apidevtools-3.2.3.tar.gz tmp/apidevtools-3.2.4.tar.gz --markdown 20230512/a/apidevtools/3.2.3-3.2.4/diff.md --exclude *.pyd
+[2023-05-12 17:44:04] INFO root fetch - processPackages [nester-struct]: Downloading https://files.pythonhosted.org/packages/c3/72/88948b93f3195c42278b2898ece183f28c9a6e5c956a3bf072c8745f58aa/nester-struct-0.1.1.tar.gz
+[2023-05-12 17:44:04] INFO root fetch - processPackages [napari-stpt]: Downloading https://files.pythonhosted.org/packages/22/97/fb84b0720e9399a1d1497a8a5809ccc58baf98e8a33bb93c95f064f83ed0/napari-stpt-0.1.0.1.tar.gz
+[2023-05-12 17:44:04] INFO root fetch - processPackages [umap-project]: Downloading https://files.pythonhosted.org/packages/5b/c9/49692af04f688b4a7a1bd2baece79a8b04b7d2bf93eefcc58b7e301d72b9/umap-project-1.2.4.tar.gz
+[2023-05-12 17:44:04] INFO root fetch - processPackages [apidevtools]: executing diffoscope
+[2023-05-12 17:44:04] INFO root fetch - processPackages [apidevtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apidevtools-3.2.3.tar.gz tmp/apidevtools-3.2.4.tar.gz --markdown 20230512/a/apidevtools/3.2.3-3.2.4/diff.md --exclude *.pyd
+[2023-05-12 17:44:04] INFO root fetch - processPackages [screeny]: Downloading https://files.pythonhosted.org/packages/6e/1a/afd6f67a9c2d5a4def3cebb4b9919921b43c812e42b8154c94aae7d09d2a/screeny-0.3.0.tar.gz
+[2023-05-12 17:44:04] INFO root fetch - processPackages [aesim.simba]: Downloading https://files.pythonhosted.org/packages/d4/9f/a22b1152697ff4da5dc6248a4a954dec69502837a824f3806cdea796f725/aesim.simba-2023.5.4a1-py3-none-win_amd64.whl
+[2023-05-12 17:44:04] INFO root fetch - processPackages [screeny]: executing diffoscope
+[2023-05-12 17:44:04] INFO root fetch - processPackages [screeny]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/screeny-0.2.1.tar.gz tmp/screeny-0.3.0.tar.gz --markdown 20230512/s/screeny/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-05-12 17:44:04] INFO root fetch - processPackages [mainnet]: executing diffoscope
+[2023-05-12 17:44:04] INFO root fetch - processPackages [mainnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mainnet-1.1.8.tar.gz tmp/mainnet-1.1.9.tar.gz --markdown 20230512/m/mainnet/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-12 17:44:04] WARNING root fetch - processPackages [aesim.simba]: Skipping package: exceeds size limit 86846590>=10485760
+[2023-05-12 17:44:04] INFO root fetch - processPackages [aesim.simba]: Start processing: isidore
+[2023-05-12 17:44:04] INFO root fetch - main [MainThread]: End processing [aesim.simba] error
+[2023-05-12 17:44:04] INFO root fetch - processPackages [hotspotty-payment-email]: Downloading https://files.pythonhosted.org/packages/a0/b5/75f976da21fc78cace42643bc4aaf092fe573ec680812c4d9d931bc9567c/hotspotty_payment_email-0.2.0.tar.gz
+[2023-05-12 17:44:04] INFO root fetch - processPackages [hotspotty-payment-email]: Downloading https://files.pythonhosted.org/packages/a0/b5/75f976da21fc78cace42643bc4aaf092fe573ec680812c4d9d931bc9567c/hotspotty_payment_email-0.2.0.tar.gz
+[2023-05-12 17:44:04] WARNING root fetch - processPackages [isidore]: Skipping, unable to determine old version
+[2023-05-12 17:44:04] INFO root fetch - processPackages [isidore]: Start processing: kcli
+[2023-05-12 17:44:04] INFO root fetch - main [MainThread]: End processing [isidore] error
+[2023-05-12 17:44:04] INFO root fetch - processPackages [hotspotty-payment-email]: executing diffoscope
+[2023-05-12 17:44:04] INFO root fetch - processPackages [hotspotty-payment-email]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotspotty_payment_email-0.1.0.tar.gz tmp/hotspotty_payment_email-0.2.0.tar.gz --markdown 20230512/h/hotspotty-payment-email/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-12 17:44:04] INFO root fetch - processPackages [hotspotty-payment-email]: executing diffoscope
+[2023-05-12 17:44:04] INFO root fetch - processPackages [hotspotty-payment-email]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotspotty_payment_email-0.1.0.tar.gz tmp/hotspotty_payment_email-0.2.0.tar.gz --markdown 20230512/h/hotspotty-payment-email/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-12 17:44:04] INFO root fetch - processPackages [kcli]: New version: [99.0.202305121341] Old Version: [99.0.202305121318]
+[2023-05-12 17:44:04] INFO root fetch - processPackages [napari-stpt]: Downloading https://files.pythonhosted.org/packages/9a/ae/4d93576e4e054f3fe50a1fe777cdee757088be3f54273d260fe92bdad2fe/napari-stpt-0.1.0.2.tar.gz
+[2023-05-12 17:44:04] INFO root fetch - processPackages [nester-struct]: Downloading https://files.pythonhosted.org/packages/26/95/9f1ca43f48276403312fcd033e77dd3a54db35688fc1f0e6e9a7a7ef19f5/nester-struct-0.1.2.tar.gz
+[2023-05-12 17:44:04] INFO root fetch - processPackages [napari-stpt]: executing diffoscope
+[2023-05-12 17:44:04] INFO root fetch - processPackages [napari-stpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-stpt-0.1.0.1.tar.gz tmp/napari-stpt-0.1.0.2.tar.gz --markdown 20230512/n/napari-stpt/0.1.0.1-0.1.0.2/diff.md --exclude *.pyd
+[2023-05-12 17:44:04] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/82/4a/860d928ff49f9f0bef8ab4f70fa30265e3955678ee73d79178c0d235125a/kcli-99.0.202305121341-py3-none-any.whl
+[2023-05-12 17:44:04] INFO root fetch - processPackages [umap-project]: Downloading https://files.pythonhosted.org/packages/91/83/0d0daee5b0321c300682e8a6fb4a817f5d594349744de15e1b87ac9d404b/umap-project-1.2.5.tar.gz
+[2023-05-12 17:44:04] INFO root fetch - processPackages [nester-struct]: executing diffoscope
+[2023-05-12 17:44:04] INFO root fetch - processPackages [nester-struct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nester-struct-0.1.1.tar.gz tmp/nester-struct-0.1.2.tar.gz --markdown 20230512/n/nester-struct/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-12 17:44:04] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-05-12 17:44:04] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202305121318-py3-none-any.whl.zip tmp/kcli-99.0.202305121341-py3-none-any.whl.zip --markdown 20230512/k/kcli/99.0.202305121318-99.0.202305121341/diff.md --exclude *.pyd
+[2023-05-12 17:44:04] INFO root fetch - processPackages [umap-project]: executing diffoscope
+[2023-05-12 17:44:04] INFO root fetch - processPackages [umap-project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/umap-project-1.2.4.tar.gz tmp/umap-project-1.2.5.tar.gz --markdown 20230512/u/umap-project/1.2.4-1.2.5/diff.md --exclude *.pyd
+[2023-05-12 17:44:05] INFO root fetch - main [MainThread]: End processing [apidevtools]: success
+[2023-05-12 17:44:05] INFO root fetch - main [MainThread]: End processing [screeny]: success
+[2023-05-12 17:44:05] INFO root fetch - main [MainThread]: End processing [apidevtools]: success
+[2023-05-12 17:44:05] INFO root fetch - main [MainThread]: End processing [hotspotty-payment-email]: success
+[2023-05-12 17:44:06] INFO root fetch - main [MainThread]: End processing [hotspotty-payment-email]: success
+[2023-05-12 17:44:06] INFO root fetch - main [MainThread]: End processing [napari-stpt]: success
+[2023-05-12 17:44:10] INFO root fetch - main [MainThread]: End processing [umap-project]: success
+[2023-05-12 17:44:11] INFO root fetch - main [MainThread]: End processing [nester-struct]: success
+[2023-05-12 17:44:12] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-05-12 17:44:12] INFO root fetch - main [MainThread]: End processing [mainnet]: success
+[2023-05-12 17:44:12] INFO root fetch - main [MainThread]: Store serial: [18080195]
