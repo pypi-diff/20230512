@@ -2695,3 +2695,64 @@
 [2023-05-12 04:20:43] INFO root fetch - main [MainThread]: End processing [thirdweb-sdk]: success
 [2023-05-12 04:20:44] INFO root fetch - main [MainThread]: End processing [bmi-arcgis-restapi]: success
 [2023-05-12 04:20:44] INFO root fetch - main [MainThread]: Store serial: [18072348]
+[2023-05-12 04:25:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18072348]
+[2023-05-12 04:25:53] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-12 04:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: funasr-onnx
+[2023-05-12 04:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tastytrade-sdk
+[2023-05-12 04:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tencentcloud-sdk-python-iai
+[2023-05-12 04:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tencentcloud-sdk-python-ic
+[2023-05-12 04:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tencentcloud-sdk-python-icr
+[2023-05-12 04:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tencentcloud-sdk-python-ie
+[2023-05-12 04:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tencentcloud-sdk-python-iecp
+[2023-05-12 04:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dialoger
+[2023-05-12 04:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: meowerbot
+[2023-05-12 04:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hdmf
+[2023-05-12 04:25:53] INFO root fetch - processPackages [tastytrade-sdk]: New version: [0.0.dev1] Old Version: [0.0.4a0.dev79]
+[2023-05-12 04:25:53] INFO root fetch - processPackages [tencentcloud-sdk-python-iai]: New version: [3.0.889] Old Version: [3.0.888]
+[2023-05-12 04:25:53] INFO root fetch - processPackages [tencentcloud-sdk-python-icr]: New version: [3.0.889] Old Version: [3.0.888]
+[2023-05-12 04:25:53] INFO root fetch - processPackages [tencentcloud-sdk-python-iecp]: New version: [3.0.889] Old Version: [3.0.888]
+[2023-05-12 04:25:53] INFO root fetch - processPackages [tencentcloud-sdk-python-ie]: New version: [3.0.889] Old Version: [3.0.888]
+[2023-05-12 04:25:53] INFO root fetch - processPackages [tencentcloud-sdk-python-ic]: New version: [3.0.889] Old Version: [3.0.888]
+[2023-05-12 04:25:53] INFO root fetch - processPackages [funasr-onnx]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 04:25:53] INFO root fetch - processPackages [tastytrade-sdk]: executing diffoscope
+[2023-05-12 04:25:53] INFO root fetch - processPackages [tastytrade-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tastytrade_sdk-0.0.4a0.dev79.tar.gz tmp/tastytrade-sdk-0.0.dev1.tar.gz --markdown 20230512/t/tastytrade-sdk/0.0.4a0.dev79-0.0.dev1/diff.md --exclude *.pyd
+[2023-05-12 04:25:53] INFO root fetch - processPackages [meowerbot]: New version: [2.5.3] Old Version: [2.5.2]
+[2023-05-12 04:25:53] INFO root fetch - processPackages [hdmf]: New version: [3.6.0] Old Version: [3.5.5]
+[2023-05-12 04:25:53] WARNING root fetch - processPackages [dialoger]: Skipping, unable to determine old version
+[2023-05-12 04:25:53] INFO root fetch - processPackages [dialoger]: Start processing: ykenan-file
+[2023-05-12 04:25:53] INFO root fetch - main [MainThread]: End processing [dialoger] error
+[2023-05-12 04:25:53] INFO root fetch - processPackages [tencentcloud-sdk-python-iai]: executing diffoscope
+[2023-05-12 04:25:53] INFO root fetch - processPackages [tencentcloud-sdk-python-iai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-iai-3.0.888.tar.gz tmp/tencentcloud-sdk-python-iai-3.0.889.tar.gz --markdown 20230512/t/tencentcloud-sdk-python-iai/3.0.888-3.0.889/diff.md --exclude *.pyd
+[2023-05-12 04:25:53] INFO root fetch - processPackages [tencentcloud-sdk-python-ie]: executing diffoscope
+[2023-05-12 04:25:53] INFO root fetch - processPackages [tencentcloud-sdk-python-ie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-ie-3.0.888.tar.gz tmp/tencentcloud-sdk-python-ie-3.0.889.tar.gz --markdown 20230512/t/tencentcloud-sdk-python-ie/3.0.888-3.0.889/diff.md --exclude *.pyd
+[2023-05-12 04:25:53] INFO root fetch - processPackages [tencentcloud-sdk-python-iecp]: executing diffoscope
+[2023-05-12 04:25:53] INFO root fetch - processPackages [tencentcloud-sdk-python-iecp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-iecp-3.0.888.tar.gz tmp/tencentcloud-sdk-python-iecp-3.0.889.tar.gz --markdown 20230512/t/tencentcloud-sdk-python-iecp/3.0.888-3.0.889/diff.md --exclude *.pyd
+[2023-05-12 04:25:53] INFO root fetch - processPackages [ykenan-file]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-12 04:25:53] INFO root fetch - processPackages [tencentcloud-sdk-python-icr]: executing diffoscope
+[2023-05-12 04:25:53] INFO root fetch - processPackages [tencentcloud-sdk-python-icr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-icr-3.0.888.tar.gz tmp/tencentcloud-sdk-python-icr-3.0.889.tar.gz --markdown 20230512/t/tencentcloud-sdk-python-icr/3.0.888-3.0.889/diff.md --exclude *.pyd
+[2023-05-12 04:25:53] INFO root fetch - processPackages [tencentcloud-sdk-python-ic]: executing diffoscope
+[2023-05-12 04:25:53] INFO root fetch - processPackages [tencentcloud-sdk-python-ic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-ic-3.0.888.tar.gz tmp/tencentcloud-sdk-python-ic-3.0.889.tar.gz --markdown 20230512/t/tencentcloud-sdk-python-ic/3.0.888-3.0.889/diff.md --exclude *.pyd
+[2023-05-12 04:25:53] INFO root fetch - processPackages [ykenan-file]: executing diffoscope
+[2023-05-12 04:25:53] INFO root fetch - processPackages [ykenan-file]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ykenan_file-0.1.8.tar.gz tmp/ykenan_file-0.1.9.tar.gz --markdown 20230512/y/ykenan-file/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-12 04:25:53] INFO root fetch - processPackages [meowerbot]: Downloading https://files.pythonhosted.org/packages/f0/80/9c5d4d3246e578cea0709697da36ad975662d5c90a50f2c5bc9d04fd650e/meowerbot-2.5.2.tar.gz
+[2023-05-12 04:25:53] INFO root fetch - processPackages [funasr-onnx]: Downloading https://files.pythonhosted.org/packages/f0/6a/822f0a5dc10181dd78209415157ec2251ed6b95eda427b56de2cbce4da42/funasr_onnx-0.0.8.tar.gz
+[2023-05-12 04:25:53] INFO root fetch - processPackages [hdmf]: Downloading https://files.pythonhosted.org/packages/47/05/516406c233272f05c13d12f80e73d7f241ed0efa27b68f14c8482c148725/hdmf-3.5.5.tar.gz
+[2023-05-12 04:25:53] INFO root fetch - processPackages [funasr-onnx]: Downloading https://files.pythonhosted.org/packages/b5/45/5882dc218143654979a0cb7c5a476df85a426fa50c9ef021af2e073691ce/funasr_onnx-0.0.9.tar.gz
+[2023-05-12 04:25:53] INFO root fetch - processPackages [funasr-onnx]: executing diffoscope
+[2023-05-12 04:25:53] INFO root fetch - processPackages [funasr-onnx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funasr_onnx-0.0.8.tar.gz tmp/funasr_onnx-0.0.9.tar.gz --markdown 20230512/f/funasr-onnx/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 04:25:53] INFO root fetch - processPackages [hdmf]: Downloading https://files.pythonhosted.org/packages/81/23/759a61e92cf26fd0b7f757ea04b1f49efda003141e797e975abeecd50c17/hdmf-3.6.0.tar.gz
+[2023-05-12 04:25:53] INFO root fetch - processPackages [meowerbot]: Downloading https://files.pythonhosted.org/packages/50/12/53e524a0b1935e4846b263f8474b7c1171a5e3fa82c61273c9dc9c3dac9f/meowerbot-2.5.3.tar.gz
+[2023-05-12 04:25:54] INFO root fetch - processPackages [meowerbot]: executing diffoscope
+[2023-05-12 04:25:54] INFO root fetch - processPackages [meowerbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meowerbot-2.5.2.tar.gz tmp/meowerbot-2.5.3.tar.gz --markdown 20230512/m/meowerbot/2.5.2-2.5.3/diff.md --exclude *.pyd
+[2023-05-12 04:25:54] WARNING root fetch - processPackages [hdmf]: Skipping package: exceeds size limit 15704668>=10485760
+[2023-05-12 04:25:54] INFO root fetch - main [MainThread]: End processing [hdmf] error
+[2023-05-12 04:25:54] INFO root fetch - main [MainThread]: End processing [tastytrade-sdk]: success
+[2023-05-12 04:25:55] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-icr]: success
+[2023-05-12 04:25:55] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-ic]: success
+[2023-05-12 04:25:55] INFO root fetch - main [MainThread]: End processing [ykenan-file]: success
+[2023-05-12 04:25:55] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-ie]: success
+[2023-05-12 04:25:55] INFO root fetch - main [MainThread]: End processing [meowerbot]: success
+[2023-05-12 04:25:55] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-iai]: success
+[2023-05-12 04:25:55] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-iecp]: success
+[2023-05-12 04:25:56] INFO root fetch - main [MainThread]: End processing [funasr-onnx]: success
+[2023-05-12 04:25:56] INFO root fetch - main [MainThread]: Store serial: [18072390]
