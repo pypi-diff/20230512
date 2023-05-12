@@ -4391,3 +4391,82 @@
 [2023-05-12 06:42:40] INFO root fetch - main [MainThread]: End processing [evalplus]: success
 [2023-05-12 06:42:41] INFO root fetch - main [MainThread]: End processing [raindancers-network.raindancers-cdk]: success
 [2023-05-12 06:42:41] INFO root fetch - main [MainThread]: Store serial: [18073335]
+[2023-05-12 06:47:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18073335]
+[2023-05-12 06:47:50] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-12 06:47:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: funasr-onnx
+[2023-05-12 06:47:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: edc-dashboard
+[2023-05-12 06:47:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tencentcloud-sdk-python-tts
+[2023-05-12 06:47:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: guake
+[2023-05-12 06:47:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: easy-gpt-utils
+[2023-05-12 06:47:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tg-music
+[2023-05-12 06:47:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: shoulder
+[2023-05-12 06:47:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: express-pascal-voc-tools
+[2023-05-12 06:47:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-iot-oca
+[2023-05-12 06:47:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addons-oca-iot
+[2023-05-12 06:47:50] INFO root fetch - processPackages [funasr-onnx]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-05-12 06:47:50] INFO root fetch - processPackages [edc-dashboard]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-12 06:47:50] INFO root fetch - processPackages [tencentcloud-sdk-python-tts]: New version: [3.0.890] Old Version: [3.0.889]
+[2023-05-12 06:47:50] INFO root fetch - processPackages [odoo-addons-oca-iot]: New version: [16.0.20230511.0] Old Version: [15.0.20230223.0]
+[2023-05-12 06:47:50] INFO root fetch - processPackages [guake]: New version: [3.9.0] Old Version: [3.8.5.dev0]
+[2023-05-12 06:47:50] INFO root fetch - processPackages [easy-gpt-utils]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-12 06:47:50] INFO root fetch - processPackages [express-pascal-voc-tools]: New version: [0.7.0] Old Version: [0.6.2]
+[2023-05-12 06:47:50] WARNING root fetch - processPackages [tg-music]: Skipping, unable to determine old version
+[2023-05-12 06:47:50] INFO root fetch - processPackages [tg-music]: Start processing: yins-music
+[2023-05-12 06:47:50] INFO root fetch - main [MainThread]: End processing [tg-music] error
+[2023-05-12 06:47:50] INFO root fetch - processPackages [odoo-addon-iot-oca]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-05-12 06:47:50] WARNING root fetch - processPackages [yins-music]: Skipping, unable to determine old version
+[2023-05-12 06:47:50] INFO root fetch - processPackages [yins-music]: Start processing: tencentcloud-sdk-python-vm
+[2023-05-12 06:47:50] INFO root fetch - main [MainThread]: End processing [yins-music] error
+[2023-05-12 06:47:50] INFO root fetch - processPackages [shoulder]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-12 06:47:50] INFO root fetch - processPackages [funasr-onnx]: Downloading https://files.pythonhosted.org/packages/6b/fd/21a3a53f25988d39296e04da7d5a5bc36168a653e60d88ad4ecc1eb93575/funasr_onnx-0.1.0-py3-none-any.whl
+[2023-05-12 06:47:50] INFO root fetch - processPackages [edc-dashboard]: Downloading https://files.pythonhosted.org/packages/2d/b8/29114e0dfb22fdc3bd793529dde989d9f6a5f547672fddf514129968de83/edc_dashboard-0.3.8-py3-none-any.whl
+[2023-05-12 06:47:50] INFO root fetch - processPackages [tencentcloud-sdk-python-vm]: New version: [3.0.890] Old Version: [3.0.889]
+[2023-05-12 06:47:50] INFO root fetch - processPackages [odoo-addons-oca-iot]: Downloading https://files.pythonhosted.org/packages/32/a0/a0dbce2c0062edf0f0e67ecfa64b3b972a88c9c75fcca24fda0f702d9fc2/odoo_addons_oca_iot-15.0.20230223.0-py3-none-any.whl
+[2023-05-12 06:47:50] INFO root fetch - processPackages [express-pascal-voc-tools]: Downloading https://files.pythonhosted.org/packages/f1/f7/ed72f1a80e00dbfa1ddf3b651ed18b740c6166e7289d9e8ca1a168773ec7/express-pascal-voc-tools-0.7.0.tar.gz
+[2023-05-12 06:47:50] INFO root fetch - processPackages [easy-gpt-utils]: Downloading https://files.pythonhosted.org/packages/9e/3b/d85d14c36f8835701b518928d118010ea2b1d06523cc528b69edb9724086/easy_gpt_utils-0.1.8.tar.gz
+[2023-05-12 06:47:50] INFO root fetch - processPackages [guake]: Downloading https://files.pythonhosted.org/packages/97/a1/59689142e5731d66a1377d4b9d555dc8653b4910fb7c894edc36a2477210/guake-3.8.5.dev0.tar.gz
+[2023-05-12 06:47:50] INFO root fetch - processPackages [shoulder]: Downloading https://files.pythonhosted.org/packages/bf/86/d33770797e6e7d5048174a0bfc825f5dca04efa6356daad7a396b63d1731/shoulder-1.0.3.tar.gz
+[2023-05-12 06:47:50] INFO root fetch - processPackages [odoo-addon-iot-oca]: Downloading https://files.pythonhosted.org/packages/bd/ec/1fa0a7e3a1390d993b8c91e10c847ea8ff2b51bb0038aa28ef202209998f/odoo_addon_iot_oca-16.0.1.0.0.3-py3-none-any.whl
+[2023-05-12 06:47:50] INFO root fetch - processPackages [express-pascal-voc-tools]: executing diffoscope
+[2023-05-12 06:47:50] INFO root fetch - processPackages [express-pascal-voc-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/express-pascal-voc-tools-0.6.2.tar.gz tmp/express-pascal-voc-tools-0.7.0.tar.gz --markdown 20230512/e/express-pascal-voc-tools/0.6.2-0.7.0/diff.md --exclude *.pyd
+[2023-05-12 06:47:50] INFO root fetch - processPackages [shoulder]: executing diffoscope
+[2023-05-12 06:47:50] INFO root fetch - processPackages [shoulder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shoulder-1.0.2.tar.gz tmp/shoulder-1.0.3.tar.gz --markdown 20230512/s/shoulder/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-12 06:47:51] INFO root fetch - processPackages [odoo-addon-iot-oca]: executing diffoscope
+[2023-05-12 06:47:51] INFO root fetch - processPackages [odoo-addon-iot-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_iot_oca-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_iot_oca-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230512/o/odoo-addon-iot-oca/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-05-12 06:47:51] INFO root fetch - processPackages [funasr-onnx]: executing diffoscope
+[2023-05-12 06:47:51] INFO root fetch - processPackages [funasr-onnx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funasr_onnx-0.0.9.tar.gz tmp/funasr_onnx-0.1.0-py3-none-any.whl.zip --markdown 20230512/f/funasr-onnx/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-05-12 06:47:51] INFO root fetch - processPackages [odoo-addons-oca-iot]: Downloading https://files.pythonhosted.org/packages/ae/9a/4e9687e0d292cdd9f5cecc7a0c0e028cae0215e20b3195d31f042e35892b/odoo_addons_oca_iot-16.0.20230511.0-py3-none-any.whl
+[2023-05-12 06:47:51] INFO root fetch - processPackages [tencentcloud-sdk-python-tts]: Downloading https://files.pythonhosted.org/packages/a1/07/7d0963f68b0d797d07d73197c46426f5afd69bdd29a4ce8edd883d86b0c9/tencentcloud-sdk-python-tts-3.0.890.tar.gz
+[2023-05-12 06:47:51] INFO root fetch - processPackages [easy-gpt-utils]: Downloading https://files.pythonhosted.org/packages/d8/0d/e613c1b82af6cc2a93cd6ff6c623f42436b1f987c50416dbc801fa283f6c/easy_gpt_utils-0.1.9.tar.gz
+[2023-05-12 06:47:51] INFO root fetch - processPackages [odoo-addons-oca-iot]: executing diffoscope
+[2023-05-12 06:47:51] INFO root fetch - processPackages [odoo-addons-oca-iot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_iot-15.0.20230223.0-py3-none-any.whl.zip tmp/odoo_addons_oca_iot-16.0.20230511.0-py3-none-any.whl.zip --markdown 20230512/o/odoo-addons-oca-iot/15.0.20230223.0-16.0.20230511.0/diff.md --exclude *.pyd
+[2023-05-12 06:47:51] INFO root fetch - processPackages [tencentcloud-sdk-python-vm]: Downloading https://files.pythonhosted.org/packages/53/7c/96e73d53f5fd52808249de8f441ff01d5d8fbdcdd23e0ff11385e4cc80e5/tencentcloud-sdk-python-vm-3.0.890.tar.gz
+[2023-05-12 06:47:51] INFO root fetch - processPackages [easy-gpt-utils]: executing diffoscope
+[2023-05-12 06:47:51] INFO root fetch - processPackages [easy-gpt-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_gpt_utils-0.1.8.tar.gz tmp/easy_gpt_utils-0.1.9.tar.gz --markdown 20230512/e/easy-gpt-utils/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-12 06:47:51] INFO root fetch - processPackages [tencentcloud-sdk-python-tts]: executing diffoscope
+[2023-05-12 06:47:51] INFO root fetch - processPackages [tencentcloud-sdk-python-tts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tts-3.0.889.tar.gz tmp/tencentcloud-sdk-python-tts-3.0.890.tar.gz --markdown 20230512/t/tencentcloud-sdk-python-tts/3.0.889-3.0.890/diff.md --exclude *.pyd
+[2023-05-12 06:47:51] INFO root fetch - processPackages [guake]: Downloading https://files.pythonhosted.org/packages/49/fd/008ecf5aa50193c05607d9f16985d00baf1c2dd120e5d587d8eb2d7e5e36/guake-3.9.0.tar.gz
+[2023-05-12 06:47:51] INFO root fetch - processPackages [tencentcloud-sdk-python-vm]: executing diffoscope
+[2023-05-12 06:47:51] INFO root fetch - processPackages [tencentcloud-sdk-python-vm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-vm-3.0.889.tar.gz tmp/tencentcloud-sdk-python-vm-3.0.890.tar.gz --markdown 20230512/t/tencentcloud-sdk-python-vm/3.0.889-3.0.890/diff.md --exclude *.pyd
+[2023-05-12 06:47:51] INFO root fetch - processPackages [edc-dashboard]: Downloading https://files.pythonhosted.org/packages/5e/a7/a3c0392aeb0460e65b093a1c4379917e377b84d41cb2886b5c199906a679/edc_dashboard-0.3.9-py3-none-any.whl
+[2023-05-12 06:47:51] INFO root fetch - processPackages [edc-dashboard]: executing diffoscope
+[2023-05-12 06:47:51] INFO root fetch - processPackages [edc-dashboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_dashboard-0.3.8-py3-none-any.whl.zip tmp/edc_dashboard-0.3.9-py3-none-any.whl.zip --markdown 20230512/e/edc-dashboard/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-12 06:47:51] INFO root fetch - processPackages [guake]: executing diffoscope
+[2023-05-12 06:47:51] INFO root fetch - processPackages [guake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guake-3.8.5.dev0.tar.gz tmp/guake-3.9.0.tar.gz --markdown 20230512/g/guake/3.8.5.dev0-3.9.0/diff.md --exclude *.pyd
+[2023-05-12 06:47:52] INFO root fetch - processPackages [express-pascal-voc-tools]: Start processing: tencentcloud-sdk-python-vms
+[2023-05-12 06:47:52] INFO root fetch - main [MainThread]: End processing [express-pascal-voc-tools]: success
+[2023-05-12 06:47:52] INFO root fetch - main [MainThread]: End processing [funasr-onnx]: success
+[2023-05-12 06:47:52] INFO root fetch - processPackages [tencentcloud-sdk-python-vms]: New version: [3.0.890] Old Version: [3.0.889]
+[2023-05-12 06:47:52] INFO root fetch - main [MainThread]: End processing [odoo-addon-iot-oca]: success
+[2023-05-12 06:47:52] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-iot]: success
+[2023-05-12 06:47:52] INFO root fetch - main [MainThread]: End processing [shoulder]: success
+[2023-05-12 06:47:52] INFO root fetch - processPackages [tencentcloud-sdk-python-vms]: Downloading https://files.pythonhosted.org/packages/37/d6/5083f95df3138f701e86faf78a823549a1bf375a8548d591e22a0afd1508/tencentcloud-sdk-python-vms-3.0.890.tar.gz
+[2023-05-12 06:47:52] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tts]: success
+[2023-05-12 06:47:53] INFO root fetch - processPackages [tencentcloud-sdk-python-vms]: executing diffoscope
+[2023-05-12 06:47:53] INFO root fetch - processPackages [tencentcloud-sdk-python-vms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-vms-3.0.889.tar.gz tmp/tencentcloud-sdk-python-vms-3.0.890.tar.gz --markdown 20230512/t/tencentcloud-sdk-python-vms/3.0.889-3.0.890/diff.md --exclude *.pyd
+[2023-05-12 06:47:53] INFO root fetch - main [MainThread]: End processing [easy-gpt-utils]: success
+[2023-05-12 06:47:53] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-vm]: success
+[2023-05-12 06:47:54] INFO root fetch - main [MainThread]: End processing [edc-dashboard]: success
+[2023-05-12 06:47:54] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-vms]: success
+[2023-05-12 06:47:58] INFO root fetch - main [MainThread]: End processing [guake]: success
+[2023-05-12 06:47:58] INFO root fetch - main [MainThread]: Store serial: [18073381]
