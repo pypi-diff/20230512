@@ -20727,3 +20727,85 @@ EOFError: EOF read where object expected
 [2023-05-12 23:17:36] INFO root fetch - main [MainThread]: End processing [returnn]: success
 [2023-05-12 23:17:38] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-05-12 23:17:38] INFO root fetch - main [MainThread]: Store serial: [18084274]
+[2023-05-12 23:22:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18084274]
+[2023-05-12 23:22:48] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-12 23:22:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dfdfdfdfhhh
+[2023-05-12 23:22:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: simple-chatgpt-cli
+[2023-05-12 23:22:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hordelib
+[2023-05-12 23:22:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: baguette-verse
+[2023-05-12 23:22:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: landingai
+[2023-05-12 23:22:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: livesolid
+[2023-05-12 23:22:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: audiostream2py
+[2023-05-12 23:22:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyproject-generator
+[2023-05-12 23:22:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Log-Api
+[2023-05-12 23:22:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: localstack-core
+[2023-05-12 23:22:48] INFO root fetch - processPackages [dfdfdfdfhhh]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-12 23:22:48] INFO root fetch - processPackages [simple-chatgpt-cli]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-12 23:22:48] INFO root fetch - processPackages [pyproject-generator]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-05-12 23:22:48] WARNING root fetch - processPackages [Log-Api]: Skipping, unable to determine old version
+[2023-05-12 23:22:48] INFO root fetch - processPackages [Log-Api]: Start processing: not1mm
+[2023-05-12 23:22:48] INFO root fetch - processPackages [baguette-verse]: New version: [1.0.0] Old Version: [0.9.5]
+[2023-05-12 23:22:48] INFO root fetch - main [MainThread]: End processing [Log-Api] error
+[2023-05-12 23:22:48] INFO root fetch - processPackages [landingai]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-12 23:22:48] INFO root fetch - processPackages [hordelib]: New version: [0.9.5] Old Version: [0.9.2]
+[2023-05-12 23:22:48] INFO root fetch - processPackages [livesolid]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-12 23:22:48] INFO root fetch - processPackages [audiostream2py]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-12 23:22:48] INFO root fetch - processPackages [localstack-core]: New version: [2.0.3.dev20230512211955] Old Version: [2.0.3.dev20230512202632]
+[2023-05-12 23:22:48] INFO root fetch - processPackages [not1mm]: New version: [23.5.9.2] Old Version: [23.5.9.1]
+[2023-05-12 23:22:48] INFO root fetch - processPackages [not1mm]: executing diffoscope
+[2023-05-12 23:22:48] INFO root fetch - processPackages [not1mm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/not1mm-23.5.9.1.tar.gz tmp/not1mm-23.5.9.2.tar.gz --markdown 20230512/n/not1mm/23.5.9.1-23.5.9.2/diff.md --exclude *.pyd
+[2023-05-12 23:22:48] INFO root fetch - processPackages [pyproject-generator]: Downloading https://files.pythonhosted.org/packages/b6/0a/5918d81f78016453f031e179ac71db56d07acd15d8405698b2ba96bbdf41/pyproject-generator-0.2.6.tar.gz
+[2023-05-12 23:22:48] INFO root fetch - processPackages [livesolid]: Downloading https://files.pythonhosted.org/packages/42/ad/6f85603f933356fa5a29c36f3e19bc0cfe0ddc4dbe889ca3b74af30d719a/livesolid-0.0.9.tar.gz
+[2023-05-12 23:22:48] INFO root fetch - processPackages [landingai]: Downloading https://files.pythonhosted.org/packages/9e/b8/23d6eef9e79346e7b11f14d159ac8af2004165fed261a79e857a0c1e2786/landingai-0.0.4.tar.gz
+[2023-05-12 23:22:48] INFO root fetch - processPackages [dfdfdfdfhhh]: Downloading https://files.pythonhosted.org/packages/e9/80/99ce143a603de63438b5ac08f2e7c22232e1662bc2184406dd6d9c2c3995/dfdfdfdfhhh-1.0.1.tar.gz
+[2023-05-12 23:22:48] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/ff/dc/8003f7fbd9176fb9f1e6ff9fb5884fd3ad2e4fb4490d0c138ff41f805ae4/localstack-core-2.0.3.dev20230512211955.tar.gz
+[2023-05-12 23:22:49] INFO root fetch - processPackages [simple-chatgpt-cli]: Downloading https://files.pythonhosted.org/packages/81/4c/ceb1c724284834ed90d52d474519c77d2ad2651e8f3560fa764e1e76b570/simple_chatgpt_cli-0.1.5.tar.gz
+[2023-05-12 23:22:49] INFO root fetch - processPackages [livesolid]: executing diffoscope
+[2023-05-12 23:22:49] INFO root fetch - processPackages [livesolid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/livesolid-0.0.8.tar.gz tmp/livesolid-0.0.9.tar.gz --markdown 20230512/l/livesolid/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-12 23:22:49] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-05-12 23:22:49] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.0.3.dev20230512202632.tar.gz tmp/localstack-core-2.0.3.dev20230512211955.tar.gz --markdown 20230512/l/localstack-core/2.0.3.dev20230512202632-2.0.3.dev20230512211955/diff.md --exclude *.pyd
+[2023-05-12 23:22:49] INFO root fetch - processPackages [pyproject-generator]: executing diffoscope
+[2023-05-12 23:22:49] INFO root fetch - processPackages [pyproject-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyproject-generator-0.2.5.tar.gz tmp/pyproject-generator-0.2.6.tar.gz --markdown 20230512/p/pyproject-generator/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-05-12 23:22:49] INFO root fetch - processPackages [baguette-verse]: Downloading https://files.pythonhosted.org/packages/66/dc/ad522c79c134027ce8e2e5ecde8a31ded99f103da614607ba85fa268e360/baguette_verse-1.0.0.tar.gz
+[2023-05-12 23:22:49] INFO root fetch - processPackages [audiostream2py]: executing diffoscope
+[2023-05-12 23:22:49] INFO root fetch - processPackages [audiostream2py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audiostream2py-0.1.8.tar.gz tmp/audiostream2py-0.1.9.tar.gz --markdown 20230512/a/audiostream2py/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-12 23:22:49] INFO root fetch - processPackages [simple-chatgpt-cli]: executing diffoscope
+[2023-05-12 23:22:49] INFO root fetch - processPackages [dfdfdfdfhhh]: Downloading https://files.pythonhosted.org/packages/61/dc/eebed7100e847f7a6351e9df948aea4b3b3a4305412bf2e979e1e64856a0/dfdfdfdfhhh-1.0.2.tar.gz
+[2023-05-12 23:22:49] INFO root fetch - processPackages [simple-chatgpt-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_chatgpt_cli-0.1.4.tar.gz tmp/simple_chatgpt_cli-0.1.5.tar.gz --markdown 20230512/s/simple-chatgpt-cli/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-12 23:22:49] INFO root fetch - processPackages [landingai]: Downloading https://files.pythonhosted.org/packages/bd/83/b25e2ccbc18bb65391896a3fadf760c04cdab1e94cc6ae83da07d5c375eb/landingai-0.0.5.tar.gz
+[2023-05-12 23:22:49] INFO root fetch - processPackages [hordelib]: executing diffoscope
+[2023-05-12 23:22:49] INFO root fetch - processPackages [hordelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hordelib-0.9.2.tar.gz tmp/hordelib-0.9.5.tar.gz --markdown 20230512/h/hordelib/0.9.2-0.9.5/diff.md --exclude *.pyd
+[2023-05-12 23:22:49] INFO root fetch - processPackages [baguette-verse]: executing diffoscope
+[2023-05-12 23:22:49] INFO root fetch - processPackages [baguette-verse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baguette_verse-0.9.5.tar.gz tmp/baguette_verse-1.0.0.tar.gz --markdown 20230512/b/baguette-verse/0.9.5-1.0.0/diff.md --exclude *.pyd
+[2023-05-12 23:22:49] INFO root fetch - processPackages [landingai]: executing diffoscope
+[2023-05-12 23:22:49] INFO root fetch - processPackages [landingai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/landingai-0.0.4.tar.gz tmp/landingai-0.0.5.tar.gz --markdown 20230512/l/landingai/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-12 23:22:49] INFO root fetch - processPackages [dfdfdfdfhhh]: executing diffoscope
+[2023-05-12 23:22:49] INFO root fetch - processPackages [dfdfdfdfhhh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dfdfdfdfhhh-1.0.1.tar.gz tmp/dfdfdfdfhhh-1.0.2.tar.gz --markdown 20230512/d/dfdfdfdfhhh/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-12 23:22:50] INFO root fetch - processPackages [livesolid]: Start processing: searchcode-cli
+[2023-05-12 23:22:50] INFO root fetch - main [MainThread]: End processing [livesolid]: success
+[2023-05-12 23:22:50] INFO root fetch - processPackages [searchcode-cli]: New version: [2.1.1] Old Version: [2.0.0]
+[2023-05-12 23:22:50] INFO root fetch - processPackages [searchcode-cli]: Downloading https://files.pythonhosted.org/packages/96/a8/0a32488b9ee5ea4e4c0ea6444eb0ef50831a938d0781a3cacf7454cce3e4/searchcode-cli-2.0.0.tar.gz
+[2023-05-12 23:22:50] INFO root fetch - processPackages [pyproject-generator]: Start processing: dfdfdfdfhhh
+[2023-05-12 23:22:50] INFO root fetch - main [MainThread]: End processing [pyproject-generator]: success
+[2023-05-12 23:22:50] INFO root fetch - processPackages [dfdfdfdfhhh]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-12 23:22:51] INFO root fetch - processPackages [dfdfdfdfhhh]: executing diffoscope
+[2023-05-12 23:22:51] INFO root fetch - processPackages [dfdfdfdfhhh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dfdfdfdfhhh-1.0.1.tar.gz tmp/dfdfdfdfhhh-1.0.2.tar.gz --markdown 20230512/d/dfdfdfdfhhh/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-12 23:22:51] INFO root fetch - processPackages [searchcode-cli]: Downloading https://files.pythonhosted.org/packages/73/a0/3f45d529048bf496a18e4ff6942e21955aea8beaeaaaea3c4cd6bfaf10e6/searchcode-cli-2.1.1.tar.gz
+[2023-05-12 23:22:51] INFO root fetch - processPackages [simple-chatgpt-cli]: Start processing: pulumi-hcloud
+[2023-05-12 23:22:51] INFO root fetch - main [MainThread]: End processing [simple-chatgpt-cli]: success
+[2023-05-12 23:22:51] INFO root fetch - processPackages [pulumi-hcloud]: New version: [1.9.0a1657117726] Old Version: [1.9.0a1654086467]
+[2023-05-12 23:22:51] INFO root fetch - main [MainThread]: End processing [dfdfdfdfhhh]: success
+[2023-05-12 23:22:51] INFO root fetch - main [MainThread]: End processing [audiostream2py]: success
+[2023-05-12 23:22:51] INFO root fetch - processPackages [searchcode-cli]: executing diffoscope
+[2023-05-12 23:22:51] INFO root fetch - processPackages [searchcode-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/searchcode-cli-2.0.0.tar.gz tmp/searchcode-cli-2.1.1.tar.gz --markdown 20230512/s/searchcode-cli/2.0.0-2.1.1/diff.md --exclude *.pyd
+[2023-05-12 23:22:51] INFO root fetch - processPackages [pulumi-hcloud]: executing diffoscope
+[2023-05-12 23:22:51] INFO root fetch - processPackages [pulumi-hcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_hcloud-1.9.0a1654086467.tar.gz tmp/pulumi_hcloud-1.9.0a1657117726.tar.gz --markdown 20230512/p/pulumi-hcloud/1.9.0a1654086467-1.9.0a1657117726/diff.md --exclude *.pyd
+[2023-05-12 23:22:51] INFO root fetch - main [MainThread]: End processing [landingai]: success
+[2023-05-12 23:22:52] INFO root fetch - main [MainThread]: End processing [not1mm]: success
+[2023-05-12 23:22:52] INFO root fetch - main [MainThread]: End processing [dfdfdfdfhhh]: success
+[2023-05-12 23:22:52] INFO root fetch - main [MainThread]: End processing [baguette-verse]: success
+[2023-05-12 23:22:52] INFO root fetch - main [MainThread]: End processing [searchcode-cli]: success
+[2023-05-12 23:22:53] INFO root fetch - main [MainThread]: End processing [pulumi-hcloud]: success
+[2023-05-12 23:22:57] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-05-12 23:22:58] INFO root fetch - main [MainThread]: End processing [hordelib]: success
+[2023-05-12 23:22:58] INFO root fetch - main [MainThread]: Store serial: [18084315]
