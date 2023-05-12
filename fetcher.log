@@ -8784,3 +8784,65 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-12 12:04:30] INFO root fetch - main [MainThread]: End processing [mimeograph]: success
 [2023-05-12 12:05:01] INFO root fetch - main [MainThread]: End processing [qeschema]: success
 [2023-05-12 12:05:01] INFO root fetch - main [MainThread]: Store serial: [18076311]
+[2023-05-12 12:10:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18076311]
+[2023-05-12 12:10:10] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-12 12:10:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-arcaeabot
+[2023-05-12 12:10:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: example-sulthan4
+[2023-05-12 12:10:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lupin-grognard
+[2023-05-12 12:10:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mly-pipeline
+[2023-05-12 12:10:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kiwitcms-tenants
+[2023-05-12 12:10:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mdsanima-dev
+[2023-05-12 12:10:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: MeUtils
+[2023-05-12 12:10:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: anchor-droplet-chip
+[2023-05-12 12:10:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: polly-validator
+[2023-05-12 12:10:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vizdoom
+[2023-05-12 12:10:10] INFO root fetch - processPackages [nonebot-plugin-arcaeabot]: New version: [3.1.9] Old Version: [3.1.7]
+[2023-05-12 12:10:10] WARNING root fetch - processPackages [mly-pipeline]: Skipping, unable to determine old version
+[2023-05-12 12:10:10] INFO root fetch - processPackages [mly-pipeline]: Start processing: nucliadb
+[2023-05-12 12:10:10] INFO root fetch - main [MainThread]: End processing [mly-pipeline] error
+[2023-05-12 12:10:10] INFO root fetch - processPackages [nucliadb]: New version: [2.9.0.post263] Old Version: [2.9.0.post262]
+[2023-05-12 12:10:10] INFO root fetch - processPackages [nonebot-plugin-arcaeabot]: Downloading https://files.pythonhosted.org/packages/45/70/e66fdf34eb1c5cd335f0a7a6ed5d0796b64a9212f42ce8e33aa299929001/nonebot_plugin_arcaeabot-3.1.7.tar.gz
+[2023-05-12 12:10:10] INFO root fetch - processPackages [polly-validator]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-12 12:10:10] INFO root fetch - processPackages [lupin-grognard]: New version: [2.0.0.dev3] Old Version: [2.0.0.dev2]
+[2023-05-12 12:10:10] WARNING root fetch - processPackages [example-sulthan4]: Skipping, unable to determine old version
+[2023-05-12 12:10:10] INFO root fetch - main [MainThread]: End processing [example-sulthan4] error
+[2023-05-12 12:10:10] INFO root fetch - processPackages [mdsanima-dev]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-05-12 12:10:10] INFO root fetch - processPackages [vizdoom]: New version: [1.2.0] Old Version: [1.1.9]
+[2023-05-12 12:10:10] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2023-05-12 12:10:10] INFO root fetch - processPackages [anchor-droplet-chip]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-12 12:10:10] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-2.9.0.post262-py3-none-any.whl.zip tmp/nucliadb-2.9.0.post263-py3-none-any.whl.zip --markdown 20230512/n/nucliadb/2.9.0.post262-2.9.0.post263/diff.md --exclude *.pyd
+[2023-05-12 12:10:10] WARNING root fetch - processPackages [nonebot-plugin-arcaeabot]: Skipping package: exceeds size limit 20780877>=10485760
+[2023-05-12 12:10:10] INFO root fetch - processPackages [kiwitcms-tenants]: New version: [2.5.1] Old Version: [2.5.0]
+[2023-05-12 12:10:10] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-arcaeabot] error
+[2023-05-12 12:10:10] INFO root fetch - processPackages [MeUtils]: New version: [2023.5.9.15.50.17] Old Version: [2023.5.5.13.0.43]
+[2023-05-12 12:10:10] INFO root fetch - processPackages [polly-validator]: Downloading https://files.pythonhosted.org/packages/0d/1c/502c5c1de286e2b6c93171a0b1d6591f5b771b89103d9ad9fa3fe0830691/polly-validator-0.0.1.tar.gz
+[2023-05-12 12:10:10] INFO root fetch - processPackages [mdsanima-dev]: Downloading https://files.pythonhosted.org/packages/ef/16/f07ff8eb763dee0f4e1ab36d8a3a1144bae16fb6f2507550cb253825a99a/mdsanima_dev-0.1.1.tar.gz
+[2023-05-12 12:10:10] INFO root fetch - processPackages [kiwitcms-tenants]: Downloading https://files.pythonhosted.org/packages/8c/c8/5656176d40a8396167599034adc00c33882b4546f02838800eea2788f286/kiwitcms-tenants-2.5.0.tar.gz
+[2023-05-12 12:10:10] INFO root fetch - processPackages [vizdoom]: Downloading https://files.pythonhosted.org/packages/4d/ad/0572f4861ca2a81e41486ece08fee5c325eaaf0545bcf9463c3f6f080951/vizdoom-1.1.9.tar.gz
+[2023-05-12 12:10:10] INFO root fetch - processPackages [anchor-droplet-chip]: Downloading https://files.pythonhosted.org/packages/a5/ed/3a1e0cbe95e27710c7c7a747f68b3ec65c677387904b8247bcafb49631fc/anchor_droplet_chip-0.3.1.tar.gz
+[2023-05-12 12:10:10] INFO root fetch - processPackages [lupin-grognard]: Downloading https://files.pythonhosted.org/packages/02/7b/b38e39563211374e0df19aad68f6e51b6dad69b913f9d7ecea5b31c10a7f/lupin_grognard-2.0.0.dev3-py3-none-any.whl
+[2023-05-12 12:10:10] WARNING root fetch - processPackages [vizdoom]: Skipping package: exceeds size limit 15029759>=10485760
+[2023-05-12 12:10:10] INFO root fetch - main [MainThread]: End processing [vizdoom] error
+[2023-05-12 12:10:10] INFO root fetch - processPackages [MeUtils]: executing diffoscope
+[2023-05-12 12:10:10] INFO root fetch - processPackages [MeUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeUtils-2023.5.5.13.0.43.tar.gz tmp/MeUtils-2023.5.9.15.50.17.tar.gz --markdown 20230512/M/MeUtils/2023.5.5.13.0.43-2023.5.9.15.50.17/diff.md --exclude *.pyd
+[2023-05-12 12:10:10] INFO root fetch - processPackages [lupin-grognard]: executing diffoscope
+[2023-05-12 12:10:10] INFO root fetch - processPackages [lupin-grognard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lupin-grognard-2.0.0.dev2.tar.gz tmp/lupin_grognard-2.0.0.dev3-py3-none-any.whl.zip --markdown 20230512/l/lupin-grognard/2.0.0.dev2-2.0.0.dev3/diff.md --exclude *.pyd
+[2023-05-12 12:10:10] INFO root fetch - processPackages [kiwitcms-tenants]: Downloading https://files.pythonhosted.org/packages/31/2d/74e956907f37639c047ac062a48021d680aa9f6f6697ea4c9a7c67a20505/kiwitcms-tenants-2.5.1.tar.gz
+[2023-05-12 12:10:10] INFO root fetch - processPackages [mdsanima-dev]: Downloading https://files.pythonhosted.org/packages/44/1a/a2bb1099482d66eb6c25dc1053b381824791c67141ff5c2f02fac2d50837/mdsanima_dev-0.2.0.tar.gz
+[2023-05-12 12:10:10] INFO root fetch - processPackages [polly-validator]: Downloading https://files.pythonhosted.org/packages/ac/77/fb18c81e16e8dd0183034d2a8b9f40f8a094ba31efdf52a6c27d8889718f/polly_validator-0.0.2-py3-none-any.whl
+[2023-05-12 12:10:10] INFO root fetch - processPackages [polly-validator]: executing diffoscope
+[2023-05-12 12:10:10] INFO root fetch - processPackages [polly-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polly-validator-0.0.1.tar.gz tmp/polly_validator-0.0.2-py3-none-any.whl.zip --markdown 20230512/p/polly-validator/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-12 12:10:10] INFO root fetch - processPackages [anchor-droplet-chip]: Downloading https://files.pythonhosted.org/packages/0d/ce/c09b06b29b711659b0ec2c270b3814507b7c5c60d74036d90a26007a899b/anchor_droplet_chip-0.3.2.tar.gz
+[2023-05-12 12:10:10] WARNING root fetch - processPackages [mdsanima-dev]: Skipping package: exceeds size limit 34468001>=10485760
+[2023-05-12 12:10:10] INFO root fetch - main [MainThread]: End processing [mdsanima-dev] error
+[2023-05-12 12:10:11] INFO root fetch - processPackages [kiwitcms-tenants]: executing diffoscope
+[2023-05-12 12:10:11] INFO root fetch - processPackages [kiwitcms-tenants]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kiwitcms-tenants-2.5.0.tar.gz tmp/kiwitcms-tenants-2.5.1.tar.gz --markdown 20230512/k/kiwitcms-tenants/2.5.0-2.5.1/diff.md --exclude *.pyd
+[2023-05-12 12:10:11] INFO root fetch - processPackages [anchor-droplet-chip]: executing diffoscope
+[2023-05-12 12:10:11] INFO root fetch - processPackages [anchor-droplet-chip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230512:/home/abi/fetcher/20230512:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anchor_droplet_chip-0.3.1.tar.gz tmp/anchor_droplet_chip-0.3.2.tar.gz --markdown 20230512/a/anchor-droplet-chip/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-12 12:10:11] INFO root fetch - main [MainThread]: End processing [lupin-grognard]: success
+[2023-05-12 12:10:12] INFO root fetch - main [MainThread]: End processing [polly-validator]: success
+[2023-05-12 12:10:12] INFO root fetch - main [MainThread]: End processing [kiwitcms-tenants]: success
+[2023-05-12 12:10:12] INFO root fetch - main [MainThread]: End processing [anchor-droplet-chip]: success
+[2023-05-12 12:10:13] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2023-05-12 12:10:16] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
+[2023-05-12 12:10:16] INFO root fetch - main [MainThread]: Store serial: [18076365]
